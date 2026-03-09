@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import mapboxgl, { LngLatBounds } from "mapbox-gl";
+import mapboxgl from "mapbox-gl";
 
 import type { TikiBar } from "@/lib/data-schema";
 import { env } from "@/lib/env";
@@ -31,22 +31,29 @@ export function TikiMap({
   onSelectBar,
   onZoomChange,
 }: TikiMapProps) {
+  const shouldZoomToFirstBarInitially = process.env.NODE_ENV === "development";
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<MarkerRecord[]>([]);
   const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
+  const hasAppliedInitialViewRef = useRef(false);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) {
       return;
     }
 
+    const initialBar = bars[0];
+    const initialCenter: [number, number] =
+      shouldZoomToFirstBarInitially && initialBar ? [initialBar.coordinates.lng, initialBar.coordinates.lat] : [0, 20];
+    const initialZoom = shouldZoomToFirstBarInitially && initialBar ? 7 : 1.4;
+
     mapboxgl.accessToken = env.nextPublicMapboxAccessToken ?? "";
     const map = new mapboxgl.Map({
       container: containerRef.current,
       style: env.nextPublicMapboxStyle,
-      center: [0, 20],
-      zoom: 1.4,
+      center: initialCenter,
+      zoom: initialZoom,
       projection: "globe",
     });
 
@@ -75,7 +82,7 @@ export function TikiMap({
       map.remove();
       mapRef.current = null;
     };
-  }, [onZoomChange]);
+  }, [bars, onZoomChange, shouldZoomToFirstBarInitially]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -87,8 +94,6 @@ export function TikiMap({
       marker.remove();
     });
     markersRef.current = [];
-
-    const bounds = new LngLatBounds();
 
     bars.forEach((bar) => {
       const element = document.createElement("button");
@@ -105,18 +110,35 @@ export function TikiMap({
         .setLngLat([bar.coordinates.lng, bar.coordinates.lat])
         .addTo(map);
 
-      bounds.extend([bar.coordinates.lng, bar.coordinates.lat]);
       markersRef.current.push({ marker });
     });
 
-    if (!focusCoordinates && bars.length > 0) {
+    if (
+      shouldZoomToFirstBarInitially &&
+      !focusCoordinates &&
+      !selectedBarId &&
+      bars.length > 0 &&
+      !hasAppliedInitialViewRef.current
+    ) {
+      const firstBar = bars[0];
+      map.flyTo({
+        center: [firstBar.coordinates.lng, firstBar.coordinates.lat],
+        zoom: 7,
+        duration: 1200,
+      });
+      hasAppliedInitialViewRef.current = true;
+    } else if (!shouldZoomToFirstBarInitially && !focusCoordinates && bars.length > 0) {
+      const bounds = bars.reduce(
+        (nextBounds, bar) => nextBounds.extend([bar.coordinates.lng, bar.coordinates.lat]),
+        new mapboxgl.LngLatBounds(),
+      );
       map.fitBounds(bounds, {
         padding: 80,
         maxZoom: 4.5,
         duration: 1200,
       });
     }
-  }, [bars, onSelectBar, selectedBarId, focusCoordinates]);
+  }, [bars, onSelectBar, selectedBarId, focusCoordinates, shouldZoomToFirstBarInitially]);
 
   useEffect(() => {
     const map = mapRef.current;
