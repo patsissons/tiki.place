@@ -1,29 +1,46 @@
 "use client";
 
 import { Search, SlidersHorizontal } from "lucide-react";
+import type { ComponentProps } from "react";
 
 import type { TikiFilters } from "@/lib/filters";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { cn } from "@/lib/utils";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Slider } from "@/components/ui/slider";
 
 type FilterSheetProps = {
   filters: TikiFilters;
   onFiltersChange: (filters: TikiFilters) => void;
+  triggerClassName?: string;
+  contentClassName?: string;
+  triggerVariant?: ComponentProps<typeof Button>["variant"];
 };
 
-export function FilterSheet({ filters, onFiltersChange }: FilterSheetProps) {
+export function FilterSheet({
+  filters,
+  onFiltersChange,
+  triggerClassName,
+  contentClassName,
+  triggerVariant = "outline",
+}: FilterSheetProps) {
   return (
-    <Sheet>
+    <Sheet modal={false}>
       <SheetTrigger asChild>
-        <Button variant="outline" className="bg-white/85">
+        <Button variant={triggerVariant} className={cn("bg-white/85", triggerClassName)}>
           <SlidersHorizontal className="h-4 w-4" />
           Search & Filter
         </Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent
+        hideOverlay
+        className={cn(
+          "border-white/65 bg-white/76 sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:w-[min(640px,calc(100vw-2rem))] sm:max-h-[75vh] sm:-translate-x-1/2",
+          contentClassName,
+        )}
+      >
         <SheetHeader>
           <SheetTitle>Dial in the map</SheetTitle>
           <SheetDescription>

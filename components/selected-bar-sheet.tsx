@@ -6,7 +6,7 @@ import type { TikiBar } from "@/lib/data-schema";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Sheet, SheetContent } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
 
 type SelectedBarSheetProps = {
   bar?: TikiBar;
@@ -41,6 +41,7 @@ export function SelectedBarSheet({
       >
         {bar ? (
           <div className="space-y-5">
+            <SheetTitle className="sr-only">{bar.name}</SheetTitle>
             <div className="flex items-start justify-between gap-4">
               <div className="space-y-3">
                 <div className="flex flex-wrap items-center gap-2">

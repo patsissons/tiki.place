@@ -16,6 +16,7 @@ type TikiMapProps = {
   userLocation: Coordinates | null;
   focusCoordinates?: Coordinates | null;
   onSelectBar: (bar: TikiBar) => void;
+  onZoomChange?: (zoom: number) => void;
 };
 
 type MarkerRecord = {
@@ -28,6 +29,7 @@ export function TikiMap({
   userLocation,
   focusCoordinates,
   onSelectBar,
+  onZoomChange,
 }: TikiMapProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
@@ -58,6 +60,11 @@ export function TikiMap({
       });
     });
 
+    onZoomChange?.(map.getZoom());
+    map.on("zoom", () => {
+      onZoomChange?.(map.getZoom());
+    });
+
     mapRef.current = map;
 
     return () => {
@@ -68,7 +75,7 @@ export function TikiMap({
       map.remove();
       mapRef.current = null;
     };
-  }, []);
+  }, [onZoomChange]);
 
   useEffect(() => {
     const map = mapRef.current;

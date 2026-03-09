@@ -42,6 +42,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   const [locationError, setLocationError] = useState<string | null>(null);
   const [submissionState, setSubmissionState] = useState<SubmissionState>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mapZoom, setMapZoom] = useState(1.4);
 
   const filteredBars = useMemo(() => filterBars(bars, filters), [bars, filters]);
   const permalinkBarId = searchParams.get("bar") ?? undefined;
@@ -54,6 +55,13 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   );
   const selectedBarDistanceKm =
     userLocation && selectedBar ? findNearestBar(userLocation, [selectedBar])?.distanceKm ?? null : null;
+  const glassSurfaceClass =
+    mapZoom <= 1.8
+      ? "border-white/80 bg-white/78 shadow-2xl shadow-black/25 backdrop-blur-xl"
+      : mapZoom <= 4
+        ? "border-white/65 bg-white/58 shadow-2xl shadow-primary/15 backdrop-blur-xl"
+        : "border-white/55 bg-white/46 shadow-2xl shadow-primary/15 backdrop-blur-lg";
+  const floatingButtonClass = `border ${glassSurfaceClass} text-foreground hover:bg-white/82`;
 
   function updateSelectedBar(barId?: string) {
     const nextParams = new URLSearchParams(searchParams.toString());
@@ -111,6 +119,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
           selectedBarId={selectedBarId}
           userLocation={userLocation}
           focusCoordinates={focusCoordinates}
+          onZoomChange={setMapZoom}
           onSelectBar={(bar) => {
             updateSelectedBar(bar.placeId);
             setFocusCoordinates(bar.coordinates);
@@ -118,75 +127,90 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
         />
 
         <div className="pointer-events-none absolute inset-x-0 top-0 z-10 px-4 pt-4 md:px-6 md:pt-6">
-          <div className="flex items-start justify-between gap-3">
-            <div className="pointer-events-auto flex flex-col gap-3">
-              <Button variant="ghost" size="icon" className="bg-white/68 backdrop-blur" onClick={handleUseMyLocation}>
-                <Crosshair className="h-4 w-4" />
-                <span className="sr-only">Use my location</span>
-              </Button>
-              <Button variant="ghost" size="icon" className="bg-white/68 backdrop-blur" onClick={handleNearestBar}>
-                <Compass className="h-4 w-4" />
-                <span className="sr-only">Find nearest tiki bar</span>
-              </Button>
-            </div>
+          <div className="flex items-start justify-start">
+            <div className="flex flex-col items-start gap-3">
+              <div
+                className={`pointer-events-auto hidden w-[min(1120px,calc(100vw-3rem))] items-center gap-4 rounded-full border px-5 py-3 md:flex ${glassSurfaceClass}`}
+              >
+                <div className="min-w-0">
+                  <div className="flex items-center gap-3">
+                    <Map className="h-4 w-4 shrink-0 text-primary" />
+                    <p className="truncate font-display text-xl leading-none text-primary">World Tiki Atlas</p>
+                  </div>
+                </div>
 
-            <div className="pointer-events-auto hidden max-w-[min(880px,calc(100vw-8rem))] items-center gap-4 rounded-full border border-white/55 bg-white/48 px-5 py-3 shadow-2xl shadow-primary/15 backdrop-blur md:flex">
-              <div className="min-w-0">
-                <p className="font-mono text-[11px] uppercase tracking-[0.28em] text-muted-foreground">World Tiki Atlas</p>
-                <div className="mt-1 flex items-center gap-2">
-                  <Map className="h-4 w-4 text-primary" />
-                  <p className="truncate font-display text-xl leading-none text-primary">Find the nearest bamboo-lit pour.</p>
+                <div className="ml-auto flex items-center gap-2">
+                  <Badge variant="muted">{bars.length} tracked</Badge>
+                  <Badge variant="muted">{filteredBars.length} showing</Badge>
+                  <FilterSheet
+                    filters={filters}
+                    onFiltersChange={setFilters}
+                    triggerVariant="ghost"
+                    triggerClassName={floatingButtonClass}
+                    contentClassName={glassSurfaceClass}
+                  />
+                  <Button className={`border ${glassSurfaceClass}`} onClick={() => setSubmissionState({ mode: "new" })}>
+                    <Plus className="h-4 w-4" />
+                    Submit
+                  </Button>
                 </div>
               </div>
 
-              <div className="ml-auto flex items-center gap-2">
-                <Badge variant="muted">{bars.length} tracked</Badge>
-                <Badge variant="muted">{filteredBars.length} showing</Badge>
-                <FilterSheet filters={filters} onFiltersChange={setFilters} />
-                <Button onClick={() => setSubmissionState({ mode: "new" })}>
-                  <Plus className="h-4 w-4" />
-                  Submit
-                </Button>
-              </div>
-            </div>
-
-            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" className="pointer-events-auto bg-white/68 backdrop-blur md:hidden">
-                  <Menu className="h-4 w-4" />
-                  <span className="sr-only">Open menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent className="bg-white/82">
-                <SheetHeader>
-                  <SheetTitle>World Tiki Atlas</SheetTitle>
-                </SheetHeader>
-                <div className="space-y-4">
-                  <div className="rounded-[24px] border border-white/60 bg-white/55 p-4">
-                    <p className="font-display text-2xl text-primary">Find the nearest bamboo-lit pour.</p>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Badge variant="muted">{bars.length} tracked</Badge>
-                      <Badge variant="muted">{filteredBars.length} showing</Badge>
+              <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+                <SheetTrigger asChild>
+                  <Button variant="ghost" size="icon" className={`pointer-events-auto md:hidden ${floatingButtonClass}`}>
+                    <Menu className="h-4 w-4" />
+                    <span className="sr-only">Open menu</span>
+                  </Button>
+                </SheetTrigger>
+                <SheetContent
+                  className={mapZoom <= 1.8 ? "border-white/80 bg-white/88" : "border-white/65 bg-white/82"}
+                >
+                  <SheetHeader>
+                    <SheetTitle>World Tiki Atlas</SheetTitle>
+                  </SheetHeader>
+                  <div className="space-y-4">
+                    <div className="rounded-[24px] border border-white/60 bg-white/55 p-4">
+                      <div className="flex items-center gap-3">
+                        <Map className="h-4 w-4 shrink-0 text-primary" />
+                        <p className="font-display text-2xl text-primary">World Tiki Atlas</p>
+                      </div>
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        <Badge variant="muted">{bars.length} tracked</Badge>
+                        <Badge variant="muted">{filteredBars.length} showing</Badge>
+                      </div>
+                    </div>
+                    <div className="flex flex-col gap-3">
+                      <FilterSheet
+                        filters={filters}
+                        onFiltersChange={setFilters}
+                        triggerVariant="ghost"
+                        triggerClassName="justify-start border border-white/60 bg-white/70 hover:bg-white/82"
+                      />
+                      <Button onClick={() => setSubmissionState({ mode: "new" })}>
+                        <Plus className="h-4 w-4" />
+                        Submit a bar
+                      </Button>
                     </div>
                   </div>
-                  <div className="flex flex-col gap-3">
-                    <FilterSheet filters={filters} onFiltersChange={setFilters} />
-                    <Button variant="secondary" onClick={handleUseMyLocation}>
-                      <Crosshair className="h-4 w-4" />
-                      Use my location
-                    </Button>
-                    <Button onClick={() => setSubmissionState({ mode: "new" })}>
-                      <Plus className="h-4 w-4" />
-                      Submit a bar
-                    </Button>
-                  </div>
-                </div>
-              </SheetContent>
-            </Sheet>
+                </SheetContent>
+              </Sheet>
+
+              <div className="pointer-events-auto flex flex-col gap-3">
+                <Button variant="ghost" size="icon" className={floatingButtonClass} onClick={handleUseMyLocation}>
+                  <Crosshair className="h-4 w-4" />
+                  <span className="sr-only">Use my location</span>
+                </Button>
+                <Button variant="ghost" size="icon" className={floatingButtonClass} onClick={handleNearestBar}>
+                  <Compass className="h-4 w-4" />
+                  <span className="sr-only">Find nearest tiki bar</span>
+                </Button>
+              </div>
+            </div>
           </div>
 
           {locationError ? (
-            <p className="pointer-events-auto mt-3 inline-flex rounded-full border border-destructive/20 bg-white/70 px-4 py-2 text-sm text-destructive shadow-lg backdrop-blur">
+            <p className="pointer-events-auto mt-3 inline-flex rounded-full border border-destructive/20 bg-white/78 px-4 py-2 text-sm text-destructive shadow-lg backdrop-blur">
               {locationError}
             </p>
           ) : null}
