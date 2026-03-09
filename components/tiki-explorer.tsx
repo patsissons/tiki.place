@@ -55,12 +55,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   );
   const selectedBarDistanceKm =
     userLocation && selectedBar ? findNearestBar(userLocation, [selectedBar])?.distanceKm ?? null : null;
-  const glassSurfaceClass =
-    mapZoom <= 1.8
-      ? "border-white/80 bg-white/78 shadow-2xl shadow-black/25 backdrop-blur-xl"
-      : mapZoom <= 4
-        ? "border-white/65 bg-white/58 shadow-2xl shadow-primary/15 backdrop-blur-xl"
-        : "border-white/55 bg-white/46 shadow-2xl shadow-primary/15 backdrop-blur-lg";
+  const glassSurfaceClass = "border-white/55 bg-white/46 shadow-2xl shadow-primary/15 backdrop-blur-lg";
   const floatingButtonClass = `border ${glassSurfaceClass} text-foreground hover:bg-white/82`;
 
   function updateSelectedBar(barId?: string) {
@@ -164,7 +159,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                   </Button>
                 </SheetTrigger>
                 <SheetContent
-                  className={mapZoom <= 1.8 ? "border-white/80 bg-white/88" : "border-white/65 bg-white/82"}
+                  className={"border-white/65 bg-white/82"}
                 >
                   <SheetHeader>
                     <SheetTitle>World Tiki Atlas</SheetTitle>
