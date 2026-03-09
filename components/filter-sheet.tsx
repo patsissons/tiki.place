@@ -95,28 +95,30 @@ export function FilterSheet({
 
           <div className="space-y-3">
             <Label htmlFor="start-local">Open for entire range</Label>
-            <Input
-              id="start-local"
-              type="datetime-local"
-              value={filters.startLocal ?? ""}
-              onChange={(event) =>
-                onFiltersChange({
-                  ...filters,
-                  startLocal: event.target.value || undefined,
-                })
-              }
-            />
-            <Input
-              id="end-local"
-              type="datetime-local"
-              value={filters.endLocal ?? ""}
-              onChange={(event) =>
-                onFiltersChange({
-                  ...filters,
-                  endLocal: event.target.value || undefined,
-                })
-              }
-            />
+            <div className="grid gap-3 [grid-template-columns:repeat(auto-fit,minmax(220px,1fr))]">
+              <Input
+                id="start-local"
+                type="datetime-local"
+                value={filters.startLocal ?? ""}
+                onChange={(event) =>
+                  onFiltersChange({
+                    ...filters,
+                    startLocal: event.target.value || undefined,
+                  })
+                }
+              />
+              <Input
+                id="end-local"
+                type="datetime-local"
+                value={filters.endLocal ?? ""}
+                onChange={(event) =>
+                  onFiltersChange({
+                    ...filters,
+                    endLocal: event.target.value || undefined,
+                  })
+                }
+              />
+            </div>
             <p className="text-sm text-muted-foreground">
               The chosen window is matched against each bar&apos;s own local schedule.
             </p>
