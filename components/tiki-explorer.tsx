@@ -165,7 +165,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                   className="bg-[rgba(255,255,255,var(--glass-card-bg-opacity,0.78))]"
                 >
                   <SheetHeader>
-                    <SheetTitle>World Tiki Atlas</SheetTitle>
+                    <SheetTitle className="sr-only">World Tiki Atlas</SheetTitle>
                   </SheetHeader>
                   <div className="space-y-4">
                     <div className="rounded-[24px] border border-[rgba(255,255,255,var(--glass-border-opacity,0.6))] bg-[rgba(255,255,255,var(--glass-card-bg-opacity,0.55))] p-4">
