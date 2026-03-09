@@ -2,13 +2,11 @@
 
 import { useEffect, useRef } from "react";
 import mapboxgl, { LngLatBounds } from "mapbox-gl";
-import { createRoot, type Root } from "react-dom/client";
 
 import type { TikiBar } from "@/lib/data-schema";
 import { env } from "@/lib/env";
 import type { Coordinates } from "@/lib/geo";
 import { cn } from "@/lib/utils";
-import { VenuePopupCard } from "@/components/venue-popup-card";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 
@@ -18,13 +16,10 @@ type TikiMapProps = {
   userLocation: Coordinates | null;
   focusCoordinates?: Coordinates | null;
   onSelectBar: (bar: TikiBar) => void;
-  onReportBad: (bar: TikiBar) => void;
-  onRequestRefresh: (bar: TikiBar) => void;
 };
 
 type MarkerRecord = {
   marker: mapboxgl.Marker;
-  popupRoot?: Root;
 };
 
 export function TikiMap({
@@ -33,14 +28,11 @@ export function TikiMap({
   userLocation,
   focusCoordinates,
   onSelectBar,
-  onReportBad,
-  onRequestRefresh,
 }: TikiMapProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<MarkerRecord[]>([]);
   const userMarkerRef = useRef<mapboxgl.Marker | null>(null);
-  const popupRef = useRef<mapboxgl.Popup | null>(null);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) {
@@ -56,7 +48,7 @@ export function TikiMap({
       projection: "globe",
     });
 
-    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "bottom-right");
 
     map.on("style.load", () => {
       map.setFog({
@@ -69,10 +61,8 @@ export function TikiMap({
     mapRef.current = map;
 
     return () => {
-      popupRef.current?.remove();
       userMarkerRef.current?.remove();
-      markersRef.current.forEach(({ marker, popupRoot }) => {
-        popupRoot?.unmount();
+      markersRef.current.forEach(({ marker }) => {
         marker.remove();
       });
       map.remove();
@@ -86,8 +76,7 @@ export function TikiMap({
       return;
     }
 
-    markersRef.current.forEach(({ marker, popupRoot }) => {
-      popupRoot?.unmount();
+    markersRef.current.forEach(({ marker }) => {
       marker.remove();
     });
     markersRef.current = [];
@@ -163,9 +152,6 @@ export function TikiMap({
       return;
     }
 
-    popupRef.current?.remove();
-    popupRef.current = null;
-
     if (!selectedBarId) {
       return;
     }
@@ -175,41 +161,15 @@ export function TikiMap({
       return;
     }
 
-    const popupNode = document.createElement("div");
-    const popup = new mapboxgl.Popup({
-      closeButton: true,
-      offset: 20,
-      maxWidth: "360px",
-    })
-      .setDOMContent(popupNode)
-      .setLngLat([bar.coordinates.lng, bar.coordinates.lat])
-      .addTo(map);
-
-    const popupRoot = createRoot(popupNode);
-    popupRoot.render(
-      <VenuePopupCard bar={bar} onReportBad={onReportBad} onRequestRefresh={onRequestRefresh} />,
-    );
-
-    popup.on("close", () => {
-      popupRoot.unmount();
-    });
-
-    popupRef.current = popup;
-
     map.flyTo({
       center: [bar.coordinates.lng, bar.coordinates.lat],
       zoom: Math.max(map.getZoom(), 7),
       duration: 1200,
     });
-
-    return () => {
-      popupRoot.unmount();
-      popup.remove();
-    };
-  }, [bars, onReportBad, onRequestRefresh, selectedBarId]);
+  }, [bars, selectedBarId]);
 
   return (
-    <div className="absolute inset-0 overflow-hidden rounded-none md:rounded-[28px]">
+    <div className="absolute inset-0 overflow-hidden">
       <div ref={containerRef} className="h-full w-full" />
       {!env.nextPublicMapboxAccessToken ? (
         <div className="absolute inset-0 flex items-center justify-center bg-background/90 px-6 text-center">

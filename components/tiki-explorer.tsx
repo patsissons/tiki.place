@@ -1,17 +1,19 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Compass, Crosshair, MapPinned, Plus, Star } from "lucide-react";
+import { Compass, Crosshair, Map, Menu, Plus } from "lucide-react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import type { TikiBar } from "@/lib/data-schema";
 import { filterBars, type TikiFilters } from "@/lib/filters";
 import { findNearestBar, type Coordinates } from "@/lib/geo";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { FilterSheet } from "@/components/filter-sheet";
+import { SelectedBarSheet } from "@/components/selected-bar-sheet";
 import { SubmissionSheet } from "@/components/submission-sheet";
 import { TikiMap } from "@/components/tiki-map";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 type SubmissionState =
   | { mode: "new" }
@@ -31,23 +33,39 @@ const initialFilters: TikiFilters = {
 };
 
 export function TikiExplorer({ bars }: TikiExplorerProps) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [filters, setFilters] = useState<TikiFilters>(initialFilters);
-  const [selectedBarId, setSelectedBarId] = useState<string | undefined>(bars[0]?.placeId);
   const [userLocation, setUserLocation] = useState<Coordinates | null>(null);
   const [focusCoordinates, setFocusCoordinates] = useState<Coordinates | null>(null);
   const [locationError, setLocationError] = useState<string | null>(null);
   const [submissionState, setSubmissionState] = useState<SubmissionState>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const filteredBars = useMemo(() => filterBars(bars, filters), [bars, filters]);
-  const selectedBar =
-    filteredBars.find((bar) => bar.placeId === selectedBarId) ??
-    bars.find((bar) => bar.placeId === selectedBarId) ??
-    filteredBars[0];
+  const permalinkBarId = searchParams.get("bar") ?? undefined;
+  const selectedBarId = bars.some((bar) => bar.placeId === permalinkBarId) ? permalinkBarId : undefined;
+  const selectedBar = bars.find((bar) => bar.placeId === selectedBarId);
 
   const nearest = useMemo(
     () => (userLocation ? findNearestBar(userLocation, filteredBars) : null),
     [filteredBars, userLocation],
   );
+  const selectedBarDistanceKm =
+    userLocation && selectedBar ? findNearestBar(userLocation, [selectedBar])?.distanceKm ?? null : null;
+
+  function updateSelectedBar(barId?: string) {
+    const nextParams = new URLSearchParams(searchParams.toString());
+    if (barId) {
+      nextParams.set("bar", barId);
+    } else {
+      nextParams.delete("bar");
+    }
+
+    const nextQuery = nextParams.toString();
+    router.replace(nextQuery ? `${pathname}?${nextQuery}` : pathname, { scroll: false });
+  }
 
   function handleUseMyLocation() {
     if (!navigator.geolocation) {
@@ -80,115 +98,112 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
       return;
     }
 
-    setSelectedBarId(nearest.bar.placeId);
+    updateSelectedBar(nearest.bar.placeId);
     setFocusCoordinates(nearest.bar.coordinates);
   }
 
   return (
-    <main className="relative min-h-screen overflow-hidden p-0 md:p-5">
+    <main className="relative h-screen overflow-hidden">
       <div className="absolute inset-0 bg-tiki-grid opacity-60" />
-      <section className="relative h-screen overflow-hidden md:h-[calc(100vh-2.5rem)] md:rounded-[32px]">
+      <section className="relative h-screen overflow-hidden">
         <TikiMap
           bars={filteredBars}
-          selectedBarId={selectedBar?.placeId}
+          selectedBarId={selectedBarId}
           userLocation={userLocation}
           focusCoordinates={focusCoordinates}
-          onSelectBar={(bar) => setSelectedBarId(bar.placeId)}
-          onReportBad={(bar) => setSubmissionState({ mode: "report-bad", bar })}
-          onRequestRefresh={(bar) => setSubmissionState({ mode: "update", bar })}
+          onSelectBar={(bar) => {
+            updateSelectedBar(bar.placeId);
+            setFocusCoordinates(bar.coordinates);
+          }}
         />
 
-        <div className="pointer-events-none absolute inset-0 p-4 md:p-6">
-          <div className="pointer-events-auto flex flex-col gap-4">
-            <Card className="max-w-2xl animate-fade-in bg-white/72">
-              <CardContent className="space-y-5">
-                <div className="flex flex-wrap items-start justify-between gap-4">
-                  <div className="space-y-3">
-                    <Badge variant="secondary">World Tiki Atlas</Badge>
-                    <div>
-                      <h1 className="font-display text-4xl leading-none text-primary md:text-6xl">
-                        Find the nearest bamboo-lit pour.
-                      </h1>
-                      <p className="mt-3 max-w-xl text-sm text-muted-foreground md:text-base">
-                        Explore a source-controlled guide to tiki bars around the world. Ratings sit on the pins, hours live
-                        in the popup, and the frozen YAML record stays in sync through GitHub issues plus automation.
-                      </p>
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 px-4 pt-4 md:px-6 md:pt-6">
+          <div className="flex items-start justify-between gap-3">
+            <div className="pointer-events-auto flex flex-col gap-3">
+              <Button variant="ghost" size="icon" className="bg-white/68 backdrop-blur" onClick={handleUseMyLocation}>
+                <Crosshair className="h-4 w-4" />
+                <span className="sr-only">Use my location</span>
+              </Button>
+              <Button variant="ghost" size="icon" className="bg-white/68 backdrop-blur" onClick={handleNearestBar}>
+                <Compass className="h-4 w-4" />
+                <span className="sr-only">Find nearest tiki bar</span>
+              </Button>
+            </div>
+
+            <div className="pointer-events-auto hidden max-w-[min(880px,calc(100vw-8rem))] items-center gap-4 rounded-full border border-white/55 bg-white/48 px-5 py-3 shadow-2xl shadow-primary/15 backdrop-blur md:flex">
+              <div className="min-w-0">
+                <p className="font-mono text-[11px] uppercase tracking-[0.28em] text-muted-foreground">World Tiki Atlas</p>
+                <div className="mt-1 flex items-center gap-2">
+                  <Map className="h-4 w-4 text-primary" />
+                  <p className="truncate font-display text-xl leading-none text-primary">Find the nearest bamboo-lit pour.</p>
+                </div>
+              </div>
+
+              <div className="ml-auto flex items-center gap-2">
+                <Badge variant="muted">{bars.length} tracked</Badge>
+                <Badge variant="muted">{filteredBars.length} showing</Badge>
+                <FilterSheet filters={filters} onFiltersChange={setFilters} />
+                <Button onClick={() => setSubmissionState({ mode: "new" })}>
+                  <Plus className="h-4 w-4" />
+                  Submit
+                </Button>
+              </div>
+            </div>
+
+            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+              <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className="pointer-events-auto bg-white/68 backdrop-blur md:hidden">
+                  <Menu className="h-4 w-4" />
+                  <span className="sr-only">Open menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent className="bg-white/82">
+                <SheetHeader>
+                  <SheetTitle>World Tiki Atlas</SheetTitle>
+                </SheetHeader>
+                <div className="space-y-4">
+                  <div className="rounded-[24px] border border-white/60 bg-white/55 p-4">
+                    <p className="font-display text-2xl text-primary">Find the nearest bamboo-lit pour.</p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge variant="muted">{bars.length} tracked</Badge>
+                      <Badge variant="muted">{filteredBars.length} showing</Badge>
                     </div>
                   </div>
-                  <div className="grid min-w-[180px] gap-3 sm:grid-cols-2">
-                    <div className="rounded-[22px] bg-primary/8 p-4">
-                      <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground">Bars tracked</p>
-                      <p className="mt-2 text-3xl font-semibold">{bars.length}</p>
-                    </div>
-                    <div className="rounded-[22px] bg-secondary/18 p-4">
-                      <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground">Showing now</p>
-                      <p className="mt-2 text-3xl font-semibold">{filteredBars.length}</p>
-                    </div>
+                  <div className="flex flex-col gap-3">
+                    <FilterSheet filters={filters} onFiltersChange={setFilters} />
+                    <Button variant="secondary" onClick={handleUseMyLocation}>
+                      <Crosshair className="h-4 w-4" />
+                      Use my location
+                    </Button>
+                    <Button onClick={() => setSubmissionState({ mode: "new" })}>
+                      <Plus className="h-4 w-4" />
+                      Submit a bar
+                    </Button>
                   </div>
                 </div>
-
-                <div className="flex flex-wrap gap-3">
-                  <FilterSheet filters={filters} onFiltersChange={setFilters} />
-                  <Button variant="secondary" onClick={handleUseMyLocation}>
-                    <Crosshair className="h-4 w-4" />
-                    Use my location
-                  </Button>
-                  <Button variant="ghost" onClick={handleNearestBar}>
-                    <Compass className="h-4 w-4" />
-                    Nearest tiki bar
-                  </Button>
-                  <Button onClick={() => setSubmissionState({ mode: "new" })}>
-                    <Plus className="h-4 w-4" />
-                    Submit a bar
-                  </Button>
-                </div>
-
-                {locationError ? <p className="text-sm text-destructive">{locationError}</p> : null}
-              </CardContent>
-            </Card>
-
-            <Card className="max-w-md bg-white/78">
-              <CardContent className="space-y-4">
-                <div className="flex items-center justify-between gap-3">
-                  <div>
-                    <p className="font-mono text-xs uppercase tracking-[0.25em] text-muted-foreground">Selected spot</p>
-                    <h2 className="mt-1 font-display text-2xl">{selectedBar?.name ?? "No tiki bar found"}</h2>
-                  </div>
-                  {selectedBar ? <Badge>{selectedBar.rating.toFixed(1)}</Badge> : null}
-                </div>
-                {selectedBar ? (
-                  <>
-                    <p className="text-sm text-muted-foreground">{selectedBar.formattedAddress}</p>
-                    <div className="flex flex-wrap gap-2">
-                      <Badge variant="muted">
-                        <Star className="mr-1 h-3.5 w-3.5" />
-                        {selectedBar.userRatingCount.toLocaleString()} reviews
-                      </Badge>
-                      <Badge variant="muted">
-                        <MapPinned className="mr-1 h-3.5 w-3.5" />
-                        {selectedBar.timeZone}
-                      </Badge>
-                    </div>
-                    <div className="grid gap-1 text-sm">
-                      {selectedBar.weekdayText.slice(0, 3).map((line) => (
-                        <p key={line}>{line}</p>
-                      ))}
-                    </div>
-                  </>
-                ) : (
-                  <p className="text-sm text-muted-foreground">Try easing the filters to bring more bars back onto the map.</p>
-                )}
-                {nearest ? (
-                  <p className="text-sm text-muted-foreground">
-                    Nearest from your position: <span className="font-semibold text-foreground">{nearest.bar.name}</span> at{" "}
-                    {nearest.distanceKm.toFixed(1)} km.
-                  </p>
-                ) : null}
-              </CardContent>
-            </Card>
+              </SheetContent>
+            </Sheet>
           </div>
+
+          {locationError ? (
+            <p className="pointer-events-auto mt-3 inline-flex rounded-full border border-destructive/20 bg-white/70 px-4 py-2 text-sm text-destructive shadow-lg backdrop-blur">
+              {locationError}
+            </p>
+          ) : null}
         </div>
       </section>
+
+      <SelectedBarSheet
+        bar={selectedBar}
+        nearestDistanceKm={selectedBarDistanceKm}
+        onOpenChange={(open) => {
+          if (!open) {
+            updateSelectedBar(undefined);
+          }
+        }}
+        onReportBad={(bar) => setSubmissionState({ mode: "report-bad", bar })}
+        onRequestRefresh={(bar) => setSubmissionState({ mode: "update", bar })}
+      />
 
       <SubmissionSheet
         mode={submissionState?.mode ?? null}
