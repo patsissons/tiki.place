@@ -56,7 +56,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   const selectedBarDistanceKm =
     userLocation && selectedBar ? findNearestBar(userLocation, [selectedBar])?.distanceKm ?? null : null;
   const glassSurfaceClass = sheetGlassClassName;
-  const floatingButtonClass = `border ${glassSurfaceClass} text-foreground hover:bg-white/82`;
+  const floatingButtonClass = "text-foreground";
 
   function updateSelectedBar(barId?: string) {
     const nextParams = new URLSearchParams(searchParams.toString());
@@ -140,11 +140,10 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                   <FilterSheet
                     filters={filters}
                     onFiltersChange={setFilters}
-                    triggerVariant="ghost"
                     triggerClassName={floatingButtonClass}
                     contentClassName={glassSurfaceClass}
                   />
-                  <Button className={`border ${glassSurfaceClass}`} onClick={() => setSubmissionState({ mode: "new" })}>
+                  <Button onClick={() => setSubmissionState({ mode: "new" })}>
                     <Plus className="h-4 w-4" />
                     Submit
                   </Button>
@@ -153,7 +152,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
 
               <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
                 <SheetTrigger asChild>
-                  <Button variant="ghost" size="icon" className={`pointer-events-auto md:hidden ${floatingButtonClass}`}>
+                  <Button size="icon" className={`pointer-events-auto md:hidden ${floatingButtonClass}`}>
                     <Menu className="h-4 w-4" />
                     <span className="sr-only">Open menu</span>
                   </Button>
@@ -177,8 +176,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                       <FilterSheet
                         filters={filters}
                         onFiltersChange={setFilters}
-                        triggerVariant="ghost"
-                        triggerClassName="justify-start border border-white/60 bg-white/70 hover:bg-white/82"
+                        triggerClassName="justify-start"
                       />
                       <Button onClick={() => setSubmissionState({ mode: "new" })}>
                         <Plus className="h-4 w-4" />
@@ -190,11 +188,11 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
               </Sheet>
 
               <div className="pointer-events-auto flex flex-col gap-3">
-                <Button variant="ghost" size="icon" className={floatingButtonClass} onClick={handleUseMyLocation}>
+                <Button size="icon" className={floatingButtonClass} onClick={handleUseMyLocation}>
                   <Crosshair className="h-4 w-4" />
                   <span className="sr-only">Use my location</span>
                 </Button>
-                <Button variant="ghost" size="icon" className={floatingButtonClass} onClick={handleNearestBar}>
+                <Button size="icon" className={floatingButtonClass} onClick={handleNearestBar}>
                   <Compass className="h-4 w-4" />
                   <span className="sr-only">Find nearest tiki bar</span>
                 </Button>

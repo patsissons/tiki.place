@@ -54,11 +54,11 @@ export function VenuePopupCard({ bar, onReportBad, onRequestRefresh }: VenuePopu
             <ExternalLink className="h-4 w-4" />
           </span>
         </Button>
-        <Button variant="outline" size="sm" onClick={() => onRequestRefresh(bar)}>
+        <Button size="sm" onClick={() => onRequestRefresh(bar)}>
           <RefreshCcw className="h-4 w-4" />
           Refresh
         </Button>
-        <Button variant="ghost" size="sm" onClick={() => onReportBad(bar)}>
+        <Button size="sm" onClick={() => onReportBad(bar)}>
           <AlertTriangle className="h-4 w-4" />
           Report
         </Button>

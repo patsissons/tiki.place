@@ -1,7 +1,6 @@
 "use client";
 
 import { Search, SlidersHorizontal } from "lucide-react";
-import type { ComponentProps } from "react";
 
 import type { TikiFilters } from "@/lib/filters";
 import { Button } from "@/components/ui/button";
@@ -24,7 +23,6 @@ type FilterSheetProps = {
   onFiltersChange: (filters: TikiFilters) => void;
   triggerClassName?: string;
   contentClassName?: string;
-  triggerVariant?: ComponentProps<typeof Button>["variant"];
 };
 
 export function FilterSheet({
@@ -32,12 +30,11 @@ export function FilterSheet({
   onFiltersChange,
   triggerClassName,
   contentClassName,
-  triggerVariant = "outline",
 }: FilterSheetProps) {
   return (
     <Sheet modal={false}>
       <SheetTrigger asChild>
-        <Button variant={triggerVariant} className={cn("bg-white/85", triggerClassName)}>
+        <Button className={triggerClassName}>
           <SlidersHorizontal className="h-4 w-4" />
           Search & Filter
         </Button>
@@ -126,7 +123,6 @@ export function FilterSheet({
           </div>
 
           <Button
-            variant="ghost"
             onClick={() =>
               onFiltersChange({
                 search: "",

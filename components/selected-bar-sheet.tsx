@@ -90,16 +90,12 @@ export function SelectedBarSheet({
                     <ExternalLink className="h-4 w-4" />
                   </Button>
                   {bar.websiteUrl ? (
-                    <Button
-                      variant="outline"
-                      className="bg-white/65"
-                      onClick={() => window.open(bar.websiteUrl, "_blank", "noopener,noreferrer")}
-                    >
+                    <Button onClick={() => window.open(bar.websiteUrl, "_blank", "noopener,noreferrer")}>
                       Website
                       <Globe className="h-4 w-4" />
                     </Button>
                   ) : null}
-                  <Button variant="ghost" className="bg-white/45 hover:bg-white/75" onClick={handleCopyLink}>
+                  <Button onClick={handleCopyLink}>
                     Copy link
                     <Share2 className="h-4 w-4" />
                   </Button>
@@ -122,11 +118,11 @@ export function SelectedBarSheet({
             <Separator className="bg-white/60" />
 
             <div className="flex flex-wrap gap-2">
-              <Button variant="outline" className="bg-white/65" onClick={() => onRequestRefresh(bar)}>
+              <Button onClick={() => onRequestRefresh(bar)}>
                 <RefreshCcw className="h-4 w-4" />
                 Refresh
               </Button>
-              <Button variant="ghost" className="bg-white/45 hover:bg-white/75" onClick={() => onReportBad(bar)}>
+              <Button onClick={() => onReportBad(bar)}>
                 <AlertTriangle className="h-4 w-4" />
                 Report
               </Button>
