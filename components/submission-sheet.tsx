@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import { useMemo, useState, useTransition } from "react";
 import { LoaderCircle, Send } from "lucide-react";
 
@@ -18,6 +19,7 @@ type SubmissionSheetProps = {
   mode: SubmissionMode | null;
   bar?: TikiBar;
   onOpenChange: (open: boolean) => void;
+  contentStyle?: CSSProperties;
 };
 
 const endpointByMode: Record<SubmissionMode, string> = {
@@ -26,7 +28,7 @@ const endpointByMode: Record<SubmissionMode, string> = {
   "report-bad": "/api/submissions/report-bad",
 };
 
-export function SubmissionSheet({ mode, bar, onOpenChange }: SubmissionSheetProps) {
+export function SubmissionSheet({ mode, bar, onOpenChange, contentStyle }: SubmissionSheetProps) {
   const [status, setStatus] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
   const [turnstileToken, setTurnstileToken] = useState("");
@@ -129,7 +131,7 @@ export function SubmissionSheet({ mode, bar, onOpenChange }: SubmissionSheetProp
 
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent>
+      <SheetContent style={contentStyle}>
         <SheetHeader>
           <SheetTitle>{title}</SheetTitle>
           <SheetDescription>{description}</SheetDescription>
@@ -190,7 +192,7 @@ export function SubmissionSheet({ mode, bar, onOpenChange }: SubmissionSheetProp
             </>
           ) : (
             <>
-              <div className="rounded-3xl border border-border bg-white/80 p-4 text-sm">
+              <div className="rounded-3xl border border-[rgba(255,255,255,var(--glass-border-opacity,0.6))] bg-[rgba(255,255,255,var(--glass-card-bg-opacity,0.8))] p-4 text-sm">
                 <p className="font-semibold">{bar?.name}</p>
                 <p className="mt-1 text-muted-foreground">{bar?.formattedAddress}</p>
                 <p className="mt-3 font-mono text-xs text-muted-foreground">{bar?.placeId}</p>

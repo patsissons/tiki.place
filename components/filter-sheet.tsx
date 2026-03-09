@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import { Search, SlidersHorizontal } from "lucide-react";
 
 import type { TikiFilters } from "@/lib/filters";
@@ -23,6 +24,7 @@ type FilterSheetProps = {
   onFiltersChange: (filters: TikiFilters) => void;
   triggerClassName?: string;
   contentClassName?: string;
+  contentStyle?: CSSProperties;
 };
 
 export function FilterSheet({
@@ -30,6 +32,7 @@ export function FilterSheet({
   onFiltersChange,
   triggerClassName,
   contentClassName,
+  contentStyle,
 }: FilterSheetProps) {
   return (
     <Sheet modal={false}>
@@ -41,6 +44,7 @@ export function FilterSheet({
       </SheetTrigger>
       <SheetContent
         hideOverlay
+        style={contentStyle}
         className={cn(
           `sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:w-[min(640px,calc(100vw-2rem))] sm:max-h-[75vh] sm:-translate-x-1/2 ${sheetGlassClassName}`,
           contentClassName,

@@ -1,5 +1,6 @@
 "use client";
 
+import type { CSSProperties } from "react";
 import { AlertTriangle, Clock3, ExternalLink, Globe, MapPinned, RefreshCcw, Share2, Star } from "lucide-react";
 
 import type { TikiBar } from "@/lib/data-schema";
@@ -14,6 +15,7 @@ type SelectedBarSheetProps = {
   onOpenChange: (open: boolean) => void;
   onReportBad: (bar: TikiBar) => void;
   onRequestRefresh: (bar: TikiBar) => void;
+  contentStyle?: CSSProperties;
 };
 
 export function SelectedBarSheet({
@@ -22,6 +24,7 @@ export function SelectedBarSheet({
   onOpenChange,
   onReportBad,
   onRequestRefresh,
+  contentStyle,
 }: SelectedBarSheetProps) {
   function openGoogleMaps() {
     if (!bar) {
@@ -46,6 +49,7 @@ export function SelectedBarSheet({
     <Sheet open={Boolean(bar)} onOpenChange={onOpenChange} modal={false}>
       <SheetContent
         hideOverlay
+        style={contentStyle}
         className={`pb-8 sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:max-h-[72vh] sm:w-[min(760px,calc(100vw-2rem))] sm:-translate-x-1/2 ${sheetGlassClassName}`}
       >
         {bar ? (
@@ -75,7 +79,7 @@ export function SelectedBarSheet({
 
             <div className="grid gap-4 text-sm sm:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)]">
               <div className="space-y-4">
-                <div className="rounded-[24px] border border-white/60 bg-white/38 p-4">
+                <div className="rounded-[24px] border border-[rgba(255,255,255,var(--glass-border-opacity,0.6))] bg-[rgba(255,255,255,var(--glass-panel-bg-opacity,0.38))] p-4">
                   <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-muted-foreground">
                     <MapPinned className="h-4 w-4" />
                     Location
@@ -102,7 +106,7 @@ export function SelectedBarSheet({
                 </div>
               </div>
 
-              <div className="rounded-[24px] border border-white/60 bg-white/38 p-4">
+              <div className="rounded-[24px] border border-[rgba(255,255,255,var(--glass-border-opacity,0.6))] bg-[rgba(255,255,255,var(--glass-panel-bg-opacity,0.38))] p-4">
                 <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-muted-foreground">
                   <Clock3 className="h-4 w-4" />
                   Hours

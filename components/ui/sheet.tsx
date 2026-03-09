@@ -4,7 +4,8 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 
-const sheetGlassClassName = "border-white/55 bg-white/46 shadow-2xl shadow-primary/15 backdrop-blur-lg";
+const sheetGlassClassName =
+  "border-[rgba(255,255,255,var(--glass-border-opacity,0.55))] bg-[rgba(255,255,255,var(--glass-bg-opacity,0.46))] shadow-2xl shadow-primary/15 backdrop-blur-lg";
 
 const Sheet = DialogPrimitive.Root;
 const SheetTrigger = DialogPrimitive.Trigger;

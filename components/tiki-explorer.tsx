@@ -7,6 +7,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { TikiBar } from "@/lib/data-schema";
 import { filterBars, type TikiFilters } from "@/lib/filters";
 import { findNearestBar, type Coordinates } from "@/lib/geo";
+import { getGlassSurfaceStyle } from "@/lib/glass";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { FilterSheet } from "@/components/filter-sheet";
@@ -56,6 +57,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   const selectedBarDistanceKm =
     userLocation && selectedBar ? findNearestBar(userLocation, [selectedBar])?.distanceKm ?? null : null;
   const glassSurfaceClass = sheetGlassClassName;
+  const glassSurfaceStyle = useMemo(() => getGlassSurfaceStyle(mapZoom), [mapZoom]);
   const floatingButtonClass = "text-foreground";
 
   function updateSelectedBar(barId?: string) {
@@ -106,7 +108,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   }
 
   return (
-    <main className="relative h-screen overflow-hidden">
+    <main className="relative h-screen overflow-hidden" style={glassSurfaceStyle}>
       <div className="absolute inset-0 bg-tiki-grid opacity-60" />
       <section className="relative h-screen overflow-hidden">
         <TikiMap
@@ -142,6 +144,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                     onFiltersChange={setFilters}
                     triggerClassName={floatingButtonClass}
                     contentClassName={glassSurfaceClass}
+                    contentStyle={glassSurfaceStyle}
                   />
                   <Button onClick={() => setSubmissionState({ mode: "new" })}>
                     <Plus className="h-4 w-4" />
@@ -157,12 +160,15 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                     <span className="sr-only">Open menu</span>
                   </Button>
                 </SheetTrigger>
-                <SheetContent className="bg-white/78">
+                <SheetContent
+                  style={glassSurfaceStyle}
+                  className="bg-[rgba(255,255,255,var(--glass-card-bg-opacity,0.78))]"
+                >
                   <SheetHeader>
                     <SheetTitle>World Tiki Atlas</SheetTitle>
                   </SheetHeader>
                   <div className="space-y-4">
-                    <div className="rounded-[24px] border border-white/60 bg-white/55 p-4">
+                    <div className="rounded-[24px] border border-[rgba(255,255,255,var(--glass-border-opacity,0.6))] bg-[rgba(255,255,255,var(--glass-card-bg-opacity,0.55))] p-4">
                       <div className="flex items-center gap-3">
                         <Map className="h-4 w-4 shrink-0 text-primary" />
                         <p className="font-display text-2xl text-primary">World Tiki Atlas</p>
@@ -177,6 +183,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                         filters={filters}
                         onFiltersChange={setFilters}
                         triggerClassName="justify-start"
+                        contentStyle={glassSurfaceStyle}
                       />
                       <Button onClick={() => setSubmissionState({ mode: "new" })}>
                         <Plus className="h-4 w-4" />
@@ -201,7 +208,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
           </div>
 
           {locationError ? (
-            <p className="pointer-events-auto mt-3 inline-flex rounded-full border border-destructive/20 bg-white/78 px-4 py-2 text-sm text-destructive shadow-lg backdrop-blur">
+            <p className="pointer-events-auto mt-3 inline-flex rounded-full border border-destructive/20 bg-[rgba(255,255,255,var(--glass-card-bg-opacity,0.78))] px-4 py-2 text-sm text-destructive shadow-lg backdrop-blur">
               {locationError}
             </p>
           ) : null}
@@ -211,6 +218,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
       <SelectedBarSheet
         bar={selectedBar}
         nearestDistanceKm={selectedBarDistanceKm}
+        contentStyle={glassSurfaceStyle}
         onOpenChange={(open) => {
           if (!open) {
             updateSelectedBar(undefined);
@@ -223,6 +231,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
       <SubmissionSheet
         mode={submissionState?.mode ?? null}
         bar={submissionState && "bar" in submissionState ? submissionState.bar : undefined}
+        contentStyle={glassSurfaceStyle}
         onOpenChange={(open) => {
           if (!open) {
             setSubmissionState(null);
