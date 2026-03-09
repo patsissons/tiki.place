@@ -23,6 +23,15 @@ export function SelectedBarSheet({
   onReportBad,
   onRequestRefresh,
 }: SelectedBarSheetProps) {
+  function openGoogleMaps() {
+    if (!bar) {
+      return;
+    }
+
+    const placeUrl = `https://google.com/maps/place/?q=place_id:${bar.placeId}`;
+    window.open(placeUrl, "_blank", "noopener,noreferrer");
+  }
+
   async function handleCopyLink() {
     if (!bar || typeof window === "undefined") {
       return;
@@ -76,7 +85,7 @@ export function SelectedBarSheet({
                 </div>
 
                 <div className="flex flex-wrap gap-2">
-                  <Button className="flex-1 sm:flex-none" onClick={() => window.open(bar.googleMapsUrl, "_blank", "noopener,noreferrer")}>
+                  <Button className="flex-1 sm:flex-none" onClick={openGoogleMaps}>
                     Open in Google Maps
                     <ExternalLink className="h-4 w-4" />
                   </Button>
