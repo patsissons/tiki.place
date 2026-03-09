@@ -1,0 +1,211 @@
+bars:
+  - placeId: ChIJ0d4a7Y2BwoARo8e6YB4P8n8
+    slug: smuggler-s-cove-san-francisco
+    name: Smuggler's Cove
+    coordinates:
+      lat: 37.779296
+      lng: -122.423233
+    formattedAddress: 650 Gough St, San Francisco, CA 94102, USA
+    address:
+      countryCode: US
+      country: United States
+      region: California
+      locality: San Francisco
+      postalCode: "94102"
+      streetAddress: 650 Gough St
+    googleMapsUrl: https://maps.google.com/?cid=1234567890
+    rating: 4.8
+    userRatingCount: 6710
+    weekdayText:
+      - "Monday: 5:00 PM – 1:00 AM"
+      - "Tuesday: 5:00 PM – 1:00 AM"
+      - "Wednesday: 5:00 PM – 1:00 AM"
+      - "Thursday: 5:00 PM – 1:00 AM"
+      - "Friday: 4:00 PM – 1:30 AM"
+      - "Saturday: 2:00 PM – 1:30 AM"
+      - "Sunday: 2:00 PM – 12:00 AM"
+    openingPeriods:
+      - open:
+          day: 1
+          time: "1700"
+        close:
+          day: 2
+          time: "0100"
+      - open:
+          day: 2
+          time: "1700"
+        close:
+          day: 3
+          time: "0100"
+      - open:
+          day: 3
+          time: "1700"
+        close:
+          day: 4
+          time: "0100"
+      - open:
+          day: 4
+          time: "1700"
+        close:
+          day: 5
+          time: "0100"
+      - open:
+          day: 5
+          time: "1600"
+        close:
+          day: 6
+          time: "0130"
+      - open:
+          day: 6
+          time: "1400"
+        close:
+          day: 0
+          time: "0130"
+      - open:
+          day: 0
+          time: "1400"
+        close:
+          day: 1
+          time: "0000"
+    timeZone: America/Los_Angeles
+    businessStatus: OPERATIONAL
+    websiteUrl: https://www.smugglerscovesf.com/
+    lastSyncedAt: "2026-03-09T00:00:00.000Z"
+  - placeId: ChIJx0YgPqVZwokRs0JS1l9XQkY
+    slug: latitude-29-new-orleans
+    name: Latitude 29
+    coordinates:
+      lat: 29.954937
+      lng: -90.066204
+    formattedAddress: 321 N Peters St, New Orleans, LA 70130, USA
+    address:
+      countryCode: US
+      country: United States
+      region: Louisiana
+      locality: New Orleans
+      postalCode: "70130"
+      streetAddress: 321 N Peters St
+    googleMapsUrl: https://maps.google.com/?cid=1234567891
+    rating: 4.7
+    userRatingCount: 3521
+    weekdayText:
+      - "Monday: 4:00 PM – 11:00 PM"
+      - "Tuesday: 4:00 PM – 11:00 PM"
+      - "Wednesday: 4:00 PM – 11:00 PM"
+      - "Thursday: 4:00 PM – 12:00 AM"
+      - "Friday: 12:00 PM – 12:00 AM"
+      - "Saturday: 12:00 PM – 12:00 AM"
+      - "Sunday: 12:00 PM – 10:00 PM"
+    openingPeriods:
+      - open:
+          day: 1
+          time: "1600"
+        close:
+          day: 1
+          time: "2300"
+      - open:
+          day: 2
+          time: "1600"
+        close:
+          day: 2
+          time: "2300"
+      - open:
+          day: 3
+          time: "1600"
+        close:
+          day: 3
+          time: "2300"
+      - open:
+          day: 4
+          time: "1600"
+        close:
+          day: 5
+          time: "0000"
+      - open:
+          day: 5
+          time: "1200"
+        close:
+          day: 6
+          time: "0000"
+      - open:
+          day: 6
+          time: "1200"
+        close:
+          day: 0
+          time: "0000"
+      - open:
+          day: 0
+          time: "1200"
+        close:
+          day: 0
+          time: "2200"
+    timeZone: America/Chicago
+    businessStatus: OPERATIONAL
+    websiteUrl: https://latitude29nola.com/
+    lastSyncedAt: "2026-03-09T00:00:00.000Z"
+  - placeId: ChIJK9R8K9OnEmsR4Vn0m5ymPpw
+    slug: jacoby-s-tiki-bar-enmore
+    name: Jacoby's Tiki Bar
+    coordinates:
+      lat: -33.900254
+      lng: 151.17108
+    formattedAddress: 154 Enmore Rd, Enmore NSW 2042, Australia
+    address:
+      countryCode: AU
+      country: Australia
+      region: New South Wales
+      locality: Enmore
+      postalCode: "2042"
+      streetAddress: 154 Enmore Rd
+    googleMapsUrl: https://maps.google.com/?cid=1234567892
+    rating: 4.6
+    userRatingCount: 1098
+    weekdayText:
+      - "Monday: Closed"
+      - "Tuesday: 5:00 PM – 12:00 AM"
+      - "Wednesday: 5:00 PM – 12:00 AM"
+      - "Thursday: 5:00 PM – 12:00 AM"
+      - "Friday: 5:00 PM – 1:00 AM"
+      - "Saturday: 4:00 PM – 1:00 AM"
+      - "Sunday: 4:00 PM – 10:00 PM"
+    openingPeriods:
+      - open:
+          day: 2
+          time: "1700"
+        close:
+          day: 3
+          time: "0000"
+      - open:
+          day: 3
+          time: "1700"
+        close:
+          day: 4
+          time: "0000"
+      - open:
+          day: 4
+          time: "1700"
+        close:
+          day: 5
+          time: "0000"
+      - open:
+          day: 5
+          time: "1700"
+        close:
+          day: 6
+          time: "0100"
+      - open:
+          day: 6
+          time: "1600"
+        close:
+          day: 0
+          time: "0100"
+      - open:
+          day: 0
+          time: "1600"
+        close:
+          day: 0
+          time: "2200"
+    timeZone: Australia/Sydney
+    businessStatus: OPERATIONAL
+    websiteUrl: https://www.jacobystikibar.com.au/
+    lastSyncedAt: "2026-03-09T00:00:00.000Z"

@@ -1,0 +1,39 @@
+name: New tiki bar
+description: Submit a tiki bar for automated research and inclusion in data.yml.
+title: "New tiki bar submission: "
+labels:
+  - submission:new-bar
+body:
+  - type: input
+    id: bar-name
+    attributes:
+      label: Bar name
+      description: The primary venue name as shown publicly.
+      placeholder: Smuggler's Cove
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: City
+      placeholder: San Francisco
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      placeholder: United States
+    validations:
+      required: true
+  - type: input
+    id: evidence-url
+    attributes:
+      label: Evidence URL
+      description: Optional source that helps confirm the unique bar.
+      placeholder: https://...
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Include any clarifying details that make the venue uniquely identifiable.

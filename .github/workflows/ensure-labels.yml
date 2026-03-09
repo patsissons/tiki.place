@@ -1,0 +1,43 @@
+name: Ensure repo labels
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/ensure-labels.yml
+
+permissions:
+  issues: write
+
+jobs:
+  ensure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure labels exist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = [
+              { name: 'submission:new-bar', color: '0f766e', description: 'A new tiki bar submission for automation' },
+              { name: 'record:update', color: 'ea580c', description: 'Refresh an existing tiki bar record' },
+              { name: 'record:report-bad', color: 'b91c1c', description: 'Review a potentially invalid tiki bar record' },
+              { name: 'automation:needs-human-review', color: 'f59e0b', description: 'Automation could not finish without human review' },
+              { name: 'automation:processed', color: '1d4ed8', description: 'Automation already handled this issue' },
+            ];
+            for (const label of labels) {
+              try {
+                await github.rest.issues.getLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name,
+                });
+              } catch {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ...label,
+                });
+              }
+            }
