@@ -4,6 +4,8 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 
+const sheetGlassClassName = "border-white/55 bg-white/46 shadow-2xl shadow-primary/15 backdrop-blur-lg";
+
 const Sheet = DialogPrimitive.Root;
 const SheetTrigger = DialogPrimitive.Trigger;
 const SheetClose = DialogPrimitive.Close;
@@ -37,13 +39,13 @@ const SheetContent = React.forwardRef<
     <DialogPrimitive.Content
       ref={ref}
       className={cn(
-        "fixed inset-x-0 bottom-0 z-50 max-h-[92vh] rounded-t-[28px] border border-white/70 bg-background/95 p-6 shadow-2xl backdrop-blur sm:inset-y-6 sm:left-6 sm:right-auto sm:w-[420px] sm:max-h-none sm:rounded-[28px]",
+        `fixed inset-x-0 bottom-0 z-50 max-h-[92vh] rounded-t-[28px] border p-6 sm:inset-y-6 sm:left-6 sm:right-auto sm:w-[420px] sm:max-h-none sm:rounded-[28px] ${sheetGlassClassName}`,
         className,
       )}
       {...props}
     >
       {children}
-      <DialogPrimitive.Close className="absolute right-4 top-4 rounded-full p-2 text-muted-foreground transition hover:bg-muted hover:text-foreground">
+      <DialogPrimitive.Close className="absolute right-4 top-4 rounded-full p-2 text-muted-foreground transition hover:bg-white/70 hover:text-foreground">
         <X className="h-4 w-4" />
         <span className="sr-only">Close</span>
       </DialogPrimitive.Close>
@@ -75,4 +77,5 @@ export {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  sheetGlassClassName,
 };

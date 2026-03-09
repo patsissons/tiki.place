@@ -13,7 +13,7 @@ import { FilterSheet } from "@/components/filter-sheet";
 import { SelectedBarSheet } from "@/components/selected-bar-sheet";
 import { SubmissionSheet } from "@/components/submission-sheet";
 import { TikiMap } from "@/components/tiki-map";
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, sheetGlassClassName } from "@/components/ui/sheet";
 
 type SubmissionState =
   | { mode: "new" }
@@ -55,7 +55,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   );
   const selectedBarDistanceKm =
     userLocation && selectedBar ? findNearestBar(userLocation, [selectedBar])?.distanceKm ?? null : null;
-  const glassSurfaceClass = "border-white/55 bg-white/46 shadow-2xl shadow-primary/15 backdrop-blur-lg";
+  const glassSurfaceClass = sheetGlassClassName;
   const floatingButtonClass = `border ${glassSurfaceClass} text-foreground hover:bg-white/82`;
 
   function updateSelectedBar(barId?: string) {
@@ -158,9 +158,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                     <span className="sr-only">Open menu</span>
                   </Button>
                 </SheetTrigger>
-                <SheetContent
-                  className={"border-white/65 bg-white/82"}
-                >
+                <SheetContent className="bg-white/78">
                   <SheetHeader>
                     <SheetTitle>World Tiki Atlas</SheetTitle>
                   </SheetHeader>

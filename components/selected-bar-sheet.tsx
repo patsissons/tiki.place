@@ -6,7 +6,7 @@ import type { TikiBar } from "@/lib/data-schema";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Sheet, SheetContent, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, sheetGlassClassName } from "@/components/ui/sheet";
 
 type SelectedBarSheetProps = {
   bar?: TikiBar;
@@ -46,7 +46,7 @@ export function SelectedBarSheet({
     <Sheet open={Boolean(bar)} onOpenChange={onOpenChange} modal={false}>
       <SheetContent
         hideOverlay
-        className="border-white/55 bg-white/52 pb-8 sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:max-h-[72vh] sm:w-[min(760px,calc(100vw-2rem))] sm:-translate-x-1/2"
+        className={`pb-8 sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:max-h-[72vh] sm:w-[min(760px,calc(100vw-2rem))] sm:-translate-x-1/2 ${sheetGlassClassName}`}
       >
         {bar ? (
           <div className="space-y-5">

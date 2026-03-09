@@ -8,7 +8,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+  sheetGlassClassName,
+} from "@/components/ui/sheet";
 import { Slider } from "@/components/ui/slider";
 
 type FilterSheetProps = {
@@ -37,7 +45,7 @@ export function FilterSheet({
       <SheetContent
         hideOverlay
         className={cn(
-          "border-white/65 bg-white/76 sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:w-[min(640px,calc(100vw-2rem))] sm:max-h-[75vh] sm:-translate-x-1/2",
+          `sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:w-[min(640px,calc(100vw-2rem))] sm:max-h-[75vh] sm:-translate-x-1/2 ${sheetGlassClassName}`,
           contentClassName,
         )}
       >
