@@ -1,10 +1,82 @@
 bars:
-  - placeId: ChIJ0d4a7Y2BwoARo8e6YB4P8n8
+  - placeId: ChIJ-VlvsPdzhlQRVkrLK5hQOpQ
+    slug: the-shameful-tiki-room-vancouver
+    name: The Shameful Tiki Room
+    coordinates:
+      lat: 49.2461047
+      lng: -123.1010656
+    formattedAddress: 4362 Main St, Vancouver, BC V5V 3P9, Canada
+    address:
+      countryCode: CA
+      country: Canada
+      region: British Columbia
+      locality: Vancouver
+      postalCode: V5V 3P9
+      streetAddress: 4362 Main St
+    googleMapsUrl: https://maps.google.com/?cid=10680938080762546774&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+    rating: 4.5
+    userRatingCount: 2094
+    weekdayText:
+      - "Monday: 5:00 PM - 12:00 AM"
+      - "Tuesday: 5:00 PM - 12:00 AM"
+      - "Wednesday: 5:00 PM - 12:00 AM"
+      - "Thursday: 5:00 PM - 12:00 AM"
+      - "Friday: 5:00 PM - 1:00 AM"
+      - "Saturday: 5:00 PM - 1:00 AM"
+      - "Sunday: 5:00 PM - 12:00 AM"
+    openingPeriods:
+      - open:
+          day: 0
+          time: "1700"
+        close:
+          day: 1
+          time: "0000"
+      - open:
+          day: 1
+          time: "1700"
+        close:
+          day: 2
+          time: "0000"
+      - open:
+          day: 2
+          time: "1700"
+        close:
+          day: 3
+          time: "0000"
+      - open:
+          day: 3
+          time: "1700"
+        close:
+          day: 4
+          time: "0000"
+      - open:
+          day: 4
+          time: "1700"
+        close:
+          day: 5
+          time: "0000"
+      - open:
+          day: 5
+          time: "1700"
+        close:
+          day: 6
+          time: "0100"
+      - open:
+          day: 6
+          time: "1700"
+        close:
+          day: 0
+          time: "0100"
+    timeZone: America/Vancouver
+    businessStatus: OPERATIONAL
+    websiteUrl: http://shamefultikiroom.com/vancouver/
+    lastSyncedAt: "2026-03-09T13:50:00.000Z"
+  - placeId: ChIJZYKHDZiAhYARXV0sNJgKAi8
     slug: smuggler-s-cove-san-francisco
     name: Smuggler's Cove
     coordinates:
-      lat: 37.779296
-      lng: -122.423233
+      lat: 37.7794028
+      lng: -122.42337219999999
     formattedAddress: 650 Gough St, San Francisco, CA 94102, USA
     address:
       countryCode: US
@@ -13,70 +85,70 @@ bars:
       locality: San Francisco
       postalCode: "94102"
       streetAddress: 650 Gough St
-    googleMapsUrl: https://maps.google.com/?cid=1234567890
-    rating: 4.8
-    userRatingCount: 6710
+    googleMapsUrl: https://maps.google.com/?cid=3387281518562663773&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+    rating: 4.6
+    userRatingCount: 3238
     weekdayText:
-      - "Monday: 5:00 PM – 1:00 AM"
-      - "Tuesday: 5:00 PM – 1:00 AM"
-      - "Wednesday: 5:00 PM – 1:00 AM"
-      - "Thursday: 5:00 PM – 1:00 AM"
-      - "Friday: 4:00 PM – 1:30 AM"
-      - "Saturday: 2:00 PM – 1:30 AM"
-      - "Sunday: 2:00 PM – 12:00 AM"
+      - "Monday: 5:00 PM - 1:30 AM"
+      - "Tuesday: 5:00 PM - 1:30 AM"
+      - "Wednesday: 5:00 PM - 1:30 AM"
+      - "Thursday: 5:00 PM - 1:30 AM"
+      - "Friday: 5:00 PM - 1:30 AM"
+      - "Saturday: 5:00 PM - 1:30 AM"
+      - "Sunday: 5:00 PM - 1:30 AM"
     openingPeriods:
       - open:
+          day: 0
+          time: "1700"
+        close:
+          day: 1
+          time: "0130"
+      - open:
           day: 1
           time: "1700"
         close:
           day: 2
-          time: "0100"
+          time: "0130"
       - open:
           day: 2
           time: "1700"
         close:
           day: 3
-          time: "0100"
+          time: "0130"
       - open:
           day: 3
           time: "1700"
         close:
           day: 4
-          time: "0100"
+          time: "0130"
       - open:
           day: 4
           time: "1700"
         close:
           day: 5
-          time: "0100"
+          time: "0130"
       - open:
           day: 5
-          time: "1600"
+          time: "1700"
         close:
           day: 6
           time: "0130"
       - open:
           day: 6
-          time: "1400"
+          time: "1700"
         close:
           day: 0
           time: "0130"
-      - open:
-          day: 0
-          time: "1400"
-        close:
-          day: 1
-          time: "0000"
     timeZone: America/Los_Angeles
     businessStatus: OPERATIONAL
-    websiteUrl: https://www.smugglerscovesf.com/
-    lastSyncedAt: "2026-03-09T00:00:00.000Z"
-  - placeId: ChIJx0YgPqVZwokRs0JS1l9XQkY
+    websiteUrl: http://www.smugglerscovesf.com/
+    lastSyncedAt: "2026-03-09T12:00:00.000Z"
+  - placeId: ChIJsTgchxKmIIYRyxSDNSC3cAk
     slug: latitude-29-new-orleans
-    name: Latitude 29
+    name: Beachbum Berry's Latitude 29
     coordinates:
-      lat: 29.954937
-      lng: -90.066204
+      lat: 29.953715000000003
+      lng: -90.06513410000001
     formattedAddress: 321 N Peters St, New Orleans, LA 70130, USA
     address:
       countryCode: US
@@ -85,70 +157,70 @@ bars:
       locality: New Orleans
       postalCode: "70130"
       streetAddress: 321 N Peters St
-    googleMapsUrl: https://maps.google.com/?cid=1234567891
-    rating: 4.7
-    userRatingCount: 3521
+    googleMapsUrl: https://maps.google.com/?cid=680244892697564363&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
+    rating: 4.6
+    userRatingCount: 1348
     weekdayText:
-      - "Monday: 4:00 PM – 11:00 PM"
-      - "Tuesday: 4:00 PM – 11:00 PM"
-      - "Wednesday: 4:00 PM – 11:00 PM"
-      - "Thursday: 4:00 PM – 12:00 AM"
-      - "Friday: 12:00 PM – 12:00 AM"
-      - "Saturday: 12:00 PM – 12:00 AM"
-      - "Sunday: 12:00 PM – 10:00 PM"
+      - "Monday: 4:00 - 10:00 PM"
+      - "Tuesday: 4:00 - 10:00 PM"
+      - "Wednesday: 4:00 - 10:00 PM"
+      - "Thursday: 4:00 - 10:00 PM"
+      - "Friday: 4:00 - 11:00 PM"
+      - "Saturday: 4:00 - 11:00 PM"
+      - "Sunday: 4:00 - 10:00 PM"
     openingPeriods:
       - open:
+          day: 0
+          time: "1600"
+        close:
+          day: 0
+          time: "2200"
+      - open:
           day: 1
           time: "1600"
         close:
-          day: 1
-          time: "2300"
+          day: 2
+          time: "2200"
       - open:
           day: 2
           time: "1600"
         close:
-          day: 2
-          time: "2300"
+          day: 3
+          time: "2200"
       - open:
           day: 3
           time: "1600"
         close:
-          day: 3
-          time: "2300"
+          day: 4
+          time: "2200"
       - open:
           day: 4
           time: "1600"
         close:
           day: 5
-          time: "0000"
+          time: "2200"
       - open:
           day: 5
-          time: "1200"
+          time: "1600"
         close:
           day: 6
-          time: "0000"
+          time: "2300"
       - open:
           day: 6
-          time: "1200"
+          time: "1600"
         close:
-          day: 0
-          time: "0000"
-      - open:
-          day: 0
-          time: "1200"
-        close:
-          day: 0
-          time: "2200"
+          day: 6
+          time: "2300"
     timeZone: America/Chicago
     businessStatus: OPERATIONAL
-    websiteUrl: https://latitude29nola.com/
-    lastSyncedAt: "2026-03-09T00:00:00.000Z"
-  - placeId: ChIJK9R8K9OnEmsR4Vn0m5ymPpw
+    websiteUrl: http://latitude29nola.com/
+    lastSyncedAt: "2026-03-09T12:00:00.000Z"
+  - placeId: ChIJafLjQjiwEmsRXoy09xcPE9g
     slug: jacoby-s-tiki-bar-enmore
-    name: Jacoby's Tiki Bar
+    name: Jacoby’s Tiki Bar
     coordinates:
-      lat: -33.900254
-      lng: 151.17108
+      lat: -33.8989762
+      lng: 151.1731862
     formattedAddress: 154 Enmore Rd, Enmore NSW 2042, Australia
     address:
       countryCode: AU
@@ -157,33 +229,33 @@ bars:
       locality: Enmore
       postalCode: "2042"
       streetAddress: 154 Enmore Rd
-    googleMapsUrl: https://maps.google.com/?cid=1234567892
+    googleMapsUrl: https://maps.google.com/?cid=15569804932364405854&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA
     rating: 4.6
-    userRatingCount: 1098
+    userRatingCount: 566
     weekdayText:
       - "Monday: Closed"
-      - "Tuesday: 5:00 PM – 12:00 AM"
-      - "Wednesday: 5:00 PM – 12:00 AM"
-      - "Thursday: 5:00 PM – 12:00 AM"
-      - "Friday: 5:00 PM – 1:00 AM"
-      - "Saturday: 4:00 PM – 1:00 AM"
-      - "Sunday: 4:00 PM – 10:00 PM"
+      - "Tuesday: Closed"
+      - "Wednesday: 6:00 PM - 12:00 AM"
+      - "Thursday: 6:00 PM - 12:00 AM"
+      - "Friday: 5:00 PM - 2:00 AM"
+      - "Saturday: 5:00 PM - 2:00 AM"
+      - "Sunday: 5:00 PM - 12:00 AM"
     openingPeriods:
       - open:
-          day: 2
+          day: 0
           time: "1700"
         close:
-          day: 3
+          day: 1
           time: "0000"
       - open:
           day: 3
-          time: "1700"
+          time: "1800"
         close:
           day: 4
           time: "0000"
       - open:
           day: 4
-          time: "1700"
+          time: "1800"
         close:
           day: 5
           time: "0000"
@@ -192,20 +264,14 @@ bars:
           time: "1700"
         close:
           day: 6
-          time: "0100"
+          time: "0200"
       - open:
           day: 6
-          time: "1600"
+          time: "1700"
         close:
           day: 0
-          time: "0100"
-      - open:
-          day: 0
-          time: "1600"
-        close:
-          day: 0
-          time: "2200"
+          time: "0200"
     timeZone: Australia/Sydney
     businessStatus: OPERATIONAL
-    websiteUrl: https://www.jacobystikibar.com.au/
-    lastSyncedAt: "2026-03-09T00:00:00.000Z"
+    websiteUrl: http://www.jacobys-tiki-bar.com/
+    lastSyncedAt: "2026-03-09T12:00:00.000Z"
