@@ -54,23 +54,23 @@ export function SelectedBarSheet({
             <div className="flex items-start justify-between gap-4">
               <div className="space-y-3">
                 <div className="flex flex-wrap items-center gap-2">
-                  <Badge variant="secondary">Selected tiki bar</Badge>
-                  <Badge variant="muted">
-                    <Star className="mr-1 h-3.5 w-3.5 fill-secondary text-secondary" />
-                    {bar.userRatingCount.toLocaleString()} reviews
-                  </Badge>
                   {nearestDistanceKm !== undefined && nearestDistanceKm !== null ? (
                     <Badge variant="muted">{nearestDistanceKm.toFixed(1)} km away</Badge>
                   ) : null}
                 </div>
-                <div>
+                <div className="flex flex-wrap items-center gap-3">
                   <h2 className="font-display text-3xl leading-tight text-primary">{bar.name}</h2>
+                  <Badge variant="muted">
+                    <Star className="mr-1 h-3.5 w-3.5 fill-secondary text-secondary" />
+                    {bar.rating.toFixed(1)} · {bar.userRatingCount.toLocaleString()} reviews
+                  </Badge>
+                </div>
+                <div>
                   <p className="mt-2 text-sm text-muted-foreground">
                     {bar.address.locality}, {bar.address.region}, {bar.address.country}
                   </p>
                 </div>
               </div>
-              <Badge className="text-base">{bar.rating.toFixed(1)}</Badge>
             </div>
 
             <div className="grid gap-4 text-sm sm:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)]">
