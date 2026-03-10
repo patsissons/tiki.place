@@ -103,7 +103,7 @@ export function FilterSheet({
               <Input
                 id="start-local"
                 type="datetime-local"
-                className="min-w-0 w-full"
+                className="min-w-0 w-full appearance-none text-left"
                 value={filters.startLocal ?? ""}
                 onChange={(event) =>
                   onFiltersChange({
@@ -115,7 +115,7 @@ export function FilterSheet({
               <Input
                 id="end-local"
                 type="datetime-local"
-                className="min-w-0 w-full"
+                className="min-w-0 w-full appearance-none text-left"
                 value={filters.endLocal ?? ""}
                 onChange={(event) =>
                   onFiltersChange({
