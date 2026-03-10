@@ -31,8 +31,7 @@ export function SelectedBarSheet({
       return;
     }
 
-    const placeUrl = `https://google.com/maps/place/?q=place_id:${bar.placeId}`;
-    window.open(placeUrl, "_blank", "noopener,noreferrer");
+    window.open(bar.googleMapsUrl, "_blank", "noopener,noreferrer");
   }
 
   async function handleCopyLink() {

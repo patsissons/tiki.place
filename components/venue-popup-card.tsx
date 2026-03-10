@@ -14,8 +14,6 @@ type VenuePopupCardProps = {
 };
 
 export function VenuePopupCard({ bar, onReportBad, onRequestRefresh }: VenuePopupCardProps) {
-  const placeUrl = `https://google.com/maps/place/?q=place_id:${bar.placeId}`;
-
   return (
     <div className="w-[320px] rounded-[24px] bg-white p-5 text-sm text-foreground">
       <div className="mb-4 flex items-start justify-between gap-4">
@@ -48,7 +46,7 @@ export function VenuePopupCard({ bar, onReportBad, onRequestRefresh }: VenuePopu
       </div>
 
       <div className="mt-5 flex flex-wrap gap-2">
-        <Button className="flex-1" onClick={() => window.open(placeUrl, "_blank", "noopener,noreferrer")}>
+        <Button className="flex-1" onClick={() => window.open(bar.googleMapsUrl, "_blank", "noopener,noreferrer")}>
           <span className="inline-flex items-center gap-2">
             Open in Google Maps
             <ExternalLink className="h-4 w-4" />
