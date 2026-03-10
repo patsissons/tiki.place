@@ -233,7 +233,6 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                     </div>
                     <div className="flex flex-col gap-3">
                       <Button
-                        className="justify-start"
                         onClick={() => {
                           setFilterSheetOpen(true);
                           setMobileMenuOpen(false);
