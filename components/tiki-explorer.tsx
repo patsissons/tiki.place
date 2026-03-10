@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Compass, Crosshair, Map, Menu, Plus } from "lucide-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
@@ -33,6 +33,8 @@ const initialFilters: TikiFilters = {
   endLocal: undefined,
 };
 
+const ACCEPTABLE_LOCATION_ACCURACY_METERS = 100;
+
 export function TikiExplorer({ bars }: TikiExplorerProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -44,6 +46,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   const [submissionState, setSubmissionState] = useState<SubmissionState>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mapZoom, setMapZoom] = useState(1.4);
+  const locationWatchIdRef = useRef<number | null>(null);
 
   const filteredBars = useMemo(() => filterBars(bars, filters), [bars, filters]);
   const permalinkBarId = searchParams.get("bar") ?? undefined;
@@ -60,6 +63,14 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   const glassSurfaceStyle = useMemo(() => getGlassSurfaceStyle(mapZoom), [mapZoom]);
   const floatingButtonClass = "text-foreground";
 
+  useEffect(() => {
+    return () => {
+      if (locationWatchIdRef.current !== null) {
+        navigator.geolocation.clearWatch(locationWatchIdRef.current);
+      }
+    };
+  }, []);
+
   function updateSelectedBar(barId?: string) {
     const nextParams = new URLSearchParams(searchParams.toString());
     if (barId) {
@@ -72,39 +83,76 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
     router.replace(nextQuery ? `${pathname}?${nextQuery}` : pathname, { scroll: false });
   }
 
+  function focusNearestBar(location: Coordinates) {
+    const nextNearest = findNearestBar(location, filteredBars);
+    if (!nextNearest) {
+      setLocationError("No tiki bars match the current filters.");
+      return;
+    }
+
+    updateSelectedBar(nextNearest.bar.placeId);
+    setFocusCoordinates(nextNearest.bar.coordinates);
+    setLocationError(null);
+  }
+
+  function isStableValidLocation(position: GeolocationPosition) {
+    const { latitude, longitude, accuracy } = position.coords;
+    return (
+      Number.isFinite(latitude) &&
+      Number.isFinite(longitude) &&
+      (!Number.isFinite(accuracy) || accuracy <= ACCEPTABLE_LOCATION_ACCURACY_METERS)
+    );
+  }
+
   function handleUseMyLocation() {
     if (!navigator.geolocation) {
       setLocationError("This browser does not support location access.");
       return;
     }
 
-    navigator.geolocation.getCurrentPosition(
+    if (locationWatchIdRef.current !== null) {
+      navigator.geolocation.clearWatch(locationWatchIdRef.current);
+    }
+
+    locationWatchIdRef.current = navigator.geolocation.watchPosition(
       (position) => {
+        if (!isStableValidLocation(position)) {
+          setLocationError("Waiting for a more accurate GPS fix.");
+          return;
+        }
+
         const nextLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
         };
+
         setUserLocation(nextLocation);
-        setFocusCoordinates(nextLocation);
-        setLocationError(null);
+        focusNearestBar(nextLocation);
+
+        if (locationWatchIdRef.current !== null) {
+          navigator.geolocation.clearWatch(locationWatchIdRef.current);
+          locationWatchIdRef.current = null;
+        }
       },
       () => {
         setLocationError("Location permission was denied. You can still browse the full map.");
+        locationWatchIdRef.current = null;
       },
       {
         enableHighAccuracy: true,
+        maximumAge: 0,
+        timeout: 15000,
       },
     );
   }
 
   function handleNearestBar() {
-    if (!nearest) {
+    if (!userLocation || !nearest) {
       setLocationError("Share your location first to find the nearest tiki bar.");
       return;
     }
 
-    updateSelectedBar(nearest.bar.placeId);
-    setFocusCoordinates(nearest.bar.coordinates);
+    focusNearestBar(userLocation);
   }
 
   return (
