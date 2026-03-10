@@ -123,12 +123,12 @@ export function SelectedBarSheet({
 
             <Separator className="bg-white/60" />
 
-            <div className="flex flex-wrap gap-2">
-              <Button onClick={() => onRequestRefresh(bar)}>
+            <div className="flex gap-2">
+              <Button className="min-w-0 flex-1 sm:flex-none" onClick={() => onRequestRefresh(bar)}>
                 <RefreshCcw className="h-4 w-4" />
                 Refresh
               </Button>
-              <Button onClick={() => onReportBad(bar)}>
+              <Button className="min-w-0 flex-1 sm:flex-none" onClick={() => onReportBad(bar)}>
                 <AlertTriangle className="h-4 w-4" />
                 Report
               </Button>
