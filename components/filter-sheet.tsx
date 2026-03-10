@@ -131,6 +131,7 @@ export function FilterSheet({
           </div>
 
           <Button
+            className="w-full sm:w-auto"
             onClick={() =>
               onFiltersChange({
                 search: "",

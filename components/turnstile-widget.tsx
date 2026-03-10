@@ -52,8 +52,10 @@ export function TurnstileWidget({ onToken }: TurnstileWidgetProps) {
 
   if (!siteKey) {
     return (
-      <div className="rounded-3xl border border-dashed border-border bg-white/60 p-4 text-sm text-muted-foreground">
-        Turnstile is not configured locally. Development submissions will use a local bypass token.
+      <div className="flex justify-center">
+        <div className="rounded-3xl border border-dashed border-border bg-white/60 p-4 text-sm text-muted-foreground">
+          Turnstile is not configured locally. Development submissions will use a local bypass token.
+        </div>
       </div>
     );
   }
@@ -61,7 +63,9 @@ export function TurnstileWidget({ onToken }: TurnstileWidgetProps) {
   return (
     <>
       <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" strategy="afterInteractive" />
-      <div id={containerId} className="min-h-16" />
+      <div className="flex justify-center">
+        <div id={containerId} className="min-h-16" />
+      </div>
     </>
   );
 }

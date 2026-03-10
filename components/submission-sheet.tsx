@@ -214,7 +214,7 @@ export function SubmissionSheet({ mode, bar, onOpenChange, contentStyle }: Submi
           <div className="space-y-3">
             <Button className="w-full" type="submit" disabled={isPending}>
               {isPending ? <LoaderCircle className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
-              Submit to GitHub workflow
+              Submit
             </Button>
             {status ? <p className="text-sm text-muted-foreground">{status}</p> : null}
           </div>

@@ -93,12 +93,15 @@ export function SelectedBarSheet({
                     <ExternalLink className="h-4 w-4" />
                   </Button>
                   {bar.websiteUrl ? (
-                    <Button onClick={() => window.open(bar.websiteUrl, "_blank", "noopener,noreferrer")}>
+                    <Button
+                      className="w-full sm:w-auto"
+                      onClick={() => window.open(bar.websiteUrl, "_blank", "noopener,noreferrer")}
+                    >
                       Website
                       <Globe className="h-4 w-4" />
                     </Button>
                   ) : null}
-                  <Button onClick={handleCopyLink}>
+                  <Button className="w-full sm:w-auto" onClick={handleCopyLink}>
                     Copy link
                     <Share2 className="h-4 w-4" />
                   </Button>

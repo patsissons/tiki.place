@@ -173,9 +173,13 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                         <Map className="h-4 w-4 shrink-0 text-primary" />
                         <p className="font-display text-2xl text-primary">World Tiki Atlas</p>
                       </div>
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        <Badge variant="muted">{bars.length} tracked</Badge>
-                        <Badge variant="muted">{filteredBars.length} showing</Badge>
+                      <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+                        <Badge className="w-full justify-center sm:w-auto" variant="muted">
+                          {bars.length} tracked
+                        </Badge>
+                        <Badge className="w-full justify-center sm:w-auto" variant="muted">
+                          {filteredBars.length} showing
+                        </Badge>
                       </div>
                     </div>
                     <div className="flex flex-col gap-3">
