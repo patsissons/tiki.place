@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Compass, Crosshair, Map, Menu, Plus } from "lucide-react";
+import { Compass, Crosshair, Map, Menu, Plus, SlidersHorizontal } from "lucide-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import type { TikiBar } from "@/lib/data-schema";
@@ -45,6 +45,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   const [locationError, setLocationError] = useState<string | null>(null);
   const [submissionState, setSubmissionState] = useState<SubmissionState>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [filterSheetOpen, setFilterSheetOpen] = useState(false);
   const [mapZoom, setMapZoom] = useState(1.4);
   const locationWatchIdRef = useRef<number | null>(null);
 
@@ -231,12 +232,16 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
                       </div>
                     </div>
                     <div className="flex flex-col gap-3">
-                      <FilterSheet
-                        filters={filters}
-                        onFiltersChange={setFilters}
-                        triggerClassName="justify-start"
-                        contentStyle={glassSurfaceStyle}
-                      />
+                      <Button
+                        className="justify-start"
+                        onClick={() => {
+                          setFilterSheetOpen(true);
+                          setMobileMenuOpen(false);
+                        }}
+                      >
+                        <SlidersHorizontal className="h-4 w-4" />
+                        Search & Filter
+                      </Button>
                       <Button onClick={() => setSubmissionState({ mode: "new" })}>
                         <Plus className="h-4 w-4" />
                         Submit a bar
@@ -278,6 +283,16 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
         }}
         onReportBad={(bar) => setSubmissionState({ mode: "report-bad", bar })}
         onRequestRefresh={(bar) => setSubmissionState({ mode: "update", bar })}
+      />
+
+      <FilterSheet
+        filters={filters}
+        onFiltersChange={setFilters}
+        modal
+        open={filterSheetOpen}
+        onOpenChange={setFilterSheetOpen}
+        showTrigger={false}
+        contentStyle={glassSurfaceStyle}
       />
 
       <SubmissionSheet

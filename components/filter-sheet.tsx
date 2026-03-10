@@ -22,6 +22,10 @@ import { Slider } from "@/components/ui/slider";
 type FilterSheetProps = {
   filters: TikiFilters;
   onFiltersChange: (filters: TikiFilters) => void;
+  modal?: boolean;
+  open?: boolean;
+  onOpenChange?: (open: boolean) => void;
+  showTrigger?: boolean;
   triggerClassName?: string;
   contentClassName?: string;
   contentStyle?: CSSProperties;
@@ -30,18 +34,24 @@ type FilterSheetProps = {
 export function FilterSheet({
   filters,
   onFiltersChange,
+  modal = false,
+  open,
+  onOpenChange,
+  showTrigger = true,
   triggerClassName,
   contentClassName,
   contentStyle,
 }: FilterSheetProps) {
   return (
-    <Sheet modal={false}>
-      <SheetTrigger asChild>
-        <Button className={triggerClassName}>
-          <SlidersHorizontal className="h-4 w-4" />
-          Search & Filter
-        </Button>
-      </SheetTrigger>
+    <Sheet modal={modal} open={open} onOpenChange={onOpenChange}>
+      {showTrigger ? (
+        <SheetTrigger asChild>
+          <Button className={triggerClassName}>
+            <SlidersHorizontal className="h-4 w-4" />
+            Search & Filter
+          </Button>
+        </SheetTrigger>
+      ) : null}
       <SheetContent
         hideOverlay
         style={contentStyle}
