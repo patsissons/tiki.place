@@ -85,13 +85,32 @@ export function TikiMap({
   }, [bars, onZoomChange, shouldZoomToFirstBarInitially]);
 
   useEffect(() => {
-    const map = mapRef.current;
-    if (!map) {
+    if (!mapRef.current) {
       return;
     }
 
+    let frameId: number | null = null;
+
     const handleResize = () => {
-      map.resize();
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+
+      frameId = window.requestAnimationFrame(() => {
+        frameId = null;
+
+        const map = mapRef.current;
+        const container = containerRef.current;
+        if (!map || !container?.isConnected) {
+          return;
+        }
+
+        try {
+          map.resize();
+        } catch {
+          // Ignore resize calls that race with Mapbox teardown during responsive testing.
+        }
+      });
     };
 
     window.addEventListener("resize", handleResize);
@@ -99,6 +118,9 @@ export function TikiMap({
     window.visualViewport?.addEventListener("scroll", handleResize);
 
     return () => {
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
       window.removeEventListener("resize", handleResize);
       window.visualViewport?.removeEventListener("resize", handleResize);
       window.visualViewport?.removeEventListener("scroll", handleResize);
