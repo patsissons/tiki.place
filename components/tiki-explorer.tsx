@@ -108,9 +108,9 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
   }
 
   return (
-    <main className="relative h-screen overflow-hidden" style={glassSurfaceStyle}>
+    <main className="relative h-[var(--app-dvh)] overflow-hidden" style={glassSurfaceStyle}>
       <div className="absolute inset-0 bg-tiki-grid opacity-60" />
-      <section className="relative h-screen overflow-hidden">
+      <section className="relative h-[var(--app-dvh)] overflow-hidden">
         <TikiMap
           bars={filteredBars}
           selectedBarId={selectedBarId}
@@ -123,7 +123,7 @@ export function TikiExplorer({ bars }: TikiExplorerProps) {
           }}
         />
 
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 px-4 pt-4 md:px-6 md:pt-6">
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-10 px-4 pt-[calc(0.75rem+var(--safe-top))] md:px-6 md:pt-6">
           <div className="flex items-start justify-start">
             <div className="flex flex-col items-start gap-3">
               <div

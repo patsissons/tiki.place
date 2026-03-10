@@ -50,7 +50,7 @@ export function SelectedBarSheet({
       <SheetContent
         hideOverlay
         style={contentStyle}
-        className={`pb-8 sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:max-h-[72vh] sm:w-[min(760px,calc(100vw-2rem))] sm:-translate-x-1/2 ${sheetGlassClassName}`}
+        className={`pb-[calc(2rem+var(--safe-bottom))] sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:max-h-[min(72vh,calc(var(--app-dvh)-2rem))] sm:w-[min(760px,calc(100vw-2rem))] sm:-translate-x-1/2 ${sheetGlassClassName}`}
       >
         {bar ? (
           <div className="space-y-5">

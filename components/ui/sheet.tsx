@@ -40,7 +40,7 @@ const SheetContent = React.forwardRef<
     <DialogPrimitive.Content
       ref={ref}
       className={cn(
-        `fixed inset-x-0 bottom-0 z-50 max-h-[92vh] overflow-y-auto rounded-t-[28px] border p-6 sm:inset-y-6 sm:left-6 sm:right-auto sm:w-[420px] sm:rounded-[28px] ${sheetGlassClassName}`,
+        `fixed inset-x-[max(0.75rem,var(--safe-left))] bottom-[max(0.75rem,var(--safe-bottom))] top-[max(0.75rem,var(--safe-top))] z-50 max-h-[calc(var(--app-dvh)-max(1.5rem,calc(var(--safe-top)+var(--safe-bottom))))] overflow-y-auto rounded-[28px] border p-6 sm:inset-y-6 sm:left-6 sm:right-auto sm:w-[420px] sm:max-h-[calc(var(--app-dvh)-3rem)] sm:rounded-[28px] ${sheetGlassClassName}`,
         className,
       )}
       {...props}

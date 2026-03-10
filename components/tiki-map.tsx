@@ -90,6 +90,27 @@ export function TikiMap({
       return;
     }
 
+    const handleResize = () => {
+      map.resize();
+    };
+
+    window.addEventListener("resize", handleResize);
+    window.visualViewport?.addEventListener("resize", handleResize);
+    window.visualViewport?.addEventListener("scroll", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.visualViewport?.removeEventListener("resize", handleResize);
+      window.visualViewport?.removeEventListener("scroll", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) {
+      return;
+    }
+
     markersRef.current.forEach(({ marker }) => {
       marker.remove();
     });

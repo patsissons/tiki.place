@@ -46,7 +46,7 @@ export function FilterSheet({
         hideOverlay
         style={contentStyle}
         className={cn(
-          `sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:w-[min(640px,calc(100vw-2rem))] sm:max-h-[75vh] sm:-translate-x-1/2 ${sheetGlassClassName}`,
+          `sm:inset-x-0 sm:bottom-4 sm:top-auto sm:left-1/2 sm:right-auto sm:w-[min(640px,calc(100vw-2rem))] sm:max-h-[min(75vh,calc(var(--app-dvh)-2rem))] sm:-translate-x-1/2 ${sheetGlassClassName}`,
           contentClassName,
         )}
       >
@@ -99,10 +99,11 @@ export function FilterSheet({
 
           <div className="space-y-3">
             <Label htmlFor="start-local">Open for entire range</Label>
-            <div className="grid gap-3 [grid-template-columns:repeat(auto-fit,minmax(220px,1fr))]">
+            <div className="grid gap-3 [grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))]">
               <Input
                 id="start-local"
                 type="datetime-local"
+                className="min-w-0 w-full"
                 value={filters.startLocal ?? ""}
                 onChange={(event) =>
                   onFiltersChange({
@@ -114,6 +115,7 @@ export function FilterSheet({
               <Input
                 id="end-local"
                 type="datetime-local"
+                className="min-w-0 w-full"
                 value={filters.endLocal ?? ""}
                 onChange={(event) =>
                   onFiltersChange({
