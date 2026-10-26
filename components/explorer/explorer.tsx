@@ -2,7 +2,7 @@
 
 import { ChevronDown, ChevronUp, LocateFixed, Search, X } from "lucide-react";
 import { parseAsBoolean, parseAsString, useQueryState } from "nuqs";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,6 +17,17 @@ import { PlaceCard } from "./place-card";
 import { TikiMap, type Camera } from "./tiki-map";
 
 type FlyTo = { id: string; nonce: number } | { lat: number; lng: number; zoom: number; nonce: number } | null;
+
+function useViewport() {
+  const [v, setV] = useState({ isMobile: false, viewportHeight: 800 });
+  useEffect(() => {
+    const update = () => setV({ isMobile: window.innerWidth < 768, viewportHeight: window.innerHeight });
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+  return v;
+}
 
 function parseCamera(value: string | null): Camera | null {
   if (!value) return null;
@@ -35,6 +46,7 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
   const [flyTo, setFlyTo] = useState<FlyTo>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
   const clock = useClock();
+  const { isMobile, viewportHeight } = useViewport();
 
   const searched = useSearch(data, q);
   const visible = useMemo(() => {
@@ -143,6 +155,7 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
           onCameraChange={onCameraChange}
           userLocation={userLocation}
           flyToRequest={flyTo}
+          bottomPadding={isMobile ? Math.round(viewportHeight * 0.42) : 0}
         />
       </div>
 

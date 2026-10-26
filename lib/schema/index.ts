@@ -6,3 +6,4 @@ export * from "./decision";
 export * from "./ledger";
 export * from "./sync-state";
 export * from "./published";
+export * from "./submission";

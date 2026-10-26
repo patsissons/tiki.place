@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { MobileMenu } from "./mobile-menu";
 
 const links = [
   { href: "/", label: "Explore" },
@@ -31,6 +32,7 @@ export function SiteHeader({ className, overlay = false }: { className?: string;
           Suggest a bar
         </Link>
       </nav>
+      <MobileMenu links={links} />
     </header>
   );
 }

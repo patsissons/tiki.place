@@ -58,12 +58,20 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
 
   const initialView = useMemo(() => {
     if (camera) return { latitude: camera.lat, longitude: camera.lng, zoom: camera.zoom };
-    if (places.length === 0) return { latitude: 20, longitude: -40, zoom: 1.4 };
-    const lats = places.map((p) => p.lat);
-    const lngs = places.map((p) => p.lng);
-    return { bounds: [Math.min(...lngs), Math.min(...lats), Math.max(...lngs), Math.max(...lats)] as [number, number, number, number], fitBoundsOptions: { padding: { top: 80, left: 40, right: 40, bottom: 40 + bottomPadding }, maxZoom: 12 } };
+    return { latitude: 25, longitude: -30, zoom: 1.4 };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Fit all places once data arrives, unless the URL already pins a camera or a place.
+  const fitted = useRef(Boolean(camera) || Boolean(selectedId));
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || fitted.current || places.length === 0) return;
+    fitted.current = true;
+    const lats = places.map((p) => p.lat);
+    const lngs = places.map((p) => p.lng);
+    map.fitBounds([Math.min(...lngs), Math.min(...lats), Math.max(...lngs), Math.max(...lats)], { padding: { top: 80, left: 40, right: 40, bottom: 40 + bottomPadding }, maxZoom: 12, duration: 0 });
+  }, [places, bottomPadding]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -122,7 +130,9 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
       onClick={onClick}
       onMouseEnter={() => setCursor("pointer")}
       onMouseLeave={() => setCursor("grab")}
-      onMoveEnd={(e) => onCameraChange({ lat: e.viewState.latitude, lng: e.viewState.longitude, zoom: e.viewState.zoom })}
+      onMoveEnd={(e) => {
+        if ((e as { originalEvent?: unknown }).originalEvent) onCameraChange({ lat: e.viewState.latitude, lng: e.viewState.longitude, zoom: e.viewState.zoom });
+      }}
       style={{ width: "100%", height: "100%" }}
     >
       <Source id="places" type="geojson" data={geojson} cluster clusterMaxZoom={11} clusterRadius={44} promoteId="id">
