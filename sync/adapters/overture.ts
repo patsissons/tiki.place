@@ -18,7 +18,7 @@ const ConfigSchema = z.object({
   region: z.string().default("us-west-2"),
   /** Skip rows below this Overture existence confidence. */
   minConfidence: z.number().min(0).max(1).default(0.5),
-  threads: z.number().int().min(1).default(4),
+  threads: z.number().int().min(1).default(8),
 });
 
 export const OvertureRowSchema = z.looseObject({
@@ -29,26 +29,24 @@ export const OvertureRowSchema = z.looseObject({
   confidence: z.number().nullable(),
   lng: z.number(),
   lat: z.number(),
-  website: z.string().nullable(),
-  phone: z.string().nullable(),
-  street: z.string().nullable(),
-  locality: z.string().nullable(),
-  region: z.string().nullable(),
-  country: z.string().nullable(),
-  postcode: z.string().nullable(),
-  dataset: z.string().nullable(),
+  locality: z.string().nullable().optional(),
+  region: z.string().nullable().optional(),
+  country: z.string().nullable().optional(),
+  website: z.string().nullable().optional(),
 });
 export type OvertureRow = z.infer<typeof OvertureRowSchema>;
 
+/**
+ * Only light parquet leaves: bbox instead of geometry, a few address fields, one website.
+ * The worldwide scan is network-bound, so every extra column costs minutes.
+ */
 export function overtureQuery(config: z.infer<typeof ConfigSchema>): string {
   const src = `read_parquet('${config.bucket}/${config.release}/theme=places/type=place/*', hive_partitioning=1)`;
   return `
     SELECT id, names.primary AS name, basic_category, taxonomy.primary AS primary_category, confidence,
-           ST_X(geometry) AS lng, ST_Y(geometry) AS lat,
-           websites[1] AS website, phones[1] AS phone,
-           addresses[1].freeform AS street, addresses[1].locality AS locality, addresses[1].region AS region,
-           addresses[1].country AS country, addresses[1].postcode AS postcode,
-           sources[1].dataset AS dataset
+           bbox.xmin AS lng, bbox.ymin AS lat,
+           addresses[1].locality AS locality, addresses[1].region AS region, addresses[1].country AS country,
+           websites[1] AS website
     FROM ${src}
     WHERE (taxonomy.primary = 'tiki_bar'
        OR (lower(names.primary) LIKE '%tiki%' AND basic_category IN ('bar','restaurant','night_club','pub')))
@@ -61,7 +59,7 @@ export async function queryOverture(config: z.infer<typeof ConfigSchema>): Promi
   const instance = await DuckDBInstance.create(":memory:");
   const connection = await instance.connect();
   try {
-    await connection.run(`INSTALL httpfs; LOAD httpfs; INSTALL spatial; LOAD spatial; SET s3_region='${config.region}'; SET threads=${config.threads};`);
+    await connection.run(`INSTALL httpfs; LOAD httpfs; SET s3_region='${config.region}'; SET threads=${config.threads};`);
     const reader = await connection.runAndReadAll(overtureQuery(config));
     return z.array(OvertureRowSchema).parse(reader.getRowObjectsJson());
   } finally {
@@ -83,18 +81,15 @@ export function rowToObservation(row: OvertureRow, sourceId: string, observedAt:
     url: `https://explore.overturemaps.org/#17/${row.lat}/${row.lng}`,
     name: row.name,
     address: {
-      street: row.street ?? undefined,
       locality: row.locality ?? undefined,
       region: row.region ?? undefined,
-      postalCode: row.postcode ?? undefined,
       country: country && /^[A-Z]{2}$/.test(country) ? country : undefined,
     },
     coords: { lat: roundCoord(row.lat, 7), lng: roundCoord(row.lng, 7) },
     coordsPrecision: "rooftop",
-    phone: row.phone ?? undefined,
     website: safeUrl(row.website),
     statusHint: null,
-    categories: [row.basic_category, row.primary_category, row.dataset && `dataset=${row.dataset}`].filter((v): v is string => Boolean(v)),
+    categories: [row.basic_category, row.primary_category].filter((v): v is string => Boolean(v)),
     tags,
     externalIds: { overture: row.id },
     observedAt,

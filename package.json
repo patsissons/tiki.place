@@ -22,7 +22,8 @@
     "source": "tsx sync/cli.ts source",
     "validate": "tsx sync/cli.ts validate",
     "data:build": "tsx sync/cli.ts data:build",
-    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm validate"
+    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm validate",
+    "predev": "pnpm data:build"
   },
   "dependencies": {
     "@photostructure/tz-lookup": "11.7.0",

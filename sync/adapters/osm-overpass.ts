@@ -81,7 +81,8 @@ export const osmOverpassAdapter: Adapter = {
     for (const endpoint of config.endpoints) {
       try {
         const url = `${endpoint}?data=${encodeURIComponent(config.query)}`;
-        const res = await ctx.fetch(url, { accept: "application/json" });
+        // Overpass is a query API with its own usage policy (rate limits honoured via politeness); its robots.txt is aimed at crawlers.
+        const res = await ctx.fetch(url, { accept: "application/json", timeoutMs: 240_000, ignoreRobots: true });
         if (res.status !== 200 || !res.body.trimStart().startsWith("{")) throw new Error(`overpass ${endpoint} returned ${res.status}`);
         const parsed = ResponseSchema.parse(JSON.parse(res.body));
         const observedAt = ctx.now.toISOString();

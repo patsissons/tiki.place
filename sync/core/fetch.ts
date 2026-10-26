@@ -20,6 +20,10 @@ type CacheEntry = Omit<FetchResult, "fromCache">;
 export type PoliteFetchOptions = {
   /** Reuse a cached body younger than this without a request. 0 = always revalidate. */
   cacheTtlMs?: number;
+  /** Abort the request after this long (default 60 s). */
+  timeoutMs?: number;
+  /** For query APIs (e.g. Overpass) whose robots.txt targets crawlers, not clients. Rate limits still apply. */
+  ignoreRobots?: boolean;
   accept?: string;
   headers?: Record<string, string>;
 };
@@ -114,7 +118,7 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
     fs.writeFileSync(cachePath(entry.url), JSON.stringify(entry));
   };
 
-  async function rawRequest(url: string, headers: Record<string, string>): Promise<Response> {
+  async function rawRequest(url: string, headers: Record<string, string>, timeoutMs = 60_000): Promise<Response> {
     const host = new URL(url).host;
     if (requests >= maxRequests) throw new RequestBudgetExhausted(host);
     const last = lastRequestAt.get(host) ?? 0;
@@ -122,7 +126,7 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
     if (wait > 0) await sleep(wait);
     requests += 1;
     lastRequestAt.set(host, Date.now());
-    return fetchImpl(url, { headers: { "user-agent": userAgent, ...headers }, redirect: "follow" });
+    return fetchImpl(url, { headers: { "user-agent": userAgent, ...headers }, redirect: "follow", signal: AbortSignal.timeout(timeoutMs) });
   }
 
   async function allowedByRobots(url: string): Promise<boolean> {
@@ -158,13 +162,13 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
       if (cached) return { ...cached, fromCache: true };
       throw new Error(`offline and not cached: ${url}`);
     }
-    if (!(await allowedByRobots(url))) throw new RobotsDisallowed(url);
+    if (!opts.ignoreRobots && !(await allowedByRobots(url))) throw new RobotsDisallowed(url);
 
     const headers: Record<string, string> = { accept: opts.accept ?? "text/html,application/xml,application/json;q=0.9,*/*;q=0.8", ...opts.headers };
     if (cached?.headers.etag) headers["if-none-match"] = cached.headers.etag;
     if (cached?.headers["last-modified"]) headers["if-modified-since"] = cached.headers["last-modified"];
 
-    const res = await rawRequest(url, headers);
+    const res = await rawRequest(url, headers, opts.timeoutMs);
     if (res.status === 304 && cached) {
       const refreshed = { ...cached, fetchedAt: now().toISOString() };
       writeCache(refreshed);

@@ -4,14 +4,14 @@ import type { PoliteFetch } from "../core/fetch";
 import { NOW, source } from "./helpers";
 
 const rows = [
-  { id: "2a2b97d6", name: "Last Rites", basic_category: "bar", primary_category: "tiki_bar", confidence: 0.99, lng: -122.42946866, lat: 37.76789777, website: "http://www.lastritesbar.com/", phone: "+14152952965", street: "718 14th St", locality: "San Francisco", region: "CA", country: "US", postcode: "94114", dataset: "meta" },
-  { id: "66864d56", name: "Tiki Taka Sports Bar", basic_category: "bar", primary_category: "sports_bar", confidence: 0.8, lng: 1, lat: 2, website: null, phone: null, street: null, locality: "Madrid", region: null, country: "es", postcode: null, dataset: "BrightQuery" },
-  { id: "noname", name: null, basic_category: "bar", primary_category: "tiki_bar", confidence: 0.9, lng: 1, lat: 2, website: null, phone: null, street: null, locality: null, region: null, country: null, postcode: null, dataset: null },
+  { id: "2a2b97d6", name: "Last Rites", basic_category: "bar", primary_category: "tiki_bar", confidence: 0.99, lng: -122.42946866, lat: 37.76789777, website: "http://www.lastritesbar.com/", locality: "San Francisco", region: "CA", country: "US" },
+  { id: "66864d56", name: "Tiki Taka Sports Bar", basic_category: "bar", primary_category: "sports_bar", confidence: 0.8, lng: 1, lat: 2, website: null, locality: "Madrid", region: null, country: "es" },
+  { id: "noname", name: null, basic_category: "bar", primary_category: "tiki_bar", confidence: 0.9, lng: 1, lat: 2, website: null, locality: null, region: null, country: null },
 ];
 
 describe("overture adapter", () => {
   it("builds the release query", () => {
-    const q = overtureQuery({ release: "2026-10-21.0", bucket: "s3://overturemaps-us-west-2/release", region: "us-west-2", minConfidence: 0.5, threads: 4 });
+    const q = overtureQuery({ release: "2026-10-21.0", bucket: "s3://overturemaps-us-west-2/release", region: "us-west-2", minConfidence: 0.5, threads: 8 });
     expect(q).toContain("release/2026-10-21.0/theme=places/type=place/*");
     expect(q).toContain("taxonomy.primary = 'tiki_bar'");
   });

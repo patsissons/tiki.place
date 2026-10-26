@@ -75,6 +75,12 @@ function isDue(discovery: Source["schedule"]["discovery"], lastAt: string | unde
   return discovery === "daily" ? hours >= 20 : discovery === "weekly" ? hours >= 6.5 * 24 : hours >= 27 * 24;
 }
 
+/** Only sources that vouch for tiki-ness may create a candidate; name-only matches wait to corroborate. */
+function canCreate(obs: Observation, source: Source): boolean {
+  if (source.adapter === "google") return false;
+  return obs.tags.includes("tiki-directory") || obs.tags.includes("tiki-category") || source.tikiSignal >= 0.8;
+}
+
 function applyDecisions(places: Map<string, Place>, decisions: Decision[], redirects: Record<string, string>, warnings: string[]) {
   const follow = (slug: string) => redirects[slug] ?? slug;
   for (const d of decisions) {
@@ -226,6 +232,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
         byPlace.set(r.place.id, [...(byPlace.get(r.place.id) ?? []), obs]);
         continue;
       }
+      if (!canCreate(obs, source)) continue; // name-only hits only corroborate existing places
       const slug = uniqueSlug(placeSlug(obs.name, obs.address.locality), (s) => index.places.has(s) || s in redirects);
       const skeleton = newPlaceSkeleton(slug, now);
       skeleton.firstSeenAt = obs.observedAt;
