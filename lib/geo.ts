@@ -1,35 +1,33 @@
-import type { TikiBar } from "@/lib/data-schema";
+import type { Coords } from "./schema/common";
 
-export type Coordinates = {
-  lat: number;
-  lng: number;
-};
+const EARTH_RADIUS_M = 6_371_000;
 
-const EARTH_RADIUS_KM = 6371;
+const toRad = (v: number) => (v * Math.PI) / 180;
 
-function toRadians(value: number) {
-  return (value * Math.PI) / 180;
+export function distanceM(a: Coords, b: Coords): number {
+  const dLat = toRad(b.lat - a.lat);
+  const dLng = toRad(b.lng - a.lng);
+  const h =
+    Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * EARTH_RADIUS_M * Math.asin(Math.sqrt(h));
 }
 
-export function haversineDistanceKm(a: Coordinates, b: Coordinates) {
-  const dLat = toRadians(b.lat - a.lat);
-  const dLng = toRadians(b.lng - a.lng);
-  const lat1 = toRadians(a.lat);
-  const lat2 = toRadians(b.lat);
+export const distanceKm = (a: Coords, b: Coords) => distanceM(a, b) / 1000;
 
-  const haversine =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
-
-  return 2 * EARTH_RADIUS_KM * Math.asin(Math.sqrt(haversine));
+/** Grid cell key at ~1.1 km resolution, for cheap neighbour lookups. */
+export function gridKey(c: Coords, cell = 0.01): string {
+  return `${Math.floor(c.lat / cell)}:${Math.floor(c.lng / cell)}`;
 }
 
-export function findNearestBar(location: Coordinates, bars: TikiBar[]) {
-  return bars.reduce<{ bar: TikiBar; distanceKm: number } | null>((nearest, bar) => {
-    const distanceKm = haversineDistanceKm(location, bar.coordinates);
-    if (!nearest || distanceKm < nearest.distanceKm) {
-      return { bar, distanceKm };
-    }
-    return nearest;
-  }, null);
+export function neighbourKeys(c: Coords, cell = 0.01): string[] {
+  const la = Math.floor(c.lat / cell);
+  const lo = Math.floor(c.lng / cell);
+  const keys: string[] = [];
+  for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) keys.push(`${la + i}:${lo + j}`);
+  return keys;
+}
+
+export function roundCoord(v: number, places = 6): number {
+  const f = 10 ** places;
+  return Math.round(v * f) / f;
 }

@@ -1,0 +1,27 @@
+id: tikirat
+name: Tiki Rat
+homepage: https://tikirat.com
+adapter: tikirat
+status: active
+license:
+  name: Facts only, attribution
+  url: https://tikirat.com/terms
+  attribution: Listed on Tiki Rat
+trust: 0.7
+tikiSignal: 0.85
+schedule:
+  discovery: daily
+  detailRefreshDays: 30
+politeness:
+  minIntervalMs: 2000
+  maxRequestsPerRun: 50
+  userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
+config:
+  sitemap: https://tikirat.com/sitemap.xml
+  pathPrefix: /bars/
+addedAt: 2026-10-26
+notes: |-
+  Curated tiki bar directory run by a friend of the project; a collaboration was offered in person (Oct 2026).
+  Pages are client-rendered, so discovery reads only the sitemap (one request per run) and Google resolves each
+  bar. If tikirat shares an export, set config.feedUrl to hydrate address, coordinates, phone and website
+  directly. We index facts and link back; editorial text is never stored.

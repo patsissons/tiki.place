@@ -1,0 +1,172 @@
+{
+  "id": "smugglers-cove-san-francisco",
+  "name": "Smuggler's Cove",
+  "aliases": [],
+  "location": {
+    "lat": 37.7794028,
+    "lng": -122.42337219999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "650 Gough St",
+    "locality": "San Francisco",
+    "region": "California",
+    "postalCode": "94102",
+    "country": "US"
+  },
+  "formattedAddress": "650 Gough St, San Francisco, CA 94102, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJZYKHDZiAhYARXV0sNJgKAi8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T03:30:14.748Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 PM - 1:30 AM",
+      "Tuesday: 5:00 PM - 1:30 AM",
+      "Wednesday: 5:00 PM - 1:30 AM",
+      "Thursday: 5:00 PM - 1:30 AM",
+      "Friday: 5:00 PM - 1:30 AM",
+      "Saturday: 5:00 PM - 1:30 AM",
+      "Sunday: 5:00 PM - 1:30 AM"
+    ]
+  },
+  "contact": {
+    "website": "http://www.smugglerscovesf.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=3387281518562663773"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 3238,
+    "at": "2026-03-09T12:00:00.000Z"
+  },
+  "tikiConfidence": 0.05,
+  "review": {
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-03-09T12:00:00.000Z",
+    "reason": "seed record"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJZYKHDZiAhYARXV0sNJgKAi8",
+      "url": "https://maps.google.com/?cid=3387281518562663773",
+      "firstSeenAt": "2026-03-09T12:00:00.000Z",
+      "lastSeenAt": "2026-03-09T12:00:00.000Z"
+    }
+  ],
+  "firstSeenAt": "2026-03-09T12:00:00.000Z",
+  "lastSyncedAt": "2026-10-26T03:30:14.748Z",
+  "lastVerifiedAt": "2026-03-09T12:00:00.000Z"
+}

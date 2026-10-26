@@ -1,0 +1,172 @@
+{
+  "id": "shameful-tiki-room-vancouver",
+  "name": "The Shameful Tiki Room",
+  "aliases": [],
+  "location": {
+    "lat": 49.2461047,
+    "lng": -123.1010656,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4362 Main St",
+    "locality": "Vancouver",
+    "region": "British Columbia",
+    "postalCode": "V5V 3P9",
+    "country": "CA"
+  },
+  "formattedAddress": "4362 Main St, Vancouver, BC V5V 3P9, Canada",
+  "timezone": "America/Vancouver",
+  "externalIds": {
+    "google": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T03:30:14.748Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 PM - 12:00 AM",
+      "Tuesday: 5:00 PM - 12:00 AM",
+      "Wednesday: 5:00 PM - 12:00 AM",
+      "Thursday: 5:00 PM - 12:00 AM",
+      "Friday: 5:00 PM - 1:00 AM",
+      "Saturday: 5:00 PM - 1:00 AM",
+      "Sunday: 5:00 PM - 12:00 AM"
+    ]
+  },
+  "contact": {
+    "website": "http://shamefultikiroom.com/vancouver/",
+    "googleMapsUri": "https://maps.google.com/?cid=10680938080762546774"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 2094,
+    "at": "2026-03-09T12:00:00.000Z"
+  },
+  "tikiConfidence": 0.335,
+  "review": {
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-03-09T12:00:00.000Z",
+    "reason": "seed record"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+      "url": "https://maps.google.com/?cid=10680938080762546774",
+      "firstSeenAt": "2026-03-09T12:00:00.000Z",
+      "lastSeenAt": "2026-03-09T12:00:00.000Z"
+    }
+  ],
+  "firstSeenAt": "2026-03-09T12:00:00.000Z",
+  "lastSyncedAt": "2026-10-26T03:30:14.748Z",
+  "lastVerifiedAt": "2026-03-09T12:00:00.000Z"
+}

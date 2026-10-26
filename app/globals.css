@@ -1,38 +1,57 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Midnight lounge tokens. Dark is the default; light inverts the same roles. */
 :root {
-  --font-sans: "Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif;
-  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
-  --font-mono: "IBM Plex Mono", "SFMono-Regular", "Menlo", monospace;
-  --app-dvh: 100vh;
-  --safe-top: env(safe-area-inset-top, 0px);
-  --safe-right: env(safe-area-inset-right, 0px);
-  --safe-bottom: env(safe-area-inset-bottom, 0px);
-  --safe-left: env(safe-area-inset-left, 0px);
-  --background: 36 100% 97%;
-  --foreground: 180 35% 18%;
-  --card: 0 0% 100%;
-  --card-foreground: 180 35% 18%;
-  --primary: 178 52% 24%;
-  --primary-foreground: 36 100% 97%;
-  --secondary: 27 83% 62%;
-  --secondary-foreground: 180 35% 18%;
-  --muted: 42 56% 92%;
-  --muted-foreground: 180 18% 34%;
-  --accent: 50 86% 71%;
-  --accent-foreground: 180 35% 18%;
-  --destructive: 4 74% 58%;
-  --destructive-foreground: 36 100% 97%;
-  --border: 176 19% 80%;
-  --input: 176 19% 88%;
-  --ring: 27 83% 62%;
-  --radius: 1.25rem;
+  --bg: #0b1416;
+  --bg-elevated: #0f2a2e;
+  --bg-raised: #14363b;
+  --fg: #f3e9d2;
+  --fg-muted: #a9b4ae;
+  --line: rgba(243, 233, 210, 0.12);
+  --amber: #f2a93b;
+  --coral: #e0633d;
+  --seaglass: #5fc2b4;
+  --hibiscus: #d94f7a;
+  --ring: rgba(242, 169, 59, 0.55);
+  color-scheme: dark;
 }
 
-* {
-  @apply border-border;
+@media (prefers-color-scheme: light) {
+  :root:not(.dark) {
+    --bg: #f6efe0;
+    --bg-elevated: #fffaf0;
+    --bg-raised: #eee4cd;
+    --fg: #15282b;
+    --fg-muted: #5a6b68;
+    --line: rgba(21, 40, 43, 0.12);
+    --amber: #c97d12;
+    --coral: #c24d2a;
+    --seaglass: #1f8f82;
+    --hibiscus: #b8386a;
+    --ring: rgba(201, 125, 18, 0.5);
+    color-scheme: light;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-bg-raised: var(--bg-raised);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-line: var(--line);
+  --color-amber: var(--amber);
+  --color-coral: var(--coral);
+  --color-seaglass: var(--seaglass);
+  --color-hibiscus: var(--hibiscus);
+  --color-ring: var(--ring);
+  --font-display: var(--font-display), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, "SF Mono", Menlo, monospace;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
 }
 
 html,
@@ -41,29 +60,17 @@ body {
 }
 
 body {
-  @apply bg-background text-foreground antialiased;
-  background-image:
-    radial-gradient(circle at top left, rgba(245, 163, 88, 0.35), transparent 28%),
-    radial-gradient(circle at top right, rgba(41, 109, 113, 0.2), transparent 22%),
-    linear-gradient(180deg, rgba(255, 250, 240, 0.95), rgba(251, 245, 236, 0.98));
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
 }
 
-@supports (height: 100dvh) {
-  :root {
-    --app-dvh: 100dvh;
-  }
+::selection {
+  background: color-mix(in oklab, var(--amber) 35%, transparent);
 }
 
-a {
-  @apply text-inherit;
-}
-
-.mapboxgl-popup-content {
-  border-radius: 1.25rem !important;
-  padding: 0 !important;
-  box-shadow: 0 18px 60px rgba(15, 64, 65, 0.22) !important;
-}
-
-.mapboxgl-popup-close-button {
-  padding: 0.5rem 0.75rem !important;
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
 }

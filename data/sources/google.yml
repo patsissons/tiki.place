@@ -1,0 +1,22 @@
+id: google
+name: Google Places
+homepage: https://developers.google.com/maps/documentation/places/web-service
+adapter: google
+status: active
+license:
+  name: Google Maps Platform Terms
+  url: https://cloud.google.com/maps-platform/terms
+  attribution: Place details via Google
+trust: 1
+tikiSignal: 0.05
+schedule:
+  discovery: manual
+config:
+  monthlyFree:
+    essentials: 10000
+    pro: 5000
+    enterprise: 1000
+    textSearch: 5000
+  textSearchDailyCap: 20
+addedAt: 2026-03-09
+notes: Verifier and enricher. Never used for open-ended discovery; only resolves and refreshes places other sources found.

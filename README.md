@@ -1,58 +1,44 @@
 # tiki.place
 
-Map-first web app for discovering tiki bars around the world.
+An open, continuously verified atlas of tiki bars. The database lives in this repository as plain JSON and YAML; a daily GitHub Action keeps it fresh; the Next.js site renders it.
 
-## Stack
+## How the data works
 
-- Next.js App Router
-- TypeScript + React
-- Tailwind CSS + shadcn-style components
-- Mapbox GL JS
-- YAML-backed frozen dataset in `data.yml`
-- GitHub issues + GitHub Actions for dataset change management
+```
+data/sources/*.yml          what we read and how politely
+data/observations/*.jsonl   what each source said (normalized, one line per record)
+data/places/*.json          canonical places with per-field provenance
+data/decisions.yml          owner judgments, replayed on every sync
+data/ledger/google.json     Google Places API budget
+```
 
-## Local setup
+Two tiers:
 
-1. Copy `.env.example` to `.env.local`.
-2. Fill in the required keys:
-   - `NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN`
-   - `GOOGLE_PLACES_API_KEY`
-   - `GITHUB_REPO_OWNER`
-   - `GITHUB_REPO_NAME`
-   - `GITHUB_ISSUE_TOKEN`
-   - `CLOUDFLARE_TURNSTILE_SECRET_KEY`
-   - `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
-   - `UPSTASH_REDIS_REST_URL`
-   - `UPSTASH_REDIS_REST_TOKEN`
-3. Install dependencies with `pnpm install`.
-4. Start the app with `pnpm dev`.
+- **Discovery (manual, agentic).** A Claude Code session using `.claude/skills/discover-sources` finds and evaluates sources, writes adapters against fixtures, runs dry runs, and triages the review queue with `pnpm review`. Its output is code plus decision data, never hand-edited place files.
+- **Sync (scheduled, deterministic).** `.github/workflows/sync.yml` runs `pnpm sync run` daily: re-read due sources, resolve observations to places, merge by precedence, replay decisions, score tiki confidence, derive status, spend the Google budget on resolution and verification, validate, commit.
 
-## Scripts
+Sources today: Google Places (verifier) and Tiki Rat (directory, with attribution). Planned: Tiki Wanderlust, OpenStreetMap, Overture Maps, user submissions.
 
-- `pnpm dev`: run the local app
-- `pnpm build`: production build
-- `pnpm lint`: lint the repo
-- `pnpm typecheck`: TypeScript check
-- `pnpm test`: unit/integration tests
-- `pnpm test:e2e`: Playwright tests
-- `pnpm automation:new-bar`: process a labeled new-bar issue
-- `pnpm automation:update-bar`: refresh an existing record from a labeled issue
-- `pnpm automation:report-bad`: research a bad-record report and comment a recommendation
-- `pnpm automation:refresh-records`: weekly/manual bulk refresh of `data.yml`
+## Commands
 
-## Data flow
+```
+pnpm dev                     # site
+pnpm sync run [--source id] [--dry-run] [--offline] [--skip-verify] [--force]
+pnpm review list|show|approve|reject|merge|link|pin|resolve
+pnpm source list|add|pause|resume|retire
+pnpm validate                # every data file parses, invariants hold, canonical form
+pnpm data:build              # public/data/{places.json,places.geojson,manifest.json}
+pnpm check                   # lint + typecheck + test + validate
+```
 
-- Public users explore bars from `data.yml`.
-- New bars, refresh requests, and bad-record reports are submitted through in-app forms or GitHub issue forms.
-- GitHub Actions process labeled issues.
-- Successful automated changes update `data.yml` directly on `main`.
-- Bad-record reports always stop at a recommendation comment for human review.
+## Setup
 
-## Verification
+1. `cp .env.example .env.local` and fill in the Mapbox token (and the Google key if you will run sync locally).
+2. `pnpm install`
+3. `pnpm dev`
 
-Current local verification:
+## Principles
 
-- `pnpm typecheck`
-- `pnpm test`
-- `pnpm build`
-- `pnpm lint`
+- Facts only, with attribution. We store names, addresses, coordinates, contact details, hours and status, and link to where each came from. We never copy a source's editorial text.
+- Polite by default: sitemaps and open data over crawling, conditional requests, per-host spacing, robots.txt.
+- Nothing is published without a location and either corroboration or an owner decision. Owner decisions are final; automation never demotes.

@@ -1,0 +1,23 @@
+id: osm
+name: OpenStreetMap
+homepage: https://www.openstreetmap.org
+adapter: osm-overpass
+status: active
+license:
+  name: ODbL 1.0
+  url: https://www.openstreetmap.org/copyright
+  attribution: © OpenStreetMap contributors
+trust: 0.5
+tikiSignal: 0.4
+schedule:
+  discovery: weekly
+politeness:
+  minIntervalMs: 5000
+  maxRequestsPerRun: 4
+  userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
+config: {}
+addedAt: 2026-10-26
+notes: |-
+  One Overpass query per week: theme=tiki plus bar/pub/restaurant/nightclub/cafe with "tiki" in the name.
+  Noisy on its own (tiki huts, "Tiki Taka" bars), so it never auto-approves a place by itself; it corroborates
+  directories and supplies coordinates, websites and OSM ids.

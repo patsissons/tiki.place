@@ -1,0 +1,172 @@
+{
+  "id": "beachbum-berrys-latitude-29-new-orleans",
+  "name": "Beachbum Berry's Latitude 29",
+  "aliases": [],
+  "location": {
+    "lat": 29.953715000000003,
+    "lng": -90.06513410000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "321 N Peters St",
+    "locality": "New Orleans",
+    "region": "Louisiana",
+    "postalCode": "70130",
+    "country": "US"
+  },
+  "formattedAddress": "321 N Peters St, New Orleans, LA 70130, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "google": "ChIJsTgchxKmIIYRyxSDNSC3cAk"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T03:30:14.748Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 - 10:00 PM",
+      "Tuesday: 4:00 - 10:00 PM",
+      "Wednesday: 4:00 - 10:00 PM",
+      "Thursday: 4:00 - 10:00 PM",
+      "Friday: 4:00 - 11:00 PM",
+      "Saturday: 4:00 - 11:00 PM",
+      "Sunday: 4:00 - 10:00 PM"
+    ]
+  },
+  "contact": {
+    "website": "http://latitude29nola.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=680244892697564363"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 1348,
+    "at": "2026-03-09T12:00:00.000Z"
+  },
+  "tikiConfidence": 0.05,
+  "review": {
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-03-09T12:00:00.000Z",
+    "reason": "seed record"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJsTgchxKmIIYRyxSDNSC3cAk",
+      "url": "https://maps.google.com/?cid=680244892697564363",
+      "firstSeenAt": "2026-03-09T12:00:00.000Z",
+      "lastSeenAt": "2026-03-09T12:00:00.000Z"
+    }
+  ],
+  "firstSeenAt": "2026-03-09T12:00:00.000Z",
+  "lastSyncedAt": "2026-10-26T03:30:14.748Z",
+  "lastVerifiedAt": "2026-03-09T12:00:00.000Z"
+}
