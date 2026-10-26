@@ -78,9 +78,12 @@ export function DetailPanel({ place, onBack }: { place: PublishedPlace; onBack: 
 
         <SourcesFooter sources={place.sources} lastVerifiedAt={place.lastVerifiedAt} className="mt-6" />
 
-        <p className="mt-6 text-sm">
+        <p className="mt-6 flex flex-wrap gap-4 text-sm">
           <Link href={`/places/${place.id}`} className="inline-flex items-center gap-1 text-seaglass hover:underline">
             Permalink <ExternalLink className="size-3.5" />
+          </Link>
+          <Link href={`/submit?place=${place.id}`} className="text-fg-muted hover:text-fg hover:underline">
+            Suggest a correction
           </Link>
         </p>
       </div>

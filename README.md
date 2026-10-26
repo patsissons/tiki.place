@@ -17,7 +17,7 @@ Two tiers:
 - **Discovery (manual, agentic).** A Claude Code session using `.claude/skills/discover-sources` finds and evaluates sources, writes adapters against fixtures, runs dry runs, and triages the review queue with `pnpm review`. Its output is code plus decision data, never hand-edited place files.
 - **Sync (scheduled, deterministic).** `.github/workflows/sync.yml` runs `pnpm sync run` daily: re-read due sources, resolve observations to places, merge by precedence, replay decisions, score tiki confidence, derive status, spend the Google budget on resolution and verification, validate, commit.
 
-Sources today: Google Places (verifier) and Tiki Rat (directory, with attribution). Planned: Tiki Wanderlust, OpenStreetMap, Overture Maps, user submissions.
+Sources today: Google Places (verifier), Tiki Rat (directory, attribution), OpenStreetMap (Overpass, weekly), Overture Maps (monthly DuckDB snapshot) and reader submissions (GitHub issues filed from `/submit`). Tiki Wanderlust sits behind a Cloudflare challenge and is not automated.
 
 ## Commands
 

@@ -20,6 +20,7 @@ describe("overture adapter", () => {
     expect(o).toMatchObject({ sourceRef: "2a2b97d6", name: "Last Rites", tags: ["tiki-category", "bar-category"], address: { locality: "San Francisco", region: "CA", country: "US" }, externalIds: { overture: "2a2b97d6" } });
     expect(rowToObservation(rows[1]!, "overture", NOW.toISOString())?.tags).toEqual(["tiki-name", "bar-category"]);
     expect(rowToObservation(rows[2]!, "overture", NOW.toISOString())).toBeNull();
+    expect(rowToObservation({ ...rows[0]!, region: "", locality: " " }, "overture", NOW.toISOString())?.address).toEqual({ country: "US" });
   });
   it("discover uses injected rows (no DuckDB in tests)", async () => {
     const src = source({ id: "overture", adapter: "overture", config: { release: "2026-10-21.0", __rows: rows } });

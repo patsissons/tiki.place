@@ -68,21 +68,23 @@ export async function queryOverture(config: z.infer<typeof ConfigSchema>): Promi
   }
 }
 
+const nz = (v: string | null | undefined) => (v && v.trim() ? v.trim() : undefined);
+
 export function rowToObservation(row: OvertureRow, sourceId: string, observedAt: string): Observation | null {
-  if (!row.name) return null;
+  if (!nz(row.name)) return null;
   const tags: ObservationTag[] = [];
   if (row.primary_category === "tiki_bar") tags.push("tiki-category");
-  if (looksTiki(row.name)) tags.push("tiki-name");
+  if (looksTiki(row.name!)) tags.push("tiki-name");
   if (["bar", "restaurant", "night_club", "pub"].includes(row.basic_category ?? "")) tags.push("bar-category");
-  const country = row.country?.toUpperCase();
+  const country = nz(row.country)?.toUpperCase();
   return makeObservation({
     sourceId,
     sourceRef: row.id,
     url: `https://explore.overturemaps.org/#17/${row.lat}/${row.lng}`,
-    name: row.name,
+    name: nz(row.name)!,
     address: {
-      locality: row.locality ?? undefined,
-      region: row.region ?? undefined,
+      locality: nz(row.locality),
+      region: nz(row.region),
       country: country && /^[A-Z]{2}$/.test(country) ? country : undefined,
     },
     coords: { lat: roundCoord(row.lat, 7), lng: roundCoord(row.lng, 7) },

@@ -127,6 +127,10 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
           {p.aliases.length > 0 && <p className="mt-8 text-sm text-fg-muted">Also listed as {p.aliases.join(", ")}.</p>}
 
           <SourcesFooter sources={p.sources} lastVerifiedAt={p.lastVerifiedAt} className="mt-10 border-t border-line pt-6" />
+          <p className="mt-4 text-sm text-fg-muted">
+            Something wrong?{" "}
+            <Link href={`/submit?place=${p.id}`} className="text-seaglass hover:underline">Suggest a correction</Link>.
+          </p>
         </div>
         <aside className="lg:sticky lg:top-20 lg:self-start">
           <div className="overflow-hidden rounded-2xl border border-line">
