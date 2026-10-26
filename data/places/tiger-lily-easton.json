@@ -1,0 +1,183 @@
+{
+  "id": "tiger-lily-easton",
+  "name": "Tiger Lily",
+  "aliases": [],
+  "location": {
+    "lat": 38.7774698,
+    "lng": -76.0759676,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "206 North Washington Street",
+    "locality": "Easton",
+    "region": "Maryland",
+    "postalCode": "21601",
+    "country": "US"
+  },
+  "formattedAddress": "206 N Washington St, Easton, MD 21601, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "720f746e-b676-4293-b97e-8050f68737b6",
+    "google": "ChIJQzZcYERBuIkRuZbJs6DW5OY"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 10:00 PM",
+      "Tuesday: 11:00 AM – 10:00 PM",
+      "Wednesday: 11:00 AM – 10:00 PM",
+      "Thursday: 11:00 AM – 12:00 AM",
+      "Friday: 11:00 AM – 12:00 AM",
+      "Saturday: 11:00 AM – 12:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 410-690-4602",
+    "website": "http://tigerlilyeaston.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16637658909112899257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 330,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJQzZcYERBuIkRuZbJs6DW5OY",
+      "url": "https://maps.google.com/?cid=16637658909112899257&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "720f746e-b676-4293-b97e-8050f68737b6",
+      "url": "https://explore.overturemaps.org/#17/38.77745056152344/-76.07583618164062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

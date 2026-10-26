@@ -1,0 +1,90 @@
+{
+  "id": "freaky-tiki-lounge-marana",
+  "name": "Freaky Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 32.465229,
+    "lng": -111.2033081,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Marana",
+    "region": "AZ",
+    "country": "US"
+  },
+  "timezone": "America/Phoenix",
+  "externalIds": {
+    "overture": "6fd291ea-597c-46bb-a8b0-0ade16d2b0f0"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "6fd291ea-597c-46bb-a8b0-0ade16d2b0f0",
+      "url": "https://explore.overturemaps.org/#17/32.46522903442383/-111.20330810546875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJB9-W36AnTIYRtdxEs3rzi1Y",
+        "name": "Freaky Tiki",
+        "distanceM": 1337821,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJQbK7aM4B2YgRsEdjzN8G4xs",
+        "name": "Freaky Tiki Boat Charters",
+        "distanceM": 3084536,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJ2XffDttv1oYRX_VpE6OolPs",
+        "name": "Kon Tiki Restaurant & Lounge",
+        "distanceM": 39694,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJt1ARtCYI1oYR9ZCr-IFiB2Y",
+        "name": "Ignite",
+        "distanceM": 10838,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

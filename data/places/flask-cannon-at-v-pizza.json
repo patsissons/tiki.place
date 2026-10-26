@@ -1,0 +1,63 @@
+{
+  "id": "flask-cannon-at-v-pizza",
+  "name": "Flask Cannon At V Pizza",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "flask-cannon-at-v-pizza"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "flask-cannon-at-v-pizza",
+      "url": "https://tikirat.com/bars/flask-cannon-at-v-pizza",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJXy-J3QZJ5IgROoWMjCrN12E",
+        "name": "V Pizza + Flask & Cannon",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJGxoynOkv5IgR9wHkM3qDnzw",
+        "name": "V Pizza + Flask & Cannon",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJsTpp3QZJ5IgRPDlZ6An6aiQ",
+        "name": "Flask and Cannon",
+        "distanceM": null,
+        "nameSim": 0.769
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

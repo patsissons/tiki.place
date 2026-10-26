@@ -1,0 +1,63 @@
+{
+  "id": "modernist-craft-cocktail-bar",
+  "name": "Modernist Craft Cocktail Bar",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "modernist-craft-cocktail-bar"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "modernist-craft-cocktail-bar",
+      "url": "https://tikirat.com/bars/modernist-craft-cocktail-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+        "name": "Tiki Bar at the Waldorf",
+        "distanceM": null,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
+        "name": "ConTiki Cabana",
+        "distanceM": null,
+        "nameSim": 0.114
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

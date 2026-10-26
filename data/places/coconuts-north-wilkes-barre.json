@@ -1,0 +1,96 @@
+{
+  "id": "coconuts-north-wilkes-barre",
+  "name": "Coconuts North",
+  "aliases": [],
+  "location": {
+    "lat": 41.2457314,
+    "lng": -75.9030533,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Wilkes-Barre",
+    "region": "PA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "653df9cb-7361-4aa6-b078-9a759546d4ed"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "653df9cb-7361-4aa6-b078-9a759546d4ed",
+      "url": "https://explore.overturemaps.org/#17/41.245731353759766/-75.9030532836914",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJac58wlp9AIkRK3srpFqzjDE",
+        "name": "Coconuts Tiki Bar",
+        "distanceM": 860742,
+        "nameSim": 0.706
+      },
+      {
+        "googleId": "ChIJwdp5-y4A2YgRAyE-5FGQ6xI",
+        "name": "Coconuts",
+        "distanceM": 1725981,
+        "nameSim": 0.706
+      },
+      {
+        "googleId": "ChIJw9KmMV8axYkRCQMDw0QnN90",
+        "name": "Chacko's Memory Lane Lounge",
+        "distanceM": 2724,
+        "nameSim": 0.074
+      },
+      {
+        "googleId": "ChIJaYXSMF8axYkR5QIVuk-dtPE",
+        "name": "Chacko's Family Bowling Center",
+        "distanceM": 2726,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJaUNY7BQbxYkR5iHVO-u_SM4",
+        "name": "The Canning House",
+        "distanceM": 3752,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

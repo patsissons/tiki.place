@@ -1,0 +1,194 @@
+{
+  "id": "tiki-underground",
+  "name": "Tiki Underground",
+  "aliases": [],
+  "location": {
+    "lat": 41.1305179,
+    "lng": -81.484128,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1832 Front Street",
+    "locality": "Cuyahoga Falls",
+    "region": "Ohio",
+    "postalCode": "44221",
+    "country": "US"
+  },
+  "formattedAddress": "1832 Front St, Cuyahoga Falls, OH 44221, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "tiki-underground",
+    "google": "ChIJ2xsBVeogMYgRSHh3NPM0qiQ",
+    "overture": "2dfb0c5a-76b0-4268-8c6c-5c0203156d3a",
+    "osm": "way/1218800858"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 – 11:00 PM",
+      "Tuesday: 4:00 – 11:00 PM",
+      "Wednesday: 4:00 – 11:00 PM",
+      "Thursday: 4:00 – 11:00 PM",
+      "Friday: 4:00 PM – 12:00 AM",
+      "Saturday: 2:00 PM – 12:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "website": "http://www.tikiunderground.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=2641982350568159304&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 887,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.983,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ2xsBVeogMYgRSHh3NPM0qiQ",
+      "url": "https://maps.google.com/?cid=2641982350568159304&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/1218800858",
+      "url": "https://www.openstreetmap.org/way/1218800858",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "2dfb0c5a-76b0-4268-8c6c-5c0203156d3a",
+      "url": "https://explore.overturemaps.org/#17/41.13051223754883/-81.48407745361328",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tiki-underground",
+      "url": "https://tikirat.com/bars/tiki-underground",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "thermes-tiki-bar-resort-homestead",
+  "name": "Thermes Tiki Bar Resort",
+  "aliases": [],
+  "location": {
+    "lat": 25.5046616,
+    "lng": -80.4638596,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Homestead",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4c80eb07-979c-4a3b-a2b4-47677c024c99"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4c80eb07-979c-4a3b-a2b4-47677c024c99",
+      "url": "https://explore.overturemaps.org/#17/25.504661560058594/-80.46385955810547",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": []
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

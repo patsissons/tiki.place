@@ -1,0 +1,96 @@
+{
+  "id": "graystone-lounge-tiki-bar-silverton",
+  "name": "Graystone Lounge Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 45.005497,
+    "lng": -122.7828522,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Silverton",
+    "region": "OR",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "ee553a72-0945-4a24-b502-3a51711dc127"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.graystonelounge.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ee553a72-0945-4a24-b502-3a51711dc127",
+      "url": "https://explore.overturemaps.org/#17/45.005496978759766/-122.78285217285156",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJh7S6Z37jv1QRtv7BzVW8J-A",
+        "name": "Fireside Lounge",
+        "distanceM": 1604,
+        "nameSim": 0.353
+      },
+      {
+        "googleId": "ChIJs0o4D5rjv1QRCwmfWtQbQJs",
+        "name": "The Gallon House",
+        "distanceM": 80,
+        "nameSim": 0.194
+      },
+      {
+        "googleId": "ChIJnaIMBHrjv1QRTDx8IZkaP6c",
+        "name": "Rum Runner",
+        "distanceM": 0,
+        "nameSim": 0.143
+      },
+      {
+        "googleId": "ChIJT8QyGfDjv1QREgkAhhwcY_Y",
+        "name": "Stage 207",
+        "distanceM": 3,
+        "nameSim": 0.143
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

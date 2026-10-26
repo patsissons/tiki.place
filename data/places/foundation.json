@@ -1,0 +1,196 @@
+{
+  "id": "foundation",
+  "name": "Foundation",
+  "aliases": [],
+  "location": {
+    "lat": 43.067975000000004,
+    "lng": -87.900151,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2718 North Bremen Street",
+    "locality": "Milwaukee",
+    "region": "Wisconsin",
+    "postalCode": "53212",
+    "country": "US"
+  },
+  "formattedAddress": "2718 N Bremen St, Milwaukee, WI 53212, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "foundation",
+    "google": "ChIJlRRF8yUZBYgRrwqIsTA_0tk",
+    "overture": "ff1793a0-2561-4be5-b3cb-1f8ced5c7743"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 PM – 12:00 AM",
+      "Tuesday: 4:00 PM – 12:00 AM",
+      "Wednesday: 4:00 PM – 12:00 AM",
+      "Thursday: 4:00 PM – 12:00 AM",
+      "Friday: 4:00 PM – 2:00 AM",
+      "Saturday: 4:00 PM – 2:00 AM",
+      "Sunday: 4:00 PM – 12:00 AM"
+    ]
+  },
+  "contact": {
+    "website": "http://www.foundationbar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=15695677129709062831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 834,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.964,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJlRRF8yUZBYgRrwqIsTA_0tk",
+      "url": "https://maps.google.com/?cid=15695677129709062831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ff1793a0-2561-4be5-b3cb-1f8ced5c7743",
+      "url": "https://explore.overturemaps.org/#17/43.06797790527344/-87.9002456665039",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "foundation",
+      "url": "https://tikirat.com/bars/foundation",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

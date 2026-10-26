@@ -1,0 +1,102 @@
+{
+  "id": "sippin-santa-on-main-las-vegas",
+  "name": "Sippin Santa On Main",
+  "aliases": [],
+  "location": {
+    "lat": 36.1715584,
+    "lng": -115.1462708,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Las Vegas",
+    "region": "NV",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "b45fa707-8e06-4388-aab0-2816e77b464a"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://thesanddollarlv.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b45fa707-8e06-4388-aab0-2816e77b464a",
+      "url": "https://explore.overturemaps.org/#17/36.17155838012695/-115.14627075195312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ75HMpXXEyIARAWC_nxdWNh0",
+        "name": "The MINT Tavern",
+        "distanceM": 3349,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJO0YngRXEyIARlsqpTeTqsyc",
+        "name": "Rosina Cocktail Lounge",
+        "distanceM": 5626,
+        "nameSim": 0.235
+      },
+      {
+        "googleId": "ChIJP_YNmqHDyIARtqyg5oGF5xw",
+        "name": "Plaza Hotel & Casino",
+        "distanceM": 59,
+        "nameSim": 0.188
+      },
+      {
+        "googleId": "ChIJa-e5JBzEyIARDaLHteBh5tE",
+        "name": "The Sand Dollar Lounge",
+        "distanceM": 6177,
+        "nameSim": 0.167
+      },
+      {
+        "googleId": "ChIJJRcZGwDPyIARwt_GIGaIisE",
+        "name": "BAD ELF Pop-Up Bar",
+        "distanceM": 14860,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

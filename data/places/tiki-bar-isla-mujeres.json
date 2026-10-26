@@ -1,0 +1,95 @@
+{
+  "id": "tiki-bar-isla-mujeres",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 21.2319317,
+    "lng": -86.8024445,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Isla Mujeres",
+    "country": "MX"
+  },
+  "timezone": "America/Cancun",
+  "externalIds": {
+    "overture": "04a6ff6b-07b4-4c77-8bf2-84346fef1b67"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "04a6ff6b-07b4-4c77-8bf2-84346fef1b67",
+      "url": "https://explore.overturemaps.org/#17/21.231931686401367/-86.80244445800781",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJE7qU4Uo414gRk4jTMMkyMS4",
+        "name": "Tiki Bar",
+        "distanceM": 755985,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJqasxZIUrTI8R4dKTCNgXGn8",
+        "name": "Tiki Island Bar Cancún",
+        "distanceM": 11199,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJ0W7o-gAtTI8RtmoincWgdrg",
+        "name": "The Tiki Mug - Tiki Bar & Tropikal Food",
+        "distanceM": 8969,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ79tzpQEwTI8R1kB4uUEnRdA",
+        "name": "Tiny Gecko Bar",
+        "distanceM": 6526,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJHfQicWYlTI8RO7a99PPOZnw",
+        "name": "Icebar",
+        "distanceM": 7258,
+        "nameSim": 0.364
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

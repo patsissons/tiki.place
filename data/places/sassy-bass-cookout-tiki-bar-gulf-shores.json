@@ -1,0 +1,106 @@
+{
+  "id": "sassy-bass-cookout-tiki-bar-gulf-shores",
+  "name": "Sassy Bass Cookout Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.2373678,
+    "lng": -87.87227519999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "8818 Alabama 180",
+    "locality": "Gulf Shores",
+    "region": "Alabama",
+    "postalCode": "36542",
+    "country": "US"
+  },
+  "formattedAddress": "8818 AL-180 Ste C, Gulf Shores, AL 36542, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "94e832ca-da3f-476d-af6d-ec26112410ac",
+    "google": "ChIJZQ0QDhUjmogR8trBfyknVnE"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 251-948-3052",
+    "website": "https://www.sassybass.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=8166758033473526514&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 81,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJZQ0QDhUjmogR8trBfyknVnE",
+      "url": "https://maps.google.com/?cid=8166758033473526514&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "94e832ca-da3f-476d-af6d-ec26112410ac",
+      "url": "https://explore.overturemaps.org/#17/30.23737907409668/-87.8722915649414",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

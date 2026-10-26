@@ -1,0 +1,190 @@
+{
+  "id": "pacific-cocktail-haven-pch",
+  "name": "Pacific Cocktail Haven",
+  "aliases": [
+    "Pacific Cocktail Haven Pch"
+  ],
+  "location": {
+    "lat": 37.789429399999996,
+    "lng": -122.4095652,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "550 Sutter Street",
+    "locality": "San Francisco",
+    "region": "California",
+    "postalCode": "94108",
+    "country": "US"
+  },
+  "formattedAddress": "550 Sutter St, San Francisco, CA 94108, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "pacific-cocktail-haven-pch",
+    "google": "ChIJi2fwgI6AhYARglQgXX2A3WU"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 PM – 12:00 AM",
+      "Tuesday: 5:00 PM – 12:00 AM",
+      "Wednesday: 5:00 PM – 12:00 AM",
+      "Thursday: 5:00 PM – 12:00 AM",
+      "Friday: 5:00 PM – 12:00 AM",
+      "Saturday: 5:00 PM – 12:00 AM",
+      "Sunday: 5:00 PM – 12:00 AM"
+    ]
+  },
+  "contact": {
+    "website": "http://www.pacificcocktailsf.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=7340164243605443714&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 1058,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.857,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJi2fwgI6AhYARglQgXX2A3WU",
+      "url": "https://maps.google.com/?cid=7340164243605443714&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "pacific-cocktail-haven-pch",
+      "url": "https://tikirat.com/bars/pacific-cocktail-haven-pch",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

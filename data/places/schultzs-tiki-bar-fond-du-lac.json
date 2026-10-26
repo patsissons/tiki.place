@@ -1,0 +1,96 @@
+{
+  "id": "schultzs-tiki-bar-fond-du-lac",
+  "name": "Schultz's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.7712593,
+    "lng": -88.4126587,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fond du Lac",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "ce24bb67-e35b-439a-adeb-f5f7bceb7ab3"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ce24bb67-e35b-439a-adeb-f5f7bceb7ab3",
+      "url": "https://explore.overturemaps.org/#17/43.77125930786133/-88.41265869140625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJhX_xK0CKA4gR2KxhOSYXkCc",
+        "name": "Schmitty's Bar & Grill",
+        "distanceM": 3248,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJ8z-kqnF1BIgRO0DJaH6uxww",
+        "name": "Sully's of Fond du Lac, Inc.",
+        "distanceM": 2822,
+        "nameSim": 0.087
+      },
+      {
+        "googleId": "ChIJR8vOXWKKA4gRfdbGmMEI93c",
+        "name": "Salty's Seafood & Spirits",
+        "distanceM": 3185,
+        "nameSim": 0.077
+      },
+      {
+        "googleId": "ChIJiW8xhYiJA4gReoms0cMgwQE",
+        "name": "Sunset On The Water",
+        "distanceM": 4236,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJS4L6roiJA4gRScWjYQdLotI",
+        "name": "Three Sheets",
+        "distanceM": 4255,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

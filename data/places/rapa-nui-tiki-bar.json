@@ -1,0 +1,114 @@
+{
+  "id": "rapa-nui-tiki-bar",
+  "name": "Rapa Nui Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 44.046580399999996,
+    "lng": -121.31464840000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "360 Southwest Powerhouse Drive",
+    "locality": "Bend",
+    "region": "Oregon",
+    "postalCode": "97702",
+    "country": "US"
+  },
+  "formattedAddress": "360 SW Powerhouse Dr, Bend, OR 97702, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "rapa-nui-tiki-bar",
+    "google": "ChIJJyhhm13HuFQRbjuRSUOYd-E",
+    "overture": "8f8aae3a-5494-4fff-8e80-bc4dbfca9812"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 541-668-6611",
+    "website": "https://rapanuitiki.webflow.io/",
+    "googleMapsUri": "https://maps.google.com/?cid=16246621595526839150&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 236,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.975,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJJyhhm13HuFQRbjuRSUOYd-E",
+      "url": "https://maps.google.com/?cid=16246621595526839150&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "8f8aae3a-5494-4fff-8e80-bc4dbfca9812",
+      "url": "https://explore.overturemaps.org/#17/44.04663848876953/-121.31454467773438",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "rapa-nui-tiki-bar",
+      "url": "https://tikirat.com/bars/rapa-nui-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "fongs-pizza-ankeny",
+  "name": "Fongs Pizza Ankeny",
+  "aliases": [],
+  "location": {
+    "lat": 41.7011566,
+    "lng": -93.6156921,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ankeny",
+    "region": "IA",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "68cd7502-1af8-4848-8319-dd9b0b622bc4"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://fongspizza.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "68cd7502-1af8-4848-8319-dd9b0b622bc4",
+      "url": "https://explore.overturemaps.org/#17/41.70115661621094/-93.61569213867188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJJ6CL8SiF7ocRvKSO8cMKwyw",
+        "name": "Fong's Pizza Ankeny",
+        "distanceM": 1302,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

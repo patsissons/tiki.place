@@ -1,0 +1,183 @@
+{
+  "id": "dlish-at-the-beach-ewa-beach",
+  "name": "D'lish at the beach",
+  "aliases": [],
+  "location": {
+    "lat": 21.3181704,
+    "lng": -157.97650339999998,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5440 Edgewater Drive",
+    "locality": "Ewa Beach",
+    "region": "Hawaii",
+    "postalCode": "96706",
+    "country": "US"
+  },
+  "formattedAddress": "5440 Edgewater Dr, Ewa Beach, HI 96706, USA",
+  "timezone": "Pacific/Honolulu",
+  "externalIds": {
+    "overture": "60bbec20-228e-4b90-a798-a82dcfd973f8",
+    "google": "ChIJ_SzAMK5lAHwR2AJp9QbkR1I"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0800"
+        },
+        "close": {
+          "day": 0,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1630"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1630"
+        },
+        "close": {
+          "day": 3,
+          "time": "1930"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1630"
+        },
+        "close": {
+          "day": 4,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1630"
+        },
+        "close": {
+          "day": 5,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0800"
+        },
+        "close": {
+          "day": 6,
+          "time": "2100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:30 – 8:00 PM",
+      "Wednesday: 4:30 – 7:30 PM",
+      "Thursday: 4:30 – 8:00 PM",
+      "Friday: 4:30 – 9:00 PM",
+      "Saturday: 8:00 AM – 9:00 PM",
+      "Sunday: 8:00 AM – 3:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 808-371-2384",
+    "website": "https://www.facebook.com/Dlishatthebeachkapilina/",
+    "googleMapsUri": "https://maps.google.com/?cid=5928958152994783960&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 282,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_SzAMK5lAHwR2AJp9QbkR1I",
+      "url": "https://maps.google.com/?cid=5928958152994783960&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "60bbec20-228e-4b90-a798-a82dcfd973f8",
+      "url": "https://explore.overturemaps.org/#17/21.318269729614258/-157.97642517089844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

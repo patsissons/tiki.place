@@ -1,0 +1,72 @@
+{
+  "id": "daves-tiki-bar-and-lounge-leechburg",
+  "name": "Dave’s Tiki Bar & Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 40.6203117,
+    "lng": -79.6449432,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Leechburg",
+    "region": "PA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "efb416c9-298b-4c7e-a10b-623dfd14cbcc"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "efb416c9-298b-4c7e-a10b-623dfd14cbcc",
+      "url": "https://explore.overturemaps.org/#17/40.62031173706055/-79.64494323730469",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJR4azFB67NIgR_WCxN4Fp66s",
+        "name": "Dizzy's Place",
+        "distanceM": 3303,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

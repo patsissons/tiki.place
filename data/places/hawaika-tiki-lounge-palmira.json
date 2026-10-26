@@ -1,0 +1,96 @@
+{
+  "id": "hawaika-tiki-lounge-palmira",
+  "name": "Hawaika Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 3.5474511,
+    "lng": -76.29465239999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "28b-24 Calle 57",
+    "locality": "Palmira",
+    "region": "Valle del Cauca",
+    "postalCode": "763532",
+    "country": "CO"
+  },
+  "formattedAddress": "Cl. 57 #28b-24, Palmira, Valle del Cauca, Colombia",
+  "timezone": "America/Bogota",
+  "externalIds": {
+    "overture": "94187606-6a8d-433a-a933-81f58efb19d8",
+    "google": "ChIJB8PJxu4FOo4R6B-dPyRapZw"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+57 318 6275128",
+    "googleMapsUri": "https://maps.google.com/?cid=11287527152806600680&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 4,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJB8PJxu4FOo4R6B-dPyRapZw",
+      "url": "https://maps.google.com/?cid=11287527152806600680&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "94187606-6a8d-433a-a933-81f58efb19d8",
+      "url": "https://explore.overturemaps.org/#17/3.547398328781128/-76.29459381103516",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

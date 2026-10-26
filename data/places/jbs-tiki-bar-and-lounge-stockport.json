@@ -1,0 +1,72 @@
+{
+  "id": "jbs-tiki-bar-and-lounge-stockport",
+  "name": "Jb's Tiki Bar and lounge",
+  "aliases": [],
+  "location": {
+    "lat": 53.4151917,
+    "lng": -2.1783173,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Stockport",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "3f9318ba-70a5-4aba-b483-955d9e6e6bb6"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3f9318ba-70a5-4aba-b483-955d9e6e6bb6",
+      "url": "https://explore.overturemaps.org/#17/53.415191650390625/-2.1783173084259033",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJMaw5NvnoeUgRQCfDTtB2e4s",
+        "name": "Berretto Lounge",
+        "distanceM": 1144,
+        "nameSim": 0.323
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

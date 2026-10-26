@@ -1,0 +1,138 @@
+{
+  "id": "cliff-dive-sydney",
+  "name": "The Cliff Dive",
+  "aliases": [],
+  "location": {
+    "lat": -33.8779706,
+    "lng": 151.2141309,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "18 Oxford Street",
+    "locality": "Darlinghurst",
+    "region": "New South Wales",
+    "postalCode": "2010",
+    "country": "AU"
+  },
+  "formattedAddress": "Basement, 16/18 Oxford St, Darlinghurst NSW 2010, Australia",
+  "timezone": "Australia/Sydney",
+  "externalIds": {
+    "overture": "1e93965f-bbf1-4fc3-aff9-b621557c2aeb",
+    "google": "ChIJOcC_AReuEmsR2b4rUmLUgn4"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 5,
+          "time": "2000"
+        },
+        "close": {
+          "day": 6,
+          "time": "0500"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "2000"
+        },
+        "close": {
+          "day": 0,
+          "time": "0500"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 8:00 PM – 5:00 AM",
+      "Saturday: 8:00 PM – 5:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "website": "http://www.thecliffdive.com.au/",
+    "googleMapsUri": "https://maps.google.com/?cid=9116082114501787353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 1974,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJOcC_AReuEmsR2b4rUmLUgn4",
+      "url": "https://maps.google.com/?cid=9116082114501787353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1e93965f-bbf1-4fc3-aff9-b621557c2aeb",
+      "url": "https://explore.overturemaps.org/#17/-33.87814712524414/151.21409606933594",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

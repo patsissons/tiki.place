@@ -1,0 +1,109 @@
+{
+  "id": "tiki-bar-daytona-beach",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 29.2247887,
+    "lng": -81.0060654,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Daytona Beach",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "b0c20189-a9ff-4b0b-92bc-3ab837ed4040"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://oceansideinndaytona.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b0c20189-a9ff-4b0b-92bc-3ab837ed4040",
+      "url": "https://explore.overturemaps.org/#17/29.224788665771484/-81.00606536865234",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e99b078c-a8d2-4f18-ad38-a1e4e7199f49",
+      "url": "https://explore.overturemaps.org/#17/29.204729080200195/-80.99675750732422",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ3UEOsOjZ5ogRIIcfjAL-PY8",
+        "name": "Tiki Bar",
+        "distanceM": 2407,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJqSo3ZEDZ5ogRoNawjI4xYbY",
+        "name": "Tiki Bar at Perry's",
+        "distanceM": 3456,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJ_4UUFBfa5ogRTLgQ2aS9SoY",
+        "name": "Oasis Tiki Bar & Grill",
+        "distanceM": 396,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJSTDWBCvb5ogRYmydrIzIYbg",
+        "name": "Tiki Mike's Daytona Beach",
+        "distanceM": 1431,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJdzack5jb5ogRpXJypD6wgoQ",
+        "name": "Longboards Daytona Beachfront",
+        "distanceM": 2423,
+        "nameSim": 0.067
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

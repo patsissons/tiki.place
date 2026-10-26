@@ -1,0 +1,106 @@
+{
+  "id": "deck-at-dockside-york",
+  "name": "Deck at Dockside",
+  "aliases": [],
+  "location": {
+    "lat": 43.1296655,
+    "lng": -70.6471545,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "22 Harris Island Road",
+    "locality": "York",
+    "region": "Maine",
+    "postalCode": "03909",
+    "country": "US"
+  },
+  "formattedAddress": "22 Harris Island Rd, York, ME 03909, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "14216964-8dca-4a0a-9bfe-b29ce83aaca9",
+    "google": "ChIJmytST4e74okRYGGVd33B_0Y"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 207-363-8515",
+    "website": "https://www.dockside-restaurant.com/deck-at-dockside",
+    "googleMapsUri": "https://maps.google.com/?cid=5116020446337524064&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 106,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJmytST4e74okRYGGVd33B_0Y",
+      "url": "https://maps.google.com/?cid=5116020446337524064&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "14216964-8dca-4a0a-9bfe-b29ce83aaca9",
+      "url": "https://explore.overturemaps.org/#17/43.129730224609375/-70.64730834960938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

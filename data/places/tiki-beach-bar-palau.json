@@ -1,0 +1,193 @@
+{
+  "id": "tiki-beach-bar-palau",
+  "name": "Tiki Beach Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.1899721,
+    "lng": 9.325116699999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6 Via Tramontana",
+    "locality": "Porto Pollo",
+    "region": "Sardegna",
+    "postalCode": "07020",
+    "country": "IT"
+  },
+  "formattedAddress": "Via Tramontana, 6, 07020 Porto Pollo OT, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "46ea6e2e-7d95-4b0f-8fbf-8c89dc2203a2",
+    "google": "ChIJSzqeEQdd2RIRQdNxccaMdvg"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0830"
+        },
+        "close": {
+          "day": 0,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0830"
+        },
+        "close": {
+          "day": 1,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0830"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0830"
+        },
+        "close": {
+          "day": 3,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0830"
+        },
+        "close": {
+          "day": 4,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0830"
+        },
+        "close": {
+          "day": 5,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0830"
+        },
+        "close": {
+          "day": 6,
+          "time": "2000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 8:30 AM – 8:00 PM",
+      "Tuesday: 8:30 AM – 8:00 PM",
+      "Wednesday: 8:30 AM – 8:00 PM",
+      "Thursday: 8:30 AM – 8:00 PM",
+      "Friday: 8:30 AM – 8:00 PM",
+      "Saturday: 8:30 AM – 8:00 PM",
+      "Sunday: 8:30 AM – 8:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+39 342 324 3607",
+    "website": "https://www.instagram.com/tikibeach_portopollo?igsh=MTZkdDcxMnh4dHE2dA%3D%3D&utm_source=qr",
+    "googleMapsUri": "https://maps.google.com/?cid=17903652152592683841&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 263,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJSzqeEQdd2RIRQdNxccaMdvg",
+      "url": "https://maps.google.com/?cid=17903652152592683841&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "46ea6e2e-7d95-4b0f-8fbf-8c89dc2203a2",
+      "url": "https://explore.overturemaps.org/#17/41.1899528503418/9.325156211853027",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

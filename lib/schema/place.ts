@@ -76,7 +76,7 @@ export const PlaceSchema = z.strictObject({
         z.strictObject({
           googleId: z.string().min(1),
           name: z.string().min(1),
-          distanceM: z.number().min(0),
+          distanceM: z.number().min(0).nullable(),
           nameSim: z.number().min(0).max(1),
         }),
       ),

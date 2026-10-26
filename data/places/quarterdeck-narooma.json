@@ -1,0 +1,203 @@
+{
+  "id": "quarterdeck-narooma",
+  "name": "Quarterdeck",
+  "aliases": [],
+  "location": {
+    "lat": -36.219591699999995,
+    "lng": 150.1215528,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "13 Riverside Drive",
+    "locality": "Narooma",
+    "region": "New South Wales",
+    "postalCode": "2546",
+    "country": "AU"
+  },
+  "formattedAddress": "13 Riverside Dr, Narooma NSW 2546, Australia",
+  "timezone": "Australia/Sydney",
+  "externalIds": {
+    "overture": "239ea235-e8b1-406f-9e26-390a98ef1b8f",
+    "google": "ChIJJw1IiisXPmsRte3Mh8ryXig"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1730"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1730"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1730"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "1630"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1730"
+        },
+        "close": {
+          "day": 5,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "1630"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1730"
+        },
+        "close": {
+          "day": 6,
+          "time": "2230"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:30 – 10:00 PM",
+      "Wednesday: 5:30 – 10:00 PM",
+      "Thursday: 5:30 – 10:00 PM",
+      "Friday: 12:00 – 4:30 PM, 5:30 – 10:30 PM",
+      "Saturday: 12:00 – 4:30 PM, 5:30 – 10:30 PM",
+      "Sunday: 12:00 – 5:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+61 2 9114 7389",
+    "website": "https://merivale.com/venues/quarterdeck-narooma/",
+    "googleMapsUri": "https://maps.google.com/?cid=2909029361003589045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 1109,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJJw1IiisXPmsRte3Mh8ryXig",
+      "url": "https://maps.google.com/?cid=2909029361003589045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "239ea235-e8b1-406f-9e26-390a98ef1b8f",
+      "url": "https://explore.overturemaps.org/#17/-36.21955871582031/150.12161254882812",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

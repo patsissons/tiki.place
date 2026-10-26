@@ -1,0 +1,84 @@
+{
+  "id": "south-beach-tiki-bar-miami-beach",
+  "name": "South Beach Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 25.7877808,
+    "lng": -80.1315002,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Miami Beach",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "53a3dea8-ec3c-4a25-b873-612e46d5d648"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.southbeachtikibar.blogspot.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "53a3dea8-ec3c-4a25-b873-612e46d5d648",
+      "url": "https://explore.overturemaps.org/#17/25.78778076171875/-80.13150024414062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJt8lLqyKz2YgR5IQ_ie3V2As",
+        "name": "Tiki Bar",
+        "distanceM": 5272,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJIbIiVBW12YgRiTlRGCe5KGw",
+        "name": "Delirio Tiki Bar by Swizzle",
+        "distanceM": 620,
+        "nameSim": 0.444
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

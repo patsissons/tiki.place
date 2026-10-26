@@ -1,0 +1,183 @@
+{
+  "id": "jungle-bird-sacramento",
+  "name": "The Jungle Bird",
+  "aliases": [],
+  "location": {
+    "lat": 38.5744937,
+    "lng": -121.47259919999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2516 J Street",
+    "locality": "Sacramento",
+    "region": "California",
+    "postalCode": "95816",
+    "country": "US"
+  },
+  "formattedAddress": "2516 J St, Sacramento, CA 95816, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "da0b03ce-4f9e-49a5-a1d6-a03ffb113229",
+    "google": "ChIJqy31s5XQmoARdbKTWuIazkg"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:00 PM – 2:00 AM",
+      "Wednesday: 4:00 PM – 2:00 AM",
+      "Thursday: 4:00 PM – 2:00 AM",
+      "Friday: 4:00 PM – 2:00 AM",
+      "Saturday: 4:00 PM – 2:00 AM",
+      "Sunday: 4:00 PM – 2:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 916-476-3280",
+    "website": "http://thejunglebird.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=5246160175417766517&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 1613,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJqy31s5XQmoARdbKTWuIazkg",
+      "url": "https://maps.google.com/?cid=5246160175417766517&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "da0b03ce-4f9e-49a5-a1d6-a03ffb113229",
+      "url": "https://explore.overturemaps.org/#17/38.574588775634766/-121.47260284423828",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

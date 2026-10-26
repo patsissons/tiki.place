@@ -1,0 +1,183 @@
+{
+  "id": "hawaika-valencia",
+  "name": "HAWAIKA",
+  "aliases": [],
+  "location": {
+    "lat": 39.4691052,
+    "lng": -0.3890527,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6 Carrer de l'Heroi Romeu",
+    "locality": "València",
+    "region": "Comunidad Valenciana",
+    "postalCode": "46008",
+    "country": "ES"
+  },
+  "formattedAddress": "Carrer de l'Heroi Romeu, 6, Extramurs, 46008 València, Valencia, Spain",
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "07cc577c-77ce-4605-9b57-eafe1b75a4c9",
+    "google": "ChIJd1CCO0FPYA0RN2LLjh_FwjE"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 PM – 12:30 AM",
+      "Tuesday: 5:00 PM – 12:30 AM",
+      "Wednesday: 5:00 PM – 12:30 AM",
+      "Thursday: 5:00 PM – 12:30 AM",
+      "Friday: 5:00 PM – 1:30 AM",
+      "Saturday: 5:00 PM – 1:30 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+34 963 38 21 88",
+    "website": "http://www.hawaika.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=3585644992670687799&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 2768,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJd1CCO0FPYA0RN2LLjh_FwjE",
+      "url": "https://maps.google.com/?cid=3585644992670687799&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "07cc577c-77ce-4605-9b57-eafe1b75a4c9",
+      "url": "https://explore.overturemaps.org/#17/39.46903610229492/-0.38901418447494507",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

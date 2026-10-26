@@ -1,0 +1,193 @@
+{
+  "id": "alma-santera-melendugno",
+  "name": "Alma Santera",
+  "aliases": [],
+  "location": {
+    "lat": 40.299832699999996,
+    "lng": 18.406770299999998,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "23 Via Lungomare Matteotti",
+    "locality": "San Foca",
+    "region": "Puglia",
+    "postalCode": "73026",
+    "country": "IT"
+  },
+  "formattedAddress": "Via Lungomare Matteotti, 23, 73026 San Foca LE, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "675aea63-7e09-4111-8c0b-66c9b386e828",
+    "google": "ChIJk0_Zr1c3RBMRqkmgP9wal_w"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1715"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1715"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1715"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1715"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1715"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1715"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1715"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:15 PM – 2:00 AM",
+      "Tuesday: 5:15 PM – 2:00 AM",
+      "Wednesday: 5:15 PM – 2:00 AM",
+      "Thursday: 5:15 PM – 2:00 AM",
+      "Friday: 5:15 PM – 2:00 AM",
+      "Saturday: 5:15 PM – 2:00 AM",
+      "Sunday: 5:15 PM – 2:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+39 352 052 4022",
+    "website": "https://salentovip.it/listings/alma-santera/",
+    "googleMapsUri": "https://maps.google.com/?cid=18201045952303745450&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 169,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJk0_Zr1c3RBMRqkmgP9wal_w",
+      "url": "https://maps.google.com/?cid=18201045952303745450&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "675aea63-7e09-4111-8c0b-66c9b386e828",
+      "url": "https://explore.overturemaps.org/#17/40.299800872802734/18.406875610351562",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

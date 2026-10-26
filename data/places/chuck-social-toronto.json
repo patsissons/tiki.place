@@ -1,0 +1,96 @@
+{
+  "id": "chuck-social-toronto",
+  "name": "Chuck social",
+  "aliases": [],
+  "location": {
+    "lat": 43.6748085,
+    "lng": -79.432312,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Toronto",
+    "region": "ON",
+    "country": "CA"
+  },
+  "timezone": "America/Toronto",
+  "externalIds": {
+    "overture": "f7934bae-78fd-48be-83fe-3b79bba76bbe"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "f7934bae-78fd-48be-83fe-3b79bba76bbe",
+      "url": "https://explore.overturemaps.org/#17/43.674808502197266/-79.43231201171875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJSRmVLjXL1IkRQHFvgpujO7Y",
+        "name": "The Fifth Social Club",
+        "distanceM": 4462,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJWfPcrl41K4gRa5GYNGc9snE",
+        "name": "Charlie Social House",
+        "distanceM": 4937,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJ3xKdIF85K4gRp1iPQJKEHY8",
+        "name": "Chuck's Roadhouse Bar and Grill",
+        "distanceM": 13037,
+        "nameSim": 0.417
+      },
+      {
+        "googleId": "ChIJ_QegyE7L1IkR7Wqc9Np6Qlc",
+        "name": "Mossop's Social House",
+        "distanceM": 5296,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ0eQZORw1K4gRylq9ZDePOGs",
+        "name": "Portland Square Toronto",
+        "distanceM": 4254,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

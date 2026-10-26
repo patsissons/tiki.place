@@ -1,0 +1,209 @@
+{
+  "id": "shrunken-head-tiki",
+  "name": "Shrunken Head Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 38.8359373,
+    "lng": -104.8236254,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "114 North Tejon Street",
+    "locality": "Colorado Springs",
+    "region": "Colorado",
+    "postalCode": "80903",
+    "country": "US"
+  },
+  "formattedAddress": "114 N Tejon St Ste 10, Colorado Springs, CO 80903, USA",
+  "timezone": "America/Denver",
+  "externalIds": {
+    "tikirat": "shrunken-head-tiki",
+    "google": "ChIJSZnY7bBFE4cR2e8KAtqtoLo",
+    "overture": "2766f9bf-78cc-4fed-b194-fb014676f9f5",
+    "osm": "node/12433832983"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0145"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 PM – 1:45 AM",
+      "Tuesday: 4:00 PM – 1:45 AM",
+      "Wednesday: 4:00 PM – 1:45 AM",
+      "Thursday: 4:00 PM – 1:45 AM",
+      "Friday: 4:00 PM – 1:45 AM",
+      "Saturday: 4:00 PM – 1:45 AM",
+      "Sunday: 4:00 PM – 1:45 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 719-219-6466",
+    "website": "http://shrunkenheadtiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=13447939639177048025&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 483,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.983,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJSZnY7bBFE4cR2e8KAtqtoLo",
+      "url": "https://maps.google.com/?cid=13447939639177048025&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/12433832983",
+      "url": "https://www.openstreetmap.org/node/12433832983",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "2766f9bf-78cc-4fed-b194-fb014676f9f5",
+      "url": "https://explore.overturemaps.org/#17/38.83592987060547/-104.8236312866211",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "shrunken-head-tiki",
+      "url": "https://tikirat.com/bars/shrunken-head-tiki",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

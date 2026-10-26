@@ -1,0 +1,193 @@
+{
+  "id": "kon-tiki-kansas-city",
+  "name": "Kon Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 39.0895364,
+    "lng": -94.58506899999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1922 Baltimore Avenue",
+    "locality": "Kansas City",
+    "region": "Missouri",
+    "postalCode": "64108",
+    "country": "US"
+  },
+  "formattedAddress": "1922 Baltimore Ave, Kansas City, MO 64108, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "09286a35-d649-45f3-b073-c3ea4d4a8d21",
+    "google": "ChIJzUQ7aQDxwIcR5nQhPUMYlhE"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 – 11:00 PM",
+      "Tuesday: 4:00 – 11:00 PM",
+      "Wednesday: 4:00 – 11:00 PM",
+      "Thursday: 4:00 – 11:00 PM",
+      "Friday: 4:00 PM – 1:00 AM",
+      "Saturday: 4:00 PM – 1:00 AM",
+      "Sunday: 4:00 – 11:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 816-897-5196",
+    "website": "http://www.kontikiroom.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1267227022218851558&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 225,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJzUQ7aQDxwIcR5nQhPUMYlhE",
+      "url": "https://maps.google.com/?cid=1267227022218851558&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "09286a35-d649-45f3-b073-c3ea4d4a8d21",
+      "url": "https://explore.overturemaps.org/#17/39.08953094482422/-94.58507537841797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

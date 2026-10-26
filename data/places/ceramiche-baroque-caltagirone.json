@@ -1,0 +1,96 @@
+{
+  "id": "ceramiche-baroque-caltagirone",
+  "name": "Ceramiche Baroquè",
+  "aliases": [],
+  "location": {
+    "lat": 37.2383118,
+    "lng": 14.5129337,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Caltagirone",
+    "region": "82",
+    "country": "IT"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "bd2a0a64-8163-415b-ab5d-b7946d0d9da1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "bd2a0a64-8163-415b-ab5d-b7946d0d9da1",
+      "url": "https://explore.overturemaps.org/#17/37.238311767578125/14.512933731079102",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJPxyvA84PERMRXfvVcrcM2Vo",
+        "name": "Verus Ceramiche",
+        "distanceM": 50,
+        "nameSim": 0.593
+      },
+      {
+        "googleId": "ChIJ-x8baUoPERMRkypBB8gMWDQ",
+        "name": "Ceramiche Sofia Showroom",
+        "distanceM": 60,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJIRrkK8wPERMRGAfrZ-bk9nQ",
+        "name": "Cabibbo - Ceramiche Caltagirone",
+        "distanceM": 322,
+        "nameSim": 0.45
+      },
+      {
+        "googleId": "ChIJ9bGiL9MPERMRDA_SdG4rSL8",
+        "name": "SOFIA ceramics of Caltagirone",
+        "distanceM": 534,
+        "nameSim": 0.368
+      },
+      {
+        "googleId": "ChIJEaiRvz0OERMR556Is514HFA",
+        "name": "Ceramiche di Caltagirone Giorgio & Ivano Alemanna",
+        "distanceM": 82,
+        "nameSim": 0.36
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

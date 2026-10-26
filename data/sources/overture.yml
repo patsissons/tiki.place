@@ -14,7 +14,7 @@ schedule:
 config:
   release: 2026-10-21.0
   minConfidence: 0.5
-  threads: 4
+  threads: 8
 addedAt: 2026-10-26
 notes: |-
   Monthly DuckDB query over the public GeoParquet release (no API key, no OSM data): taxonomy.primary = 'tiki_bar'

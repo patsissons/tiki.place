@@ -1,0 +1,188 @@
+{
+  "id": "sayulita-tiki-bar-san-andres-cholula",
+  "name": "SAYULITA TIKI BAR",
+  "aliases": [],
+  "location": {
+    "lat": 19.0229125,
+    "lng": -98.2595733,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "705 Avenida Orión Sur",
+    "locality": "San Bernardino Tlaxcalancingo",
+    "region": "Puebla",
+    "postalCode": "72825",
+    "country": "MX"
+  },
+  "formattedAddress": "Av. Orión Sur 705, Concepción la Cruz, 72825 San Bernardino Tlaxcalancingo, Pue., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "bb9eefe0-2d58-4ebe-8a17-dcac91e7df4e",
+    "google": "ChIJV9XBECTHz4URtYGnxBxieKo"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0930"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0930"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0930"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0930"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0930"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0930"
+        },
+        "close": {
+          "day": 5,
+          "time": "2330"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0930"
+        },
+        "close": {
+          "day": 6,
+          "time": "2330"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 9:30 AM – 11:00 PM",
+      "Tuesday: 9:30 AM – 11:00 PM",
+      "Wednesday: 9:30 AM – 11:00 PM",
+      "Thursday: 9:30 AM – 11:00 PM",
+      "Friday: 9:30 AM – 11:30 PM",
+      "Saturday: 9:30 AM – 11:30 PM",
+      "Sunday: 9:30 AM – 9:00 PM"
+    ]
+  },
+  "contact": {
+    "website": "https://www.instagram.com/sayulita.tikibar",
+    "googleMapsUri": "https://maps.google.com/?cid=12283675859350946229&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 622,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJV9XBECTHz4URtYGnxBxieKo",
+      "url": "https://maps.google.com/?cid=12283675859350946229&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "bb9eefe0-2d58-4ebe-8a17-dcac91e7df4e",
+      "url": "https://explore.overturemaps.org/#17/19.022916793823242/-98.25958251953125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

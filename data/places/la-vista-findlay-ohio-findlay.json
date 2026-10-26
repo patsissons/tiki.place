@@ -1,0 +1,102 @@
+{
+  "id": "la-vista-findlay-ohio-findlay",
+  "name": "La Vista Findlay Ohio",
+  "aliases": [],
+  "location": {
+    "lat": 41.0378876,
+    "lng": -83.6487274,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Findlay",
+    "region": "OH",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "f1f5fa8d-ff97-43dc-8807-de251b63640b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.ci.la-vista.ne.us/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "f1f5fa8d-ff97-43dc-8807-de251b63640b",
+      "url": "https://explore.overturemaps.org/#17/41.03788757324219/-83.64872741699219",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJj84K1hmrPogRBaC71iD6UkU",
+        "name": "Findlay Vision Care Clinic",
+        "distanceM": 3262,
+        "nameSim": 0.486
+      },
+      {
+        "googleId": "ChIJedPiLkSqPogRtMJwjLjNrC0",
+        "name": "La Charrita",
+        "distanceM": 4569,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJswX44iOqPogRCoisLnphw4s",
+        "name": "Horizon Pointe Villas and Horizon at Hillcrest Apartments",
+        "distanceM": 5395,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJuTfqVk-qPogR1jjH1YjLJEc",
+        "name": "Hillcrest Apartments",
+        "distanceM": 4232,
+        "nameSim": 0.176
+      },
+      {
+        "googleId": "ChIJ5V2o3t5UOYgR5BD5EySLg7w",
+        "name": "Retina Vitreous Associates",
+        "distanceM": 6553,
+        "nameSim": 0.158
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

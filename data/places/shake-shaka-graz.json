@@ -1,0 +1,106 @@
+{
+  "id": "shake-shaka-graz",
+  "name": "Shake Shaka",
+  "aliases": [],
+  "location": {
+    "lat": 47.0749062,
+    "lng": 15.4313856,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "41 Lendplatz",
+    "locality": "Graz",
+    "region": "Steiermark",
+    "postalCode": "8020",
+    "country": "AT"
+  },
+  "formattedAddress": "Lendpl. 41, 8020 Graz, Austria",
+  "timezone": "Europe/Vienna",
+  "externalIds": {
+    "overture": "0c9e48d9-2218-4c3e-ac07-6e50d81cb434",
+    "google": "ChIJP4CT1aM1bkcR93amlDSheJE"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+43 676 88876666",
+    "website": "https://m.facebook.com/SHAKE-SHAKA-155652518481802/",
+    "googleMapsUri": "https://maps.google.com/?cid=10482305379909138167&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 127,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJP4CT1aM1bkcR93amlDSheJE",
+      "url": "https://maps.google.com/?cid=10482305379909138167&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "0c9e48d9-2218-4c3e-ac07-6e50d81cb434",
+      "url": "https://explore.overturemaps.org/#17/47.07511520385742/15.431465148925781",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

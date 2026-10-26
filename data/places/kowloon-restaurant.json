@@ -1,0 +1,57 @@
+{
+  "id": "kowloon-restaurant",
+  "name": "Kowloon Restaurant",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "kowloon-restaurant"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "kowloon-restaurant",
+      "url": "https://tikirat.com/bars/kowloon-restaurant",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJ8Q7dZgBv44kRy8YRrU91aB0",
+        "name": "Kowloon Tiki",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJS5RSJ41y44kRd7DMG9XL4DM",
+        "name": "Kowloon Restaurant",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "s-o-s-tiki-bar-decatur",
+  "name": "The S.O.S. Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 33.7742578,
+    "lng": -84.2950433,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "340 Church Street",
+    "locality": "Decatur",
+    "region": "Georgia",
+    "postalCode": "30030",
+    "country": "US"
+  },
+  "formattedAddress": "340 Church St, Decatur, GA 30030, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e49a392a-c2b6-4c7b-9835-049eddcd1c95",
+    "google": "ChIJB4FZZj4H9YgRySqQV5f5xfU",
+    "osm": "node/10055032917"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 6:00 PM – 12:00 AM",
+      "Thursday: 6:00 PM – 12:00 AM",
+      "Friday: 6:00 PM – 12:00 AM",
+      "Saturday: 6:00 PM – 12:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 404-377-9308",
+    "website": "https://www.sostiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=17709835538108787401&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 1058,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.958,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:28:59.067Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJB4FZZj4H9YgRySqQV5f5xfU",
+      "url": "https://maps.google.com/?cid=17709835538108787401&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:28:59.067Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/10055032917",
+      "url": "https://www.openstreetmap.org/node/10055032917",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e49a392a-c2b6-4c7b-9835-049eddcd1c95",
+      "url": "https://explore.overturemaps.org/#17/33.774253845214844/-84.2950439453125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

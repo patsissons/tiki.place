@@ -1,0 +1,182 @@
+{
+  "id": "tiki-beach-bar-puerto-penasco",
+  "name": "Tiki Beach Bar",
+  "aliases": [],
+  "location": {
+    "lat": 31.319506599999997,
+    "lng": -113.5617817,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Puerto Peñasco",
+    "region": "Sonora",
+    "postalCode": "83550",
+    "country": "MX"
+  },
+  "formattedAddress": "Camino a la Choya K.M 3.5, Bella Vista, 83550 Puerto Peñasco, Son., Mexico",
+  "timezone": "America/Hermosillo",
+  "externalIds": {
+    "overture": "1b74678c-fbe4-4546-926e-fb6bb794fb18",
+    "google": "ChIJgzDcLSulK4ER8GzPRUGvDyQ"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "1700"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 5:00 PM",
+      "Tuesday: 11:00 AM – 5:00 PM",
+      "Wednesday: 11:00 AM – 5:00 PM",
+      "Thursday: 11:00 AM – 5:00 PM",
+      "Friday: 11:00 AM – 5:00 PM",
+      "Saturday: 11:00 AM – 5:00 PM",
+      "Sunday: 11:00 AM – 5:00 PM"
+    ]
+  },
+  "contact": {
+    "website": "https://www.sportbar-la-cantina.com/menu-tiki",
+    "googleMapsUri": "https://maps.google.com/?cid=2598488204895022320&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 25,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJgzDcLSulK4ER8GzPRUGvDyQ",
+      "url": "https://maps.google.com/?cid=2598488204895022320&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1b74678c-fbe4-4546-926e-fb6bb794fb18",
+      "url": "https://explore.overturemaps.org/#17/31.319509506225586/-113.56163787841797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "zibu",
+  "name": "Zibu tiki bar- restaurant",
+  "aliases": [
+    "ZIBU"
+  ],
+  "location": {
+    "lat": 38.1835807,
+    "lng": 21.678412899999998,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "28is Oktovriou",
+    "locality": "Rogitika",
+    "postalCode": "250 02",
+    "country": "GR"
+  },
+  "formattedAddress": "28is Oktovriou, Patra 250 02, Greece",
+  "timezone": "Europe/Athens",
+  "externalIds": {
+    "overture": "5ef69a78-6b40-468c-9297-344b5f1166fa",
+    "google": "ChIJdzd0S5o3XhMRxFiS3NQRXsI"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+30 699 810 5747",
+    "website": "https://www.instagram.com/zibutikibar/?fbclid=IwAR2n7D2IuzlBYHjuwhObVlW5UlnKUg7qAlJomUCg8iLeoWSfxBlXdZrxW1g",
+    "googleMapsUri": "https://maps.google.com/?cid=14005651497100138692&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 110,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJdzd0S5o3XhMRxFiS3NQRXsI",
+      "url": "https://maps.google.com/?cid=14005651497100138692&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "5ef69a78-6b40-468c-9297-344b5f1166fa",
+      "url": "https://explore.overturemaps.org/#17/38.183658599853516/21.67833709716797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

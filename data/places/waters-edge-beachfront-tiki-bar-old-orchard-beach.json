@@ -1,0 +1,92 @@
+{
+  "id": "waters-edge-beachfront-tiki-bar-old-orchard-beach",
+  "name": "Water's Edge - Beachfront Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.5312049,
+    "lng": -70.36023159999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "203 East Grand Avenue",
+    "locality": "Old Orchard Beach",
+    "region": "Maine",
+    "postalCode": "04064",
+    "country": "US"
+  },
+  "formattedAddress": "203 E Grand Ave, Old Orchard Beach, ME 04064, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e318acfd-e2d4-4977-ac4e-ef6292707a72",
+    "google": "ChIJbZDFdiShskwRyL-wYr6mWFM"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 207-934-4521",
+    "website": "https://royalanchor.com/tiki-bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=6005733439728304072&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJbZDFdiShskwRyL-wYr6mWFM",
+      "url": "https://maps.google.com/?cid=6005733439728304072&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e318acfd-e2d4-4977-ac4e-ef6292707a72",
+      "url": "https://explore.overturemaps.org/#17/43.53119659423828/-70.36024475097656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

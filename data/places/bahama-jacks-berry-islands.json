@@ -1,0 +1,95 @@
+{
+  "id": "bahama-jacks-berry-islands",
+  "name": "Bahama Jacks",
+  "aliases": [],
+  "location": {
+    "lat": 25.8180523,
+    "lng": -77.9354324,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Berry Islands",
+    "country": "BS"
+  },
+  "timezone": "America/Nassau",
+  "externalIds": {
+    "overture": "226086f0-d899-4ba5-93bf-ead7509252a7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "226086f0-d899-4ba5-93bf-ead7509252a7",
+      "url": "https://explore.overturemaps.org/#17/25.818052291870117/-77.93543243408203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJFx3w96d5JokRJ-PD271EXBw",
+        "name": "Captain Jacks",
+        "distanceM": 159,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ1_fuZJvXJYkRwsneFrJMEkc",
+        "name": "Hammerhead’s Restaurant & Bar",
+        "distanceM": 9871,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJ91C0ETbXJYkRMg2IYxwKkvE",
+        "name": "The Beach Club",
+        "distanceM": 12439,
+        "nameSim": 0.143
+      },
+      {
+        "googleId": "ChIJ_6mxHx_DJYkRshzNaBHwsqE",
+        "name": "Flo's Conch Bar and Restaurant",
+        "distanceM": 34806,
+        "nameSim": 0.063
+      },
+      {
+        "googleId": "ChIJ30PCnwZ5JokRpz0_5fgumpY",
+        "name": "Skipper's Grill",
+        "distanceM": 74,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

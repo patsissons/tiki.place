@@ -1,0 +1,78 @@
+{
+  "id": "tiki-bar-compass-cove-myrtle-beach",
+  "name": "Tiki Bar @ Compass Cove",
+  "aliases": [],
+  "location": {
+    "lat": 33.665947,
+    "lng": -78.909111,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Myrtle Beach",
+    "region": "SC",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "b64968cc-17cb-4634-bf94-60d406414af7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.compasscove.com/video/compass-cove-tiki-hut/1"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b64968cc-17cb-4634-bf94-60d406414af7",
+      "url": "https://explore.overturemaps.org/#17/33.66594696044922/-78.90911102294922",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJi27a_uhpAIkR48oNF6Fvk14",
+        "name": "Compass Cove Myrtle Beach Resort",
+        "distanceM": 120,
+        "nameSim": 0.571
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

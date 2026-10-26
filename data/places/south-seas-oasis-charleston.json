@@ -1,0 +1,101 @@
+{
+  "id": "south-seas-oasis-charleston",
+  "name": "South Seas Oasis",
+  "aliases": [],
+  "location": {
+    "lat": 32.7895229,
+    "lng": -79.9374917,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "23 Ann Street",
+    "locality": "Charleston",
+    "region": "South Carolina",
+    "postalCode": "29403",
+    "country": "US"
+  },
+  "formattedAddress": "23 Ann St, Charleston, SC 29403, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c96abd77-9997-4db6-b74b-da0eab5784ee",
+    "google": "ChIJ85jzvWt6_ogR9uSizwd9q-k"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 843-306-0101",
+    "website": "http://southseasoasis.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16837689104356533494&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 58,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ85jzvWt6_ogR9uSizwd9q-k",
+      "url": "https://maps.google.com/?cid=16837689104356533494&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c96abd77-9997-4db6-b74b-da0eab5784ee",
+      "url": "https://explore.overturemaps.org/#17/32.789161682128906/-79.93727111816406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

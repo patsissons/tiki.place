@@ -1,0 +1,191 @@
+{
+  "id": "breezers-tiki-bar-key-largo",
+  "name": "Breezer's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 25.141917799999998,
+    "lng": -80.3999522,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "103800 Overseas Highway",
+    "locality": "Key Largo",
+    "region": "Florida",
+    "postalCode": "33037",
+    "country": "US"
+  },
+  "formattedAddress": "103800 Overseas Hwy MM 103.8, Key Largo, FL 33037, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "889c200d-ce8b-40c3-b60b-017d8aecc7ad",
+    "osm": "way/962223819",
+    "google": "ChIJS6Ovjo1o14gRErAWWR9huG0"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "2200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 – 10:00 PM",
+      "Tuesday: 4:00 – 10:00 PM",
+      "Wednesday: 4:00 – 10:00 PM",
+      "Thursday: 4:00 – 10:00 PM",
+      "Friday: 4:00 – 10:00 PM",
+      "Saturday: 4:00 – 10:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 305-453-0029",
+    "website": "https://www.opalcollection.com/reefhouse/eat-and-drink/?utm_source=Google&utm_medium=Listing&utm_campaign=Breezers+Reefhouse",
+    "googleMapsUri": "https://maps.google.com/?cid=7906175933115445266&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 277,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJS6Ovjo1o14gRErAWWR9huG0",
+      "url": "https://maps.google.com/?cid=7906175933115445266&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/962223819",
+      "url": "https://www.openstreetmap.org/way/962223819",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "889c200d-ce8b-40c3-b60b-017d8aecc7ad",
+      "url": "https://explore.overturemaps.org/#17/25.141942977905273/-80.39996337890625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

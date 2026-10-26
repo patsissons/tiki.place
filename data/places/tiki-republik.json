@@ -1,0 +1,171 @@
+{
+  "id": "tiki-republik",
+  "name": "Tiki Republik",
+  "aliases": [],
+  "location": {
+    "lat": 34.251758099999996,
+    "lng": -117.18943259999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "28200 California 189",
+    "locality": "Lake Arrowhead",
+    "region": "California",
+    "postalCode": "92352",
+    "country": "US"
+  },
+  "formattedAddress": "28200 CA-189 Ste R-210, Lake Arrowhead, CA 92352, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "tiki-republik",
+    "google": "ChIJ-YbiAMRXw4ARt4spnVW0uNs",
+    "overture": "c8f3f7bd-902e-4b53-a9a2-b00b7d528a98"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 4:00 – 9:00 PM",
+      "Friday: 12:00 PM – 12:00 AM",
+      "Saturday: 12:00 PM – 12:00 AM",
+      "Sunday: 12:00 – 9:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 909-485-1100",
+    "website": "https://www.tikirepublik.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=15832602769822944183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 64,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.975,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ-YbiAMRXw4ARt4spnVW0uNs",
+      "url": "https://maps.google.com/?cid=15832602769822944183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c8f3f7bd-902e-4b53-a9a2-b00b7d528a98",
+      "url": "https://explore.overturemaps.org/#17/34.25173568725586/-117.18952178955078",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tiki-republik",
+      "url": "https://tikirat.com/bars/tiki-republik",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

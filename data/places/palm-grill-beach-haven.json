@@ -1,0 +1,78 @@
+{
+  "id": "palm-grill-beach-haven",
+  "name": "The Palm Grill",
+  "aliases": [],
+  "location": {
+    "lat": 39.5617409,
+    "lng": -74.2363205,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Beach Haven",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "6db66a1b-8406-4e7e-a502-37102b3d9519"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://theseashellresort.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "6db66a1b-8406-4e7e-a502-37102b3d9519",
+      "url": "https://explore.overturemaps.org/#17/39.56174087524414/-74.23632049560547",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJU2tjJ-0BwYkRGp9A-0n1mNA",
+        "name": "The Palm Grill @ The Sea Shell Resort",
+        "distanceM": 6,
+        "nameSim": 0.533
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

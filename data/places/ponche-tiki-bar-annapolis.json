@@ -1,0 +1,106 @@
+{
+  "id": "ponche-tiki-bar-annapolis",
+  "name": "Ponche Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 38.977990299999995,
+    "lng": -76.48768079999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "26 Market Space",
+    "locality": "Annapolis",
+    "region": "Maryland",
+    "postalCode": "21401",
+    "country": "US"
+  },
+  "formattedAddress": "26 Market Space, Annapolis, MD 21401, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "541c165d-51e6-40c9-8c1b-37e757860f23",
+    "google": "ChIJWekEFAD3t4kRXuyfYOw2nr0"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 410-280-8686",
+    "website": "http://www.pearlannapolis.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=13663418708349938782&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 9,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWekEFAD3t4kRXuyfYOw2nr0",
+      "url": "https://maps.google.com/?cid=13663418708349938782&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "541c165d-51e6-40c9-8c1b-37e757860f23",
+      "url": "https://explore.overturemaps.org/#17/38.977935791015625/-76.4876708984375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

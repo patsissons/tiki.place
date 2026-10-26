@@ -1,0 +1,223 @@
+{
+  "id": "le-manuia-le-chateau-doleron",
+  "name": "Le Manuia",
+  "aliases": [],
+  "location": {
+    "lat": 45.8842472,
+    "lng": -1.1950581999999998,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1 Porte d'Ors",
+    "locality": "Le Château-d'Oléron",
+    "region": "Nouvelle-Aquitaine",
+    "postalCode": "17480",
+    "country": "FR"
+  },
+  "formattedAddress": "1 Prte d'Ors, 17480 Le Château-d'Oléron, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "616effea-1bb1-4d9f-a155-2800a2739db5",
+    "google": "ChIJibpmOLZhAUgRkfVwFRfZd9s"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 0,
+          "time": "1900"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1900"
+        },
+        "close": {
+          "day": 1,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1900"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1900"
+        },
+        "close": {
+          "day": 5,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1900"
+        },
+        "close": {
+          "day": 6,
+          "time": "2100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 2:00 PM, 7:00 – 9:00 PM",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 12:00 – 2:00 PM, 7:00 – 9:00 PM",
+      "Friday: 12:00 – 2:00 PM, 7:00 – 9:00 PM",
+      "Saturday: 12:00 – 2:00 PM, 7:00 – 9:00 PM",
+      "Sunday: 12:00 – 2:00 PM, 7:00 – 9:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+33 5 46 75 76 97",
+    "website": "https://www.instagram.com/manuia.io?igsh=eDZvYWZkMzhvaGpx&utm_source=qr",
+    "googleMapsUri": "https://maps.google.com/?cid=15814347309701985681&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 272,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJibpmOLZhAUgRkfVwFRfZd9s",
+      "url": "https://maps.google.com/?cid=15814347309701985681&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "616effea-1bb1-4d9f-a155-2800a2739db5",
+      "url": "https://explore.overturemaps.org/#17/45.88423538208008/-1.195055365562439",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

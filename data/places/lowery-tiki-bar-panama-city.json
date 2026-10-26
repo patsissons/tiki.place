@@ -1,0 +1,102 @@
+{
+  "id": "lowery-tiki-bar-panama-city",
+  "name": "The Lowery Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.1471462,
+    "lng": -85.6404877,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Panama City",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "dbc823f2-33f7-47e2-bf50-bb404923c31f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.sandpiperbeacon.com/panama-city-beach-hotels/tiki-bar-landing.shtm"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "dbc823f2-33f7-47e2-bf50-bb404923c31f",
+      "url": "https://explore.overturemaps.org/#17/30.147146224975586/-85.64048767089844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJb750qeSMk4gRgY66rWhevPE",
+        "name": "Tiki Bar at the Sandpiper Beacon",
+        "distanceM": 26559,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJY8RhdKaOk4gRHRVYNedn_kQ",
+        "name": "The Buoy Bar",
+        "distanceM": 20366,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJAQI87raHk4gRSdUYZPY2pUY",
+        "name": "Cruisin Tikis Panama City Beach",
+        "distanceM": 10397,
+        "nameSim": 0.167
+      },
+      {
+        "googleId": "ChIJg9Dk0D-Mk4gRbx1dHHl-aX0",
+        "name": "The Sandpiper Beacon Beach Resort",
+        "distanceM": 26559,
+        "nameSim": 0.074
+      },
+      {
+        "googleId": "ChIJz276lxmMk4gR_eFmBSXSWoc",
+        "name": "Runaway Island",
+        "distanceM": 21764,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "wiki-bar-davis",
+  "name": "Wiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 38.5441743,
+    "lng": -121.742321,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "234 D Street",
+    "locality": "Davis",
+    "region": "California",
+    "postalCode": "95616",
+    "country": "US"
+  },
+  "formattedAddress": "234 D St, Davis, CA 95616, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "ab38e3f9-ed8d-4e2a-9e27-3d071415e915",
+    "google": "ChIJ95RPrXQphYARd9oyNKFXBqI"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 9:00 PM",
+      "Tuesday: 12:00 – 9:00 PM",
+      "Wednesday: 11:30 AM – 9:00 PM",
+      "Thursday: 11:30 AM – 10:00 PM",
+      "Friday: 11:30 AM – 11:00 PM",
+      "Saturday: 11:30 AM – 11:00 PM",
+      "Sunday: 12:00 – 9:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 530-750-5101",
+    "website": "https://cafebernardo.com/wiki-bar",
+    "googleMapsUri": "https://maps.google.com/?cid=11675115433881688695&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 76,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ95RPrXQphYARd9oyNKFXBqI",
+      "url": "https://maps.google.com/?cid=11675115433881688695&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ab38e3f9-ed8d-4e2a-9e27-3d071415e915",
+      "url": "https://explore.overturemaps.org/#17/38.54413986206055/-121.7424087524414",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

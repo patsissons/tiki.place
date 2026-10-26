@@ -1,0 +1,101 @@
+{
+  "id": "cantina-sol-north-fort-myers",
+  "name": "Cantina Sol",
+  "aliases": [],
+  "location": {
+    "lat": 26.6601207,
+    "lng": -81.8903345,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3440 Marinatown Lane",
+    "locality": "North Fort Myers",
+    "region": "Florida",
+    "postalCode": "33903",
+    "country": "US"
+  },
+  "formattedAddress": "3440 Marinatown Ln, North Fort Myers, FL 33903, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "f5950ca2-b7dc-4c07-968a-7d4ad01118c1",
+    "google": "ChIJ5XJgjyBC24gR0DmVTG3tADM"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 239-599-2849",
+    "website": "http://www.cantinasol.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=3675198349626390992&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 110,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ5XJgjyBC24gR0DmVTG3tADM",
+      "url": "https://maps.google.com/?cid=3675198349626390992&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "f5950ca2-b7dc-4c07-968a-7d4ad01118c1",
+      "url": "https://explore.overturemaps.org/#17/26.660152435302734/-81.8902587890625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

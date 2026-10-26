@@ -1,0 +1,77 @@
+{
+  "id": "capt-js-hurricane-tilburg",
+  "name": "Capt. J's Hurricane",
+  "aliases": [],
+  "location": {
+    "lat": 51.5551033,
+    "lng": 5.0887351,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Tilburg",
+    "country": "NL"
+  },
+  "timezone": "Europe/Amsterdam",
+  "externalIds": {
+    "overture": "ab7a387d-3157-4356-a589-bb468469cbc6"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikiroom.nl/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ab7a387d-3157-4356-a589-bb468469cbc6",
+      "url": "https://explore.overturemaps.org/#17/51.55510330200195/5.088735103607178",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJhVGuiay_xkcRNniHq4IXsiE",
+        "name": "Capt. J's Hurricane Caribbeanclub & Tikiroom",
+        "distanceM": 11,
+        "nameSim": 0.75
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,173 @@
+{
+  "id": "hula-moon-tiki-grill",
+  "name": "Hula Moon Tiki Grill",
+  "aliases": [],
+  "location": {
+    "lat": 28.152485,
+    "lng": -80.584924,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1900 Jimmy Buffett Memorial Highway",
+    "locality": "Indian Harbour Beach",
+    "region": "Florida",
+    "postalCode": "32937",
+    "country": "US"
+  },
+  "formattedAddress": "1900 Jimmy Buffett Mem Hwy, Indian Harbour Beach, FL 32937, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "hula-moon-tiki-grill",
+    "google": "ChIJTUZyGIYQ3ogRBsuxWeLQopg"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2030"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 11:30 AM – 8:30 PM",
+      "Wednesday: 11:30 AM – 8:30 PM",
+      "Thursday: 11:30 AM – 8:30 PM",
+      "Friday: 11:30 AM – 8:30 PM",
+      "Saturday: 11:30 AM – 8:30 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 321-241-4808",
+    "website": "http://hulamoongrill.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10998582910578182918&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 1203,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.9,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJTUZyGIYQ3ogRBsuxWeLQopg",
+      "url": "https://maps.google.com/?cid=10998582910578182918&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "hula-moon-tiki-grill",
+      "url": "https://tikirat.com/bars/hula-moon-tiki-grill",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

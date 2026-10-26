@@ -1,0 +1,196 @@
+{
+  "id": "chiefs-da-tiki-bar",
+  "name": "Chief's Da Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 32.658817299999995,
+    "lng": -117.03758359999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4154 Bonita Road",
+    "locality": "Bonita",
+    "region": "California",
+    "postalCode": "91902",
+    "country": "US"
+  },
+  "formattedAddress": "4154 Bonita Rd, Bonita, CA 91902, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "chief-s-da-tiki-bar",
+    "google": "ChIJxcxv23VP2YARP-mNjLIZDnM",
+    "overture": "6e580042-fd06-4d79-9aa8-bf899cfab5fd"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1000"
+        },
+        "close": {
+          "day": 0,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 8:00 PM",
+      "Tuesday: 12:00 – 8:00 PM",
+      "Wednesday: 12:00 – 8:00 PM",
+      "Thursday: 12:00 – 8:00 PM",
+      "Friday: 12:00 – 11:00 PM",
+      "Saturday: 12:00 PM – 12:00 AM",
+      "Sunday: 10:00 AM – 8:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 619-773-6644",
+    "googleMapsUri": "https://maps.google.com/?cid=8290592218688645439&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 87,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.975,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJxcxv23VP2YARP-mNjLIZDnM",
+      "url": "https://maps.google.com/?cid=8290592218688645439&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6e580042-fd06-4d79-9aa8-bf899cfab5fd",
+      "url": "https://explore.overturemaps.org/#17/32.658836364746094/-117.03758239746094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "chief-s-da-tiki-bar",
+      "url": "https://tikirat.com/bars/chief-s-da-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

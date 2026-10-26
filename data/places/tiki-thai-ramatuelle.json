@@ -1,0 +1,253 @@
+{
+  "id": "tiki-thai-ramatuelle",
+  "name": "Tiki Thaï",
+  "aliases": [],
+  "location": {
+    "lat": 43.233149999999995,
+    "lng": 6.6612204,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Route des Plages",
+    "locality": "Ramatuelle",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "postalCode": "83350",
+    "country": "FR"
+  },
+  "formattedAddress": "Route des Plages, 83350 Ramatuelle, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "60dfb488-c549-4e0a-9b73-8de3ebebf395",
+    "google": "ChIJ84AKisrGzhIRr-VT0acYBWc"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 0,
+          "time": "1900"
+        },
+        "close": {
+          "day": 0,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1900"
+        },
+        "close": {
+          "day": 1,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1900"
+        },
+        "close": {
+          "day": 2,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1900"
+        },
+        "close": {
+          "day": 3,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1900"
+        },
+        "close": {
+          "day": 4,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1900"
+        },
+        "close": {
+          "day": 5,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "1500"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1900"
+        },
+        "close": {
+          "day": 6,
+          "time": "2230"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
+      "Tuesday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
+      "Wednesday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
+      "Thursday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
+      "Friday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
+      "Saturday: 12:00 – 3:00 PM, 7:00 – 10:30 PM",
+      "Sunday: 12:00 – 3:00 PM, 7:00 – 10:30 PM"
+    ]
+  },
+  "contact": {
+    "website": "https://www.riviera-villages.com/Kon-Tiki/Restaurants-Commerces/Restaurants-Bars/Le-Tiki-Thai",
+    "googleMapsUri": "https://maps.google.com/?cid=7423366669840672175&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 149,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ84AKisrGzhIRr-VT0acYBWc",
+      "url": "https://maps.google.com/?cid=7423366669840672175&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "60dfb488-c549-4e0a-9b73-8de3ebebf395",
+      "url": "https://explore.overturemaps.org/#17/43.233158111572266/6.661228656768799",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,183 @@
+{
+  "id": "tiki-bar",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 28.214345599999998,
+    "lng": -80.6120098,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "861 Marina Road",
+    "locality": "Patrick Space Force Base",
+    "region": "Florida",
+    "postalCode": "32925",
+    "country": "US"
+  },
+  "formattedAddress": "861 Marina Rd, Patrick Space Force Base, FL 32925, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "3d6a9968-a08c-493e-8f80-f587463dba7e",
+    "google": "ChIJB-9ilSEb3ogRnhN_IktyTGA"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1400"
+        },
+        "close": {
+          "day": 1,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 2:00 – 8:00 PM",
+      "Tuesday: 11:30 AM – 8:00 PM",
+      "Wednesday: 11:30 AM – 8:00 PM",
+      "Thursday: 11:30 AM – 9:00 PM",
+      "Friday: 11:30 AM – 11:00 PM",
+      "Saturday: 11:30 AM – 11:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 321-494-7455",
+    "website": "http://www.gopatrickfl.com/marina.html",
+    "googleMapsUri": "https://maps.google.com/?cid=6939046792897958814&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 57,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJB-9ilSEb3ogRnhN_IktyTGA",
+      "url": "https://maps.google.com/?cid=6939046792897958814&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "3d6a9968-a08c-493e-8f80-f587463dba7e",
+      "url": "https://explore.overturemaps.org/#17/28.214326858520508/-80.61200714111328",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

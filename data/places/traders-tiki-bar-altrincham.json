@@ -1,0 +1,114 @@
+{
+  "id": "traders-tiki-bar-altrincham",
+  "name": "Traders Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 53.385517,
+    "lng": -2.3505107,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "7-8 Goose Green",
+    "locality": "Altrincham",
+    "region": "England",
+    "postalCode": "WA14 1DW",
+    "country": "GB"
+  },
+  "formattedAddress": "7-8 Goose Grn, Altrincham WA14 1DW, UK",
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "6f04cfef-cb54-4179-b454-41636e31c747",
+    "osm": "node/5092084513",
+    "google": "ChIJb9CQFqOse0gRhck4IwQCNoA"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+44 161 929 9403",
+    "website": "http://www.traderstikibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9238573902391200133&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.8,
+    "count": 179,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJb9CQFqOse0gRhck4IwQCNoA",
+      "url": "https://maps.google.com/?cid=9238573902391200133&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/5092084513",
+      "url": "https://www.openstreetmap.org/node/5092084513",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6f04cfef-cb54-4179-b454-41636e31c747",
+      "url": "https://explore.overturemaps.org/#17/53.38547897338867/-2.3504228591918945",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

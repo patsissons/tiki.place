@@ -1,0 +1,96 @@
+{
+  "id": "deer-creek-sunrise-tiki-bar-and-topside-tavern-davenport",
+  "name": "Deer Creek - Sunrise Tiki Bar and Topside Tavern",
+  "aliases": [],
+  "location": {
+    "lat": 28.2181797,
+    "lng": -81.6408615,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Davenport",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "bed22081-f27b-4a23-9d8a-b4fb6f6c24f1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "bed22081-f27b-4a23-9d8a-b4fb6f6c24f1",
+      "url": "https://explore.overturemaps.org/#17/28.21817970275879/-81.64086151123047",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ056YRI9w3YgR0CSUMSa9WI8",
+        "name": "Deer Creek RV Golf & Country Club",
+        "distanceM": 321,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJV_WcBY9w3YgRZ7Ti3RfTSps",
+        "name": "Ovation Bistro & Bar",
+        "distanceM": 205,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJjaD9c9Zx3YgRfAu28Aay_6g",
+        "name": "Fireside Lounge & Billiards",
+        "distanceM": 968,
+        "nameSim": 0.271
+      },
+      {
+        "googleId": "ChIJK0tkeUJ73YgRqIDkpg9XZng",
+        "name": "Sunday's Grill",
+        "distanceM": 10675,
+        "nameSim": 0.178
+      },
+      {
+        "googleId": "ChIJJ_NbEDJx3YgR0V3qn-uACTs",
+        "name": "The Nest",
+        "distanceM": 3787,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

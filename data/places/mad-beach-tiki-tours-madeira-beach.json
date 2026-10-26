@@ -1,0 +1,102 @@
+{
+  "id": "mad-beach-tiki-tours-madeira-beach",
+  "name": "Mad Beach Tiki Tours",
+  "aliases": [],
+  "location": {
+    "lat": 26.4572086,
+    "lng": -81.9430084,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Madeira Beach",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "6702fad0-b9b0-490f-9dcf-d7ee1678813b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.madbeachtikitours.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "6702fad0-b9b0-490f-9dcf-d7ee1678813b",
+      "url": "https://explore.overturemaps.org/#17/26.45720863342285/-81.94300842285156",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJq6qmzlP8wogR6hrUZfc7j9o",
+        "name": "Florida Tiki Tours",
+        "distanceM": 169421,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJP7kzptQ5Q2YR3l_Y8C4NKms",
+        "name": "Mad Beach Party Charter",
+        "distanceM": 170964,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJCZVF9R79wogRPxuotgLqDQo",
+        "name": "St. Pete Tiki Tours",
+        "distanceM": 171814,
+        "nameSim": 0.552
+      },
+      {
+        "googleId": "ChIJc29AWIb9wogRx-CeRov2k2M",
+        "name": "Levique Tours and Rentals",
+        "distanceM": 171991,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJr7mqUJ_9wogRiil-jeVrU8Q",
+        "name": "Tipsy Tiki Bar",
+        "distanceM": 169421,
+        "nameSim": 0.286
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

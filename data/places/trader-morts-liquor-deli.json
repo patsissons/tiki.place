@@ -1,0 +1,190 @@
+{
+  "id": "trader-morts-liquor-deli",
+  "name": "Trader Mort's Liquor",
+  "aliases": [
+    "Trader Mort's Liquor Deli"
+  ],
+  "location": {
+    "lat": 32.722193,
+    "lng": -117.22999519999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2904 Shelter Island Drive",
+    "locality": "San Diego",
+    "region": "California",
+    "postalCode": "92106",
+    "country": "US"
+  },
+  "formattedAddress": "2904 Shelter Island Dr, San Diego, CA 92106, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "trader-mort-s-liquor-deli",
+    "google": "ChIJD8WAAqOr3oARn_5ocla0Aso"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1000"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0900"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0900"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0900"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0900"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0900"
+        },
+        "close": {
+          "day": 5,
+          "time": "2330"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0900"
+        },
+        "close": {
+          "day": 6,
+          "time": "2330"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 9:00 AM – 10:00 PM",
+      "Tuesday: 9:00 AM – 10:00 PM",
+      "Wednesday: 9:00 AM – 10:00 PM",
+      "Thursday: 9:00 AM – 10:00 PM",
+      "Friday: 9:00 AM – 11:30 PM",
+      "Saturday: 9:00 AM – 11:30 PM",
+      "Sunday: 10:00 AM – 11:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 619-224-3771",
+    "website": "http://www.tradermorts.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14556395228994535071&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 101,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.895,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJD8WAAqOr3oARn_5ocla0Aso",
+      "url": "https://maps.google.com/?cid=14556395228994535071&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "trader-mort-s-liquor-deli",
+      "url": "https://tikirat.com/bars/trader-mort-s-liquor-deli",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

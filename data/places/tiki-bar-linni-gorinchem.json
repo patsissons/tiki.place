@@ -1,0 +1,71 @@
+{
+  "id": "tiki-bar-linni-gorinchem",
+  "name": "Tiki Bar Linni",
+  "aliases": [],
+  "location": {
+    "lat": 51.8301086,
+    "lng": 4.9750099,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Gorinchem",
+    "country": "NL"
+  },
+  "timezone": "Europe/Amsterdam",
+  "externalIds": {
+    "overture": "cdf2cf89-717f-47ab-8aae-855353b46ed1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "cdf2cf89-717f-47ab-8aae-855353b46ed1",
+      "url": "https://explore.overturemaps.org/#17/51.830108642578125/4.975009918212891",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ_1npqFSFxkcRiOpvR053r5I",
+        "name": "Timber Fine Cocktails Tough Drinks",
+        "distanceM": 109,
+        "nameSim": 0.103
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

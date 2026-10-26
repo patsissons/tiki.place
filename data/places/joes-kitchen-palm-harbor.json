@@ -1,0 +1,102 @@
+{
+  "id": "joes-kitchen-palm-harbor",
+  "name": "Joe's Kitchen",
+  "aliases": [],
+  "location": {
+    "lat": 28.0616341,
+    "lng": -82.7806015,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Palm Harbor",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "7d5cb7fe-cd9e-4c69-843f-27b3314d2338"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.ozonajoeskitchen.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "7d5cb7fe-cd9e-4c69-843f-27b3314d2338",
+      "url": "https://explore.overturemaps.org/#17/28.061634063720703/-82.78060150146484",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJLeQEnPvnJIgR0W2Cr_FLWlc",
+        "name": "Joe's Kitchen",
+        "distanceM": 1626080,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJ86jxOwDzwogRiEEwd91IXCo",
+        "name": "Trader Joe’s",
+        "distanceM": 4590,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJHVjPVoLzwogR3hCXRFUAsws",
+        "name": "Giovanni's Fresh Italian Kitchen",
+        "distanceM": 5520,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJvyo_BHPzwogRdV8dqkWk7n0",
+        "name": "Pizza Joe's - a Taste of Buffalo",
+        "distanceM": 5629,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJ4THgUXjywogRy-i3uaRvElg",
+        "name": "Joey's New York Pizza & Italian Restaurant",
+        "distanceM": 4434,
+        "nameSim": 0.186
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

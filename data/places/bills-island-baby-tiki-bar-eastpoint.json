@@ -1,0 +1,96 @@
+{
+  "id": "bills-island-baby-tiki-bar-eastpoint",
+  "name": "Bill's Island Baby Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 29.6581497,
+    "lng": -84.8798523,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Eastpoint",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c7b31dc2-7d85-4c2b-a4aa-147635438e9c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c7b31dc2-7d85-4c2b-a4aa-147635438e9c",
+      "url": "https://explore.overturemaps.org/#17/29.65814971923828/-84.87985229492188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJV04E2Hg624gRxQ3sldjfsiU",
+        "name": "Island Time Tiki Bar",
+        "distanceM": 453706,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJZV2F1efZwogRlgtkVm7MFJU",
+        "name": "Beer Can Island",
+        "distanceM": 314237,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJSVEoK94164gRezkeVzjA66o",
+        "name": "Paddy's Raw Bar",
+        "distanceM": 2132,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJ9zIU9R9764gR-_lEtSiN3BU",
+        "name": "Tiki on the Point",
+        "distanceM": 52344,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJY_BLAd0164gRnPAEu9CLqxw",
+        "name": "Beach Pit",
+        "distanceM": 1587,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

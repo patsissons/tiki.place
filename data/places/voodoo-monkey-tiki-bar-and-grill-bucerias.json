@@ -1,0 +1,188 @@
+{
+  "id": "voodoo-monkey-tiki-bar-and-grill-bucerias",
+  "name": "Voodoo Monkey Tiki Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 20.7572293,
+    "lng": -105.3410781,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "50 Avenida México",
+    "locality": "Bucerías",
+    "region": "Nayarit",
+    "postalCode": "63732",
+    "country": "MX"
+  },
+  "formattedAddress": "Av México 50-loc# 4, Centro, 63732 Bucerías, Nay., Mexico",
+  "timezone": "America/Bahia_Banderas",
+  "externalIds": {
+    "overture": "6b67be5f-b7be-4715-884b-6816e9e70017",
+    "google": "ChIJc8OnACJBIYQRbLrXtumoz7c"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0800"
+        },
+        "close": {
+          "day": 2,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0800"
+        },
+        "close": {
+          "day": 3,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 8:00 AM – 1:00 AM",
+      "Tuesday: 8:00 AM – 1:00 AM",
+      "Wednesday: 8:00 AM – 1:00 AM",
+      "Thursday: 8:00 AM – 1:00 AM",
+      "Friday: 8:00 AM – 1:00 AM",
+      "Saturday: 8:00 AM – 1:00 AM",
+      "Sunday: 8:00 AM – 1:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+52 322 278 9096",
+    "googleMapsUri": "https://maps.google.com/?cid=13244990750868355692&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 165,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJc8OnACJBIYQRbLrXtumoz7c",
+      "url": "https://maps.google.com/?cid=13244990750868355692&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6b67be5f-b7be-4715-884b-6816e9e70017",
+      "url": "https://explore.overturemaps.org/#17/20.7572078704834/-105.34109497070312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

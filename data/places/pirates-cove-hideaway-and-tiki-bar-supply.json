@@ -1,0 +1,78 @@
+{
+  "id": "pirates-cove-hideaway-and-tiki-bar-supply",
+  "name": "Pirate's Cove Hideaway and Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 33.9329376,
+    "lng": -78.3184738,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Supply",
+    "region": "NC",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "df32e8c6-a962-4c48-81c2-1d094550b905"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "df32e8c6-a962-4c48-81c2-1d094550b905",
+      "url": "https://explore.overturemaps.org/#17/33.93293762207031/-78.31847381591797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJt7Y10fwfzoARsHe8_mCNdXo",
+        "name": "Pirate Cove Resort & Marina",
+        "distanceM": 3306447,
+        "nameSim": 0.462
+      },
+      {
+        "googleId": "ChIJK8AFKimp6YgRDT9dnS8PfcY",
+        "name": "Low Key Hideaway",
+        "distanceM": 694050,
+        "nameSim": 0.452
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

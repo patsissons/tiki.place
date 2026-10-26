@@ -1,0 +1,95 @@
+{
+  "id": "pool-bar-loule",
+  "name": "Pool Bar",
+  "aliases": [],
+  "location": {
+    "lat": 37.1053085,
+    "lng": -8.1407404,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Loulé",
+    "country": "PT"
+  },
+  "timezone": "Europe/Lisbon",
+  "externalIds": {
+    "overture": "feca5c61-3604-41d4-b345-a42c58ec8aa7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "feca5c61-3604-41d4-b345-a42c58ec8aa7",
+      "url": "https://explore.overturemaps.org/#17/37.105308532714844/-8.140740394592285",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJwxXpejazGg0RsEIJtgRL4oU",
+        "name": "Pool bar",
+        "distanceM": 13402,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJK1LuOwC1Gg0RjbzYrpB02UA",
+        "name": "Dolphin Pool Bar",
+        "distanceM": 3439,
+        "nameSim": 0.8
+      },
+      {
+        "googleId": "ChIJsR_txBWxGg0R_yjGinkSDC0",
+        "name": "Bar 28",
+        "distanceM": 11028,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJnciRWIG1Gg0Ra9I5WFoH0CM",
+        "name": "Beach Club Vale do Lobo - Algarve",
+        "distanceM": 9108,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJm1v33wK1Gg0Rzs8Cv0ej0I4",
+        "name": "Honório Club Vilamoura",
+        "distanceM": 4850,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

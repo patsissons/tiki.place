@@ -1,0 +1,71 @@
+{
+  "id": "tika-resort-pokhara",
+  "name": "Tika Resort Pokhara",
+  "aliases": [],
+  "location": {
+    "lat": 28.2145462,
+    "lng": 83.9585953,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Pokhara",
+    "country": "NP"
+  },
+  "timezone": "Asia/Kathmandu",
+  "externalIds": {
+    "overture": "a6a76085-81d7-4318-ac26-7172d5bf7365"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a6a76085-81d7-4318-ac26-7172d5bf7365",
+      "url": "https://explore.overturemaps.org/#17/28.21454620361328/83.9585952758789",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJZ8v8iuGUlTkRwyVd91CkJBM",
+        "name": "Teeka Resort Suites and Spa",
+        "distanceM": 13,
+        "nameSim": 0.438
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

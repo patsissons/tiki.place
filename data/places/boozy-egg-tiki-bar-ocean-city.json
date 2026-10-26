@@ -1,0 +1,183 @@
+{
+  "id": "boozy-egg-tiki-bar-ocean-city",
+  "name": "Boozy Egg Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 38.450818999999996,
+    "lng": -75.0517742,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "14502 Coastal Highway",
+    "locality": "Ocean City",
+    "region": "Maryland",
+    "postalCode": "21842",
+    "country": "US"
+  },
+  "formattedAddress": "14502 Coastal Hwy, Ocean City, MD 21842, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "dc97c5d9-6bdd-4bc0-9bdf-3827d4da55c5",
+    "google": "ChIJ6xNDXU_TuIkRTvfAXcWDBRY"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "0700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 7:00 AM – 12:00 AM",
+      "Tuesday: 7:00 AM – 12:00 AM",
+      "Wednesday: 7:00 AM – 12:00 AM",
+      "Thursday: 7:00 AM – 12:00 AM",
+      "Friday: 7:00 AM – 12:00 AM",
+      "Saturday: 7:00 AM – 12:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 443-373-2069",
+    "website": "http://www.boozyeggtikibaroc.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1586819327422691150&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 94,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ6xNDXU_TuIkRTvfAXcWDBRY",
+      "url": "https://maps.google.com/?cid=1586819327422691150&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "dc97c5d9-6bdd-4bc0-9bdf-3827d4da55c5",
+      "url": "https://explore.overturemaps.org/#17/38.45087432861328/-75.05191802978516",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

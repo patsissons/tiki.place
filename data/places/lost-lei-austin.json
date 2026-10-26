@@ -1,0 +1,78 @@
+{
+  "id": "lost-lei-austin",
+  "name": "The Lost Lei",
+  "aliases": [],
+  "location": {
+    "lat": 30.2663116,
+    "lng": -97.7445984,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Austin",
+    "region": "TX",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "aea5f9e2-bdf8-4901-b5fe-6a524e74d99b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.lostleiaustin.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "aea5f9e2-bdf8-4901-b5fe-6a524e74d99b",
+      "url": "https://explore.overturemaps.org/#17/30.266311645507812/-97.74459838867188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJq018atG1RIYRGHTlklSwB08",
+        "name": "Hen House",
+        "distanceM": 10,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

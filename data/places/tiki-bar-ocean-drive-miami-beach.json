@@ -1,0 +1,114 @@
+{
+  "id": "tiki-bar-ocean-drive-miami-beach",
+  "name": "Tiki Bar Ocean Drive",
+  "aliases": [],
+  "location": {
+    "lat": 25.779977000000002,
+    "lng": -80.13105999999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "940 Ocean Drive",
+    "locality": "Miami Beach",
+    "region": "Florida",
+    "postalCode": "33139",
+    "country": "US"
+  },
+  "formattedAddress": "940 Ocean Dr, Miami Beach, FL 33139, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4446c2d8-35d5-4286-aaf3-e9731c048018",
+    "osm": "node/13119870073",
+    "google": "ChIJiQBvm_u12YgRZGOhftUv2gg"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 786-864-2881",
+    "website": "https://tikibaroceandrive.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=637874891225391972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 156,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJiQBvm_u12YgRZGOhftUv2gg",
+      "url": "https://maps.google.com/?cid=637874891225391972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/13119870073",
+      "url": "https://www.openstreetmap.org/node/13119870073",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4446c2d8-35d5-4286-aaf3-e9731c048018",
+      "url": "https://explore.overturemaps.org/#17/25.779972076416016/-80.13088989257812",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

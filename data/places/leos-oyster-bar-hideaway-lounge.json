@@ -1,0 +1,44 @@
+{
+  "id": "leos-oyster-bar-hideaway-lounge",
+  "name": "Leo's Oyster Bar Hideaway Lounge",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "leo-s-oyster-bar-hideaway-lounge"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "leo-s-oyster-bar-hideaway-lounge",
+      "url": "https://tikirat.com/bars/leo-s-oyster-bar-hideaway-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": []
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

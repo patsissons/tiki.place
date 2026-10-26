@@ -1,0 +1,102 @@
+{
+  "id": "tiki-iniki-atlanta",
+  "name": "Tiki Iniki",
+  "aliases": [],
+  "location": {
+    "lat": 33.776886,
+    "lng": -84.3530884,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Atlanta",
+    "region": "GA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4c45d308-c8ce-4819-b31b-99f1d3873967"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://tikiinikiatl.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4c45d308-c8ce-4819-b31b-99f1d3873967",
+      "url": "https://explore.overturemaps.org/#17/33.776885986328125/-84.35308837890625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJxW3svk3lBnwROwK2ga9PS-c",
+        "name": "Tiki Iniki",
+        "distanceM": 7331521,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJwcrXKUAF9YgRlgws_vn0vSA",
+        "name": "Tiki Thai",
+        "distanceM": 6214,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJB4FZZj4H9YgRySqQV5f5xfU",
+        "name": "The S.O.S. Tiki Bar",
+        "distanceM": 5373,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJF0Y0CBMD9YgRtQS13OVavH8",
+        "name": "Duke's Hideaway at McCray's",
+        "distanceM": 2799,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ__IuDHcE9YgRQm0eTLPnXzo",
+        "name": "Trader Vic's",
+        "distanceM": 3303,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,168 @@
+{
+  "id": "tiki-republic-llc-kimball",
+  "name": "Tiki Republic LLC",
+  "aliases": [],
+  "location": {
+    "lat": 42.9272187,
+    "lng": -82.5437176,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "775 North Wadhams Road",
+    "locality": "Kimball",
+    "region": "Michigan",
+    "postalCode": "48074",
+    "country": "US"
+  },
+  "formattedAddress": "775 N Wadhams Rd, Kimball, MI 48074, USA",
+  "timezone": "America/Detroit",
+  "externalIds": {
+    "overture": "777579b1-0ab5-45ea-9906-b6a908265d39",
+    "google": "ChIJcXX3ydl1JYgRNfmU9uM17z8"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "0900"
+        },
+        "close": {
+          "day": 1,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0900"
+        },
+        "close": {
+          "day": 2,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0900"
+        },
+        "close": {
+          "day": 3,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0900"
+        },
+        "close": {
+          "day": 4,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0900"
+        },
+        "close": {
+          "day": 5,
+          "time": "1700"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 9:00 AM – 5:00 PM",
+      "Tuesday: 9:00 AM – 5:00 PM",
+      "Wednesday: 9:00 AM – 5:00 PM",
+      "Thursday: 9:00 AM – 5:00 PM",
+      "Friday: 9:00 AM – 5:00 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 810-650-9103",
+    "website": "http://tikirepubliclife.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4606960197034113333&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 3,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJcXX3ydl1JYgRNfmU9uM17z8",
+      "url": "https://maps.google.com/?cid=4606960197034113333&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "777579b1-0ab5-45ea-9906-b6a908265d39",
+      "url": "https://explore.overturemaps.org/#17/42.927215576171875/-82.54371643066406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

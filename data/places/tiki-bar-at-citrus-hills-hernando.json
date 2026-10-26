@@ -1,0 +1,183 @@
+{
+  "id": "tiki-bar-at-citrus-hills-hernando",
+  "name": "Tiki Bar at Citrus Hills",
+  "aliases": [],
+  "location": {
+    "lat": 28.8868054,
+    "lng": -82.42624819999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "505 East Hartford Street",
+    "locality": "Hernando",
+    "region": "Florida",
+    "postalCode": "34442",
+    "country": "US"
+  },
+  "formattedAddress": "505 E Hartford St, Hernando, FL 34442, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "1fd3c9cc-7930-471d-9e32-61469e9a834f",
+    "google": "ChIJVwFan65t6IgRadEPO8vBj6Y"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:30 AM – 8:00 PM",
+      "Tuesday: 11:30 AM – 8:00 PM",
+      "Wednesday: 11:30 AM – 8:00 PM",
+      "Thursday: 11:30 AM – 8:00 PM",
+      "Friday: 11:30 AM – 8:00 PM",
+      "Saturday: 11:30 AM – 8:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 352-746-6855",
+    "website": "http://www.citrushillsgolfandcountryclub.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12002024610579075433&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 160,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJVwFan65t6IgRadEPO8vBj6Y",
+      "url": "https://maps.google.com/?cid=12002024610579075433&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1fd3c9cc-7930-471d-9e32-61469e9a834f",
+      "url": "https://explore.overturemaps.org/#17/28.88680076599121/-82.42626953125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

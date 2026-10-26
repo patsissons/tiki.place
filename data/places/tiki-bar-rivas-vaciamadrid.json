@@ -1,0 +1,173 @@
+{
+  "id": "tiki-bar-rivas-vaciamadrid",
+  "name": "TIKI BAR",
+  "aliases": [],
+  "location": {
+    "lat": 40.3262652,
+    "lng": -3.5181215999999997,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "9 Calle de San Isidro",
+    "locality": "Rivas-Vaciamadrid",
+    "region": "Comunidad de Madrid",
+    "postalCode": "28521",
+    "country": "ES"
+  },
+  "formattedAddress": "C. de San Isidro, 9, 28521 Rivas-Vaciamadrid, Madrid, Spain",
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "e1083830-30bf-4e46-8c2f-9a114a1ad74a",
+    "google": "ChIJq8DShxI8Qg0Ro4cED0z20WE"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1630"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1630"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1630"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1630"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1630"
+        },
+        "close": {
+          "day": 5,
+          "time": "2330"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1630"
+        },
+        "close": {
+          "day": 6,
+          "time": "2330"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:30 – 11:00 PM",
+      "Wednesday: 4:30 – 11:00 PM",
+      "Thursday: 4:30 – 11:00 PM",
+      "Friday: 4:30 – 11:30 PM",
+      "Saturday: 4:30 – 11:30 PM",
+      "Sunday: 4:30 – 11:00 PM"
+    ]
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=7048685698341439395&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 278,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJq8DShxI8Qg0Ro4cED0z20WE",
+      "url": "https://maps.google.com/?cid=7048685698341439395&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e1083830-30bf-4e46-8c2f-9a114a1ad74a",
+      "url": "https://explore.overturemaps.org/#17/40.32625961303711/-3.51815128326416",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

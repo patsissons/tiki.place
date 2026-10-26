@@ -1,0 +1,78 @@
+{
+  "id": "stowaway-conroe",
+  "name": "The Stowaway",
+  "aliases": [],
+  "location": {
+    "lat": 30.329237,
+    "lng": -95.4714432,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Conroe",
+    "region": "TX",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "5ce3eceb-c0ce-4903-9ba5-2c6f4993ee36"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.enchantedtikilounge.com/the-stowaway.html"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "5ce3eceb-c0ce-4903-9ba5-2c6f4993ee36",
+      "url": "https://explore.overturemaps.org/#17/30.32923698425293/-95.47144317626953",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ9wwBbtwZR4YRk2QpgSNw0FQ",
+        "name": "Stow-A-Way Marina and RV Park",
+        "distanceM": 18469,
+        "nameSim": 0.545
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

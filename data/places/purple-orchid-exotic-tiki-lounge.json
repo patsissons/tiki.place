@@ -1,0 +1,203 @@
+{
+  "id": "purple-orchid-exotic-tiki-lounge",
+  "name": "Purple Orchid",
+  "aliases": [
+    "Purple Orchid Exotic Tiki Lounge"
+  ],
+  "location": {
+    "lat": 33.9185231,
+    "lng": -118.417486,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "221 Richmond Street",
+    "locality": "El Segundo",
+    "region": "California",
+    "postalCode": "90245",
+    "country": "US"
+  },
+  "formattedAddress": "221 Richmond St, El Segundo, CA 90245, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "purple-orchid-exotic-tiki-lounge",
+    "google": "ChIJB9EwbGqxwoARZKdcG2SxEng",
+    "overture": "da526a17-10d1-477b-81f0-8b1334fa7354"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1400"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1500"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1500"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1500"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1500"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1500"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 3:00 PM – 2:00 AM",
+      "Tuesday: 3:00 PM – 2:00 AM",
+      "Wednesday: 3:00 PM – 2:00 AM",
+      "Thursday: 3:00 PM – 2:00 AM",
+      "Friday: 3:00 PM – 2:00 AM",
+      "Saturday: 2:00 PM – 2:00 AM",
+      "Sunday: 2:00 PM – 2:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 310-322-5829",
+    "website": "https://instagram.com/purpleorchidtikilounge?igshid=MzRlODBiNWFlZA==",
+    "googleMapsUri": "https://maps.google.com/?cid=8652172877646047076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 658,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.975,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJB9EwbGqxwoARZKdcG2SxEng",
+      "url": "https://maps.google.com/?cid=8652172877646047076&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "da526a17-10d1-477b-81f0-8b1334fa7354",
+      "url": "https://explore.overturemaps.org/#17/33.918521881103516/-118.41734313964844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "purple-orchid-exotic-tiki-lounge",
+      "url": "https://tikirat.com/bars/purple-orchid-exotic-tiki-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

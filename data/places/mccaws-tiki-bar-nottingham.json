@@ -1,0 +1,96 @@
+{
+  "id": "mccaws-tiki-bar-nottingham",
+  "name": "McCaws Tiki Bar, Nottingham",
+  "aliases": [],
+  "location": {
+    "lat": 52.9554787,
+    "lng": -1.14987,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Nottingham",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "79107ca8-a4d8-4a00-acf3-19e77c6e4235"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.lostcityadventuregolf.com/nottingham/tiki-bar/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "79107ca8-a4d8-4a00-acf3-19e77c6e4235",
+      "url": "https://explore.overturemaps.org/#17/52.95547866821289/-1.1498700380325317",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJifyfPy7BeUgROA9AYLoVKlc",
+        "name": "Golf Fang Nottingham",
+        "distanceM": 412,
+        "nameSim": 0.581
+      },
+      {
+        "googleId": "ChIJtRgf2DDDeUgRRz2hbBy4hLs",
+        "name": "Tropichol - Tiki Bar",
+        "distanceM": 214,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJn4LpOZXDeUgRcpRWHCRsuKc",
+        "name": "Tahula's Tiki Shack",
+        "distanceM": 419,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJZS_cc9bDeUgRQ8CPr0Zqrhk",
+        "name": "The Lost City Adventure Golf",
+        "distanceM": 57,
+        "nameSim": 0.049
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

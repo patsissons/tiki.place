@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-wavre",
+  "name": "Tiki-Bar",
+  "aliases": [],
+  "location": {
+    "lat": 50.6968004,
+    "lng": 4.5873982,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "100 Boulevard de l'Europe",
+    "locality": "Wavre",
+    "region": "Région wallonne",
+    "postalCode": "1301",
+    "country": "BE"
+  },
+  "formattedAddress": "Bd de l'Europe 100, 1301 Wavre, Belgium",
+  "timezone": "Europe/Brussels",
+  "externalIds": {
+    "overture": "4fb7e0c1-5627-4bf6-9847-5dff9820e21d",
+    "google": "ChIJvzVsOhN9wUcRknr3O4CzQaM"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.walibi.be/fr/restaurants/tiki-bar",
+    "googleMapsUri": "https://maps.google.com/?cid=11763881065011706514&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 3,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJvzVsOhN9wUcRknr3O4CzQaM",
+      "url": "https://maps.google.com/?cid=11763881065011706514&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4fb7e0c1-5627-4bf6-9847-5dff9820e21d",
+      "url": "https://explore.overturemaps.org/#17/50.696807861328125/4.587394714355469",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

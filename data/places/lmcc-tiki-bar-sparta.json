@@ -1,0 +1,140 @@
+{
+  "id": "lmcc-tiki-bar-sparta",
+  "name": "LMCC Tiki Bar (Seasonal)",
+  "aliases": [
+    "LMCC Tiki Bar"
+  ],
+  "location": {
+    "lat": 41.0316681,
+    "lng": -74.6410097,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "7 Lake Mohawk Country Club Boardwalk",
+    "locality": "Sparta",
+    "region": "New Jersey",
+    "postalCode": "07871",
+    "country": "US"
+  },
+  "formattedAddress": "7 Lake Mohawk Country Club Boardwalk, Sparta, NJ 07871, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "a8662635-7bf9-4375-a5d4-24536ae16626",
+    "google": "ChIJ_ZM85WJyw4kRIHXGMZAXK_Y"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "2200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 4:00 – 10:00 PM",
+      "Friday: 6:00 – 10:00 PM",
+      "Saturday: 6:00 – 10:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=17738297465406649632&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 2,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_ZM85WJyw4kRIHXGMZAXK_Y",
+      "url": "https://maps.google.com/?cid=17738297465406649632&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a8662635-7bf9-4375-a5d4-24536ae16626",
+      "url": "https://explore.overturemaps.org/#17/41.0314826965332/-74.64075469970703",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "pacific-seas-los-angeles",
+  "name": "The Pacific Seas",
+  "aliases": [],
+  "location": {
+    "lat": 34.045420899999996,
+    "lng": -118.2530005,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "648 South Broadway",
+    "locality": "Los Angeles",
+    "region": "California",
+    "postalCode": "90014",
+    "country": "US"
+  },
+  "formattedAddress": "648 S Broadway, Los Angeles, CA 90014, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "3897f5da-0b77-4173-b628-88366bcf745b",
+    "google": "ChIJm4ppqzjHwoARuADF9hwJ5PE"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 213-613-0000",
+    "website": "https://theneverlands.com/pacific-seas/",
+    "googleMapsUri": "https://maps.google.com/?cid=17430066477834502328&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 9,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJm4ppqzjHwoARuADF9hwJ5PE",
+      "url": "https://maps.google.com/?cid=17430066477834502328&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "3897f5da-0b77-4173-b628-88366bcf745b",
+      "url": "https://explore.overturemaps.org/#17/34.04520797729492/-118.25272369384766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

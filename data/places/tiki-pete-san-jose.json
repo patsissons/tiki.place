@@ -1,0 +1,154 @@
+{
+  "id": "tiki-pete-san-jose",
+  "name": "TIKI PETE",
+  "aliases": [],
+  "location": {
+    "lat": 37.3359087,
+    "lng": -121.8926047,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "23 North Market Street",
+    "locality": "San Jose",
+    "region": "California",
+    "postalCode": "95113",
+    "country": "US"
+  },
+  "formattedAddress": "23 N Market St, San Jose, CA 95113, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "c38f33c9-5919-4152-a813-df0fdc97d80e",
+    "google": "ChIJxYownLvNj4ARnb8DbaCFxOI",
+    "osm": "way/45728006",
+    "tikirat": "tiki-pete"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 6:00 PM – 2:00 AM",
+      "Saturday: 6:00 PM – 2:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 408-713-2900",
+    "website": "http://www.tikipete.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16340332272077225885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 183,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.994,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:28:59.067Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJxYownLvNj4ARnb8DbaCFxOI",
+      "url": "https://maps.google.com/?cid=16340332272077225885&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:28:59.067Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/45728006",
+      "url": "https://www.openstreetmap.org/way/45728006",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c38f33c9-5919-4152-a813-df0fdc97d80e",
+      "url": "https://explore.overturemaps.org/#17/37.33589553833008/-121.89261627197266",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tiki-pete",
+      "url": "https://tikirat.com/bars/tiki-pete",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

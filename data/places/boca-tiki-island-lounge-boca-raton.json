@@ -1,0 +1,72 @@
+{
+  "id": "boca-tiki-island-lounge-boca-raton",
+  "name": "Boca Tiki Island Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 26.3479614,
+    "lng": -80.0861969,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Boca Raton",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "ff8c6bc9-1518-4204-89d6-61997319e836"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ff8c6bc9-1518-4204-89d6-61997319e836",
+      "url": "https://explore.overturemaps.org/#17/26.34796142578125/-80.08619689941406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJAyfeq2jj2IgRBJifJZpWJlw",
+        "name": "BOCA TIKI",
+        "distanceM": 1,
+        "nameSim": 0.667
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

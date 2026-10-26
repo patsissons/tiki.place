@@ -1,0 +1,93 @@
+{
+  "id": "tiki-bar-solomons",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 38.319484,
+    "lng": -76.4560476,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "85 Charles Street",
+    "locality": "Solomons",
+    "region": "MD",
+    "postalCode": "20688",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "91f7b846-10fa-4de7-8938-4c028960f1a1",
+    "osm": "node/1669255688"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "+1 410 449 6621",
+    "website": "http://www.tikibarsolomonsisland.com/"
+  },
+  "tikiConfidence": 0.878,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/1669255688",
+      "url": "https://www.openstreetmap.org/node/1669255688",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "91f7b846-10fa-4de7-8938-4c028960f1a1",
+      "url": "https://explore.overturemaps.org/#17/38.3193359375/-76.45597076416016",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJWeGE-4HYuYkRsoaKRBMfwM8",
+        "name": "Tiki Bar & Grill Solomons Island MD",
+        "distanceM": 33,
+        "nameSim": 0.444
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "makai-restaurant-and-tiki-bar-roma",
+  "name": "Makai Restaurant & Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.8893242,
+    "lng": 12.5281153,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Roma",
+    "region": "62",
+    "country": "IT"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "56da82d1-5dbe-4d13-90eb-6f1879587a8d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.makaipigneto.it/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "56da82d1-5dbe-4d13-90eb-6f1879587a8d",
+      "url": "https://explore.overturemaps.org/#17/41.88932418823242/12.528115272521973",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ0Vl2yStgLxMRxsJb0Hke45E",
+        "name": "Makai Grand Line",
+        "distanceM": 8,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

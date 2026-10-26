@@ -1,0 +1,96 @@
+{
+  "id": "port-light-on-bloor-toronto",
+  "name": "Port Light On Bloor",
+  "aliases": [],
+  "location": {
+    "lat": 43.661582700000004,
+    "lng": -79.42823539999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "946 Bloor Street West",
+    "locality": "Toronto",
+    "region": "Ontario",
+    "postalCode": "M6H 1L6",
+    "country": "CA"
+  },
+  "formattedAddress": "946 Bloor St W, Toronto, ON M6H 1L6, Canada",
+  "timezone": "America/Toronto",
+  "externalIds": {
+    "overture": "03a4f961-e8f2-41d4-b697-a73435284de8",
+    "google": "ChIJee6gbjU1K4gR3jFCum2E5ec"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://portlightonbloor.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16709907599239295454&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 124,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJee6gbjU1K4gR3jFCum2E5ec",
+      "url": "https://maps.google.com/?cid=16709907599239295454&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "03a4f961-e8f2-41d4-b697-a73435284de8",
+      "url": "https://explore.overturemaps.org/#17/43.66152572631836/-79.4282455444336",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

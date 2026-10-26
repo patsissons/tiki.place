@@ -1,0 +1,78 @@
+{
+  "id": "surf-and-turf-tikis-tiki-bar-rentals-and-party-rentals-commerce-twp",
+  "name": "Surf and Turf Tikis- Tiki Bar Rentals and Party Rentals",
+  "aliases": [],
+  "location": {
+    "lat": 42.5646858,
+    "lng": -83.4964828,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Commerce Twp",
+    "region": "MI",
+    "country": "US"
+  },
+  "timezone": "America/Detroit",
+  "externalIds": {
+    "overture": "a3797863-1f97-4b3b-a7f5-a0eb52f71578"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.surfandturftikis.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a3797863-1f97-4b3b-a7f5-a0eb52f71578",
+      "url": "https://explore.overturemaps.org/#17/42.5646858215332/-83.4964828491211",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ__8L_gqkJIgRIrm5p74f9JM",
+        "name": "Surf and Turf Tikis",
+        "distanceM": 3825,
+        "nameSim": 0.75
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

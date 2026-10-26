@@ -1,0 +1,96 @@
+{
+  "id": "bernards-tiki-room-arvada",
+  "name": "Bernard's Tiki Room",
+  "aliases": [],
+  "location": {
+    "lat": 39.800354,
+    "lng": -105.0816116,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Arvada",
+    "region": "CO",
+    "country": "US"
+  },
+  "timezone": "America/Denver",
+  "externalIds": {
+    "overture": "92265cce-e920-4b0a-8e99-ccf806a98585"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "92265cce-e920-4b0a-8e99-ccf806a98585",
+      "url": "https://explore.overturemaps.org/#17/39.80035400390625/-105.08161163330078",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJOW1Y6siHa4cRnw-QdW3wg7U",
+        "name": "Stardust Lounge",
+        "distanceM": 1449,
+        "nameSim": 0.308
+      },
+      {
+        "googleId": "ChIJ97TdiCyGa4cRbL0dR-b7ogo",
+        "name": "The Arvada Tavern",
+        "distanceM": 16,
+        "nameSim": 0.231
+      },
+      {
+        "googleId": "ChIJiz9Nm9SHa4cRhKiN2knOpt4",
+        "name": "Olde Town Tavern & Grill",
+        "distanceM": 376,
+        "nameSim": 0.167
+      },
+      {
+        "googleId": "ChIJ2fupureHa4cRyIhF5dp0IEI",
+        "name": "Secret Level",
+        "distanceM": 30,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJneUSaXWHa4cRF5KtZjO2Ijc",
+        "name": "Olde Town Social",
+        "distanceM": 119,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

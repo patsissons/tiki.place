@@ -1,0 +1,102 @@
+{
+  "id": "marines-tiki-bar-and-spa-zephyrhills",
+  "name": "Marines Tiki Bar and Spa",
+  "aliases": [],
+  "location": {
+    "lat": 28.2064762,
+    "lng": -82.2097931,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Zephyrhills",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "3da8b6dd-f71d-4571-8f14-356962901bc3"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.wherevent.com/detail/Marines-Tiki-Bar-USMC-B-DayVeterans-Day-BBQ"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3da8b6dd-f71d-4571-8f14-356962901bc3",
+      "url": "https://explore.overturemaps.org/#17/28.20647621154785/-82.20979309082031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJR-a23GxN3YgRDQ9vyMErcBU",
+        "name": "Jerry's Crystal Bar",
+        "distanceM": 4438,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJF3UdQz1N3YgRXm3sMLS040E",
+        "name": "Pat's Place",
+        "distanceM": 3039,
+        "nameSim": 0.235
+      },
+      {
+        "googleId": "ChIJc85vJQBT3YgROKhn4fNnhZk",
+        "name": "Two Naked Monkeys Bar",
+        "distanceM": 9035,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJmVpDoelT3YgRL5c8_T7CW1c",
+        "name": "Liberty Hill Executive Inn",
+        "distanceM": 9035,
+        "nameSim": 0.15
+      },
+      {
+        "googleId": "ChIJv-VDIBdN3YgRMo_nMJX38hA",
+        "name": "The Great Catch - Zephyrhills",
+        "distanceM": 3408,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

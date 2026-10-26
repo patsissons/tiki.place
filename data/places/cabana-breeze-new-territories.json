@@ -1,0 +1,104 @@
+{
+  "id": "cabana-breeze-new-territories",
+  "name": "Cabana Breeze",
+  "aliases": [],
+  "location": {
+    "lat": 22.295796199999998,
+    "lng": 113.9460795,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "New Territories",
+    "region": "New Territories",
+    "country": "HK"
+  },
+  "formattedAddress": "Cabana Breeze HK, Shop G12- G15 SHERATON HOTEL, Lantau Island, 9 Yi Tung Road, 15 T Bay, Lantau Island, Tung Chung, New Territories, Hong Kong",
+  "timezone": "Asia/Hong_Kong",
+  "externalIds": {
+    "overture": "1f77257d-9392-4de5-a35c-1f8be38b88b7",
+    "google": "ChIJ_eFSlaXjAzQRYcncnExwE8c"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+852 2777 8980",
+    "website": "http://www.cabanabreeze.hk/",
+    "googleMapsUri": "https://maps.google.com/?cid=14344932712456702305&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 361,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_eFSlaXjAzQRYcncnExwE8c",
+      "url": "https://maps.google.com/?cid=14344932712456702305&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1f77257d-9392-4de5-a35c-1f8be38b88b7",
+      "url": "https://explore.overturemaps.org/#17/22.295669555664062/113.94625854492188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

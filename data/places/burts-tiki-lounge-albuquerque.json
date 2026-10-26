@@ -1,0 +1,97 @@
+{
+  "id": "burts-tiki-lounge-albuquerque",
+  "name": "Burt's Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 35.0837402,
+    "lng": -106.6511993,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Albuquerque",
+    "region": "NM",
+    "country": "US"
+  },
+  "timezone": "America/Denver",
+  "externalIds": {
+    "overture": "26627f91-dce4-42e6-a304-7c624f4aac14"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "26627f91-dce4-42e6-a304-7c624f4aac14",
+      "url": "https://explore.overturemaps.org/#17/35.083740234375/-106.65119934082031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d4e32d42-180a-4a09-a2c0-03d5f8212c9d",
+      "url": "https://explore.overturemaps.org/#17/35.08510971069336/-106.65342712402344",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJN2RP8Z8MIocRmJ5MI9SE7KE",
+        "name": "The Copper Lounge",
+        "distanceM": 1941,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ3wZnLIENIocRH61gUseRLl8",
+        "name": "Bourbon & Boots",
+        "distanceM": 104,
+        "nameSim": 0.308
+      },
+      {
+        "googleId": "ChIJK11WJhsLIocRHL1DevzzFtk",
+        "name": "Happy Accidents",
+        "distanceM": 3885,
+        "nameSim": 0.118
+      },
+      {
+        "googleId": "ChIJZ_qBDeMKIocRmytPBRjOIkk",
+        "name": "The Jam Spot",
+        "distanceM": 154,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

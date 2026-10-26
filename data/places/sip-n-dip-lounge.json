@@ -1,0 +1,203 @@
+{
+  "id": "sip-n-dip-lounge",
+  "name": "Sip 'n Dip Lounge (1962)",
+  "aliases": [
+    "Sip N Dip Lounge"
+  ],
+  "location": {
+    "lat": 47.504464,
+    "lng": -111.29522039999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "17 7th Street South",
+    "locality": "Great Falls",
+    "region": "Montana",
+    "postalCode": "59401",
+    "country": "US"
+  },
+  "formattedAddress": "17 7th St S, Great Falls, MT 59401, USA",
+  "timezone": "America/Denver",
+  "externalIds": {
+    "tikirat": "sip-n-dip-lounge",
+    "google": "ChIJlxBoK-03QlMRGBpuqaVs5vU",
+    "overture": "56966746-d773-4fe9-bff0-bd316c6196c5"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 12:30 AM",
+      "Tuesday: 11:00 AM – 12:30 AM",
+      "Wednesday: 11:00 AM – 12:30 AM",
+      "Thursday: 11:00 AM – 12:30 AM",
+      "Friday: 11:00 AM – 2:00 AM",
+      "Saturday: 11:00 AM – 2:00 AM",
+      "Sunday: 11:00 AM – 11:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 406-454-2141",
+    "website": "http://www.montanamermaids.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=17718969242703763992&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 1669,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.964,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJlxBoK-03QlMRGBpuqaVs5vU",
+      "url": "https://maps.google.com/?cid=17718969242703763992&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "56966746-d773-4fe9-bff0-bd316c6196c5",
+      "url": "https://explore.overturemaps.org/#17/47.50446701049805/-111.29524230957031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "sip-n-dip-lounge",
+      "url": "https://tikirat.com/bars/sip-n-dip-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

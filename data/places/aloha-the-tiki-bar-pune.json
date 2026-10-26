@@ -1,0 +1,100 @@
+{
+  "id": "aloha-the-tiki-bar-pune",
+  "name": "Aloha - The Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 18.5187906,
+    "lng": 73.93537649999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Pune",
+    "region": "Maharashtra",
+    "postalCode": "411028",
+    "country": "IN"
+  },
+  "formattedAddress": "Amanora Park Town, Hadapsar, Pune, Maharashtra 411028, India",
+  "timezone": "Asia/Kolkata",
+  "externalIds": {
+    "overture": "e0097d1b-8eca-412a-bf04-faa72175f670",
+    "google": "ChIJfc3WdwjBwjsRPtLM0c4ajBY"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+91 85302 59338",
+    "googleMapsUri": "https://maps.google.com/?cid=1624703041159352894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.8,
+    "count": 406,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJfc3WdwjBwjsRPtLM0c4ajBY",
+      "url": "https://maps.google.com/?cid=1624703041159352894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e0097d1b-8eca-412a-bf04-faa72175f670",
+      "url": "https://explore.overturemaps.org/#17/18.518863677978516/73.93534088134766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

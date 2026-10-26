@@ -27,7 +27,7 @@ const GooglePlaceSchema = z.looseObject({
   formattedAddress: z.string().optional(),
   location: z.object({ latitude: z.number(), longitude: z.number() }).optional(),
   addressComponents: z
-    .array(z.object({ longText: z.string().optional(), shortText: z.string().optional(), types: z.array(z.string()) }))
+    .array(z.object({ longText: z.string().optional(), shortText: z.string().optional(), types: z.array(z.string()).default([]) }))
     .optional(),
   types: z.array(z.string()).optional(),
   businessStatus: z.string().optional(),
@@ -175,8 +175,8 @@ export function googleToObservation(place: GooglePlace, sourceId: string, observ
 
 export type CandidatePick =
   | { outcome: "accept"; place: GooglePlace; nameSim: number; distanceM: number | null; weak: boolean }
-  | { outcome: "ambiguous"; candidates: { googleId: string; name: string; distanceM: number; nameSim: number }[] }
-  | { outcome: "none"; candidates: { googleId: string; name: string; distanceM: number; nameSim: number }[] };
+  | { outcome: "ambiguous"; candidates: { googleId: string; name: string; distanceM: number | null; nameSim: number }[] }
+  | { outcome: "none"; candidates: { googleId: string; name: string; distanceM: number | null; nameSim: number }[] };
 
 /** Fraction of the candidate's name tokens that appear in the place name (for slug-derived names). */
 function containment(candidateName: string, placeName: string): number {
@@ -214,7 +214,7 @@ export function pickCandidate(place: Pick<Place, "name" | "aliases" | "location"
     })
     .sort((a, b) => b.sim - a.sim || (a.dist ?? 0) - (b.dist ?? 0));
 
-  const summary = scored.map((s) => ({ googleId: s.r.id, name: s.r.displayName!.text, distanceM: Math.round(s.dist ?? -1), nameSim: Number(s.sim.toFixed(3)) }));
+  const summary = scored.map((s) => ({ googleId: s.r.id, name: s.r.displayName!.text, distanceM: s.dist === null ? null : Math.round(s.dist), nameSim: Number(s.sim.toFixed(3)) }));
   const accepted = scored.filter((s) => s.ok);
   if (accepted.length === 0) return { outcome: "none", candidates: summary.slice(0, 5) };
   const [best, second] = accepted;

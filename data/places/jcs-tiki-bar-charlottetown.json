@@ -1,0 +1,106 @@
+{
+  "id": "jcs-tiki-bar-charlottetown",
+  "name": "JC’s Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 46.231823999999996,
+    "lng": -63.12281019999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1 Great George Street",
+    "locality": "Charlottetown",
+    "region": "Prince Edward Island",
+    "postalCode": "C1A 4J6",
+    "country": "CA"
+  },
+  "formattedAddress": "Floating Restaurants Peakes Marina, 1 Great George St, Charlottetown, PE C1A 4J6, Canada",
+  "timezone": "America/Halifax",
+  "externalIds": {
+    "overture": "82cd3087-ce47-4507-8f06-8d41420d149a",
+    "google": "ChIJX7TVdsFTXksRA60Q6eTwBd4"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 902-330-6759",
+    "website": "https://instagram.com/jc_tikibar",
+    "googleMapsUri": "https://maps.google.com/?cid=15998458117256948995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 139,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJX7TVdsFTXksRA60Q6eTwBd4",
+      "url": "https://maps.google.com/?cid=15998458117256948995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "82cd3087-ce47-4507-8f06-8d41420d149a",
+      "url": "https://explore.overturemaps.org/#17/46.23208236694336/-63.12273025512695",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "hulas-island-grill",
+  "name": "Hula's Island Grill",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "hula-s-island-grill"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.895,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "hula-s-island-grill",
+      "url": "https://tikirat.com/bars/hula-s-island-grill",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJ7VP15SdAjoARn0mYvUIzxos",
+        "name": "Hula's Island Grill",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJGQEp36nmjYARmEFw-m4wT5A",
+        "name": "Hula's Island Grill",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

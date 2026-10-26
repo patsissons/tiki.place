@@ -1,0 +1,153 @@
+{
+  "id": "hakuna-matata-tiki-bar-heywood",
+  "name": "HAKUNA MATATA TIKI BAR",
+  "aliases": [],
+  "location": {
+    "lat": 53.593733,
+    "lng": -2.2264505,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "41-43 Bridge Street",
+    "locality": "Heywood",
+    "region": "England",
+    "postalCode": "OL10 1JF",
+    "country": "GB"
+  },
+  "formattedAddress": "41-43 Bridge St, Heywood OL10 1JF, UK",
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "bb139240-ba6f-412a-92d8-97fba5614204",
+    "google": "ChIJD97o7ua7e0gR7AP9GMv1IT4"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "2330"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 4:00 – 11:30 PM",
+      "Saturday: 1:00 PM – 12:00 AM",
+      "Sunday: 1:00 – 10:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+44 7347 135294",
+    "website": "https://hakunamatataheywood.co.uk/",
+    "googleMapsUri": "https://maps.google.com/?cid=4477129757229384684&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 35,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJD97o7ua7e0gR7AP9GMv1IT4",
+      "url": "https://maps.google.com/?cid=4477129757229384684&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "bb139240-ba6f-412a-92d8-97fba5614204",
+      "url": "https://explore.overturemaps.org/#17/53.593666076660156/-2.2265374660491943",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

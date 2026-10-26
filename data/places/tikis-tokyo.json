@@ -1,0 +1,57 @@
+{
+  "id": "tikis-tokyo",
+  "name": "Tiki's Tokyo",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "tiki-s-tokyo"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.895,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tiki-s-tokyo",
+      "url": "https://tikirat.com/bars/tiki-s-tokyo",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJq5lKGwCNGGARbV_wGhUKuus",
+        "name": "Tiki's Tokyo ｜ 渋谷 Hawaiian Dining",
+        "distanceM": null,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJpeekwXByAHwRmkqRkpULgRM",
+        "name": "Tikis Grill & Bar",
+        "distanceM": null,
+        "nameSim": 0.667
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

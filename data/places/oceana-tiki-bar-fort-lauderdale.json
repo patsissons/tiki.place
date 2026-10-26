@@ -1,0 +1,102 @@
+{
+  "id": "oceana-tiki-bar-fort-lauderdale",
+  "name": "Oceana Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 26.1969261,
+    "lng": -80.0947037,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fort Lauderdale",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "0eddbd6b-a6eb-423e-ade4-82f5104a27b9"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.yellowpages.com/lauderdale-by-the-sea-fl/tiki-bar"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "0eddbd6b-a6eb-423e-ade4-82f5104a27b9",
+      "url": "https://explore.overturemaps.org/#17/26.19692611694336/-80.0947036743164",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJxSQQdPj92IgRgumuMEBW3is",
+        "name": "Hotel Tiki Bar",
+        "distanceM": 1717,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJG7ITRQcC2YgRUPt_j6qXTdo",
+        "name": "Ocean Beach Club",
+        "distanceM": 2084,
+        "nameSim": 0.615
+      },
+      {
+        "googleId": "ChIJ27MdRYkB2YgR13GYxihncoo",
+        "name": "Hula Kai Tiki Bar + Lounge",
+        "distanceM": 11281,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJLTFgVQcC2YgRgbaKYjqr8Io",
+        "name": "Bamboo Beach Tiki Bar & Cafe",
+        "distanceM": 2125,
+        "nameSim": 0.457
+      },
+      {
+        "googleId": "ChIJLTFgVQcC2YgR8PmJ7hDCV1k",
+        "name": "Ocean Manor Beach Resort",
+        "distanceM": 2132,
+        "nameSim": 0.364
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

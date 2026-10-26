@@ -1,0 +1,85 @@
+{
+  "id": "snowbird-tiki-bar-montreal",
+  "name": "Snowbird Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 45.5318985,
+    "lng": -73.612648,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Montréal",
+    "region": "QC",
+    "country": "CA"
+  },
+  "timezone": "America/Toronto",
+  "externalIds": {
+    "overture": "42f1d3b4-ed1a-403f-be33-9597ddfcc767"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.snowbirdtikibar.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "42f1d3b4-ed1a-403f-be33-9597ddfcc767",
+      "url": "https://explore.overturemaps.org/#17/45.531898498535156/-73.6126480102539",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d830d5d4-8e27-484b-ac8c-4a0209ec9461",
+      "url": "https://explore.overturemaps.org/#17/45.53572082519531/-73.6025619506836",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJH2rlfG0ZyUwRM79aUBB0Vaw",
+        "name": "Snowbird Tiki Bar",
+        "distanceM": 894,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

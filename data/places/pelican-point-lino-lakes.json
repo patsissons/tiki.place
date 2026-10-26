@@ -1,0 +1,78 @@
+{
+  "id": "pelican-point-lino-lakes",
+  "name": "Pelican Point",
+  "aliases": [],
+  "location": {
+    "lat": 45.1742439,
+    "lng": -93.1156616,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lino Lakes",
+    "region": "MN",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "a9817505-0ba4-4c25-a340-80a31c0de716"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a9817505-0ba4-4c25-a340-80a31c0de716",
+      "url": "https://explore.overturemaps.org/#17/45.17424392700195/-93.11566162109375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJWxe3E2gC9ocR8NnZ87ozWK4",
+        "name": "Pelican Point",
+        "distanceM": 49194,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJgd7zaAIpu1IRr9I8NDjB6Jk",
+        "name": "Pelican Lake Resort At Norway Point",
+        "distanceM": 324874,
+        "nameSim": 0.571
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

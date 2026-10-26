@@ -1,0 +1,78 @@
+{
+  "id": "tradavi-tiki-bar-and-cocktail-lounge-palompon",
+  "name": "Tradavi Tiki Bar and Cocktail Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 11.0595284,
+    "lng": 124.4467468,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Palompon",
+    "country": "PH"
+  },
+  "timezone": "Asia/Manila",
+  "externalIds": {
+    "overture": "79db0057-ab1a-4a09-90e2-17199394d511"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "79db0057-ab1a-4a09-90e2-17199394d511",
+      "url": "https://explore.overturemaps.org/#17/11.059528350830078/124.44674682617188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b4e99c74-3a7d-4587-a4c9-5247ca5875b8",
+      "url": "https://explore.overturemaps.org/#17/11.047033309936523/124.38386535644531",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJHf-n34obqDMRVMU6Uu3WGPw",
+        "name": "Tiki bar",
+        "distanceM": 6932,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

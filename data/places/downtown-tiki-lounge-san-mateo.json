@@ -1,0 +1,101 @@
+{
+  "id": "downtown-tiki-lounge-san-mateo",
+  "name": "Downtown Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 37.5664684,
+    "lng": -122.32365089999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "144 South B Street",
+    "locality": "San Mateo",
+    "region": "California",
+    "postalCode": "94401",
+    "country": "US"
+  },
+  "formattedAddress": "144 S B St, San Mateo, CA 94401, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "036e0c0e-bf2d-4273-aff6-5e66da31873d",
+    "google": "ChIJsxoBwXCej4ARnpilAk4-FPo"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 650-921-0789",
+    "website": "http://thedowntowntikilounge.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=18020096513788975262&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 83,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJsxoBwXCej4ARnpilAk4-FPo",
+      "url": "https://maps.google.com/?cid=18020096513788975262&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "036e0c0e-bf2d-4273-aff6-5e66da31873d",
+      "url": "https://explore.overturemaps.org/#17/37.56655502319336/-122.32361602783203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

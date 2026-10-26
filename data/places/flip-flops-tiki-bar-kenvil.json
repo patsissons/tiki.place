@@ -1,0 +1,78 @@
+{
+  "id": "flip-flops-tiki-bar-kenvil",
+  "name": "Flip Flops Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.8766899,
+    "lng": -74.6163635,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Kenvil",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e65f4181-64e8-40cc-bf70-b90ed097c1b1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://twitter.com/FlipFlopsTikiBa"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e65f4181-64e8-40cc-bf70-b90ed097c1b1",
+      "url": "https://explore.overturemaps.org/#17/40.87668991088867/-74.61636352539062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ-xL08W6owIkRq_ZCcgMvklQ",
+        "name": "Flip Flopz Restaurant & Bar",
+        "distanceM": 208152,
+        "nameSim": 0.857
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

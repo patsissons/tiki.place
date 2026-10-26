@@ -1,0 +1,72 @@
+{
+  "id": "traders-tiki-bar-arena",
+  "name": "Traders Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.183567,
+    "lng": -90.0153122,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Arena",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "c515fd6a-e7cb-4d7b-83e5-b5ec822aaec1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c515fd6a-e7cb-4d7b-83e5-b5ec822aaec1",
+      "url": "https://explore.overturemaps.org/#17/43.18356704711914/-90.01531219482422",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJZw0YZpF__YcRxbrGjgxLiH0",
+        "name": "Trader's Bar and Grill Island Campground",
+        "distanceM": 2444,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

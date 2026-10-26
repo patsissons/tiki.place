@@ -1,0 +1,98 @@
+{
+  "id": "boca-grande-clubhouse-boca-grande",
+  "name": "Boca Grande",
+  "aliases": [
+    "Boca Grande Clubhouse"
+  ],
+  "location": {
+    "lat": 26.793103199999997,
+    "lng": -82.2738444,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Clubhouse Drive",
+    "locality": "Placida",
+    "region": "Florida",
+    "postalCode": "33946",
+    "country": "US"
+  },
+  "formattedAddress": "Clubhouse Dr, Placida, FL 33946, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "85c8ed0e-0da0-48a1-a244-e2e02f0e15a0",
+    "google": "ChIJWTgsqyWtxIgReUSeGBRSleQ"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.bocagrandeclub.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16471161458443306105&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 34,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWTgsqyWtxIgReUSeGBRSleQ",
+      "url": "https://maps.google.com/?cid=16471161458443306105&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "85c8ed0e-0da0-48a1-a244-e2e02f0e15a0",
+      "url": "https://explore.overturemaps.org/#17/26.793493270874023/-82.2737808227539",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "fongs-pizza-cedar-rapids",
+  "name": "Fong's Pizza - Cedar Rapids",
+  "aliases": [],
+  "location": {
+    "lat": 41.971674799999995,
+    "lng": -91.6594271,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1006 3rd Street Southeast",
+    "locality": "Cedar Rapids",
+    "region": "Iowa",
+    "postalCode": "52401",
+    "country": "US"
+  },
+  "formattedAddress": "1006 3rd St SE, Cedar Rapids, IA 52401, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "bb7a02f1-909b-4b74-9671-7e0c75f8fad8",
+    "google": "ChIJAQAUKUH35IcR2M_9_1VLP-Y"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 319-320-9992",
+    "website": "http://www.orderfongs.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16591062384995323864&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 1045,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJAQAUKUH35IcR2M_9_1VLP-Y",
+      "url": "https://maps.google.com/?cid=16591062384995323864&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "bb7a02f1-909b-4b74-9671-7e0c75f8fad8",
+      "url": "https://explore.overturemaps.org/#17/41.971683502197266/-91.65939331054688",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

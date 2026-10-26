@@ -45,3 +45,15 @@ describe("resolveObservation", () => {
     expect(resolveObservation(obs({ sourceId: "tikirat", sourceRef: "some-slug", name: "Totally Different" }), index, linked)).toMatchObject({ kind: "match", via: "link" });
   });
 });
+
+describe("PlaceIndex.refresh", () => {
+  it("replaces the stale object for the same id instead of keeping both", () => {
+    const index = new PlaceIndex([cove]);
+    const updated = { ...structuredClone(cove), name: "Smuggler's Cove SF" };
+    index.refresh(updated);
+    const near = index.near(sf, 50);
+    expect(near).toHaveLength(1);
+    expect(near[0]?.place.name).toBe("Smuggler's Cove SF");
+    expect(index.bySource("google", "ChIJZYKHDZiAhYARXV0sNJgKAi8")?.name).toBe("Smuggler's Cove SF");
+  });
+});

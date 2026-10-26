@@ -1,0 +1,96 @@
+{
+  "id": "longboards-newport-news",
+  "name": "Longboards",
+  "aliases": [],
+  "location": {
+    "lat": 37.142849,
+    "lng": -76.5203552,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Newport News",
+    "region": "VA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "f03e595a-bf66-4c60-9664-f75408e4d974"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.longboardslounge.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "f03e595a-bf66-4c60-9664-f75408e4d974",
+      "url": "https://explore.overturemaps.org/#17/37.14284896850586/-76.52035522460938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ3cT3nBqNsIkRXFrTVKZNdhA",
+        "name": "Longboards Williamsburg Tiki Bar & Grill",
+        "distanceM": 27199,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJaVbHvJuiuokRjRCS2RhgJNM",
+        "name": "Longboards Olde Towne",
+        "distanceM": 39294,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJ33pQYFWduokRvPQnIz7kYsE",
+        "name": "Long's Billiards",
+        "distanceM": 14009,
+        "nameSim": 0.545
+      },
+      {
+        "googleId": "ChIJhXMNl1qRuokRMdofI59DSWo",
+        "name": "Longboards East Beach Waterfront Dining and Tiki Bar",
+        "distanceM": 38180,
+        "nameSim": 0.462
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

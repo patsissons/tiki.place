@@ -1,0 +1,102 @@
+{
+  "id": "tiki-bar-titusville",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 28.5458546,
+    "lng": -80.7904282,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Titusville",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "48b6ca0b-98fc-474c-a6cb-3f1a4cde0f66"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.newyorknewyork.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "48b6ca0b-98fc-474c-a6cb-3f1a4cde0f66",
+      "url": "https://explore.overturemaps.org/#17/28.545854568481445/-80.7904281616211",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJG3XNvten4IgRg0TfC2F8HLQ",
+        "name": "Ellie Mae's Tiki Bar",
+        "distanceM": 25293,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJxyQgPU2t4IgR7TUD_PJNZaU",
+        "name": "The Space Bar",
+        "distanceM": 2721,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJFTInvzmt4IgRkovXTpaxNs8",
+        "name": "LATITUDES WATERFRONT GRILL AND OYSTER BAR",
+        "distanceM": 9954,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJmcbvd1-t4IgRNWqIZ0CT0bo",
+        "name": "New York New York",
+        "distanceM": 23,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJAT00CdKy4IgRuCI5Znrubb0",
+        "name": "Lazy Gator Lounge",
+        "distanceM": 4335,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

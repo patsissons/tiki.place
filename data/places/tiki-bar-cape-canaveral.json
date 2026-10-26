@@ -1,0 +1,97 @@
+{
+  "id": "tiki-bar-cape-canaveral",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 28.3949699,
+    "lng": -80.612854,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Cape Canaveral",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "d957927f-298f-4dd3-96ac-77cae2651ef1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://grillsseafood.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "877eb568-347d-4182-ab07-9592cda624da",
+      "url": "https://explore.overturemaps.org/#17/28.394969940185547/-80.61285400390625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d957927f-298f-4dd3-96ac-77cae2651ef1",
+      "url": "https://explore.overturemaps.org/#17/28.40013885498047/-80.61237335205078",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJG3XNvten4IgRg0TfC2F8HLQ",
+        "name": "Ellie Mae's Tiki Bar",
+        "distanceM": 1154,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJ2eHmGzqm4IgRvvync30_u0s",
+        "name": "Grills Seafood Deck & Tiki Bar",
+        "distanceM": 1519,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJaywE7Jan4IgRUfuNw5iExK0",
+        "name": "Rikki Tiki Tavern",
+        "distanceM": 3255,
+        "nameSim": 0.4
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

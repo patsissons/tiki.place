@@ -1,0 +1,191 @@
+{
+  "id": "wauwatiki-bar-grill",
+  "name": "Wauwatiki Bar & Grill",
+  "aliases": [
+    "Wauwatiki Bar Grill"
+  ],
+  "location": {
+    "lat": 43.060983199999995,
+    "lng": -87.9938389,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6502 West North Avenue",
+    "locality": "Wauwatosa",
+    "region": "Wisconsin",
+    "postalCode": "53213",
+    "country": "US"
+  },
+  "formattedAddress": "6502 W North Ave, Wauwatosa, WI 53213, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "wauwatiki-bar-grill",
+    "google": "ChIJF3AsbEAbBYgRWz4vynGD8Bk",
+    "overture": "4714fa5e-e638-4676-b1df-c32c0e727a06",
+    "osm": "node/4379282860"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 2,
+          "time": "1630"
+        },
+        "close": {
+          "day": 3,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1630"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1630"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1630"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1630"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:30 PM – 1:00 AM",
+      "Wednesday: 4:30 PM – 1:00 AM",
+      "Thursday: 4:30 PM – 1:00 AM",
+      "Friday: 4:30 PM – 1:00 AM",
+      "Saturday: 4:30 PM – 1:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 414-323-7555",
+    "website": "http://www.wauwatikis.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1869138370105392731&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 1185,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.966,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJF3AsbEAbBYgRWz4vynGD8Bk",
+      "url": "https://maps.google.com/?cid=1869138370105392731&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/4379282860",
+      "url": "https://www.openstreetmap.org/node/4379282860",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4714fa5e-e638-4676-b1df-c32c0e727a06",
+      "url": "https://explore.overturemaps.org/#17/43.060882568359375/-87.99407196044922",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "wauwatiki-bar-grill",
+      "url": "https://tikirat.com/bars/wauwatiki-bar-grill",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

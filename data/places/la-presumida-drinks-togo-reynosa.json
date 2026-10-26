@@ -1,0 +1,101 @@
+{
+  "id": "la-presumida-drinks-togo-reynosa",
+  "name": "La Presumida Drinks ToGo",
+  "aliases": [],
+  "location": {
+    "lat": 26.0205934,
+    "lng": -98.2467985,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "s/n Ave. San Angel",
+    "locality": "Reynosa",
+    "region": "Tamaulipas",
+    "postalCode": "88776",
+    "country": "MX"
+  },
+  "formattedAddress": "Calle Miguel Ángel ezquina, Ave. San Angel s/n, Voluntad y Trabajo, 88776 Reynosa, Tamps., Mexico",
+  "timezone": "America/Matamoros",
+  "externalIds": {
+    "overture": "5e0b8e99-deee-4b65-a584-0987658be355",
+    "google": "ChIJYewEMv0PZYYRqPZQXfyTLtc"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+52 899 333 2322",
+    "website": "http://fb.com/lapresumidamx",
+    "googleMapsUri": "https://maps.google.com/?cid=15505493279189825192&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 8,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJYewEMv0PZYYRqPZQXfyTLtc",
+      "url": "https://maps.google.com/?cid=15505493279189825192&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "5e0b8e99-deee-4b65-a584-0987658be355",
+      "url": "https://explore.overturemaps.org/#17/26.020544052124023/-98.246826171875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

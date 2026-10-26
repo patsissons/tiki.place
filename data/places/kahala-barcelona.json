@@ -1,0 +1,195 @@
+{
+  "id": "kahala-barcelona",
+  "name": "KAHALA - Tiki Bar | Barcelona",
+  "aliases": [
+    "KAHALA Barcelona"
+  ],
+  "location": {
+    "lat": 41.3906784,
+    "lng": 2.1380086,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "537 Avinguda Diagonal",
+    "locality": "Barcelona",
+    "region": "Catalunya",
+    "postalCode": "08029",
+    "country": "ES"
+  },
+  "formattedAddress": "Av. Diagonal, 537, Les Corts, 08029 Barcelona, Spain",
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "685cf82a-b3e6-4e0f-aff9-bc5c3bde6e92",
+    "google": "ChIJWcMLcHqYpBIRKnBa0F7p6rU"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1900"
+        },
+        "close": {
+          "day": 1,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1900"
+        },
+        "close": {
+          "day": 2,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1900"
+        },
+        "close": {
+          "day": 3,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1900"
+        },
+        "close": {
+          "day": 4,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1900"
+        },
+        "close": {
+          "day": 5,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1900"
+        },
+        "close": {
+          "day": 6,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1900"
+        },
+        "close": {
+          "day": 0,
+          "time": "0300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 7:00 PM – 2:30 AM",
+      "Tuesday: 7:00 PM – 2:30 AM",
+      "Wednesday: 7:00 PM – 2:30 AM",
+      "Thursday: 7:00 PM – 2:30 AM",
+      "Friday: 7:00 PM – 3:00 AM",
+      "Saturday: 7:00 PM – 3:00 AM",
+      "Sunday: 7:00 PM – 2:30 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+34 934 30 90 26",
+    "website": "http://www.kahalabarcelona.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=13108546258847035434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 4188,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWcMLcHqYpBIRKnBa0F7p6rU",
+      "url": "https://maps.google.com/?cid=13108546258847035434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "685cf82a-b3e6-4e0f-aff9-bc5c3bde6e92",
+      "url": "https://explore.overturemaps.org/#17/41.39072036743164/2.1379873752593994",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

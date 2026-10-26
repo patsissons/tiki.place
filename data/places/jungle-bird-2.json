@@ -1,0 +1,69 @@
+{
+  "id": "jungle-bird-2",
+  "name": "Jungle Bird 2",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "jungle-bird-2"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "jungle-bird-2",
+      "url": "https://tikirat.com/bars/jungle-bird-2",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJVVWVDB9wcVMRlOzd6iuEMSA",
+        "name": "Jungle Bird Tiki Bar & Lounge",
+        "distanceM": null,
+        "nameSim": 0.947
+      },
+      {
+        "googleId": "ChIJby-YBvs_24gR6cGkTPFeUvk",
+        "name": "Jungle Bird Tiki",
+        "distanceM": null,
+        "nameSim": 0.947
+      },
+      {
+        "googleId": "ChIJqy31s5XQmoARdbKTWuIazkg",
+        "name": "The Jungle Bird",
+        "distanceM": null,
+        "nameSim": 0.947
+      },
+      {
+        "googleId": "ChIJAcpCFvBZwokRdA1UO2M-MIo",
+        "name": "Jungle Bird",
+        "distanceM": null,
+        "nameSim": 0.947
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

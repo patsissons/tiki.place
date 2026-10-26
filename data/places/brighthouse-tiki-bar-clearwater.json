@@ -1,0 +1,102 @@
+{
+  "id": "brighthouse-tiki-bar-clearwater",
+  "name": "Brighthouse Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 27.9717503,
+    "lng": -82.7319031,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Clearwater",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c752ef28-8b00-4173-96d8-3583a00a47a9"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://en.wikipedia.org/wiki/Bright_House_Field"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c752ef28-8b00-4173-96d8-3583a00a47a9",
+      "url": "https://explore.overturemaps.org/#17/27.971750259399414/-82.73190307617188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJWTEwAD33wogRatwjsCmC1Bg",
+        "name": "Bar Tiki Clearwater Beach",
+        "distanceM": 9293,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJ01rmain3wogRkjeuYCg9Uyg",
+        "name": "Shephard's Tiki Beach Bar & Grill",
+        "distanceM": 9404,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJX24XByz3wogRvLJnugobkOs",
+        "name": "Tropix Beach Bar",
+        "distanceM": 9234,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJ8zH3Vzn3wogREORQM9vw-kA",
+        "name": "Clearwater Tiki Boat Tours",
+        "distanceM": 9405,
+        "nameSim": 0.316
+      },
+      {
+        "googleId": "ChIJY5lLUCn3wogRJNCapQK1BgU",
+        "name": "Shephard's Beach Resort",
+        "distanceM": 9368,
+        "nameSim": 0.056
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

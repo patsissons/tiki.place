@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-and-the-bucket-east-hampton",
+  "name": "Tiki Bar and The Bucket",
+  "aliases": [],
+  "location": {
+    "lat": 41.5937653,
+    "lng": -72.5235443,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "East Hampton",
+    "region": "CT",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e83e5465-a26a-4e78-b885-f1bff65a732d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e83e5465-a26a-4e78-b885-f1bff65a732d",
+      "url": "https://explore.overturemaps.org/#17/41.59376525878906/-72.52354431152344",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJVQqEVABF5okRINDaTD9BOMQ",
+        "name": "Lakeside Bar & Grill",
+        "distanceM": 1083,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJS1OBRh9H5okRt4glTwzisLk",
+        "name": "Dexter's Tunes, Tales, and Ales",
+        "distanceM": 2772,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJFVcpvFFG5okRztQ19LwpY_c",
+        "name": "Rick's Sugar Shack",
+        "distanceM": 5672,
+        "nameSim": 0.129
+      },
+      {
+        "googleId": "ChIJiywn7pdH5okROr0qye7s37o",
+        "name": "The Town Tavern",
+        "distanceM": 2082,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ39lr2o1I5okRS8Dbl6uaJzY",
+        "name": "The Tavern On 66",
+        "distanceM": 3196,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

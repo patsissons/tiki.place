@@ -1,0 +1,71 @@
+{
+  "id": "tiki-bungalow-beijing",
+  "name": "The Tiki Bungalow",
+  "aliases": [],
+  "location": {
+    "lat": 39.9419937,
+    "lng": 116.4058304,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Beijing",
+    "country": "CN"
+  },
+  "timezone": "Asia/Shanghai",
+  "externalIds": {
+    "overture": "eb89090d-442d-492d-8664-7aaa45bbd574"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "eb89090d-442d-492d-8664-7aaa45bbd574",
+      "url": "https://explore.overturemaps.org/#17/39.941993713378906/116.40583038330078",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJlR5fDfhT8DURG2ZHzFdLDgQ",
+        "name": "The Tiki Bungalow",
+        "distanceM": 490,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

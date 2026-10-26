@@ -1,0 +1,96 @@
+{
+  "id": "corner-porch-delray-beach",
+  "name": "Corner Porch",
+  "aliases": [],
+  "location": {
+    "lat": 26.460192199999998,
+    "lng": -80.0668647,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "85 Southeast 6th Avenue",
+    "locality": "Delray Beach",
+    "region": "Florida",
+    "postalCode": "33483",
+    "country": "US"
+  },
+  "formattedAddress": "85 SE 6th Ave, Delray Beach, FL 33483, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "d61c4220-c975-40ae-94dc-d460967ef249",
+    "google": "ChIJMx_I59rf2IgR6EKqWTzNlFo"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://www.cornerporch.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6527067419052753640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 184,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJMx_I59rf2IgR6EKqWTzNlFo",
+      "url": "https://maps.google.com/?cid=6527067419052753640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d61c4220-c975-40ae-94dc-d460967ef249",
+      "url": "https://explore.overturemaps.org/#17/26.460147857666016/-80.06684112548828",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "jacks-tiki-bar-jackson",
+  "name": "Jack's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.1661987,
+    "lng": -74.2977905,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Jackson",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "cc8682f7-e84c-4fd5-8ffd-c34bb61be581"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.backwaterjacksandtikibar.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "cc8682f7-e84c-4fd5-8ffd-c34bb61be581",
+      "url": "https://explore.overturemaps.org/#17/40.16619873046875/-74.29779052734375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJKQiQj-wir4kRcI2L5Kq-tLY",
+        "name": "Backwater Jacks Tiki Bar",
+        "distanceM": 568159,
+        "nameSim": 0.857
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

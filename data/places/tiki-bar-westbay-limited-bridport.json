@@ -1,0 +1,72 @@
+{
+  "id": "tiki-bar-westbay-limited-bridport",
+  "name": "Tiki Bar Westbay limited",
+  "aliases": [],
+  "location": {
+    "lat": 50.7108154,
+    "lng": -2.7609036,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bridport",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "d63a7284-4f21-4b2a-b65e-0c7ed46ddd68"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d63a7284-4f21-4b2a-b65e-0c7ed46ddd68",
+      "url": "https://explore.overturemaps.org/#17/50.7108154296875/-2.7609035968780518",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJJ3ljUzxjckgRFITG_XHltdc",
+        "name": "Tiki Bar Westbay Ltd.",
+        "distanceM": 7,
+        "nameSim": 0.765
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

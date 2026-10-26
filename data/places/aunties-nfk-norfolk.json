@@ -1,0 +1,96 @@
+{
+  "id": "aunties-nfk-norfolk",
+  "name": "Auntie's NFK",
+  "aliases": [],
+  "location": {
+    "lat": 36.8842392,
+    "lng": -76.2946167,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Norfolk",
+    "region": "VA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c09c51aa-507b-4800-b1d0-1ca44c0c9c5e"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c09c51aa-507b-4800-b1d0-1ca44c0c9c5e",
+      "url": "https://explore.overturemaps.org/#17/36.884239196777344/-76.29461669921875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJFSWS30iXuokRRvY4qZcyKfc",
+        "name": "Auntie Anne's",
+        "distanceM": 4941,
+        "nameSim": 0.632
+      },
+      {
+        "googleId": "ChIJ31NRFjGauokRdrsLo3RKnPU",
+        "name": "Auntie Anne's",
+        "distanceM": 6722,
+        "nameSim": 0.632
+      },
+      {
+        "googleId": "ChIJ1R6rPY2WuokR8WNw5PN9Dhc",
+        "name": "Auntie Anne's",
+        "distanceM": 8416,
+        "nameSim": 0.632
+      },
+      {
+        "googleId": "ChIJawsSNsqZuokRqbYsDEBJ3tA",
+        "name": "Playdate NFK",
+        "distanceM": 439,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJYTVoC72XuokRByyX6g5q0f0",
+        "name": "Boss Queens Soul Cafe",
+        "distanceM": 8272,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

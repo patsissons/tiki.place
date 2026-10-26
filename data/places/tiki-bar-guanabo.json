@@ -1,0 +1,98 @@
+{
+  "id": "tiki-bar-guanabo",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 23.1710432,
+    "lng": -82.135842,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "484",
+    "locality": "La Habana",
+    "region": "La Habana",
+    "country": "CU"
+  },
+  "formattedAddress": "5VC7+CM7, 484, La Habana, Cuba",
+  "timezone": "America/Havana",
+  "externalIds": {
+    "overture": "f38cc7d4-9539-453f-bdc1-e5a3ac2bdb80",
+    "osm": "node/11881222769",
+    "google": "ChIJLYyKjl-B0ogRKMNOv37_bN0"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=15955408499707396904&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 29,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJLYyKjl-B0ogRKMNOv37_bN0",
+      "url": "https://maps.google.com/?cid=15955408499707396904&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/11881222769",
+      "url": "https://www.openstreetmap.org/node/11881222769",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "f38cc7d4-9539-453f-bdc1-e5a3ac2bdb80",
+      "url": "https://explore.overturemaps.org/#17/23.171039581298828/-82.1358413696289",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "mud-meadow-tiki-bar-wells",
+  "name": "Mud Meadow Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.3596535,
+    "lng": -70.6638565,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Wells",
+    "region": "ME",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "2871c28d-c7c7-412e-adf7-dbd980a3b9e1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "2871c28d-c7c7-412e-adf7-dbd980a3b9e1",
+      "url": "https://explore.overturemaps.org/#17/43.35965347290039/-70.66385650634766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJi9AXHwuv4okRf8YBS6-uk_8",
+        "name": "West Meadow Pub",
+        "distanceM": 13932,
+        "nameSim": 0.588
+      },
+      {
+        "googleId": "ChIJJesNBR-tskwRVfWybJnyaDo",
+        "name": "Litchfield's Bar and Grill",
+        "distanceM": 8251,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJo4gtq-yo4okR86E6S-nKI_o",
+        "name": "The New England House Seafood & Sports Bar",
+        "distanceM": 10827,
+        "nameSim": 0.182
+      },
+      {
+        "googleId": "ChIJzXDzajeo4okRbfFMNtu82ec",
+        "name": "Mike's Clam Shack",
+        "distanceM": 8520,
+        "nameSim": 0.071
+      },
+      {
+        "googleId": "ChIJRUnb24qtskwROU7uPs_K3wQ",
+        "name": "Bitter End",
+        "distanceM": 8140,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

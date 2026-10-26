@@ -1,0 +1,109 @@
+{
+  "id": "kanaloa-tiki-bar-vir",
+  "name": "Kanaloa Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 44.311516399999995,
+    "lng": 15.080689699999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "27 Brdonje ulica",
+    "locality": "Vir",
+    "region": "Zadarska županija",
+    "postalCode": "23234",
+    "country": "HR"
+  },
+  "formattedAddress": "Brdonje ul. 27-a, 23234, Vir, Croatia",
+  "timezone": "Europe/Zagreb",
+  "externalIds": {
+    "overture": "7c400ed1-2fed-4169-b0e5-571116f4f759",
+    "osm": "node/13160654205",
+    "google": "ChIJ_7-LdQAjYkcR6iDmc2u83Zw"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+36 70 417 2941",
+    "googleMapsUri": "https://maps.google.com/?cid=11303397809461797098&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 130,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_7-LdQAjYkcR6iDmc2u83Zw",
+      "url": "https://maps.google.com/?cid=11303397809461797098&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/13160654205",
+      "url": "https://www.openstreetmap.org/node/13160654205",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "7c400ed1-2fed-4169-b0e5-571116f4f759",
+      "url": "https://explore.overturemaps.org/#17/44.3115119934082/15.080693244934082",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

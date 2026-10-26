@@ -1,0 +1,193 @@
+{
+  "id": "aloha-tiki-bar-kitchen-oaxaca-de-juarez",
+  "name": "Aloha Tiki Bar + Kitchen",
+  "aliases": [],
+  "location": {
+    "lat": 17.0692405,
+    "lng": -96.72161179999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "220 Valentín Gómez Farias",
+    "locality": "Oaxaca de Juárez",
+    "region": "Oaxaca",
+    "postalCode": "68000",
+    "country": "MX"
+  },
+  "formattedAddress": "Valentín Gómez Farias 220, RUTA INDEPENDENCIA, Centro, 68000 Oaxaca de Juárez, Oax., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "1796abbc-0875-4521-8138-0c8e1f91247a",
+    "google": "ChIJ05TkjZMjx4URKcwedM2tK0E"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 1,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1300"
+        },
+        "close": {
+          "day": 2,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1300"
+        },
+        "close": {
+          "day": 3,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1300"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1300"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1300"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 1:00 PM – 1:00 AM",
+      "Tuesday: 1:00 PM – 1:00 AM",
+      "Wednesday: 1:00 PM – 1:00 AM",
+      "Thursday: 1:00 PM – 1:00 AM",
+      "Friday: 1:00 PM – 2:00 AM",
+      "Saturday: 4:00 PM – 2:00 AM",
+      "Sunday: 1:00 PM – 1:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+52 951 308 9500",
+    "website": "http://www.instagram.com/alohatikioaxaca",
+    "googleMapsUri": "https://maps.google.com/?cid=4696038134391950377&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 248,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ05TkjZMjx4URKcwedM2tK0E",
+      "url": "https://maps.google.com/?cid=4696038134391950377&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1796abbc-0875-4521-8138-0c8e1f91247a",
+      "url": "https://explore.overturemaps.org/#17/17.069326400756836/-96.72161865234375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,183 @@
+{
+  "id": "makai-tiki-bar-lahaina",
+  "name": "Makai Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 20.9167953,
+    "lng": -156.6952795,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "100 Nohea Kai Drive",
+    "locality": "Lahaina",
+    "region": "Hawaii",
+    "postalCode": "96761",
+    "country": "US"
+  },
+  "formattedAddress": "100 Nohea Kai Dr, Lahaina, HI 96761, USA",
+  "timezone": "Pacific/Honolulu",
+  "externalIds": {
+    "overture": "632c83bd-b30f-40b8-8725-ebd891619e22",
+    "google": "ChIJYV4xe8crVXkRykeLMKzdtcE"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "1700"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 5:00 PM",
+      "Tuesday: 12:00 – 5:00 PM",
+      "Wednesday: 12:00 – 5:00 PM",
+      "Thursday: 12:00 – 5:00 PM",
+      "Friday: 12:00 – 5:00 PM",
+      "Saturday: 12:00 – 5:00 PM",
+      "Sunday: 12:00 – 5:00 PM"
+    ]
+  },
+  "contact": {
+    "website": "https://www.marriott.com/en-us/hotels/hnmmu-marriotts-maui-ocean-club-lahaina-and-napili-towers/overview/?scid=f2ee9050-29dd-4752-b094-507abb218d03&gclid=Cj0KCQjwteOaBhDuARIsADBqRehD5hFP9gwrJzkOrnQ_ii0ztd2eHq9t52EHmHF067J7OBkm6peSGMcaAvXREALw_wcB&gbraid=0AAAAADilnifOhXFFvVMJZsZJsrUfeQOxW&gclsrc=aw.ds",
+    "googleMapsUri": "https://maps.google.com/?cid=13958306351723268042&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.3,
+    "count": 4,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJYV4xe8crVXkRykeLMKzdtcE",
+      "url": "https://maps.google.com/?cid=13958306351723268042&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "632c83bd-b30f-40b8-8725-ebd891619e22",
+      "url": "https://explore.overturemaps.org/#17/20.91679573059082/-156.69529724121094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

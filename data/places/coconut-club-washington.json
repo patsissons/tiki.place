@@ -1,0 +1,101 @@
+{
+  "id": "coconut-club-washington",
+  "name": "Coconut Club",
+  "aliases": [],
+  "location": {
+    "lat": 38.910193299999996,
+    "lng": -76.9964815,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "540 Penn Street Northeast",
+    "locality": "Washington",
+    "region": "District of Columbia",
+    "postalCode": "20002",
+    "country": "US"
+  },
+  "formattedAddress": "540 Penn St NE, Washington, DC 20002, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "b733088f-e0ac-4302-90d9-dd89e0ea25b2",
+    "google": "ChIJQT4YThC4t4kR-Xf6tnGuEL4"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 202-544-5500",
+    "website": "https://www.hellococonutclub.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=13695638270258083833&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 182,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJQT4YThC4t4kR-Xf6tnGuEL4",
+      "url": "https://maps.google.com/?cid=13695638270258083833&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b733088f-e0ac-4302-90d9-dd89e0ea25b2",
+      "url": "https://explore.overturemaps.org/#17/38.91018295288086/-76.99662017822266",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

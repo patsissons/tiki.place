@@ -1,0 +1,193 @@
+{
+  "id": "pineapple-paradise-bahia-de-banderas",
+  "name": "Pineapple Paradise",
+  "aliases": [],
+  "location": {
+    "lat": 20.8711134,
+    "lng": -105.43700609999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "55 Avenida del Palmar",
+    "locality": "Sayulita",
+    "region": "Nayarit",
+    "postalCode": "63728",
+    "country": "MX"
+  },
+  "formattedAddress": "Av. del Palmar 55, 63728 Sayulita, Nay., Mexico",
+  "timezone": "America/Mazatlan",
+  "externalIds": {
+    "overture": "de7000e0-3692-428f-b808-3ac1acc630cb",
+    "google": "ChIJEyKJ_b0XIYQRIS5ezoFg7xc"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "2345"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "2345"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "2345"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "2345"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "2345"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "2345"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "2345"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 11:45 PM",
+      "Tuesday: 12:00 – 11:45 PM",
+      "Wednesday: 12:00 – 11:45 PM",
+      "Thursday: 12:00 – 11:45 PM",
+      "Friday: 12:00 – 11:45 PM",
+      "Saturday: 12:00 – 11:45 PM",
+      "Sunday: 12:00 – 11:45 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+52 322 728 1115",
+    "website": "http://pineappleparadise.com.mx/",
+    "googleMapsUri": "https://maps.google.com/?cid=1724703292935515681&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 239,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJEyKJ_b0XIYQRIS5ezoFg7xc",
+      "url": "https://maps.google.com/?cid=1724703292935515681&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "de7000e0-3692-428f-b808-3ac1acc630cb",
+      "url": "https://explore.overturemaps.org/#17/20.871145248413086/-105.43704223632812",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

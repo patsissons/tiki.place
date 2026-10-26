@@ -1,0 +1,78 @@
+{
+  "id": "ventiki-polynesian-dining-and-cocktails-ventura",
+  "name": "Ventiki Polynesian Dining & Cocktails",
+  "aliases": [],
+  "location": {
+    "lat": 34.2810402,
+    "lng": -119.2898102,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ventura",
+    "region": "CA",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "e7a9a9aa-72ac-4135-a5f1-8642d9d98599"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.ventikiloungeandlanai.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e7a9a9aa-72ac-4135-a5f1-8642d9d98599",
+      "url": "https://explore.overturemaps.org/#17/34.28104019165039/-119.28981018066406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJz2sRpvqs6YARyQ9RtfbRX8I",
+        "name": "VenTiki Tiki Lounge and Lanai",
+        "distanceM": 1,
+        "nameSim": 0.438
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

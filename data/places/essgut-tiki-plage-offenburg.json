@@ -1,0 +1,113 @@
+{
+  "id": "essgut-tiki-plage-offenburg",
+  "name": "EssGut Tiki Plage Offenburg",
+  "aliases": [],
+  "location": {
+    "lat": 48.4572476,
+    "lng": 7.935209,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "15 Platanenallee",
+    "locality": "Offenburg",
+    "region": "Baden-Württemberg",
+    "postalCode": "77656",
+    "country": "DE"
+  },
+  "formattedAddress": "Platanenallee 15, 77656 Offenburg, Germany",
+  "timezone": "Europe/Berlin",
+  "externalIds": {
+    "overture": "b4c07222-bf20-42bc-a643-48737fa41f9c",
+    "google": "ChIJ_5AjUDDTlkcRpJJGPAf4g8c"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+49 781 96947966",
+    "website": "http://www.essgut-offenburg.de/",
+    "googleMapsUri": "https://maps.google.com/?cid=14376607145456472740&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 2503,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_5AjUDDTlkcRpJJGPAf4g8c",
+      "url": "https://maps.google.com/?cid=14376607145456472740&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "8784acde-d9a3-4009-a098-6c177c3bef4a",
+      "url": "https://explore.overturemaps.org/#17/48.457706451416016/7.936830997467041",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b4c07222-bf20-42bc-a643-48737fa41f9c",
+      "url": "https://explore.overturemaps.org/#17/48.457244873046875/7.935101509094238",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

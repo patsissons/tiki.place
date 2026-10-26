@@ -1,0 +1,75 @@
+{
+  "id": "hawaiian-room",
+  "name": "Hawaiian Room",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "hawaiian-room"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "hawaiian-room",
+      "url": "https://tikirat.com/bars/hawaiian-room",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ2-kH6HC1woARVXHJ8EmjY68",
+        "name": "The Hula Hula Room",
+        "distanceM": null,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+        "name": "Tiki Bar at the Waldorf",
+        "distanceM": null,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
+        "name": "Quayside Tiki Bar",
+        "distanceM": null,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJg0Mk0NB1j1QR_muntY8JD40",
+        "name": "Tora Tiki",
+        "distanceM": null,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

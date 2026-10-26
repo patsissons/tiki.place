@@ -1,0 +1,77 @@
+{
+  "id": "gringo-locos-cartagena",
+  "name": "Gringo Locos",
+  "aliases": [],
+  "location": {
+    "lat": 10.3445606,
+    "lng": -75.5432816,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Cartagena",
+    "country": "CO"
+  },
+  "timezone": "America/Bogota",
+  "externalIds": {
+    "overture": "92adff24-c1d1-44d9-b85f-71750bbe41f3"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.gringolocos.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "92adff24-c1d1-44d9-b85f-71750bbe41f3",
+      "url": "https://explore.overturemaps.org/#17/10.344560623168945/-75.54328155517578",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ__9vZTsv9o4RCf1b1EKvtXk",
+        "name": "El Nuevo Gringo Loco",
+        "distanceM": 6401,
+        "nameSim": 0.692
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

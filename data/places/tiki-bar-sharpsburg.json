@@ -1,0 +1,84 @@
+{
+  "id": "tiki-bar-sharpsburg",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.4564323,
+    "lng": -77.7550354,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Sharpsburg",
+    "region": "MD",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "77da90a1-6b9d-496f-88e6-869a24e0318f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "77da90a1-6b9d-496f-88e6-869a24e0318f",
+      "url": "https://explore.overturemaps.org/#17/39.4564323425293/-77.75503540039062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJb3XxJUfzyYkRhdLW9wJ8tzY",
+        "name": "Interchange Tiki Bar & Brewing",
+        "distanceM": 15975,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJYc5aW27xNIgRV7EvBRJRk-g",
+        "name": "Tiki Lounge",
+        "distanceM": 218124,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJTzh3uVkHyokRKgayGmViPDo",
+        "name": "Tiki's Pub & Grub",
+        "distanceM": 25887,
+        "nameSim": 0.429
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

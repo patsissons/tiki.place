@@ -1,0 +1,188 @@
+{
+  "id": "riva-grill-on-the-lake",
+  "name": "Riva Grill On the Lake",
+  "aliases": [],
+  "location": {
+    "lat": 38.9497779,
+    "lng": -119.95925240000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "900 Ski Run Boulevard",
+    "locality": "South Lake Tahoe",
+    "region": "California",
+    "postalCode": "96150",
+    "country": "US"
+  },
+  "formattedAddress": "900 Ski Run Blvd, South Lake Tahoe, CA 96150, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "riva-grill-on-the-lake",
+    "google": "ChIJ97RGLQmQmYARN0dpCG5O_RM"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1030"
+        },
+        "close": {
+          "day": 0,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1030"
+        },
+        "close": {
+          "day": 6,
+          "time": "2200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:30 AM – 9:30 PM",
+      "Tuesday: 11:30 AM – 9:30 PM",
+      "Wednesday: 11:30 AM – 9:30 PM",
+      "Thursday: 11:30 AM – 9:30 PM",
+      "Friday: 11:30 AM – 10:00 PM",
+      "Saturday: 10:30 AM – 10:00 PM",
+      "Sunday: 10:30 AM – 9:30 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 530-542-2600",
+    "website": "https://www.rivagrill.com/?utm_source=googlemybusiness",
+    "googleMapsUri": "https://maps.google.com/?cid=1440393690322913079&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 3897,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.857,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ97RGLQmQmYARN0dpCG5O_RM",
+      "url": "https://maps.google.com/?cid=1440393690322913079&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "riva-grill-on-the-lake",
+      "url": "https://tikirat.com/bars/riva-grill-on-the-lake",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

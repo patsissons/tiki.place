@@ -1,0 +1,96 @@
+{
+  "id": "cherokee-beach-st-louis",
+  "name": "Cherokee Beach",
+  "aliases": [],
+  "location": {
+    "lat": 38.593144599999995,
+    "lng": -90.2264713,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2622 Cherokee Street",
+    "locality": "St. Louis",
+    "region": "Missouri",
+    "postalCode": "63118",
+    "country": "US"
+  },
+  "formattedAddress": "2622 Cherokee St, St. Louis, MO 63118, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "fbf54858-664b-45ea-8dba-0396044c08a3",
+    "google": "ChIJ1ZOWUPa12IcRNN8pwHygQYs"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.cherokeebeach.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10034477902418534196&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 1,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ1ZOWUPa12IcRNN8pwHygQYs",
+      "url": "https://maps.google.com/?cid=10034477902418534196&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "fbf54858-664b-45ea-8dba-0396044c08a3",
+      "url": "https://explore.overturemaps.org/#17/38.593177795410156/-90.2264404296875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

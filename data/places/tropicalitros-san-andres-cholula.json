@@ -1,0 +1,178 @@
+{
+  "id": "tropicalitros-san-andres-cholula",
+  "name": "TROPICALITROS",
+  "aliases": [],
+  "location": {
+    "lat": 19.052527299999998,
+    "lng": -98.3024445,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6 Calle 5 Norte",
+    "locality": "San Andrés Cholula",
+    "region": "Puebla",
+    "postalCode": "72810",
+    "country": "MX"
+  },
+  "formattedAddress": "C. 5 Nte. 6, San Miguel, Centro San Andrés Cholula, 72810 San Andrés Cholula, Pue., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "9db5e1c4-2e67-45d3-bdb3-9ff44f935e11",
+    "google": "ChIJVYM-zf7Hz4URQhVQGi2XbBc"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1400"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 12:00 PM – 12:00 AM",
+      "Wednesday: 12:00 PM – 12:00 AM",
+      "Thursday: 12:00 PM – 12:00 AM",
+      "Friday: 2:00 PM – 12:00 AM",
+      "Saturday: 2:00 PM – 12:00 AM",
+      "Sunday: 11:00 AM – 10:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+52 222 119 7902",
+    "googleMapsUri": "https://maps.google.com/?cid=1687890180327871810&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 36,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJVYM-zf7Hz4URQhVQGi2XbBc",
+      "url": "https://maps.google.com/?cid=1687890180327871810&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9db5e1c4-2e67-45d3-bdb3-9ff44f935e11",
+      "url": "https://explore.overturemaps.org/#17/19.052520751953125/-98.30244445800781",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

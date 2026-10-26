@@ -1,0 +1,96 @@
+{
+  "id": "s-m-knorhaar-utrecht",
+  "name": "S.m Knorhaar",
+  "aliases": [],
+  "location": {
+    "lat": 52.1035309,
+    "lng": 5.0982032,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "UTRECHT",
+    "region": "UT",
+    "country": "NL"
+  },
+  "timezone": "Europe/Amsterdam",
+  "externalIds": {
+    "overture": "15ed9cb4-8884-4a4b-8a3a-cfd727bd314d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "15ed9cb4-8884-4a4b-8a3a-cfd727bd314d",
+      "url": "https://explore.overturemaps.org/#17/52.10353088378906/5.098203182220459",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJdbtXIQBvxkcRWDDrd9XRQus",
+        "name": "Stichting Snorhaar",
+        "distanceM": 2908,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ4-GOi0hvxkcR7YVk3vL9z5I",
+        "name": "Uitgeverij Snor",
+        "distanceM": 1016,
+        "nameSim": 0.182
+      },
+      {
+        "googleId": "ChIJK7qSbqNvxkcRGENl-K9y8QM",
+        "name": "HSM Utrecht BV",
+        "distanceM": 1638,
+        "nameSim": 0.1
+      },
+      {
+        "googleId": "ChIJO9HlrXJvxkcRLWnmfYKH1Y0",
+        "name": "La Cloche",
+        "distanceM": 152,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJeyPpVUJvxkcR48rIYjp7tVU",
+        "name": "Monument sodomietenvervolging",
+        "distanceM": 2154,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tiki-bar-huldenberg",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 50.7510529,
+    "lng": 4.6162052,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Huldenberg",
+    "country": "BE"
+  },
+  "timezone": "Europe/Brussels",
+  "externalIds": {
+    "overture": "01195d52-9909-4344-ab23-e91fb8b36034"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "01195d52-9909-4344-ab23-e91fb8b36034",
+      "url": "https://explore.overturemaps.org/#17/50.75105285644531/4.616205215454102",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJvzVsOhN9wUcRknr3O4CzQaM",
+        "name": "Tiki-Bar",
+        "distanceM": 6364,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJZwxo9g3Zw0cRMauwUDnBFWU",
+        "name": "Tsubaki sushi (Huldenberg)",
+        "distanceM": 4890,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJ8eVlTmPYw0cRssVUDAnD4a4",
+        "name": "TheDrinks",
+        "distanceM": 5216,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

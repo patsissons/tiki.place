@@ -1,0 +1,180 @@
+{
+  "id": "tiki-bar-carlisle",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.2087012,
+    "lng": -77.1802301,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "313 Lovell Avenue",
+    "locality": "Carlisle",
+    "region": "Pennsylvania",
+    "postalCode": "17013",
+    "country": "US"
+  },
+  "formattedAddress": "313 Lovell Ave BLDG 335, Carlisle, PA 17013, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "11cb0961-334d-461e-9185-67a22b19cc5c",
+    "google": "ChIJFWXeKjLgyIkRkdLL20Mq3q4"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "2130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 – 9:30 PM",
+      "Tuesday: 4:00 – 9:30 PM",
+      "Wednesday: 4:00 – 9:30 PM",
+      "Thursday: 4:00 – 9:30 PM",
+      "Friday: 4:00 – 9:30 PM",
+      "Saturday: 4:00 – 9:30 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "website": "https://carlisle.armymwr.com/calendar/event/tiki-bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=12600555278367969937&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 21,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJFWXeKjLgyIkRkdLL20Mq3q4",
+      "url": "https://maps.google.com/?cid=12600555278367969937&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "11cb0961-334d-461e-9185-67a22b19cc5c",
+      "url": "https://explore.overturemaps.org/#17/40.20870590209961/-77.18025207519531",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1e806d1b-1d24-4253-9e93-acb7e7e1cfcd",
+      "url": "https://explore.overturemaps.org/#17/40.17210006713867/-77.16175842285156",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

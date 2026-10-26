@@ -1,0 +1,84 @@
+{
+  "id": "egan-tiki-bar-lowell",
+  "name": "Egan Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 42.6350441,
+    "lng": -71.3341904,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lowell",
+    "region": "MA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e20bab20-de4e-414e-a6fa-2b6eeee6a2b3"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.yellowpages.com/billerica-ma/tiki-hut"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e20bab20-de4e-414e-a6fa-2b6eeee6a2b3",
+      "url": "https://explore.overturemaps.org/#17/42.63504409790039/-71.33419036865234",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJndNpTUWW44kRTA-FI3Xmu74",
+        "name": "The Sunset Tiki Bar",
+        "distanceM": 13627,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJgcavDGOl44kRxcCET2gwFb4",
+        "name": "Eko’s Bar & Grill Restaurant",
+        "distanceM": 1906,
+        "nameSim": 0.25
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

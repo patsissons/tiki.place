@@ -1,0 +1,72 @@
+{
+  "id": "tiki-bar-hamilton",
+  "name": "The Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.2261696,
+    "lng": -79.6325531,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Hamilton",
+    "region": "ON",
+    "country": "CA"
+  },
+  "timezone": "America/Toronto",
+  "externalIds": {
+    "overture": "d16c3fe7-d343-42a0-b3ec-457202023d07"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d16c3fe7-d343-42a0-b3ec-457202023d07",
+      "url": "https://explore.overturemaps.org/#17/43.22616958618164/-79.63255310058594",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJP_7Z5oabLIgRb4TljaUm62M",
+        "name": "Maipai",
+        "distanceM": 17012,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ohana-tiki-bar-at-casa-lennon-brookhaven",
+  "name": "Ohana Tiki Bar at Casa Lennon",
+  "aliases": [],
+  "location": {
+    "lat": 33.8723984,
+    "lng": -84.3151703,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Brookhaven",
+    "region": "GA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "d7173dcb-5d57-4e7c-bf9e-c20bf546de72"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d7173dcb-5d57-4e7c-bf9e-c20bf546de72",
+      "url": "https://explore.overturemaps.org/#17/33.872398376464844/-84.31517028808594",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJy-qcFhl-3YgRXBYEn8OV5So",
+        "name": "'Ohana",
+        "distanceM": 660983,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

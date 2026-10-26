@@ -1,0 +1,98 @@
+{
+  "id": "baby-mango-bar-aguascalientes",
+  "name": "BABY MANGO BAR Ags.",
+  "aliases": [
+    "Baby Mango Bar"
+  ],
+  "location": {
+    "lat": 21.942063899999997,
+    "lng": -102.30268199999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "205 B Adolfo López Mateos",
+    "locality": "Aguascalientes",
+    "region": "Aguascalientes",
+    "postalCode": "20908",
+    "country": "MX"
+  },
+  "formattedAddress": "Adolfo López Mateos 205 B-L9, Trojes de Alonso, 20908 Aguascalientes, Ags., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "885d03ca-a398-40f4-b452-aa301bd963e0",
+    "google": "ChIJ7RohhQHvKYQRbpAZCn8preE"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.facebook.com/BABYMANGOAGS",
+    "googleMapsUri": "https://maps.google.com/?cid=16261699455111762030&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 2,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ7RohhQHvKYQRbpAZCn8preE",
+      "url": "https://maps.google.com/?cid=16261699455111762030&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "885d03ca-a398-40f4-b452-aa301bd963e0",
+      "url": "https://explore.overturemaps.org/#17/21.94202995300293/-102.30278015136719",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

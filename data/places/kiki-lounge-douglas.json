@@ -1,0 +1,77 @@
+{
+  "id": "kiki-lounge-douglas",
+  "name": "Kiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 54.1525269,
+    "lng": -4.4783392,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Douglas",
+    "country": "IM"
+  },
+  "timezone": "Europe/Isle_of_Man",
+  "externalIds": {
+    "overture": "67457b1d-c18c-4b06-9e78-d9c62e64a895"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.kikis.im/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "67457b1d-c18c-4b06-9e78-d9c62e64a895",
+      "url": "https://explore.overturemaps.org/#17/54.15252685546875/-4.478339195251465",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJt5e54G6FY0gRLyqDyJiDuZQ",
+        "name": "Kiki Lounge",
+        "distanceM": 537,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

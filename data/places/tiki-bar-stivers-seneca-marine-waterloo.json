@@ -1,0 +1,180 @@
+{
+  "id": "tiki-bar-stivers-seneca-marine-waterloo",
+  "name": "Stivers Seneca Marine",
+  "aliases": [
+    "Tiki Bar @ Stivers Seneca Marine"
+  ],
+  "location": {
+    "lat": 42.868911999999995,
+    "lng": -76.93865799999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "401 Boodys Hill Road",
+    "locality": "Waterloo",
+    "region": "New York",
+    "postalCode": "13165",
+    "country": "US"
+  },
+  "formattedAddress": "401 Boodys Hill Rd, Waterloo, NY 13165, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "6b69999b-03c9-4c8c-98d3-91874da3d405",
+    "google": "ChIJafDrGurF0IkRBJhIB290wAA"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "0800"
+        },
+        "close": {
+          "day": 1,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0800"
+        },
+        "close": {
+          "day": 2,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0800"
+        },
+        "close": {
+          "day": 3,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0800"
+        },
+        "close": {
+          "day": 4,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0800"
+        },
+        "close": {
+          "day": 5,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0800"
+        },
+        "close": {
+          "day": 6,
+          "time": "1800"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 8:00 AM – 6:00 PM",
+      "Tuesday: 8:00 AM – 6:00 PM",
+      "Wednesday: 8:00 AM – 6:00 PM",
+      "Thursday: 8:00 AM – 6:00 PM",
+      "Friday: 8:00 AM – 6:00 PM",
+      "Saturday: 8:00 AM – 6:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 315-789-5520",
+    "website": "http://www.stiverssenecamarine.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=54171215740835844&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.9,
+    "count": 139,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJafDrGurF0IkRBJhIB290wAA",
+      "url": "https://maps.google.com/?cid=54171215740835844&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6b69999b-03c9-4c8c-98d3-91874da3d405",
+      "url": "https://explore.overturemaps.org/#17/42.86886978149414/-76.9389419555664",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

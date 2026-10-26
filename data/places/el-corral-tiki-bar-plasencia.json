@@ -1,0 +1,106 @@
+{
+  "id": "el-corral-tiki-bar-plasencia",
+  "name": "El Corral Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.029927799999996,
+    "lng": -6.091856399999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "8 Calle Resbaladero San Martín",
+    "locality": "Plasencia",
+    "region": "Extremadura",
+    "postalCode": "10600",
+    "country": "ES"
+  },
+  "formattedAddress": "C. Resbaladero San Martín, 8, 10600 Plasencia, Cáceres, Spain",
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "088a1419-9eaa-4cd1-9331-4da8a37b4912",
+    "google": "ChIJn7HytEsWPg0RRIjt2piw-bc"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+34 627 39 17 80",
+    "website": "https://www.elcorraltikibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=13256821148696283204&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 431,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJn7HytEsWPg0RRIjt2piw-bc",
+      "url": "https://maps.google.com/?cid=13256821148696283204&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "088a1419-9eaa-4cd1-9331-4da8a37b4912",
+      "url": "https://explore.overturemaps.org/#17/40.0299072265625/-6.091877460479736",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

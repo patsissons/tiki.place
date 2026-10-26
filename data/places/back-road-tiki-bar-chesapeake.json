@@ -1,0 +1,102 @@
+{
+  "id": "back-road-tiki-bar-chesapeake",
+  "name": "Back Road Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 36.7107925,
+    "lng": -76.2044601,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Chesapeake",
+    "region": "VA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "a46f9322-cf1c-437d-bf2d-8898a9a4991a"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.yellowpages.com/chesapeake-beach-md/tiki-bar"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a46f9322-cf1c-437d-bf2d-8898a9a4991a",
+      "url": "https://explore.overturemaps.org/#17/36.710792541503906/-76.20446014404297",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJvWH3cX2VuokR8IAjv5-ydhQ",
+        "name": "Tiki's Bar and Grill",
+        "distanceM": 14333,
+        "nameSim": 0.357
+      },
+      {
+        "googleId": "ChIJf1d0cBq7uokRZci8TzBKwKU",
+        "name": "Lockside Bar and Grill",
+        "distanceM": 3589,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJdQKSbhG7uokRpCn0G0wj8oo",
+        "name": "Woody's Raw Bar & Grill",
+        "distanceM": 3490,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJYXvUfvW6uokRCm2esJ8euP8",
+        "name": "Busky's Chill & Grill",
+        "distanceM": 3388,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJg3DtIhWluokRHohv1HDKKEs",
+        "name": "The Peake Tavern",
+        "distanceM": 7091,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

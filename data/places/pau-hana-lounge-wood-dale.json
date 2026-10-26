@@ -1,0 +1,101 @@
+{
+  "id": "pau-hana-lounge-wood-dale",
+  "name": "Pau Hana Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 41.9647106,
+    "lng": -87.9978435,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "334 Georgetown Square",
+    "locality": "Wood Dale",
+    "region": "Illinois",
+    "postalCode": "60191",
+    "country": "US"
+  },
+  "formattedAddress": "334 Georgetown Square, Wood Dale, IL 60191, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "90349c03-8bf5-4532-bfbd-e09992cd7b55",
+    "google": "ChIJ7VTZaBmzD4gRccP8w2LmSYI"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 630-422-1491",
+    "website": "https://www.pauhanaloungeil.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9388288210099815281&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 181,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ7VTZaBmzD4gRccP8w2LmSYI",
+      "url": "https://maps.google.com/?cid=9388288210099815281&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "90349c03-8bf5-4532-bfbd-e09992cd7b55",
+      "url": "https://explore.overturemaps.org/#17/41.965797424316406/-87.99810028076172",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

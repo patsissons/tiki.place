@@ -1,0 +1,64 @@
+{
+  "id": "tiki-at-the-tavern",
+  "name": "Tiki at the Tavern",
+  "aliases": [],
+  "location": {
+    "lat": 41.8517551,
+    "lng": -71.2776113,
+    "precision": "rooftop"
+  },
+  "address": {},
+  "timezone": "America/New_York",
+  "externalIds": {
+    "osm": "node/13485182359"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/13485182359",
+      "url": "https://www.openstreetmap.org/node/13485182359",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJU0S7ebdZ5IkRMIyFbrRHdU4",
+        "name": "Tiki Bar",
+        "distanceM": 56,
+        "nameSim": 0.333
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

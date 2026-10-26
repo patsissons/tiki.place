@@ -1,0 +1,193 @@
+{
+  "id": "mr-flamingo-puerto-vallarta",
+  "name": "Mr. Flamingo",
+  "aliases": [],
+  "location": {
+    "lat": 20.603590099999998,
+    "lng": -105.23595499999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "247 Lázaro Cárdenas",
+    "locality": "Puerto Vallarta",
+    "region": "Jalisco",
+    "postalCode": "48380",
+    "country": "MX"
+  },
+  "formattedAddress": "Lázaro Cárdenas 247, Zona Romántica, Emiliano Zapata, 48380 Puerto Vallarta, Jal., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "b585b7ac-4ad4-4d6a-bdd1-6f5ef52a8aca",
+    "google": "ChIJxyUWZExFIYQRFfKmLIVTC1g"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1400"
+        },
+        "close": {
+          "day": 1,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1400"
+        },
+        "close": {
+          "day": 2,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1400"
+        },
+        "close": {
+          "day": 3,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1400"
+        },
+        "close": {
+          "day": 4,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1400"
+        },
+        "close": {
+          "day": 5,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1400"
+        },
+        "close": {
+          "day": 6,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "0300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 2:00 PM – 3:00 AM",
+      "Tuesday: 2:00 PM – 3:00 AM",
+      "Wednesday: 2:00 PM – 3:00 AM",
+      "Thursday: 2:00 PM – 3:00 AM",
+      "Friday: 2:00 PM – 3:00 AM",
+      "Saturday: 2:00 PM – 3:00 AM",
+      "Sunday: 2:00 PM – 3:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+52 322 223 4488",
+    "website": "https://vallartahub.com/bares-y-discotecas/mr-flamingo/",
+    "googleMapsUri": "https://maps.google.com/?cid=6344256331526369813&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 372,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJxyUWZExFIYQRFfKmLIVTC1g",
+      "url": "https://maps.google.com/?cid=6344256331526369813&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b585b7ac-4ad4-4d6a-bdd1-6f5ef52a8aca",
+      "url": "https://explore.overturemaps.org/#17/20.60358428955078/-105.23595428466797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

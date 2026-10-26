@@ -1,0 +1,102 @@
+{
+  "id": "bca-carrelage-ploermel",
+  "name": "Bca Carrelage",
+  "aliases": [],
+  "location": {
+    "lat": 47.9407654,
+    "lng": -2.4024897,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ploërmel",
+    "region": "BRE",
+    "country": "FR"
+  },
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "fcbf30f8-6e2d-4f07-9fab-d06de50e2b50"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.bca-carrelage.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "fcbf30f8-6e2d-4f07-9fab-d06de50e2b50",
+      "url": "https://explore.overturemaps.org/#17/47.940765380859375/-2.40248966217041",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ48Zlx9awD0gRtAwOBLb2RWY",
+        "name": "Cherel Carrelages",
+        "distanceM": 2389,
+        "nameSim": 0.696
+      },
+      {
+        "googleId": "ChIJ48Zlx9awD0gRTUXWCGUPHyw",
+        "name": "Esprit Casa Carrelage Ploermel",
+        "distanceM": 2057,
+        "nameSim": 0.529
+      },
+      {
+        "googleId": "ChIJuVpcsjaTCEgRcg36bvwCV98",
+        "name": "BCA Matériaux Anciens",
+        "distanceM": 114923,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJx_CV6k7N4UcRlsNEi-qLR4Q",
+        "name": "BCA Matériaux Anciens Pont-l'Évêque",
+        "distanceM": 242761,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJm8GbuSC3D0gRBGu2q3LyOV8",
+        "name": "Chausson Matériaux",
+        "distanceM": 2938,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

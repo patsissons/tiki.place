@@ -36,22 +36,24 @@ export class PlaceIndex {
     }
   }
 
-  /** Re-index after a place changed (cheap enough at our scale). */
+  /** Re-index after a place changed: drop whatever object currently holds this id, then add the new one. */
   refresh(place: Place) {
+    const stale = this.places.get(place.id);
+    if (stale) this.remove(stale);
     this.add(place);
   }
 
+  /** Remove by id (merge returns fresh objects, so identity is not a safe key). */
   remove(place: Place) {
-    this.places.delete(place.id);
-    for (const [k, v] of this.bySourceKey) if (v === place) this.bySourceKey.delete(k);
-    for (const [k, v] of this.byExternalId) if (v === place) this.byExternalId.delete(k);
+    const id = place.id;
+    this.places.delete(id);
+    for (const [k, v] of this.bySourceKey) if (v.id === id) this.bySourceKey.delete(k);
+    for (const [k, v] of this.byExternalId) if (v.id === id) this.byExternalId.delete(k);
     for (const bucket of this.grid.values()) {
-      const i = bucket.indexOf(place);
-      if (i >= 0) bucket.splice(i, 1);
+      for (let i = bucket.length - 1; i >= 0; i--) if (bucket[i]!.id === id) bucket.splice(i, 1);
     }
     for (const bucket of this.byLocality.values()) {
-      const i = bucket.indexOf(place);
-      if (i >= 0) bucket.splice(i, 1);
+      for (let i = bucket.length - 1; i >= 0; i--) if (bucket[i]!.id === id) bucket.splice(i, 1);
     }
   }
 
@@ -98,6 +100,12 @@ export function bestNameSim(obs: Observation, place: Place): number {
   const theirs = [place.name, ...place.aliases];
   let best = 0;
   for (const a of mine) for (const b of theirs) best = Math.max(best, nameSim(a, b));
+  return best;
+}
+
+export function bestNameSimPlaces(a: Place, b: Place): number {
+  let best = 0;
+  for (const x of [a.name, ...a.aliases]) for (const y of [b.name, ...b.aliases]) best = Math.max(best, nameSim(x, y));
   return best;
 }
 

@@ -1,0 +1,106 @@
+{
+  "id": "da-big-kahuna-tiki-bar-and-grill-loveland",
+  "name": "Da Big Kahuna Tiki Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 40.3969386,
+    "lng": -105.0729908,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "548 North Lincoln Avenue",
+    "locality": "Loveland",
+    "region": "Colorado",
+    "postalCode": "80537",
+    "country": "US"
+  },
+  "formattedAddress": "548 N Lincoln Ave, Loveland, CO 80537, USA",
+  "timezone": "America/Denver",
+  "externalIds": {
+    "overture": "0528a1f7-0736-4c90-86e6-5c2adedd2ba9",
+    "google": "ChIJXQMGa-5TaYcRtE5-fRFaL3U"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 970-775-7068",
+    "website": "http://www.dabigkahunatikibarandgrill.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=8444066857509342900&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 140,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJXQMGa-5TaYcRtE5-fRFaL3U",
+      "url": "https://maps.google.com/?cid=8444066857509342900&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "0528a1f7-0736-4c90-86e6-5c2adedd2ba9",
+      "url": "https://explore.overturemaps.org/#17/40.39693069458008/-105.072998046875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

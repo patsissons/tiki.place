@@ -1,0 +1,77 @@
+{
+  "id": "sin-city-marmaraereglisi",
+  "name": "Sin City",
+  "aliases": [],
+  "location": {
+    "lat": 41.0194664,
+    "lng": 27.9902325,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Marmaraereğlisi",
+    "country": "TR"
+  },
+  "timezone": "Europe/Istanbul",
+  "externalIds": {
+    "overture": "47733d3f-1a85-4132-9533-b5140d7a8631"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "47733d3f-1a85-4132-9533-b5140d7a8631",
+      "url": "https://explore.overturemaps.org/#17/41.019466400146484/27.990232467651367",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJr6BhH9IctRQRiXXx3izSrwU",
+        "name": "Yeniciftlik Belediyesi",
+        "distanceM": 11282,
+        "nameSim": 0.16
+      },
+      {
+        "googleId": "ChIJWUukFVkDtRQR4p5y4F_ovRo",
+        "name": "T.C. Marmaraereğlisi Belediyesi",
+        "distanceM": 5695,
+        "nameSim": 0.069
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

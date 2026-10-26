@@ -1,0 +1,78 @@
+{
+  "id": "undertow-phoenix",
+  "name": "Undertow",
+  "aliases": [],
+  "location": {
+    "lat": 33.4954701,
+    "lng": -112.003036,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3626 East Indian School Road",
+    "locality": "Phoenix",
+    "region": "AZ"
+  },
+  "timezone": "America/Phoenix",
+  "externalIds": {
+    "osm": "node/4802562589"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://drinkundertow.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/4802562589",
+      "url": "https://www.openstreetmap.org/node/4802562589",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJDbUDmasNK4cR12eeKc7Ulls",
+        "name": "UnderTow Arcadia at Century Grand",
+        "distanceM": 5,
+        "nameSim": 0.438
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

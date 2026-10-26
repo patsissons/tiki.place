@@ -1,0 +1,169 @@
+{
+  "id": "sbs-engineering",
+  "name": "S.B.S. Engineering Co.,Ltd.",
+  "aliases": [
+    "อุปกรณ์ไฟฟ้าแรงสูง - SBS Engineering"
+  ],
+  "location": {
+    "lat": 13.855077800000002,
+    "lng": 100.6354439,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bangkhen, Bangkok",
+    "region": "Krung Thep Maha Nakhon",
+    "postalCode": "10230",
+    "country": "TH"
+  },
+  "formattedAddress": "11/1 Moo 8 Soi Ramindra 45/1, Ramindra Road, Tarang, Bangkhen, Bangkok Krung Thep Maha Nakhon 10230, Thailand",
+  "timezone": "Asia/Bangkok",
+  "externalIds": {
+    "overture": "0f79a0af-f9ce-48a0-8393-5ade84a220e1",
+    "google": "ChIJBWjXFbpiHTERt6Bn9kseUvY"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "0800"
+        },
+        "close": {
+          "day": 1,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0800"
+        },
+        "close": {
+          "day": 2,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0800"
+        },
+        "close": {
+          "day": 3,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0800"
+        },
+        "close": {
+          "day": 4,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0800"
+        },
+        "close": {
+          "day": 5,
+          "time": "1700"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 8:00 AM – 5:00 PM",
+      "Tuesday: 8:00 AM – 5:00 PM",
+      "Wednesday: 8:00 AM – 5:00 PM",
+      "Thursday: 8:00 AM – 5:00 PM",
+      "Friday: 8:00 AM – 5:00 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+66 2 945 6488",
+    "website": "http://www.sbseng.co.th/",
+    "googleMapsUri": "https://maps.google.com/?cid=17749282393025913015&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 4,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJBWjXFbpiHTERt6Bn9kseUvY",
+      "url": "https://maps.google.com/?cid=17749282393025913015&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "0f79a0af-f9ce-48a0-8393-5ade84a220e1",
+      "url": "https://explore.overturemaps.org/#17/13.855080604553223/100.635498046875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

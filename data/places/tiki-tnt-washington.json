@@ -1,0 +1,93 @@
+{
+  "id": "tiki-tnt-washington",
+  "name": "Tiki TNT",
+  "aliases": [],
+  "location": {
+    "lat": 38.881072,
+    "lng": -77.0272646,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1130 Maine Avenue Southwest",
+    "locality": "Washington",
+    "region": "DC",
+    "postalCode": "20024",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c1b475cd-f768-48cb-b786-751415c12d50",
+    "osm": "node/8691887336"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "+1 202-900-4786",
+    "website": "http://www.tikitnt.com/"
+  },
+  "tikiConfidence": 0.878,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/8691887336",
+      "url": "https://www.openstreetmap.org/node/8691887336",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c1b475cd-f768-48cb-b786-751415c12d50",
+      "url": "https://explore.overturemaps.org/#17/38.88105010986328/-77.0274887084961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJo32ojVW3t4kRQsVu54T4Y4c",
+        "name": "Tiki TNT & Potomac Distilling Company",
+        "distanceM": 12,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z"
+}

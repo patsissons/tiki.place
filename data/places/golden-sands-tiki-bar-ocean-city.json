@@ -1,0 +1,96 @@
+{
+  "id": "golden-sands-tiki-bar-ocean-city",
+  "name": "Golden sands Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 38.4162075,
+    "lng": -75.0560802,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "10090 Coastal Highway",
+    "locality": "Ocean City",
+    "region": "Maryland",
+    "postalCode": "21842",
+    "country": "US"
+  },
+  "formattedAddress": "10090 Coastal Hwy, Ocean City, MD 21842, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "27490fe7-e970-4274-bd1b-abc9479d0594",
+    "google": "ChIJV7GQRKrVuIkRSt9dVoH62ZM"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarpa.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10653821826928336714&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.2,
+    "count": 9,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJV7GQRKrVuIkRSt9dVoH62ZM",
+      "url": "https://maps.google.com/?cid=10653821826928336714&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "27490fe7-e970-4274-bd1b-abc9479d0594",
+      "url": "https://explore.overturemaps.org/#17/38.41642761230469/-75.05621337890625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

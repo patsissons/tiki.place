@@ -1,0 +1,191 @@
+{
+  "id": "arashi-beach-shack-aruba",
+  "name": "Arashi Beach Shack",
+  "aliases": [],
+  "location": {
+    "lat": 12.609107,
+    "lng": -70.0530101,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "135 L.G. Smith Boulevard",
+    "locality": "Noord",
+    "country": "AW"
+  },
+  "formattedAddress": "L.G. Smith Blvd 135, Noord, Aruba",
+  "timezone": "America/Aruba",
+  "externalIds": {
+    "overture": "ab20c5b7-7573-4f73-abed-f4573e73f88c",
+    "google": "ChIJP-634yBIhY4Ro7G4kXAlEeg"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0900"
+        },
+        "close": {
+          "day": 0,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0900"
+        },
+        "close": {
+          "day": 1,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0900"
+        },
+        "close": {
+          "day": 2,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0900"
+        },
+        "close": {
+          "day": 3,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0900"
+        },
+        "close": {
+          "day": 4,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0900"
+        },
+        "close": {
+          "day": 5,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0900"
+        },
+        "close": {
+          "day": 6,
+          "time": "1900"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 9:00 AM – 7:00 PM",
+      "Tuesday: 9:00 AM – 7:00 PM",
+      "Wednesday: 9:00 AM – 7:00 PM",
+      "Thursday: 9:00 AM – 7:00 PM",
+      "Friday: 9:00 AM – 7:00 PM",
+      "Saturday: 9:00 AM – 7:00 PM",
+      "Sunday: 9:00 AM – 7:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+297 597 7828",
+    "website": "http://arashibeachshack.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16722188056814727587&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 1038,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJP-634yBIhY4Ro7G4kXAlEeg",
+      "url": "https://maps.google.com/?cid=16722188056814727587&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ab20c5b7-7573-4f73-abed-f4573e73f88c",
+      "url": "https://explore.overturemaps.org/#17/12.609123229980469/-70.05299377441406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

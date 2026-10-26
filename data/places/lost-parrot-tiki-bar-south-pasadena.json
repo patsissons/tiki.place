@@ -1,0 +1,195 @@
+{
+  "id": "lost-parrot-tiki-bar-south-pasadena",
+  "name": "Lost Parrot Cafe",
+  "aliases": [
+    "The Lost Parrot Tiki Bar"
+  ],
+  "location": {
+    "lat": 34.104,
+    "lng": -118.14280000000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1929 Huntington Drive",
+    "locality": "South Pasadena",
+    "region": "California",
+    "postalCode": "91030",
+    "country": "US"
+  },
+  "formattedAddress": "1929 Huntington Dr, South Pasadena, CA 91030, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "6cbe3d6f-1fa1-464a-9a43-3d6c1e805489",
+    "google": "ChIJT7TMzzrFwoAR8eVgnZnE958"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0700"
+        },
+        "close": {
+          "day": 0,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0700"
+        },
+        "close": {
+          "day": 1,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0700"
+        },
+        "close": {
+          "day": 3,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0700"
+        },
+        "close": {
+          "day": 4,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0700"
+        },
+        "close": {
+          "day": 5,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0700"
+        },
+        "close": {
+          "day": 6,
+          "time": "1600"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 7:00 AM – 4:00 PM",
+      "Tuesday: 7:00 AM – 8:00 PM",
+      "Wednesday: 7:00 AM – 4:00 PM",
+      "Thursday: 7:00 AM – 4:00 PM",
+      "Friday: 7:00 AM – 4:00 PM",
+      "Saturday: 7:00 AM – 4:00 PM",
+      "Sunday: 7:00 AM – 4:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 323-886-0703",
+    "website": "http://lostparrotcafe.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=11526897935327487473&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 469,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJT7TMzzrFwoAR8eVgnZnE958",
+      "url": "https://maps.google.com/?cid=11526897935327487473&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6cbe3d6f-1fa1-464a-9a43-3d6c1e805489",
+      "url": "https://explore.overturemaps.org/#17/34.10370635986328/-118.14278411865234",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

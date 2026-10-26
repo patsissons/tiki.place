@@ -1,0 +1,90 @@
+{
+  "id": "tiki-bar-at-la-revelucion-indianapolis",
+  "name": "The Tiki Bar At La Revelucion",
+  "aliases": [],
+  "location": {
+    "lat": 39.7528038,
+    "lng": -86.1388397,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Indianapolis",
+    "region": "IN",
+    "country": "US"
+  },
+  "timezone": "America/Indiana/Indianapolis",
+  "externalIds": {
+    "overture": "71ba9dd2-945f-4861-932b-33f8e2479245"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "71ba9dd2-945f-4861-932b-33f8e2479245",
+      "url": "https://explore.overturemaps.org/#17/39.752803802490234/-86.13883972167969",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJP6hDWX9aa4gRyhAO2R-Nv4A",
+        "name": "Revolucion",
+        "distanceM": 39,
+        "nameSim": 0.7
+      },
+      {
+        "googleId": "ChIJJx9xonFPa4gREQbY3SveYjE",
+        "name": "Strange Bird",
+        "distanceM": 6052,
+        "nameSim": 0.069
+      },
+      {
+        "googleId": "ChIJrdbTQUZQa4gRZptmdPUKqvA",
+        "name": "Tick Tock Lounge",
+        "distanceM": 3661,
+        "nameSim": 0.065
+      },
+      {
+        "googleId": "ChIJJSgx94JQa4gRa9JH39TKWKU",
+        "name": "The Inferno Room",
+        "distanceM": 375,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

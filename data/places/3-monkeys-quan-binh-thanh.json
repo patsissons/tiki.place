@@ -1,0 +1,95 @@
+{
+  "id": "3-monkeys-quan-binh-thanh",
+  "name": "3 Monkeys",
+  "aliases": [],
+  "location": {
+    "lat": 10.7900991,
+    "lng": 106.7119675,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Quận Bình Thạnh",
+    "country": "VN"
+  },
+  "timezone": "Asia/Ho_Chi_Minh",
+  "externalIds": {
+    "overture": "9e94c795-003f-4785-90ed-36e12c58201c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://3monkeys.business.site/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "9e94c795-003f-4785-90ed-36e12c58201c",
+      "url": "https://explore.overturemaps.org/#17/10.790099143981934/106.71196746826172",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJxyncMZMvdTERBWKzGW9EBWo",
+        "name": "The Monkey Gallery DINING",
+        "distanceM": 1950,
+        "nameSim": 0.417
+      },
+      {
+        "googleId": "ChIJpSkJaDNDdTERQx5veBQAF2Q",
+        "name": "\"Virtual Life 3-way Intersection\" Lam Vien - Dong Dinh, Sac Forest",
+        "distanceM": 46210,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJmebpmEAvdTERk-9MFYzeo78",
+        "name": "Saigon Zoo - Khu Gấu Chó",
+        "distanceM": 633,
+        "nameSim": 0.083
+      },
+      {
+        "googleId": "ChIJx7wwM0svdTERjuH2a9dkuU0",
+        "name": "Saigon Zoo & Botanical Gardens",
+        "distanceM": 815,
+        "nameSim": 0.065
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

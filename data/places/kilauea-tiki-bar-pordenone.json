@@ -1,0 +1,213 @@
+{
+  "id": "kilauea-tiki-bar-pordenone",
+  "name": "Kilauea tiki bar",
+  "aliases": [],
+  "location": {
+    "lat": 45.9572712,
+    "lng": 12.6619532,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "8 Viale Franco Martelli",
+    "locality": "Pordenone",
+    "region": "Friuli-Venezia Giulia",
+    "postalCode": "33170",
+    "country": "IT"
+  },
+  "formattedAddress": "Viale Franco Martelli, 8, 33170 Pordenone PN, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "a5870a13-635b-478d-8474-1fa702cbef63",
+    "google": "ChIJjXTMw_RleUcRtawJ7a79sKE"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1730"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1730"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "1300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1730"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "1300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1730"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "1300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1730"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1030"
+        },
+        "close": {
+          "day": 6,
+          "time": "1300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1730"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:30 PM – 2:00 AM",
+      "Tuesday: Closed",
+      "Wednesday: 11:00 AM – 1:00 PM, 5:30 PM – 2:00 AM",
+      "Thursday: 11:00 AM – 1:00 PM, 5:30 PM – 2:00 AM",
+      "Friday: 11:00 AM – 1:00 PM, 5:30 PM – 2:00 AM",
+      "Saturday: 10:30 AM – 1:00 PM, 5:30 PM – 2:00 AM",
+      "Sunday: 5:30 PM – 2:00 AM"
+    ]
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=11651091163750444213&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 20,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJjXTMw_RleUcRtawJ7a79sKE",
+      "url": "https://maps.google.com/?cid=11651091163750444213&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a5870a13-635b-478d-8474-1fa702cbef63",
+      "url": "https://explore.overturemaps.org/#17/45.95726776123047/12.66195011138916",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

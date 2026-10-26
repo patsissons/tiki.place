@@ -1,0 +1,87 @@
+{
+  "id": "longshot-saloon-portage-des-sioux",
+  "name": "Longshot Saloon",
+  "aliases": [
+    "The Longshot Tiki Bar"
+  ],
+  "location": {
+    "lat": 38.9302521,
+    "lng": -90.3424759,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Portage des Sioux",
+    "region": "MO",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "870dd0c2-0b37-45e1-8c33-bfc675bdb294"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.longshotsmarina.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "870dd0c2-0b37-45e1-8c33-bfc675bdb294",
+      "url": "https://explore.overturemaps.org/#17/38.93025207519531/-90.34247589111328",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e1775526-bf86-4be8-ac7d-ffb91bed415c",
+      "url": "https://explore.overturemaps.org/#17/38.93156814575195/-90.34292602539062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJe2WWsRM_34cRTjK9kX1GJ6Y",
+        "name": "The Longshot Marina",
+        "distanceM": 115,
+        "nameSim": 0.7
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

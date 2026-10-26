@@ -1,0 +1,98 @@
+{
+  "id": "zombie-house",
+  "name": "The Zombie House",
+  "aliases": [
+    "Flatbush Zombie House"
+  ],
+  "location": {
+    "lat": 40.6550288,
+    "lng": -73.959999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "734 Flatbush Avenue",
+    "locality": "Brooklyn",
+    "region": "New York",
+    "postalCode": "11226",
+    "country": "US"
+  },
+  "formattedAddress": "734 Flatbush Ave, Brooklyn, NY 11226, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "osm": "node/2566664990",
+    "google": "ChIJA3PgLhVbwokRVNJXfeUUOZI"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.youtube.com/channel/UC0pTuZtjyJNNztnCsd19bsg",
+    "googleMapsUri": "https://maps.google.com/?cid=10536475779092959828&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 378,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJA3PgLhVbwokRVNJXfeUUOZI",
+      "url": "https://maps.google.com/?cid=10536475779092959828&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/2566664990",
+      "url": "https://www.openstreetmap.org/node/2566664990",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

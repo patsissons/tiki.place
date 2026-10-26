@@ -1,0 +1,96 @@
+{
+  "id": "tiki-tiki-chicago",
+  "name": "Tiki Tiki Chicago",
+  "aliases": [],
+  "location": {
+    "lat": 41.8956071,
+    "lng": -87.6547798,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "768 North Milwaukee Avenue",
+    "locality": "Chicago",
+    "region": "Illinois",
+    "postalCode": "60642",
+    "country": "US"
+  },
+  "formattedAddress": "768 N Milwaukee Ave, Chicago, IL 60642, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "36cb60d7-b2ff-47f2-a95a-3f115fc088c2",
+    "google": "ChIJw-jNo5AtDogREhpwaYunG6o"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=12257575028030183954&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 72,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJw-jNo5AtDogREhpwaYunG6o",
+      "url": "https://maps.google.com/?cid=12257575028030183954&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "36cb60d7-b2ff-47f2-a95a-3f115fc088c2",
+      "url": "https://explore.overturemaps.org/#17/41.895599365234375/-87.65478515625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

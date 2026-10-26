@@ -1,0 +1,96 @@
+{
+  "id": "captain-toms-tiki-bar-burlington",
+  "name": "Captain Tom's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 44.478339,
+    "lng": -73.212969,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "170 Bank Street",
+    "locality": "Burlington",
+    "region": "Vermont",
+    "postalCode": "05401",
+    "country": "US"
+  },
+  "formattedAddress": "170 Bank St, Burlington, VT 05401, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "ad6a549c-4e0c-4bd5-a7d7-f2748baf213a",
+    "google": "ChIJn34zA_d6ykwRzPPYju9bA74"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://w.singlepage.com/kens-pizza-parlor-2/menu",
+    "googleMapsUri": "https://maps.google.com/?cid=13691888376588334028&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 16,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJn34zA_d6ykwRzPPYju9bA74",
+      "url": "https://maps.google.com/?cid=13691888376588334028&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ad6a549c-4e0c-4bd5-a7d7-f2748baf213a",
+      "url": "https://explore.overturemaps.org/#17/44.47833251953125/-73.21298217773438",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

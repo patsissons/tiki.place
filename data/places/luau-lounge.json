@@ -1,0 +1,210 @@
+{
+  "id": "luau-lounge",
+  "name": "Luau Lounge",
+  "aliases": [
+    "Luau Lounge Tiki Bar"
+  ],
+  "location": {
+    "lat": 37.8112115,
+    "lng": -122.4106381,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "San Francisco",
+    "region": "California",
+    "postalCode": "94133",
+    "country": "US"
+  },
+  "formattedAddress": "Pier 39, San Francisco, CA 94133, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "luau-lounge",
+    "google": "ChIJt5hiMuOBhYARH3et_Cfh2jY",
+    "overture": "b71c13b8-cca4-45f8-9559-316c53e81a5e",
+    "osm": "node/9023334561"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1030"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1030"
+        },
+        "close": {
+          "day": 6,
+          "time": "2200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 – 8:00 PM",
+      "Tuesday: 12:00 – 8:00 PM",
+      "Wednesday: 12:00 – 8:00 PM",
+      "Thursday: 12:00 – 8:00 PM",
+      "Friday: 12:00 – 8:00 PM",
+      "Saturday: 10:30 AM – 10:00 PM",
+      "Sunday: 10:30 AM – 9:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 415-981-6300",
+    "website": "https://www.playerssf.com/luau-lounge",
+    "googleMapsUri": "https://maps.google.com/?cid=3952719184830232351&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.6,
+    "count": 54,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.983,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJt5hiMuOBhYARH3et_Cfh2jY",
+      "url": "https://maps.google.com/?cid=3952719184830232351&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/9023334561",
+      "url": "https://www.openstreetmap.org/node/9023334561",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b71c13b8-cca4-45f8-9559-316c53e81a5e",
+      "url": "https://explore.overturemaps.org/#17/37.81122589111328/-122.41062927246094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "luau-lounge",
+      "url": "https://tikirat.com/bars/luau-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

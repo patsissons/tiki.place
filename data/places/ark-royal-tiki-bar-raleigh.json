@@ -1,0 +1,106 @@
+{
+  "id": "ark-royal-tiki-bar-raleigh",
+  "name": "The Ark Royal Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 35.785380599999996,
+    "lng": -78.64684869999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "410 Glenwood Avenue",
+    "locality": "Raleigh",
+    "region": "North Carolina",
+    "postalCode": "27603",
+    "country": "US"
+  },
+  "formattedAddress": "410 Glenwood Ave #350, Raleigh, NC 27603, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "7ce2fae2-485c-45df-81c5-eb906c7e31f6",
+    "google": "ChIJLaV0K5JfrIkRb9BYIeuaYxI"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 919-322-5148",
+    "website": "https://www.thearkroyal.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1325073050044518511&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 178,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJLaV0K5JfrIkRb9BYIeuaYxI",
+      "url": "https://maps.google.com/?cid=1325073050044518511&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "7ce2fae2-485c-45df-81c5-eb906c7e31f6",
+      "url": "https://explore.overturemaps.org/#17/35.78520202636719/-78.64708709716797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

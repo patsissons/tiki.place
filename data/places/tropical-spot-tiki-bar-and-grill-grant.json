@@ -1,0 +1,96 @@
+{
+  "id": "tropical-spot-tiki-bar-and-grill-grant",
+  "name": "Tropical Spot Tiki Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 27.958725,
+    "lng": -80.5404129,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Grant",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "116f5ca9-8d8b-4a8b-95f4-0a549bc64860"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "116f5ca9-8d8b-4a8b-95f4-0a549bc64860",
+      "url": "https://explore.overturemaps.org/#17/27.958724975585938/-80.54041290283203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJDcsRvjpo3ogRuiyp1vbVARk",
+        "name": "Tiki Bar & Grill",
+        "distanceM": 17414,
+        "nameSim": 0.8
+      },
+      {
+        "googleId": "ChIJ__-PhaUT3ogRpBCQz5oztNM",
+        "name": "Lazy Turtle RiverFront Grill & Tiki Bar",
+        "distanceM": 8706,
+        "nameSim": 0.615
+      },
+      {
+        "googleId": "ChIJI2FojB5r3ogR-YcKUt7RQSc",
+        "name": "Tropical Marine",
+        "distanceM": 5356,
+        "nameSim": 0.583
+      },
+      {
+        "googleId": "ChIJqf1ManFr3ogRHz7X2sblAQ0",
+        "name": "The Old Fish House Bar and Grill",
+        "distanceM": 2975,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJNTbvLwoT3ogRqd-O10abd7I",
+        "name": "The Shack Riverfront Restaurant & Outback Tiki Bar!",
+        "distanceM": 7327,
+        "nameSim": 0.462
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "cardinal-tiki-bar-pocono-lake",
+  "name": "Cardinal Winery Tiki Bar",
+  "aliases": [
+    "Cardinal Tiki Bar"
+  ],
+  "location": {
+    "lat": 41.1163113,
+    "lng": -75.5524612,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "892 Pennsylvania 940",
+    "locality": "Monroe County",
+    "region": "Pennsylvania",
+    "postalCode": "18347",
+    "country": "US"
+  },
+  "formattedAddress": "892 PA-940, Pocono Lake, PA 18347, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "24759afd-a43d-4d50-849b-83d9ddccc125",
+    "google": "ChIJsfHqk377xIkRwgJUteQwp0Q"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 215-801-2227",
+    "website": "http://www.cardinalhollowwinery.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4946976474542637762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 14,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJsfHqk377xIkRwgJUteQwp0Q",
+      "url": "https://maps.google.com/?cid=4946976474542637762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "24759afd-a43d-4d50-849b-83d9ddccc125",
+      "url": "https://explore.overturemaps.org/#17/41.116573333740234/-75.55257415771484",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

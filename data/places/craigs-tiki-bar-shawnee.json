@@ -1,0 +1,102 @@
+{
+  "id": "craigs-tiki-bar-shawnee",
+  "name": "Craig's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.0099525,
+    "lng": -94.8305511,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Shawnee",
+    "region": "KS",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "c3f77c18-98c8-4e04-8dfb-c772f35a968d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://kansascity.craigslist.org/search/fua"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c3f77c18-98c8-4e04-8dfb-c772f35a968d",
+      "url": "https://explore.overturemaps.org/#17/39.009952545166016/-94.83055114746094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJx5yKli4Dz4cRzVjTij_0hok",
+        "name": "Crazy Craig's Sports Bar & Grill",
+        "distanceM": 299616,
+        "nameSim": 0.526
+      },
+      {
+        "googleId": "ChIJ2WlezngDz4cRY3xvsAiCWs4",
+        "name": "Crazy Craig's Treehouse",
+        "distanceM": 297467,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ_fUvlgAdz4cRorlbgINh88g",
+        "name": "Crazy Craig's Cheeky Monkey Bar",
+        "distanceM": 299576,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJm0GzlAXtwIcRjRhAO0a6ld0",
+        "name": "Hurricane Allie's Bar & Grill",
+        "distanceM": 12088,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJcan0sPvtwIcRgTJBIMkxrf4",
+        "name": "Wild Child Libations",
+        "distanceM": 10137,
+        "nameSim": 0.222
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

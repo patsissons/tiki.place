@@ -1,0 +1,93 @@
+{
+  "id": "paradise-tiki-bar-and-grill-dania-beach",
+  "name": "Paradise Tiki Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 26.0534103,
+    "lng": -80.1555484,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "90 South Bryan Road",
+    "locality": "Dania Beach",
+    "region": "FL",
+    "postalCode": "33004",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "3512c63a-49b3-4444-9b57-5328f05f18f7",
+    "osm": "node/5421587621"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "+1-954-362-4038",
+    "website": "http://paradisetikiofdaniabeach.com/"
+  },
+  "tikiConfidence": 0.878,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/5421587621",
+      "url": "https://www.openstreetmap.org/node/5421587621",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "3512c63a-49b3-4444-9b57-5328f05f18f7",
+      "url": "https://explore.overturemaps.org/#17/26.0528564453125/-80.15546417236328",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJUx7tX0Oq2YgRx1RhPUi0BRU",
+        "name": "Paradise Tiki of Dania Beach",
+        "distanceM": 57,
+        "nameSim": 0.583
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z"
+}

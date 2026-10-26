@@ -1,0 +1,106 @@
+{
+  "id": "crab-island-cafe-fort-walton-beach",
+  "name": "Crab Island Café",
+  "aliases": [],
+  "location": {
+    "lat": 30.3967552,
+    "lng": -86.61492799999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "573 Santa Rosa Boulevard",
+    "locality": "Fort Walton Beach",
+    "region": "Florida",
+    "postalCode": "32548",
+    "country": "US"
+  },
+  "formattedAddress": "573 Santa Rosa Blvd, Fort Walton Beach, FL 32548, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "c64f147f-8fb5-4d59-9e2e-3dc0bea8417a",
+    "google": "ChIJCRIGFyw_kYgR2pyk1KV-Eyg"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 850-244-8686",
+    "website": "http://wyndhamgardenftwaltonbeach.com/beach-resort-dining/",
+    "googleMapsUri": "https://maps.google.com/?cid=2887791036776881370&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.9,
+    "count": 50,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJCRIGFyw_kYgR2pyk1KV-Eyg",
+      "url": "https://maps.google.com/?cid=2887791036776881370&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c64f147f-8fb5-4d59-9e2e-3dc0bea8417a",
+      "url": "https://explore.overturemaps.org/#17/30.3969669342041/-86.61463928222656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

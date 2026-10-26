@@ -1,0 +1,91 @@
+{
+  "id": "kong-tiki-odense",
+  "name": "Kong Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 55.394543199999994,
+    "lng": 10.385674,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1 Mageløs",
+    "locality": "Odense",
+    "region": "83",
+    "postalCode": "5000",
+    "country": "DK"
+  },
+  "formattedAddress": "Mageløs 1, 5000 Odense, Denmark",
+  "timezone": "Europe/Copenhagen",
+  "externalIds": {
+    "overture": "f57f5570-3d77-4dd8-b806-cba6041e2179",
+    "google": "ChIJrzvmcV3fTEYRdmXzuz5LW_I"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=17463634712872576374&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 35,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJrzvmcV3fTEYRdmXzuz5LW_I",
+      "url": "https://maps.google.com/?cid=17463634712872576374&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "f57f5570-3d77-4dd8-b806-cba6041e2179",
+      "url": "https://explore.overturemaps.org/#17/55.39447784423828/10.385472297668457",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

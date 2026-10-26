@@ -1,0 +1,96 @@
+{
+  "id": "club-nasso-waterfront-resort-and-famous-tiki-bar-toms-river",
+  "name": "Club Nasso Waterfront Resort & Famous Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.967247,
+    "lng": -74.1281052,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Toms River",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "13aa0458-701b-4d6f-86a4-ac3031b7e516"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "13aa0458-701b-4d6f-86a4-ac3031b7e516",
+      "url": "https://explore.overturemaps.org/#17/39.967247009277344/-74.12810516357422",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJo5zW42mhwYkRhCQdwbXocCI",
+        "name": "The Waterfront",
+        "distanceM": 16003,
+        "nameSim": 0.529
+      },
+      {
+        "googleId": "ChIJRz6ky1mgwYkRomn_KTr4E70",
+        "name": "Captain’s Inn & Tiki Bar",
+        "distanceM": 16026,
+        "nameSim": 0.462
+      },
+      {
+        "googleId": "ChIJOad8fgSGwYkRhQ2y_L-YsBc",
+        "name": "Martell's Tiki Bar",
+        "distanceM": 16105,
+        "nameSim": 0.364
+      },
+      {
+        "googleId": "ChIJEUHrT-CdwYkRttqzhL8G9D8",
+        "name": "Water Street Bar & Grille",
+        "distanceM": 6148,
+        "nameSim": 0.361
+      },
+      {
+        "googleId": "ChIJNaMJwiuawYkR8dJc5UPmaCw",
+        "name": "Sand Bar Seaside Park",
+        "distanceM": 5929,
+        "nameSim": 0.182
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

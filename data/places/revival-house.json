@@ -1,0 +1,57 @@
+{
+  "id": "revival-house",
+  "name": "Revival House",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "revival-house"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "revival-house",
+      "url": "https://tikirat.com/bars/revival-house",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJDSUc3JCZ7ocRYVvqis3orU8",
+        "name": "Revival House",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJSfPBbwCPk4cR8RobRk385VI",
+        "name": "Revival House",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

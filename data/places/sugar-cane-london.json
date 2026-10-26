@@ -1,0 +1,90 @@
+{
+  "id": "sugar-cane-london",
+  "name": "Sugar Cane",
+  "aliases": [],
+  "location": {
+    "lat": 51.4642677,
+    "lng": -0.163108,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "London",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "e197c318-304c-47e0-b0b2-dca81cab5661"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://thesugarcane.co.uk/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e197c318-304c-47e0-b0b2-dca81cab5661",
+      "url": "https://explore.overturemaps.org/#17/51.46426773071289/-0.1631079763174057",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJFWJc7FQDdkgROgV0Y9w0EKw",
+        "name": "Sugar Cane Salon",
+        "distanceM": 1535,
+        "nameSim": 0.8
+      },
+      {
+        "googleId": "ChIJe_vsm1kddkgRZ0v2i9zTHNQ",
+        "name": "Sugarcane.London",
+        "distanceM": 8443,
+        "nameSim": 0.762
+      },
+      {
+        "googleId": "ChIJV8z7MbIFdkgRBvuAh7AVadM",
+        "name": "Paradise cove Battersea Restaurant",
+        "distanceM": 1891,
+        "nameSim": 0.114
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

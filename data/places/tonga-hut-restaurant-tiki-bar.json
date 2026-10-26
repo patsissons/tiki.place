@@ -1,0 +1,57 @@
+{
+  "id": "tonga-hut-restaurant-tiki-bar",
+  "name": "Tonga Hut Restaurant Tiki Bar",
+  "aliases": [],
+  "location": null,
+  "address": {},
+  "externalIds": {
+    "tikirat": "tonga-hut-restaurant-tiki-bar"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.895,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tonga-hut-restaurant-tiki-bar",
+      "url": "https://tikirat.com/bars/tonga-hut-restaurant-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJB0UjK6Ub24ARjMkS-vDIVWc",
+        "name": "The Tonga Hut Restaurant and Tiki Bar",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJzwFADGGWwoARGBd1-96GyeQ",
+        "name": "Tonga Hut",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

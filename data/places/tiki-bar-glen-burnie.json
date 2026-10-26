@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-glen-burnie",
+  "name": "Tiki bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.1588936,
+    "lng": -76.5362167,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Glen Burnie",
+    "region": "MD",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c62ac155-5590-4e2d-8c57-6951c39a2d72"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c62ac155-5590-4e2d-8c57-6951c39a2d72",
+      "url": "https://explore.overturemaps.org/#17/39.15889358520508/-76.53621673583984",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJQf1EdTj3t4kRis3vLv6fQDU",
+        "name": "Naptown Tiki Club",
+        "distanceM": 22159,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJYQenz37-t4kRKPfH7XucDnE",
+        "name": "Broken Oar Bar & Grill",
+        "distanceM": 832,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJtzfVZ5j9t4kR_7PqoQ5c2W8",
+        "name": "Rams Head Dockside",
+        "distanceM": 5091,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ94i2YJj9t4kRl0tywBwtSdY",
+        "name": "Duke's Tavern",
+        "distanceM": 5117,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJsyUmG-r_t4kRTsFxMBf7suo",
+        "name": "The Rumor Reel",
+        "distanceM": 6435,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

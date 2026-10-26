@@ -1,0 +1,96 @@
+{
+  "id": "litos-tiki-bar-pacifica",
+  "name": "Lito's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 37.6366119,
+    "lng": -122.4874496,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Pacifica",
+    "region": "CA",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "3c344cc0-194a-4c3f-a46c-927f566bdd95"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3c344cc0-194a-4c3f-a46c-927f566bdd95",
+      "url": "https://explore.overturemaps.org/#17/37.63661193847656/-122.4874496459961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJuwbN9yUZjoAR3x-JP8m64FA",
+        "name": "Lito's Community Cafe & Market",
+        "distanceM": 95892,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ75ZNN1R6j4ARJ50ti3M3DXE",
+        "name": "Longboard Bar and Venue",
+        "distanceM": 390,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJYdgfyap7j4ARo8C5B5ECjQs",
+        "name": "El Toro Loco",
+        "distanceM": 307,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJ3cskNVV6j4ARNigSkyy5Pik",
+        "name": "Taqueria Pacifica",
+        "distanceM": 273,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ85jyqp16j4ARtNgH_4cfmSc",
+        "name": "La Playa",
+        "distanceM": 4865,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

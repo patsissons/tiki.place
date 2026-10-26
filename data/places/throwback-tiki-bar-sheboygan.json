@@ -1,0 +1,96 @@
+{
+  "id": "throwback-tiki-bar-sheboygan",
+  "name": "Throwback Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.7586823,
+    "lng": -87.716568,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Sheboygan",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "79344947-32a3-47d3-8a77-9ce1e7c1dd59"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "79344947-32a3-47d3-8a77-9ce1e7c1dd59",
+      "url": "https://explore.overturemaps.org/#17/43.75868225097656/-87.71656799316406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ79SqQpunBIgRzxwatiOyJ0g",
+        "name": "The Itty Bitty Bar",
+        "distanceM": 1368,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJR5fxQgCnBIgRCDdTDyxBxoY",
+        "name": "The Sandbar",
+        "distanceM": 1651,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJL9or8zqnBIgRr2BaCRpqCHI",
+        "name": "Turk's and Timber's",
+        "distanceM": 58,
+        "nameSim": 0.071
+      },
+      {
+        "googleId": "ChIJIbcdp_KnBIgRTU9S8m1KvnQ",
+        "name": "Rewind",
+        "distanceM": 12,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ3yrEX-2nBIgRXAunwhGuoIs",
+        "name": "Vreeke's Tavern",
+        "distanceM": 47,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

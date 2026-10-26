@@ -1,0 +1,178 @@
+{
+  "id": "tiki-pub-ponce-inlet",
+  "name": "Tiki Pub Ponce Inlet",
+  "aliases": [],
+  "location": {
+    "lat": 29.090660099999997,
+    "lng": -80.9399138,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "133 Inlet Harbor Road",
+    "locality": "Ponce Inlet",
+    "region": "Florida",
+    "postalCode": "32127",
+    "country": "US"
+  },
+  "formattedAddress": "133 Inlet Harbor Rd, Ponce Inlet, FL 32127, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e157359c-c219-4eb9-a965-99513b0f4d7c",
+    "google": "ChIJGbQz9Fsp54gRG5G8ouNgqyI"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "0900"
+        },
+        "close": {
+          "day": 1,
+          "time": "1930"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0900"
+        },
+        "close": {
+          "day": 2,
+          "time": "1930"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0900"
+        },
+        "close": {
+          "day": 3,
+          "time": "1930"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0900"
+        },
+        "close": {
+          "day": 4,
+          "time": "1930"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0900"
+        },
+        "close": {
+          "day": 5,
+          "time": "1930"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0900"
+        },
+        "close": {
+          "day": 6,
+          "time": "1930"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 9:00 AM – 7:30 PM",
+      "Tuesday: 9:00 AM – 7:30 PM",
+      "Wednesday: 9:00 AM – 7:30 PM",
+      "Thursday: 9:00 AM – 7:30 PM",
+      "Friday: 9:00 AM – 7:30 PM",
+      "Saturday: 9:00 AM – 7:30 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 386-478-9207",
+    "website": "https://www.tikipub.com/ponceinlet",
+    "googleMapsUri": "https://maps.google.com/?cid=2498196949111181595&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 537,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJGbQz9Fsp54gRG5G8ouNgqyI",
+      "url": "https://maps.google.com/?cid=2498196949111181595&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e157359c-c219-4eb9-a965-99513b0f4d7c",
+      "url": "https://explore.overturemaps.org/#17/29.090871810913086/-80.93974304199219",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

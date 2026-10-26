@@ -1,0 +1,95 @@
+{
+  "id": "lava-dodgers-stadium",
+  "name": "Lava Dodgers Stadium",
+  "aliases": [],
+  "location": {
+    "lat": 34.6978378,
+    "lng": 135.191864,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "神戸市中央区",
+    "country": "JP"
+  },
+  "timezone": "Asia/Tokyo",
+  "externalIds": {
+    "overture": "99a7e3ed-8d29-4a9d-99cd-611b820336b3"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "99a7e3ed-8d29-4a9d-99cd-611b820336b3",
+      "url": "https://explore.overturemaps.org/#17/34.697837829589844/135.19186401367188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJT7mjDOWOAGARpsnnmD_kabo",
+        "name": "LAVA",
+        "distanceM": 389,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJB8TPC-OOAGARySpyw0t9JQo",
+        "name": "LAVA",
+        "distanceM": 522,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJny_g2TaMAGARFXDP92TXi0s",
+        "name": "LAVA",
+        "distanceM": 4569,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJYQc02p6FAGARvS1HeYmcCl8",
+        "name": "LAVA",
+        "distanceM": 6703,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJs-25_nKPAGARLY9daGbiomk",
+        "name": "CALDO Hottoyogasutajio",
+        "distanceM": 3221,
+        "nameSim": 0.111
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

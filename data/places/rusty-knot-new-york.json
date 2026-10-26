@@ -1,0 +1,96 @@
+{
+  "id": "rusty-knot-new-york",
+  "name": "The Rusty Knot",
+  "aliases": [],
+  "location": {
+    "lat": 40.7351556,
+    "lng": -74.00980559999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "425 West Street",
+    "locality": "New York",
+    "region": "New York",
+    "postalCode": "10014",
+    "country": "US"
+  },
+  "formattedAddress": "425 West St, New York, NY 10014, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "056c542a-32e1-47c9-9b1d-9ab83c95c152",
+    "google": "ChIJj2-tnutZwokRHA-YXJ8Fz5g"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://www.therustyknot.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=11011025795955560220&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 382,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJj2-tnutZwokRHA-YXJ8Fz5g",
+      "url": "https://maps.google.com/?cid=11011025795955560220&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "056c542a-32e1-47c9-9b1d-9ab83c95c152",
+      "url": "https://explore.overturemaps.org/#17/40.73521423339844/-74.00995635986328",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

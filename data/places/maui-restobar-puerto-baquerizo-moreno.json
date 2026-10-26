@@ -1,0 +1,95 @@
+{
+  "id": "maui-restobar-puerto-baquerizo-moreno",
+  "name": "Maui RestoBar",
+  "aliases": [],
+  "location": {
+    "lat": -0.9043568999999999,
+    "lng": -89.6130709,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Avenida de la Armada Nacional",
+    "locality": "Puerto Baquerizo Moreno",
+    "region": "Islas Galápagos",
+    "country": "EC"
+  },
+  "formattedAddress": "Av. de la Armada Nacional, Puerto Baquerizo Moreno, Ecuador",
+  "timezone": "Pacific/Galapagos",
+  "externalIds": {
+    "overture": "e7a39d53-cd09-459d-a4e2-2a9bfa71af4f",
+    "google": "ChIJqRgTXOLpAJARO3oTW7lh0Uw"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+593 98 773 0996",
+    "googleMapsUri": "https://maps.google.com/?cid=5535312865739897403&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 223,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJqRgTXOLpAJARO3oTW7lh0Uw",
+      "url": "https://maps.google.com/?cid=5535312865739897403&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e7a39d53-cd09-459d-a4e2-2a9bfa71af4f",
+      "url": "https://explore.overturemaps.org/#17/-0.9043256044387817/-89.61305236816406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,14 +1,16 @@
 {
   "id": "shameful-tiki-room-vancouver",
   "name": "The Shameful Tiki Room",
-  "aliases": [],
+  "aliases": [
+    "The Shameful Tiki Room Vancouver"
+  ],
   "location": {
     "lat": 49.2461047,
     "lng": -123.1010656,
     "precision": "rooftop"
   },
   "address": {
-    "street": "4362 Main St",
+    "street": "4362 Main Street",
     "locality": "Vancouver",
     "region": "British Columbia",
     "postalCode": "V5V 3P9",
@@ -17,12 +19,15 @@
   "formattedAddress": "4362 Main St, Vancouver, BC V5V 3P9, Canada",
   "timezone": "America/Vancouver",
   "externalIds": {
-    "google": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ"
+    "google": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+    "osm": "node/6148806055",
+    "overture": "6c0945b3-be2f-4a56-8cb0-a5874b4ab4fc",
+    "tikirat": "the-shameful-tiki-room-vancouver"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T03:30:14.748Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:28:59.067Z"
   },
   "hours": {
     "periods": [
@@ -98,25 +103,26 @@
       }
     ],
     "weekdayText": [
-      "Monday: 5:00 PM - 12:00 AM",
-      "Tuesday: 5:00 PM - 12:00 AM",
-      "Wednesday: 5:00 PM - 12:00 AM",
-      "Thursday: 5:00 PM - 12:00 AM",
-      "Friday: 5:00 PM - 1:00 AM",
-      "Saturday: 5:00 PM - 1:00 AM",
-      "Sunday: 5:00 PM - 12:00 AM"
+      "Monday: 5:00 PM – 12:00 AM",
+      "Tuesday: 5:00 PM – 12:00 AM",
+      "Wednesday: 5:00 PM – 12:00 AM",
+      "Thursday: 5:00 PM – 12:00 AM",
+      "Friday: 5:00 PM – 1:00 AM",
+      "Saturday: 5:00 PM – 1:00 AM",
+      "Sunday: 5:00 PM – 12:00 AM"
     ]
   },
   "contact": {
     "website": "http://shamefultikiroom.com/vancouver/",
-    "googleMapsUri": "https://maps.google.com/?cid=10680938080762546774"
+    "googleMapsUri": "https://maps.google.com/?cid=10680938080762546774&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
     "value": 4.5,
-    "count": 2094,
-    "at": "2026-03-09T12:00:00.000Z"
+    "count": 2166,
+    "at": "2026-10-26T04:40:49.037Z"
   },
-  "tikiConfidence": 0.335,
+  "priceLevel": "$$",
+  "tikiConfidence": 0.983,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -126,23 +132,23 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "location": {
       "sourceId": "google",
@@ -150,23 +156,48 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     }
   },
   "sources": [
     {
       "sourceId": "google",
       "sourceRef": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-      "url": "https://maps.google.com/?cid=10680938080762546774",
+      "url": "https://maps.google.com/?cid=10680938080762546774&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-03-09T12:00:00.000Z",
-      "lastSeenAt": "2026-03-09T12:00:00.000Z"
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/6148806055",
+      "url": "https://www.openstreetmap.org/node/6148806055",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6c0945b3-be2f-4a56-8cb0-a5874b4ab4fc",
+      "url": "https://explore.overturemaps.org/#17/49.24610900878906/-123.10108184814453",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-shameful-tiki-room-vancouver",
+      "url": "https://tikirat.com/bars/the-shameful-tiki-room-vancouver",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-10-26T03:30:14.748Z",
-  "lastVerifiedAt": "2026-03-09T12:00:00.000Z"
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -1,0 +1,96 @@
+{
+  "id": "mar-vista-grande-tiki-bar-north-myrtle-beach",
+  "name": "Mar Vista Grande Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 33.8157272,
+    "lng": -78.6804733,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "North Myrtle Beach",
+    "region": "SC",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "8692e189-b8bd-4e3f-b6e0-34dd251005a9"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "8692e189-b8bd-4e3f-b6e0-34dd251005a9",
+      "url": "https://explore.overturemaps.org/#17/33.81572723388672/-78.68047332763672",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJX6hZvDN9AIkRVYbxYlgLhIM",
+        "name": "Mar Vista Grande 505",
+        "distanceM": 39,
+        "nameSim": 0.897
+      },
+      {
+        "googleId": "ChIJX6hZvDN9AIkR7LpPbKSkLv0",
+        "name": "Mar Vista Grande 712",
+        "distanceM": 39,
+        "nameSim": 0.897
+      },
+      {
+        "googleId": "ChIJ6XLYGTZ9AIkRFvBzGS0cOSs",
+        "name": "Mar Vista Grande 713",
+        "distanceM": 39,
+        "nameSim": 0.897
+      },
+      {
+        "googleId": "ChIJac58wlp9AIkRK3srpFqzjDE",
+        "name": "Coconuts Tiki Bar",
+        "distanceM": 1367,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJrayzfYRpAIkRaTaDuh_j5KQ",
+        "name": "Tropical Paradise",
+        "distanceM": 22576,
+        "nameSim": 0.214
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

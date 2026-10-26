@@ -1,0 +1,101 @@
+{
+  "id": "hiekkasarkkain-lahde-kalajoki",
+  "name": "Hiekkasärkkäin Lähde",
+  "aliases": [],
+  "location": {
+    "lat": 64.2338181,
+    "lng": 23.8184853,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Kalajoki",
+    "country": "FI"
+  },
+  "timezone": "Europe/Helsinki",
+  "externalIds": {
+    "overture": "fd1dcde0-fc45-441c-bd29-9d8267b66deb"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.hiekkasarkkainlahde.fi/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "fd1dcde0-fc45-441c-bd29-9d8267b66deb",
+      "url": "https://explore.overturemaps.org/#17/64.23381805419922/23.818485260009766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJh7Egk_zAgEYR0Ix4vHGNZR4",
+        "name": "Kalajoen Hiekkasärkät",
+        "distanceM": 412,
+        "nameSim": 0.606
+      },
+      {
+        "googleId": "ChIJoccg7QDBgEYRccMeJtdGASY",
+        "name": "Kalajoen Hiekkasärkät",
+        "distanceM": 1364,
+        "nameSim": 0.606
+      },
+      {
+        "googleId": "ChIJZ18K_5vBgEYR1HTG6xqpyBI",
+        "name": "Hiekkasärkät Areena",
+        "distanceM": 531,
+        "nameSim": 0.581
+      },
+      {
+        "googleId": "ChIJb2WF0h3BgEYRB6y45U41tl8",
+        "name": "Kalajoen Hiekkasärkät Oy",
+        "distanceM": 310,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJFZLvXB3BgEYRCUIpVX0BP2g",
+        "name": "Kalajoki Sand Dunes",
+        "distanceM": 642,
+        "nameSim": 0.188
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

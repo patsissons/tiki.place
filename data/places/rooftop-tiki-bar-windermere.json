@@ -1,0 +1,96 @@
+{
+  "id": "rooftop-tiki-bar-windermere",
+  "name": "Rooftop Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 54.3637314,
+    "lng": -2.9208231,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Windermere",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "f7dfda2d-7f8c-42ef-adeb-df531c156dab"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "f7dfda2d-7f8c-42ef-adeb-df531c156dab",
+      "url": "https://explore.overturemaps.org/#17/54.363731384277344/-2.920823097229004",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ5W9kQKuVfEgR-XMYRkHsEMM",
+        "name": "Lake View Garden Bar",
+        "distanceM": 57,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJ40BTJ_KUfEgRlZ3ao6yeBAY",
+        "name": "BAHA",
+        "distanceM": 125,
+        "nameSim": 0.125
+      },
+      {
+        "googleId": "ChIJ4X4RivGUfEgRj-XrNXwzmwY",
+        "name": "The Fizzy Tarté",
+        "distanceM": 122,
+        "nameSim": 0.091
+      },
+      {
+        "googleId": "ChIJ4avVYQCVfEgR-8WiKT0ecjM",
+        "name": "Rum Nicky Breakfast Kitchen & Terrace",
+        "distanceM": 689,
+        "nameSim": 0.043
+      },
+      {
+        "googleId": "ChIJ64Ajz_mUfEgRgHcBs8pujdw",
+        "name": "The Lake View Bowness",
+        "distanceM": 276,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "tiki-loft-brantford",
+  "name": "Tiki Loft",
+  "aliases": [],
+  "location": {
+    "lat": 43.1498649,
+    "lng": -80.18149079999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1365 Colborne Street East",
+    "locality": "Brantford",
+    "region": "Ontario",
+    "postalCode": "N3S 0H4",
+    "country": "CA"
+  },
+  "formattedAddress": "1365 Colborne St E #1, Brantford, ON N3S 0H4, Canada",
+  "timezone": "America/Toronto",
+  "externalIds": {
+    "overture": "5da1196f-a167-462a-a93b-46f26161b7c2",
+    "google": "ChIJSy3KxgVkLIgRxi5CJybG9EA"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 519-752-7200",
+    "website": "http://tikiloft.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4680583779914493638&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 3,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJSy3KxgVkLIgRxi5CJybG9EA",
+      "url": "https://maps.google.com/?cid=4680583779914493638&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "5da1196f-a167-462a-a93b-46f26161b7c2",
+      "url": "https://explore.overturemaps.org/#17/43.14980697631836/-80.1819839477539",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

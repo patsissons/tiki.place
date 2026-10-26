@@ -1,0 +1,101 @@
+{
+  "id": "arapuka-tiki-bar-iquique",
+  "name": "Arapuka Tiki bar",
+  "aliases": [],
+  "location": {
+    "lat": -20.2163432,
+    "lng": -70.1521932,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "299 Wilson",
+    "locality": "Iquique",
+    "region": "Tarapacá",
+    "postalCode": "1100888",
+    "country": "CL"
+  },
+  "formattedAddress": "Wilson 299, 1100888 Iquique, Tarapacá, Chile",
+  "timezone": "America/Santiago",
+  "externalIds": {
+    "overture": "d17f8eee-cf7b-4633-a4ed-551e76abf415",
+    "google": "ChIJVdhOZzETUpER396j_YkxHxs"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://www.arapukatikibar.cl/",
+    "googleMapsUri": "https://maps.google.com/?cid=1954335232037740255&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.8,
+    "count": 100,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJVdhOZzETUpER396j_YkxHxs",
+      "url": "https://maps.google.com/?cid=1954335232037740255&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d17f8eee-cf7b-4633-a4ed-551e76abf415",
+      "url": "https://explore.overturemaps.org/#17/-20.216320037841797/-70.15218353271484",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

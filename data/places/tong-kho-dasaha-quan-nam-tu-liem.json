@@ -1,0 +1,77 @@
+{
+  "id": "tong-kho-dasaha-quan-nam-tu-liem",
+  "name": "Tổng kho Dasaha",
+  "aliases": [],
+  "location": {
+    "lat": 21.0146084,
+    "lng": 105.7403641,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Quận Nam Từ Liêm",
+    "country": "VN"
+  },
+  "timezone": "Asia/Bangkok",
+  "externalIds": {
+    "overture": "8403b511-dbaa-4ff1-99a4-327e6f0a028b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "8403b511-dbaa-4ff1-99a4-327e6f0a028b",
+      "url": "https://explore.overturemaps.org/#17/21.01460838317871/105.74036407470703",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJmz7zQABTNDERE-OIrXJyfFQ",
+        "name": "Kho đá Hà Tỉnh",
+        "distanceM": 522,
+        "nameSim": 0.381
+      },
+      {
+        "googleId": "ChIJqRAOw9pVNDER4nA_moPQkpE",
+        "name": "Đá Khô Mỹ Đình",
+        "distanceM": 4134,
+        "nameSim": 0.286
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

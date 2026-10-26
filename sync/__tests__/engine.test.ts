@@ -91,7 +91,7 @@ describe("runEngine", () => {
     expect(first.summary.placesCreated).toBe(3);
 
     const places = store.readPlaces();
-    const cove = places.find((p) => p.id === "smugglers-cove")!;
+    const cove = places.find((p) => p.id === "smugglers-cove-somewhere")!;
     expect(cove.externalIds).toEqual({ google: "G-COVE", tikirat: "smuggler-s-cove" });
     expect(cove.review.state).toBe("auto_approved"); // tikirat 0.85 + google id + location
     expect(cove.status.value).toBe("open");
@@ -100,7 +100,7 @@ describe("runEngine", () => {
     expect(cove.sources.map((s) => s.sourceId).sort()).toEqual(["google", "tikirat"]);
     expect(cove.sources.find((s) => s.sourceId === "tikirat")?.url).toBe("https://tikirat.com/bars/smuggler-s-cove");
 
-    const luau = places.find((p) => p.id === "luau-san-diego")!;
+    const luau = places.find((p) => p.id === "luau-somewhere")!;
     expect(luau.externalIds.google).toBe("G-LUAU");
     expect(luau.review.state).toBe("needs_review"); // weak (containment) match
     expect(luau.status.value).toBe("temporarily_closed");
@@ -119,7 +119,7 @@ describe("runEngine", () => {
     // published projection
     const { buildPublicData } = await import("../core/publish");
     const pub = JSON.parse(buildPublicData(places)["places.json"]) as { id: string }[];
-    expect(pub.map((p) => p.id)).toEqual(["smugglers-cove"]);
+    expect(pub.map((p) => p.id)).toEqual(["smugglers-cove-somewhere"]);
 
     // idempotent offline replay
     const snapshot = Object.fromEntries(places.map((p) => [p.id, store.serializePlace(p)]));
@@ -137,22 +137,22 @@ describe("runEngine", () => {
     const calls: string[] = [];
     await engine.runEngine({ now: NOW, log: quiet, fetchFactory: () => fakeFetch(smallSitemap), googleClientFactory: () => fakeGoogle(calls) });
     store.writeDecisions([
-      { type: "approve", place: "luau-san-diego", at: "2026-11-01T12:00:00.000Z", by: "owner" },
+      { type: "approve", place: "luau-somewhere", at: "2026-11-01T12:00:00.000Z", by: "owner" },
       { type: "reject", place: "kona-club", reason: "closed in 2019", at: "2026-11-01T12:00:00.000Z", by: "owner" },
     ]);
     await engine.runEngine({ now: new Date("2026-11-02T10:00:00Z"), log: quiet, offline: true, skipVerify: true });
     let places = store.readPlaces();
-    expect(places.find((p) => p.id === "luau-san-diego")?.review).toMatchObject({ state: "approved", by: "owner" });
+    expect(places.find((p) => p.id === "luau-somewhere")?.review).toMatchObject({ state: "approved", by: "owner" });
     expect(places.find((p) => p.id === "kona-club")?.review).toMatchObject({ state: "rejected", reason: "closed in 2019" });
 
     // merge kona-club into luau; kona's tikirat ref now belongs to luau and a redirect exists
-    store.appendDecision({ type: "merge", from: "kona-club", into: "luau-san-diego", at: "2026-11-01T13:00:00.000Z", by: "owner" });
+    store.appendDecision({ type: "merge", from: "kona-club", into: "luau-somewhere", at: "2026-11-01T13:00:00.000Z", by: "owner" });
     const r = await engine.runEngine({ now: new Date("2026-11-03T10:00:00Z"), log: quiet, offline: true, skipVerify: true });
     expect(r.code).toBe(0);
     places = store.readPlaces();
     expect(places.some((p) => p.id === "kona-club")).toBe(false);
-    expect(store.readRedirects()).toEqual({ "kona-club": "luau-san-diego" });
-    const luau = places.find((p) => p.id === "luau-san-diego")!;
+    expect(store.readRedirects()).toEqual({ "kona-club": "luau-somewhere" });
+    const luau = places.find((p) => p.id === "luau-somewhere")!;
     expect(luau.sources.map((s) => s.sourceRef).sort()).toEqual(["G-LUAU", "kona-club", "the-luau-san-diego"]);
     expect(luau.aliases).toContain("Kona Club");
     // a further offline run does not resurrect kona-club

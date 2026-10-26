@@ -1,5 +1,102 @@
 {
   "version": 1,
-  "sources": {},
-  "runs": []
+  "sources": {
+    "osm": {
+      "lastRunAt": "2026-10-26T04:08:35.388Z",
+      "lastDiscoveryAt": "2026-10-26T04:08:35.388Z",
+      "lastStatus": "ok",
+      "observationCount": 602,
+      "requestCount": 1
+    },
+    "tikirat": {
+      "lastRunAt": "2026-10-26T04:08:35.388Z",
+      "lastDiscoveryAt": "2026-10-26T04:08:35.388Z",
+      "lastStatus": "ok",
+      "observationCount": 316,
+      "requestCount": 1
+    },
+    "overture": {
+      "lastRunAt": "2026-10-26T04:19:34.568Z",
+      "lastDiscoveryAt": "2026-10-26T04:19:34.568Z",
+      "lastStatus": "ok",
+      "observationCount": 2556,
+      "requestCount": 0
+    },
+    "user-submission": {
+      "lastRunAt": "2026-10-26T04:40:49.037Z",
+      "lastStatus": "error",
+      "observationCount": 0,
+      "requestCount": 0,
+      "error": "github issues returned 401"
+    }
+  },
+  "runs": [
+    {
+      "at": "2026-10-26T04:40:49.037Z",
+      "durationMs": 259448,
+      "sources": [],
+      "placesCreated": 0,
+      "placesUpdated": 746,
+      "placesPublished": 535,
+      "needsReview": 528,
+      "googleCalls": 743,
+      "warnings": [
+        "user-submission: discovery failed: github issues returned 401"
+      ]
+    },
+    {
+      "at": "2026-10-26T04:35:53.528Z",
+      "durationMs": 199547,
+      "sources": [],
+      "placesCreated": 0,
+      "placesUpdated": 1063,
+      "placesPublished": 535,
+      "needsReview": 528,
+      "googleCalls": 1187,
+      "warnings": [
+        "user-submission: discovery failed: github issues returned 401",
+        "bamboo-hut-san-francisco: details failed: place details ChIJMzF8WPSAhYARCEJqdcwnTMo: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'GetPlaceRequest' and limit 'GetPlaceRequest per minute' of service 'places.googleapis.com' for consumer 'project_number:890239050253'.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"RATE_LIMIT_EXCEEDED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"quota_limit\": \"GetPlaceRequestPerMinutePerProject\",\n          \"quota_metric\": \"places.googleapis.com/GetPlaceRequest\",\n          \"service\": \"places.googleapis.com\",\n          \"quota_unit\": \"1/min/{project}\",\n          \"quota_location\": \"global\",\n          \"quota_limit_value\": \"600\",\n          \"consumer\": \"projects/890239050253\",\n          \"window_start_time\": \"1792989267\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Request a higher quota limit.\",\n            \"url\": \"https://cloud.google.com/docs/quotas/help/request_increase\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      ]
+    },
+    {
+      "at": "2026-10-26T04:19:34.568Z",
+      "durationMs": 442843,
+      "sources": [
+        "overture"
+      ],
+      "placesCreated": 860,
+      "placesUpdated": 19,
+      "placesPublished": 12,
+      "needsReview": 1195,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-10-26T04:10:54.740Z",
+      "durationMs": 441094,
+      "sources": [],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 4,
+      "needsReview": 343,
+      "googleCalls": 0,
+      "warnings": [
+        "overture: discovery failed: [\n  {\n    \"origin\": \"string\",\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"inclusive\": true,\n    \"path\": [\n      \"address\",\n      \"region\"\n    ],\n    \"message\": \"Too small: expected string to have >=1 characters\"\n  }\n]"
+      ]
+    },
+    {
+      "at": "2026-10-26T04:08:35.388Z",
+      "durationMs": 126472,
+      "sources": [
+        "osm",
+        "tikirat"
+      ],
+      "placesCreated": 343,
+      "placesUpdated": 2,
+      "placesPublished": 4,
+      "needsReview": 343,
+      "googleCalls": 0,
+      "warnings": []
+    }
+  ]
 }

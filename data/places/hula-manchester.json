@@ -1,0 +1,138 @@
+{
+  "id": "hula-manchester",
+  "name": "Hula",
+  "aliases": [],
+  "location": {
+    "lat": 53.4824608,
+    "lng": -2.2331368,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "11 Stevenson Square",
+    "locality": "Manchester",
+    "region": "England",
+    "postalCode": "M1 1DB",
+    "country": "GB"
+  },
+  "formattedAddress": "11 Stevenson Square, Manchester M1 1DB, UK",
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "c1730e49-df0b-4d62-a8a9-a490269d4c0d",
+    "google": "ChIJfcAbur6xe0gRLwTKuFrEozw"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 5,
+          "time": "2200"
+        },
+        "close": {
+          "day": 6,
+          "time": "0600"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "2200"
+        },
+        "close": {
+          "day": 0,
+          "time": "0600"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 10:00 PM – 6:00 AM",
+      "Saturday: 10:00 PM – 6:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "website": "http://hulamcr.co.uk/",
+    "googleMapsUri": "https://maps.google.com/?cid=4369551957405860911&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.7,
+    "count": 555,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJfcAbur6xe0gRLwTKuFrEozw",
+      "url": "https://maps.google.com/?cid=4369551957405860911&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c1730e49-df0b-4d62-a8a9-a490269d4c0d",
+      "url": "https://explore.overturemaps.org/#17/53.482421875/-2.233156204223633",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

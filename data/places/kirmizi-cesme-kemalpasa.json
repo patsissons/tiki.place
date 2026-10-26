@@ -1,0 +1,83 @@
+{
+  "id": "kirmizi-cesme-kemalpasa",
+  "name": "Kirmizi Cesme",
+  "aliases": [],
+  "location": {
+    "lat": 38.4172745,
+    "lng": 27.6267242,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Kemalpaşa",
+    "country": "TR"
+  },
+  "timezone": "Europe/Istanbul",
+  "externalIds": {
+    "overture": "7808a87b-1196-4185-8016-34672abb3224"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "7808a87b-1196-4185-8016-34672abb3224",
+      "url": "https://explore.overturemaps.org/#17/38.417274475097656/27.626724243164062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJfZxhteR7uxQRutC0ZJqPhKQ",
+        "name": "Kirmizi Pub",
+        "distanceM": 116186,
+        "nameSim": 0.706
+      },
+      {
+        "googleId": "ChIJ19OE5lZbuRQRTro6kmmSm10",
+        "name": "Kirmizi Degirmen",
+        "distanceM": 16639,
+        "nameSim": 0.609
+      },
+      {
+        "googleId": "ChIJ2YcjuK1xuRQRBcxjlM5z2QI",
+        "name": "Kirmizi Butik",
+        "distanceM": 18691,
+        "nameSim": 0.545
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

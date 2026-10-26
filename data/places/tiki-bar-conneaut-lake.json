@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-conneaut-lake",
+  "name": "The Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.6344347,
+    "lng": -80.3127951,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "12367 Reed Avenue",
+    "locality": "Conneaut Lake",
+    "region": "Pennsylvania",
+    "postalCode": "16316",
+    "country": "US"
+  },
+  "formattedAddress": "12367 Reed Ave, Conneaut Lake, PA 16316, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "eaee3043-8d94-45f5-bb06-67afa3bd2c73",
+    "google": "ChIJe1BoE81PMogRVPx2-uW4vRU"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=1566611543283924052&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 71,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJe1BoE81PMogRVPx2-uW4vRU",
+      "url": "https://maps.google.com/?cid=1566611543283924052&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "eaee3043-8d94-45f5-bb06-67afa3bd2c73",
+      "url": "https://explore.overturemaps.org/#17/41.63449478149414/-80.31290435791016",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

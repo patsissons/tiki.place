@@ -1,0 +1,87 @@
+{
+  "id": "likuna-paris",
+  "name": "Likuna",
+  "aliases": [],
+  "location": {
+    "lat": 48.8258686,
+    "lng": 2.3375054,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6 Rue de l'Empereur Julien",
+    "locality": "Paris",
+    "region": "Île-de-France",
+    "postalCode": "75014",
+    "country": "FR"
+  },
+  "formattedAddress": "6 Rue de l'Empereur Julien, 75014 Paris, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "0f3630d7-b5ee-4cac-a34d-6c46161c7463",
+    "google": "ChIJ_8ea3MRx5kcREdr95loWiAY"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+33 7 59 81 33 11",
+    "googleMapsUri": "https://maps.google.com/?cid=470650740738480657&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_8ea3MRx5kcREdr95loWiAY",
+      "url": "https://maps.google.com/?cid=470650740738480657&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "0f3630d7-b5ee-4cac-a34d-6c46161c7463",
+      "url": "https://explore.overturemaps.org/#17/48.825862884521484/2.33750581741333",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -8,7 +8,7 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "650 Gough St",
+    "street": "650 Gough Street",
     "locality": "San Francisco",
     "region": "California",
     "postalCode": "94102",
@@ -17,12 +17,14 @@
   "formattedAddress": "650 Gough St, San Francisco, CA 94102, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "google": "ChIJZYKHDZiAhYARXV0sNJgKAi8"
+    "google": "ChIJZYKHDZiAhYARXV0sNJgKAi8",
+    "osm": "node/1295101185",
+    "tikirat": "smuggler-s-cove"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T03:30:14.748Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:28:59.067Z"
   },
   "hours": {
     "periods": [
@@ -98,25 +100,27 @@
       }
     ],
     "weekdayText": [
-      "Monday: 5:00 PM - 1:30 AM",
-      "Tuesday: 5:00 PM - 1:30 AM",
-      "Wednesday: 5:00 PM - 1:30 AM",
-      "Thursday: 5:00 PM - 1:30 AM",
-      "Friday: 5:00 PM - 1:30 AM",
-      "Saturday: 5:00 PM - 1:30 AM",
-      "Sunday: 5:00 PM - 1:30 AM"
+      "Monday: 5:00 PM – 1:30 AM",
+      "Tuesday: 5:00 PM – 1:30 AM",
+      "Wednesday: 5:00 PM – 1:30 AM",
+      "Thursday: 5:00 PM – 1:30 AM",
+      "Friday: 5:00 PM – 1:30 AM",
+      "Saturday: 5:00 PM – 1:30 AM",
+      "Sunday: 5:00 PM – 1:30 AM"
     ]
   },
   "contact": {
+    "phone": "+1 415-869-1900",
     "website": "http://www.smugglerscovesf.com/",
-    "googleMapsUri": "https://maps.google.com/?cid=3387281518562663773"
+    "googleMapsUri": "https://maps.google.com/?cid=3387281518562663773&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
     "value": 4.6,
-    "count": 3238,
-    "at": "2026-03-09T12:00:00.000Z"
+    "count": 3338,
+    "at": "2026-10-26T04:40:49.037Z"
   },
-  "tikiConfidence": 0.05,
+  "priceLevel": "$$",
+  "tikiConfidence": 0.964,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -126,23 +130,27 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "location": {
       "sourceId": "google",
@@ -150,23 +158,41 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-03-09T12:00:00.000Z"
+      "observedAt": "2026-10-26T04:40:49.037Z"
     }
   },
   "sources": [
     {
       "sourceId": "google",
       "sourceRef": "ChIJZYKHDZiAhYARXV0sNJgKAi8",
-      "url": "https://maps.google.com/?cid=3387281518562663773",
+      "url": "https://maps.google.com/?cid=3387281518562663773&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-03-09T12:00:00.000Z",
-      "lastSeenAt": "2026-03-09T12:00:00.000Z"
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/1295101185",
+      "url": "https://www.openstreetmap.org/node/1295101185",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "smuggler-s-cove",
+      "url": "https://tikirat.com/bars/smuggler-s-cove",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-10-26T03:30:14.748Z",
-  "lastVerifiedAt": "2026-03-09T12:00:00.000Z"
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

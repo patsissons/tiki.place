@@ -1,5 +1,19 @@
 {
   "version": 1,
-  "months": {},
-  "days": {}
+  "months": {
+    "2026-10": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 792,
+      "textSearch": 2509
+    }
+  },
+  "days": {
+    "2026-10-26": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 792,
+      "textSearch": 2509
+    }
+  }
 }

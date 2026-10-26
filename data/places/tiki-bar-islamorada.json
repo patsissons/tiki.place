@@ -1,0 +1,118 @@
+{
+  "id": "tiki-bar-islamorada",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 24.9001999,
+    "lng": -80.6553192,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "84001 Overseas Highway",
+    "locality": "Islamorada",
+    "region": "FL",
+    "postalCode": "33036",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "9ed97f6a-6e49-409e-8f34-959bcd392cac",
+    "osm": "way/965379606"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "+1 305 664 2321",
+    "website": "https://www.islamoradaresortcollection.com/"
+  },
+  "tikiConfidence": 0.878,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/965379606",
+      "url": "https://www.openstreetmap.org/way/965379606",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "61d0068c-2982-440b-9e05-dea16e168bdd",
+      "url": "https://explore.overturemaps.org/#17/24.90019989013672/-80.65531921386719",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9ed97f6a-6e49-409e-8f34-959bcd392cac",
+      "url": "https://explore.overturemaps.org/#17/24.94159698486328/-80.6065902709961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJE7qU4Uo414gRk4jTMMkyMS4",
+        "name": "Tiki Bar",
+        "distanceM": 6713,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJH7vT1KQ414gRcMeMiICeW3I",
+        "name": "Marker 88 Tiki Bar",
+        "distanceM": 12648,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJHxGnWJg314gRlgkditeOHKE",
+        "name": "Tiki Bar at Amara Cay Resort",
+        "distanceM": 72,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJbTQRizU314gRXvFXkdQPJ04",
+        "name": "Amara Cay Resort",
+        "distanceM": 37,
+        "nameSim": 0.105
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z"
+}

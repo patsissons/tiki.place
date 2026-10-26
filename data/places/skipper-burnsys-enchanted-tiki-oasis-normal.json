@@ -1,0 +1,72 @@
+{
+  "id": "skipper-burnsys-enchanted-tiki-oasis-normal",
+  "name": "Skipper Burnsy's Enchanted Tiki Oasis",
+  "aliases": [],
+  "location": {
+    "lat": 40.503933,
+    "lng": -89.008194,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Normal",
+    "region": "IL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "3c199e33-4136-47d5-a36b-5607550a2e0c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3c199e33-4136-47d5-a36b-5607550a2e0c",
+      "url": "https://explore.overturemaps.org/#17/40.50393295288086/-89.00819396972656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJNdWYB31V2YAROw4wW3z74ec",
+        "name": "Tiki Oasis",
+        "distanceM": 2642627,
+        "nameSim": 0.571
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

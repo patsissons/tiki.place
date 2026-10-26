@@ -1,0 +1,100 @@
+{
+  "id": "coffe-box",
+  "name": "کافه باکس | Coffe Box",
+  "aliases": [],
+  "location": {
+    "lat": 38.0747795,
+    "lng": 46.2572632,
+    "precision": "rooftop"
+  },
+  "address": {
+    "country": "IR"
+  },
+  "timezone": "Asia/Tehran",
+  "externalIds": {
+    "overture": "dbdcf16c-e750-42f6-a0e1-34c16a64d29e"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.cafe-box.ir/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "dbdcf16c-e750-42f6-a0e1-34c16a64d29e",
+      "url": "https://explore.overturemaps.org/#17/38.07477951049805/46.25726318359375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJtTUcCAAdjj8RNOl_wK_34Tk",
+        "name": "Coffee box",
+        "distanceM": 535397,
+        "nameSim": 0.933
+      },
+      {
+        "googleId": "ChIJice5HDI0vD8RFdDXXioyXwM",
+        "name": "Coffee box",
+        "distanceM": 776008,
+        "nameSim": 0.933
+      },
+      {
+        "googleId": "ChIJoVpWM483vD8Rj28RMF5_wdY",
+        "name": "Cafe box",
+        "distanceM": 777816,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJ98BFMtYFGkARHBRxLok3CIw",
+        "name": "یونس",
+        "distanceM": 11,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ99WBivgbGkARjG5QpcjmgvE",
+        "name": "SKYBUCKS",
+        "distanceM": 9872,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "ao-hawaiian-hideout",
+  "name": "AO Hawaiian Hideout",
+  "aliases": [],
+  "location": {
+    "lat": 41.8653142,
+    "lng": -87.6255363,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1315 South Wabash Avenue",
+    "locality": "Chicago",
+    "region": "Illinois",
+    "postalCode": "60605",
+    "country": "US"
+  },
+  "formattedAddress": "1315 S Wabash Ave, Chicago, IL 60605, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "ao-hawaiian-hideout",
+    "google": "ChIJ701K0oQsDogRkkMeLppqQQ0"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1130"
+        },
+        "close": {
+          "day": 0,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:30 AM – 8:30 PM",
+      "Tuesday: 11:30 AM – 8:30 PM",
+      "Wednesday: 11:30 AM – 8:30 PM",
+      "Thursday: 11:30 AM – 8:30 PM",
+      "Friday: 11:30 AM – 9:30 PM",
+      "Saturday: 11:30 AM – 9:30 PM",
+      "Sunday: 11:30 AM – 8:30 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 312-662-1100",
+    "website": "http://www.aohawaiianhideout.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=955161806410498962&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 1381,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.857,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ701K0oQsDogRkkMeLppqQQ0",
+      "url": "https://maps.google.com/?cid=955161806410498962&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "ao-hawaiian-hideout",
+      "url": "https://tikirat.com/bars/ao-hawaiian-hideout",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

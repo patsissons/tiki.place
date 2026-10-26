@@ -1,0 +1,78 @@
+{
+  "id": "electric-cure-edgewater",
+  "name": "The Electric Cure",
+  "aliases": [],
+  "location": {
+    "lat": 39.7528954,
+    "lng": -105.0552444,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Edgewater",
+    "region": "CO",
+    "country": "US"
+  },
+  "timezone": "America/Denver",
+  "externalIds": {
+    "overture": "9f843c7c-4bbe-436a-9525-1dcf5f918d77"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.theelectriccure.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "9f843c7c-4bbe-436a-9525-1dcf5f918d77",
+      "url": "https://explore.overturemaps.org/#17/39.75289535522461/-105.05524444580078",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJx-mQAR6Ha4cRyuHomE-tnmY",
+        "name": "The Cure Edgewater",
+        "distanceM": 11,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

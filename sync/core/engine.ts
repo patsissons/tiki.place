@@ -40,7 +40,7 @@ import { WEAK_RESOLUTION_REASON, nextReviewState, tikiConfidence } from "./confi
 import { createPoliteFetch, type PoliteFetch } from "./fetch";
 import { latestPerKey, mergePlace, newPlaceSkeleton } from "./merge";
 import { buildPublicData } from "./publish";
-import { PlaceIndex, buildLinks, resolveObservation } from "./resolve";
+import { PlaceIndex, bestNameSimPlaces, buildLinks, resolveObservation } from "./resolve";
 import { GoogleBudget, planGoogleWork } from "./scheduler";
 import { deriveStatus } from "./status";
 
@@ -233,7 +233,8 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
         continue;
       }
       if (!canCreate(obs, source)) continue; // name-only hits only corroborate existing places
-      const slug = uniqueSlug(placeSlug(obs.name, obs.address.locality), (s) => index.places.has(s) || s in redirects);
+      // New places get a temporary id; the final slug is chosen after every source (and Google) has contributed.
+      const slug = `new-${created.length + 1}`;
       const skeleton = newPlaceSkeleton(slug, now);
       skeleton.firstSeenAt = obs.observedAt;
       const place = mergePlace(skeleton, [obs], mergeCtx);
@@ -274,13 +275,28 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   let googleCalls = 0;
   const resolvedNow: string[] = [];
   const unresolved: { id: string; outcome: string }[] = [];
+  const autoMerged: { from: string; into: string }[] = [];
+  /** Move everything from `from` into `into`, drop `from`, and redirect if it was already persisted. */
+  const foldInto = (into: Place, from: Place) => {
+    for (const s of from.sources) if (!into.sources.some((x) => x.sourceId === s.sourceId && x.sourceRef === s.sourceRef)) into.sources.push(s);
+    for (const [k, v] of Object.entries(from.externalIds)) if (!into.externalIds[k]) into.externalIds[k] = v;
+    if (from.name !== into.name && !into.aliases.includes(from.name)) into.aliases.push(from.name);
+    if (from.firstSeenAt < into.firstSeenAt) into.firstSeenAt = from.firstSeenAt;
+    byPlace.set(into.id, [...(byPlace.get(into.id) ?? []), ...(byPlace.get(from.id) ?? [])]);
+    byPlace.delete(from.id);
+    index.remove(from);
+    if (original.has(from.id)) redirects[from.id] = into.id;
+    index.refresh(into);
+    score(remerge(into.id));
+  };
   const googleSource = sourceMap.get("google");
   const apiKey = opts.googleApiKey ?? process.env.GOOGLE_PLACES_API_KEY;
   if (!opts.skipVerify && !opts.offline && !opts.dryRun && googleSource && (apiKey || opts.googleClientFactory)) {
     const cfg = googleSource.config as { monthlyFree?: SkuCounts; textSearchDailyCap?: number };
     const monthlyFree: SkuCounts = cfg.monthlyFree ?? { essentials: 10000, pro: 5000, enterprise: 1000, textSearch: 5000 };
-    const textSearchDailyCap = opts.force ? Math.max(cfg.textSearchDailyCap ?? 20, 400) : (cfg.textSearchDailyCap ?? 20);
-    const budget = new GoogleBudget(ledger, { monthlyFree, textSearchDailyCap }, now);
+    const textSearchDailyCap = opts.force ? 100_000 : (cfg.textSearchDailyCap ?? 20);
+    // --force is for backfills: let a single run use the month's remaining allowance (the 90% monthly stop still holds).
+    const budget = new GoogleBudget(ledger, { monthlyFree, textSearchDailyCap, dailyShare: opts.force ? 31 : undefined }, now);
     const spend = (sku: keyof SkuCounts) => {
       budget.spend(sku);
       googleCalls++;
@@ -300,18 +316,41 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
     };
 
     let stop = false;
+    const sleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
+    /** Space requests and retry once after a per-minute quota (429); any other 4xx/5xx propagates. */
+    const paced = async <T,>(fn: () => Promise<T>): Promise<T> => {
+      await sleep(opts.googleClientFactory ? 0 : 250);
+      try {
+        return await fn();
+      } catch (err) {
+        if (err instanceof Error && /\b429\b/.test(err.message)) {
+          log.warn("google: per-minute quota hit; pausing 20 s");
+          await sleep(opts.googleClientFactory ? 0 : 20_000);
+          return fn();
+        }
+        throw err;
+      }
+    };
     for (const place of plan.resolve) {
       if (stop || !budget.canSpend("textSearch")) break;
       const query = place.location ? `${place.name} ${place.address.locality ?? ""}`.trim() : `${place.name} tiki bar`;
       const bias = place.location ? { lat: place.location.lat, lng: place.location.lng, radiusM: place.location.precision === "locality" ? 5000 : 500 } : undefined;
       try {
-        spend("textSearch");
-        const results = await client.textSearch(query, { bias });
+        const results = await paced(() => {
+          spend("textSearch");
+          return client.textSearch(query, { bias });
+        });
         const pick = pickCandidate(place, results);
         if (pick.outcome === "accept") {
           const owner = index.byExternal("google", pick.place.id);
           if (owner && owner.id !== place.id) {
-            place.resolution = { attemptedAt: nowIso, result: "ambiguous", candidates: [{ googleId: pick.place.id, name: pick.place.displayName?.text ?? "", distanceM: pick.distanceM ?? -1, nameSim: Number(pick.nameSim.toFixed(3)) }] };
+            // Same Google place: the same identity rule that matches observations. Fold in unless an owner decision stands.
+            if (place.review.by !== "owner" && bestNameSimPlaces(owner, place) >= 0.6) {
+              foldInto(owner, place);
+              autoMerged.push({ from: place.id, into: owner.id });
+              continue;
+            }
+            place.resolution = { attemptedAt: nowIso, result: "ambiguous", candidates: [{ googleId: pick.place.id, name: pick.place.displayName?.text ?? "", distanceM: pick.distanceM, nameSim: Number(pick.nameSim.toFixed(3)) }] };
             warn(`${place.id}: resolves to Google place already owned by ${owner.id}; consider \`pnpm review merge ${place.id} --into ${owner.id}\``);
             unresolved.push({ id: place.id, outcome: `duplicate of ${owner.id}` });
             continue;
@@ -320,8 +359,18 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
           delete place.resolution;
           if (pick.weak && place.review.by === "auto") place.review = { state: "needs_review", by: "auto", at: nowIso, reason: WEAK_RESOLUTION_REASON };
           index.refresh(place);
-          attach(place, googleToObservation(pick.place, "google", nowIso));
-          resolvedNow.push(place.id);
+          const merged = attach(place, googleToObservation(pick.place, "google", nowIso));
+          resolvedNow.push(merged.id);
+          // Google just gave this place coordinates: fold in an obvious duplicate that only lacked them.
+          if (merged.location) {
+            for (const { place: other } of index.near(merged.location, 150)) {
+              if (other.id === merged.id || other.externalIds.google || other.review.by === "owner") continue;
+              if (bestNameSimPlaces(merged, other) < 0.85) continue;
+              foldInto(merged, other);
+              autoMerged.push({ from: other.id, into: merged.id });
+              break;
+            }
+          }
         } else {
           place.resolution = { attemptedAt: nowIso, result: pick.outcome, candidates: pick.candidates };
           unresolved.push({ id: place.id, outcome: pick.outcome });
@@ -359,8 +408,10 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
         if (stop || !budget.canSpend(tier)) break;
         const id = place.externalIds.google!;
         try {
-          spend(tier);
-          const gp = await client.details(id, tier);
+          const gp = await paced(() => {
+            spend(tier);
+            return client.details(id, tier);
+          });
           if (!gp) {
             warn(`${place.id}: Google place ${id} no longer exists (404); needs review`);
             if (place.review.by === "auto") place.review = { state: "needs_review", by: "auto", at: nowIso, reason: "google place id retired" };
@@ -376,6 +427,39 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
       }
     }
     observations.set("google", [...googleByRef.values()]);
+  }
+
+  // From here on, any failure must still persist what Google was charged for.
+  try {
+    return finish();
+  } catch (err) {
+    if (!opts.dryRun) writeLedger(ledger);
+    throw err;
+  }
+
+  function finish(): EngineResult {
+  // ---- final slugs for places created this run ----
+  const renames = new Map<string, string>();
+  for (const { place } of created) {
+    if (!index.places.has(place.id)) continue; // merged away
+    const slug = uniqueSlug(placeSlug(place.name, place.address.locality), (s) => (index.places.has(s) && s !== place.id) || s in redirects || original.has(s));
+    if (slug !== place.id) {
+      const oldId = place.id;
+      index.places.delete(oldId);
+      renames.set(oldId, slug);
+      place.id = slug;
+      index.places.set(slug, place);
+      const obs = byPlace.get(oldId);
+      byPlace.delete(oldId);
+      if (obs) byPlace.set(slug, obs);
+    }
+  }
+  const finalId = (id: string) => renames.get(id) ?? id;
+  for (let i = 0; i < resolvedNow.length; i++) resolvedNow[i] = finalId(resolvedNow[i]!);
+  for (const u of unresolved) u.id = finalId(u.id);
+  for (const m of autoMerged) {
+    m.from = finalId(m.from);
+    m.into = finalId(m.into);
   }
 
   // ---- final bookkeeping ----
@@ -394,12 +478,13 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   const flipped = finalPlaces.filter((p) => originallyPublished.has(p.id) && (p.review.state === "rejected" || p.status.value === "closed")).length;
   const needsReview = finalPlaces.filter((p) => p.review.state === "needs_review").length;
 
+  const createdIds = new Set(created.map((c) => c.place.id));
   const summary: RunSummary = {
     at: nowIso,
     durationMs: Date.now() - started,
     sources: ranSources,
-    placesCreated: created.length,
-    placesUpdated: changed.length - created.length,
+    placesCreated: finalPlaces.filter((p) => createdIds.has(p.id)).length,
+    placesUpdated: changed.filter((p) => original.has(p.id)).length,
     placesPublished: published.length,
     needsReview,
     googleCalls,
@@ -418,7 +503,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   for (const p of finalPlaces) serializePlace(p);
   buildPublicData(finalPlaces);
 
-  const report = renderReport({ summary, created, resolvedNow, unresolved, deleted, tripped, dryRun: Boolean(opts.dryRun), budgetToday: ledger.days[nowIso.slice(0, 10)] });
+  const report = renderReport({ summary, created, resolvedNow, unresolved, deleted, autoMerged, tripped, dryRun: Boolean(opts.dryRun), budgetToday: ledger.days[nowIso.slice(0, 10)] });
   fs.mkdirSync(path.join(getRoot(), ".cache"), { recursive: true });
   fs.writeFileSync(path.join(getRoot(), ".cache", "summary.md"), report);
 
@@ -437,6 +522,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   if (!opts.offline) state.runs = [summary, ...state.runs].slice(0, 30);
   writeSyncState(state);
   return { code: 0, summary, report };
+  }
 }
 
 function renderReport(input: {
@@ -445,6 +531,7 @@ function renderReport(input: {
   resolvedNow: string[];
   unresolved: { id: string; outcome: string }[];
   deleted: string[];
+  autoMerged: { from: string; into: string }[];
   tripped?: string;
   dryRun: boolean;
   budgetToday?: SkuCounts;
@@ -468,6 +555,7 @@ function renderReport(input: {
   }
   if (input.resolvedNow.length) lines.push(`\n### Resolved to Google (${input.resolvedNow.length})\n${input.resolvedNow.map((id) => `- \`${id}\``).join("\n")}`);
   if (input.unresolved.length) lines.push(`\n### Unresolved (${input.unresolved.length})\n${input.unresolved.map((u) => `- \`${u.id}\`: ${u.outcome}`).join("\n")}`);
+  if (input.autoMerged.length) lines.push(`\n### Auto-merged duplicates (${input.autoMerged.length})\n${input.autoMerged.map((m) => `- \`${m.from}\` → \`${m.into}\``).join("\n")}`);
   if (input.deleted.length) lines.push(`\n### Merged away\n${input.deleted.map((id) => `- \`${id}\``).join("\n")}`);
   if (s.warnings.length) lines.push(`\n### Warnings (${s.warnings.length})\n${s.warnings.slice(0, 40).map((w) => `- ${w}`).join("\n")}`);
   return lines.join("\n") + "\n";

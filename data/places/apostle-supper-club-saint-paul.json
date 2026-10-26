@@ -1,0 +1,106 @@
+{
+  "id": "apostle-supper-club-saint-paul",
+  "name": "Apostle Supper Club - Saint Paul",
+  "aliases": [],
+  "location": {
+    "lat": 44.945075599999996,
+    "lng": -93.10300289999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "253 Kellogg Boulevard",
+    "locality": "Saint Paul",
+    "region": "Minnesota",
+    "postalCode": "55102",
+    "country": "US"
+  },
+  "formattedAddress": "253 Kellogg Blvd, St Paul, MN 55102, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "apostle-supper-club-saint-paul",
+    "google": "ChIJdz5181cr9ocRlCSVxFOpdBg"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 651-340-8987",
+    "website": "https://www.apostlesupperclub.com/?y_source=1_NDI0NDgxMTUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "googleMapsUri": "https://maps.google.com/?cid=1762219531454194836&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.8,
+    "count": 622,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$$",
+  "tikiConfidence": 0.857,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJdz5181cr9ocRlCSVxFOpdBg",
+      "url": "https://maps.google.com/?cid=1762219531454194836&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "apostle-supper-club-saint-paul",
+      "url": "https://tikirat.com/bars/apostle-supper-club-saint-paul",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

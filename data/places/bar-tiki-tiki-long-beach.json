@@ -1,0 +1,84 @@
+{
+  "id": "bar-tiki-tiki-long-beach",
+  "name": "Bar Tiki Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 33.7702751,
+    "lng": -118.1899796,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Long Beach",
+    "region": "CA",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "3534eb0c-8233-453f-8b86-17abba913670"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://rosemallowsbar.wixsite.com/qrcode"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3534eb0c-8233-453f-8b86-17abba913670",
+      "url": "https://explore.overturemaps.org/#17/33.7702751159668/-118.18997955322266",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJjbmbZ0ox3YAR7wjQUbXLxxc",
+        "name": "Secret Island Tiki Restaurant and Lounge",
+        "distanceM": 269,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJJYYfdcIx3YARIelRi9G_Dtk",
+        "name": "The Bamboo Club",
+        "distanceM": 3864,
+        "nameSim": 0.167
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

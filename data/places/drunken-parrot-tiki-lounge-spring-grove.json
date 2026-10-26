@@ -1,0 +1,72 @@
+{
+  "id": "drunken-parrot-tiki-lounge-spring-grove",
+  "name": "Drunken Parrot Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 42.4242287,
+    "lng": -88.2274017,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Spring Grove",
+    "region": "IL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "cd4a9bb9-5207-45a7-b4bf-3b5aea8e8b06"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "cd4a9bb9-5207-45a7-b4bf-3b5aea8e8b06",
+      "url": "https://explore.overturemaps.org/#17/42.42422866821289/-88.22740173339844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ1dn5YRuHAIkRxRj5UXjn6_k",
+        "name": "Drunken Parrot Tiki Bar",
+        "distanceM": 1269542,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

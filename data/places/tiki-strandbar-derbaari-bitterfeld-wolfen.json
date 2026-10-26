@@ -1,0 +1,106 @@
+{
+  "id": "tiki-strandbar-derbaari-bitterfeld-wolfen",
+  "name": "Tiki Strandbar derBaari",
+  "aliases": [],
+  "location": {
+    "lat": 51.625374,
+    "lng": 12.337710399999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "19 Berliner Straße",
+    "locality": "Bitterfeld-Wolfen",
+    "region": "Sachsen-Anhalt",
+    "postalCode": "06749",
+    "country": "DE"
+  },
+  "formattedAddress": "Seepromenade, Über, Berliner Str. 19, 06749 Bitterfeld-Wolfen, Germany",
+  "timezone": "Europe/Berlin",
+  "externalIds": {
+    "overture": "6c0367f7-8ecb-4947-b76c-27fb26ecaaf9",
+    "google": "ChIJYzvL9NhDpkcRv3bM9NzroYM"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+49 178 4935765",
+    "website": "https://de-de.facebook.com/derBaari/",
+    "googleMapsUri": "https://maps.google.com/?cid=9485121624451348159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 210,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJYzvL9NhDpkcRv3bM9NzroYM",
+      "url": "https://maps.google.com/?cid=9485121624451348159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6c0367f7-8ecb-4947-b76c-27fb26ecaaf9",
+      "url": "https://explore.overturemaps.org/#17/51.625205993652344/12.337790489196777",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

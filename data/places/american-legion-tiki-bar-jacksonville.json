@@ -1,0 +1,102 @@
+{
+  "id": "american-legion-tiki-bar-jacksonville",
+  "name": "American Legion Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.2827072,
+    "lng": -81.7391434,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Jacksonville",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "56e57be1-0efc-41a6-b79b-e83333e85c2d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarpa.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "56e57be1-0efc-41a6-b79b-e83333e85c2d",
+      "url": "https://explore.overturemaps.org/#17/30.28270721435547/-81.73914337158203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJkZziuoW75YgRmSAtoXRKi7s",
+        "name": "American Legion Post 9",
+        "distanceM": 10593,
+        "nameSim": 0.839
+      },
+      {
+        "googleId": "ChIJAQfkCUK25YgR6D-k9soOmlI",
+        "name": "American Legion Post 88",
+        "distanceM": 10944,
+        "nameSim": 0.813
+      },
+      {
+        "googleId": "ChIJLd1UPIm45YgRXcvbJir1P6w",
+        "name": "American Legion Post #137",
+        "distanceM": 43,
+        "nameSim": 0.788
+      },
+      {
+        "googleId": "ChIJsRECsAy65YgRiT1o2WBhMH0",
+        "name": "American Legion Post 197",
+        "distanceM": 11370,
+        "nameSim": 0.788
+      },
+      {
+        "googleId": "ChIJ06tgFHnL5YgReVc4cEnbo54",
+        "name": "Red Lei Lounge",
+        "distanceM": 14798,
+        "nameSim": 0.111
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "kanaloa-houston",
+  "name": "Kanaloa",
+  "aliases": [],
+  "location": {
+    "lat": 29.7622375,
+    "lng": -95.3616486,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Houston",
+    "region": "TX",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "745c13ef-7c0a-4742-bd29-0b838288243c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.kanaloahtx.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "745c13ef-7c0a-4742-bd29-0b838288243c",
+      "url": "https://explore.overturemaps.org/#17/29.762237548828125/-95.36164855957031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJrVTXbYO4QIYRFg_Eqds7N4M",
+        "name": "Lei Low",
+        "distanceM": 5817,
+        "nameSim": 0.182
+      },
+      {
+        "googleId": "ChIJH246vxrBQIYRArzGOf8uljw",
+        "name": "The Toasted Coconut",
+        "distanceM": 4860,
+        "nameSim": 0.111
+      },
+      {
+        "googleId": "ChIJn8UI_BLHQIYRykvOWua1jD8",
+        "name": "Wicklow Heights",
+        "distanceM": 7014,
+        "nameSim": 0.105
+      },
+      {
+        "googleId": "ChIJw6SvDem-QIYRWmXEnWf1pO8",
+        "name": "Voodoo Queen Daiquiri Dive",
+        "distanceM": 2814,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJkflWJ_nHQIYRcb0ZCIHyG1Y",
+        "name": "Tikila's",
+        "distanceM": 7183,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

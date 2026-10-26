@@ -1,0 +1,96 @@
+{
+  "id": "ohana-tiki-bar-tarma",
+  "name": "Ohana Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": -11.4197341,
+    "lng": -75.6933822,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "961812854 51",
+    "locality": "Tarma",
+    "region": "Junín",
+    "postalCode": "12651",
+    "country": "PE"
+  },
+  "formattedAddress": "51 961812854, Tarma 12651, Peru",
+  "timezone": "America/Lima",
+  "externalIds": {
+    "overture": "4aefd2a4-dfd3-413d-bd2a-b882e33b4494",
+    "google": "ChIJt76DioYhCZER8NYwapLWBFM"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+51 961 812 854",
+    "googleMapsUri": "https://maps.google.com/?cid=5982142129390016240&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 16,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJt76DioYhCZER8NYwapLWBFM",
+      "url": "https://maps.google.com/?cid=5982142129390016240&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4aefd2a4-dfd3-413d-bd2a-b882e33b4494",
+      "url": "https://explore.overturemaps.org/#17/-11.419734001159668/-75.69339752197266",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

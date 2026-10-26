@@ -1,0 +1,186 @@
+{
+  "id": "trader-vics-atlanta-2",
+  "name": "Trader Vic's",
+  "aliases": [
+    "Trader Vic's Atlanta"
+  ],
+  "location": {
+    "lat": 33.7610966,
+    "lng": -84.3833616,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "255 Courtland Street Northeast",
+    "locality": "Atlanta",
+    "region": "Georgia",
+    "postalCode": "30303",
+    "country": "US"
+  },
+  "formattedAddress": "255 Courtland St NE, Atlanta, GA 30303, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "5f9a1fee-6258-4486-afe6-c20f6799add1",
+    "google": "ChIJ__IuDHcE9YgRQm0eTLPnXzo",
+    "osm": "node/8241708969",
+    "tikirat": "trader-vic-s-atlanta"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "2230"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:00 – 10:30 PM",
+      "Wednesday: 5:00 – 10:30 PM",
+      "Thursday: 5:00 – 10:30 PM",
+      "Friday: 5:00 – 10:30 PM",
+      "Saturday: 5:00 – 10:30 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 404-221-6339",
+    "website": "http://tradervicsatl.com/?SEO_id=GMB--R-ATLAHHH-2",
+    "googleMapsUri": "https://maps.google.com/?cid=4206335334249557314&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 1051,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.994,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:28:59.067Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ__IuDHcE9YgRQm0eTLPnXzo",
+      "url": "https://maps.google.com/?cid=4206335334249557314&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:28:59.067Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/8241708969",
+      "url": "https://www.openstreetmap.org/node/8241708969",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "5f9a1fee-6258-4486-afe6-c20f6799add1",
+      "url": "https://explore.overturemaps.org/#17/33.761131286621094/-84.38335418701172",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "trader-vic-s-atlanta",
+      "url": "https://tikirat.com/bars/trader-vic-s-atlanta",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

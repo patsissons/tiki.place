@@ -1,0 +1,77 @@
+{
+  "id": "kahikimataro",
+  "name": "Kahikimataro",
+  "aliases": [],
+  "location": {
+    "lat": 41.5327148,
+    "lng": 2.428226,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Mataró",
+    "country": "ES"
+  },
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "f82fe484-a3c2-4d33-b01b-bc8d6045a6c1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://kahiki.es/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "f82fe484-a3c2-4d33-b01b-bc8d6045a6c1",
+      "url": "https://explore.overturemaps.org/#17/41.53271484375/2.4282259941101074",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJs_2MCwC1pBIRzoy6pkraSnQ",
+        "name": "Kahiki Mataró, Tiki Bar, pub, cocteleria",
+        "distanceM": 0,
+        "nameSim": 0.71
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "last-resort-tiki-bar-suttons-bay",
+  "name": "The Last Resort Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 44.9782524,
+    "lng": -85.6532593,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Suttons Bay",
+    "region": "MI",
+    "country": "US"
+  },
+  "timezone": "America/Detroit",
+  "externalIds": {
+    "overture": "0a1eeacd-680f-4248-a58d-63559acfe15a"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "0a1eeacd-680f-4248-a58d-63559acfe15a",
+      "url": "https://explore.overturemaps.org/#17/44.97825241088867/-85.65325927734375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJqzLEiPU4Nk0RzcIgOR1lTo4",
+        "name": "The Last Resort",
+        "distanceM": 197545,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJeUt4N1LL6YkR0QwqvsFYMX8",
+        "name": "The Last Resort",
+        "distanceM": 1125598,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJoRtIF0crS00R9bttpoOLA2U",
+        "name": "Suttons Bay Harbor House",
+        "distanceM": 733,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJ4X_OunkpS00RoUAu5fjiNrc",
+        "name": "Suttons Bay Beach Club & Lodge",
+        "distanceM": 2978,
+        "nameSim": 0.098
+      },
+      {
+        "googleId": "ChIJTWVZMiArS00RlDyTD5pLZps",
+        "name": "Cantina TwentyTwo",
+        "distanceM": 319,
+        "nameSim": 0.069
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

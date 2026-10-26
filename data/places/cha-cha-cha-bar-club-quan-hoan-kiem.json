@@ -1,0 +1,183 @@
+{
+  "id": "cha-cha-cha-bar-club-quan-hoan-kiem",
+  "name": "cha cha cha bar club",
+  "aliases": [],
+  "location": {
+    "lat": 21.0354788,
+    "lng": 105.8519632,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2 Phố Tạ Hiện",
+    "locality": "Hoàn Kiếm",
+    "region": "Hà Nội",
+    "postalCode": "100000",
+    "country": "VN"
+  },
+  "formattedAddress": "2 Tạ Hiện, Phố cổ Hà Nội, Hoàn Kiếm, Hà Nội 100000, Vietnam",
+  "timezone": "Asia/Bangkok",
+  "externalIds": {
+    "overture": "a30feb2b-265a-4f8c-a9a3-b6e41e73b085",
+    "google": "ChIJ87MtsqqrNTERUMxU4g_GfzM"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0500"
+        },
+        "close": {
+          "day": 0,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0500"
+        },
+        "close": {
+          "day": 1,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0500"
+        },
+        "close": {
+          "day": 2,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0500"
+        },
+        "close": {
+          "day": 3,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0500"
+        },
+        "close": {
+          "day": 4,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0500"
+        },
+        "close": {
+          "day": 5,
+          "time": "1700"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0500"
+        },
+        "close": {
+          "day": 6,
+          "time": "1700"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 AM – 5:00 PM",
+      "Tuesday: 5:00 AM – 5:00 PM",
+      "Wednesday: 5:00 AM – 5:00 PM",
+      "Thursday: 5:00 AM – 5:00 PM",
+      "Friday: 5:00 AM – 5:00 PM",
+      "Saturday: 5:00 AM – 5:00 PM",
+      "Sunday: 5:00 AM – 5:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+84 983 181 180",
+    "googleMapsUri": "https://maps.google.com/?cid=3710902389500595280&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 4,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ87MtsqqrNTERUMxU4g_GfzM",
+      "url": "https://maps.google.com/?cid=3710902389500595280&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a30feb2b-265a-4f8c-a9a3-b6e41e73b085",
+      "url": "https://explore.overturemaps.org/#17/21.03546714782715/105.85193634033203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

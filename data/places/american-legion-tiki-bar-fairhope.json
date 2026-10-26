@@ -1,0 +1,90 @@
+{
+  "id": "american-legion-tiki-bar-fairhope",
+  "name": "American Legion Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.5138664,
+    "lng": -87.9194946,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fairhope",
+    "region": "AL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "52a55b0b-598b-4015-8edb-f46ee1d43194"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://easternshorepost0199.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "52a55b0b-598b-4015-8edb-f46ee1d43194",
+      "url": "https://explore.overturemaps.org/#17/30.513866424560547/-87.91949462890625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJDXhPMK1BmogRFgLjr1INNMU",
+        "name": "American Legion Tiki Bar",
+        "distanceM": 1,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJ0ZauFAZBmogRR271WJHfGcw",
+        "name": "American Legion Restaurant",
+        "distanceM": 59,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJqSF4VadAmogRmrpXK7e6u5c",
+        "name": "American Legion Eastern Shore Post 199",
+        "distanceM": 110,
+        "nameSim": 0.605
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

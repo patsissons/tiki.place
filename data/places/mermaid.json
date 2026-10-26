@@ -1,0 +1,188 @@
+{
+  "id": "mermaid",
+  "name": "The Mermaid",
+  "aliases": [],
+  "location": {
+    "lat": 34.0466766,
+    "lng": -118.23855599999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "428 East 2nd Street",
+    "locality": "Los Angeles",
+    "region": "California",
+    "postalCode": "90012",
+    "country": "US"
+  },
+  "formattedAddress": "428 E 2nd St, Los Angeles, CA 90012, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "the-mermaid",
+    "google": "ChIJs5bsrmvHwoARhG4XEJVsD_A"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0140"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1800"
+        },
+        "close": {
+          "day": 2,
+          "time": "0140"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1800"
+        },
+        "close": {
+          "day": 3,
+          "time": "0140"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0140"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0140"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0140"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0140"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:00 PM – 1:40 AM",
+      "Tuesday: 6:00 PM – 1:40 AM",
+      "Wednesday: 6:00 PM – 1:40 AM",
+      "Thursday: 6:00 PM – 1:40 AM",
+      "Friday: 6:00 PM – 1:40 AM",
+      "Saturday: 6:00 PM – 1:40 AM",
+      "Sunday: 6:00 PM – 1:40 AM"
+    ]
+  },
+  "contact": {
+    "website": "http://www.themermaidbar.la/",
+    "googleMapsUri": "https://maps.google.com/?cid=17298164081229262468&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 293,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.857,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJs5bsrmvHwoARhG4XEJVsD_A",
+      "url": "https://maps.google.com/?cid=17298164081229262468&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-mermaid",
+      "url": "https://tikirat.com/bars/the-mermaid",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

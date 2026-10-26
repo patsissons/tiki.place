@@ -1,0 +1,96 @@
+{
+  "id": "family-adventures-rowlett",
+  "name": "Family adventures",
+  "aliases": [],
+  "location": {
+    "lat": 32.8729897,
+    "lng": -96.513176,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Rowlett",
+    "region": "TX",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "10a7d538-bb9a-4751-9883-6f59f8ae6036"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "10a7d538-bb9a-4751-9883-6f59f8ae6036",
+      "url": "https://explore.overturemaps.org/#17/32.872989654541016/-96.51317596435547",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJPYFilzojTIYRcHjO0PzfWTk",
+        "name": "Adventure Speedway",
+        "distanceM": 27250,
+        "nameSim": 0.581
+      },
+      {
+        "googleId": "ChIJBS3qe1kDTIYRFkJTBP4PEcY",
+        "name": "M&M Magical Adventures",
+        "distanceM": 5589,
+        "nameSim": 0.563
+      },
+      {
+        "googleId": "ChIJW6gPzhgiTIYRAEDci4mY0ZU",
+        "name": "Adventure Landing Dallas",
+        "distanceM": 27263,
+        "nameSim": 0.457
+      },
+      {
+        "googleId": "ChIJg6n4LiSoToYRDzA8KqMPmYg",
+        "name": "Kids Kingdom",
+        "distanceM": 4642,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJmzT4rZEeTIYRLzhxsZD4D9Y",
+        "name": "Magic Fun House Castle",
+        "distanceM": 5947,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

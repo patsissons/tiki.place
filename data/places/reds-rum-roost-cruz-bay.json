@@ -1,0 +1,102 @@
+{
+  "id": "reds-rum-roost-cruz-bay",
+  "name": "Red’s Rum Roost",
+  "aliases": [],
+  "location": {
+    "lat": 18.3336391,
+    "lng": -64.7920837,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Cruz Bay",
+    "region": "VI",
+    "country": "VI"
+  },
+  "timezone": "America/St_Thomas",
+  "externalIds": {
+    "overture": "d3bf30ef-320d-4a3e-a576-646804914481"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://twoticketstoparadisecottage.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d3bf30ef-320d-4a3e-a576-646804914481",
+      "url": "https://explore.overturemaps.org/#17/18.33363914489746/-64.79208374023438",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ5-2_xGcTBYwREujaUoOi-d4",
+        "name": "Lovango Rum Bar",
+        "distanceM": 608,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ56bFiogaBYwRo3SIXhkb-KQ",
+        "name": "The Rum Hut",
+        "distanceM": 13426,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJpYfzPzwSBYwRm4xX7EwYArw",
+        "name": "Cruz Bay Landing",
+        "distanceM": 381,
+        "nameSim": 0.083
+      },
+      {
+        "googleId": "ChIJty58qDkSBYwR2e98nFzbm8E",
+        "name": "Our Market Smoothies",
+        "distanceM": 323,
+        "nameSim": 0.071
+      },
+      {
+        "googleId": "ChIJSyuQaDwSBYwRpvUYGVUYQno",
+        "name": "The Beach Bar",
+        "distanceM": 554,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

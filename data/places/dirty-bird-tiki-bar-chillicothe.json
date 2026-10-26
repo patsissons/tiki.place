@@ -1,0 +1,102 @@
+{
+  "id": "dirty-bird-tiki-bar-chillicothe",
+  "name": "The DIrty Bird Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.3507385,
+    "lng": -83.0740433,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Chillicothe",
+    "region": "OH",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "9ec6e7dd-d8bc-4fc0-b620-9a3ac2d1f6c5"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.djroush.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "9ec6e7dd-d8bc-4fc0-b620-9a3ac2d1f6c5",
+      "url": "https://explore.overturemaps.org/#17/39.350738525390625/-83.07404327392578",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ449vhqcpD4gR9oIrPkwVnOQ",
+        "name": "The Dirty Bird",
+        "distanceM": 556593,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJrUBHjVwd3ogRnyjGkpARCsA",
+        "name": "Dirty Birds Tiki Bar & Grill",
+        "distanceM": 1247554,
+        "nameSim": 0.933
+      },
+      {
+        "googleId": "ChIJby-YBvs_24gR6cGkTPFeUvk",
+        "name": "Jungle Bird Tiki",
+        "distanceM": 1425974,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJO2RdDOAJR4gRHAgQUJJ9VCs",
+        "name": "The Coop - Chillicothe",
+        "distanceM": 8044,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJw4ovwjkJR4gRPNDQvlsr4UA",
+        "name": "The Crosskeys Tavern",
+        "distanceM": 8189,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

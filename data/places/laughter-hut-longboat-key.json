@@ -1,0 +1,102 @@
+{
+  "id": "laughter-hut-longboat-key",
+  "name": "Laughter Hut Longboat key",
+  "aliases": [],
+  "location": {
+    "lat": 27.4168491,
+    "lng": -82.6601028,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Longboat Key",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "2fcc5bb9-c5aa-4197-9769-a331439fd2f9"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://hugo2restaurant.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "2fcc5bb9-c5aa-4197-9769-a331439fd2f9",
+      "url": "https://explore.overturemaps.org/#17/27.41684913635254/-82.66010284423828",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJve8ucOc_w4gRvFMihA0VsF8",
+        "name": "Bahi Hut Tiki Cocktail Lounge",
+        "distanceM": 11522,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJWX9OfIQTw4gRx1EvEznuHaQ",
+        "name": "Lazy Lobster",
+        "distanceM": 789,
+        "nameSim": 0.258
+      },
+      {
+        "googleId": "ChIJ9fHzQ08Tw4gRw2meeC1Zcvs",
+        "name": "Lo’ Key Island Grille",
+        "distanceM": 243,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJ76NiLYUTw4gRg3Q9vh5UXyY",
+        "name": "Euphemia Haye Restaurant & The Haye Loft",
+        "distanceM": 470,
+        "nameSim": 0.12
+      },
+      {
+        "googleId": "ChIJV1EQn5wRw4gRL9F20zVGaG4",
+        "name": "The Bridge Tender Inn Dockside & Tiki Bar",
+        "distanceM": 6486,
+        "nameSim": 0.105
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

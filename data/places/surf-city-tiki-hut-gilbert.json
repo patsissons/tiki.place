@@ -1,0 +1,106 @@
+{
+  "id": "surf-city-tiki-hut-gilbert",
+  "name": "Surf City Tiki Hut",
+  "aliases": [],
+  "location": {
+    "lat": 33.3174639,
+    "lng": -111.68768999999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5482 South Power Road",
+    "locality": "Gilbert",
+    "region": "Arizona",
+    "postalCode": "85295",
+    "country": "US"
+  },
+  "formattedAddress": "5482 S Power Rd #101, Gilbert, AZ 85295, USA",
+  "timezone": "America/Phoenix",
+  "externalIds": {
+    "overture": "d484106e-848c-4dcd-b8f8-6973920a2479",
+    "google": "ChIJrdf-bJ6tK4cRVewnCe-RfFg"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 480-687-4411",
+    "website": "http://www.surfcitytikihut.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6376131628286602325&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 785,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJrdf-bJ6tK4cRVewnCe-RfFg",
+      "url": "https://maps.google.com/?cid=6376131628286602325&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d484106e-848c-4dcd-b8f8-6973920a2479",
+      "url": "https://explore.overturemaps.org/#17/33.31740951538086/-111.6876449584961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

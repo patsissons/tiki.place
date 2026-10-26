@@ -1,0 +1,78 @@
+{
+  "id": "wood-ridge-farm-tiki-bar-lovingston",
+  "name": "Wood Ridge Farm Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 37.7635536,
+    "lng": -78.870224,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lovingston",
+    "region": "VA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c129b87b-8176-4100-8f71-24f5425d85cd"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.woodridgefarmbreweryva.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c129b87b-8176-4100-8f71-24f5425d85cd",
+      "url": "https://explore.overturemaps.org/#17/37.763553619384766/-78.87022399902344",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJG38EAm9ys4kRKNEvxW2fQbo",
+        "name": "Wood Ridge Farm Brewery",
+        "distanceM": 9445,
+        "nameSim": 0.857
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

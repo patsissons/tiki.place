@@ -1,0 +1,72 @@
+{
+  "id": "costa-cafe-bar-lugones",
+  "name": "Costa Café Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.4420013,
+    "lng": -5.8182368,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lugones",
+    "region": "O",
+    "country": "ES"
+  },
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "b4653948-729d-4019-a537-a7e5aeb6e351"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b4653948-729d-4019-a537-a7e5aeb6e351",
+      "url": "https://explore.overturemaps.org/#17/43.44200134277344/-5.818236827850342",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJS8YIqJeLNg0Rq8us79SF6Xs",
+        "name": "Costa Café Bar",
+        "distanceM": 4236,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}
