@@ -1,9 +1,21 @@
 {
   "id": "p-tiki-bar",
-  "name": "P Tiki Bar",
+  "name": "Pōā Tiki Bar",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 45.4300557,
+    "lng": -75.69197799999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "281A Dalhousie St",
+    "locality": "Ottawa",
+    "region": "ON",
+    "postalCode": "K1N 7E5",
+    "country": "CA"
+  },
+  "formattedAddress": "281A Dalhousie St, Ottawa ON K1N 7E5, Canada",
+  "timezone": "America/Toronto",
   "externalIds": {
     "tikirat": "p-tiki-bar"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "613-421-4242",
+    "website": "https://poatikibar.com/"
+  },
+  "established": 2023,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:27:50.861Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:27:50.861Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "p-tiki-bar",
       "url": "https://tikirat.com/bars/p-tiki-bar",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:27:50.861Z"
     }
   ],
   "resolution": {
@@ -59,5 +103,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

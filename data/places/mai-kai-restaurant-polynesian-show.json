@@ -110,7 +110,8 @@
     "count": 8465,
     "at": "2026-10-26T04:40:49.037Z"
   },
-  "tikiConfidence": 0.9,
+  "established": 1956,
+  "tikiConfidence": 0.985,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -132,6 +133,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:47.760Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -171,10 +176,17 @@
       "sourceRef": "mai-kai-restaurant-polynesian-show",
       "url": "https://tikirat.com/bars/mai-kai-restaurant-polynesian-show",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:26:47.760Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "mai-kai-restaurant-and-polynesian-show-fort-lauderdale",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

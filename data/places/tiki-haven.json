@@ -121,6 +121,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$",
+  "established": 2002,
   "tikiConfidence": 0.983,
   "review": {
     "state": "auto_approved",
@@ -143,6 +144,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:35.947Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -200,10 +205,10 @@
       "sourceRef": "tiki-haven",
       "url": "https://tikirat.com/bars/tiki-haven",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:33:35.947Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

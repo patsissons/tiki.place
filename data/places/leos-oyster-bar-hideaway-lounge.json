@@ -1,9 +1,21 @@
 {
   "id": "leos-oyster-bar-hideaway-lounge",
-  "name": "Leo's Oyster Bar Hideaway Lounge",
+  "name": "Leo’s Oyster Bar (Hideaway Lounge)",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 37.7940121,
+    "lng": -122.4025639,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "568 Sacramento St",
+    "locality": "San Francisco",
+    "region": "CA",
+    "postalCode": "94111",
+    "country": "US"
+  },
+  "formattedAddress": "568 Sacramento St, San Francisco CA 94111, USA",
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "leo-s-oyster-bar-hideaway-lounge"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "415-872-9982",
+    "website": "https://leossf.com/"
+  },
+  "established": 2016,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:26:26.828Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:26:26.828Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "leo-s-oyster-bar-hideaway-lounge",
       "url": "https://tikirat.com/bars/leo-s-oyster-bar-hideaway-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:26:26.828Z"
     }
   ],
   "resolution": {
@@ -40,5 +84,5 @@
     "candidates": []
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

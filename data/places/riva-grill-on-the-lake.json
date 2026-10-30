@@ -118,6 +118,7 @@
     "count": 3897,
     "at": "2026-10-26T04:40:49.037Z"
   },
+  "established": 1998,
   "tikiConfidence": 0.857,
   "review": {
     "state": "auto_approved",
@@ -140,6 +141,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:59.873Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -179,10 +184,10 @@
       "sourceRef": "riva-grill-on-the-lake",
       "url": "https://tikirat.com/bars/riva-grill-on-the-lake",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:28:59.873Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

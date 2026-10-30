@@ -2,8 +2,20 @@
   "id": "tonga-hut",
   "name": "Tonga Hut",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 34.1864413,
+    "lng": -118.4121799,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "12808 Victory Blvd",
+    "locality": "Los Angeles",
+    "region": "CA",
+    "postalCode": "12808",
+    "country": "US"
+  },
+  "formattedAddress": "12808 Victory Blvd, North Hollywood CA 91606, USA",
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "tonga-hut"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "818-769-0708",
+    "website": "https://tongahut.com/"
+  },
+  "established": 1958,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:34:44.992Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:34:44.992Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "tonga-hut",
       "url": "https://tikirat.com/bars/tonga-hut",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:34:44.992Z"
     }
   ],
   "resolution": {
@@ -53,5 +97,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

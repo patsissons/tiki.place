@@ -2,6 +2,7 @@
   "id": "mcmenamins-nui-nui-north-shore-lagoon",
   "name": "McMenamins Nui Nui",
   "aliases": [
+    "McMenamin’s North Shore Lagoon",
     "Mcmenamins Nui Nui North Shore Lagoon"
   ],
   "location": {
@@ -121,12 +122,12 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.857,
+  "established": 2015,
+  "tikiConfidence": 0.979,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:35:53.528Z",
-    "reason": "weak google match; confirm this is the right place"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
     "address": {
@@ -144,6 +145,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:23.811Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -187,10 +192,17 @@
       "sourceRef": "mcmenamins-nui-nui-north-shore-lagoon",
       "url": "https://tikirat.com/bars/mcmenamins-nui-nui-north-shore-lagoon",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:27:23.811Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "mcmenamins-north-shore-lagoon-bothell",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

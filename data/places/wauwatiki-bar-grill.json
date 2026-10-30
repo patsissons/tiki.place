@@ -2,6 +2,7 @@
   "id": "wauwatiki-bar-grill",
   "name": "Wauwatiki Bar & Grill",
   "aliases": [
+    "Wauwatiki",
     "Wauwatiki Bar Grill"
   ],
   "location": {
@@ -103,7 +104,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.966,
+  "established": 2016,
+  "tikiConfidence": 0.995,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -125,6 +127,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:36.357Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -182,10 +188,17 @@
       "sourceRef": "wauwatiki-bar-grill",
       "url": "https://tikirat.com/bars/wauwatiki-bar-grill",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:36:36.357Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "wauwatiki-wauwatosa",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -10,7 +10,8 @@
   "address": {
     "street": "3626 East Indian School Road",
     "locality": "Phoenix",
-    "region": "AZ"
+    "region": "AZ",
+    "country": "US"
   },
   "timezone": "America/Phoenix",
   "externalIds": {
@@ -24,11 +25,11 @@
   "contact": {
     "website": "https://drinkundertow.com/"
   },
-  "tikiConfidence": 0.75,
+  "tikiConfidence": 0.963,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
     "address": {
@@ -59,6 +60,13 @@
       "url": "https://www.openstreetmap.org/node/4802562589",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "undertow-phoenix-and-gilbert",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -74,5 +82,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

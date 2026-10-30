@@ -2,8 +2,20 @@
   "id": "pupu-house",
   "name": "The Pupu House",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 21.2805011,
+    "lng": -157.8295805,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "310 Lewers St",
+    "locality": "Honolulu",
+    "region": "HI",
+    "postalCode": "96815",
+    "country": "US"
+  },
+  "formattedAddress": "310 Lewers St, Honolulu HI 96815, USA",
+  "timezone": "Pacific/Honolulu",
   "externalIds": {
     "tikirat": "the-pupu-house"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "808-784-8112",
+    "website": "https://thepupuhouse.com/"
+  },
+  "established": 2023,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:32:05.934Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:32:05.934Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "the-pupu-house",
       "url": "https://tikirat.com/bars/the-pupu-house",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:32:05.934Z"
     }
   ],
   "resolution": {
@@ -40,5 +84,5 @@
     "candidates": []
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

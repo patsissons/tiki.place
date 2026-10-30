@@ -2,7 +2,8 @@
   "id": "trader-vics-m-nchen",
   "name": "Trader Vic's",
   "aliases": [
-    "Trader Vic's M Nchen"
+    "Trader Vic's M Nchen",
+    "Trader Vic's München"
   ],
   "location": {
     "lat": 48.140346,
@@ -121,6 +122,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$$$",
+  "established": 1971,
   "tikiConfidence": 0.9,
   "review": {
     "state": "needs_review",
@@ -144,6 +146,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:36.289Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -187,10 +193,10 @@
       "sourceRef": "trader-vic-s-m-nchen",
       "url": "https://tikirat.com/bars/trader-vic-s-m-nchen",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:36.289Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

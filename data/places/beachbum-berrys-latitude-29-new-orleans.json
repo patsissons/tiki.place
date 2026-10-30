@@ -120,7 +120,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.964,
+  "established": 2014,
+  "tikiConfidence": 0.995,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -143,6 +144,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:21:11.289Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -189,10 +194,17 @@
       "sourceRef": "beachbum-berry-s-latitude-29",
       "url": "https://tikirat.com/bars/beachbum-berry-s-latitude-29",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:21:11.289Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "beachbum-berrys-latitude-29-new-orleans",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

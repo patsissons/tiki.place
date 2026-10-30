@@ -27,11 +27,11 @@
   "contact": {
     "website": "http://www.thetiltedtiki.com/"
   },
-  "tikiConfidence": 0.878,
+  "tikiConfidence": 0.982,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
     "address": {
@@ -69,6 +69,13 @@
       "url": "https://explore.overturemaps.org/#17/45.054386138916016/-92.80533599853516",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tilted-tiki-stillwater",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -84,5 +91,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-10-30T20:41:15.641Z"
 }

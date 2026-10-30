@@ -28,6 +28,7 @@
     "at": "2026-10-26T04:35:53.528Z"
   },
   "contact": {
+    "phone": "— (email)",
     "website": "http://www.highrollertiki.com/",
     "googleMapsUri": "https://maps.google.com/?cid=1917288675776067066&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -37,7 +38,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.983,
+  "established": 2016,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -52,9 +54,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:20.785Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:20.785Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -108,10 +118,17 @@
       "sourceRef": "high-roller-tiki-lounge",
       "url": "https://tikirat.com/bars/high-roller-tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:24:20.785Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "high-roller-tiki-lounge-solvang",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

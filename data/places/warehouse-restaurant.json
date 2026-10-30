@@ -1,7 +1,9 @@
 {
   "id": "warehouse-restaurant",
   "name": "The Warehouse Restaurant",
-  "aliases": [],
+  "aliases": [
+    "The Warehouse"
+  ],
   "location": {
     "lat": 33.9833851,
     "lng": -118.4449178,
@@ -119,7 +121,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.857,
+  "established": 1969,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -141,6 +144,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:56.999Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -184,10 +191,17 @@
       "sourceRef": "the-warehouse-restaurant",
       "url": "https://tikirat.com/bars/the-warehouse-restaurant",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:32:56.999Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "warehouse-marina-del-rey",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

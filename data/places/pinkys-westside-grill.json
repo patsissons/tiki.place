@@ -1,9 +1,21 @@
 {
   "id": "pinkys-westside-grill",
-  "name": "Pinky's Westside Grill",
+  "name": "Pinky’s Westside Grill",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 35.2291253,
+    "lng": -80.8674676,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1600 W Morehead St",
+    "locality": "Charlotte",
+    "region": "NC",
+    "postalCode": "28208",
+    "country": "US"
+  },
+  "formattedAddress": "1600 W Morehead St, Charlotte NC 28208, USA",
+  "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "pinky-s-westside-grill"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "704-332-0402",
+    "website": "https://eatdrinkpinkys.com/"
+  },
+  "established": 2010,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:28:23.845Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:28:23.845Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "pinky-s-westside-grill",
       "url": "https://tikirat.com/bars/pinky-s-westside-grill",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:28:23.845Z"
     }
   ],
   "resolution": {
@@ -53,5 +97,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

@@ -90,6 +90,7 @@
     ]
   },
   "contact": {
+    "phone": "949-359-1080",
     "website": "http://www.thelostinferno.com/",
     "googleMapsUri": "https://maps.google.com/?cid=9798272032776820338&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -99,7 +100,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.964,
+  "established": 2023,
+  "tikiConfidence": 0.995,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -114,9 +116,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:47.945Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:47.945Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -167,10 +177,17 @@
       "sourceRef": "the-lost-inferno",
       "url": "https://tikirat.com/bars/the-lost-inferno",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:31:47.945Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "lost-inferno-san-clemente",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

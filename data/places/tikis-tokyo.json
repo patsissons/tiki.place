@@ -2,8 +2,19 @@
   "id": "tikis-tokyo",
   "name": "Tiki's Tokyo",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 35.6662768,
+    "lng": 139.7013766,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Yoyogi Park BE STAGE",
+    "locality": "Shibuya",
+    "region": "Tokyo",
+    "country": "JP"
+  },
+  "formattedAddress": "Yoyogi Park BE STAGE, Shibuya, Tokyo, Japan",
+  "timezone": "Asia/Tokyo",
   "externalIds": {
     "tikirat": "tiki-s-tokyo"
   },
@@ -12,7 +23,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "— (see site)",
+    "website": "https://tikistokyo.jp/"
+  },
+  "established": 2025,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +35,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:34:12.081Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:34:12.081Z"
     }
   },
   "sources": [
@@ -31,7 +74,7 @@
       "sourceRef": "tiki-s-tokyo",
       "url": "https://tikirat.com/bars/tiki-s-tokyo",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:34:12.081Z"
     }
   ],
   "resolution": {
@@ -53,5 +96,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

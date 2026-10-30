@@ -101,6 +101,7 @@
     ]
   },
   "contact": {
+    "phone": "520-849-1100",
     "website": "https://cabalitikibar.com/",
     "googleMapsUri": "https://maps.google.com/?cid=16490743108974253781&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -110,7 +111,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.991,
+  "established": 2024,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -125,9 +127,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:21:32.884Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:21:32.884Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -185,10 +195,17 @@
       "sourceRef": "cabali",
       "url": "https://tikirat.com/bars/cabali",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:21:32.884Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "cabali-oro-valley",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

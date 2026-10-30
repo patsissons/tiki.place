@@ -109,7 +109,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$$",
-  "tikiConfidence": 0.857,
+  "established": 2021,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -131,6 +132,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:20.901Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -174,10 +179,17 @@
       "sourceRef": "sunken-harbor-club",
       "url": "https://tikirat.com/bars/sunken-harbor-club",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:30:20.901Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "sunken-harbor-club-brooklyn",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -111,6 +111,7 @@
     ]
   },
   "contact": {
+    "phone": "415-398-0195",
     "website": "http://www.pacificcocktailsf.com/",
     "googleMapsUri": "https://maps.google.com/?cid=7340164243605443714&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -120,7 +121,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.857,
+  "established": 2016,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -135,9 +137,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:53.808Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:53.808Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -181,10 +191,17 @@
       "sourceRef": "pacific-cocktail-haven-pch",
       "url": "https://tikirat.com/bars/pacific-cocktail-haven-pch",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:27:53.808Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "pacific-cocktail-haven-san-francisco",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

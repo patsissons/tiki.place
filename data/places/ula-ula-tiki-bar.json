@@ -1,9 +1,23 @@
 {
   "id": "ula-ula-tiki-bar",
   "name": "Ula Ula Tiki Bar",
-  "aliases": [],
-  "location": null,
-  "address": {},
+  "aliases": [
+    "Ula Ula Tiki Room"
+  ],
+  "location": {
+    "lat": 42.978962,
+    "lng": -87.8807309,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2245 E St Francis Ave (2F)",
+    "locality": "Saint Francis",
+    "region": "WI",
+    "postalCode": "53235",
+    "country": "US"
+  },
+  "formattedAddress": "2245 E St Francis Ave (2F), St Francis WI 53235, USA",
+  "timezone": "America/Chicago",
   "externalIds": {
     "tikirat": "ula-ula-tiki-bar"
   },
@@ -12,17 +26,44 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.895,
+  "contact": {
+    "phone": "414-212-8470"
+  },
+  "established": 2019,
+  "tikiConfidence": 0.984,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:57.172Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:57.172Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:57.172Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:57.172Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:57.172Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:35:57.172Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:35:57.172Z"
     }
   },
   "sources": [
@@ -31,7 +72,14 @@
       "sourceRef": "ula-ula-tiki-bar",
       "url": "https://tikirat.com/bars/ula-ula-tiki-bar",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:57.172Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "ula-ula-tiki-room-saint-francis",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -47,5 +95,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

@@ -2,7 +2,8 @@
   "id": "sip-n-dip-lounge",
   "name": "Sip 'n Dip Lounge (1962)",
   "aliases": [
-    "Sip N Dip Lounge"
+    "Sip N Dip Lounge",
+    "Sip-N-Dip Tiki Lounge"
   ],
   "location": {
     "lat": 47.504464,
@@ -122,7 +123,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.964,
+  "established": 1962,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -144,6 +146,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:29:41.973Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -194,10 +200,17 @@
       "sourceRef": "sip-n-dip-lounge",
       "url": "https://tikirat.com/bars/sip-n-dip-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:29:41.973Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "sip-n-dip-tiki-lounge-great-falls",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

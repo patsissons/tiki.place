@@ -2,8 +2,20 @@
   "id": "hawaiian-room",
   "name": "Hawaiian Room",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 33.8896481,
+    "lng": -118.1226622,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "9875 Alondra Blvd",
+    "locality": "Bellflower",
+    "region": "CA",
+    "postalCode": "90706",
+    "country": "US"
+  },
+  "formattedAddress": "9875 Alondra Blvd, Bellflower CA 90706, USA",
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "hawaiian-room"
   },
@@ -12,7 +24,10 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "562-866-9252"
+  },
+  "established": 1964,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +35,33 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:11.742Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:11.742Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:11.742Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:11.742Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:11.742Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:24:11.742Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:24:11.742Z"
     }
   },
   "sources": [
@@ -31,7 +70,7 @@
       "sourceRef": "hawaiian-room",
       "url": "https://tikirat.com/bars/hawaiian-room",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:24:11.742Z"
     }
   ],
   "resolution": {
@@ -71,5 +110,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

@@ -2,36 +2,103 @@
   "id": "tiki-lounge",
   "name": "Tiki Lounge",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 40.4286537,
+    "lng": -79.9773865,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2003 E Carson St",
+    "locality": "Pittsburgh",
+    "region": "PA",
+    "postalCode": "15203",
+    "country": "US"
+  },
+  "formattedAddress": "2003 E Carson St, Pittsburgh PA 15203, USA",
+  "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "tiki-lounge"
+    "tikirat": "tiki-lounge",
+    "overture": "17a47c10-4ab5-4188-99ae-2acdf54e98bb",
+    "osm": "way/204087583"
   },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.895,
+  "contact": {
+    "phone": "412-381-8454",
+    "website": "https://pghtikilounge.com/"
+  },
+  "established": 2002,
+  "tikiConfidence": 0.992,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:33:50.997Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/204087583",
+      "url": "https://www.openstreetmap.org/way/204087583",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "17a47c10-4ab5-4188-99ae-2acdf54e98bb",
+      "url": "https://explore.overturemaps.org/#17/40.428653717041016/-79.97738647460938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "tiki-lounge",
       "url": "https://tikirat.com/bars/tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:33:50.997Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-lounge-pittsburgh",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -71,5 +138,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

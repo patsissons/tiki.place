@@ -181,12 +181,12 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.9,
+  "established": 2005,
+  "tikiConfidence": 0.985,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:35:53.528Z",
-    "reason": "weak google match; confirm this is the right place"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
     "address": {
@@ -204,6 +204,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:41.725Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -247,10 +251,17 @@
       "sourceRef": "hukilau-san-jose",
       "url": "https://tikirat.com/bars/hukilau-san-jose",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:24:41.725Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "hukilau-san-jose",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -1,0 +1,75 @@
+{
+  "id": "tiki-tiki-at-the-silver-palm-chicago",
+  "name": "Tiki Tiki at the Silver Palm",
+  "aliases": [],
+  "location": {
+    "lat": 41.8956682,
+    "lng": -87.654809,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "768 North Milwaukee Avenue",
+    "locality": "Chicago",
+    "region": "IL",
+    "postalCode": "60642",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "osm": "node/9167628971"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "contact": {
+    "website": "https://www.silverpalmchicago.com/"
+  },
+  "tikiConfidence": 0.927,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/9167628971",
+      "url": "https://www.openstreetmap.org/node/9167628971",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-tiki-at-the-silver-palm-chicago",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:40:54.262Z"
+}

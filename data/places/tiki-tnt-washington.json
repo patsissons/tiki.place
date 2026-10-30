@@ -28,11 +28,11 @@
     "phone": "+1 202-900-4786",
     "website": "http://www.tikitnt.com/"
   },
-  "tikiConfidence": 0.878,
+  "tikiConfidence": 0.982,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
     "address": {
@@ -74,6 +74,13 @@
       "url": "https://explore.overturemaps.org/#17/38.88105010986328/-77.0274887084961",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-tnt-district-of-columbia",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -89,5 +96,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-10-30T20:41:15.641Z"
 }

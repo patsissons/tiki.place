@@ -122,6 +122,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
+  "established": 2023,
   "tikiConfidence": 0.975,
   "review": {
     "state": "auto_approved",
@@ -144,6 +145,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:08.911Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -194,10 +199,10 @@
       "sourceRef": "the-daytrader-tiki-bar-restaurant",
       "url": "https://tikirat.com/bars/the-daytrader-tiki-bar-restaurant",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:31:08.911Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

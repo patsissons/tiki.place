@@ -1,9 +1,21 @@
 {
   "id": "trad-r-sam",
-  "name": "Trad R Sam",
+  "name": "Trad’r Sam",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 37.7803628,
+    "lng": -122.4856595,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6150 Geary Blvd",
+    "locality": "San Francisco",
+    "region": "CA",
+    "postalCode": "94121",
+    "country": "US"
+  },
+  "formattedAddress": "6150 Geary Blvd, San Francisco CA 94121, USA",
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "trad-r-sam"
   },
@@ -12,17 +24,44 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.85,
+  "contact": {
+    "phone": "415-387-2727"
+  },
+  "established": 1937,
+  "tikiConfidence": 0.978,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:12.162Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:12.162Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:12.162Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:12.162Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:12.162Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:35:12.162Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:35:12.162Z"
     }
   },
   "sources": [
@@ -31,7 +70,14 @@
       "sourceRef": "trad-r-sam",
       "url": "https://tikirat.com/bars/trad-r-sam",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:12.162Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tradr-sam-san-francisco",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -47,5 +93,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

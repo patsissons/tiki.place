@@ -101,6 +101,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
+  "established": 2019,
   "tikiConfidence": 0.9,
   "review": {
     "state": "auto_approved",
@@ -123,6 +124,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:06.300Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -166,10 +171,10 @@
       "sourceRef": "huli-huli-tiki-lounge",
       "url": "https://tikirat.com/bars/huli-huli-tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:25:06.300Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

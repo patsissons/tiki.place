@@ -17,16 +17,16 @@
     "overture": "92265cce-e920-4b0a-8e99-ccf806a98585"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "temporarily_closed",
+    "sourceId": "tikiwanderlust",
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {},
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.974,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
     "address": {
@@ -53,6 +53,13 @@
       "url": "https://explore.overturemaps.org/#17/39.80035400390625/-105.08161163330078",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "bernards-tiki-room-arvada",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -92,5 +99,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

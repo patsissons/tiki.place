@@ -8,6 +8,7 @@
     "precision": "rooftop"
   },
   "address": {
+    "street": "Hotel New Otani",
     "locality": "Chiyoda City",
     "region": "Tokyo",
     "postalCode": "102-8578",
@@ -203,10 +204,10 @@
       "sourceRef": "trader-vic-s-tokyo",
       "url": "https://tikirat.com/bars/trader-vic-s-tokyo",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:39.168Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:41:15.641Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

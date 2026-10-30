@@ -120,6 +120,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
+  "established": 2003,
   "tikiConfidence": 0.964,
   "review": {
     "state": "auto_approved",
@@ -142,6 +143,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:42.175Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -192,10 +197,10 @@
       "sourceRef": "trailer-happiness",
       "url": "https://tikirat.com/bars/trailer-happiness",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:42.175Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

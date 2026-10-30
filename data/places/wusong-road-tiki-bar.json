@@ -113,7 +113,8 @@
     "count": 3094,
     "at": "2026-10-26T04:40:49.037Z"
   },
-  "tikiConfidence": 0.983,
+  "established": 2021,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -135,6 +136,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:45.473Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -188,10 +193,17 @@
       "sourceRef": "wusong-road-tiki-bar",
       "url": "https://tikirat.com/bars/wusong-road-tiki-bar",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:36:45.473Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "wusong-road-cambridge",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "hell-or-high-water-tiki",
   "name": "Hell or High Water Tiki",
-  "aliases": [],
+  "aliases": [
+    "Hell or High Water"
+  ],
   "location": {
     "lat": 39.7680082,
     "lng": -104.9744353,
@@ -100,6 +102,7 @@
     ]
   },
   "contact": {
+    "phone": "720-573-0626",
     "website": "https://www.hellorhighwatertiki.com/",
     "googleMapsUri": "https://maps.google.com/?cid=5980879198379863544&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -109,7 +112,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "established": 2022,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -124,9 +128,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:15.560Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:15.560Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -184,10 +196,17 @@
       "sourceRef": "hell-or-high-water-tiki",
       "url": "https://tikirat.com/bars/hell-or-high-water-tiki",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:24:15.560Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "hell-or-high-water-denver",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

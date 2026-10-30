@@ -1,0 +1,83 @@
+{
+  "id": "twisted-tiki-santa-ana",
+  "name": "Twisted Tiki",
+  "aliases": [
+    "The Twisted Tiki Bar & Lounge"
+  ],
+  "location": {
+    "lat": 33.7493252,
+    "lng": -117.8674154,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Santa Ana",
+    "region": "CA",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "40dd83dd-52a7-4904-b26a-38f7524c4acd",
+    "osm": "node/11040432834"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "contact": {
+    "website": "https://linktr.ee/mcfaddenmarket"
+  },
+  "tikiConfidence": 0.949,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/11040432834",
+      "url": "https://www.openstreetmap.org/node/11040432834",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "40dd83dd-52a7-4904-b26a-38f7524c4acd",
+      "url": "https://explore.overturemaps.org/#17/33.749298095703125/-117.86752319335938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "twisted-tiki-santa-ana",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:40:55.272Z"
+}

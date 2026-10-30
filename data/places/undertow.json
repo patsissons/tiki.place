@@ -1,9 +1,21 @@
 {
   "id": "undertow",
-  "name": "Undertow",
+  "name": "UnderTow",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 33.49544300000001,
+    "lng": -112.0030706,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3626 E Indian School Rd",
+    "locality": "Phoenix",
+    "region": "AZ",
+    "postalCode": "85018",
+    "country": "US"
+  },
+  "formattedAddress": "3626 E Indian School Rd, Phoenix AZ 85018, USA",
+  "timezone": "America/Phoenix",
   "externalIds": {
     "tikirat": "undertow"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "602-739-1388",
+    "website": "https://drinkundertow.com/"
+  },
+  "established": 2016,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:36:00.181Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "undertow",
       "url": "https://tikirat.com/bars/undertow",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:36:00.181Z"
     }
   ],
   "resolution": {
@@ -47,5 +91,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

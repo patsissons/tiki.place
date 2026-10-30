@@ -88,6 +88,7 @@
     "count": 191,
     "at": "2026-10-26T04:40:49.037Z"
   },
+  "established": 2022,
   "tikiConfidence": 0.85,
   "review": {
     "state": "auto_approved",
@@ -110,6 +111,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:48.087Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -149,10 +154,10 @@
       "sourceRef": "oxbow-rum-distillery",
       "url": "https://tikirat.com/bars/oxbow-rum-distillery",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:27:48.087Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

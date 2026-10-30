@@ -2,6 +2,7 @@
   "id": "tiki-tnt-potomac-distilling-co",
   "name": "Tiki TNT & Potomac Distilling Company",
   "aliases": [
+    "Tiki TNT & Potomac Distilling Co.",
     "Tiki Tnt Potomac Distilling Co"
   ],
   "location": {
@@ -101,6 +102,7 @@
     ]
   },
   "contact": {
+    "phone": "202-900-4786",
     "website": "http://www.tikitnt.com/",
     "googleMapsUri": "https://maps.google.com/?cid=9755914467516794178&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -110,6 +112,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
+  "established": 2018,
   "tikiConfidence": 0.9,
   "review": {
     "state": "auto_approved",
@@ -125,9 +128,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:33.002Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:33.002Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -171,10 +182,10 @@
       "sourceRef": "tiki-tnt-potomac-distilling-co",
       "url": "https://tikirat.com/bars/tiki-tnt-potomac-distilling-co",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:34:33.002Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

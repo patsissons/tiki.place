@@ -120,6 +120,7 @@
     "count": 434,
     "at": "2026-10-26T04:40:49.037Z"
   },
+  "established": 2011,
   "tikiConfidence": 0.857,
   "review": {
     "state": "auto_approved",
@@ -142,6 +143,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:32.905Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -181,10 +186,10 @@
       "sourceRef": "tangaroa-terrace-tropical-bar-grill",
       "url": "https://tikirat.com/bars/tangaroa-terrace-tropical-bar-grill",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:30:32.905Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

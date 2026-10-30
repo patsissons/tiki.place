@@ -1,9 +1,21 @@
 {
   "id": "flask-cannon-at-v-pizza",
-  "name": "Flask Cannon At V Pizza",
+  "name": "Flask & Cannon (at V Pizza)",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 29.9731591,
+    "lng": -81.35589829999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5700 US-1 N",
+    "locality": "St. Augustine",
+    "region": "FL",
+    "postalCode": "32095",
+    "country": "US"
+  },
+  "formattedAddress": "5700 US-1 N, St Augustine FL 32095, USA",
+  "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "flask-cannon-at-v-pizza"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "904-201-9982",
+    "website": "https://vpizza.com/"
+  },
+  "established": 2018,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:23:23.482Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:23:23.482Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "flask-cannon-at-v-pizza",
       "url": "https://tikirat.com/bars/flask-cannon-at-v-pizza",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:23:23.482Z"
     }
   ],
   "resolution": {
@@ -59,5 +103,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

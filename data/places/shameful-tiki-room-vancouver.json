@@ -113,6 +113,7 @@
     ]
   },
   "contact": {
+    "phone": "604-561-5303",
     "website": "http://shamefultikiroom.com/vancouver/",
     "googleMapsUri": "https://maps.google.com/?cid=10680938080762546774&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -122,6 +123,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
+  "established": 2013,
   "tikiConfidence": 0.983,
   "review": {
     "state": "approved",
@@ -138,9 +140,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:26.976Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:26.976Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -194,10 +204,10 @@
       "sourceRef": "the-shameful-tiki-room-vancouver",
       "url": "https://tikirat.com/bars/the-shameful-tiki-room-vancouver",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:32:26.976Z"
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

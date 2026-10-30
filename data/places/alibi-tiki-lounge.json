@@ -1,7 +1,9 @@
 {
   "id": "alibi-tiki-lounge",
   "name": "The Alibi Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "The Alibi"
+  ],
   "location": {
     "lat": 45.552537,
     "lng": -122.68068699999999,
@@ -120,7 +122,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "established": 1947,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -142,6 +145,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:44.908Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -192,10 +199,17 @@
       "sourceRef": "the-alibi-tiki-lounge",
       "url": "https://tikirat.com/bars/the-alibi-tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:30:44.908Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "alibi-portland",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

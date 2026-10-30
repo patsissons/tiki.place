@@ -1,9 +1,21 @@
 {
   "id": "tigerlily-mai-tiki-bar",
-  "name": "Tigerlily Mai Tiki Bar",
+  "name": "TigerLily / Mai Tiki Bar",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 42.4604379,
+    "lng": -83.13681849999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "231 W Nine Mile Rd Suite B",
+    "locality": "Ferndale",
+    "region": "MI",
+    "postalCode": "48220",
+    "country": "US"
+  },
+  "formattedAddress": "231 W Nine Mile Rd Suite B, Ferndale MI 48220, USA",
+  "timezone": "America/Detroit",
   "externalIds": {
     "tikirat": "tigerlily-mai-tiki-bar"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "248-850-2534",
+    "website": "https://maitikibar.com/"
+  },
+  "established": 2022,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:33:14.981Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:33:14.981Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "tigerlily-mai-tiki-bar",
       "url": "https://tikirat.com/bars/tigerlily-mai-tiki-bar",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:33:14.981Z"
     }
   ],
   "resolution": {
@@ -53,5 +97,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

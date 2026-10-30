@@ -1,7 +1,9 @@
 {
   "id": "monkeys-paw-tiki-lounge",
   "name": "The Monkey's Paw Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Monkey’s Paw"
+  ],
   "location": {
     "lat": 32.8365057,
     "lng": -83.6309577,
@@ -80,7 +82,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "established": 2022,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -102,6 +105,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:59.946Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -152,10 +159,17 @@
       "sourceRef": "the-monkey-s-paw-tiki-lounge",
       "url": "https://tikirat.com/bars/the-monkey-s-paw-tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:31:59.946Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "monkeys-paw-macon",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -2,6 +2,7 @@
   "id": "trader-morts-liquor-deli",
   "name": "Trader Mort's Liquor",
   "aliases": [
+    "Trader Mort’s Liquor & Deli",
     "Trader Mort's Liquor Deli"
   ],
   "location": {
@@ -120,6 +121,7 @@
     "count": 101,
     "at": "2026-10-26T04:40:49.037Z"
   },
+  "established": 1963,
   "tikiConfidence": 0.895,
   "review": {
     "state": "auto_approved",
@@ -142,6 +144,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:18.179Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -181,10 +187,10 @@
       "sourceRef": "trader-mort-s-liquor-deli",
       "url": "https://tikirat.com/bars/trader-mort-s-liquor-deli",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:18.179Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

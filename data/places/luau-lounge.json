@@ -10,6 +10,7 @@
     "precision": "rooftop"
   },
   "address": {
+    "street": "Pier 39, Bldg L-01",
     "locality": "San Francisco",
     "region": "California",
     "postalCode": "94133",
@@ -122,7 +123,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.983,
+  "established": 1993,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -144,6 +146,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:41.777Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -201,10 +207,17 @@
       "sourceRef": "luau-lounge",
       "url": "https://tikirat.com/bars/luau-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:26:41.777Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "luau-lounge-san-francisco",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:41:15.641Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

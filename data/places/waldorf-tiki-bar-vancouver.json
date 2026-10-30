@@ -1,9 +1,16 @@
 {
   "id": "waldorf-tiki-bar-vancouver",
-  "name": "Waldorf Tiki Bar Vancouver",
+  "name": "Waldorf Tiki Bar",
   "aliases": [],
   "location": null,
-  "address": {},
+  "address": {
+    "street": "1489 E Hastings St",
+    "locality": "Vancouver",
+    "region": "BC",
+    "postalCode": "V5L 1S4",
+    "country": "CA"
+  },
+  "formattedAddress": "1489 E Hastings St, Vancouver, BC V5L 1S4",
   "externalIds": {
     "tikirat": "waldorf-tiki-bar-vancouver"
   },
@@ -12,7 +19,9 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://atthewaldorf.com/"
+  },
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +29,21 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:38:42.778Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:38:42.778Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:38:42.778Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:38:42.778Z"
     }
   },
   "sources": [
@@ -31,7 +52,7 @@
       "sourceRef": "waldorf-tiki-bar-vancouver",
       "url": "https://tikirat.com/bars/waldorf-tiki-bar-vancouver",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:38:42.778Z"
     }
   ],
   "resolution": {
@@ -47,5 +68,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:07.983Z"
 }

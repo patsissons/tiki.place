@@ -2,8 +2,20 @@
   "id": "baldwin-bar",
   "name": "The Baldwin Bar",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 42.5022217,
+    "lng": -71.15754249999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2 Alfred St",
+    "locality": "Woburn",
+    "region": "MA",
+    "postalCode": "01801",
+    "country": "US"
+  },
+  "formattedAddress": "2 Alfred St, Woburn MA 01801, USA",
+  "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "the-baldwin-bar"
   },
@@ -12,17 +24,49 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.85,
+  "contact": {
+    "phone": "781-935-8488",
+    "website": "https://thebaldwinbar.com/"
+  },
+  "established": 2014,
+  "tikiConfidence": 0.978,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:30:50.921Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:30:50.921Z"
     }
   },
   "sources": [
@@ -31,7 +75,14 @@
       "sourceRef": "the-baldwin-bar",
       "url": "https://tikirat.com/bars/the-baldwin-bar",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:30:50.921Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "baldwin-bar-woburn",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -47,5 +98,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

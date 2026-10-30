@@ -1,9 +1,21 @@
 {
   "id": "dukes-hideaway-at-the-baxter",
-  "name": "Duke's Hideaway At The Baxter",
+  "name": "Duke’s Hideaway at The Baxter",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 33.7540372,
+    "lng": -84.3657884,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "670 DeKalb Ave NE Ste 101",
+    "locality": "Atlanta",
+    "region": "GA",
+    "postalCode": "30307",
+    "country": "US"
+  },
+  "formattedAddress": "670 DeKalb Ave NE Ste 101, Atlanta GA 30307, USA",
+  "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "duke-s-hideaway-at-the-baxter"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "404-600-5757",
+    "website": "https://dukeshideaway.com/"
+  },
+  "established": 2022,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:22:50.284Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:22:50.284Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "duke-s-hideaway-at-the-baxter",
       "url": "https://tikirat.com/bars/duke-s-hideaway-at-the-baxter",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:22:50.284Z"
     }
   ],
   "resolution": {
@@ -47,5 +91,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

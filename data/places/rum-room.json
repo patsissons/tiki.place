@@ -2,8 +2,20 @@
   "id": "rum-room",
   "name": "The Rum Room",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 25.7977241,
+    "lng": -80.13240150000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2100 Washington Ave",
+    "locality": "Miami Beach",
+    "region": "FL",
+    "postalCode": "33139",
+    "country": "US"
+  },
+  "formattedAddress": "2100 Washington Ave, Miami Beach FL 33139, USA",
+  "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "the-rum-room"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "786-276-4623",
+    "website": "https://rumroommiamibeach.com/"
+  },
+  "established": 2022,
   "tikiConfidence": 0.85,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:32:17.940Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "the-rum-room",
       "url": "https://tikirat.com/bars/the-rum-room",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:32:17.940Z"
     }
   ],
   "resolution": {
@@ -71,5 +115,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

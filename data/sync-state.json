@@ -9,8 +9,8 @@
       "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-10-26T04:08:35.388Z",
-      "lastDiscoveryAt": "2026-10-26T04:08:35.388Z",
+      "lastRunAt": "2026-10-30T20:39:07.983Z",
+      "lastDiscoveryAt": "2026-10-30T20:39:07.983Z",
       "lastStatus": "ok",
       "observationCount": 316,
       "requestCount": 1
@@ -28,9 +28,55 @@
       "observationCount": 0,
       "requestCount": 0,
       "error": "github issues returned 401"
+    },
+    "tikiwanderlust": {
+      "lastRunAt": "2026-10-30T20:39:09.190Z",
+      "lastDiscoveryAt": "2026-10-30T20:39:09.190Z",
+      "lastStatus": "ok",
+      "observationCount": 311,
+      "requestCount": 0
     }
   },
   "runs": [
+    {
+      "at": "2026-10-30T20:39:09.190Z",
+      "durationMs": 436,
+      "sources": [
+        "tikiwanderlust"
+      ],
+      "placesCreated": 85,
+      "placesUpdated": 233,
+      "placesPublished": 567,
+      "needsReview": 581,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-10-30T20:39:07.983Z",
+      "durationMs": 767,
+      "sources": [
+        "tikirat"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 18,
+      "placesPublished": 535,
+      "needsReview": 528,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-10-30T20:37:54.191Z",
+      "durationMs": 492,
+      "sources": [
+        "tikirat"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 322,
+      "placesPublished": 535,
+      "needsReview": 528,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-10-26T04:40:49.037Z",
       "durationMs": 259448,

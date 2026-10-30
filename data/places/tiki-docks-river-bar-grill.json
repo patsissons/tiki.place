@@ -2,6 +2,7 @@
   "id": "tiki-docks-river-bar-grill",
   "name": "Tiki Docks River Bar & Grill",
   "aliases": [
+    "Tiki Docks",
     "Tiki Docks River Bar Grill",
     "Tiki Docks Riverview"
   ],
@@ -113,7 +114,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.93,
+  "established": 2019,
+  "tikiConfidence": 0.99,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -135,6 +137,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:27.014Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -185,10 +191,17 @@
       "sourceRef": "tiki-docks-river-bar-grill",
       "url": "https://tikirat.com/bars/tiki-docks-river-bar-grill",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:33:27.014Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-docks-riverview",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

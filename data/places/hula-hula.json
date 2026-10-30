@@ -2,8 +2,20 @@
   "id": "hula-hula",
   "name": "Hula Hula",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 47.6179098,
+    "lng": -122.3259088,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1501 E Olive Way",
+    "locality": "Seattle",
+    "region": "WA",
+    "postalCode": "98122",
+    "country": "US"
+  },
+  "formattedAddress": "1501 E Olive Way, Seattle WA 98122, USA",
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "hula-hula"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "206-284-5003",
+    "website": "https://hulahula.org/"
+  },
+  "established": 2007,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:24:47.728Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:24:47.728Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "hula-hula",
       "url": "https://tikirat.com/bars/hula-hula",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:24:47.728Z"
     }
   ],
   "resolution": {
@@ -71,5 +115,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

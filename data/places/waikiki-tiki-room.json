@@ -2,8 +2,20 @@
   "id": "waikiki-tiki-room",
   "name": "Waikiki Tiki Room",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 43.02412820000001,
+    "lng": -87.9110937,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "704 S 1st St",
+    "locality": "Milwaukee",
+    "region": "WI",
+    "postalCode": "53204",
+    "country": "US"
+  },
+  "formattedAddress": "704 S 1st St, Milwaukee WI 53204, USA",
+  "timezone": "America/Chicago",
   "externalIds": {
     "tikirat": "waikiki-tiki-room"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "414-383-5584",
+    "website": "https://waikikitikiroom.com/"
+  },
+  "established": 2015,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:36:12.196Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:36:12.196Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "waikiki-tiki-room",
       "url": "https://tikirat.com/bars/waikiki-tiki-room",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:36:12.196Z"
     }
   ],
   "resolution": {
@@ -59,5 +103,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }

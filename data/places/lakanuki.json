@@ -2,8 +2,20 @@
   "id": "lakanuki",
   "name": "Lakanuki",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 37.6507382,
+    "lng": -118.9859751,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6201 Minaret Rd",
+    "locality": "Mammoth Lakes",
+    "region": "CA",
+    "postalCode": "93546",
+    "country": "US"
+  },
+  "formattedAddress": "6201 Minaret Rd, Mammoth Lakes CA 93546, USA",
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "lakanuki"
   },
@@ -12,17 +24,49 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.85,
+  "contact": {
+    "phone": "760-934-7447",
+    "website": "https://lakanuki.info/"
+  },
+  "established": 2005,
+  "tikiConfidence": 0.978,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-30T20:39:09.190Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:26:11.784Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:26:11.784Z"
     }
   },
   "sources": [
@@ -31,7 +75,14 @@
       "sourceRef": "lakanuki",
       "url": "https://tikirat.com/bars/lakanuki",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:26:11.784Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "lakanuki-mammoth-lakes",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -47,5 +98,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
 }

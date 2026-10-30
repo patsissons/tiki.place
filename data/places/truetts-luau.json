@@ -1,9 +1,21 @@
 {
   "id": "truetts-luau",
-  "name": "Truett's Luau",
+  "name": "Truett’s Luau",
   "aliases": [],
-  "location": null,
-  "address": {},
+  "location": {
+    "lat": 33.4465449,
+    "lng": -84.4677301,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "600 Lanier Ave W Ste 103",
+    "locality": "Fayetteville",
+    "region": "GA",
+    "postalCode": "30214",
+    "country": "US"
+  },
+  "formattedAddress": "600 Lanier Ave W Ste 103, Fayetteville GA 30214, USA",
+  "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "truett-s-luau"
   },
@@ -12,7 +24,11 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "770-461-5828",
+    "website": "https://chick-fil-a.com/truetts-luau"
+  },
+  "established": 2013,
   "tikiConfidence": 0.895,
   "review": {
     "state": "needs_review",
@@ -20,9 +36,37 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
     "name": {
       "sourceId": "tikirat",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "observedAt": "2026-10-30T20:35:51.426Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:35:51.426Z"
     }
   },
   "sources": [
@@ -31,7 +75,7 @@
       "sourceRef": "truett-s-luau",
       "url": "https://tikirat.com/bars/truett-s-luau",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
-      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+      "lastSeenAt": "2026-10-30T20:35:51.426Z"
     }
   ],
   "resolution": {
@@ -47,5 +91,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
 }
