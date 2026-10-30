@@ -35,6 +35,25 @@ describe("resolveObservation", () => {
     expect(resolveObservation(o, index, links)).toMatchObject({ kind: "match" });
   });
 
+  it("treats state codes, state names and a missing country as one locality", () => {
+    const places = new PlaceIndex([
+      place({ id: "electric-cure", name: "The Electric Cure", address: { locality: "Edgewater", region: "CO", country: "US" } }),
+      place({ id: "undertow", name: "Undertow", address: { locality: "Phoenix", region: "AZ" } }),
+      place({ id: "vancouver-bar", name: "Shameful", address: { locality: "Vancouver", region: "WA", country: "AU" } }),
+    ]);
+    const at = (name: string, locality: string, region: string) => obs({ sourceId: "tikiwanderlust", sourceRef: name, name, address: { locality, region, country: "US" } });
+    expect(resolveObservation(at("the Electric Cure", "Edgewater", "Colorado"), places, links)).toMatchObject({ kind: "match", place: { id: "electric-cure" } });
+    expect(resolveObservation(at("Undertow", "Phoenix", "Arizona"), places, links)).toMatchObject({ kind: "match", place: { id: "undertow" } });
+    expect(resolveObservation(at("Shameful", "Vancouver", "Washington"), places, links)).toEqual({ kind: "create" });
+  });
+
+  it("ignores a trailing city in a name, but only within that city", () => {
+    const places = new PlaceIndex([place({ id: "strong-water", name: "Strong Water Anaheim", address: { locality: "Anaheim", region: "California", country: "US" } })]);
+    const at = (locality: string) => obs({ sourceId: "tikiwanderlust", sourceRef: locality, name: "Strong Water", address: { locality, region: "California", country: "US" } });
+    expect(resolveObservation(at("Anaheim"), places, links)).toMatchObject({ kind: "match", place: { id: "strong-water" } });
+    expect(resolveObservation(at("Tustin"), places, links)).toEqual({ kind: "create" });
+  });
+
   it("matches by locality when there are no coords", () => {
     const o = obs({ sourceId: "tikiwanderlust", sourceRef: "ca/smugglers-cove", name: "Smugglers Cove", address: { locality: "San Francisco", region: "California", country: "US" } });
     expect(resolveObservation(o, index, links)).toMatchObject({ kind: "match", via: "locality+name" });

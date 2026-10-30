@@ -11,8 +11,8 @@ You are the human-in-the-loop half of tiki.place's data system. The daily GitHub
 
 - The database is `data/`. Never hand-edit `data/places/*.json`; the next sync would revert you. Record judgments with `pnpm review …` (they append to `data/decisions.yml`).
 - Sources are facts-only. Store names, addresses, coordinates, contact details, status and dates. Never store a source's editorial text, photos or reviews. Every place links back to the sources it came from.
-- Be polite to every site: check `robots.txt` and terms, keep `politeness.minIntervalMs >= 2000`, prefer sitemaps, feeds and open datasets over page crawls. tikirat.com is run by a friend of the project (collaboration offered); keep it to one sitemap request per run unless they give us a feed.
-- Prefer open datasets (Overture, OpenStreetMap) and tiki-specific directories. Google is the verifier, never a crawler; it has a budget ledger in `data/ledger/google.json`.
+- Be polite to every site: check `robots.txt` and terms, keep `politeness.minIntervalMs >= 2000`, prefer sitemaps, feeds and open datasets over page crawls. tikirat.com is run by a friend of the project: the daily sync makes one sitemap request per run, and the owner agreed to a slow, attributed pull, so bar pages are refreshed only by hand with `pnpm sync snapshot-tikirat` (3 s apart, never from CI).
+- Prefer open datasets (Overture, OpenStreetMap) and tiki-specific directories. Google is the verifier, never a crawler; it has a budget ledger in `data/ledger/google.json`. Check the ledger and ask the owner before any agent-run spend, and use `--skip-verify` otherwise. `--force` bypasses the circuit breaker but not the daily caps.
 
 ## Orientation
 
@@ -45,6 +45,14 @@ pnpm review pin <slug> name '"Correct Name"'
 ```
 
 Each command records the decision and replays the engine offline, so you see the effect immediately. Approve when the place is a real tiki bar, lounge or restaurant with a tiki program. Reject car washes, ice cream shops, closed-for-decades spots and unrelated "Tiki" businesses, with a short reason. Merge duplicates into the slug with the better name. Weak Google matches (`reason: weak google match`) need a look at the Maps link before approving.
+
+## Manual sources
+
+Tiki Wanderlust sits behind a Cloudflare challenge in CI, so its source has `discovery: manual`. Never try to defeat the challenge from automation. Places only manual sources list carry `syncPolicy: manual`, and the daily sync spends no Google budget on them. To refresh at a long interval:
+
+1. Open https://tikiwanderlust.com/master-list/ in a real browser (if a challenge appears, the owner clears it) and save the page text over `data/snapshots/tikiwanderlust.txt`.
+2. `pnpm sync run --source tikiwanderlust --skip-verify`, then `pnpm validate`.
+3. Only when there is budget to spare: `pnpm sync run --include-manual` to resolve those places, within the normal daily caps.
 
 ## Retire or pause a source
 

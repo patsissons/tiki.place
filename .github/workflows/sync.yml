@@ -18,7 +18,7 @@ on:
         type: boolean
         default: false
       force:
-        description: "Bypass the circuit breaker and lift the text-search cap (backfills)"
+        description: "Bypass the circuit breaker and lift the configured text-search cap (daily and monthly caps still hold)"
         type: boolean
         default: false
 

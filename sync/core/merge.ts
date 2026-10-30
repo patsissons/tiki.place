@@ -214,6 +214,11 @@ export function mergePlace(existing: Place, observations: Observation[], ctx: Me
     if (earliest < place.firstSeenAt) place.firstSeenAt = earliest;
   }
 
+  // places known only to manually refreshed sources opt out of the daily sync's Google work
+  const listedBy = place.sources.filter((s) => s.sourceId !== "google");
+  if (listedBy.length > 0 && listedBy.every((s) => sources.get(s.sourceId)?.schedule.discovery === "manual")) place.syncPolicy = "manual";
+  else delete place.syncPolicy;
+
   // timezone from location
   if (place.location && !pinned("timezone")) {
     try {

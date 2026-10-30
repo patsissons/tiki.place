@@ -3,11 +3,13 @@ import type { Adapter } from "./types";
 import { osmOverpassAdapter } from "./osm-overpass";
 import { overtureAdapter } from "./overture";
 import { tikiratAdapter } from "./tikirat";
+import { tikiwanderlustAdapter } from "./tikiwanderlust";
 import { userSubmissionAdapter } from "./user-submission";
 
 /** Discovery adapters by id. Google is the verifier and is driven by the scheduler, not listed here. */
 export const adapters: Partial<Record<AdapterId, Adapter>> = {
   tikirat: tikiratAdapter,
+  tikiwanderlust: tikiwanderlustAdapter,
   "osm-overpass": osmOverpassAdapter,
   overture: overtureAdapter,
   "user-submission": userSubmissionAdapter,

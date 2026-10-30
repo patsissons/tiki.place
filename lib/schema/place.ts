@@ -67,6 +67,8 @@ export const PlaceSchema = z.strictObject({
   /** Which source supplied each field, keyed by field path (e.g. "name", "location", "contact.website"). */
   provenance: z.record(z.string(), ProvenanceEntrySchema).default({}),
   sources: z.array(PlaceSourceSchema),
+  /** "manual": only manually refreshed sources list this place, so the daily sync spends no Google budget on it. */
+  syncPolicy: z.literal("manual").optional(),
   /** Last attempt to resolve this place to a Google Place ID, when none is known. */
   resolution: z
     .strictObject({

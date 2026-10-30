@@ -82,9 +82,30 @@ export class PlaceIndex {
   }
 }
 
+const US_STATES: Record<string, string> = {
+  alabama: "al", alaska: "ak", arizona: "az", arkansas: "ar", california: "ca", colorado: "co", connecticut: "ct", delaware: "de",
+  "district of columbia": "dc", florida: "fl", georgia: "ga", hawaii: "hi", idaho: "id", illinois: "il", indiana: "in", iowa: "ia",
+  kansas: "ks", kentucky: "ky", louisiana: "la", maine: "me", maryland: "md", massachusetts: "ma", michigan: "mi", minnesota: "mn",
+  mississippi: "ms", missouri: "mo", montana: "mt", nebraska: "ne", nevada: "nv", "new hampshire": "nh", "new jersey": "nj",
+  "new mexico": "nm", "new york": "ny", "north carolina": "nc", "north dakota": "nd", ohio: "oh", oklahoma: "ok", oregon: "or",
+  pennsylvania: "pa", "rhode island": "ri", "south carolina": "sc", "south dakota": "sd", tennessee: "tn", texas: "tx", utah: "ut",
+  vermont: "vt", virginia: "va", washington: "wa", "west virginia": "wv", wisconsin: "wi", wyoming: "wy",
+};
+const US_STATE_CODES = new Set(Object.values(US_STATES));
+
+/** Sources write "CA", "California", or a state with no country; all of those are one locality. */
 export function localityKey(locality?: string, region?: string, country?: string): string | null {
   if (!locality) return null;
-  return [normalizeName(locality), region ? normalizeName(region) : "", country ?? ""].join("|");
+  const r = region ? normalizeName(region) : "";
+  const usState = !country || country === "US" ? (US_STATES[r] ?? (US_STATE_CODES.has(r) ? r : undefined)) : undefined;
+  return [normalizeName(locality), usState ?? r, usState ? "US" : (country ?? "")].join("|");
+}
+
+/** "Strong Water Anaheim" in Anaheim is "Strong Water". */
+function withoutLocality(name: string, locality: string): string {
+  const n = normalizeName(name);
+  const l = normalizeName(locality);
+  return n.endsWith(` ${l}`) ? n.slice(0, -l.length - 1) : n;
 }
 
 export type DecisionLinks = Map<string, string>; // "sourceId:sourceRef" -> place id
@@ -137,7 +158,8 @@ export function resolveObservation(obs: Observation, index: PlaceIndex, links: D
   if (obs.address.locality) {
     let best: { place: Place; score: number } | null = null;
     for (const place of index.inLocality(obs.address.locality, obs.address.region, obs.address.country)) {
-      const sim = bestNameSim(obs, place);
+      const locality = obs.address.locality;
+      const sim = Math.max(bestNameSim(obs, place), ...[place.name, ...place.aliases].map((n) => nameSim(withoutLocality(obs.name, locality), withoutLocality(n, locality))));
       if (sim >= 0.9 && (!best || sim > best.score)) best = { place, score: sim };
     }
     if (best) return { kind: "match", place: best.place, via: "locality+name", score: best.score };

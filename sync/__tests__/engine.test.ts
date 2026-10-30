@@ -3,7 +3,7 @@ import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import type { GoogleClient, GooglePlace } from "../adapters/google";
 import type { PoliteFetch } from "../core/fetch";
-import { NOW, fixture, source, tempRoot } from "./helpers";
+import { NOW, fixture, place, source, tempRoot } from "./helpers";
 
 let root: string;
 let store: typeof import("@/lib/data/store");
@@ -103,7 +103,7 @@ describe("runEngine", () => {
     const luau = places.find((p) => p.id === "luau-somewhere")!;
     expect(luau.externalIds.google).toBe("G-LUAU");
     expect(luau.review.state).toBe("needs_review"); // weak (containment) match
-    expect(luau.status.value).toBe("temporarily_closed");
+    expect(luau.status.value).toBe("open"); // unpublished, so no details call beyond the text search
 
     const kona = places.find((p) => p.id === "kona-club")!;
     expect(kona.externalIds.google).toBeUndefined();
@@ -111,7 +111,7 @@ describe("runEngine", () => {
     expect(kona.review.state).toBe("needs_review");
 
     const ledger = store.readLedger();
-    expect(ledger.days[NOW.toISOString().slice(0, 10)]).toMatchObject({ textSearch: 3, enterprise: 2 });
+    expect(ledger.days[NOW.toISOString().slice(0, 10)]).toMatchObject({ textSearch: 3, enterprise: 1 });
     expect(calls.filter((c) => c.startsWith("search:"))).toHaveLength(3);
     expect(store.readObservations("google")).toHaveLength(2);
     expect(store.readSyncState().sources.tikirat?.observationCount).toBe(3);
@@ -159,6 +159,40 @@ describe("runEngine", () => {
     await engine.runEngine({ now: new Date("2026-11-04T10:00:00Z"), log: quiet, offline: true, skipVerify: true });
     expect(store.readPlaces().some((p) => p.id === "kona-club")).toBe(false);
     expect(fs.existsSync(path.join(root, "data", "places", "kona-club.json"))).toBe(false);
+  });
+
+  it("does not count places that were already closed as flipped by this run", async () => {
+    await engine.runEngine({ now: NOW, log: quiet, fetchFactory: () => fakeFetch(smallSitemap), skipVerify: true });
+    const at = NOW.toISOString();
+    const review = { state: "auto_approved" as const, by: "auto" as const, at };
+    for (let i = 0; i < 20; i++) {
+      store.writePlace(place({ id: `bar-${i}`, location: { lat: 1, lng: i, precision: "rooftop" }, review, status: { value: i < 5 ? "closed" : "open", sourceId: "owner", at }, lastVerifiedAt: at }));
+    }
+    // the first forced run only normalizes the hand-written files
+    await engine.runEngine({ now: new Date("2026-11-02T10:00:00Z"), log: quiet, offline: true, skipVerify: true, force: true });
+    const r = await engine.runEngine({ now: new Date("2026-11-03T10:00:00Z"), log: quiet, offline: true, skipVerify: true });
+    expect(r.tripped).toBeUndefined();
+    expect(r.code).toBe(0);
+    expect(r.summary.placesUpdated).toBe(0);
+  });
+
+  it("spends nothing while Google is paused, even when forced", async () => {
+    store.writeSource({ ...googleSource, config: { ...googleSource.config, pausedUntil: "2026-11-02" } });
+    const calls: string[] = [];
+    const r = await engine.runEngine({ now: NOW, log: quiet, force: true, fetchFactory: () => fakeFetch(smallSitemap), googleClientFactory: () => fakeGoogle(calls) });
+    expect(r.code).toBe(0);
+    expect(calls).toEqual([]);
+    expect(store.readPlaces()).toHaveLength(3);
+  });
+
+  it("keeps the daily caps under --force", async () => {
+    const ledger = store.readLedger();
+    ledger.days["2026-11-01"] = { essentials: 0, pro: 0, enterprise: 27, textSearch: 137 };
+    ledger.months["2026-11"] = { essentials: 0, pro: 0, enterprise: 27, textSearch: 137 };
+    store.writeLedger(ledger);
+    const calls: string[] = [];
+    await engine.runEngine({ now: NOW, log: quiet, force: true, fetchFactory: () => fakeFetch(smallSitemap), googleClientFactory: () => fakeGoogle(calls) });
+    expect(calls).toEqual([]);
   });
 
   it("marks refs missing when a complete listing drops them, and trips the breaker on a collapse", async () => {

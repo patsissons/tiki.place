@@ -2,7 +2,8 @@
 /**
  * tiki.place data CLI.
  *
- *   pnpm sync run [--source id] [--dry-run] [--offline] [--skip-verify] [--force]
+ *   pnpm sync run [--source id] [--dry-run] [--offline] [--skip-verify] [--force] [--include-manual]
+ *   pnpm sync snapshot-tikirat [--limit n] [--refresh-days n]   slowly render bar pages into a snapshot
  *   pnpm sync fmt                      rewrite every data file in canonical form
  *   pnpm validate                      parse + invariants + canonical-form check
  *   pnpm data:build [--check]          generate public/data/*
@@ -51,6 +52,11 @@ const commands: Record<string, Command> = {
   async source(argv) {
     const { sourceCommand } = await import("./source");
     return sourceCommand(argv);
+  },
+
+  async "snapshot-tikirat"(argv) {
+    const { snapshotTikirat } = await import("./snapshot-tikirat");
+    return snapshotTikirat(argv);
   },
 
   async fetch(argv) {

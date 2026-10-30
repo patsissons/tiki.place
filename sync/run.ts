@@ -10,6 +10,7 @@ export async function runSync(argv: string[]): Promise<number> {
       offline: { type: "boolean", default: false },
       "skip-verify": { type: "boolean", default: false },
       force: { type: "boolean", default: false },
+      "include-manual": { type: "boolean", default: false },
       report: { type: "boolean", default: true },
     },
   });
@@ -19,6 +20,7 @@ export async function runSync(argv: string[]): Promise<number> {
     offline: values.offline,
     skipVerify: values["skip-verify"],
     force: values.force,
+    includeManual: values["include-manual"],
   });
   if (values.report) console.log(`\n${result.report}`);
   return result.code;

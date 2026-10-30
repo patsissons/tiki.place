@@ -51,8 +51,10 @@ export type EngineOptions = {
   /** No network at all: replay committed observations. */
   offline?: boolean;
   skipVerify?: boolean;
-  /** Bypass the circuit breaker and lift the text-search daily cap for a backfill. */
+  /** Bypass the circuit breaker and lift the configured text-search cap. The daily and monthly SKU caps still hold. */
   force?: boolean;
+  /** Also spend Google on places with syncPolicy "manual" (a manual run, within the same caps). */
+  includeManual?: boolean;
   now?: Date;
   log?: Logger;
   googleApiKey?: string;
@@ -156,7 +158,9 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   const sourceMap = new Map(sources.map((s) => [s.id, s]));
   const loaded = readPlaces();
   const original = new Map(loaded.map((p) => [p.id, serializePlace(p)]));
+  const isClosedOrRejected = (p: Place) => p.review.state === "rejected" || p.status.value === "closed";
   const originallyPublished = new Set(loaded.filter(isPublished).map((p) => p.id));
+  const originallyLive = new Set(loaded.filter((p) => isPublished(p) && !isClosedOrRejected(p)).map((p) => p.id));
   const decisions = readDecisions();
   const redirects = readRedirects();
   const ledger = readLedger();
@@ -291,12 +295,13 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   };
   const googleSource = sourceMap.get("google");
   const apiKey = opts.googleApiKey ?? process.env.GOOGLE_PLACES_API_KEY;
-  if (!opts.skipVerify && !opts.offline && !opts.dryRun && googleSource && (apiKey || opts.googleClientFactory)) {
-    const cfg = googleSource.config as { monthlyFree?: SkuCounts; textSearchDailyCap?: number };
+  const cfg = (googleSource?.config ?? {}) as { monthlyFree?: SkuCounts; textSearchDailyCap?: number; pausedUntil?: string };
+  const googlePaused = Boolean(cfg.pausedUntil && nowIso.slice(0, 10) < cfg.pausedUntil);
+  if (googlePaused) log.info(`· google: paused until ${cfg.pausedUntil}`);
+  if (!googlePaused && !opts.skipVerify && !opts.offline && !opts.dryRun && googleSource && (apiKey || opts.googleClientFactory)) {
     const monthlyFree: SkuCounts = cfg.monthlyFree ?? { essentials: 10000, pro: 5000, enterprise: 1000, textSearch: 5000 };
     const textSearchDailyCap = opts.force ? 100_000 : (cfg.textSearchDailyCap ?? 20);
-    // --force is for backfills: let a single run use the month's remaining allowance (the 90% monthly stop still holds).
-    const budget = new GoogleBudget(ledger, { monthlyFree, textSearchDailyCap, dailyShare: opts.force ? 31 : undefined }, now);
+    const budget = new GoogleBudget(ledger, { monthlyFree, textSearchDailyCap }, now);
     const spend = (sku: keyof SkuCounts) => {
       budget.spend(sku);
       googleCalls++;
@@ -304,7 +309,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
     const client = opts.googleClientFactory ? opts.googleClientFactory() : createGoogleClient({ apiKey: apiKey! });
     const googleByRef = new Map((observations.get("google") ?? []).map((o) => [o.sourceRef, o]));
     const lastGoogleSeenAt = (p: Place) => (p.externalIds.google ? googleByRef.get(p.externalIds.google)?.observedAt : undefined);
-    const plan = planGoogleWork([...index.places.values()], budget, now, { lastGoogleSeenAt });
+    const plan = planGoogleWork([...index.places.values()], budget, now, { lastGoogleSeenAt, includeManual: opts.includeManual });
     log.info(`google plan: resolve ${plan.resolve.length}, refresh ${plan.refresh.length}, status ${plan.statusCheck.length}`);
 
     const attach = (place: Place, obs: Observation) => {
@@ -382,10 +387,10 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
       }
     }
 
-    // Newly resolved places deserve a full refresh right away.
+    // Newly published places deserve a full refresh right away; the rest keep what text search returned.
     for (const id of resolvedNow) {
       const p = index.places.get(id);
-      if (p && !plan.refresh.includes(p)) plan.refresh.push(p);
+      if (p && isPublished(p) && !plan.refresh.includes(p)) plan.refresh.push(p);
     }
 
     const carryRich = (prior: Observation | undefined, fresh: Observation): Observation =>
@@ -440,8 +445,11 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   function finish(): EngineResult {
   // ---- final slugs for places created this run ----
   const renames = new Map<string, string>();
-  for (const { place } of created) {
-    if (!index.places.has(place.id)) continue; // merged away
+  for (const entry of created) {
+    // Remerging replaces place objects, so read the current one from the index.
+    const place = index.places.get(entry.place.id);
+    if (!place) continue; // merged away
+    entry.place = place;
     const slug = uniqueSlug(placeSlug(place.name, place.address.locality), (s) => (index.places.has(s) && s !== place.id) || s in redirects || original.has(s));
     if (slug !== place.id) {
       const oldId = place.id;
@@ -467,15 +475,17 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   for (const place of finalPlaces) {
     const before = original.get(place.id);
     const after = serializePlace(place);
-    if (before !== undefined && before !== after && place.lastSyncedAt < nowIso) {
+    if (before !== undefined && before !== after) {
       const stripped = (s: string) => s.replace(/"lastSyncedAt": "[^"]+"/, "");
-      if (stripped(before) !== stripped(after)) place.lastSyncedAt = nowIso;
+      // Merge compares in memory and can bump the timestamp when the written record is unchanged; only real changes count.
+      if (stripped(before) === stripped(after)) place.lastSyncedAt = (JSON.parse(before) as Place).lastSyncedAt;
+      else if (place.lastSyncedAt < nowIso) place.lastSyncedAt = nowIso;
     }
   }
   const changed = finalPlaces.filter((p) => original.get(p.id) !== serializePlace(p));
   const deleted = [...original.keys()].filter((id) => !index.places.has(id));
   const published = finalPlaces.filter(isPublished);
-  const flipped = finalPlaces.filter((p) => originallyPublished.has(p.id) && (p.review.state === "rejected" || p.status.value === "closed")).length;
+  const flipped = finalPlaces.filter((p) => originallyLive.has(p.id) && isClosedOrRejected(p)).length;
   const needsReview = finalPlaces.filter((p) => p.review.state === "needs_review").length;
 
   const createdIds = new Set(created.map((c) => c.place.id));

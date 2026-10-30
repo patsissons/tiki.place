@@ -1,5 +1,5 @@
 /** Google budget ledger and the daily verification plan. */
-import type { GoogleSku, Ledger, Place, SkuCounts } from "@/lib/schema";
+import { isPublished, type GoogleSku, type Ledger, type Place, type SkuCounts } from "@/lib/schema";
 
 const DAY = 86_400_000;
 
@@ -90,23 +90,30 @@ export type GooglePlan = {
 export type PlanOptions = {
   /** Re-attempt resolution after this many days. */
   resolveRetryDays?: number;
+  /** Enterprise-refresh published places whose last verification is older than this. */
+  refreshDays?: number;
   /** Status check places whose Google data is older than this. */
   statusCheckDays?: number;
+  /** Also plan places with syncPolicy "manual" (manual runs only). */
+  includeManual?: boolean;
   lastGoogleSeenAt: (place: Place) => string | undefined;
 };
 
 export function planGoogleWork(places: Place[], budget: GoogleBudget, now: Date, options: PlanOptions): GooglePlan {
-  const { resolveRetryDays = 90, statusCheckDays = 14, lastGoogleSeenAt } = options;
+  const { resolveRetryDays = 90, refreshDays = 30, statusCheckDays = 14, includeManual = false, lastGoogleSeenAt } = options;
   const age = (iso?: string) => (iso ? (now.getTime() - Date.parse(iso)) / DAY : Infinity);
-  const active = places.filter((p) => p.review.state !== "rejected");
+  const active = places.filter((p) => p.review.state !== "rejected" && (includeManual || p.syncPolicy !== "manual"));
+  /** A source supplied coordinates after the last attempt, so a retry is no longer a blind search. */
+  const learnedLocation = (p: Place) => Boolean(p.resolution && p.location && (p.provenance.location?.observedAt ?? "") > p.resolution.attemptedAt);
 
   const resolve = active
-    .filter((p) => !p.externalIds.google && (!p.resolution || age(p.resolution.attemptedAt) > resolveRetryDays))
+    .filter((p) => !p.externalIds.google && (!p.resolution || age(p.resolution.attemptedAt) > resolveRetryDays || learnedLocation(p)))
     .sort((a, b) => b.tikiConfidence - a.tikiConfidence || a.firstSeenAt.localeCompare(b.firstSeenAt))
     .slice(0, budget.remainingToday("textSearch"));
 
   const withGoogle = active.filter((p) => p.externalIds.google);
-  const refresh = [...withGoogle]
+  const refresh = withGoogle
+    .filter((p) => isPublished(p) && age(p.lastVerifiedAt) > refreshDays)
     .sort((a, b) => (a.lastVerifiedAt ?? "").localeCompare(b.lastVerifiedAt ?? ""))
     .slice(0, budget.remainingToday("enterprise"));
   const refreshing = new Set(refresh.map((p) => p.id));

@@ -19,9 +19,11 @@ politeness:
 config:
   sitemap: https://tikirat.com/sitemap.xml
   pathPrefix: /bars/
+  snapshot: data/snapshots/tikirat.json
 addedAt: 2026-10-26
 notes: |-
-  Curated tiki bar directory run by a friend of the project; a collaboration was offered in person (Oct 2026).
-  Pages are client-rendered, so discovery reads only the sitemap (one request per run) and Google resolves each
-  bar. If tikirat shares an export, set config.feedUrl to hydrate address, coordinates, phone and website
-  directly. We index facts and link back; editorial text is never stored.
+  Curated tiki bar directory run by a friend of the project. In October 2026 the owner agreed we can slowly pull from
+  the site as long as we don't hammer it and we attribute their places. The daily sync reads only the sitemap (one
+  request per run). `pnpm sync snapshot-tikirat` is run by hand: one rendered page at least 3 s apart, committed to
+  data/snapshots/tikirat.json, which hydrates address, coordinates, phone and website with no further requests. We
+  index facts and link back from every place; editorial text is never stored.

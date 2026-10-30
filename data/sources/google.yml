@@ -18,5 +18,6 @@ config:
     enterprise: 1000
     textSearch: 5000
   textSearchDailyCap: 20
+  pausedUntil: 2026-11-01
 addedAt: 2026-03-09
 notes: Verifier and enricher. Never used for open-ended discovery; only resolves and refreshes places other sources found.
