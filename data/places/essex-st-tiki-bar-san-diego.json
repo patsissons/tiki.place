@@ -1,0 +1,96 @@
+{
+  "id": "essex-st-tiki-bar-san-diego",
+  "name": "Essex St. Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 32.7471275,
+    "lng": -117.1545715,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "San Diego",
+    "region": "CA",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "1064d355-fdec-460a-b989-64034fe18050"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "1064d355-fdec-460a-b989-64034fe18050",
+      "url": "https://explore.overturemaps.org/#17/32.747127532958984/-117.15457153320312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJcWR2_OwB3IARg6JWCGWSdhU",
+        "name": "The Grass Skirt",
+        "distanceM": 10647,
+        "nameSim": 0.19
+      },
+      {
+        "googleId": "ChIJzw3GNKxU2YARh9sRm39PY3o",
+        "name": "False Idol",
+        "distanceM": 3223,
+        "nameSim": 0.143
+      },
+      {
+        "googleId": "ChIJX9Q7y61U2YAREFYBL9squjo",
+        "name": "Craft & Commerce",
+        "distanceM": 3228,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJm_JdDdX_24ARrxXlze9q_Wc",
+        "name": "Forbidden Cove",
+        "distanceM": 9562,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJryTAIaZX2YARW18WNkCLXwE",
+        "name": "The Luau",
+        "distanceM": 10587,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

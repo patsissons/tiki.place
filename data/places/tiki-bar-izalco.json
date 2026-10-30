@@ -1,0 +1,89 @@
+{
+  "id": "tiki-bar-izalco",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 13.7387094,
+    "lng": -89.7100143,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Izalco",
+    "country": "SV"
+  },
+  "timezone": "America/El_Salvador",
+  "externalIds": {
+    "overture": "a9ff2d9b-b43e-4d0e-83a0-c188564da8ab"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://linktr.ee/tikibarsv"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a9ff2d9b-b43e-4d0e-83a0-c188564da8ab",
+      "url": "https://explore.overturemaps.org/#17/13.738709449768066/-89.71001434326172",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJCyd_yTzHYo8Rz4cuDzNxpSw",
+        "name": "Pepeyito's Bar & Restaurant",
+        "distanceM": 4059,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJu8P7UMjDYo8RYg9BSrTsj9o",
+        "name": "Tiki Island Hostal y Restaurante Lago Coatepeque",
+        "distanceM": 21911,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJIyz0OeLHYo8RELGHv4l8nP0",
+        "name": "Segunda Calle",
+        "distanceM": 3971,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "blue-kahuna-newcastle",
+  "name": "Blue Kahunas",
+  "aliases": [
+    "Blue Kahuna"
+  ],
+  "location": {
+    "lat": -32.9271145,
+    "lng": 151.7817696,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "146 Hunter Street",
+    "locality": "Newcastle",
+    "region": "New South Wales",
+    "postalCode": "2300",
+    "country": "AU"
+  },
+  "formattedAddress": "3/146 Hunter St, Newcastle NSW 2300, Australia",
+  "timezone": "Australia/Sydney",
+  "externalIds": {
+    "overture": "06a57bec-81ab-4fde-af4c-61c9181a3bfa",
+    "google": "ChIJbw1K7m8Vc2sRRN-pVGLN2Fk"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.bluekahunasbar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6474150286555995972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 270,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJbw1K7m8Vc2sRRN-pVGLN2Fk",
+      "url": "https://maps.google.com/?cid=6474150286555995972&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "06a57bec-81ab-4fde-af4c-61c9181a3bfa",
+      "url": "https://explore.overturemaps.org/#17/-32.92698287963867/151.78170776367188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

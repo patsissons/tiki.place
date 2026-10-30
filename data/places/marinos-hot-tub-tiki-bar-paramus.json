@@ -1,0 +1,102 @@
+{
+  "id": "marinos-hot-tub-tiki-bar-paramus",
+  "name": "Marino's Hot Tub Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.9500237,
+    "lng": -74.0574036,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Paramus",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "03a378ef-8e12-4709-b206-dd73d40e349c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.facebook.com/hottubtiki/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "03a378ef-8e12-4709-b206-dd73d40e349c",
+      "url": "https://explore.overturemaps.org/#17/40.95002365112305/-74.05740356445312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJXd92xen8wokR3x-NHZlMQEc",
+        "name": "Prisco Hot Tubs and Saunas NJ",
+        "distanceM": 8255,
+        "nameSim": 0.375
+      },
+      {
+        "googleId": "ChIJjZenPaD7wokROUJL9ah6VKk",
+        "name": "The Rotunda",
+        "distanceM": 3971,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJT9o00dn6wokRGPUjVumY2Ro",
+        "name": "Mangiamo Pizza Restaurant & Catering",
+        "distanceM": 1574,
+        "nameSim": 0.194
+      },
+      {
+        "googleId": "ChIJ-4xae0f7wokRCVyoiog1pW8",
+        "name": "The Green Lounge Mediterranean Bar & Grill",
+        "distanceM": 2978,
+        "nameSim": 0.182
+      },
+      {
+        "googleId": "ChIJvxYveWT7wokRTX6_Lw0benE",
+        "name": "Seasons 52",
+        "distanceM": 4062,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

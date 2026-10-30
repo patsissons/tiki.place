@@ -1,0 +1,96 @@
+{
+  "id": "barge-okauchee",
+  "name": "The Barge Okauchee",
+  "aliases": [],
+  "location": {
+    "lat": 43.1177023,
+    "lng": -88.438881,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "W349N5293 Lacys Lane",
+    "locality": "Okauchee Lake",
+    "region": "Wisconsin",
+    "postalCode": "53069",
+    "country": "US"
+  },
+  "formattedAddress": "W349N5293 Lacys Ln, Okauchee Lake, WI 53069, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "70369d7d-f498-4dad-b69d-710b5c2eaded",
+    "google": "ChIJM7xztoy1BYgRnKA_YBeRezk"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://thebargeokauchee.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4142063811882360988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 5,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJM7xztoy1BYgRnKA_YBeRezk",
+      "url": "https://maps.google.com/?cid=4142063811882360988&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "70369d7d-f498-4dad-b69d-710b5c2eaded",
+      "url": "https://explore.overturemaps.org/#17/43.117698669433594/-88.43888854980469",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

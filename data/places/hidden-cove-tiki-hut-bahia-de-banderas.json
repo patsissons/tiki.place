@@ -1,0 +1,101 @@
+{
+  "id": "hidden-cove-tiki-hut-bahia-de-banderas",
+  "name": "Hidden Cove Tiki Hut",
+  "aliases": [],
+  "location": {
+    "lat": 20.8688771,
+    "lng": -105.43972670000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "53 Calle Gaviotas Sur",
+    "locality": "Sayulita",
+    "region": "Nayarit",
+    "postalCode": "63734",
+    "country": "MX"
+  },
+  "formattedAddress": "Calle Gaviotas Sur 53, Centro, 63734 Sayulita, Nay., Mexico",
+  "timezone": "America/Mazatlan",
+  "externalIds": {
+    "overture": "be8b4391-3f90-40ef-ab6d-7f732ab8004f",
+    "google": "ChIJKwLq7WAXIYQRL1JjnD3muzo"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 612-296-6311",
+    "googleMapsUri": "https://maps.google.com/?cid=4232229427135861295&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 86,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJKwLq7WAXIYQRL1JjnD3muzo",
+      "url": "https://maps.google.com/?cid=4232229427135861295&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "be8b4391-3f90-40ef-ab6d-7f732ab8004f",
+      "url": "https://explore.overturemaps.org/#17/20.86887550354004/-105.43972778320312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

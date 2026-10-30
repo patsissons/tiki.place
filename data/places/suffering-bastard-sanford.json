@@ -1,0 +1,118 @@
+{
+  "id": "suffering-bastard-sanford",
+  "name": "Suffering Bastard",
+  "aliases": [
+    "Suffering Bastard Tiki Bar"
+  ],
+  "location": {
+    "lat": 28.810625700000003,
+    "lng": -81.2703372,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "200 south Myrtle Avenue",
+    "locality": "Sanford",
+    "region": "Florida",
+    "postalCode": "32771",
+    "country": "US"
+  },
+  "formattedAddress": "200 south Myrtle Ave, Sanford, FL 32771, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "a0b213b1-41c8-416f-b17d-0c8c3196b697",
+    "osm": "node/8938710009",
+    "google": "ChIJC_MuugcT54gRleKbpFUri7Q"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://tables.toasttab.com/restaurants/d20ff834-2c63-47a0-8a29-37874d734b33/findTime",
+    "googleMapsUri": "https://maps.google.com/?cid=13009539595423703701&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 291,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.983,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJC_MuugcT54gRleKbpFUri7Q",
+      "url": "https://maps.google.com/?cid=13009539595423703701&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/8938710009",
+      "url": "https://www.openstreetmap.org/node/8938710009",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a0b213b1-41c8-416f-b17d-0c8c3196b697",
+      "url": "https://explore.overturemaps.org/#17/28.810638427734375/-81.2702407836914",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "suffering-bastard-sanford",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

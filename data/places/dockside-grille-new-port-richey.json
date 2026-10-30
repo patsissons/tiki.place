@@ -1,0 +1,90 @@
+{
+  "id": "dockside-grille-new-port-richey",
+  "name": "Dockside Grille",
+  "aliases": [],
+  "location": {
+    "lat": 28.2352371,
+    "lng": -82.7303162,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "New Port Richey",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "d6dfac79-bb61-4ac0-b5eb-987f352a55a5"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://thedocksidegrille.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d6dfac79-bb61-4ac0-b5eb-987f352a55a5",
+      "url": "https://explore.overturemaps.org/#17/28.23523712158203/-82.73031616210938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJTUudmJuRwogRwRmzM4g6CIk",
+        "name": "Seafire Grill",
+        "distanceM": 467,
+        "nameSim": 0.417
+      },
+      {
+        "googleId": "ChIJT4oRB3ObwogR4ADonKGYoKQ",
+        "name": "Get Hooked Grill",
+        "distanceM": 1805,
+        "nameSim": 0.308
+      },
+      {
+        "googleId": "ChIJqX9SKgCRwogRHDkxp5qHPk8",
+        "name": "Sunset Cove",
+        "distanceM": 491,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

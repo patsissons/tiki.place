@@ -1,0 +1,78 @@
+{
+  "id": "wheelhouse-rock-hall",
+  "name": "Wheelhouse",
+  "aliases": [],
+  "location": {
+    "lat": 39.1398239,
+    "lng": -76.2569122,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Rock Hall",
+    "region": "MD",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "894e92a6-0f71-4532-8f3e-51275fd2ffb7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://wheelhouse-nyc.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "894e92a6-0f71-4532-8f3e-51275fd2ffb7",
+      "url": "https://explore.overturemaps.org/#17/39.13982391357422/-76.25691223144531",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJAfWPM0AIuIkR8rdEYbwwEF4",
+        "name": "Inn at Haven Harbour",
+        "distanceM": 854,
+        "nameSim": 0.105
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "luau-cocktail-lounge-cordoba",
+  "name": "Luau cocktail lounge",
+  "aliases": [],
+  "location": {
+    "lat": 37.8785439,
+    "lng": -4.7794108,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Córdoba",
+    "country": "ES"
+  },
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "7c3e6e90-0854-443f-88f9-1eb1e5c9ab51"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "7c3e6e90-0854-443f-88f9-1eb1e5c9ab51",
+      "url": "https://explore.overturemaps.org/#17/37.878543853759766/-4.7794108390808105",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ40o3gYbfbA0RNRxSsS0mRbo",
+        "name": "Luau Cocktail Lounge",
+        "distanceM": 2669,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

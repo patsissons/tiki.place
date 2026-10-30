@@ -1,0 +1,71 @@
+{
+  "id": "curayacu-tiki-bar-punta-hermosa",
+  "name": "Curayacu Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": -12.3327818,
+    "lng": -76.8259735,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Punta Hermosa",
+    "country": "PE"
+  },
+  "timezone": "America/Lima",
+  "externalIds": {
+    "overture": "1a124324-8221-46d6-bd4e-79cf36201ce5"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "1a124324-8221-46d6-bd4e-79cf36201ce5",
+      "url": "https://explore.overturemaps.org/#17/-12.332781791687012/-76.82597351074219",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJIe9TDL2jBZERGcUW82FpDlk",
+        "name": "Curayacu Tiki Bar - Punta Hermosa",
+        "distanceM": 3,
+        "nameSim": 0.75
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

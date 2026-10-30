@@ -1,0 +1,106 @@
+{
+  "id": "hawaiki-bellaria-igea-marina",
+  "name": "Hawaiki",
+  "aliases": [],
+  "location": {
+    "lat": 44.141614700000005,
+    "lng": 12.4735272,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "7 Via Sesto Properzio",
+    "locality": "Bellaria-Igea Marina",
+    "region": "Emilia-Romagna",
+    "postalCode": "47814",
+    "country": "IT"
+  },
+  "formattedAddress": "Via Sesto Properzio, 7, 47814 Bellaria-Igea Marina RN, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "d5559926-0b7b-4bfd-9858-acddc6401fd7",
+    "google": "ChIJ29aJqszHLBMR5qhb378hQUY"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+39 0541 174 0449",
+    "website": "http://www.hawaikiparadise.it/",
+    "googleMapsUri": "https://maps.google.com/?cid=5062364564110944486&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 1003,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ29aJqszHLBMR5qhb378hQUY",
+      "url": "https://maps.google.com/?cid=5062364564110944486&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d5559926-0b7b-4bfd-9858-acddc6401fd7",
+      "url": "https://explore.overturemaps.org/#17/44.14164352416992/12.473488807678223",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

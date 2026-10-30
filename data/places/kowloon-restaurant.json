@@ -1,0 +1,108 @@
+{
+  "id": "kowloon-restaurant",
+  "name": "Kowloon Restaurant",
+  "aliases": [],
+  "location": {
+    "lat": 42.4679042,
+    "lng": -71.02492579999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "948 Broadway",
+    "locality": "Saugus",
+    "region": "MA",
+    "postalCode": "01906",
+    "country": "US"
+  },
+  "formattedAddress": "948 Broadway, Saugus MA 01906, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "kowloon-restaurant"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "781-233-0077",
+    "website": "https://kowloonrestaurant.com/"
+  },
+  "established": 1950,
+  "tikiConfidence": 0.978,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:25:57.206Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "kowloon-restaurant",
+      "url": "https://tikirat.com/bars/kowloon-restaurant",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:25:57.206Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "kowloon-restaurant-saugus",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJ8Q7dZgBv44kRy8YRrU91aB0",
+        "name": "Kowloon Tiki",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJS5RSJ41y44kRd7DMG9XL4DM",
+        "name": "Kowloon Restaurant",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

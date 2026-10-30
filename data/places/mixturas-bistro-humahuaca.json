@@ -1,0 +1,119 @@
+{
+  "id": "mixturas-bistro-humahuaca",
+  "name": "Mixtura's Bistro",
+  "aliases": [],
+  "location": {
+    "lat": -23.2022859,
+    "lng": -65.34866509999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "173 Jujuy",
+    "locality": "Humahuaca",
+    "region": "Jujuy",
+    "postalCode": "Y4630",
+    "country": "AR"
+  },
+  "formattedAddress": "Jujuy 173, Y4630 Humahuaca, Jujuy, Argentina",
+  "timezone": "America/Argentina/Jujuy",
+  "externalIds": {
+    "overture": "21ac0e87-c702-420e-9ae6-53392c12979e",
+    "google": "ChIJxfPnpu_pBJQR2w9avl3R8iQ"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 4,
+          "time": "2200"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "2200"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 10:00 PM – 2:00 AM",
+      "Friday: 10:00 PM – 2:00 AM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=2662420530285121499&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJxfPnpu_pBJQR2w9avl3R8iQ",
+      "url": "https://maps.google.com/?cid=2662420530285121499&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "21ac0e87-c702-420e-9ae6-53392c12979e",
+      "url": "https://explore.overturemaps.org/#17/-23.202289581298828/-65.34866333007812",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

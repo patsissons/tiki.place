@@ -1,0 +1,101 @@
+{
+  "id": "lido-beach-bar-sarasota",
+  "name": "Lido Beach Bar",
+  "aliases": [],
+  "location": {
+    "lat": 27.309884000000004,
+    "lng": -82.575277,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "700 Benjamin Franklin Drive",
+    "locality": "Sarasota",
+    "region": "Florida",
+    "postalCode": "34236",
+    "country": "US"
+  },
+  "formattedAddress": "700 Benjamin Franklin Dr, Sarasota, FL 34236, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "af730b7a-5918-4113-a38d-a0ab01091c27",
+    "google": "ChIJmd9jYwBrw4gR9hHKj5fT6d0"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.floridabeachbar.com/bars/lidobeachresort.asp",
+    "googleMapsUri": "https://maps.google.com/?cid=15990544599861563894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 8,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJmd9jYwBrw4gR9hHKj5fT6d0",
+      "url": "https://maps.google.com/?cid=15990544599861563894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "af730b7a-5918-4113-a38d-a0ab01091c27",
+      "url": "https://explore.overturemaps.org/#17/27.309877395629883/-82.57527923583984",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

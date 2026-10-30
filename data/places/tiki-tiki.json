@@ -1,0 +1,127 @@
+{
+  "id": "tiki-tiki",
+  "name": "Tiki Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 26.0527191,
+    "lng": -80.1145248,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6200 N Ocean Dr",
+    "locality": "Hollywood",
+    "region": "FL",
+    "postalCode": "33019",
+    "country": "US"
+  },
+  "formattedAddress": "6200 N Ocean Dr, Hollywood FL 33019, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "tiki-tiki",
+    "overture": "d43249a6-0ca7-4f02-b628-fd180b5bed2b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "954-927-9560",
+    "website": "https://letstikitiki.com/"
+  },
+  "established": 2020,
+  "tikiConfidence": 0.927,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:34:26.992Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d43249a6-0ca7-4f02-b628-fd180b5bed2b",
+      "url": "https://explore.overturemaps.org/#17/26.052719116210938/-80.1145248413086",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tiki-tiki",
+      "url": "https://tikirat.com/bars/tiki-tiki",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:34:26.992Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJIYxqp4dxhlQRcxXKfhr6w14",
+        "name": "Tiki Time Tours",
+        "distanceM": null,
+        "nameSim": 0.533
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
+        "name": "Quayside Tiki Bar",
+        "distanceM": null,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
+        "name": "ConTiki Cabana",
+        "distanceM": null,
+        "nameSim": 0.375
+      },
+      {
+        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+        "name": "Tiki Bar at the Waldorf",
+        "distanceM": null,
+        "nameSim": 0.333
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:07.983Z"
+}

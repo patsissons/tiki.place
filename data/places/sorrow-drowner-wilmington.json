@@ -1,0 +1,101 @@
+{
+  "id": "sorrow-drowner-wilmington",
+  "name": "The Sorrow Drowner",
+  "aliases": [],
+  "location": {
+    "lat": 34.2353764,
+    "lng": -77.9364393,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "19 South 10th Street",
+    "locality": "Wilmington",
+    "region": "North Carolina",
+    "postalCode": "28401",
+    "country": "US"
+  },
+  "formattedAddress": "19 S 10th St, Wilmington, NC 28401, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "9bf86bfd-946f-454a-b54a-ecb610e51d18",
+    "google": "ChIJk66VL3YfqokRFx9CQfXBEqY"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 910-769-8013",
+    "website": "http://www.sorrowdrowner.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=11966840418982829847&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 188,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJk66VL3YfqokRFx9CQfXBEqY",
+      "url": "https://maps.google.com/?cid=11966840418982829847&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9bf86bfd-946f-454a-b54a-ecb610e51d18",
+      "url": "https://explore.overturemaps.org/#17/34.23539352416992/-77.93646240234375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

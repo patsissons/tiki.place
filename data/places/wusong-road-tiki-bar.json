@@ -1,0 +1,209 @@
+{
+  "id": "wusong-road-tiki-bar",
+  "name": "Wusong Road",
+  "aliases": [
+    "Wusong Road Tiki Bar",
+    "Wusong Tiki Bar"
+  ],
+  "location": {
+    "lat": 42.372901500000005,
+    "lng": -71.1221587,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "112 Mount Auburn Street",
+    "locality": "Cambridge",
+    "region": "Massachusetts",
+    "postalCode": "02138",
+    "country": "US"
+  },
+  "formattedAddress": "112 Mt Auburn St, Cambridge, MA 02138, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "wusong-road-tiki-bar",
+    "google": "ChIJYXLO0UZ344kRR4-tRPELoyM",
+    "overture": "b4e8f101-adf5-47f2-b211-8a4af98bbaa7",
+    "osm": "node/10058484417"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1500"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1500"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 – 11:00 PM",
+      "Tuesday: 3:00 – 11:00 PM",
+      "Wednesday: 3:00 – 11:00 PM",
+      "Thursday: 12:00 PM – 12:00 AM",
+      "Friday: 12:00 PM – 12:00 AM",
+      "Saturday: 12:00 PM – 12:00 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 617-528-9125",
+    "website": "https://www.wusongroad.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=2567909343398563655&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 3094,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "established": 2021,
+  "tikiConfidence": 0.997,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:45.473Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJYXLO0UZ344kRR4-tRPELoyM",
+      "url": "https://maps.google.com/?cid=2567909343398563655&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/10058484417",
+      "url": "https://www.openstreetmap.org/node/10058484417",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b4e8f101-adf5-47f2-b211-8a4af98bbaa7",
+      "url": "https://explore.overturemaps.org/#17/42.3729248046875/-71.12222290039062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "wusong-road-tiki-bar",
+      "url": "https://tikirat.com/bars/wusong-road-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:36:45.473Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "wusong-road-cambridge",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

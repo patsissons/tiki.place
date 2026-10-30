@@ -1,42 +1,32 @@
-import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
-
+import { Slot } from "radix-ui";
+import * as React from "react";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full border border-white/60 bg-white/[0.24] text-sm font-medium text-foreground shadow-lg shadow-black/5 backdrop-blur-md transition-[background-color,box-shadow,border-color] hover:border-secondary/70 hover:bg-white/[0.36] hover:shadow-[0_0_0_1px_rgba(240,171,0,0.18),0_0_24px_rgba(240,171,0,0.32),0_12px_30px_rgba(15,23,42,0.10)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 ring-offset-background",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "",
-        secondary: "",
-        ghost: "",
-        outline: "",
-        destructive: "",
+        primary: "bg-amber text-[#1a1206] hover:bg-amber/90 shadow-[0_0_0_1px_rgba(242,169,59,.35),0_6px_20px_-8px_rgba(242,169,59,.6)]",
+        secondary: "border border-line bg-bg-raised/70 text-fg hover:bg-bg-raised",
+        ghost: "text-fg hover:bg-fg/8",
+        link: "text-seaglass underline-offset-4 hover:underline h-auto px-0",
       },
       size: {
-        default: "h-11 px-5 py-2",
-        sm: "h-9 px-4",
-        lg: "h-12 px-6",
-        icon: "h-11 w-11",
+        sm: "h-8 px-3",
+        md: "h-10 px-4",
+        lg: "h-12 px-6 text-base",
+        icon: "size-10",
       },
     },
-    defaultVariants: {
-      variant: "default",
-      size: "default",
-    },
+    defaultVariants: { variant: "secondary", size: "md" },
   },
 );
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {}
+export type ButtonProps = React.ComponentProps<"button"> & VariantProps<typeof buttonVariants> & { asChild?: boolean };
 
-const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, ...props }, ref) => {
-    return <button className={cn(buttonVariants({ variant, size, className }))} ref={ref} {...props} />;
-  },
-);
-Button.displayName = "Button";
-
-export { Button, buttonVariants };
+export function Button({ className, variant, size, asChild, ...props }: ButtonProps) {
+  const Comp = asChild ? Slot.Root : "button";
+  return <Comp className={cn(buttonVariants({ variant, size }), className)} {...props} />;
+}

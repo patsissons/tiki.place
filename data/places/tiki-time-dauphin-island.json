@@ -1,0 +1,109 @@
+{
+  "id": "tiki-time-dauphin-island",
+  "name": "Tiki Time",
+  "aliases": [],
+  "location": {
+    "lat": 30.2634506,
+    "lng": -88.114006,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Dauphin Island",
+    "region": "AL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "23ae8fe8-a5b8-46c6-8ab1-68338cfb8f8f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://tikitimedi.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "23ae8fe8-a5b8-46c6-8ab1-68338cfb8f8f",
+      "url": "https://explore.overturemaps.org/#17/30.263450622558594/-88.11400604248047",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "54ec5a33-e334-4e65-8bb7-072466b22caf",
+      "url": "https://explore.overturemaps.org/#17/30.26435661315918/-88.11488342285156",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJvfNws04bmogRr6kr0nXRUo0",
+        "name": "TikiTime",
+        "distanceM": 39477,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJ6SKC3AcHmogRf83vludj2vA",
+        "name": "Hammock Time Tiki Tours",
+        "distanceM": 54311,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJx0C0MgMHmogRuSZmNqDrW4E",
+        "name": "Get It Going Tiki Ride",
+        "distanceM": 51826,
+        "nameSim": 0.364
+      },
+      {
+        "googleId": "ChIJOd7lzUMsmogRS3W3Rg8hTdg",
+        "name": "Dauphin Island Marina Inc",
+        "distanceM": 130,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJEwh4oVUtmogRdJAx4vqdZl0",
+        "name": "Island Fun Rentals",
+        "distanceM": 998,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

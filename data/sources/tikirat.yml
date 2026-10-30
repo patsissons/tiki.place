@@ -1,0 +1,29 @@
+id: tikirat
+name: Tiki Rat
+homepage: https://tikirat.com
+adapter: tikirat
+status: active
+license:
+  name: Facts only, attribution
+  url: https://tikirat.com/terms
+  attribution: Listed on Tiki Rat
+trust: 0.7
+tikiSignal: 0.85
+schedule:
+  discovery: daily
+  detailRefreshDays: 30
+politeness:
+  minIntervalMs: 2000
+  maxRequestsPerRun: 50
+  userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
+config:
+  sitemap: https://tikirat.com/sitemap.xml
+  pathPrefix: /bars/
+  snapshot: data/snapshots/tikirat.json
+addedAt: 2026-10-26
+notes: |-
+  Curated tiki bar directory run by a friend of the project. In October 2026 the owner agreed we can slowly pull from
+  the site as long as we don't hammer it and we attribute their places. The daily sync reads only the sitemap (one
+  request per run). `pnpm sync snapshot-tikirat` is run by hand: one rendered page at least 3 s apart, committed to
+  data/snapshots/tikirat.json, which hydrates address, coordinates, phone and website with no further requests. We
+  index facts and link back from every place; editorial text is never stored.

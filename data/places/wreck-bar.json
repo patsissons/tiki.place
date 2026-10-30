@@ -1,0 +1,114 @@
+{
+  "id": "wreck-bar",
+  "name": "The Wreck Bar",
+  "aliases": [],
+  "location": {
+    "lat": 26.1087917,
+    "lng": -80.1064337,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1140 Seabreeze Blvd",
+    "locality": "Fort Lauderdale",
+    "region": "FL",
+    "postalCode": "33316",
+    "country": "US"
+  },
+  "formattedAddress": "1140 Seabreeze Blvd, Fort Lauderdale FL 33316, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "the-wreck-bar"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "954-727-7090",
+    "website": "https://thewreckbarftl.com/"
+  },
+  "established": 1956,
+  "tikiConfidence": 0.978,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:33:04.505Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-wreck-bar",
+      "url": "https://tikirat.com/bars/the-wreck-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:33:04.505Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "wreck-bar-fort-lauderdale",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJMY4zGTotpIkRnUBz0yFwLbc",
+        "name": "The Wreck Tiki Bar",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJC-tMfyQA2YgR5_jVnhVSmC8",
+        "name": "The Wreck Bar",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJN7EhLgdJ5IgRjuBepX_3G00",
+        "name": "The Wreck Tiki Lounge",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

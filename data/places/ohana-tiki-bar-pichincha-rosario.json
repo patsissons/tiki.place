@@ -1,0 +1,101 @@
+{
+  "id": "ohana-tiki-bar-pichincha-rosario",
+  "name": "Ohana Tiki Bar Pichincha",
+  "aliases": [],
+  "location": {
+    "lat": -32.9397251,
+    "lng": -60.653572800000006,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "473 Alvear",
+    "locality": "Rosario",
+    "region": "Santa Fe",
+    "postalCode": "S2000",
+    "country": "AR"
+  },
+  "formattedAddress": "Alvear 473, S2000 Rosario, Santa Fe, Argentina",
+  "timezone": "America/Argentina/Cordoba",
+  "externalIds": {
+    "overture": "8314776c-8149-4e21-9060-40013a44524d",
+    "google": "ChIJC-1-IRCrt5UR-QJlqJCJpA8"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+54 341 604-1037",
+    "googleMapsUri": "https://maps.google.com/?cid=1127177061142954745&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 73,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJC-1-IRCrt5UR-QJlqJCJpA8",
+      "url": "https://maps.google.com/?cid=1127177061142954745&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "8314776c-8149-4e21-9060-40013a44524d",
+      "url": "https://explore.overturemaps.org/#17/-32.93973159790039/-60.65357208251953",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

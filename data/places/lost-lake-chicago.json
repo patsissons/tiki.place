@@ -1,0 +1,101 @@
+{
+  "id": "lost-lake-chicago",
+  "name": "Lost Lake",
+  "aliases": [],
+  "location": {
+    "lat": 41.9321564,
+    "lng": -87.707207,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3154 West Diversey Avenue",
+    "locality": "Chicago",
+    "region": "Illinois",
+    "postalCode": "60647",
+    "country": "US"
+  },
+  "formattedAddress": "3154 W Diversey Ave, Chicago, IL 60647, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "2f11736e-75aa-4539-b44a-5dee15c46d3c",
+    "google": "ChIJ25nZ_HnND4gRtvu2GOViuoc"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 773-293-6048",
+    "website": "http://lostlaketiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9780238276890131382&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 1109,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ25nZ_HnND4gRtvu2GOViuoc",
+      "url": "https://maps.google.com/?cid=9780238276890131382&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "2f11736e-75aa-4539-b44a-5dee15c46d3c",
+      "url": "https://explore.overturemaps.org/#17/41.93206787109375/-87.70720672607422",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

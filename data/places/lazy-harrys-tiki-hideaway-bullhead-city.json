@@ -1,0 +1,96 @@
+{
+  "id": "lazy-harrys-tiki-hideaway-bullhead-city",
+  "name": "Lazy Harry's Tiki Hideaway",
+  "aliases": [],
+  "location": {
+    "lat": 35.0951118,
+    "lng": -114.6351929,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bullhead City",
+    "region": "AZ",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "d17b8eb1-0461-4dde-9d12-df9bf5fad98f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d17b8eb1-0461-4dde-9d12-df9bf5fad98f",
+      "url": "https://explore.overturemaps.org/#17/35.09511184692383/-114.63519287109375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJQbTKWkpCzoARaT9VOwGp4_8",
+        "name": "O'Learys Pub",
+        "distanceM": 8594,
+        "nameSim": 0.348
+      },
+      {
+        "googleId": "ChIJcQdoc1BBzoARaJXSKqmF_0o",
+        "name": "Hardyville tavern",
+        "distanceM": 2113,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJiyeX_bNGzoARnVNVfatcXYU",
+        "name": "The Wonder Bar",
+        "distanceM": 1075,
+        "nameSim": 0.138
+      },
+      {
+        "googleId": "ChIJtUIopX1DzoARM-T6tPZAGYQ",
+        "name": "Bullhead Belle",
+        "distanceM": 7473,
+        "nameSim": 0.071
+      },
+      {
+        "googleId": "ChIJ18LgAtZDzoARJXOaKyQ5mFU",
+        "name": "Sand Bar Cocktail Lounge",
+        "distanceM": 6150,
+        "nameSim": 0.049
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

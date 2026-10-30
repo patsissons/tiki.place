@@ -1,0 +1,90 @@
+{
+  "id": "rob-n-kriss-tiki-bar-niceville",
+  "name": "Rob n Kris's Tiki-Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.5083122,
+    "lng": -86.449585,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Niceville",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "a9ed896e-5b33-4045-a2b9-d9f2d368c60f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a9ed896e-5b33-4045-a2b9-d9f2d368c60f",
+      "url": "https://explore.overturemaps.org/#17/30.508312225341797/-86.4495849609375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJAXYMZf3FkIgRRr_UYlJM4I0",
+        "name": "Sneaky Tiki Bar",
+        "distanceM": 68612,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJV8UedKVpkYgRqqwTeQDpfAw",
+        "name": "Jim 'N Nick's Bar-B-Q",
+        "distanceM": 2229,
+        "nameSim": 0.364
+      },
+      {
+        "googleId": "ChIJzz0qY_tpkYgRiZAaLdXo0dg",
+        "name": "The Craft Bar - Niceville",
+        "distanceM": 2225,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJPReenJtpkYgRjpGAlXMvE34",
+        "name": "Standing Room Only",
+        "distanceM": 4922,
+        "nameSim": 0.133
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "mamas-fish-house",
+  "name": "Mama’s Fish House",
+  "aliases": [],
+  "location": {
+    "lat": 20.9290233,
+    "lng": -156.3670454,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "799 Poho Pl",
+    "locality": "Paia",
+    "region": "HI",
+    "postalCode": "96779",
+    "country": "US"
+  },
+  "formattedAddress": "799 Poho Pl, Paia HI 96779, USA",
+  "timezone": "Pacific/Honolulu",
+  "externalIds": {
+    "tikirat": "mama-s-fish-house"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "808-579-8488",
+    "website": "https://mamasfishhouse.com/"
+  },
+  "established": 1973,
+  "tikiConfidence": 0.978,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:27:02.815Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "mama-s-fish-house",
+      "url": "https://tikirat.com/bars/mama-s-fish-house",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:27:02.815Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "mamas-fish-house-paia",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJgz9Agw8zq34RRR2Qw8LrM5A",
+        "name": "Mama's Fish House",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJ__9vgw8zq34RuUWUa1jByac",
+        "name": "The Inn At Mama's Fish House",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

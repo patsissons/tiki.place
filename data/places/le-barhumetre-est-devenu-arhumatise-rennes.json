@@ -1,0 +1,101 @@
+{
+  "id": "le-barhumetre-est-devenu-arhumatise-rennes",
+  "name": "Le Barhumètre est devenu aRHUMatisé",
+  "aliases": [],
+  "location": {
+    "lat": 48.113048199999994,
+    "lng": -1.6797904,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "12 Rue du Champ Jacquet",
+    "locality": "Rennes",
+    "region": "Bretagne",
+    "postalCode": "35000",
+    "country": "FR"
+  },
+  "formattedAddress": "12 Rue du Champ Jacquet, 35000 Rennes, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "876e66dd-37c8-4516-bc9c-64f99f76caa5",
+    "google": "ChIJ5bREAbHfDkgRnCK7QusSGo8"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+33 2 99 38 16 97",
+    "website": "https://barhumetre.restranslate.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10311575098464346780&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 56,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ5bREAbHfDkgRnCK7QusSGo8",
+      "url": "https://maps.google.com/?cid=10311575098464346780&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "876e66dd-37c8-4516-bc9c-64f99f76caa5",
+      "url": "https://explore.overturemaps.org/#17/48.113006591796875/-1.6800090074539185",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

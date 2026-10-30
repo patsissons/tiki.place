@@ -1,0 +1,102 @@
+{
+  "id": "vacay-ean-events-reeds-spring",
+  "name": "Vacay-$ean Events",
+  "aliases": [],
+  "location": {
+    "lat": 36.6623268,
+    "lng": -93.4170532,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Reeds Spring",
+    "region": "MO",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "922f33da-39be-4283-91aa-f4dbef809bae"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://ontikitimetikibar.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "922f33da-39be-4283-91aa-f4dbef809bae",
+      "url": "https://explore.overturemaps.org/#17/36.66232681274414/-93.41705322265625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJW-5_7y4Xz4cRYxWxknZWAJA",
+        "name": "Old Wilderness Canyon",
+        "distanceM": 9695,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJpSaha3YXz4cRCwEZcukaJpA",
+        "name": "Reed's Spring",
+        "distanceM": 10276,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ5SKREiAXz4cR37f7ZfO4xHw",
+        "name": "The Rock House",
+        "distanceM": 10320,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ_apioCMJz4cR_uCGbvC2ofk",
+        "name": "Reeds Spring",
+        "distanceM": 10330,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJqwO2DAAXz4cRC4HdDUPL-IY",
+        "name": "Reeds Spring City Field",
+        "distanceM": 10609,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

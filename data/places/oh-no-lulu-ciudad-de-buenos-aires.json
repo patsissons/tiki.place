@@ -1,0 +1,77 @@
+{
+  "id": "oh-no-lulu-ciudad-de-buenos-aires",
+  "name": "Oh No Lulu",
+  "aliases": [],
+  "location": {
+    "lat": -34.5956459,
+    "lng": -58.4302597,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ciudad de Buenos Aires",
+    "country": "AR"
+  },
+  "timezone": "America/Argentina/Buenos_Aires",
+  "externalIds": {
+    "overture": "df2b876b-b874-4bf8-ba5e-f5babb4fbd4d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://ohnolulu.meitre.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "df2b876b-b874-4bf8-ba5e-f5babb4fbd4d",
+      "url": "https://explore.overturemaps.org/#17/-34.595645904541016/-58.430259704589844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ8QKcfQDLvJURFICiJKSFdtU",
+        "name": "Oh no lulu",
+        "distanceM": 1057,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

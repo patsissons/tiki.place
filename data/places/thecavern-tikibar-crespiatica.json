@@ -1,0 +1,103 @@
+{
+  "id": "thecavern-tikibar-crespiatica",
+  "name": "The Cavern TIKI BAR",
+  "aliases": [
+    "thecavern_tikibar"
+  ],
+  "location": {
+    "lat": 45.355549499999995,
+    "lng": 9.5747777,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "11 Via Roma",
+    "locality": "Crespiatica",
+    "region": "Lombardia",
+    "postalCode": "26835",
+    "country": "IT"
+  },
+  "formattedAddress": "Via Roma, 11, 26835 Crespiatica LO, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "6f94978e-814c-467c-8b26-51b762f34df9",
+    "google": "ChIJNd6SsC4wgUcR5p382RCAVS0"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+39 346 272 4768",
+    "website": "https://www.facebook.com/thecaverntikibar",
+    "googleMapsUri": "https://maps.google.com/?cid=3266657914592206310&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 69,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJNd6SsC4wgUcR5p382RCAVS0",
+      "url": "https://maps.google.com/?cid=3266657914592206310&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6f94978e-814c-467c-8b26-51b762f34df9",
+      "url": "https://explore.overturemaps.org/#17/45.355552673339844/9.574854850769043",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

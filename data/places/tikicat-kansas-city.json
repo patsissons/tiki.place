@@ -1,0 +1,101 @@
+{
+  "id": "tikicat-kansas-city",
+  "name": "TikiCat",
+  "aliases": [],
+  "location": {
+    "lat": 39.0530459,
+    "lng": -94.5906175,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "401 Westport Road",
+    "locality": "Kansas City",
+    "region": "Missouri",
+    "postalCode": "64111",
+    "country": "US"
+  },
+  "formattedAddress": "Lower, 401 Westport Rd, Kansas City, MO 64111, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "30351ca6-e165-4ce2-baba-8fbf1b29a69f",
+    "google": "ChIJoUwN18TvwIcRhZdrm6wGdKg"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 816-256-4649",
+    "website": "https://www.tikicatkc.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12138334234081990533&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 392,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJoUwN18TvwIcRhZdrm6wGdKg",
+      "url": "https://maps.google.com/?cid=12138334234081990533&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "30351ca6-e165-4ce2-baba-8fbf1b29a69f",
+      "url": "https://explore.overturemaps.org/#17/39.053096771240234/-94.59069061279297",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "tiki-lounge",
+  "name": "Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 40.4286537,
+    "lng": -79.9773865,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2003 E Carson St",
+    "locality": "Pittsburgh",
+    "region": "PA",
+    "postalCode": "15203",
+    "country": "US"
+  },
+  "formattedAddress": "2003 E Carson St, Pittsburgh PA 15203, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "tiki-lounge",
+    "overture": "17a47c10-4ab5-4188-99ae-2acdf54e98bb",
+    "osm": "way/204087583"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "412-381-8454",
+    "website": "https://pghtikilounge.com/"
+  },
+  "established": 2002,
+  "tikiConfidence": 0.992,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:33:50.997Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/204087583",
+      "url": "https://www.openstreetmap.org/way/204087583",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "17a47c10-4ab5-4188-99ae-2acdf54e98bb",
+      "url": "https://explore.overturemaps.org/#17/40.428653717041016/-79.97738647460938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tiki-lounge",
+      "url": "https://tikirat.com/bars/tiki-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:33:50.997Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-lounge-pittsburgh",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJg0Mk0NB1j1QR_muntY8JD40",
+        "name": "Tora Tiki",
+        "distanceM": null,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
+        "name": "Quayside Tiki Bar",
+        "distanceM": null,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+        "name": "Tiki Bar at the Waldorf",
+        "distanceM": null,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
+        "name": "ConTiki Cabana",
+        "distanceM": null,
+        "nameSim": 0.286
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

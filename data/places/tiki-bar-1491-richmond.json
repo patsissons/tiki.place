@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-1491-richmond",
+  "name": "Tiki Bar 1491",
+  "aliases": [],
+  "location": {
+    "lat": 49.1900024,
+    "lng": -123.1501236,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Richmond",
+    "region": "BC",
+    "country": "CA"
+  },
+  "timezone": "America/Vancouver",
+  "externalIds": {
+    "overture": "a2a2e9a1-4b9c-408a-9baa-746411663451"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a2a2e9a1-4b9c-408a-9baa-746411663451",
+      "url": "https://explore.overturemaps.org/#17/49.19000244140625/-123.1501235961914",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
+        "name": "Quayside Tiki Bar",
+        "distanceM": 17358,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJWzBYCjhrsYkRZtQ9cTkP2Cs",
+        "name": "Tiki-Tiki",
+        "distanceM": 3835132,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
+        "name": "ConTiki Cabana",
+        "distanceM": 9660,
+        "nameSim": 0.364
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": 7184,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJZRGU9WN1hlQRgl3es2bG-18",
+        "name": "Hula Poke (McArthurGlen)",
+        "distanceM": 1061,
+        "nameSim": 0.071
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

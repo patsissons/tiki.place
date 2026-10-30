@@ -1,0 +1,119 @@
+{
+  "id": "rum-room",
+  "name": "The Rum Room",
+  "aliases": [],
+  "location": {
+    "lat": 25.7977241,
+    "lng": -80.13240150000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2100 Washington Ave",
+    "locality": "Miami Beach",
+    "region": "FL",
+    "postalCode": "33139",
+    "country": "US"
+  },
+  "formattedAddress": "2100 Washington Ave, Miami Beach FL 33139, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "the-rum-room"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "786-276-4623",
+    "website": "https://rumroommiamibeach.com/"
+  },
+  "established": 2022,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:32:17.940Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-rum-room",
+      "url": "https://tikirat.com/bars/the-rum-room",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:32:17.940Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJyyXatb2jhVQR_GywamKR7yk",
+        "name": "Red Rum",
+        "distanceM": null,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJM8_O3JBxhlQRxzzY0cGTm4c",
+        "name": "The Flamingo Room",
+        "distanceM": null,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+        "name": "Tiki Bar at the Waldorf",
+        "distanceM": null,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJlTiuEmpxhlQRHup7Ag0O7Cg",
+        "name": "Key Party",
+        "distanceM": null,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "dublin-deck-tiki-bar-grill",
+  "name": "Dublin Deck Tiki Bar and Grill",
+  "aliases": [
+    "Dublin Deck Tiki Bar Grill"
+  ],
+  "location": {
+    "lat": 40.753540699999995,
+    "lng": -73.0200499,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "327 River Avenue",
+    "locality": "Patchogue",
+    "region": "New York",
+    "postalCode": "11772",
+    "country": "US"
+  },
+  "formattedAddress": "327 River Ave, Patchogue, NY 11772, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "dublin-deck-tiki-bar-grill",
+    "google": "ChIJ07EN6hRJ6IkRDHxkjWw9Jz4",
+    "overture": "7bc4c776-65bb-4c9a-bdd6-adc117ce156e"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 631-207-0370",
+    "website": "https://www.dublindeck.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4478615890881182732&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 1243,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 1996,
+  "tikiConfidence": 0.975,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:44.292Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ07EN6hRJ6IkRDHxkjWw9Jz4",
+      "url": "https://maps.google.com/?cid=4478615890881182732&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "7bc4c776-65bb-4c9a-bdd6-adc117ce156e",
+      "url": "https://explore.overturemaps.org/#17/40.75356674194336/-73.02018737792969",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "dublin-deck-tiki-bar-grill",
+      "url": "https://tikirat.com/bars/dublin-deck-tiki-bar-grill",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:22:44.292Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

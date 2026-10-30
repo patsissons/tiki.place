@@ -1,0 +1,113 @@
+{
+  "id": "tilted-tiki-tropical-bar-restaurant",
+  "name": "The Tilted Tiki Tropical Bar & Restaurant",
+  "aliases": [
+    "The Tilted Tiki Tropical Bar Restaurant"
+  ],
+  "location": {
+    "lat": 45.0543484,
+    "lng": -92.80534809999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "324 South Main Street",
+    "locality": "Stillwater",
+    "region": "Minnesota",
+    "postalCode": "55082",
+    "country": "US"
+  },
+  "formattedAddress": "324 S Main St, Stillwater, MN 55082, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "the-tilted-tiki-tropical-bar-restaurant",
+    "google": "ChIJcUBGp-zJslIRd-Rc_L7BSMw"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 651-342-2545",
+    "website": "http://www.thetiltedtiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14720228408082359415&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 1061,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 2016,
+  "tikiConfidence": 0.9,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:45.196Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJcUBGp-zJslIRd-Rc_L7BSMw",
+      "url": "https://maps.google.com/?cid=14720228408082359415&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-tilted-tiki-tropical-bar-restaurant",
+      "url": "https://tikirat.com/bars/the-tilted-tiki-tropical-bar-restaurant",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:32:45.196Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

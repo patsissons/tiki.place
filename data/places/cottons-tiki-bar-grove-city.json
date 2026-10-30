@@ -1,0 +1,101 @@
+{
+  "id": "cottons-tiki-bar-grove-city",
+  "name": "Cotton's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.8772698,
+    "lng": -83.09013379999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4268 Moore Avenue",
+    "locality": "Grove City",
+    "region": "Ohio",
+    "postalCode": "43123",
+    "country": "US"
+  },
+  "formattedAddress": "4268 Moore Ave, Grove City, OH 43123, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "9496ad12-24bd-48c0-81c8-2f938c9fdd26",
+    "google": "ChIJHVsxRgebOIgRkRqUJ7_2QOg"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 614-657-8141",
+    "website": "https://www.cottonstikibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16735647516171967121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 4,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJHVsxRgebOIgRkRqUJ7_2QOg",
+      "url": "https://maps.google.com/?cid=16735647516171967121&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9496ad12-24bd-48c0-81c8-2f938c9fdd26",
+      "url": "https://explore.overturemaps.org/#17/39.87727737426758/-83.09007263183594",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "tikisonicobar-miusic-club-valencia",
+  "name": "Tikisonicobar",
+  "aliases": [
+    "Tikisonicobar Miusic Club"
+  ],
+  "location": {
+    "lat": 39.4694133,
+    "lng": -0.3561848,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "24 Carrer de Vicent Sancho Tello",
+    "locality": "València",
+    "region": "Comunidad Valenciana",
+    "postalCode": "46021",
+    "country": "ES"
+  },
+  "formattedAddress": "Carrer de Vicent Sancho Tello, 24, El Pla del Real, 46021 València, Valencia, Spain",
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "5b48ef01-ffc3-4c16-9d19-98a0be45b2a9",
+    "google": "ChIJNdFOi5pJYA0RKTvaDHXqMQI"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 4,
+          "time": "2000"
+        },
+        "close": {
+          "day": 5,
+          "time": "0330"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "2000"
+        },
+        "close": {
+          "day": 6,
+          "time": "0330"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "2000"
+        },
+        "close": {
+          "day": 0,
+          "time": "0330"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 8:00 PM – 3:30 AM",
+      "Friday: 8:00 PM – 3:30 AM",
+      "Saturday: 8:00 PM – 3:30 AM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+34 622 22 62 55",
+    "googleMapsUri": "https://maps.google.com/?cid=158165250382379817&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 54,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJNdFOi5pJYA0RKTvaDHXqMQI",
+      "url": "https://maps.google.com/?cid=158165250382379817&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "5b48ef01-ffc3-4c16-9d19-98a0be45b2a9",
+      "url": "https://explore.overturemaps.org/#17/39.46946334838867/-0.35613176226615906",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "trader-nicks-south-shore-inn-cudahy",
+  "name": "Trader Nick's South Shore Inn",
+  "aliases": [],
+  "location": {
+    "lat": 42.9448602,
+    "lng": -87.850178,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5483 South Lake Drive",
+    "locality": "Cudahy",
+    "region": "Wisconsin",
+    "postalCode": "53110",
+    "country": "US"
+  },
+  "formattedAddress": "5483 S Lake Dr #2049, Cudahy, WI 53110, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "d0ca4859-000d-4185-831c-4ec4fd36f89d",
+    "google": "ChIJY7d19Ys9BYgR96OuLBioIjQ"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 414-897-7851",
+    "website": "https://m.facebook.com/tradernickssouth/",
+    "googleMapsUri": "https://maps.google.com/?cid=3756749860962739191&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 168,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.975,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJY7d19Ys9BYgR96OuLBioIjQ",
+      "url": "https://maps.google.com/?cid=3756749860962739191&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d0ca4859-000d-4185-831c-4ec4fd36f89d",
+      "url": "https://explore.overturemaps.org/#17/42.94480514526367/-87.8501968383789",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "trader-nicks-south-shore-inn-cudahy",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

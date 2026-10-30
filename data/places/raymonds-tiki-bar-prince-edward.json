@@ -1,0 +1,72 @@
+{
+  "id": "raymonds-tiki-bar-prince-edward",
+  "name": "Raymond’s Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 44.1378059,
+    "lng": -77.3061218,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Prince Edward",
+    "region": "ON",
+    "country": "CA"
+  },
+  "timezone": "America/Toronto",
+  "externalIds": {
+    "overture": "c2405be1-f6b6-4556-9315-34fc227cbdcd"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c2405be1-f6b6-4556-9315-34fc227cbdcd",
+      "url": "https://explore.overturemaps.org/#17/44.1378059387207/-77.30612182617188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJL4av623L14kRCuOEA7POlm0",
+        "name": "The Russ & Co.",
+        "distanceM": 19586,
+        "nameSim": 0.091
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

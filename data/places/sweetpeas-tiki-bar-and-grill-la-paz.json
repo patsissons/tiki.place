@@ -1,0 +1,114 @@
+{
+  "id": "sweetpeas-tiki-bar-and-grill-la-paz",
+  "name": "Sweetpea's Tiki Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 23.686751299999997,
+    "lng": -109.69865089999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Costa Brava",
+    "locality": "Los Barriles",
+    "region": "Baja California Sur",
+    "postalCode": "23330",
+    "country": "MX"
+  },
+  "formattedAddress": "Calle 20 de Novembre at, Costa Brava, 23330 Los Barriles, B.C.S., Mexico",
+  "timezone": "America/Mazatlan",
+  "externalIds": {
+    "overture": "3ff12b53-bb30-4474-bb41-5529554f72ae",
+    "osm": "node/9342020925",
+    "google": "ChIJFRoCVyqDr4YRDI-lkodPmyg"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+52 624 320 0016",
+    "website": "http://www.sweetpeastiki.bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=2926019826606771980&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 78,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJFRoCVyqDr4YRDI-lkodPmyg",
+      "url": "https://maps.google.com/?cid=2926019826606771980&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/9342020925",
+      "url": "https://www.openstreetmap.org/node/9342020925",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "3ff12b53-bb30-4474-bb41-5529554f72ae",
+      "url": "https://explore.overturemaps.org/#17/23.686721801757812/-109.6986083984375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

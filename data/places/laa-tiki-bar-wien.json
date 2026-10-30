@@ -1,0 +1,82 @@
+{
+  "id": "laa-tiki-bar-wien",
+  "name": "Laa Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 48.158831400000004,
+    "lng": 16.3844981,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Ludwig-von-Höhnel-Gasse",
+    "locality": "Wien",
+    "region": "Wien",
+    "postalCode": "1100",
+    "country": "AT"
+  },
+  "formattedAddress": "Ludwig-von-Höhnel-Gasse, 1100 Wien, Austria",
+  "timezone": "Europe/Vienna",
+  "externalIds": {
+    "overture": "c09a2ba4-7106-4bdd-8079-3febe212c06e",
+    "google": "ChIJ6z2Zx0ipbUcRqtg1fhILJWQ"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=7216186151985862826&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ6z2Zx0ipbUcRqtg1fhILJWQ",
+      "url": "https://maps.google.com/?cid=7216186151985862826&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c09a2ba4-7106-4bdd-8079-3febe212c06e",
+      "url": "https://explore.overturemaps.org/#17/48.1588249206543/16.38449478149414",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

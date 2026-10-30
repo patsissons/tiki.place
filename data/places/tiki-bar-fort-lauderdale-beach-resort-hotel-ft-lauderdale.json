@@ -1,0 +1,78 @@
+{
+  "id": "tiki-bar-fort-lauderdale-beach-resort-hotel-ft-lauderdale",
+  "name": "Tiki Bar - Fort Lauderdale Beach Resort Hotel",
+  "aliases": [],
+  "location": {
+    "lat": 26.1813984,
+    "lng": -80.0980453,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ft Lauderdale",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "5e1fb809-a7c0-4d57-a51f-2cbac28e07a7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.ftlbeachresort.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "5e1fb809-a7c0-4d57-a51f-2cbac28e07a7",
+      "url": "https://explore.overturemaps.org/#17/26.181398391723633/-80.0980453491211",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJxSQQdPj92IgRgumuMEBW3is",
+        "name": "Hotel Tiki Bar",
+        "distanceM": 42,
+        "nameSim": 0.6
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

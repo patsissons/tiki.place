@@ -1,0 +1,113 @@
+{
+  "id": "jungle-bird-2",
+  "name": "Jungle Bird",
+  "aliases": [],
+  "location": {
+    "lat": 40.7425414,
+    "lng": -74.00003110000002,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "174 8th Ave",
+    "locality": "New York",
+    "region": "NY",
+    "postalCode": "10011",
+    "country": "US"
+  },
+  "formattedAddress": "174 8th Ave, New York NY 10011, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "jungle-bird-2"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "646-868-8422",
+    "website": "https://junglebirdnyc.com/"
+  },
+  "established": 2019,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:25:29.762Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "jungle-bird-2",
+      "url": "https://tikirat.com/bars/jungle-bird-2",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:25:29.762Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJVVWVDB9wcVMRlOzd6iuEMSA",
+        "name": "Jungle Bird Tiki Bar & Lounge",
+        "distanceM": null,
+        "nameSim": 0.947
+      },
+      {
+        "googleId": "ChIJby-YBvs_24gR6cGkTPFeUvk",
+        "name": "Jungle Bird Tiki",
+        "distanceM": null,
+        "nameSim": 0.947
+      },
+      {
+        "googleId": "ChIJqy31s5XQmoARdbKTWuIazkg",
+        "name": "The Jungle Bird",
+        "distanceM": null,
+        "nameSim": 0.947
+      },
+      {
+        "googleId": "ChIJAcpCFvBZwokRdA1UO2M-MIo",
+        "name": "Jungle Bird",
+        "distanceM": null,
+        "nameSim": 0.947
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

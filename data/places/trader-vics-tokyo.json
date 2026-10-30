@@ -1,0 +1,213 @@
+{
+  "id": "trader-vics-tokyo",
+  "name": "Trader Vic's Tokyo",
+  "aliases": [],
+  "location": {
+    "lat": 35.6798388,
+    "lng": 139.7351429,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Hotel New Otani",
+    "locality": "Chiyoda City",
+    "region": "Tokyo",
+    "postalCode": "102-8578",
+    "country": "JP"
+  },
+  "formattedAddress": "Japan, 〒102-8578 Tokyo, Chiyoda City, Kioichō, 4−１ ニューオータニ・ガーデンタワ 4F",
+  "timezone": "Asia/Tokyo",
+  "externalIds": {
+    "tikirat": "trader-vic-s-tokyo",
+    "google": "ChIJdybFG32MGGARE130C14WF6w"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1130"
+        },
+        "close": {
+          "day": 0,
+          "time": "1430"
+        }
+      },
+      {
+        "open": {
+          "day": 0,
+          "time": "1630"
+        },
+        "close": {
+          "day": 0,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "1430"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1630"
+        },
+        "close": {
+          "day": 6,
+          "time": "2230"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:30 AM – 10:30 PM",
+      "Tuesday: 11:30 AM – 10:30 PM",
+      "Wednesday: 11:30 AM – 10:30 PM",
+      "Thursday: 11:30 AM – 10:30 PM",
+      "Friday: 11:30 AM – 10:30 PM",
+      "Saturday: 11:30 AM – 2:30 PM, 4:30 – 10:30 PM",
+      "Sunday: 11:30 AM – 2:30 PM, 4:30 – 10:30 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+81 3-3265-4707",
+    "website": "https://www.newotani.co.jp/tokyo/restaurant/vics/",
+    "googleMapsUri": "https://maps.google.com/?cid=12400404692171250963&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 722,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$$$",
+  "tikiConfidence": 0.9,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJdybFG32MGGARE130C14WF6w",
+      "url": "https://maps.google.com/?cid=12400404692171250963&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "trader-vic-s-tokyo",
+      "url": "https://tikirat.com/bars/trader-vic-s-tokyo",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:35:39.168Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:41:15.641Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

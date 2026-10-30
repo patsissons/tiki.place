@@ -1,0 +1,95 @@
+{
+  "id": "tiki-bar-and-bistro-roeselare",
+  "name": "Tiki Bar & Bistro",
+  "aliases": [],
+  "location": {
+    "lat": 50.9401817,
+    "lng": 3.1109366,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Roeselare",
+    "country": "BE"
+  },
+  "timezone": "Europe/Brussels",
+  "externalIds": {
+    "overture": "4553549c-5188-43f7-9f4c-cdb632075d2d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4553549c-5188-43f7-9f4c-cdb632075d2d",
+      "url": "https://explore.overturemaps.org/#17/50.940181732177734/3.1109366416931152",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJRzdq_rs1w0cRi1SSITHBr9g",
+        "name": "Bistrobar BIS",
+        "distanceM": 1003,
+        "nameSim": 0.714
+      },
+      {
+        "googleId": "ChIJtaxXseg1w0cRhFirnYV9Mko",
+        "name": "Bistrobar O'Noya",
+        "distanceM": 1576,
+        "nameSim": 0.588
+      },
+      {
+        "googleId": "ChIJXdIsYf-k3EcRVr-7qQsaY-I",
+        "name": "Tiki Beach",
+        "distanceM": 34524,
+        "nameSim": 0.348
+      },
+      {
+        "googleId": "ChIJ712Ha9U1w0cRZCu2C6q4eLU",
+        "name": "Restobar Verne",
+        "distanceM": 636,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJo_eCnTo1w0cRButWz5vnIus",
+        "name": "Biekamie",
+        "distanceM": 1306,
+        "nameSim": 0.182
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

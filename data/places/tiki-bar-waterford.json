@@ -1,0 +1,90 @@
+{
+  "id": "tiki-bar-waterford",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.3373489,
+    "lng": -72.1722641,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Waterford",
+    "region": "CT",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "ff575653-509e-4690-a459-6fae95a68ec8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarpa.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ff575653-509e-4690-a459-6fae95a68ec8",
+      "url": "https://explore.overturemaps.org/#17/41.33734893798828/-72.1722640991211",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJO2HmIE8R5okRFa55k0Mv35s",
+        "name": "Tiki Bar Cruises",
+        "distanceM": 15434,
+        "nameSim": 0.8
+      },
+      {
+        "googleId": "ChIJA8uZao2lJIgRxXcpvX5oOgw",
+        "name": "The Beach Tiki Bar & Boil",
+        "distanceM": 944360,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJe3yN-Wpz5okRzGE9irRAzTA",
+        "name": "Spookeasy | Pop Up Bar at Mohegan Sun",
+        "distanceM": 18413,
+        "nameSim": 0.222
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

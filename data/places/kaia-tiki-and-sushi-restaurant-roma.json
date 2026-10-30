@@ -1,0 +1,106 @@
+{
+  "id": "kaia-tiki-and-sushi-restaurant-roma",
+  "name": "Kaia | Tiki & Sushi Restaurant",
+  "aliases": [],
+  "location": {
+    "lat": 41.885044199999996,
+    "lng": 12.3874409,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "50 Via Licio Giorgieri",
+    "locality": "Roma",
+    "region": "Lazio",
+    "postalCode": "00163",
+    "country": "IT"
+  },
+  "formattedAddress": "Via Licio Giorgieri, 50, 00163 Roma RM, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "712ee044-2b0e-43ff-b8f4-6bf15a053add",
+    "google": "ChIJg4eGHbNfLxMRLzSlmdKB6SI"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+39 352 013 1548",
+    "website": "https://kaiatikibar.it/",
+    "googleMapsUri": "https://maps.google.com/?cid=2515684608383988783&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 29,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJg4eGHbNfLxMRLzSlmdKB6SI",
+      "url": "https://maps.google.com/?cid=2515684608383988783&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "712ee044-2b0e-43ff-b8f4-6bf15a053add",
+      "url": "https://explore.overturemaps.org/#17/41.885047912597656/12.387447357177734",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

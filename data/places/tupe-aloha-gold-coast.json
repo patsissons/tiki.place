@@ -1,0 +1,84 @@
+{
+  "id": "tupe-aloha-gold-coast",
+  "name": "Tupe-Aloha",
+  "aliases": [],
+  "location": {
+    "lat": -28.1676216,
+    "lng": 153.5274963,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Gold Coast",
+    "region": "QLD",
+    "country": "AU"
+  },
+  "timezone": "Australia/Brisbane",
+  "externalIds": {
+    "overture": "e672e901-20e6-4554-9f43-2f6f4f210d71"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://tupealohaptyltd.marsello.bio/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e672e901-20e6-4554-9f43-2f6f4f210d71",
+      "url": "https://explore.overturemaps.org/#17/-28.167621612548828/153.52749633789062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJq6o6zNMBkWsRJKsbmJYCuH8",
+        "name": "HiPoke",
+        "distanceM": 48,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJAfkf-9oBkWsRiNZXWlnYvv0",
+        "name": "Agave Rosa | Restaurant & Taquería",
+        "distanceM": 172,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

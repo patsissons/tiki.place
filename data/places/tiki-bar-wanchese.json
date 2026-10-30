@@ -1,0 +1,98 @@
+{
+  "id": "tiki-bar-wanchese",
+  "name": "Wanchese Tiki Bar",
+  "aliases": [
+    "The Tiki Bar"
+  ],
+  "location": {
+    "lat": 35.844004,
+    "lng": -75.6204905,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "708 Harbor Road",
+    "locality": "Wanchese",
+    "region": "North Carolina",
+    "postalCode": "27981",
+    "country": "US"
+  },
+  "formattedAddress": "708 Harbor Rd, Wanchese, NC 27981, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4688eae9-aa51-41a7-aaba-3ee2aabf429f",
+    "google": "ChIJEZ2GRgD9pIkRzzSm7VlVyfI"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://www.obxmarina.com/cms",
+    "googleMapsUri": "https://maps.google.com/?cid=17494608072224945359&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 5,
+    "count": 2,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJEZ2GRgD9pIkRzzSm7VlVyfI",
+      "url": "https://maps.google.com/?cid=17494608072224945359&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4688eae9-aa51-41a7-aaba-3ee2aabf429f",
+      "url": "https://explore.overturemaps.org/#17/35.84449005126953/-75.62136840820312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ricks-tiki-bar-basingstoke",
+  "name": "Rick's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 51.2421188,
+    "lng": -1.1285706,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Basingstoke",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "4e35e440-053b-4b23-8d2f-b2ec4f07f7b7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4e35e440-053b-4b23-8d2f-b2ec4f07f7b7",
+      "url": "https://explore.overturemaps.org/#17/51.24211883544922/-1.128570556640625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJn9x-tg_9wogRJvMcW04DGGI",
+        "name": "Ricky T's Bar & Grille",
+        "distanceM": 7077609,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJdRtydoEhdEgRj79V4k7wsFs",
+        "name": "Royal Exchange",
+        "distanceM": 3765,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "tonga-hut-restaurant-tiki-bar",
+  "name": "Tonga Hut Restaurant & Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 33.8259028,
+    "lng": -116.5465261,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "254 N Palm Canyon Dr",
+    "locality": "Palm Springs",
+    "region": "CA",
+    "postalCode": "92262",
+    "country": "US"
+  },
+  "formattedAddress": "254 N Palm Canyon Dr, Palm Springs CA 92262, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "tonga-hut-restaurant-tiki-bar"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "760-322-0931",
+    "website": "https://tongahutps.com/"
+  },
+  "established": 2013,
+  "tikiConfidence": 0.895,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:34:48.032Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tonga-hut-restaurant-tiki-bar",
+      "url": "https://tikirat.com/bars/tonga-hut-restaurant-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:34:48.032Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJB0UjK6Ub24ARjMkS-vDIVWc",
+        "name": "The Tonga Hut Restaurant and Tiki Bar",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJzwFADGGWwoARGBd1-96GyeQ",
+        "name": "Tonga Hut",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

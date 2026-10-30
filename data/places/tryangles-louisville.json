@@ -1,0 +1,101 @@
+{
+  "id": "tryangles-louisville",
+  "name": "Tryangles",
+  "aliases": [],
+  "location": {
+    "lat": 38.253519,
+    "lng": -85.745925,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "209 South Preston Street",
+    "locality": "Louisville",
+    "region": "Kentucky",
+    "postalCode": "40202",
+    "country": "US"
+  },
+  "formattedAddress": "209 S Preston St, Louisville, KY 40202, USA",
+  "timezone": "America/Kentucky/Louisville",
+  "externalIds": {
+    "overture": "33610179-89f2-458e-9d77-b510987f6a36",
+    "google": "ChIJs4WnfMdyaYgRZQI4pEHMPAE"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 502-583-6395",
+    "website": "https://louisville.gaycities.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=89170674940641893&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 75,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJs4WnfMdyaYgRZQI4pEHMPAE",
+      "url": "https://maps.google.com/?cid=89170674940641893&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "33610179-89f2-458e-9d77-b510987f6a36",
+      "url": "https://explore.overturemaps.org/#17/38.25348663330078/-85.74585723876953",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

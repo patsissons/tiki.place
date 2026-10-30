@@ -1,0 +1,96 @@
+{
+  "id": "carolyns-freaky-tiki-seffner",
+  "name": "Carolyn's Freaky Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 28.0044604,
+    "lng": -82.29032169999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1001 U.S. 92",
+    "locality": "Seffner",
+    "region": "Florida",
+    "postalCode": "33584",
+    "country": "US"
+  },
+  "formattedAddress": "1001 US-92, Seffner, FL 33584, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "b3903ca3-93ec-43bd-b778-d4f9499a5887",
+    "google": "ChIJce_Kee_LwogROO4m-gOFxpI"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 813-655-1760",
+    "googleMapsUri": "https://maps.google.com/?cid=10576287027054439992&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 1,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJce_Kee_LwogROO4m-gOFxpI",
+      "url": "https://maps.google.com/?cid=10576287027054439992&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b3903ca3-93ec-43bd-b778-d4f9499a5887",
+      "url": "https://explore.overturemaps.org/#17/28.004470825195312/-82.2903060913086",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

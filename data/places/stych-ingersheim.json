@@ -1,0 +1,72 @@
+{
+  "id": "stych-ingersheim",
+  "name": "Stych",
+  "aliases": [],
+  "location": {
+    "lat": 48.0901566,
+    "lng": 7.325665,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ingersheim",
+    "region": "GES",
+    "country": "FR"
+  },
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "664d8c3e-dee0-4280-a226-64f8d1e9bde9"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "664d8c3e-dee0-4280-a226-64f8d1e9bde9",
+      "url": "https://explore.overturemaps.org/#17/48.09015655517578/7.32566499710083",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJm6bGT0hlkUcRZK8cZf5FXAg",
+        "name": "Stych Driving School Colmar",
+        "distanceM": 1172,
+        "nameSim": 0.4
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

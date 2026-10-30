@@ -1,0 +1,101 @@
+{
+  "id": "tiki-hut-cropwell",
+  "name": "The Tiki Hut",
+  "aliases": [],
+  "location": {
+    "lat": 33.4890646,
+    "lng": -86.31779809999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "79 Rabbit Branch Circle",
+    "locality": "St. Clair County",
+    "region": "Alabama",
+    "postalCode": "35054",
+    "country": "US"
+  },
+  "formattedAddress": "79 Rabbit Branch Cir, Cropwell, AL 35054, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "ca8a61ab-2e3a-4038-8ecc-aaf965217a3e",
+    "google": "ChIJS5s8CLljiYgR-sg8g6xmdWo"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.riversedgemarina.net/the-tiki-hut",
+    "googleMapsUri": "https://maps.google.com/?cid=7671150431417714938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 36,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJS5s8CLljiYgR-sg8g6xmdWo",
+      "url": "https://maps.google.com/?cid=7671150431417714938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ca8a61ab-2e3a-4038-8ecc-aaf965217a3e",
+      "url": "https://explore.overturemaps.org/#17/33.489013671875/-86.31776428222656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

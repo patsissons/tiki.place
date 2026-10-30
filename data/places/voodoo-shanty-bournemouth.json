@@ -1,0 +1,90 @@
+{
+  "id": "voodoo-shanty-bournemouth",
+  "name": "Voodoo Shanty",
+  "aliases": [],
+  "location": {
+    "lat": 50.7305717,
+    "lng": -1.8768148,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bournemouth",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "b5c1be6b-20cc-4ee8-ae5e-bdd56efe7e4b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.voodooshanty.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b5c1be6b-20cc-4ee8-ae5e-bdd56efe7e4b",
+      "url": "https://explore.overturemaps.org/#17/50.73057174682617/-1.876814842224121",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJj0q3AhXj2UcR-h4nuSdzCAs",
+        "name": "Voodoo Daddy's",
+        "distanceM": 304056,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJAwM4HUyfc0gRj3fCFYpjCGA",
+        "name": "Urban Shanti Community Studio",
+        "distanceM": 2581,
+        "nameSim": 0.294
+      },
+      {
+        "googleId": "ChIJ8x4u4SWfc0gR6v1pDM_6Skc",
+        "name": "The Underground",
+        "distanceM": 2576,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

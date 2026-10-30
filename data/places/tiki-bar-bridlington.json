@@ -1,0 +1,102 @@
+{
+  "id": "tiki-bar-bridlington",
+  "name": "TIKI BAR",
+  "aliases": [],
+  "location": {
+    "lat": 54.0827065,
+    "lng": -0.187253,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bridlington",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "633b535e-0ed1-4714-aa1d-8a82c40a18c2"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://tikihideaway.co.uk/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "633b535e-0ed1-4714-aa1d-8a82c40a18c2",
+      "url": "https://explore.overturemaps.org/#17/54.082706451416016/-0.18725302815437317",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJr_rInEyteEgRQoRv-o1MUp0",
+        "name": "Hook & Parrot",
+        "distanceM": 9,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJqfbC0M2teEgRXe2iVf4GLK0",
+        "name": "The Cocktail Revolution",
+        "distanceM": 131,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJfz4yR2qteEgRZq5EvwhHjfc",
+        "name": "The Garden Bridlington",
+        "distanceM": 179,
+        "nameSim": 0.091
+      },
+      {
+        "googleId": "ChIJ46ZsjD2teEgR1W_Wj7d9TCE",
+        "name": ".",
+        "distanceM": 34,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ9zESVzCteEgR1BeaR9lRbVs",
+        "name": "The Three Brass Monkeys",
+        "distanceM": 151,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

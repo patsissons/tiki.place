@@ -1,0 +1,90 @@
+{
+  "id": "naked-tiki-miami-beach",
+  "name": "Naked Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 25.7822437,
+    "lng": -80.1316376,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Miami Beach",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "22331a6d-dec2-4423-b82e-bd4e3b9f4767"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.nakedtikimiami.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "22331a6d-dec2-4423-b82e-bd4e3b9f4767",
+      "url": "https://explore.overturemaps.org/#17/25.782243728637695/-80.13163757324219",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJtUvCA5K02YgRuWMUCEuCwmQ",
+        "name": "Naked Taco",
+        "distanceM": 54,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJIbIiVBW12YgRiTlRGCe5KGw",
+        "name": "Delirio Tiki Bar by Swizzle",
+        "distanceM": 9,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJcTuB5_G02YgRKP2-7hkxVq8",
+        "name": "Nikki Beach Miami Beach",
+        "distanceM": 1468,
+        "nameSim": 0.19
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "tiki-bar-puerto-vallarta",
+  "name": "Tiki Bar Puerto Vallarta",
+  "aliases": [],
+  "location": {
+    "lat": 20.6644373,
+    "lng": -105.2302675,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "532 Privada politecnico",
+    "locality": "Puerto Vallarta",
+    "region": "Jalisco",
+    "postalCode": "48315",
+    "country": "MX"
+  },
+  "formattedAddress": "Privada politecnico 532, Agua Zarca, 48315 Puerto Vallarta, Jal., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "6617e87a-29df-4ad9-8c38-acffd1bb38a5",
+    "google": "ChIJw_UZsG5FIYQRKkwE32q1xro"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "2000"
+        },
+        "close": {
+          "day": 1,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "2000"
+        },
+        "close": {
+          "day": 2,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "2000"
+        },
+        "close": {
+          "day": 3,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "2000"
+        },
+        "close": {
+          "day": 4,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "2000"
+        },
+        "close": {
+          "day": 5,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "2000"
+        },
+        "close": {
+          "day": 6,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "2000"
+        },
+        "close": {
+          "day": 0,
+          "time": "1600"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM",
+      "Tuesday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM",
+      "Wednesday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM",
+      "Thursday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM",
+      "Friday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM",
+      "Saturday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM",
+      "Sunday: 12:00 AM – 4:00 PM, 8:00 PM – 12:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+52 322 378 1998",
+    "website": "https://www.facebook.com/TikiBarPuertoVallarta/",
+    "googleMapsUri": "https://maps.google.com/?cid=13458644007056067626&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.8,
+    "count": 13,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJw_UZsG5FIYQRKkwE32q1xro",
+      "url": "https://maps.google.com/?cid=13458644007056067626&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6617e87a-29df-4ad9-8c38-acffd1bb38a5",
+      "url": "https://explore.overturemaps.org/#17/20.6644344329834/-105.23026275634766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "kalanis",
+  "name": "Kalani’s",
+  "aliases": [],
+  "location": {
+    "lat": 38.9557599,
+    "lng": -119.9425648,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1001 Heavenly Village Way",
+    "locality": "South Lake Tahoe",
+    "region": "CA",
+    "postalCode": "96150",
+    "country": "US"
+  },
+  "formattedAddress": "1001 Heavenly Village Way, South Lake Tahoe CA 96150, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "kalani-s"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "530-544-6100",
+    "website": "https://kalanis.com/"
+  },
+  "established": 2004,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:25:41.747Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "kalani-s",
+      "url": "https://tikirat.com/bars/kalani-s",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:25:41.747Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "hoa-tahiti-shore-tiki-bar-boac",
+  "name": "HOA Tahiti Shore Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 13.4730577,
+    "lng": 121.8289413,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Boac",
+    "region": "41",
+    "country": "PH"
+  },
+  "timezone": "Asia/Manila",
+  "externalIds": {
+    "overture": "b21e1b65-cdf9-4610-891e-2265af063eb4"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b21e1b65-cdf9-4610-891e-2265af063eb4",
+      "url": "https://explore.overturemaps.org/#17/13.473057746887207/121.82894134521484",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": []
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

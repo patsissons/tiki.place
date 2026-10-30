@@ -1,0 +1,109 @@
+{
+  "id": "cortez-kitchen-tiki-bar-bradenton",
+  "name": "Cortez Kitchen Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 27.4631367,
+    "lng": -82.6098175,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bradenton",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "ec593f30-eb7a-4a1d-91f0-fd3dc380fc38"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.swordfishgrillcortez.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4af4f199-a10e-45d6-b659-b04210acf86a",
+      "url": "https://explore.overturemaps.org/#17/27.463136672973633/-82.60981750488281",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ec593f30-eb7a-4a1d-91f0-fd3dc380fc38",
+      "url": "https://explore.overturemaps.org/#17/27.46599578857422/-82.68145751953125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJUVoX13ERw4gRwLvg3e88JT0",
+        "name": "Cortez Kitchen",
+        "distanceM": 7074,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJyYLCqPsRw4gRmnRlRaoSfZM",
+        "name": "Cortez Florida Vacations",
+        "distanceM": 7663,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJtdOV03ERw4gRGXAX7OPPQ1M",
+        "name": "Swordfish Grill",
+        "distanceM": 7104,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJ6fLbnXYRw4gRoW_2igruY88",
+        "name": "Tide Tables Restaurant and Marina",
+        "distanceM": 7856,
+        "nameSim": 0.143
+      },
+      {
+        "googleId": "ChIJSwkmjpkRw4gRSkHtkHlTv_U",
+        "name": "The Kokonut Hut",
+        "distanceM": 8986,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

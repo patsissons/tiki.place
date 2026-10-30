@@ -1,0 +1,101 @@
+{
+  "id": "tiki-bar-reeds-spring",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 36.6622914,
+    "lng": -93.4170776,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "48 State Highway OO",
+    "locality": "Reeds Spring",
+    "region": "Missouri",
+    "postalCode": "65737",
+    "country": "US"
+  },
+  "formattedAddress": "48 State Hwy OO, Reeds Spring, MO 65737, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "41517bdc-64dd-4fe4-b34c-35eb9a812d46",
+    "google": "ChIJ12kzkX8Zz4cRLJyL8oOqKO8"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 323-240-2076",
+    "website": "http://www.ontikitimetikibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=17233211457819876396&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 14,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ12kzkX8Zz4cRLJyL8oOqKO8",
+      "url": "https://maps.google.com/?cid=17233211457819876396&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "41517bdc-64dd-4fe4-b34c-35eb9a812d46",
+      "url": "https://explore.overturemaps.org/#17/36.662376403808594/-93.41705322265625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

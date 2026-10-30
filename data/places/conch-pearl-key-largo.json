@@ -1,0 +1,102 @@
+{
+  "id": "conch-pearl-key-largo",
+  "name": "The Conch Pearl",
+  "aliases": [],
+  "location": {
+    "lat": 25.086319,
+    "lng": -80.4382324,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Key Largo",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "23e28e2c-06f2-42fe-a037-95c15d15f2dc"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://instagram.com/theconchpearl?utm_medium=copy_link"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "23e28e2c-06f2-42fe-a037-95c15d15f2dc",
+      "url": "https://explore.overturemaps.org/#17/25.086318969726562/-80.438232421875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJB-rdu0ix0YgR4FLPnOo0FAg",
+        "name": "Schooner Conch Pearl",
+        "distanceM": 146238,
+        "nameSim": 0.8
+      },
+      {
+        "googleId": "ChIJkwaIzt4_14gRPPYtF6qYUWE",
+        "name": "Conch Reef",
+        "distanceM": 13951,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJTc_Ofey20YgREcaOcAUpNpg",
+        "name": "Conch Jewelers",
+        "distanceM": 149927,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJv7iOMMdp14gRwgHFig_xZhk",
+        "name": "Key Largo Conch House",
+        "distanceM": 1506,
+        "nameSim": 0.385
+      },
+      {
+        "googleId": "ChIJ76teqwNC14gRsEHXB1ciKD4",
+        "name": "Shell World",
+        "distanceM": 2821,
+        "nameSim": 0.111
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

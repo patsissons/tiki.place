@@ -1,0 +1,102 @@
+{
+  "id": "tiki-bar-hartland",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 43.1870461,
+    "lng": -88.2935715,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Hartland",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "c7ed2a23-b6c9-418d-b05a-8b025855da2b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarpa.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c7ed2a23-b6c9-418d-b05a-8b025855da2b",
+      "url": "https://explore.overturemaps.org/#17/43.18704605102539/-88.29357147216797",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJWzCxRxt9BIgRmSGJvJ-v-nY",
+        "name": "Tiki Beach Resort",
+        "distanceM": 52190,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJda4MUi6zBYgRe0rs3WMDkWE",
+        "name": "Woody's Bar & Grill",
+        "distanceM": 6927,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJee0KJCyzBYgRup1pv2wYG5E",
+        "name": "Duke's Bar & Grill",
+        "distanceM": 10404,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJx17HYD-yBYgRPnx8krE2BOY",
+        "name": "Tabi's Lake Country",
+        "distanceM": 10154,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJz5iJM22zBYgR_kEXaxAQ6OQ",
+        "name": "Gristmill Public House",
+        "distanceM": 10596,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

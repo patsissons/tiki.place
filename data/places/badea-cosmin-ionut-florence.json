@@ -1,0 +1,78 @@
+{
+  "id": "badea-cosmin-ionut-florence",
+  "name": "Badea Cosmin Ionut",
+  "aliases": [],
+  "location": {
+    "lat": 43.7876053,
+    "lng": 11.2306662,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "FLORENCE",
+    "region": "Metropolitan City of Florence",
+    "country": "IT"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "394bb0e8-03db-48a4-84d4-4671d899f802"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "394bb0e8-03db-48a4-84d4-4671d899f802",
+      "url": "https://explore.overturemaps.org/#17/43.78760528564453/11.230666160583496",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJS54RLV1XKhMRGxAPHX7pObw",
+        "name": "Badea Cosmin ionut",
+        "distanceM": 3,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJedxzaABXKhMRA02EtDfczLA",
+        "name": "Badea cosmin ionut",
+        "distanceM": 34,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

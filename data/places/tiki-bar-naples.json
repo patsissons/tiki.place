@@ -1,0 +1,111 @@
+{
+  "id": "tiki-bar-naples",
+  "name": "Tiki Bars",
+  "aliases": [
+    "The Tiki Bar"
+  ],
+  "location": {
+    "lat": 26.1362019,
+    "lng": -81.7926025,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Naples",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "a4c880e3-b6d5-426c-a76c-c8cce5e71f96"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarpa.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "0f132f21-8345-4ef9-a5f1-6ea548e111ba",
+      "url": "https://explore.overturemaps.org/#17/26.136201858520508/-81.7926025390625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a4c880e3-b6d5-426c-a76c-c8cce5e71f96",
+      "url": "https://explore.overturemaps.org/#17/26.182851791381836/-81.68899536132812",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJM-YKGqXv2ogRrIjU5g8BPmI",
+        "name": "Dolphin Tiki Bar & Grill",
+        "distanceM": 20542,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJTYrhWnnl2ogRDF-RpGRVv2U",
+        "name": "Cheeky Tiki",
+        "distanceM": 9981,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJx-braO3l2ogRo4QngGYqE-s",
+        "name": "Tiki Hut of Naples",
+        "distanceM": 8644,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJL9YYG7vj2ogRLU-QEf1LQtA",
+        "name": "Cruisin' Tikis Naples",
+        "distanceM": 267,
+        "nameSim": 0.273
+      },
+      {
+        "googleId": "ChIJg-0VVZvh2ogRwD9wSObv85o",
+        "name": "The Cabana Bayfront",
+        "distanceM": 811,
+        "nameSim": 0.143
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,106 @@
+{
+  "id": "drifters-tiki-bar-three-rivers",
+  "name": "Drifters Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 46.1657374,
+    "lng": -62.64570529999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3 Station Street",
+    "locality": "Montague",
+    "region": "Prince Edward Island",
+    "postalCode": "C0A 1G0",
+    "country": "CA"
+  },
+  "formattedAddress": "3 Station St, Montague, PE C0A 1G0, Canada",
+  "timezone": "America/Halifax",
+  "externalIds": {
+    "overture": "846f4696-eee1-4f10-843a-f511f0e62304",
+    "google": "ChIJBZLylo1pXksRSjlQezOYJ24"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 782-377-4917",
+    "website": "https://www.facebook.com/profile.php?id=61558987864223&mibextid=LQQJ4d",
+    "googleMapsUri": "https://maps.google.com/?cid=7937480215143397706&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 13,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJBZLylo1pXksRSjlQezOYJ24",
+      "url": "https://maps.google.com/?cid=7937480215143397706&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "846f4696-eee1-4f10-843a-f511f0e62304",
+      "url": "https://explore.overturemaps.org/#17/46.16573715209961/-62.645713806152344",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

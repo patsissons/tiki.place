@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-motherwell",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 55.7813492,
+    "lng": -4.0064187,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Motherwell",
+    "region": "SCT",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "7563b6e8-4409-4657-90ef-f64d9543fd39"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.tikibarglasgow.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "7563b6e8-4409-4657-90ef-f64d9543fd39",
+      "url": "https://explore.overturemaps.org/#17/55.781349182128906/-4.006418704986572",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJpcbLsidEiEgRRjxEoGWGj7E",
+        "name": "Tiki Bar & Darts Den",
+        "distanceM": 18598,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJnatCsExriEgR2F-eil2NY1E",
+        "name": "Electric Bar",
+        "distanceM": 738,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJLcXR5dVriEgRSqqRev-TaCQ",
+        "name": "Merlins Bar",
+        "distanceM": 1320,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJxbMBo1NriEgRaWxJ0XAc2OE",
+        "name": "New Century",
+        "distanceM": 1503,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

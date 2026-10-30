@@ -1,0 +1,22 @@
+id: user-submission
+name: Reader submissions
+homepage: https://github.com/patsissons/tiki.place/issues?q=label%3Asubmission
+adapter: user-submission
+status: active
+license:
+  name: Contributed
+  url: https://github.com/patsissons/tiki.place/issues?q=label%3Asubmission
+  attribution: Suggested by a reader
+trust: 0.4
+tikiSignal: 0.5
+schedule:
+  discovery: daily
+politeness:
+  minIntervalMs: 1000
+  maxRequestsPerRun: 5
+  userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
+config:
+  repo: patsissons/tiki.place
+  label: submission
+addedAt: 2026-10-26
+notes: Open issues labelled `submission`, filed by /submit. Each carries a JSON block parsed into an observation. Review with `pnpm review`.

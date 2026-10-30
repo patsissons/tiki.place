@@ -1,0 +1,96 @@
+{
+  "id": "tiki-cantina-and-fusion-restaurant-bonita-springs",
+  "name": "Tiki Cantina & Fusion Restaurant",
+  "aliases": [],
+  "location": {
+    "lat": 26.3301811,
+    "lng": -81.8216019,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bonita Springs",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "1b846d47-2e1f-48c8-bdeb-352650aa8f07"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "1b846d47-2e1f-48c8-bdeb-352650aa8f07",
+      "url": "https://explore.overturemaps.org/#17/26.330181121826172/-81.82160186767578",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJoxDeyNsV24gRVyusmjs2-mA",
+        "name": "The Tiki Bar",
+        "distanceM": 16310,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJzZac7KYZ24gRu0jh-ObM0VU",
+        "name": "Komoon Thai Sushi & Ceviche - Bonita Springs",
+        "distanceM": 1106,
+        "nameSim": 0.262
+      },
+      {
+        "googleId": "ChIJ0_s9cPUZ24gRuPjp1oX7QtE",
+        "name": "Muji Thai Country and Sushi(Bonita Beach rd)",
+        "distanceM": 1,
+        "nameSim": 0.237
+      },
+      {
+        "googleId": "ChIJxcxv23VP2YARP-mNjLIZDnM",
+        "name": "Chief's Da Tiki Bar",
+        "distanceM": 3463789,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJz8t9B2MX24gRi9OeK6KzlY8",
+        "name": "Koi Lounge",
+        "distanceM": 5361,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

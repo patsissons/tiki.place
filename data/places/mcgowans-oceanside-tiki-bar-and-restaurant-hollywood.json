@@ -1,0 +1,101 @@
+{
+  "id": "mcgowans-oceanside-tiki-bar-and-restaurant-hollywood",
+  "name": "McGowan's Oceanside Tiki Bar & Restaurant",
+  "aliases": [],
+  "location": {
+    "lat": 26.014336099999998,
+    "lng": -80.11568609999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "298 Arizona Street",
+    "locality": "Hollywood",
+    "region": "Florida",
+    "postalCode": "33019",
+    "country": "US"
+  },
+  "formattedAddress": "298 Arizona St, Hollywood, FL 33019, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "65170702-2241-45b6-9c59-8a58187b51ee",
+    "google": "ChIJ9XIvuz6r2YgRh9J_SnHABcs"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://toucansoceanside.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14629310557396652679&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 2.9,
+    "count": 337,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ9XIvuz6r2YgRh9J_SnHABcs",
+      "url": "https://maps.google.com/?cid=14629310557396652679&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "65170702-2241-45b6-9c59-8a58187b51ee",
+      "url": "https://explore.overturemaps.org/#17/26.01437759399414/-80.11570739746094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

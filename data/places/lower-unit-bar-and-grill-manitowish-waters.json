@@ -1,0 +1,106 @@
+{
+  "id": "lower-unit-bar-and-grill-manitowish-waters",
+  "name": "The Lower Unit Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 46.1150458,
+    "lng": -89.8305809,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5536 U.S. 51",
+    "locality": "Manitowish Waters",
+    "region": "Wisconsin",
+    "postalCode": "54545",
+    "country": "US"
+  },
+  "formattedAddress": "5536 US-51, Manitowish Waters, WI 54545, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "61f412a6-4643-4dc3-bf30-48dc2e6cdd8f",
+    "google": "ChIJj-EkxrjkVU0Rda9KkiIBiuw"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 715-543-8456",
+    "website": "https://www.greerspier.com/restaurant",
+    "googleMapsUri": "https://maps.google.com/?cid=17044436987731947381&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 66,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJj-EkxrjkVU0Rda9KkiIBiuw",
+      "url": "https://maps.google.com/?cid=17044436987731947381&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "61f412a6-4643-4dc3-bf30-48dc2e6cdd8f",
+      "url": "https://explore.overturemaps.org/#17/46.11490249633789/-89.83045959472656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

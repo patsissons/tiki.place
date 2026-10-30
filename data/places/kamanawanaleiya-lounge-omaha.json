@@ -1,0 +1,96 @@
+{
+  "id": "kamanawanaleiya-lounge-omaha",
+  "name": "Kamanawanaleiya Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 41.2851982,
+    "lng": -96.0717773,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Omaha",
+    "region": "NE",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "857a67b1-1347-4807-b713-39d93cb5b719"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "857a67b1-1347-4807-b713-39d93cb5b719",
+      "url": "https://explore.overturemaps.org/#17/41.28519821166992/-96.07177734375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJAf6mA66Mk4cR9xMf8F9fttM",
+        "name": "Getaway Lounge",
+        "distanceM": 8295,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJPw1USAbxk4cRDbq8QE3jOoo",
+        "name": "Hideaway Lounge",
+        "distanceM": 14852,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJjeRNDkaNk4cRMs-HKaLJw_s",
+        "name": "African cocktail lounge",
+        "distanceM": 4031,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJGV6hD6-Pk4cR-FHEQRBrA40",
+        "name": "Laka Lono Rum Club",
+        "distanceM": 12112,
+        "nameSim": 0.194
+      },
+      {
+        "googleId": "ChIJlUdS_gDxk4cRgZCsNp-mwPo",
+        "name": "Copa Cabana",
+        "distanceM": 11493,
+        "nameSim": 0.19
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

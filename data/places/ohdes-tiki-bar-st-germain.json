@@ -1,0 +1,106 @@
+{
+  "id": "ohdes-tiki-bar-st-germain",
+  "name": "Ohde's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 45.8992271,
+    "lng": -89.4870605,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "8085 State Highway 70 East",
+    "locality": "Saint Germain",
+    "region": "Wisconsin",
+    "postalCode": "54558",
+    "country": "US"
+  },
+  "formattedAddress": "8085 State Hwy 70 E, St Germain, WI 54558, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "57469f6f-5da7-4bbe-948c-4eca7a6ddd94",
+    "google": "ChIJMbQvx5C3VU0RJ4XxOzjR3h8"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 715-479-7331",
+    "website": "https://www.facebook.com/ohdestikibarstgermain/",
+    "googleMapsUri": "https://maps.google.com/?cid=2296502899459589415&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.9,
+    "count": 27,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJMbQvx5C3VU0RJ4XxOzjR3h8",
+      "url": "https://maps.google.com/?cid=2296502899459589415&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "57469f6f-5da7-4bbe-948c-4eca7a6ddd94",
+      "url": "https://explore.overturemaps.org/#17/45.8992919921875/-89.4871597290039",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

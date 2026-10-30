@@ -1,0 +1,183 @@
+{
+  "id": "lone-palm-beach-bar-hollywood",
+  "name": "Lone Palm Beach Bar",
+  "aliases": [],
+  "location": {
+    "lat": 26.018537199999997,
+    "lng": -80.11543329999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1111 North Ocean Drive",
+    "locality": "Hollywood",
+    "region": "Florida",
+    "postalCode": "33019",
+    "country": "US"
+  },
+  "formattedAddress": "1111 N Ocean Dr, Hollywood, FL 33019, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "54167254-2a7a-4e32-b4c0-020bbbefb323",
+    "google": "ChIJFeW4-Tyr2YgRWN3VQam80pw"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1000"
+        },
+        "close": {
+          "day": 1,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1000"
+        },
+        "close": {
+          "day": 2,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1000"
+        },
+        "close": {
+          "day": 3,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1000"
+        },
+        "close": {
+          "day": 4,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1000"
+        },
+        "close": {
+          "day": 5,
+          "time": "1900"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1000"
+        },
+        "close": {
+          "day": 6,
+          "time": "1900"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 10:00 AM – 6:00 PM",
+      "Tuesday: 10:00 AM – 6:00 PM",
+      "Wednesday: 10:00 AM – 6:00 PM",
+      "Thursday: 10:00 AM – 6:00 PM",
+      "Friday: 10:00 AM – 7:00 PM",
+      "Saturday: 10:00 AM – 7:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 954-874-4444",
+    "website": "https://www.margaritavillehollywoodbeachresort.com/the-resort/drinks-dining/lone-palm-beach-bar/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp",
+    "googleMapsUri": "https://maps.google.com/?cid=11300301850166025560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 66,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJFeW4-Tyr2YgRWN3VQam80pw",
+      "url": "https://maps.google.com/?cid=11300301850166025560&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "54167254-2a7a-4e32-b4c0-020bbbefb323",
+      "url": "https://explore.overturemaps.org/#17/26.018529891967773/-80.11544036865234",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "cascades-pool-bar-longboat-key",
+  "name": "Cascades Pool Bar",
+  "aliases": [],
+  "location": {
+    "lat": 27.3988476,
+    "lng": -82.6488953,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Longboat Key",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "3509bf33-e97d-4c32-95c8-55bf2c1c2884"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.zotabeachresort.com/dining/pool-bar/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3509bf33-e97d-4c32-95c8-55bf2c1c2884",
+      "url": "https://explore.overturemaps.org/#17/27.398847579956055/-82.64889526367188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ62qtuiVBw4gRFdwvl9Z4X_Y",
+        "name": "Perspective Rooftop Pool Bar",
+        "distanceM": 12386,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJn__xJX4Tw4gREAMZO74dFbI",
+        "name": "Viento Kitchen & Bar - Zota Beach Resort",
+        "distanceM": 46,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJ86LCO5ATw4gRgUKudqUxGC8",
+        "name": "Cedars Tennis Resort & Club",
+        "distanceM": 2341,
+        "nameSim": 0.108
+      },
+      {
+        "googleId": "ChIJpYzyJX4Tw4gR7Eisirbe6xI",
+        "name": "Zota Beach Resort",
+        "distanceM": 38,
+        "nameSim": 0.083
+      },
+      {
+        "googleId": "ChIJqZAQtMVqw4gRQSMDzhntYY4",
+        "name": "Resort at Longboat Key",
+        "distanceM": 9522,
+        "nameSim": 0.077
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

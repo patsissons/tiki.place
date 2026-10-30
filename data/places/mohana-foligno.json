@@ -1,0 +1,183 @@
+{
+  "id": "mohana-foligno",
+  "name": "Mohana",
+  "aliases": [],
+  "location": {
+    "lat": 42.9546523,
+    "lng": 12.700350499999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "97 Via Antonio Gramsci",
+    "locality": "Foligno",
+    "region": "Umbria",
+    "postalCode": "06034",
+    "country": "IT"
+  },
+  "formattedAddress": "Via Antonio Gramsci, 97, 06034 Foligno PG, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "88f793aa-a04a-4a29-94fa-d961878b6adb",
+    "google": "ChIJ2XqnNkGFLhMRkiwoUHRvlsk"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1800"
+        },
+        "close": {
+          "day": 2,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0230"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:00 PM – 1:00 AM",
+      "Tuesday: Closed",
+      "Wednesday: 6:00 PM – 2:30 AM",
+      "Thursday: 6:00 PM – 2:30 AM",
+      "Friday: 6:00 PM – 2:30 AM",
+      "Saturday: 6:00 PM – 2:30 AM",
+      "Sunday: 6:00 PM – 1:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+39 392 097 2429",
+    "website": "https://instagram.com/wearemohana?igshid=MzRlODBiNWFlZA==",
+    "googleMapsUri": "https://maps.google.com/?cid=14525920193481813138&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 21,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ2XqnNkGFLhMRkiwoUHRvlsk",
+      "url": "https://maps.google.com/?cid=14525920193481813138&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "88f793aa-a04a-4a29-94fa-d961878b6adb",
+      "url": "https://explore.overturemaps.org/#17/42.95465087890625/12.700373649597168",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

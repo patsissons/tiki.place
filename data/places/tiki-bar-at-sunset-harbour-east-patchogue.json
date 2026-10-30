@@ -1,0 +1,106 @@
+{
+  "id": "tiki-bar-at-sunset-harbour-east-patchogue",
+  "name": "The Tiki Bar At Sunset Harbour",
+  "aliases": [],
+  "location": {
+    "lat": 40.7534255,
+    "lng": -72.9862442,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "90 Colonial Drive",
+    "locality": "East Patchogue",
+    "region": "New York",
+    "postalCode": "11772",
+    "country": "US"
+  },
+  "formattedAddress": "90 Colonial Dr, East Patchogue, NY 11772, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "726a1e79-47aa-40ec-b7a2-40c322ffb2b2",
+    "google": "ChIJQU1-sc5O6IkRX5mta0m4e8M"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 631-289-2582",
+    "website": "http://www.thetikibaratsunsetharbour.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14086054885010020703&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 598,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJQU1-sc5O6IkRX5mta0m4e8M",
+      "url": "https://maps.google.com/?cid=14086054885010020703&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "726a1e79-47aa-40ec-b7a2-40c322ffb2b2",
+      "url": "https://explore.overturemaps.org/#17/40.75341033935547/-72.98626708984375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

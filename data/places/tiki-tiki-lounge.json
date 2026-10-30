@@ -1,0 +1,114 @@
+{
+  "id": "tiki-tiki-lounge",
+  "name": "The Tiki Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 35.1232941,
+    "lng": -106.5513077,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3517 Wyoming Blvd NE",
+    "locality": "Albuquerque",
+    "region": "NM",
+    "postalCode": "87111",
+    "country": "US"
+  },
+  "formattedAddress": "3517 Wyoming Blvd NE, Albuquerque NM 87111, USA",
+  "timezone": "America/Denver",
+  "externalIds": {
+    "tikirat": "the-tiki-tiki-lounge"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "505-503-6806"
+  },
+  "established": 2021,
+  "tikiConfidence": 0.895,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:32:41.957Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-tiki-tiki-lounge",
+      "url": "https://tikirat.com/bars/the-tiki-tiki-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:32:41.957Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJg0Mk0NB1j1QR_muntY8JD40",
+        "name": "Tora Tiki",
+        "distanceM": null,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
+        "name": "The Shameful Tiki Room",
+        "distanceM": null,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
+        "name": "Quayside Tiki Bar",
+        "distanceM": null,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+        "name": "Tiki Bar at the Waldorf",
+        "distanceM": null,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
+        "name": "ConTiki Cabana",
+        "distanceM": null,
+        "nameSim": 0.273
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

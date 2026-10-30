@@ -1,0 +1,101 @@
+{
+  "id": "coconut-joes-erie",
+  "name": "Coconut Joes",
+  "aliases": [],
+  "location": {
+    "lat": 42.1298339,
+    "lng": -80.0866111,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "28 North Park Row",
+    "locality": "Erie",
+    "region": "Pennsylvania",
+    "postalCode": "16501",
+    "country": "US"
+  },
+  "formattedAddress": "28 N Park Row, Erie, PA 16501, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "9a5a1ffe-5c91-40a5-83a9-109ccd0e9476",
+    "google": "ChIJUf4AL-V_LYgRicYquUP2Ah4"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 814-455-4705",
+    "website": "http://cjoes.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=2162561541821089417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 409,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJUf4AL-V_LYgRicYquUP2Ah4",
+      "url": "https://maps.google.com/?cid=2162561541821089417&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9a5a1ffe-5c91-40a5-83a9-109ccd0e9476",
+      "url": "https://explore.overturemaps.org/#17/42.12992477416992/-80.0865478515625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

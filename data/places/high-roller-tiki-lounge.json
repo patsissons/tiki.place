@@ -1,0 +1,134 @@
+{
+  "id": "high-roller-tiki-lounge",
+  "name": "High Roller Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 34.593998899999995,
+    "lng": -120.13906069999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "433 Alisal Road",
+    "locality": "Solvang",
+    "region": "California",
+    "postalCode": "93463",
+    "country": "US"
+  },
+  "formattedAddress": "433 Alisal Rd, Solvang, CA 93463, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "high-roller-tiki-lounge",
+    "google": "ChIJ9SYZ46NU6YAR-vWCc-STmxo",
+    "overture": "ef34bbc9-a69f-4f42-9a82-abb250f1b6e0",
+    "osm": "node/10055948817"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "— (email)",
+    "website": "http://www.highrollertiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1917288675776067066&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 214,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 2016,
+  "tikiConfidence": 0.997,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:20.785Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:20.785Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ9SYZ46NU6YAR-vWCc-STmxo",
+      "url": "https://maps.google.com/?cid=1917288675776067066&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/10055948817",
+      "url": "https://www.openstreetmap.org/node/10055948817",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ef34bbc9-a69f-4f42-9a82-abb250f1b6e0",
+      "url": "https://explore.overturemaps.org/#17/34.59406280517578/-120.13905334472656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "high-roller-tiki-lounge",
+      "url": "https://tikirat.com/bars/high-roller-tiki-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:24:20.785Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "high-roller-tiki-lounge-solvang",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

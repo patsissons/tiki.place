@@ -1,0 +1,101 @@
+{
+  "id": "revival-house",
+  "name": "Revival House",
+  "aliases": [],
+  "location": {
+    "lat": 41.585125,
+    "lng": -93.620582,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "316 Court Ave",
+    "locality": "Des Moines",
+    "region": "IA",
+    "postalCode": "50309",
+    "country": "US"
+  },
+  "formattedAddress": "316 Court Ave, Des Moines IA 50309, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "revival-house"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "515-650-8368",
+    "website": "https://revivalhousebar.com/"
+  },
+  "established": 2021,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "revival-house",
+      "url": "https://tikirat.com/bars/revival-house",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:28:50.869Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJDSUc3JCZ7ocRYVvqis3orU8",
+        "name": "Revival House",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJSfPBbwCPk4cR8RobRk385VI",
+        "name": "Revival House",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

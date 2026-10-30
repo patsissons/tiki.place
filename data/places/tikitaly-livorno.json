@@ -1,0 +1,102 @@
+{
+  "id": "tikitaly-livorno",
+  "name": "Tikitaly",
+  "aliases": [],
+  "location": {
+    "lat": 43.5352821,
+    "lng": 10.2992802,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Livorno",
+    "region": "52",
+    "country": "IT"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "90c186d5-d693-4cac-a922-13fe43282b6f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://tikitaly.it/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "90c186d5-d693-4cac-a922-13fe43282b6f",
+      "url": "https://explore.overturemaps.org/#17/43.535282135009766/10.299280166625977",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJp0XAvZPHzhIRR6dj-mEEClw",
+        "name": "Tikitaly",
+        "distanceM": 295848,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJJ4UrAwDp1RIRwPNbpx_zeIM",
+        "name": "Livorno Italia",
+        "distanceM": 1737,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJ5TnD_1_p1RIRAeQyZ89luHM",
+        "name": "Il Tirreno",
+        "distanceM": 2973,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJ0_38YHDp1RIRxbqKpZghZfw",
+        "name": "Sketch",
+        "distanceM": 1466,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJSQ1kMMzu1RIRR77yIB34c-U",
+        "name": "The Cage",
+        "distanceM": 4238,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

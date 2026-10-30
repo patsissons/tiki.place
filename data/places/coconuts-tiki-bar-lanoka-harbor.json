@@ -1,0 +1,72 @@
+{
+  "id": "coconuts-tiki-bar-lanoka-harbor",
+  "name": "Coconuts tiki bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.8682938,
+    "lng": -74.1523132,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lanoka Harbor",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "5b9fa7b6-1e02-4a8e-a391-13cf324101e7"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "5b9fa7b6-1e02-4a8e-a391-13cf324101e7",
+      "url": "https://explore.overturemaps.org/#17/39.86829376220703/-74.15231323242188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJRz6ky1mgwYkRomn_KTr4E70",
+        "name": "Captain’s Inn & Tiki Bar",
+        "distanceM": 5069,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

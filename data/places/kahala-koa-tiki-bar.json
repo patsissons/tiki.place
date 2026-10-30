@@ -1,0 +1,185 @@
+{
+  "id": "kahala-koa-tiki-bar",
+  "name": "Kahala Koa Tiki Bar",
+  "aliases": [
+    "Kahala Koa"
+  ],
+  "location": {
+    "lat": 42.103559399999995,
+    "lng": -87.96748749999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1612 East Rand Road",
+    "locality": "Arlington Heights",
+    "region": "Illinois",
+    "postalCode": "60004",
+    "country": "US"
+  },
+  "formattedAddress": "1612 E Rand Rd, Arlington Heights, IL 60004, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "kahala-koa-tiki-bar",
+    "google": "ChIJex0Dl0-7D4gR16TToawPyQY",
+    "overture": "032f09e3-0918-49e2-8377-77f8369b6a65"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1630"
+        },
+        "close": {
+          "day": 6,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1630"
+        },
+        "close": {
+          "day": 0,
+          "time": "0030"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 5:00 – 10:00 PM",
+      "Friday: 4:30 PM – 12:30 AM",
+      "Saturday: 4:30 PM – 12:30 AM",
+      "Sunday: 5:00 – 9:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 847-873-1125",
+    "website": "http://www.kahalakoa.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=488939268670203095&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 204,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 2024,
+  "tikiConfidence": 0.996,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:35.737Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJex0Dl0-7D4gR16TToawPyQY",
+      "url": "https://maps.google.com/?cid=488939268670203095&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "032f09e3-0918-49e2-8377-77f8369b6a65",
+      "url": "https://explore.overturemaps.org/#17/42.10356903076172/-87.96751403808594",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "kahala-koa-tiki-bar",
+      "url": "https://tikirat.com/bars/kahala-koa-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:25:35.737Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "kahala-koa-arlington-heights",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

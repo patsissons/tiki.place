@@ -1,0 +1,90 @@
+{
+  "id": "bud-light-lime-lime-a-rita-tiki-terrace-akron",
+  "name": "Bud Light Lime Lime-A-Rita Tiki Terrace",
+  "aliases": [],
+  "location": {
+    "lat": 41.0785942,
+    "lng": -81.5214539,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Akron",
+    "region": "OH",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "d4b2ce33-ca10-42c1-b983-8a4020cdb795"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.milb.com/content/page.jsp?ymd=20140128&content_id=67199996&sid=t402&vkey=tickets"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "d4b2ce33-ca10-42c1-b983-8a4020cdb795",
+      "url": "https://explore.overturemaps.org/#17/41.07859420776367/-81.52145385742188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ2xsBVeogMYgRSHh3NPM0qiQ",
+        "name": "Tiki Underground",
+        "distanceM": 6566,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJp4-cuhXWMIgRFW8XVEoTdDo",
+        "name": "7 17 Credit Union Park",
+        "distanceM": 83,
+        "nameSim": 0.1
+      },
+      {
+        "googleId": "ChIJ7UzaYQDXMIgR2KXHDTYdjSU",
+        "name": "Duck Club at Canal Park",
+        "distanceM": 40,
+        "nameSim": 0.091
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

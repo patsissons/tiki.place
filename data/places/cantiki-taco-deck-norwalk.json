@@ -1,0 +1,101 @@
+{
+  "id": "cantiki-taco-deck-norwalk",
+  "name": "Cantiki Taco Deck",
+  "aliases": [],
+  "location": {
+    "lat": 41.098825999999995,
+    "lng": -73.41831859999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "80 Washington Street",
+    "locality": "Norwalk",
+    "region": "Connecticut",
+    "postalCode": "06854",
+    "country": "US"
+  },
+  "formattedAddress": "80 Washington St #1, Norwalk, CT 06854, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "43126c1d-71d0-4c81-93fc-e90bbee484ac",
+    "google": "ChIJJz8MZXAf6IkR7UzwXCrxWTs"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 203-939-1569",
+    "website": "http://www.cantikisono.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4276714485415169261&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 2.6,
+    "count": 25,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJJz8MZXAf6IkR7UzwXCrxWTs",
+      "url": "https://maps.google.com/?cid=4276714485415169261&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "43126c1d-71d0-4c81-93fc-e90bbee484ac",
+      "url": "https://explore.overturemaps.org/#17/41.098751068115234/-73.41836547851562",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

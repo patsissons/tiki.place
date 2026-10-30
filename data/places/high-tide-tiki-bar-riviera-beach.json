@@ -1,0 +1,82 @@
+{
+  "id": "high-tide-tiki-bar-riviera-beach",
+  "name": "High Tide Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 26.7698473,
+    "lng": -80.1065223,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Port West Boulevard",
+    "locality": "Riviera Beach",
+    "region": "Florida",
+    "postalCode": "33407",
+    "country": "US"
+  },
+  "formattedAddress": "Port W Blvd, Riviera Beach, FL 33407, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4043a54a-d9ff-4359-b5e3-7d0b214dacd1",
+    "google": "ChIJNfmvWHoq2YgRRTZ9_5FLjyY"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=2778522585539622469&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJNfmvWHoq2YgRRTZ9_5FLjyY",
+      "url": "https://maps.google.com/?cid=2778522585539622469&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4043a54a-d9ff-4359-b5e3-7d0b214dacd1",
+      "url": "https://explore.overturemaps.org/#17/26.769845962524414/-80.10652923583984",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

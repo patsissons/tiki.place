@@ -1,0 +1,148 @@
+{
+  "id": "kts-kraken-tiki-bar-hurlburt-field",
+  "name": "KT's Kraken Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.408779400000004,
+    "lng": -86.7091401,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "100 Corlew Road",
+    "locality": "Hurlburt Field",
+    "region": "Florida",
+    "postalCode": "32544",
+    "country": "US"
+  },
+  "formattedAddress": "100 Corlew Rd, Hurlburt Field, FL 32544, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "8d983dbd-27c4-428c-8fd0-58a32caaa992",
+    "google": "ChIJUcMgu5Y9kYgRxGh2Aw272WM"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1300"
+        },
+        "close": {
+          "day": 5,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 6,
+          "time": "1900"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 1:00 – 8:00 PM",
+      "Saturday: 1:00 – 7:00 PM",
+      "Sunday: 1:00 – 6:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 850-884-6939",
+    "website": "http://myhurlburt.com/tiki-bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=7194987544268138692&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 11,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJUcMgu5Y9kYgRxGh2Aw272WM",
+      "url": "https://maps.google.com/?cid=7194987544268138692&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "8d983dbd-27c4-428c-8fd0-58a32caaa992",
+      "url": "https://explore.overturemaps.org/#17/30.40894889831543/-86.70889282226562",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

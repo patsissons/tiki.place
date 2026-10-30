@@ -1,0 +1,96 @@
+{
+  "id": "gypsybar-at-ocean-beach-iii-lavallette",
+  "name": "The GypsyBar at Ocean Beach III",
+  "aliases": [],
+  "location": {
+    "lat": 39.9903641,
+    "lng": -74.0664825,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lavallette",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "1ac07ca4-0dab-473f-bed3-555216f6937f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "1ac07ca4-0dab-473f-bed3-555216f6937f",
+      "url": "https://explore.overturemaps.org/#17/39.99036407470703/-74.06648254394531",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJRaQZOu-awYkRGd6je0ImB4g",
+        "name": "Ocean Beach & Bay Club",
+        "distanceM": 95,
+        "nameSim": 0.621
+      },
+      {
+        "googleId": "ChIJCwyGRj2bwYkR4ozjUEntZc4",
+        "name": "Ocean Beach Unit 3",
+        "distanceM": 97,
+        "nameSim": 0.516
+      },
+      {
+        "googleId": "ChIJQU0R7OebwYkR_y6UWXVPu3g",
+        "name": "Ocean Beach Unit 3 Clubhouse",
+        "distanceM": 103,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJfwdhkVGawYkR3SbaE-ns1t4",
+        "name": "Island Gypsy",
+        "distanceM": 1772,
+        "nameSim": 0.357
+      },
+      {
+        "googleId": "ChIJ4awKkTGawYkRO7Nli4dJi1Q",
+        "name": "EJ's",
+        "distanceM": 5198,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

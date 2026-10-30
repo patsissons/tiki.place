@@ -1,0 +1,95 @@
+{
+  "id": "acme-bar-co",
+  "name": "ACME Bar Co.",
+  "aliases": [],
+  "location": {
+    "lat": 37.8676723,
+    "lng": -122.2914172,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2115 San Pablo Ave",
+    "locality": "Berkeley",
+    "region": "CA",
+    "postalCode": "94702",
+    "country": "US"
+  },
+  "formattedAddress": "2115 San Pablo Ave, Berkeley CA 94702, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "acme-bar-co"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "510-907-4203",
+    "website": "https://acmebarandcompany.com/"
+  },
+  "established": 2002,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:19:12.986Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "acme-bar-co",
+      "url": "https://tikirat.com/bars/acme-bar-co",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:19:12.986Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJl6HeqiP1UocRxgLY2eiLzP0",
+        "name": "Water Witch",
+        "distanceM": null,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

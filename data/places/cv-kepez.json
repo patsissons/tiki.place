@@ -1,0 +1,95 @@
+{
+  "id": "cv-kepez",
+  "name": "Cv",
+  "aliases": [],
+  "location": {
+    "lat": 36.9207611,
+    "lng": 30.7044678,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Kepez",
+    "country": "TR"
+  },
+  "timezone": "Europe/Istanbul",
+  "externalIds": {
+    "overture": "40ae49a5-1a92-4db0-859e-2a9a1955f1f6"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "40ae49a5-1a92-4db0-859e-2a9a1955f1f6",
+      "url": "https://explore.overturemaps.org/#17/36.92076110839844/30.7044677734375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJUduDcEGPwxQRd_dIYm-HDlU",
+        "name": "CV Charging Station",
+        "distanceM": 2502,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJW6AXwdSPwxQRqv8aea3uaAQ",
+        "name": "Kepezspor Futbol Kulübü A.Ş.",
+        "distanceM": 588,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJW_Wa1YaPwxQRiPzPioYswfQ",
+        "name": "Kepez Municipality Sports Complex",
+        "distanceM": 710,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJF9-mCmOFwxQRwsDR6u20lng",
+        "name": "Antalya Kepez Municipality",
+        "distanceM": 1198,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ_____8iPwxQRgJj9uo3REss",
+        "name": "Kepez Kaymakamlığı İlçe Nüfus Müdürlüğü",
+        "distanceM": 2156,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

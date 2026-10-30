@@ -1,0 +1,87 @@
+{
+  "id": "galens-poolside-tiki-bar-albion",
+  "name": "Galen's Poolside Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.2774047,
+    "lng": -85.326422,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5089 South 500 E-57",
+    "locality": "Churubusco",
+    "region": "Indiana",
+    "postalCode": "46723",
+    "country": "US"
+  },
+  "formattedAddress": "5089 S 500 E-57, Churubusco, IN 46723, USA",
+  "timezone": "America/Indiana/Indianapolis",
+  "externalIds": {
+    "overture": "73bd74ce-10b5-4fc8-b996-54725c4101c9",
+    "google": "ChIJRfoE2klzFogRKseMFdQAjog"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 260-739-8211",
+    "googleMapsUri": "https://maps.google.com/?cid=9839803146745726762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJRfoE2klzFogRKseMFdQAjog",
+      "url": "https://maps.google.com/?cid=9839803146745726762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "73bd74ce-10b5-4fc8-b996-54725c4101c9",
+      "url": "https://explore.overturemaps.org/#17/41.27740478515625/-85.32642364501953",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

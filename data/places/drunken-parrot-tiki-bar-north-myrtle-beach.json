@@ -1,0 +1,109 @@
+{
+  "id": "drunken-parrot-tiki-bar-north-myrtle-beach",
+  "name": "Drunken Parrot Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 33.8259896,
+    "lng": -78.6487932,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1908 North Ocean Boulevard",
+    "locality": "North Myrtle Beach",
+    "region": "South Carolina",
+    "postalCode": "29582",
+    "country": "US"
+  },
+  "formattedAddress": "1908 N Ocean Blvd, North Myrtle Beach, SC 29582, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e1267bd7-97b0-4eaa-a7b9-0abe772cede8",
+    "osm": "node/12895397827",
+    "google": "ChIJ1dn5YRuHAIkRxRj5UXjn6_k"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://drunkenparrotsc.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=18008742038928431301&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 113,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ1dn5YRuHAIkRxRj5UXjn6_k",
+      "url": "https://maps.google.com/?cid=18008742038928431301&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/12895397827",
+      "url": "https://www.openstreetmap.org/node/12895397827",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e1267bd7-97b0-4eaa-a7b9-0abe772cede8",
+      "url": "https://explore.overturemaps.org/#17/33.82599639892578/-78.64879608154297",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

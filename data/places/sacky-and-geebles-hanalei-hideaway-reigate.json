@@ -1,0 +1,78 @@
+{
+  "id": "sacky-and-geebles-hanalei-hideaway-reigate",
+  "name": "Sacky & Geeble's Hanalei Hideaway",
+  "aliases": [],
+  "location": {
+    "lat": 51.2359962,
+    "lng": -0.204833,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Reigate",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "524d7712-7c6d-4034-869b-47562c49346f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "524d7712-7c6d-4034-869b-47562c49346f",
+      "url": "https://explore.overturemaps.org/#17/51.23599624633789/-0.2048330456018448",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJW94aoeLldUgRFqEMJDPy2Kw",
+        "name": "The Paw Shed",
+        "distanceM": 436,
+        "nameSim": 0.129
+      },
+      {
+        "googleId": "ChIJWdZBlCbldUgRPc2E_rPv8vM",
+        "name": "Gooch's Pooches",
+        "distanceM": 2126,
+        "nameSim": 0.059
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

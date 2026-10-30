@@ -1,0 +1,78 @@
+{
+  "id": "kona-kai-tiki-lounge-wood-dale",
+  "name": "Kona Kai Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 41.9645386,
+    "lng": -87.9979019,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Wood Dale",
+    "region": "IL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "6ace78b6-f381-4116-a0a9-e2e0724d2f10"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.konakaitikilounge.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "6ace78b6-f381-4116-a0a9-e2e0724d2f10",
+      "url": "https://explore.overturemaps.org/#17/41.96453857421875/-87.9979019165039",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ7VTZaBmzD4gRccP8w2LmSYI",
+        "name": "Pau Hana Lounge",
+        "distanceM": 20,
+        "nameSim": 0.429
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

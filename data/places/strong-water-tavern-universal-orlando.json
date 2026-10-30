@@ -1,0 +1,46 @@
+{
+  "id": "strong-water-tavern-universal-orlando",
+  "name": "Strong Water Tavern",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Universal Orlando",
+    "region": "Florida",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiwanderlust",
+      "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "name": {
+      "sourceId": "tikiwanderlust",
+      "observedAt": "2026-10-30T20:39:09.190Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "strong-water-tavern-universal-orlando",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

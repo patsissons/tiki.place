@@ -1,0 +1,102 @@
+{
+  "id": "coconut-falls-tiki-bar-and-grill-fort-myers",
+  "name": "Coconut Falls Tiki Bar And Grill",
+  "aliases": [],
+  "location": {
+    "lat": 26.4902439,
+    "lng": -81.8447342,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fort Myers",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4e5eb5a0-bba7-4305-8fa6-97ae2dcd2f36"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.coconutfalls.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4e5eb5a0-bba7-4305-8fa6-97ae2dcd2f36",
+      "url": "https://explore.overturemaps.org/#17/26.490243911743164/-81.84473419189453",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJUf2UDmtr24gR7MBtF-fqacw",
+        "name": "Paseo Tiki Bar & Grill",
+        "distanceM": 9889,
+        "nameSim": 0.727
+      },
+      {
+        "googleId": "ChIJ74FiZABD24gRFKBSRr4mnvc",
+        "name": "Backwater Tiki Bar and Grill",
+        "distanceM": 19450,
+        "nameSim": 0.727
+      },
+      {
+        "googleId": "ChIJ_20R0jdv24gR5LpNwc6vcEc",
+        "name": "The Boathouse Tiki Bar & Grill - Fort Myers",
+        "distanceM": 26367,
+        "nameSim": 0.615
+      },
+      {
+        "googleId": "ChIJoxDeyNsV24gRVyusmjs2-mA",
+        "name": "The Tiki Bar",
+        "distanceM": 1753,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJC8j3tEoV24gRg_CV-niUJ2Q",
+        "name": "Nauti Parrot Oasis",
+        "distanceM": 12,
+        "nameSim": 0.154
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

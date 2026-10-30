@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-saugatuck",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 42.6560218,
+    "lng": -86.2056049,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "220 Water Street",
+    "locality": "Saugatuck",
+    "region": "Michigan",
+    "postalCode": "49453",
+    "country": "US"
+  },
+  "formattedAddress": "220 Water St, Saugatuck, MI 49453, USA",
+  "timezone": "America/Detroit",
+  "externalIds": {
+    "overture": "1d4e1b74-2152-40d8-b72b-a459529472a1",
+    "google": "ChIJbzCEhYD3GYgRM6dMhnGpVfk"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://coralgablessaugatuck.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=17966452593514030899&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 1,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJbzCEhYD3GYgRM6dMhnGpVfk",
+      "url": "https://maps.google.com/?cid=17966452593514030899&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "1d4e1b74-2152-40d8-b72b-a459529472a1",
+      "url": "https://explore.overturemaps.org/#17/42.656044006347656/-86.20542907714844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

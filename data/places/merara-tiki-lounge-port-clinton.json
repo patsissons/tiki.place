@@ -1,0 +1,106 @@
+{
+  "id": "merara-tiki-lounge-port-clinton",
+  "name": "The Merara Tiki Lounge",
+  "aliases": [],
+  "location": {
+    "lat": 41.522918499999996,
+    "lng": -82.8544892,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4046 East Harbor Road",
+    "locality": "Port Clinton",
+    "region": "Ohio",
+    "postalCode": "43452",
+    "country": "US"
+  },
+  "formattedAddress": "4046 E Harbor Rd, Port Clinton, OH 43452, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c6d27e30-2135-48cb-9d02-1d9bcda2c6b7",
+    "google": "ChIJn3yMvUhNOogRwLIu-ESeLT4"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 419-732-4180",
+    "website": "http://www.meraratiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4480411223362286272&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 77,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJn3yMvUhNOogRwLIu-ESeLT4",
+      "url": "https://maps.google.com/?cid=4480411223362286272&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c6d27e30-2135-48cb-9d02-1d9bcda2c6b7",
+      "url": "https://explore.overturemaps.org/#17/41.522918701171875/-82.85448455810547",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

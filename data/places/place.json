@@ -1,0 +1,77 @@
+{
+  "id": "place",
+  "name": "マジックバーインティキ",
+  "aliases": [],
+  "location": {
+    "lat": 34.3431816,
+    "lng": 134.0513306,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "高松市",
+    "country": "JP"
+  },
+  "timezone": "Asia/Tokyo",
+  "externalIds": {
+    "overture": "2ae930a9-8d40-4dde-ba6b-53750c29f7db"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.terushita.com/bar/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "2ae930a9-8d40-4dde-ba6b-53750c29f7db",
+      "url": "https://explore.overturemaps.org/#17/34.34318161010742/134.05133056640625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJwUoz2ZrrUzURinqMptclVlY",
+        "name": "マジックバーインティキ",
+        "distanceM": 1,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

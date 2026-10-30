@@ -1,0 +1,102 @@
+{
+  "id": "rum-rok-sacramento",
+  "name": "Rum Rok",
+  "aliases": [],
+  "location": {
+    "lat": 38.5803299,
+    "lng": -121.4854965,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Sacramento",
+    "region": "CA",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "40625319-353e-4b52-ad3c-02012b419b96"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.rumrok.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "40625319-353e-4b52-ad3c-02012b419b96",
+      "url": "https://explore.overturemaps.org/#17/38.58032989501953/-121.4854965209961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJSXGIPUbRmoAR6Nm2FSX7_x0",
+        "name": "The Roost",
+        "distanceM": 1240,
+        "nameSim": 0.222
+      },
+      {
+        "googleId": "ChIJn5y2FwHRmoARZ4b_5y_Hpb4",
+        "name": "Ro Sham Beaux",
+        "distanceM": 1153,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJWWWUAM_RmoARrd1kd9pNK8Y",
+        "name": "ROC&SOL Diner",
+        "distanceM": 1505,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJX3COa-DTmoARrZ4Qx2pR2c8",
+        "name": "Roco Wine & Spirits",
+        "distanceM": 5463,
+        "nameSim": 0.105
+      },
+      {
+        "googleId": "ChIJqy31s5XQmoARdbKTWuIazkg",
+        "name": "The Jungle Bird",
+        "distanceM": 1295,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

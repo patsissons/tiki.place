@@ -1,0 +1,96 @@
+{
+  "id": "liquid-ranch-temple-terrace",
+  "name": "Liquid Ranch",
+  "aliases": [],
+  "location": {
+    "lat": 28.0158863,
+    "lng": -82.3822632,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Temple Terrace",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "250ef203-beef-4ed6-9ca6-09ce3eebe6cb"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "250ef203-beef-4ed6-9ca6-09ce3eebe6cb",
+      "url": "https://explore.overturemaps.org/#17/28.015886306762695/-82.38226318359375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJEdgspqE5w4gR8DhEkujSKcg",
+        "name": "Lakewood Ranch",
+        "distanceM": 67336,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJR5Tu5AA5w4gRWPVxWB-ZLww",
+        "name": "The Fish Hole at Lakewood Ranch",
+        "distanceM": 69224,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJHw2NJP44w4gRdd0WYfQvhWY",
+        "name": "Lakewood Ranch Medical Center",
+        "distanceM": 69701,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJEzXmEoHIwogRrXubSN0d_18",
+        "name": "Temple Terrace Golf & Country Club",
+        "distanceM": 2267,
+        "nameSim": 0.103
+      },
+      {
+        "googleId": "ChIJwW0w54zIwogRDdVWIZmOjAI",
+        "name": "River Run Preserve",
+        "distanceM": 2293,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "kapm-ottignies-louvain-la-neuve",
+  "name": "Kapm",
+  "aliases": [],
+  "location": {
+    "lat": 50.6677849,
+    "lng": 4.6150363,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "22 Rue de la Neuville",
+    "locality": "Ottignies-Louvain-la-Neuve",
+    "region": "Région wallonne",
+    "postalCode": "1348",
+    "country": "BE"
+  },
+  "formattedAddress": "Rue de la Neuville 22, 1348 Ottignies-Louvain-la-Neuve, Belgium",
+  "timezone": "Europe/Brussels",
+  "externalIds": {
+    "overture": "4f2e1245-1e84-4d01-aab4-a355b1a3b1da",
+    "google": "ChIJJ8dZh1l_wUcRBpjQk6gS5wk"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=713559581205239814&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJJ8dZh1l_wUcRBpjQk6gS5wk",
+      "url": "https://maps.google.com/?cid=713559581205239814&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4f2e1245-1e84-4d01-aab4-a355b1a3b1da",
+      "url": "https://explore.overturemaps.org/#17/50.667999267578125/4.6152119636535645",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ya-pot-nantes",
+  "name": "Y'a Pot",
+  "aliases": [],
+  "location": {
+    "lat": 47.2087632,
+    "lng": -1.5688160999999998,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "85 Quai de la Fosse",
+    "locality": "Nantes",
+    "region": "Pays de la Loire",
+    "postalCode": "44100",
+    "country": "FR"
+  },
+  "formattedAddress": "85 Quai de la Fosse, 44100 Nantes, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "16d56898-01f0-482d-89db-0c47136fb731",
+    "google": "ChIJqWX3lyrtBUgRg89djW4t2eM"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.youtube.com/watch?v=_0ilJQffyMI",
+    "googleMapsUri": "https://maps.google.com/?cid=16418203869397241731&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJqWX3lyrtBUgRg89djW4t2eM",
+      "url": "https://maps.google.com/?cid=16418203869397241731&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "16d56898-01f0-482d-89db-0c47136fb731",
+      "url": "https://explore.overturemaps.org/#17/47.20867919921875/-1.568784236907959",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "tiki-pub-quan-ngo-quyen",
+  "name": "Tiki Pub",
+  "aliases": [],
+  "location": {
+    "lat": 20.8341293,
+    "lng": 106.7019348,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Quận Ngô Quyền",
+    "country": "VN"
+  },
+  "timezone": "Asia/Bangkok",
+  "externalIds": {
+    "overture": "fada5d38-adef-4642-a50c-a3ea6982f170"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "fada5d38-adef-4642-a50c-a3ea6982f170",
+      "url": "https://explore.overturemaps.org/#17/20.834129333496094/106.70193481445312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJLWZHsJd7SjERC3MP3fRcs64",
+        "name": "Unicorn Lounge Hải Phòng",
+        "distanceM": 723,
+        "nameSim": 0.1
+      },
+      {
+        "googleId": "ChIJd5fsCIJ7SjERronJBuU4Lr8",
+        "name": "EYECONIC Cocktail Club",
+        "distanceM": 3237,
+        "nameSim": 0.083
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

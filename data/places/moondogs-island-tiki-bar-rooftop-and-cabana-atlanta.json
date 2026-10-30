@@ -1,0 +1,90 @@
+{
+  "id": "moondogs-island-tiki-bar-rooftop-and-cabana-atlanta",
+  "name": "Moondog’s Island Tiki Bar Rooftop & Cabana",
+  "aliases": [],
+  "location": {
+    "lat": 33.7473068,
+    "lng": -84.3615417,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Atlanta",
+    "region": "GA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "c10cf5b1-cfb5-4270-9daf-dc0dc244af27"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "c10cf5b1-cfb5-4270-9daf-dc0dc244af27",
+      "url": "https://explore.overturemaps.org/#17/33.74730682373047/-84.36154174804688",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJyVgQr4wF9YgRBWXgHb1AHsU",
+        "name": "Moondogs",
+        "distanceM": 10476,
+        "nameSim": 0.467
+      },
+      {
+        "googleId": "ChIJp-ltXOgL9YgRDdQkbwdYYW4",
+        "name": "Moondog Growlers",
+        "distanceM": 22329,
+        "nameSim": 0.378
+      },
+      {
+        "googleId": "ChIJr9RYP4cJ9YgRx02BOzVAINs",
+        "name": "Moondog Pub & Grub",
+        "distanceM": 16078,
+        "nameSim": 0.364
+      },
+      {
+        "googleId": "ChIJiwe5bQAF9YgRwIXYpJvWtD0",
+        "name": "Moonlight",
+        "distanceM": 2377,
+        "nameSim": 0.194
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

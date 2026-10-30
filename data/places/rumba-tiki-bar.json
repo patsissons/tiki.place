@@ -1,0 +1,71 @@
+{
+  "id": "rumba-tiki-bar",
+  "name": "Rumba Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 36.9080696,
+    "lng": 27.2823963,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Κως",
+    "country": "GR"
+  },
+  "timezone": "Europe/Athens",
+  "externalIds": {
+    "overture": "da880ed7-cfb2-44ea-8d43-a668ea525b35"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "da880ed7-cfb2-44ea-8d43-a668ea525b35",
+      "url": "https://explore.overturemaps.org/#17/36.9080696105957/27.28239631652832",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJUyHJ6Mb9vRQRhW9VI-DTp-M",
+        "name": "Rumba Tiki Bar All Day Restaurant",
+        "distanceM": 12576,
+        "nameSim": 0.667
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

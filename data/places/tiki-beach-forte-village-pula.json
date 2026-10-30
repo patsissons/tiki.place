@@ -1,0 +1,101 @@
+{
+  "id": "tiki-beach-forte-village-pula",
+  "name": "Tiki Beach @ Forte Village",
+  "aliases": [],
+  "location": {
+    "lat": 38.932116,
+    "lng": 8.932341,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Strada Statale 195 Sulcitana",
+    "locality": "Santa Margherita di Pula",
+    "region": "Sardegna",
+    "postalCode": "09050",
+    "country": "IT"
+  },
+  "formattedAddress": "S.da Statale 195 Sulcitana, 09050 Pula CA, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "c360e965-da32-46ca-b92b-202f463ced4b",
+    "google": "ChIJQeeRLinZ5hIRa5tABjJQp6I"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+39 070 921 8818",
+    "website": "https://www.fortevillageresort.com/it/dining/bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=11720424731038489451&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 83,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJQeeRLinZ5hIRa5tABjJQp6I",
+      "url": "https://maps.google.com/?cid=11720424731038489451&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c360e965-da32-46ca-b92b-202f463ced4b",
+      "url": "https://explore.overturemaps.org/#17/38.93211364746094/8.932340621948242",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

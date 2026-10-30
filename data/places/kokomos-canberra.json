@@ -1,0 +1,101 @@
+{
+  "id": "kokomos-canberra",
+  "name": "Kokomo's",
+  "aliases": [],
+  "location": {
+    "lat": -35.2774655,
+    "lng": 149.13191089999998,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1 Genge Street",
+    "locality": "Canberra",
+    "region": "Australian Capital Territory",
+    "postalCode": "2601",
+    "country": "AU"
+  },
+  "formattedAddress": "1 Genge St, Canberra ACT 2601, Australia",
+  "timezone": "Australia/Sydney",
+  "externalIds": {
+    "overture": "28017472-4ad2-4d94-99fc-d7e600ab1915",
+    "google": "ChIJhR1BbGZNFmsRtT2juAZCF0c"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+61 2 6171 2092",
+    "website": "https://kokomos.com.au/",
+    "googleMapsUri": "https://maps.google.com/?cid=5122635697792171445&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 1511,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJhR1BbGZNFmsRtT2juAZCF0c",
+      "url": "https://maps.google.com/?cid=5122635697792171445&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "28017472-4ad2-4d94-99fc-d7e600ab1915",
+      "url": "https://explore.overturemaps.org/#17/-35.27748107910156/149.13189697265625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

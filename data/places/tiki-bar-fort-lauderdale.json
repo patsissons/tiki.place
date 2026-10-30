@@ -1,0 +1,102 @@
+{
+  "id": "tiki-bar-fort-lauderdale",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 26.1892586,
+    "lng": -80.2026138,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fort Lauderdale",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "3c65c398-b5ea-43a8-8caa-b8d4b4eeae77"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarpa.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3c65c398-b5ea-43a8-8caa-b8d4b4eeae77",
+      "url": "https://explore.overturemaps.org/#17/26.189258575439453/-80.2026138305664",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJuRTMNQCr2YgRpsZZoosIuLM",
+        "name": "Tiki Tiki",
+        "distanceM": 17551,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJ27MdRYkB2YgR13GYxihncoo",
+        "name": "Hula Kai Tiki Bar + Lounge",
+        "distanceM": 12067,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJLTFgVQcC2YgRgbaKYjqr8Io",
+        "name": "Bamboo Beach Tiki Bar & Cafe",
+        "distanceM": 10643,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJJXigUE4A2YgRUx_0uWmz-2U",
+        "name": "Fort Lauderdale Tiki",
+        "distanceM": 9964,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJmzf1RPUB2YgRaEhyuQFGVt4",
+        "name": "MAI-KAI Restaurant and Polynesian Show",
+        "distanceM": 8457,
+        "nameSim": 0.083
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

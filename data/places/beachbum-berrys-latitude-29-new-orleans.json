@@ -1,0 +1,210 @@
+{
+  "id": "beachbum-berrys-latitude-29-new-orleans",
+  "name": "Beachbum Berry's Latitude 29",
+  "aliases": [],
+  "location": {
+    "lat": 29.953715000000003,
+    "lng": -90.06513410000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "321 North Peters Street",
+    "locality": "New Orleans",
+    "region": "Louisiana",
+    "postalCode": "70130",
+    "country": "US"
+  },
+  "formattedAddress": "321 N Peters St, New Orleans, LA 70130, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "google": "ChIJsTgchxKmIIYRyxSDNSC3cAk",
+    "overture": "73ebe906-0460-4b80-a81b-8615aa618918",
+    "tikirat": "beachbum-berry-s-latitude-29"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1500"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1500"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1500"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 – 11:00 PM",
+      "Tuesday: 4:00 – 11:00 PM",
+      "Wednesday: 4:00 – 11:00 PM",
+      "Thursday: 4:00 – 11:00 PM",
+      "Friday: 3:00 PM – 12:00 AM",
+      "Saturday: 3:00 PM – 12:00 AM",
+      "Sunday: 3:00 – 10:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 504-609-3811",
+    "website": "http://latitude29nola.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=680244892697564363&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 1469,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 2014,
+  "tikiConfidence": 0.995,
+  "review": {
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-03-09T12:00:00.000Z",
+    "reason": "seed record"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:21:11.289Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-03-09T12:00:00.000Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJsTgchxKmIIYRyxSDNSC3cAk",
+      "url": "https://maps.google.com/?cid=680244892697564363&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-03-09T12:00:00.000Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "73ebe906-0460-4b80-a81b-8615aa618918",
+      "url": "https://explore.overturemaps.org/#17/29.95368003845215/-90.06504821777344",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "beachbum-berry-s-latitude-29",
+      "url": "https://tikirat.com/bars/beachbum-berry-s-latitude-29",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:21:11.289Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "beachbum-berrys-latitude-29-new-orleans",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-03-09T12:00:00.000Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

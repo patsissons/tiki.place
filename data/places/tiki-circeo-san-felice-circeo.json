@@ -1,0 +1,193 @@
+{
+  "id": "tiki-circeo-san-felice-circeo",
+  "name": "Tiki Circeo",
+  "aliases": [],
+  "location": {
+    "lat": 41.2323464,
+    "lng": 13.090102,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "56 Corso Vittorio Emanuele",
+    "locality": "San Felice Circeo",
+    "region": "Lazio",
+    "postalCode": "04017",
+    "country": "IT"
+  },
+  "formattedAddress": "Corso Vittorio Emanuele, 56, 04017 San Felice Circeo LT, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "b8d899ec-9ff7-4d1b-ac01-2628a26fa930",
+    "google": "ChIJAQGztqMeJRMRdeu5OxlWGow"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0830"
+        },
+        "close": {
+          "day": 2,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0830"
+        },
+        "close": {
+          "day": 3,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0830"
+        },
+        "close": {
+          "day": 4,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 8:30 AM – 1:30 AM",
+      "Tuesday: 8:30 AM – 1:30 AM",
+      "Wednesday: 8:30 AM – 1:30 AM",
+      "Thursday: 8:00 AM – 1:30 AM",
+      "Friday: 8:00 AM – 1:30 AM",
+      "Saturday: 8:00 AM – 1:30 AM",
+      "Sunday: 8:00 AM – 1:30 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+39 0773 548451",
+    "website": "http://www.tikibar.it/",
+    "googleMapsUri": "https://maps.google.com/?cid=10095476181080599413&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.9,
+    "count": 846,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJAQGztqMeJRMRdeu5OxlWGow",
+      "url": "https://maps.google.com/?cid=10095476181080599413&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b8d899ec-9ff7-4d1b-ac01-2628a26fa930",
+      "url": "https://explore.overturemaps.org/#17/41.232337951660156/13.090106010437012",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

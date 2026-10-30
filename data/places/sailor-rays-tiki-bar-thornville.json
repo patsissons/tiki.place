@@ -1,0 +1,72 @@
+{
+  "id": "sailor-rays-tiki-bar-thornville",
+  "name": "Sailor Ray’s Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.925293,
+    "lng": -82.4138107,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Thornville",
+    "region": "OH",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "8cd1825e-9dc9-4b83-98fe-d6e44fb78161"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "8cd1825e-9dc9-4b83-98fe-d6e44fb78161",
+      "url": "https://explore.overturemaps.org/#17/39.92529296875/-82.41381072998047",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ056o0T0QOIgRu9AjG7KKEd4",
+        "name": "Luckys Lakeside Grill",
+        "distanceM": 1485,
+        "nameSim": 0.118
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

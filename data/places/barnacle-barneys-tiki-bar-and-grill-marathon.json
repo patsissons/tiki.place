@@ -1,0 +1,183 @@
+{
+  "id": "barnacle-barneys-tiki-bar-and-grill-marathon",
+  "name": "Barnacle Barney's Tiki Bar and Grill",
+  "aliases": [],
+  "location": {
+    "lat": 24.7108118,
+    "lng": -81.1072726,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1688 Overseas Highway",
+    "locality": "Marathon",
+    "region": "Florida",
+    "postalCode": "33050",
+    "country": "US"
+  },
+  "formattedAddress": "1688 Overseas Hwy, Marathon, FL 33050, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "f1b47708-fce8-4fee-84ee-49999e9204c2",
+    "google": "ChIJXUpuQO3e0IgRqbfeoWdl6gE"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1030"
+        },
+        "close": {
+          "day": 1,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1030"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1030"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1030"
+        },
+        "close": {
+          "day": 4,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1030"
+        },
+        "close": {
+          "day": 5,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1030"
+        },
+        "close": {
+          "day": 6,
+          "time": "2130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 10:30 AM – 9:30 PM",
+      "Tuesday: 10:30 AM – 9:30 PM",
+      "Wednesday: 10:30 AM – 9:30 PM",
+      "Thursday: 10:30 AM – 9:30 PM",
+      "Friday: 10:30 AM – 9:30 PM",
+      "Saturday: 10:30 AM – 9:30 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 305-289-6706",
+    "website": "https://share.google/NgxgkhexDMUnmyays",
+    "googleMapsUri": "https://maps.google.com/?cid=138034234359986089&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 810,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJXUpuQO3e0IgRqbfeoWdl6gE",
+      "url": "https://maps.google.com/?cid=138034234359986089&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "f1b47708-fce8-4fee-84ee-49999e9204c2",
+      "url": "https://explore.overturemaps.org/#17/24.7106990814209/-81.10728454589844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

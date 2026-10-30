@@ -1,0 +1,96 @@
+{
+  "id": "grotto-at-frog-town-manor-bel-air",
+  "name": "The Grotto at Frog Town Manor",
+  "aliases": [],
+  "location": {
+    "lat": 39.5487976,
+    "lng": -76.3626404,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bel Air",
+    "region": "MD",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "5dea789b-f28d-4713-b73c-ff345bef2d28"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "5dea789b-f28d-4713-b73c-ff345bef2d28",
+      "url": "https://explore.overturemaps.org/#17/39.548797607421875/-76.36264038085938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJp4vrAQAPyIkReazg7fI5cDg",
+        "name": "The Grotto",
+        "distanceM": 27626,
+        "nameSim": 0.476
+      },
+      {
+        "googleId": "ChIJmXQYFAUjxokRsWVW0_JPLbA",
+        "name": "Grotto Pizza",
+        "distanceM": 57706,
+        "nameSim": 0.385
+      },
+      {
+        "googleId": "ChIJI7XUi7Xdx4kR5eJ3CX_qMbQ",
+        "name": "Rockfield Manor",
+        "distanceM": 2314,
+        "nameSim": 0.345
+      },
+      {
+        "googleId": "ChIJ90bHW5KPyIkRyE1V-gmuf-Q",
+        "name": "The Grotto Community Center",
+        "distanceM": 55750,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJGUm1V1mJxokR8evzvta0bHc",
+        "name": "'the Grotto' - Unique Interactive Cave Experience - Apartment (1 Bedroom)",
+        "distanceM": 90732,
+        "nameSim": 0.167
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "nance-tiki-bar-gone-coastal-cedar-point",
+  "name": "Nance Tiki Bar Gone Coastal",
+  "aliases": [],
+  "location": {
+    "lat": 34.6798363,
+    "lng": -77.0894165,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Cedar Point",
+    "region": "NC",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "f8895d47-06f5-440a-8565-056f90e665d0"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "f8895d47-06f5-440a-8565-056f90e665d0",
+      "url": "https://explore.overturemaps.org/#17/34.67983627319336/-77.08941650390625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJyz29AACp6YgRNLr2mzJB2cY",
+        "name": "Sea View Tiki Bar",
+        "distanceM": 831638,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJF6VSdrr7qIkRF1MA1nL5eqA",
+        "name": "Beachside Frozen Cocktails & More",
+        "distanceM": 3875,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJofSFF-b9qIkRf6erTLAL8ko",
+        "name": "Salty Bee",
+        "distanceM": 1304,
+        "nameSim": 0.091
+      },
+      {
+        "googleId": "ChIJ19SSDWb7qIkRxy5IRjY0EUU",
+        "name": "Thirsty Surfer",
+        "distanceM": 4592,
+        "nameSim": 0.074
+      },
+      {
+        "googleId": "ChIJTTKtMWf7qIkRzLgR4b23twM",
+        "name": "Riptidez",
+        "distanceM": 641,
+        "nameSim": 0.069
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

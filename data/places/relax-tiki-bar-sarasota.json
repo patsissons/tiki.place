@@ -1,0 +1,103 @@
+{
+  "id": "relax-tiki-bar-sarasota",
+  "name": "Relax Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 27.3372993,
+    "lng": -82.5353012,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Sarasota",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "b41d4153-7805-4a4a-9865-0a6d7b27a6b8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b41d4153-7805-4a4a-9865-0a6d7b27a6b8",
+      "url": "https://explore.overturemaps.org/#17/27.337299346923828/-82.5353012084961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "f94a8e37-1497-4fc7-9078-fbbc91c343b5",
+      "url": "https://explore.overturemaps.org/#17/27.364301681518555/-82.50032806396484",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJVVVVgeFBw4gR9_r7awO6T1c",
+        "name": "Lido Key Tiki Bar",
+        "distanceM": 5133,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJOT_lQRRAw4gRs8lym-DXpdc",
+        "name": "O'Leary's Tiki Bar & Grill",
+        "distanceM": 1071,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ-5Y564dBw4gRO_s-GXwMCss",
+        "name": "Hot Sands Oasis Tiki Bar and Grill",
+        "distanceM": 3830,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ62F2s8hBw4gRh6tFJoMhGgo",
+        "name": "Forbidden Tiki",
+        "distanceM": 6696,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJA_-_8oBrw4gRIVCWIvrEbEE",
+        "name": "The Big Tiki Lounge",
+        "distanceM": 7635,
+        "nameSim": 0.333
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "barrabouda-cergy-pontoise",
+  "name": "Barrabouda",
+  "aliases": [],
+  "location": {
+    "lat": 49.0366176,
+    "lng": 2.0810915,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "12 Mail des Cerclades",
+    "locality": "Cergy",
+    "region": "Île-de-France",
+    "postalCode": "95000",
+    "country": "FR"
+  },
+  "formattedAddress": "12 Mail des Cerclades, 95000 Cergy, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "442242bf-bc18-49a2-a3e7-93f671f16a18",
+    "google": "ChIJCWqzjjv15kcRAOdPAamZjE0"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+33 1 71 79 88 99",
+    "googleMapsUri": "https://maps.google.com/?cid=5588010188810479360&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.7,
+    "count": 3,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJCWqzjjv15kcRAOdPAamZjE0",
+      "url": "https://maps.google.com/?cid=5588010188810479360&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "442242bf-bc18-49a2-a3e7-93f671f16a18",
+      "url": "https://explore.overturemaps.org/#17/49.0367546081543/2.080279588699341",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

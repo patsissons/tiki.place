@@ -1,0 +1,72 @@
+{
+  "id": "toeppes-last-resort-monroe",
+  "name": "Toeppe's Last Resort",
+  "aliases": [],
+  "location": {
+    "lat": 41.9287262,
+    "lng": -83.4043427,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Monroe",
+    "region": "MI",
+    "country": "US"
+  },
+  "timezone": "America/Detroit",
+  "externalIds": {
+    "overture": "2d104d9c-ecd1-4781-9056-b308a70725ae"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "2d104d9c-ecd1-4781-9056-b308a70725ae",
+      "url": "https://explore.overturemaps.org/#17/41.92872619628906/-83.40434265136719",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ3cOk-gTvoVQR9eUFB7x85co",
+        "name": "The Last Resort",
+        "distanceM": 2756937,
+        "nameSim": 0.8
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

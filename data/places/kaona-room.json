@@ -1,0 +1,102 @@
+{
+  "id": "kaona-room",
+  "name": "Kaona Room",
+  "aliases": [],
+  "location": {
+    "lat": 25.7911781,
+    "lng": -80.1925231,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1600 NE 1st Ave",
+    "locality": "Miami",
+    "region": "FL",
+    "postalCode": "33132",
+    "country": "US"
+  },
+  "formattedAddress": "1600 NE 1st Ave, Miami FL 33132, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "kaona-room"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "786-302-6370",
+    "website": "https://kaonaroom.com/"
+  },
+  "established": 2022,
+  "tikiConfidence": 0.978,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:25:44.780Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "kaona-room",
+      "url": "https://tikirat.com/bars/kaona-room",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:25:44.780Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "kaona-room-miami",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJdxmUNqO32YgRl8pmaDF5hXM",
+        "name": "Kaona, The Hidden Tiki Room",
+        "distanceM": null,
+        "nameSim": 0.667
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

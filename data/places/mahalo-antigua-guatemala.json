@@ -1,0 +1,182 @@
+{
+  "id": "mahalo-antigua-guatemala",
+  "name": "Mahalo",
+  "aliases": [],
+  "location": {
+    "lat": 14.557763099999999,
+    "lng": -90.7331043,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Guatemala",
+    "region": "Sacatepéquez",
+    "postalCode": "03001",
+    "country": "GT"
+  },
+  "formattedAddress": "4 Avenida Sur 3 El Barrio Antigua, Guatemala 03001, Guatemala",
+  "timezone": "America/Guatemala",
+  "externalIds": {
+    "overture": "3b72e8e0-914d-4cbe-8d78-2cbb48c20395",
+    "google": "ChIJM-MaBkAPiYUR5Uouxw488YA"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 1,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1800"
+        },
+        "close": {
+          "day": 2,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1800"
+        },
+        "close": {
+          "day": 3,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0030"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "0030"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:00 PM – 12:30 AM",
+      "Tuesday: 6:00 PM – 12:30 AM",
+      "Wednesday: 6:00 PM – 12:30 AM",
+      "Thursday: 6:00 PM – 12:30 AM",
+      "Friday: 6:00 PM – 12:30 AM",
+      "Saturday: 1:00 PM – 12:30 AM",
+      "Sunday: 1:00 PM – 12:30 AM"
+    ]
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=9291273540410952421&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 15,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJM-MaBkAPiYUR5Uouxw488YA",
+      "url": "https://maps.google.com/?cid=9291273540410952421&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "3b72e8e0-914d-4cbe-8d78-2cbb48c20395",
+      "url": "https://explore.overturemaps.org/#17/14.557760238647461/-90.73310852050781",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

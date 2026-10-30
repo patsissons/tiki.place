@@ -1,0 +1,21 @@
+id: tikiwanderlust
+name: Tiki Wanderlust
+homepage: https://tikiwanderlust.com
+adapter: tikiwanderlust
+status: active
+license:
+  name: Facts only, attribution
+  url: https://tikiwanderlust.com/about-tiki-wanderlust/
+  attribution: Listed on Tiki Wanderlust
+trust: 0.5
+tikiSignal: 0.85
+schedule:
+  discovery: manual
+config:
+  url: https://tikiwanderlust.com/master-list/
+  snapshot: data/snapshots/tikiwanderlust.txt
+addedAt: 2026-10-30
+notes: |-
+  US tiki bar list by state with city and status notes. robots.txt allows crawling, but the site challenges automated
+  clients, so the daily sync never fetches it. Refreshed by hand at long intervals from a real browser (see the
+  discover-sources skill). Places only this source lists carry syncPolicy: manual and get no daily Google work.

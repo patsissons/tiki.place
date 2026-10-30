@@ -1,30 +1,12 @@
-import { env } from "@/lib/env";
-
-type TurnstileResponse = {
-  success: boolean;
-};
-
-export async function verifyTurnstileToken(token: string, ip?: string | null) {
-  if (!env.turnstileSecretKey) {
-    return token === "development-token" && process.env.NODE_ENV !== "production";
-  }
-
-  const response = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: new URLSearchParams({
-      secret: env.turnstileSecretKey,
-      response: token,
-      remoteip: ip ?? "",
-    }),
-  });
-
-  if (!response.ok) {
-    return false;
-  }
-
-  const result = (await response.json()) as TurnstileResponse;
-  return result.success;
+/** Cloudflare Turnstile verification. Without a secret configured (local dev) every token passes. */
+export async function verifyTurnstile(token: string | undefined, ip: string | undefined): Promise<boolean> {
+  const secret = process.env.CLOUDFLARE_TURNSTILE_SECRET_KEY;
+  if (!secret) return process.env.NODE_ENV !== "production";
+  if (!token) return false;
+  const body = new URLSearchParams({ secret, response: token });
+  if (ip) body.set("remoteip", ip);
+  const res = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", { method: "POST", body });
+  if (!res.ok) return false;
+  const json = (await res.json()) as { success?: boolean };
+  return json.success === true;
 }

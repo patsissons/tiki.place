@@ -1,0 +1,78 @@
+{
+  "id": "red-dock-west-whiskey-and-tiki-bar-crestwood",
+  "name": "Red Dock West - Whiskey & Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.6426582,
+    "lng": -87.7406082,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Crestwood",
+    "region": "IL",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "9affe244-f893-4dfc-a76c-044cddd82f3d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "9affe244-f893-4dfc-a76c-044cddd82f3d",
+      "url": "https://explore.overturemaps.org/#17/41.64265823364258/-87.74060821533203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJy3VpmMI7DogRKi8bsN1aTGU",
+        "name": "Thirsty Beaver",
+        "distanceM": 2444,
+        "nameSim": 0.138
+      },
+      {
+        "googleId": "ChIJb9nv_WE8DogRKXMicNZRhks",
+        "name": "The Hideout",
+        "distanceM": 313,
+        "nameSim": 0.087
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

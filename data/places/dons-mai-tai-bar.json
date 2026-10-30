@@ -1,0 +1,207 @@
+{
+  "id": "dons-mai-tai-bar",
+  "name": "Don's Mai Tai Bar & Restaurant",
+  "aliases": [
+    "Don's Mai Tai Bar"
+  ],
+  "location": {
+    "lat": 19.6318569,
+    "lng": -155.9906005,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "75-5852 Ali‘i Drive",
+    "locality": "Kailua-Kona",
+    "region": "Hawaii",
+    "postalCode": "96740",
+    "country": "US"
+  },
+  "formattedAddress": "75-5852 Ali‘i Dr, Kailua-Kona, HI 96740, USA",
+  "timezone": "Pacific/Honolulu",
+  "externalIds": {
+    "tikirat": "don-s-mai-tai-bar",
+    "google": "ChIJ1dKkQgIPVHkRn_7xZvIbKCc"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0630"
+        },
+        "close": {
+          "day": 0,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0630"
+        },
+        "close": {
+          "day": 1,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0630"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0630"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0630"
+        },
+        "close": {
+          "day": 4,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0630"
+        },
+        "close": {
+          "day": 5,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0630"
+        },
+        "close": {
+          "day": 6,
+          "time": "2130"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:30 AM – 9:30 PM",
+      "Tuesday: 6:30 AM – 9:30 PM",
+      "Wednesday: 6:30 AM – 9:30 PM",
+      "Thursday: 6:30 AM – 9:30 PM",
+      "Friday: 6:30 AM – 9:30 PM",
+      "Saturday: 6:30 AM – 9:30 PM",
+      "Sunday: 6:30 AM – 9:30 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 808-930-3286",
+    "website": "https://www.royalkona.com/dining",
+    "googleMapsUri": "https://maps.google.com/?cid=2821535894470786719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 1327,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 1968,
+  "tikiConfidence": 0.985,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:35.290Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ1dKkQgIPVHkRn_7xZvIbKCc",
+      "url": "https://maps.google.com/?cid=2821535894470786719&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "don-s-mai-tai-bar",
+      "url": "https://tikirat.com/bars/don-s-mai-tai-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:22:35.290Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "dons-mai-tai-bar-kailua-kona",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

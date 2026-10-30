@@ -1,0 +1,96 @@
+{
+  "id": "thunder-island-garage-bar-appleton",
+  "name": "Thunder Island - Garage Bar",
+  "aliases": [],
+  "location": {
+    "lat": 44.2956429,
+    "lng": -88.4142914,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Appleton",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "70ba0c8a-15c1-460b-a2ed-7b730fa52f45"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "70ba0c8a-15c1-460b-a2ed-7b730fa52f45",
+      "url": "https://explore.overturemaps.org/#17/44.2956428527832/-88.41429138183594",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJEwzIyvxSB4gRWsa22hjzseI",
+        "name": "Famous Garage Bar",
+        "distanceM": 131622,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJ9QKRcD5PB4gRnrSeZQQ2MoU",
+        "name": "Yehle's Garage Bar",
+        "distanceM": 132089,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJzeoUcxbJA4gRl05Nd-Icl9s",
+        "name": "THIRST Bar and Grill",
+        "distanceM": 7253,
+        "nameSim": 0.457
+      },
+      {
+        "googleId": "ChIJ4ZMtNxW3A4gRhVV3Bs4-mSs",
+        "name": "Tanner's Grill and Bar West",
+        "distanceM": 5821,
+        "nameSim": 0.359
+      },
+      {
+        "googleId": "ChIJibBZEjmwA4gRMPY5EF3Ngjw",
+        "name": "Tanner's Grill & Bar Kimberly",
+        "distanceM": 7072,
+        "nameSim": 0.333
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

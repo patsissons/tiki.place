@@ -1,0 +1,95 @@
+{
+  "id": "aloha-tiki-bar-vientiane",
+  "name": "Aloha Tiki Bar - Vientiane",
+  "aliases": [],
+  "location": {
+    "lat": 17.9666996,
+    "lng": 102.5999985,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Vientiane",
+    "country": "LA"
+  },
+  "timezone": "Asia/Vientiane",
+  "externalIds": {
+    "overture": "7c8ade55-98c3-4d84-9f6a-e8eb54ce529d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "7c8ade55-98c3-4d84-9f6a-e8eb54ce529d",
+      "url": "https://explore.overturemaps.org/#17/17.966699600219727/102.5999984741211",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJTdUZc-ppJDERM5c_YbpEfTE",
+        "name": "Aloha Bar",
+        "distanceM": 517,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJAV8dmiRpJDERrjHrKZU89pU",
+        "name": "Tipsy Elephant Vientiane Rooftop Lounge",
+        "distanceM": 344,
+        "nameSim": 0.474
+      },
+      {
+        "googleId": "ChIJmV62qlhoJDERji85h7x-zcw",
+        "name": "Ohlala bar",
+        "distanceM": 587,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJBez9t_ppJDERIJyyWrtrGOs",
+        "name": "525 Cocktail Bar",
+        "distanceM": 370,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJnVLmAtdpJDERafne6E6c9Ao",
+        "name": "MADAME Cocktail Bar",
+        "distanceM": 602,
+        "nameSim": 0.286
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

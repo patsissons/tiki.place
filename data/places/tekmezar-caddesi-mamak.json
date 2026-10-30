@@ -1,0 +1,95 @@
+{
+  "id": "tekmezar-caddesi-mamak",
+  "name": "tekmezar caddesi",
+  "aliases": [],
+  "location": {
+    "lat": 39.9187622,
+    "lng": 32.9089737,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Mamak",
+    "country": "TR"
+  },
+  "timezone": "Europe/Istanbul",
+  "externalIds": {
+    "overture": "e842dcc5-48af-491c-b2d5-47d09ad51ec1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e842dcc5-48af-491c-b2d5-47d09ad51ec1",
+      "url": "https://explore.overturemaps.org/#17/39.91876220703125/32.908973693847656",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ05vWp8RR0xQRO22A6Rc6wOQ",
+        "name": "ÇARDAK SOFRASI PİDE KEBAP",
+        "distanceM": 193,
+        "nameSim": 0.286
+      },
+      {
+        "googleId": "ChIJLZPLCcVR0xQRLlKjyQnQ-hk",
+        "name": "Çağdaş Supermarket",
+        "distanceM": 632,
+        "nameSim": 0.133
+      },
+      {
+        "googleId": "ChIJ68_WPnlR0xQRNZa2JRXXfqc",
+        "name": "CAN TOWERS",
+        "distanceM": 1054,
+        "nameSim": 0.091
+      },
+      {
+        "googleId": "ChIJqRCcnsVR0xQR83LN2TRoynM",
+        "name": "Eren Taxi",
+        "distanceM": 730,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJtwW7bvBR0xQRIdwwtf-3kMQ",
+        "name": "Mamak Kaymakamligi",
+        "distanceM": 1574,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

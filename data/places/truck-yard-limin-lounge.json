@@ -1,0 +1,95 @@
+{
+  "id": "truck-yard-limin-lounge",
+  "name": "Truck Yard (Limin’ Lounge)",
+  "aliases": [],
+  "location": {
+    "lat": 33.0699817,
+    "lng": -96.8576858,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "5959 Grove Ln",
+    "locality": "The Colony",
+    "region": "TX",
+    "postalCode": "75056",
+    "country": "US"
+  },
+  "formattedAddress": "5959 Grove Ln, The Colony TX 75056, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "tikirat": "truck-yard-limin-lounge"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "469-401-6764",
+    "website": "https://truckyard.com/the-colony"
+  },
+  "established": 2017,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "truck-yard-limin-lounge",
+      "url": "https://tikirat.com/bars/truck-yard-limin-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:35:48.187Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJBdHPFIMlTIYRrbtaTi_BEoc",
+        "name": "Limin Lounge Tiki Bar",
+        "distanceM": null,
+        "nameSim": 0.611
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

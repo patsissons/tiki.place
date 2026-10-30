@@ -1,0 +1,101 @@
+{
+  "id": "ohana-room-denver-tiki-bar-denver",
+  "name": "Ohana Room - Denver Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.7681313,
+    "lng": -104.9744689,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3542 Walnut Street",
+    "locality": "Denver",
+    "region": "Colorado",
+    "postalCode": "80205",
+    "country": "US"
+  },
+  "formattedAddress": "3542 Walnut St, Denver, CO 80205, USA",
+  "timezone": "America/Denver",
+  "externalIds": {
+    "overture": "83dd8c04-377d-4a13-b90c-e955b0d8c256",
+    "google": "ChIJvattYz95bIcRjlEeVzRRtFE"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 720-257-5342",
+    "website": "https://www.theohanaroom.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=5887419898121834894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 21,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJvattYz95bIcRjlEeVzRRtFE",
+      "url": "https://maps.google.com/?cid=5887419898121834894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "83dd8c04-377d-4a13-b90c-e955b0d8c256",
+      "url": "https://explore.overturemaps.org/#17/39.76812744140625/-104.97410583496094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "cabana-boy-ice-cream",
+  "name": "Cabana Boy Ice Cream",
+  "aliases": [],
+  "location": {
+    "lat": 28.0292908,
+    "lng": -81.7596227,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2610 Avenue G Northwest",
+    "locality": "Winter Haven",
+    "region": "Florida",
+    "postalCode": "33880",
+    "country": "US"
+  },
+  "formattedAddress": "2610 Avenue G NW, Winter Haven, FL 33880, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "cabana-boy-ice-cream",
+    "google": "ChIJW8Jm_G8T3YgRbNCCVSjBXNQ"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 863-268-6008",
+    "googleMapsUri": "https://maps.google.com/?cid=15302318012875591788&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 186,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "established": 2020,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:21:35.250Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJW8Jm_G8T3YgRbNCCVSjBXNQ",
+      "url": "https://maps.google.com/?cid=15302318012875591788&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "cabana-boy-ice-cream",
+      "url": "https://tikirat.com/bars/cabana-boy-ice-cream",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:21:35.250Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

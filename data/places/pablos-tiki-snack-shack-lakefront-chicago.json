@@ -1,0 +1,96 @@
+{
+  "id": "pablos-tiki-snack-shack-lakefront-chicago",
+  "name": "Pablo's Tiki Snack Shack - Lakefront",
+  "aliases": [],
+  "location": {
+    "lat": 41.8835024,
+    "lng": -87.6128038,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "111 North Jean Baptiste Pointe du Sable Lake Shore Drive",
+    "locality": "Chicago",
+    "region": "Illinois",
+    "postalCode": "60601",
+    "country": "US"
+  },
+  "formattedAddress": "111 N Jean Baptiste Pointe du Sable Lake Shore Dr, Chicago, IL 60601, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "9467650f-186d-4b8d-a979-707169bb4ac9",
+    "google": "ChIJ05c4HEkrDogRP4tvawTxE5I"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "https://www.pablostikishack.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10526021755379616575&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 11,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ05c4HEkrDogRP4tvawTxE5I",
+      "url": "https://maps.google.com/?cid=10526021755379616575&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9467650f-186d-4b8d-a979-707169bb4ac9",
+      "url": "https://explore.overturemaps.org/#17/41.88349533081055/-87.61280822753906",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

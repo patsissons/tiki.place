@@ -1,0 +1,102 @@
+{
+  "id": "smugglers-cove-tiki-bar-and-restaurant-punta-gorda",
+  "name": "Smuggler's Cove Tiki Bar & Restaurant",
+  "aliases": [],
+  "location": {
+    "lat": 26.9749565,
+    "lng": -81.9599609,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Punta Gorda",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4fed4209-6581-4cc2-8a03-c2a4c34ac604"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.smugglerstikibar.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "4fed4209-6581-4cc2-8a03-c2a4c34ac604",
+      "url": "https://explore.overturemaps.org/#17/26.974956512451172/-81.9599609375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJZYKHDZiAhYARXV0sNJgKAi8",
+        "name": "Smuggler's Cove",
+        "distanceM": 3950902,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJZSfCasBX24gR266hU0ZlQ1o",
+        "name": "Smuggler’s Enterprises, Inc.",
+        "distanceM": 11549,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJgUaDXOVX24gRg9I6Y3uHlw0",
+        "name": "TT's Tiki Bar",
+        "distanceM": 10170,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJP4A6OAWp3IgRtSY2MRpOr-Q",
+        "name": "Half Cracked Tiki Shack",
+        "distanceM": 10710,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJBbCuAaVX24gRJYwgQbn5aCM",
+        "name": "Sunset Beach Club",
+        "distanceM": 11573,
+        "nameSim": 0.045
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

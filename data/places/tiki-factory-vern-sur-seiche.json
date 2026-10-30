@@ -1,0 +1,82 @@
+{
+  "id": "tiki-factory-vern-sur-seiche",
+  "name": "TIKI FACTORY",
+  "aliases": [],
+  "location": {
+    "lat": 48.0488814,
+    "lng": -1.5989087,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "41 Rue de la Maillardière",
+    "locality": "Vern-sur-Seiche",
+    "region": "Bretagne",
+    "postalCode": "35770",
+    "country": "FR"
+  },
+  "formattedAddress": "41 Rue de la Maillardière, 35770 Vern-sur-Seiche, France",
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "10dcb8d5-30b5-4bb6-9d13-8c98d3204c50",
+    "google": "ChIJO85GZwAnD0gRT69U_ha8oCc"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=2855488970695159631&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJO85GZwAnD0gRT69U_ha8oCc",
+      "url": "https://maps.google.com/?cid=2855488970695159631&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "10dcb8d5-30b5-4bb6-9d13-8c98d3204c50",
+      "url": "https://explore.overturemaps.org/#17/48.04887771606445/-1.598868727684021",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

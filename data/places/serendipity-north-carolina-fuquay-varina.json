@@ -1,0 +1,72 @@
+{
+  "id": "serendipity-north-carolina-fuquay-varina",
+  "name": "Serendipity North Carolina",
+  "aliases": [],
+  "location": {
+    "lat": 35.5233231,
+    "lng": -78.7710648,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fuquay-Varina",
+    "region": "NC",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "244c71db-f227-453d-bc8b-8a0387fda34a"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "244c71db-f227-453d-bc8b-8a0387fda34a",
+      "url": "https://explore.overturemaps.org/#17/35.52332305908203/-78.77106475830078",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJL-hzNqePrIkRZN0mNTcbAro",
+        "name": "Serendipity Consignment Boutique",
+        "distanceM": 7859,
+        "nameSim": 0.392
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

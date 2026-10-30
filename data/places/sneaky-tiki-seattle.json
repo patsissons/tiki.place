@@ -1,0 +1,110 @@
+{
+  "id": "sneaky-tiki-seattle",
+  "name": "Sneaky tiki",
+  "aliases": [
+    "Sneaky Tiki Llc"
+  ],
+  "location": {
+    "lat": 47.5484526,
+    "lng": -122.3164244,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6031 Airport Way South",
+    "locality": "Seattle",
+    "region": "Washington",
+    "postalCode": "98108",
+    "country": "US"
+  },
+  "formattedAddress": "6031 Airport Wy S, Seattle, WA 98108, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "200ca570-7a19-46ff-bf04-91bd5f3471cb",
+    "google": "ChIJWVGp_kVBkFQRppocJxN_yvU"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 206-913-2611",
+    "website": "http://www.sneakytikibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=17711108204825189030&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 97,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWVGp_kVBkFQRppocJxN_yvU",
+      "url": "https://maps.google.com/?cid=17711108204825189030&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "200ca570-7a19-46ff-bf04-91bd5f3471cb",
+      "url": "https://explore.overturemaps.org/#17/47.54840087890625/-122.3164291381836",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "f673a0b5-debe-4db4-bba8-f108e38fb56f",
+      "url": "https://explore.overturemaps.org/#17/47.54848098754883/-122.31632232666016",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "bentley-tiki-bar-clinton",
+  "name": "Bentley Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.8486099,
+    "lng": -90.2067261,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Clinton",
+    "region": "IA",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "ba58d818-0863-4a9f-803a-fb5ec01349ed"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ba58d818-0863-4a9f-803a-fb5ec01349ed",
+      "url": "https://explore.overturemaps.org/#17/41.848609924316406/-90.20672607421875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJy6emfTINIYgRLzgLQxdxzMI",
+        "name": "Bentley Bar",
+        "distanceM": 546868,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJsyrM58Vj4ocRWR2ttSywq5s",
+        "name": "The Rusty Barrel Lounge",
+        "distanceM": 1637,
+        "nameSim": 0.138
+      },
+      {
+        "googleId": "ChIJK0NS5ZZm4ocR7Gt6kzs7wAw",
+        "name": "Bonnie's Scenic Tavern",
+        "distanceM": 4312,
+        "nameSim": 0.118
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

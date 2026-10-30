@@ -1,0 +1,83 @@
+{
+  "id": "kahula-hapai-bournemouth",
+  "name": "Kahula hapai",
+  "aliases": [],
+  "location": {
+    "lat": 50.726720199999995,
+    "lng": -1.8556193999999997,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Southcote Road",
+    "locality": "Bournemouth",
+    "region": "England",
+    "postalCode": "BH1 3SW",
+    "country": "GB"
+  },
+  "formattedAddress": "Southcote Rd, Bournemouth BH1 3SW, UK",
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "44f996fd-fcea-420b-8e78-752230c69500",
+    "google": "ChIJByZVfiafc0gRPBHI_Wu1jj4"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=4507739752468320572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z",
+    "reason": "weak google match; confirm this is the right place"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJByZVfiafc0gRPBHI_Wu1jj4",
+      "url": "https://maps.google.com/?cid=4507739752468320572&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "44f996fd-fcea-420b-8e78-752230c69500",
+      "url": "https://explore.overturemaps.org/#17/50.72764205932617/-1.85211980342865",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

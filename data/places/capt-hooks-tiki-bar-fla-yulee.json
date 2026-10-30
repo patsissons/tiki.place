@@ -1,0 +1,97 @@
+{
+  "id": "capt-hooks-tiki-bar-fla-yulee",
+  "name": "Capt Hook's Tiki Bar Fla.",
+  "aliases": [],
+  "location": {
+    "lat": 30.6015663,
+    "lng": -81.5957565,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Yulee",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "3510f2cb-9afe-4a10-9492-7623fef85788"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "3510f2cb-9afe-4a10-9492-7623fef85788",
+      "url": "https://explore.overturemaps.org/#17/30.601566314697266/-81.59575653076172",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "b1db2c18-8d6e-4ccb-8b27-cd9838e65ea7",
+      "url": "https://explore.overturemaps.org/#17/30.64859390258789/-81.54092407226562",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ3Tw6OuVH24gRZPqHzpgSi8s",
+        "name": "Captain Hook's Best Sushi/Best Pho/Best Thai",
+        "distanceM": 446149,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJS6Zc25sA5YgRNBjDAV0Xlds",
+        "name": "Lofton Creek Seafood & More Inc.",
+        "distanceM": 3744,
+        "nameSim": 0.121
+      },
+      {
+        "googleId": "ChIJ44ePOUip5YgRj1KiI8Z2PO8",
+        "name": "Cruzn' Eddie's",
+        "distanceM": 3089,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ091Qwt8B5YgRA_4X_PAj5mU",
+        "name": "Culver’s",
+        "distanceM": 4944,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "tilted-tiki-stillwater",
+  "name": "The Tilted Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 45.0543707,
+    "lng": -92.8053374,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "324 Main Street South",
+    "locality": "Stillwater",
+    "region": "MN",
+    "postalCode": "55082",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "6c2e614d-3119-4d6a-a04b-3c58d43c856d",
+    "osm": "node/12550237556"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.thetiltedtiki.com/"
+  },
+  "tikiConfidence": 0.982,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/12550237556",
+      "url": "https://www.openstreetmap.org/node/12550237556",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6c2e614d-3119-4d6a-a04b-3c58d43c856d",
+      "url": "https://explore.overturemaps.org/#17/45.054386138916016/-92.80533599853516",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tilted-tiki-stillwater",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJcUBGp-zJslIRd-Rc_L7BSMw",
+        "name": "The Tilted Tiki Tropical Bar & Restaurant",
+        "distanceM": 3,
+        "nameSim": 0.667
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:41:15.641Z"
+}

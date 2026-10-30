@@ -1,0 +1,78 @@
+{
+  "id": "dailoma-coffee-and-cocktails-lisboa",
+  "name": "Dailoma Coffee & Cocktails",
+  "aliases": [],
+  "location": {
+    "lat": 38.7030983,
+    "lng": -9.175415,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lisboa",
+    "country": "PT"
+  },
+  "timezone": "Europe/Lisbon",
+  "externalIds": {
+    "overture": "5771471e-e54a-47d3-bda2-fcf81d519f38"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "5771471e-e54a-47d3-bda2-fcf81d519f38",
+      "url": "https://explore.overturemaps.org/#17/38.70309829711914/-9.1754150390625",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ba7d2452-bcbc-40a9-8b47-f48419662a73",
+      "url": "https://explore.overturemaps.org/#17/38.729286193847656/-9.136030197143555",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJSbCRMQAzGQ0R9nCKf4duySY",
+        "name": "DAILOMA Coffee & Cocktails",
+        "distanceM": 4482,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

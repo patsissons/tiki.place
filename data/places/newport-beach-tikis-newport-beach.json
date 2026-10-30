@@ -1,0 +1,188 @@
+{
+  "id": "newport-beach-tikis-newport-beach",
+  "name": "Newport Beach Tikis",
+  "aliases": [],
+  "location": {
+    "lat": 33.6142381,
+    "lng": -117.92667370000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "670 Lido Park Drive",
+    "locality": "Newport Beach",
+    "region": "California",
+    "postalCode": "92663",
+    "country": "US"
+  },
+  "formattedAddress": "670 Lido Park Dr, Newport Beach, CA 92663, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "626300ca-17b4-45ea-9605-dcb5c84edafb",
+    "google": "ChIJW9e0qxEh3YAROe4rK0NrQ-c"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0930"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0930"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0930"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0930"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0930"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0930"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0930"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 9:30 AM – 11:00 PM",
+      "Tuesday: 9:30 AM – 11:00 PM",
+      "Wednesday: 9:30 AM – 11:00 PM",
+      "Thursday: 9:30 AM – 11:00 PM",
+      "Friday: 9:30 AM – 11:00 PM",
+      "Saturday: 9:30 AM – 11:00 PM",
+      "Sunday: 9:30 AM – 11:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 888-580-9814",
+    "website": "https://www.newportbeachtikis.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16664280982432247353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 31,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJW9e0qxEh3YAROe4rK0NrQ-c",
+      "url": "https://maps.google.com/?cid=16664280982432247353&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "626300ca-17b4-45ea-9605-dcb5c84edafb",
+      "url": "https://explore.overturemaps.org/#17/33.61421203613281/-117.92668151855469",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

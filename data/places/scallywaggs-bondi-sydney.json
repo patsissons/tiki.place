@@ -1,0 +1,78 @@
+{
+  "id": "scallywaggs-bondi-sydney",
+  "name": "Scallywaggs Bondi",
+  "aliases": [],
+  "location": {
+    "lat": -33.8945503,
+    "lng": 151.2729797,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Sydney",
+    "region": "NSW",
+    "country": "AU"
+  },
+  "timezone": "Australia/Sydney",
+  "externalIds": {
+    "overture": "43789d8a-58fd-4f68-9e53-efcf9813ef12"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "https://www.scallywaggsbondi.com.au/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "43789d8a-58fd-4f68-9e53-efcf9813ef12",
+      "url": "https://explore.overturemaps.org/#17/-33.89455032348633/151.27297973632812",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJE50MWaetEmsRWZLe0h-9a5I",
+        "name": "Ikaria Bondi",
+        "distanceM": 208,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

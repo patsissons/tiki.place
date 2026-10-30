@@ -1,0 +1,96 @@
+{
+  "id": "leaping-lizards-tiki-bar-carolina-beach",
+  "name": "Leaping Lizards Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 34.0342903,
+    "lng": -77.8925629,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Carolina Beach",
+    "region": "NC",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "9cb5996e-7793-4081-844a-35912ffca3c6"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "9cb5996e-7793-4081-844a-35912ffca3c6",
+      "url": "https://explore.overturemaps.org/#17/34.0342903137207/-77.89256286621094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJPUIEsOn4qYkR_OthosKmA48",
+        "name": "Ocean Grill & Tiki Bar",
+        "distanceM": 1521,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJN-nOpbT5qYkR5JKlN3vT1fg",
+        "name": "High Tide Lounge & Tiki Bar",
+        "distanceM": 2712,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJK_XgO_r4qYkRQs5RR3jUljo",
+        "name": "Hampton Inn & Suites Carolina Beach Oceanfront",
+        "distanceM": 74,
+        "nameSim": 0.185
+      },
+      {
+        "googleId": "ChIJ5XR6vff4qYkRmM6zyL_OjjQ",
+        "name": "Lazy Pirate Island Sports Grill",
+        "distanceM": 658,
+        "nameSim": 0.121
+      },
+      {
+        "googleId": "ChIJV2qqBgD5qYkRZaVB6wa9TAg",
+        "name": "The Tropical",
+        "distanceM": 112,
+        "nameSim": 0.1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

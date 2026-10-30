@@ -1,0 +1,64 @@
+{
+  "id": "pachamama-tiki-bar-aguimes",
+  "name": "Pachamama Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 27.8559265,
+    "lng": -15.3935699,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Agüimes",
+    "country": "ES"
+  },
+  "timezone": "Atlantic/Canary",
+  "externalIds": {
+    "overture": "81c3a453-6f0c-4cb0-b08e-e1008265e3e1"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "81c3a453-6f0c-4cb0-b08e-e1008265e3e1",
+      "url": "https://explore.overturemaps.org/#17/27.855926513671875/-15.393569946289062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": []
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

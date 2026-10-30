@@ -1,0 +1,86 @@
+{
+  "id": "breakers-bay-bar-omaha",
+  "name": "Breakers Bay Bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.2029023,
+    "lng": -96.02082410000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Omaha",
+    "region": "Nebraska",
+    "postalCode": "68117",
+    "country": "US"
+  },
+  "formattedAddress": "Omaha, NE 68117, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "e9c900c7-4b57-45e6-ba79-ced818fc9365",
+    "google": "ChIJuXa3aQCLk4cR2_YyQ2qCS00"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://fun-plex.com/attractions/breakersbaybar/",
+    "googleMapsUri": "https://maps.google.com/?cid=5569688757079307995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJuXa3aQCLk4cR2_YyQ2qCS00",
+      "url": "https://maps.google.com/?cid=5569688757079307995&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e9c900c7-4b57-45e6-ba79-ced818fc9365",
+      "url": "https://explore.overturemaps.org/#17/41.20289993286133/-96.02082824707031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

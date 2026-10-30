@@ -1,0 +1,82 @@
+{
+  "id": "tiki-bar-trofaiach",
+  "name": "Tiki Bar Trofaiach",
+  "aliases": [],
+  "location": {
+    "lat": 47.4264625,
+    "lng": 15.0084124,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "6 Luchinettigasse",
+    "locality": "Trofaiach",
+    "region": "Steiermark",
+    "postalCode": "8793",
+    "country": "AT"
+  },
+  "formattedAddress": "Luchinettigasse 6, 8793 Trofaiach, Austria",
+  "timezone": "Europe/Vienna",
+  "externalIds": {
+    "overture": "901c3f79-ceab-4a51-8cf2-3310961a8066",
+    "google": "ChIJcRdOVVLncUcRthA9rs7EcIk"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=9903631972553265334&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJcRdOVVLncUcRthA9rs7EcIk",
+      "url": "https://maps.google.com/?cid=9903631972553265334&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "901c3f79-ceab-4a51-8cf2-3310961a8066",
+      "url": "https://explore.overturemaps.org/#17/47.42647171020508/15.008417129516602",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

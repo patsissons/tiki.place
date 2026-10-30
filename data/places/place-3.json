@@ -1,0 +1,71 @@
+{
+  "id": "place-3",
+  "name": "ｽｲｰﾂﾗﾎﾞサリュー",
+  "aliases": [],
+  "location": {
+    "lat": 33.743145,
+    "lng": 135.3764038,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "田辺市",
+    "country": "JP"
+  },
+  "timezone": "Asia/Tokyo",
+  "externalIds": {
+    "overture": "5438c834-a9a1-4328-a971-c7186659f687"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "5438c834-a9a1-4328-a971-c7186659f687",
+      "url": "https://explore.overturemaps.org/#17/33.74314498901367/135.37640380859375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJAQBchvcJB2ARQWTPeUnQUZs",
+        "name": "Salut",
+        "distanceM": 4,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

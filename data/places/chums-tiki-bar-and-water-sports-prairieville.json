@@ -1,0 +1,91 @@
+{
+  "id": "chums-tiki-bar-and-water-sports-prairieville",
+  "name": "chums tiki bar and water sports",
+  "aliases": [],
+  "location": {
+    "lat": 30.2672413,
+    "lng": -90.99422369999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "36423 Crestway Avenue",
+    "locality": "Prairieville",
+    "region": "Louisiana",
+    "postalCode": "70769",
+    "country": "US"
+  },
+  "formattedAddress": "36423 Crestway Ave, Prairieville, LA 70769, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "872852a7-520e-4412-9912-e62ed4528e49",
+    "google": "ChIJIy86MMaxJoYRgbGXKKh9tXg"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=8697996416524988801&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.7,
+    "count": 3,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJIy86MMaxJoYRgbGXKKh9tXg",
+      "url": "https://maps.google.com/?cid=8697996416524988801&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "872852a7-520e-4412-9912-e62ed4528e49",
+      "url": "https://explore.overturemaps.org/#17/30.267240524291992/-90.9942398071289",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

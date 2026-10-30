@@ -1,0 +1,102 @@
+{
+  "id": "tiki-bar-lakay-las-vegas",
+  "name": "Tiki Bar Lakay",
+  "aliases": [],
+  "location": {
+    "lat": 36.1115837,
+    "lng": -115.2743607,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Las Vegas",
+    "region": "NV",
+    "country": "US"
+  },
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "b0893c08-e034-46b1-80e0-324178d3ac6c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.frankiestikiroom.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b0893c08-e034-46b1-80e0-324178d3ac6c",
+      "url": "https://explore.overturemaps.org/#17/36.1115837097168/-115.27436065673828",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJGyKr_qbGyIARaoi6bTTfX1A",
+        "name": "The Golden Tiki",
+        "distanceM": 7550,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJ3_LBNpPDyIARIkTs_rNJJ_4",
+        "name": "Frankie's Tiki Room",
+        "distanceM": 11182,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJq7nhVADDyIARJxyWvRcvlpk",
+        "name": "Glitter Gulch Tiki",
+        "distanceM": 13591,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJoarltpnFyIAR5WgXsVqtUi4",
+        "name": "Tiki Di Amore",
+        "distanceM": 14669,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJ6cLV2s_HyIARGaddQEQK6Xk",
+        "name": "Todo Bien",
+        "distanceM": 5250,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

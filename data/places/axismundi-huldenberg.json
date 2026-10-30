@@ -1,0 +1,71 @@
+{
+  "id": "axismundi-huldenberg",
+  "name": "Axismundi",
+  "aliases": [],
+  "location": {
+    "lat": 50.7865677,
+    "lng": 4.6340098,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Huldenberg",
+    "country": "BE"
+  },
+  "timezone": "Europe/Brussels",
+  "externalIds": {
+    "overture": "e7d03e02-6478-4d4e-916c-322f5bf7619b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e7d03e02-6478-4d4e-916c-322f5bf7619b",
+      "url": "https://explore.overturemaps.org/#17/50.78656768798828/4.634009838104248",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJV_S3KYrEw0cRXf1J-shgp1s",
+        "name": "Axis Mundi",
+        "distanceM": 20007,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

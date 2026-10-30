@@ -1,0 +1,87 @@
+{
+  "id": "budgetproduct-petit-lancy",
+  "name": "budgetproduct",
+  "aliases": [],
+  "location": {
+    "lat": 46.192116299999995,
+    "lng": 6.1095196,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "35 Avenue des Morgines",
+    "locality": "petit-lancy",
+    "region": "Genève",
+    "postalCode": "1213",
+    "country": "CH"
+  },
+  "formattedAddress": "Av. des Morgines 35, 1213 petit-lancy, Switzerland",
+  "timezone": "Europe/Zurich",
+  "externalIds": {
+    "overture": "0f6af3e0-452f-4da3-99f1-16a81a3dec15",
+    "google": "ChIJF9PI6TR7jEcRJgd93blAROQ"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+41 78 623 07 34",
+    "googleMapsUri": "https://maps.google.com/?cid=16448342906092980006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJF9PI6TR7jEcRJgd93blAROQ",
+      "url": "https://maps.google.com/?cid=16448342906092980006&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "0f6af3e0-452f-4da3-99f1-16a81a3dec15",
+      "url": "https://explore.overturemaps.org/#17/46.19215774536133/6.109590530395508",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "double-trouble-tiki-bar-oak-park-michigan-oak-park",
+  "name": "Double Trouble Tiki Bar - Oak Park Michigan",
+  "aliases": [],
+  "location": {
+    "lat": 42.485672,
+    "lng": -83.1921463,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Oak Park",
+    "region": "MI",
+    "country": "US"
+  },
+  "timezone": "America/Detroit",
+  "externalIds": {
+    "overture": "fdb2b178-db1b-473f-9860-c0da6500a688"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "fdb2b178-db1b-473f-9860-c0da6500a688",
+      "url": "https://explore.overturemaps.org/#17/42.48567199707031/-83.19214630126953",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJdf_1WxfJJIgR1r9e0dDGrH0",
+        "name": "Oak Park Social",
+        "distanceM": 345,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJiQeaPW6_QIYRuFrZ8ZVBFOw",
+        "name": "Double Trouble Caffeine & Cocktails",
+        "distanceM": 1786948,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJITEn5WzJJIgR-m_HkV9uFXA",
+        "name": "Oak Parker",
+        "distanceM": 730,
+        "nameSim": 0.387
+      },
+      {
+        "googleId": "ChIJTzsUFwDPJIgRvBplCZwo-1w",
+        "name": "Two Star",
+        "distanceM": 6167,
+        "nameSim": 0.069
+      },
+      {
+        "googleId": "ChIJbXekgIfJJIgRFwRagzf-MEo",
+        "name": "Mother Handsome",
+        "distanceM": 326,
+        "nameSim": 0.056
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

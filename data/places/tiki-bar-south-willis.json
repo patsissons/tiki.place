@@ -1,0 +1,102 @@
+{
+  "id": "tiki-bar-south-willis",
+  "name": "Tiki Bar South",
+  "aliases": [],
+  "location": {
+    "lat": 30.4141998,
+    "lng": -95.5291138,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Willis",
+    "region": "TX",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "a91f9cd3-276c-4707-8fd0-1555b7884909"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tikibarsouth.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "a91f9cd3-276c-4707-8fd0-1555b7884909",
+      "url": "https://explore.overturemaps.org/#17/30.414199829101562/-95.52911376953125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJd0Vom3IXR4YRhbv3GpwtCSU",
+        "name": "TJs Country",
+        "distanceM": 1327,
+        "nameSim": 0.154
+      },
+      {
+        "googleId": "ChIJZ0OMZ5sjR4YRJt5Gi2SDLYI",
+        "name": "LandShark",
+        "distanceM": 10662,
+        "nameSim": 0.105
+      },
+      {
+        "googleId": "ChIJE9a_CBgYR4YReSLBBHlPzWM",
+        "name": "The Cactus Lounge",
+        "distanceM": 4533,
+        "nameSim": 0.091
+      },
+      {
+        "googleId": "ChIJ83ALWxYjR4YRPQh62jLRPKQ",
+        "name": "Wave on Lake Conroe",
+        "distanceM": 4187,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJBx9qGwUWR4YRXXMa_MSTLOw",
+        "name": "T J's Tavern",
+        "distanceM": 4195,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

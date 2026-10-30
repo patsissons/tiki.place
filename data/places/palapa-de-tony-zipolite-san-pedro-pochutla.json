@@ -1,0 +1,106 @@
+{
+  "id": "palapa-de-tony-zipolite-san-pedro-pochutla",
+  "name": "Palapa de Tony-Zipolite",
+  "aliases": [],
+  "location": {
+    "lat": 15.6601234,
+    "lng": -96.5092613,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Calle Playa del Amor",
+    "locality": "Playa Zipolite",
+    "region": "Oaxaca",
+    "postalCode": "70902",
+    "country": "MX"
+  },
+  "formattedAddress": "C. Playa del Amor, 70902 Playa Zipolite, Oax., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "33f7d962-804f-4dbf-8ffc-7251c0669c41",
+    "google": "ChIJKaX9UQApuYUR69Wp-HlTMTw"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+52 951 350 8700",
+    "website": "https://www.facebook.com/share/15ujkWarMJ/?mibextid=wwXIfr",
+    "googleMapsUri": "https://maps.google.com/?cid=4337339699462526443&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4,
+    "count": 10,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJKaX9UQApuYUR69Wp-HlTMTw",
+      "url": "https://maps.google.com/?cid=4337339699462526443&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "33f7d962-804f-4dbf-8ffc-7251c0669c41",
+      "url": "https://explore.overturemaps.org/#17/15.660123825073242/-96.50927734375",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

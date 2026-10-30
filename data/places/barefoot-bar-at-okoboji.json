@@ -1,0 +1,106 @@
+{
+  "id": "barefoot-bar-at-okoboji",
+  "name": "The Barefoot Bar at Okoboji",
+  "aliases": [],
+  "location": {
+    "lat": 43.3918075,
+    "lng": -95.10284419999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "24457 Stake Out Road",
+    "locality": "Okoboji",
+    "region": "Iowa",
+    "postalCode": "51355",
+    "country": "US"
+  },
+  "formattedAddress": "24457 Stake Out Road, Okoboji, IA 51355, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "de5ac2a8-2e30-4095-9bdf-5d4d9cbc6fc4",
+    "google": "ChIJMbZhgaC1jIcRw52ydtEFl2k"
+  },
+  "status": {
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 712-332-7303",
+    "website": "https://www.parksmarina.com/barefoot-bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=7608556492663463363&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 1844,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJMbZhgaC1jIcRw52ydtEFl2k",
+      "url": "https://maps.google.com/?cid=7608556492663463363&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "de5ac2a8-2e30-4095-9bdf-5d4d9cbc6fc4",
+      "url": "https://explore.overturemaps.org/#17/43.391902923583984/-95.10282897949219",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

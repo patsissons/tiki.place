@@ -1,0 +1,79 @@
+{
+  "id": "margarita-breeze-crystal-river",
+  "name": "Margarita Breeze",
+  "aliases": [],
+  "location": {
+    "lat": 28.8775463,
+    "lng": -82.5813217,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Crystal River",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "172b9531-facf-478a-ae0d-c70ddf2c2f3c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "172b9531-facf-478a-ae0d-c70ddf2c2f3c",
+      "url": "https://explore.overturemaps.org/#17/28.877546310424805/-82.5813217163086",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ac65831c-f0b7-48f5-ad29-bdd992335f80",
+      "url": "https://explore.overturemaps.org/#17/28.882461547851562/-82.59265899658203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ79sbY05A6IgRtOf7q88Yiw0",
+        "name": "Margarita Breeze",
+        "distanceM": 1229,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

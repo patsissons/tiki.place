@@ -1,0 +1,78 @@
+{
+  "id": "tiki-bar-muel-gallur",
+  "name": "Tiki Bar Muel",
+  "aliases": [],
+  "location": {
+    "lat": 41.8298111,
+    "lng": -1.2395452,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Gallur",
+    "region": "Zaragoza",
+    "country": "ES"
+  },
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "32333129-2334-488b-bee6-b2f786f2944b"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://barparquemuel2022.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "32333129-2334-488b-bee6-b2f786f2944b",
+      "url": "https://explore.overturemaps.org/#17/41.829811096191406/-1.239545226097107",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJYz_LwK1bWQ0RBcWdJL7kKPQ",
+        "name": "Tiki Bar Muel",
+        "distanceM": 42491,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

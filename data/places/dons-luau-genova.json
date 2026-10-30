@@ -1,0 +1,96 @@
+{
+  "id": "dons-luau-genova",
+  "name": "Don's Luau",
+  "aliases": [],
+  "location": {
+    "lat": 44.3956757,
+    "lng": 8.9684086,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Genova",
+    "region": "42",
+    "country": "IT"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "083b28fe-6723-47f9-8649-aa415e50800c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "083b28fe-6723-47f9-8649-aa415e50800c",
+      "url": "https://explore.overturemaps.org/#17/44.39567565917969/8.968408584594727",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJN3Y4nsFD0xIRiUhXvlJZ7Sg",
+        "name": "Don Cola",
+        "distanceM": 2294,
+        "nameSim": 0.308
+      },
+      {
+        "googleId": "ChIJ756dGABB0xIRuECc-ZOg2j8",
+        "name": "Don’Cola",
+        "distanceM": 9886,
+        "nameSim": 0.308
+      },
+      {
+        "googleId": "ChIJd2JdIwBD0xIRDKZhugK2wno",
+        "name": "Don Raffaè Pizzeria",
+        "distanceM": 2739,
+        "nameSim": 0.174
+      },
+      {
+        "googleId": "ChIJ7eGAIqhD0xIRZfRhpyb5Gxs",
+        "name": "Arena Albaro Village",
+        "distanceM": 13,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJu8xEPahD0xIRVMvj5dJaPgg",
+        "name": "Albaro pool Srl",
+        "distanceM": 20,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

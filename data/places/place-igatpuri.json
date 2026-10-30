@@ -1,0 +1,90 @@
+{
+  "id": "place-igatpuri",
+  "name": "आदिवासी युवा प्रतिष्ठान, काळुस्ते",
+  "aliases": [],
+  "location": {
+    "lat": 19.6952267,
+    "lng": 73.5612183,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Igatpuri",
+    "region": "MH",
+    "country": "IN"
+  },
+  "timezone": "Asia/Kolkata",
+  "externalIds": {
+    "overture": "0547da90-6492-4974-8bdb-78597a4cd6fc"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.kaluste422402.blogspot.com/"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "0547da90-6492-4974-8bdb-78597a4cd6fc",
+      "url": "https://explore.overturemaps.org/#17/19.695226669311523/73.56121826171875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJKWBBECmE3TsRvgetNPSAJYg",
+        "name": "Igatpuri",
+        "distanceM": 165,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ0aQhLQCH3TsROmZSs_2c4wM",
+        "name": "आदिवासी युवा प्रतिष्ठान",
+        "distanceM": 10443,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJ_xAU0wU95zsRzqZcvMS7NOk",
+        "name": "AYUSH | Adivasi Yuva Shakti",
+        "distanceM": 67343,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

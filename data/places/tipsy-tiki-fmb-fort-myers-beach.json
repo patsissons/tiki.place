@@ -1,0 +1,102 @@
+{
+  "id": "tipsy-tiki-fmb-fort-myers-beach",
+  "name": "Tipsy Tiki Fmb",
+  "aliases": [],
+  "location": {
+    "lat": 26.4565811,
+    "lng": -81.9549103,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Fort Myers Beach",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "61233b62-7692-4f97-936c-bb20c39cd7d3"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://tikipubfmb.com/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "61233b62-7692-4f97-936c-bb20c39cd7d3",
+      "url": "https://explore.overturemaps.org/#17/26.456581115722656/-81.95491027832031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJWZ_7qXE724gRjvMtG8ow2CY",
+        "name": "Tiki Pub Cruises",
+        "distanceM": 5,
+        "nameSim": 0.348
+      },
+      {
+        "googleId": "ChIJJ4queJY924gR0YBqrQPdKu0",
+        "name": "Tiki Pub Cruises",
+        "distanceM": 1472,
+        "nameSim": 0.348
+      },
+      {
+        "googleId": "ChIJh6e-WtY724gR9d19hVMKYxE",
+        "name": "Nautical Tiki Cruises",
+        "distanceM": 5,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJh5NOafU724gRhBJD9T9CCfU",
+        "name": "Tiki Bar & Grill - Lighthouse Island Resort",
+        "distanceM": 289,
+        "nameSim": 0.2
+      },
+      {
+        "googleId": "ChIJtaSTqUQ724gRDDwikzrTIZo",
+        "name": "Cruisin' Tikis Fort Myers Beach",
+        "distanceM": 199,
+        "nameSim": 0.176
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

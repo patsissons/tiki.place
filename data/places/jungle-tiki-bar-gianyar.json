@@ -1,0 +1,101 @@
+{
+  "id": "jungle-tiki-bar-gianyar",
+  "name": "Jungle Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": -8.4279079,
+    "lng": 115.2797546,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Gianyar",
+    "country": "ID"
+  },
+  "timezone": "Asia/Makassar",
+  "externalIds": {
+    "overture": "cb094cb1-9047-4bb4-b392-0ed37361dce4"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://www.tunggirterracepadi.id/"
+  },
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "cb094cb1-9047-4bb4-b392-0ed37361dce4",
+      "url": "https://explore.overturemaps.org/#17/-8.427907943725586/115.27975463867188",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJc5rx8i0Z0i0RnJTd7ieSxvY",
+        "name": "Jungle Bar & Kitchen",
+        "distanceM": 3294,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJ926qmv4X0i0RukMsxh_5Rx8",
+        "name": "Jungle Table & Bar",
+        "distanceM": 8566,
+        "nameSim": 0.714
+      },
+      {
+        "googleId": "ChIJURMfBbYi0i0RFB8UdQswuY4",
+        "name": "Jungle Fish Bali",
+        "distanceM": 6145,
+        "nameSim": 0.556
+      },
+      {
+        "googleId": "ChIJP7o6M6Mj0i0RVFY5XfkezWY",
+        "name": "Wanna Jungle Pool and Bar",
+        "distanceM": 745,
+        "nameSim": 0.526
+      },
+      {
+        "googleId": "ChIJT0uTVeE_0i0R3iuespBpqUE",
+        "name": "The Jungle Club Ubud by Wonderspace",
+        "distanceM": 18308,
+        "nameSim": 0.4
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

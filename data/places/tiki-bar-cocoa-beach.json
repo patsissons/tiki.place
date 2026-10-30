@@ -1,0 +1,84 @@
+{
+  "id": "tiki-bar-cocoa-beach",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 28.3394375,
+    "lng": -80.6082687,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Cocoa Beach",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "984559ff-e5b0-4145-b6bd-b17ae3063fc8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "984559ff-e5b0-4145-b6bd-b17ae3063fc8",
+      "url": "https://explore.overturemaps.org/#17/28.33943748474121/-80.60826873779297",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJrUBHjVwd3ogRnyjGkpARCsA",
+        "name": "Dirty Birds Tiki Bar & Grill",
+        "distanceM": 2362,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJaywE7Jan4IgRUfuNw5iExK0",
+        "name": "Rikki Tiki Tavern",
+        "distanceM": 3235,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJLbM-92cd3ogRwzbXRpQ2Lro",
+        "name": "Longboards Tiki Beach Grille",
+        "distanceM": 135,
+        "nameSim": 0.333
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

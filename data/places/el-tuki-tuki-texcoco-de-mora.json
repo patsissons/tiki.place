@@ -1,0 +1,90 @@
+{
+  "id": "el-tuki-tuki-texcoco-de-mora",
+  "name": "El Tuki tuki",
+  "aliases": [],
+  "location": {
+    "lat": 19.471091599999998,
+    "lng": -98.87827329999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "San Miguel Coatlinchán",
+    "region": "Estado de México",
+    "postalCode": "56225",
+    "country": "MX"
+  },
+  "formattedAddress": "Manzana 020, Leyes de Reforma, 56225 San Miguel Coatlinchán, Méx., Mexico",
+  "timezone": "America/Mexico_City",
+  "externalIds": {
+    "overture": "73fa77a7-6fc6-4d5b-8c5d-1fbfc9891af6",
+    "google": "ChIJBRJe0frn0YURnYtcLw2fq1A"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=5812914623029742493&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.1,
+    "count": 13,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJBRJe0frn0YURnYtcLw2fq1A",
+      "url": "https://maps.google.com/?cid=5812914623029742493&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "73fa77a7-6fc6-4d5b-8c5d-1fbfc9891af6",
+      "url": "https://explore.overturemaps.org/#17/19.471088409423828/-98.87828826904297",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

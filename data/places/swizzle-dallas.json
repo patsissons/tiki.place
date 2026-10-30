@@ -1,0 +1,101 @@
+{
+  "id": "swizzle-dallas",
+  "name": "Swizzle",
+  "aliases": [],
+  "location": {
+    "lat": 32.8123249,
+    "lng": -96.7700588,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1802 Greenville Avenue",
+    "locality": "Dallas",
+    "region": "Texas",
+    "postalCode": "75206",
+    "country": "US"
+  },
+  "formattedAddress": "1802 Greenville Ave #110, Dallas, TX 75206, USA",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "dd22b9b4-9768-4a05-b8ad-f0f945c8a82a",
+    "google": "ChIJCQ3oXEKfToYRJ9fLMqRPVG0"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 469-862-3102",
+    "website": "http://swizzledallas.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=7878009214823290663&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.6,
+    "count": 334,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJCQ3oXEKfToYRJ9fLMqRPVG0",
+      "url": "https://maps.google.com/?cid=7878009214823290663&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "dd22b9b4-9768-4a05-b8ad-f0f945c8a82a",
+      "url": "https://explore.overturemaps.org/#17/32.812408447265625/-96.76976776123047",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

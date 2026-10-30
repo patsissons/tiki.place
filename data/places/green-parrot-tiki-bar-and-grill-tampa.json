@@ -1,0 +1,108 @@
+{
+  "id": "green-parrot-tiki-bar-and-grill-tampa",
+  "name": "Green Parrot Tiki Bar",
+  "aliases": [
+    "Green Parrot Tiki Bar & Grill"
+  ],
+  "location": {
+    "lat": 28.0550209,
+    "lng": -82.5059831,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "11742 Dale Mabry Highway",
+    "locality": "Tampa",
+    "region": "Florida",
+    "postalCode": "33618",
+    "country": "US"
+  },
+  "formattedAddress": "11742 Dale Mabry Hwy, Tampa, FL 33618, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "4d6ad748-51ec-46b8-ad16-0023ed86ab92",
+    "google": "ChIJQfA4R-TAwogR81S5vkWpdUs"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 813-874-1872",
+    "website": "http://green-parrot-pub.edan.io/",
+    "googleMapsUri": "https://maps.google.com/?cid=5437438242137396467&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.3,
+    "count": 571,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJQfA4R-TAwogR81S5vkWpdUs",
+      "url": "https://maps.google.com/?cid=5437438242137396467&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "4d6ad748-51ec-46b8-ad16-0023ed86ab92",
+      "url": "https://explore.overturemaps.org/#17/28.054962158203125/-82.50602722167969",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

@@ -1,16 +1,12 @@
 import path from "node:path";
-
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
-    environment: "jsdom",
-    setupFiles: ["./vitest.setup.ts"],
-    include: ["tests/**/*.test.ts"],
+    environment: "node",
+    include: ["sync/__tests__/**/*.test.ts", "lib/**/*.test.ts"],
   },
   resolve: {
-    alias: {
-      "@": path.resolve(__dirname),
-    },
+    alias: { "@": path.resolve(import.meta.dirname) },
   },
 });

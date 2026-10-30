@@ -1,0 +1,158 @@
+{
+  "id": "tokyo-bikini-bar-camarillo",
+  "name": "Tokyo Bikini Bar",
+  "aliases": [],
+  "location": {
+    "lat": 34.2029494,
+    "lng": -119.00680229999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4840 Calle Alto",
+    "locality": "Camarillo",
+    "region": "California",
+    "postalCode": "93012",
+    "country": "US"
+  },
+  "formattedAddress": "4840 Calle Alto Ste A, Camarillo, CA 93012, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "9877cc11-27e8-4e81-acd1-39a3ee88df9f",
+    "google": "ChIJP_eEhUk36IAR94rmTk5WxV8"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0700"
+        },
+        "close": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0900"
+        },
+        "close": {
+          "day": 6,
+          "time": "1400"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 4:00 PM",
+      "Tuesday: 7:00 – 11:00 AM",
+      "Wednesday: 4:00 – 9:00 PM",
+      "Thursday: Closed",
+      "Friday: Closed",
+      "Saturday: 9:00 AM – 2:00 PM",
+      "Sunday: Closed"
+    ]
+  },
+  "contact": {
+    "phone": "+1 805-645-0151",
+    "website": "https://tokyobikinibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6901016898346322679&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 49,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJP_eEhUk36IAR94rmTk5WxV8",
+      "url": "https://maps.google.com/?cid=6901016898346322679&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9877cc11-27e8-4e81-acd1-39a3ee88df9f",
+      "url": "https://explore.overturemaps.org/#17/34.202938079833984/-119.00682067871094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

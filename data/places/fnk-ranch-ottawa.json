@@ -1,0 +1,96 @@
+{
+  "id": "fnk-ranch-ottawa",
+  "name": "Fnk Ranch",
+  "aliases": [],
+  "location": {
+    "lat": 42.9520912,
+    "lng": -88.4348755,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Ottawa",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "ac3cda54-f6ea-4293-bcef-841f825e4144"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "ac3cda54-f6ea-4293-bcef-841f825e4144",
+      "url": "https://explore.overturemaps.org/#17/42.952091217041016/-88.43487548828125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ-QfeigIJzkwRrI0qiiw9OWw",
+        "name": "Royale Ranch",
+        "distanceM": 1053960,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJS4vUmVQd0kwR0GuQuuXrIdM",
+        "name": "Silver Creek Ranch",
+        "distanceM": 1019204,
+        "nameSim": 0.455
+      },
+      {
+        "googleId": "ChIJx5uu2nHNzUwRoi0cfy22r0A",
+        "name": "Nation Valley Ranch",
+        "distanceM": 1079805,
+        "nameSim": 0.4
+      },
+      {
+        "googleId": "ChIJPaV2HDXlzUwRY0Y1iYwf_6U",
+        "name": "Stevens Creek Farm",
+        "distanceM": 1047278,
+        "nameSim": 0
+      },
+      {
+        "googleId": "ChIJWSMDEADhzUwRBLU0OUGw2_w",
+        "name": "Findlay Creek Farmstead",
+        "distanceM": 1057682,
+        "nameSim": 0
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

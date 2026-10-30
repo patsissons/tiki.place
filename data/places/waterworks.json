@@ -1,0 +1,83 @@
+{
+  "id": "waterworks",
+  "name": "Waterworks",
+  "aliases": [],
+  "location": {
+    "lat": 30.4553035,
+    "lng": -84.2775719,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1133 Thomasville Rd",
+    "locality": "Tallahassee",
+    "region": "FL",
+    "postalCode": "32303",
+    "country": "US"
+  },
+  "formattedAddress": "1133 Thomasville Rd, Tallahassee FL 32303, USA",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "tikirat": "waterworks"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "850-224-1887"
+  },
+  "established": 1996,
+  "tikiConfidence": 0.85,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:36:33.374Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "waterworks",
+      "url": "https://tikirat.com/bars/waterworks",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:36:33.374Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": []
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+}

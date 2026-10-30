@@ -1,0 +1,84 @@
+{
+  "id": "coconut-joes-powell",
+  "name": "Coconut Joe’s",
+  "aliases": [],
+  "location": {
+    "lat": 40.1530685,
+    "lng": -83.1182632,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Powell",
+    "region": "OH",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "b87c101d-a6f0-4250-a466-99e7baaf7d8d"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "website": "http://zoombezibay.columbuszoo.org/home/visit/explore-your-park/food-shops"
+  },
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "b87c101d-a6f0-4250-a466-99e7baaf7d8d",
+      "url": "https://explore.overturemaps.org/#17/40.15306854248047/-83.1182632446289",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ9yo3sZDtOIgRJkFIS748z_4",
+        "name": "Joe's Pub & Grill",
+        "distanceM": 2011,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJA3qURUftOIgR_bmqpP18P4o",
+        "name": "CoccoKay Bites",
+        "distanceM": 3308,
+        "nameSim": 0.3
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

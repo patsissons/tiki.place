@@ -1,0 +1,106 @@
+{
+  "id": "tiki-bar-at-the-waldorf-vancouver",
+  "name": "Tiki Bar at the Waldorf",
+  "aliases": [],
+  "location": {
+    "lat": 49.281467899999996,
+    "lng": -123.07457899999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1489 East Hastings Street",
+    "locality": "Vancouver",
+    "region": "British Columbia",
+    "postalCode": "V5L 5B6",
+    "country": "CA"
+  },
+  "formattedAddress": "1489 E Hastings St, Vancouver, BC V5L 5B6, Canada",
+  "timezone": "America/Vancouver",
+  "externalIds": {
+    "overture": "db3c9ee7-9b90-4257-a685-49f419bc1d99",
+    "google": "ChIJ95DN-xNxhlQRXWpKDVqg42U"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 604-253-7141",
+    "website": "https://www.atthewaldorf.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=7341888126174521949&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.9,
+    "count": 133,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+      "url": "https://maps.google.com/?cid=7341888126174521949&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "db3c9ee7-9b90-4257-a685-49f419bc1d99",
+      "url": "https://explore.overturemaps.org/#17/49.28144454956055/-123.07449340820312",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

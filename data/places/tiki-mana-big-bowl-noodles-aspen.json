@@ -1,0 +1,106 @@
+{
+  "id": "tiki-mana-big-bowl-noodles-aspen",
+  "name": "Tiki Mana Big Bowl Noodles",
+  "aliases": [],
+  "location": {
+    "lat": 39.192858,
+    "lng": -106.8190257,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "300 Puppy Smith Street",
+    "locality": "Aspen",
+    "region": "Colorado",
+    "postalCode": "81611",
+    "country": "US"
+  },
+  "formattedAddress": "300 Puppy Smith St, Aspen, CO 81611, USA",
+  "timezone": "America/Denver",
+  "externalIds": {
+    "overture": "fe41e69a-21e6-477e-a9fa-2d1af221e486",
+    "google": "ChIJUdwL8n05QIcR1UsjD9axFBc"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+1 970-710-2381",
+    "website": "http://tikimanarestaurants.com/?y_source=1_MTQzNjAwNzYtNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+    "googleMapsUri": "https://maps.google.com/?cid=1663149695341644757&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.7,
+    "count": 123,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJUdwL8n05QIcR1UsjD9axFBc",
+      "url": "https://maps.google.com/?cid=1663149695341644757&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "fe41e69a-21e6-477e-a9fa-2d1af221e486",
+      "url": "https://explore.overturemaps.org/#17/39.19285202026367/-106.81903839111328",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

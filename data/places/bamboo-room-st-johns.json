@@ -1,0 +1,101 @@
+{
+  "id": "bamboo-room-st-johns",
+  "name": "The Bamboo Room",
+  "aliases": [],
+  "location": {
+    "lat": 47.5625911,
+    "lng": -52.7089754,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "268 Water Street",
+    "locality": "St. John's",
+    "region": "Newfoundland and Labrador",
+    "postalCode": "A1C 1A9",
+    "country": "CA"
+  },
+  "formattedAddress": "268 Water St, St. John's, NL A1C 1A9, Canada",
+  "timezone": "America/St_Johns",
+  "externalIds": {
+    "overture": "c4ab97a6-14ae-466c-9ede-a9923ea9f226",
+    "google": "ChIJGYVqQACjDEsRoXpiTqzvzyQ"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "website": "http://instagram.com/thebambooroomca",
+    "googleMapsUri": "https://maps.google.com/?cid=2652602228873001633&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.2,
+    "count": 17,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJGYVqQACjDEsRoXpiTqzvzyQ",
+      "url": "https://maps.google.com/?cid=2652602228873001633&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c4ab97a6-14ae-466c-9ede-a9923ea9f226",
+      "url": "https://explore.overturemaps.org/#17/47.562591552734375/-52.70897674560547",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

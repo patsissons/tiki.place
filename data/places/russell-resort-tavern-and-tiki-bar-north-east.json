@@ -1,0 +1,96 @@
+{
+  "id": "russell-resort-tavern-and-tiki-bar-north-east",
+  "name": "Russell Resort Tavern & Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 39.5728226,
+    "lng": -75.9456177,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "North East",
+    "region": "MD",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "e62240e9-1c2b-4de9-a868-803114602145"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e62240e9-1c2b-4de9-a868-803114602145",
+      "url": "https://explore.overturemaps.org/#17/39.57282257080078/-75.94561767578125",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJj8daaZUY54kRn5rFXqqq0QM",
+        "name": "Russell Inn",
+        "distanceM": 389790,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJUbo3SwA5zUwRRSniwz0Yn0c",
+        "name": "Riveredge Resort Tiki Bar",
+        "distanceM": 529923,
+        "nameSim": 0.6
+      },
+      {
+        "googleId": "ChIJtdV0IQBJ244RqaHwVzz5hxM",
+        "name": "Austin Russell’s Jamaica Resort",
+        "distanceM": 2413643,
+        "nameSim": 0.595
+      },
+      {
+        "googleId": "ChIJ2w69uEJ344kRKVe3Zf0YBK8",
+        "name": "Russell House Tavern",
+        "distanceM": 510861,
+        "nameSim": 0.571
+      },
+      {
+        "googleId": "ChIJr2bE9tfR2IkRKZiKc1WfP1k",
+        "name": "Russell Island",
+        "distanceM": 446144,
+        "nameSim": 0.5
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

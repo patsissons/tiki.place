@@ -1,0 +1,96 @@
+{
+  "id": "tiki-bar-key-west",
+  "name": "Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 24.5471478,
+    "lng": -81.7966766,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Key West",
+    "region": "FL",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "71b506f8-9db1-48f0-b747-2d625f80528e"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "71b506f8-9db1-48f0-b747-2d625f80528e",
+      "url": "https://explore.overturemaps.org/#17/24.547147750854492/-81.79667663574219",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ_0R2Luu20YgRZVhegSRGHi0",
+        "name": "Sunset Tiki Bar",
+        "distanceM": 1880,
+        "nameSim": 0.8
+      },
+      {
+        "googleId": "ChIJQ3Gmwwm30YgRVd0UnVsnQYk",
+        "name": "Island shack tiki bar",
+        "distanceM": 895,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJg50tm-u20YgRIO2o5UlQ0cA",
+        "name": "Tiki House",
+        "distanceM": 1560,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJs0Pz_qux0YgRVVaXoefpoL0",
+        "name": "Mckee's Tiki Bar - The Capitana Key West",
+        "distanceM": 2569,
+        "nameSim": 0.444
+      },
+      {
+        "googleId": "ChIJTxF8D-yx0YgRiQI3dPxes18",
+        "name": "Key West Tiki Boat",
+        "distanceM": 5322,
+        "nameSim": 0.4
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "mangos-tropical-bar-and-grill-milwaukee",
+  "name": "Mango's Tropical Bar & Grill",
+  "aliases": [],
+  "location": {
+    "lat": 43.052597,
+    "lng": -87.9030991,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Milwaukee",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "00927c4c-f8a2-4939-9332-380035e6ab06"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "00927c4c-f8a2-4939-9332-380035e6ab06",
+      "url": "https://explore.overturemaps.org/#17/43.05259704589844/-87.9030990600586",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ97agFBoZBYgRw54GGNOG3Wg",
+        "name": "Mangos Cafe East",
+        "distanceM": 2,
+        "nameSim": 0.545
+      },
+      {
+        "googleId": "ChIJh5_7E5wXBYgRaQ0qQcIGJSU",
+        "name": "Mango Leaf Bar and Grill, Crowne Plaza",
+        "distanceM": 14066,
+        "nameSim": 0.538
+      },
+      {
+        "googleId": "ChIJHW6XUU4ZBYgRNNKE0kE5Lxo",
+        "name": "Tropic on Water",
+        "distanceM": 1823,
+        "nameSim": 0.4
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "tiki-tiki-fiumicino",
+  "name": "Tiki Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 41.8530847,
+    "lng": 12.193692400000002,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2 Piazzale di Fregene",
+    "locality": "Fregene",
+    "region": "Lazio",
+    "postalCode": "00054",
+    "country": "IT"
+  },
+  "formattedAddress": "Piazzale di Fregene, 2, 00054 Fregene RM, Italy",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "ebf169f6-178c-446d-a07b-b3a93eda2195",
+    "osm": "way/699133794",
+    "google": "ChIJzcc8Rhr5JRMRiBfmf89jo58"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "contact": {
+    "phone": "+39 333 361 2414",
+    "googleMapsUri": "https://maps.google.com/?cid=11503147616089544584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.9,
+    "count": 239,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.884,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJzcc8Rhr5JRMRiBfmf89jo58",
+      "url": "https://maps.google.com/?cid=11503147616089544584&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/699133794",
+      "url": "https://www.openstreetmap.org/way/699133794",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ebf169f6-178c-446d-a07b-b3a93eda2195",
+      "url": "https://explore.overturemaps.org/#17/41.853050231933594/12.19362735748291",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

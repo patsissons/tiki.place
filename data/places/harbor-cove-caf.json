@@ -1,0 +1,270 @@
+{
+  "id": "harbor-cove-caf",
+  "name": "Harbor Cove Cafe",
+  "aliases": [
+    "Harbor Cove Caf"
+  ],
+  "location": {
+    "lat": 34.247751,
+    "lng": -119.266353,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "1867 Spinnaker Drive",
+    "locality": "Ventura",
+    "region": "California",
+    "postalCode": "93001",
+    "country": "US"
+  },
+  "formattedAddress": "1867 Spinnaker Dr, Ventura, CA 93001, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "tikirat": "harbor-cove-caf",
+    "google": "ChIJbY8YH9BS6IARxLlWy1uenE8"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0730"
+        },
+        "close": {
+          "day": 0,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 0,
+          "time": "1130"
+        },
+        "close": {
+          "day": 0,
+          "time": "1800"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0730"
+        },
+        "close": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0730"
+        },
+        "close": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "1400"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0730"
+        },
+        "close": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0730"
+        },
+        "close": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0730"
+        },
+        "close": {
+          "day": 5,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0730"
+        },
+        "close": {
+          "day": 6,
+          "time": "1100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1130"
+        },
+        "close": {
+          "day": 6,
+          "time": "2000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 7:30 – 11:00 AM, 11:30 AM – 2:00 PM",
+      "Tuesday: 7:30 – 11:00 AM, 11:30 AM – 2:00 PM",
+      "Wednesday: 7:30 – 11:00 AM, 11:30 AM – 8:00 PM",
+      "Thursday: 7:30 – 11:00 AM, 11:30 AM – 8:00 PM",
+      "Friday: 7:30 – 11:00 AM, 11:30 AM – 8:00 PM",
+      "Saturday: 7:30 – 11:00 AM, 11:30 AM – 8:00 PM",
+      "Sunday: 7:30 – 11:00 AM, 11:30 AM – 6:00 PM"
+    ]
+  },
+  "contact": {
+    "phone": "+1 805-658-1639",
+    "website": "https://harborcovecafe.net/",
+    "googleMapsUri": "https://maps.google.com/?cid=5736634142453840324&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 820,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 2005,
+  "tikiConfidence": 0.857,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-26T04:35:53.528Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:59.959Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "location": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    },
+    "name": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:35:53.528Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJbY8YH9BS6IARxLlWy1uenE8",
+      "url": "https://maps.google.com/?cid=5736634142453840324&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "harbor-cove-caf",
+      "url": "https://tikirat.com/bars/harbor-cove-caf",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:23:59.959Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+}

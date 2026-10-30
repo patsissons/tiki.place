@@ -1,0 +1,108 @@
+{
+  "id": "lava-lava-beach-club",
+  "name": "Lava Lava Beach Club",
+  "aliases": [],
+  "location": {
+    "lat": 19.9128455,
+    "lng": -155.8872346,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "69-1081 Kuualii Pl",
+    "locality": "Waikoloa Village",
+    "region": "HI",
+    "postalCode": "96738",
+    "country": "US"
+  },
+  "formattedAddress": "69-1081 Kuualii Pl, Waikoloa HI 96738, USA",
+  "timezone": "Pacific/Honolulu",
+  "externalIds": {
+    "tikirat": "lava-lava-beach-club"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {
+    "phone": "808-769-5282",
+    "website": "https://lavalavabeachclub.com/"
+  },
+  "established": 2012,
+  "tikiConfidence": 0.978,
+  "review": {
+    "state": "auto_approved",
+    "by": "auto",
+    "at": "2026-10-30T20:39:09.190Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "contact.website": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "location": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "name": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-30T20:26:17.868Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "lava-lava-beach-club",
+      "url": "https://tikirat.com/bars/lava-lava-beach-club",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:26:17.868Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "lava-lava-beach-club-waikoloa-village",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "ambiguous",
+    "candidates": [
+      {
+        "googleId": "ChIJLV0YzpZ3VHkRrJxydNU8n4s",
+        "name": "Lava Lava Beach Club",
+        "distanceM": null,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJxbz0_UvgBnwRuv8oBcS1YpA",
+        "name": "Lava Lava Beach Club",
+        "distanceM": null,
+        "nameSim": 1
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+}

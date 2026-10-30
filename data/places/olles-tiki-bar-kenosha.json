@@ -1,0 +1,90 @@
+{
+  "id": "olles-tiki-bar-kenosha",
+  "name": "Olle’s Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 42.5705147,
+    "lng": -87.8264542,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Kenosha",
+    "region": "WI",
+    "country": "US"
+  },
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "overture": "e7855c0d-6ad7-4680-a549-882ede1237ca"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-10-26T04:28:59.067Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e7855c0d-6ad7-4680-a549-882ede1237ca",
+      "url": "https://explore.overturemaps.org/#17/42.57051467895508/-87.82645416259766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "resolution": {
+    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJNQ5Pbi1eBYgRN8VJq3j78OA",
+        "name": "Dolls Tavern",
+        "distanceM": 1606,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJMx9btS5hBYgRfN_aZSrrGeQ",
+        "name": "The Tipsy Kiwi",
+        "distanceM": 4506,
+        "nameSim": 0.211
+      },
+      {
+        "googleId": "ChIJhW77LWJfBYgRhKv4Q6g6pfg",
+        "name": "Olive or Twist",
+        "distanceM": 1395,
+        "nameSim": 0.182
+      },
+      {
+        "googleId": "ChIJ1VTOkzlfBYgRhl9jtX6iwKA",
+        "name": "S'Lush Daiquiri Lounge and Grill",
+        "distanceM": 1388,
+        "nameSim": 0.057
+      }
+    ]
+  },
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+}
