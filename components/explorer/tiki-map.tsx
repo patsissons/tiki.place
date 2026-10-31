@@ -6,6 +6,7 @@ import type { MapMouseEvent, MapRef } from "react-map-gl/mapbox";
 import { Layer, Map, Marker, Source } from "react-map-gl/mapbox";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { STATUS_COLOR } from "@/lib/client/status";
+import { distanceKm } from "@/lib/geo";
 import type { PublishedPlace } from "@/lib/schema/published";
 
 export type Camera = { lat: number; lng: number; zoom: number };
@@ -16,6 +17,8 @@ type Props = {
   onSelect: (id: string | null) => void;
   camera: Camera | null;
   onCameraChange: (c: Camera) => void;
+  /** Reports the ids of the places visible in the map frame whenever the frame changes. */
+  onFrameChange: (ids: Set<string>) => void;
   userLocation: { lat: number; lng: number } | null;
   /** Extra bottom padding (px) so fitted bounds clear the mobile sheet. */
   bottomPadding?: number;
@@ -38,7 +41,24 @@ function useColorScheme() {
   return dark;
 }
 
-export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, userLocation, bottomPadding = 0, flyToRequest }: Props) {
+function placesInFrame(map: MapRef, places: PublishedPlace[], bottomPadding: number) {
+  const { clientWidth: width, clientHeight } = map.getContainer();
+  const height = clientHeight - bottomPadding;
+  const centerLng = map.getCenter().lng;
+  const ids = new Set<string>();
+  for (const p of places) {
+    // Zoomed out, the world repeats: test the copy nearest the centre.
+    const lng = p.lng + 360 * Math.round((centerLng - p.lng) / 360);
+    const { x, y } = map.project([lng, p.lat]);
+    if (x < 0 || x > width || y < 0 || y > height) continue;
+    // On the globe, far-side places project inside the disc but unproject to the near side.
+    if (distanceKm(map.unproject([x, y]), p) > 100) continue;
+    ids.add(p.id);
+  }
+  return ids;
+}
+
+export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, onFrameChange, userLocation, bottomPadding = 0, flyToRequest }: Props) {
   const mapRef = useRef<MapRef>(null);
   const dark = useColorScheme();
   const [cursor, setCursor] = useState<string>("grab");
@@ -72,6 +92,13 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
     const lngs = places.map((p) => p.lng);
     map.fitBounds([Math.min(...lngs), Math.min(...lats), Math.max(...lngs), Math.max(...lats)], { padding: { top: 80, left: 40, right: 40, bottom: 40 + bottomPadding }, maxZoom: 12, duration: 0 });
   }, [places, bottomPadding]);
+
+  const reportFrame = useCallback(() => {
+    const map = mapRef.current;
+    if (map) onFrameChange(placesInFrame(map, places, bottomPadding));
+  }, [places, bottomPadding, onFrameChange]);
+
+  useEffect(reportFrame, [reportFrame]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -130,7 +157,9 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
       onClick={onClick}
       onMouseEnter={() => setCursor("pointer")}
       onMouseLeave={() => setCursor("grab")}
+      onLoad={reportFrame}
       onMoveEnd={(e) => {
+        reportFrame();
         if ((e as { originalEvent?: unknown }).originalEvent) onCameraChange({ lat: e.viewState.latitude, lng: e.viewState.longitude, zoom: e.viewState.zoom });
       }}
       style={{ width: "100%", height: "100%" }}
