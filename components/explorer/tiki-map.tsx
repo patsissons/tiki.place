@@ -1,13 +1,14 @@
 "use client";
 
 import "mapbox-gl/dist/mapbox-gl.css";
-import type { GeoJSONSource } from "mapbox-gl";
+import type { FogSpecification, GeoJSONSource, Map as MapboxMap } from "mapbox-gl";
 import type { MapMouseEvent, MapRef } from "react-map-gl/mapbox";
 import { Layer, Map, Marker, Source } from "react-map-gl/mapbox";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { STATUS_COLOR } from "@/lib/client/status";
 import { distanceKm } from "@/lib/geo";
 import type { PublishedPlace } from "@/lib/schema/published";
+import { SpaceBackdrop } from "./space-backdrop";
 
 export type Camera = { lat: number; lng: number; zoom: number };
 
@@ -28,6 +29,31 @@ type Props = {
 const TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 const DARK = "mapbox://styles/mapbox/dark-v11";
 const LIGHT = "mapbox://styles/mapbox/light-v11";
+
+/**
+ * The styles paint space black (dark) or white (light). A fully transparent,
+ * black space colour lets the sky canvas behind the map show through; the
+ * atmosphere shader premultiplies against it, so the RGB must stay black and
+ * the halo is tuned through `color` and `high-color` only.
+ */
+const FOG_DARK: FogSpecification = {
+  range: [-1, 10],
+  color: "rgba(15, 42, 46, 0.55)",
+  "high-color": "rgba(95, 194, 180, 0.22)",
+  "space-color": "rgba(0, 0, 0, 0)",
+  "horizon-blend": 0.06,
+  "star-intensity": 0,
+};
+const FOG_LIGHT: FogSpecification = {
+  range: [-1, 10],
+  color: "rgba(246, 239, 224, 0.6)",
+  "high-color": "rgba(255, 250, 240, 0.35)",
+  "space-color": "rgba(0, 0, 0, 0)",
+  "horizon-blend": 0.08,
+  "star-intensity": 0,
+};
+/** Start the sky even if the map never reports `load` (offline, blocked tiles). */
+const SKY_FALLBACK_MS = 2500;
 
 function useColorScheme() {
   const [dark, setDark] = useState(true);
@@ -62,6 +88,26 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
   const mapRef = useRef<MapRef>(null);
   const dark = useColorScheme();
   const [cursor, setCursor] = useState<string>("grab");
+  const [skyActive, setSkyActive] = useState(false);
+  const [loadedMap, setLoadedMap] = useState<MapboxMap | null>(null);
+
+  useEffect(() => {
+    const t = window.setTimeout(() => setSkyActive(true), SKY_FALLBACK_MS);
+    return () => window.clearTimeout(t);
+  }, []);
+
+  // Re-apply our fog whenever a style finishes loading; a style swap would otherwise bring its own back.
+  const fog = dark ? FOG_DARK : FOG_LIGHT;
+  useEffect(() => {
+    const map = loadedMap;
+    if (!map) return;
+    const apply = () => map.setFog(fog);
+    if (map.isStyleLoaded()) apply();
+    map.on("style.load", apply);
+    return () => {
+      map.off("style.load", apply);
+    };
+  }, [loadedMap, fog]);
 
   const geojson = useMemo(
     () => ({
@@ -145,6 +191,8 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
   }
 
   return (
+    <div className="relative h-full w-full">
+      <SpaceBackdrop getMap={() => mapRef.current} active={skyActive} dark={dark} />
     <Map
       ref={mapRef}
       mapboxAccessToken={TOKEN}
@@ -157,7 +205,11 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
       onClick={onClick}
       onMouseEnter={() => setCursor("pointer")}
       onMouseLeave={() => setCursor("grab")}
-      onLoad={reportFrame}
+      onLoad={(e) => {
+        setLoadedMap(e.target);
+        setSkyActive(true);
+        reportFrame();
+      }}
       onMoveEnd={(e) => {
         reportFrame();
         if ((e as { originalEvent?: unknown }).originalEvent) onCameraChange({ lat: e.viewState.latitude, lng: e.viewState.longitude, zoom: e.viewState.zoom });
@@ -211,5 +263,6 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
         </Marker>
       )}
     </Map>
+    </div>
   );
 }
