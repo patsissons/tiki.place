@@ -10,3 +10,11 @@ next-env.d.ts
 dist
 .cache
 public/data
+assets/samples
+assets/music/.venv
+assets/music/__pycache__
+assets/music/encoded
+assets/music/stems
+assets/music/work
+assets/music/*.wav
+assets/music/loop.json

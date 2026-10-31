@@ -22,16 +22,16 @@ export function SiteHeader({ className, overlay = false, actions }: Props) {
   return (
     <header
       className={cn(
-        "z-30 flex h-14 items-center justify-between gap-4 px-4 sm:px-6",
+        "z-30 flex h-14 items-center justify-between gap-2 px-3 sm:gap-4 sm:px-6",
         overlay ? "pointer-events-none absolute inset-x-0 top-0" : "border-b border-line bg-bg/80 backdrop-blur",
         className,
       )}
     >
-      <Link href="/" className={cn("pointer-events-auto flex items-center gap-2 rounded-full px-2 py-1", overlay && "bg-bg/70 backdrop-blur")}>
+      <Link href="/" className={cn("pointer-events-auto flex min-w-0 items-center gap-1.5 rounded-full px-2 py-1 sm:gap-2", overlay && "bg-bg/70 backdrop-blur")}>
         <Torch />
-        <span className="font-display text-lg font-semibold tracking-tight">{SITE.name}</span>
+        <span className="truncate font-display text-base font-semibold tracking-tight sm:text-lg">{SITE.name}</span>
       </Link>
-      <div className="flex items-center gap-2">
+      <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
         {actions}
         <nav className={cn("pointer-events-auto hidden items-center gap-1 rounded-full text-sm sm:flex", overlay && "bg-bg/70 px-1 backdrop-blur")}>
           {links.map((l) => (

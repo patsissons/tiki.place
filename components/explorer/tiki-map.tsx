@@ -8,6 +8,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { STATUS_COLOR } from "@/lib/client/status";
 import { distanceKm } from "@/lib/geo";
 import type { PublishedPlace } from "@/lib/schema/published";
+import { BackgroundMusic } from "./background-music";
 import { SpaceBackdrop } from "./space-backdrop";
 
 export type Camera = { lat: number; lng: number; zoom: number };
@@ -192,6 +193,7 @@ export function TikiMap({ places, selectedId, onSelect, camera, onCameraChange, 
 
   return (
     <div className="relative h-full w-full">
+      <BackgroundMusic map={loadedMap} />
       <SpaceBackdrop getMap={() => mapRef.current} active={skyActive} dark={dark} />
     <Map
       ref={mapRef}
