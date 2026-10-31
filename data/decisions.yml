@@ -1043,3 +1043,9 @@
   reason: tiki-adjacent with no dedicated tiki room or menu
   at: 2026-10-31T00:42:49.133Z
   by: skill
+- type: pin
+  place: hawaiian-room
+  field: name
+  value: Bottoms Up Tiki Lounge
+  at: 2026-10-31T01:25:08.277Z
+  by: owner
