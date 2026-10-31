@@ -46,10 +46,10 @@ const FOG_DARK: FogSpecification = {
 };
 const FOG_LIGHT: FogSpecification = {
   range: [-1, 10],
-  color: "rgba(246, 239, 224, 0.6)",
-  "high-color": "rgba(255, 250, 240, 0.35)",
+  color: "rgba(246, 239, 224, 0.32)",
+  "high-color": "rgba(255, 250, 240, 0.14)",
   "space-color": "rgba(0, 0, 0, 0)",
-  "horizon-blend": 0.08,
+  "horizon-blend": 0.05,
   "star-intensity": 0,
 };
 /** Start the sky even if the map never reports `load` (offline, blocked tiles). */
