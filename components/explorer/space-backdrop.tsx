@@ -2,6 +2,7 @@
 
 import type { MapRef } from "react-map-gl/mapbox";
 import { useEffect, useRef, useState } from "react";
+import { useSkyMode } from "@/lib/client/sky-mode";
 import { cameraBasisHor, globeCoversViewport, rotateBasis, viewOffset, type MapFrame } from "@/lib/space/camera";
 import { FRAME_INTERVAL_MS, SIM_SECONDS_PER_REAL_SECOND } from "@/lib/space/constants";
 import type { SpaceScene } from "@/lib/space/scene";
@@ -32,14 +33,6 @@ function readFrame(map: MapRef): MapFrame {
   };
 }
 
-/** `?sky=0` disables the backdrop; `?sky=real` runs the orbital clock at true speed for checking against a planetarium. */
-function skyMode(): "off" | "real" | "fast" {
-  const v = new URLSearchParams(window.location.search).get("sky");
-  if (v === "0" || v === "off") return "off";
-  if (v === "real") return "real";
-  return "fast";
-}
-
 type Idle = { kind: "idle"; id: number } | { kind: "timeout"; id: number };
 const idle = (cb: () => void): Idle =>
   typeof window.requestIdleCallback === "function" ? { kind: "idle", id: window.requestIdleCallback(cb, { timeout: 1500 }) } : { kind: "timeout", id: window.setTimeout(cb, 0) };
@@ -48,6 +41,8 @@ const cancelIdle = (h: Idle) => (h.kind === "idle" ? window.cancelIdleCallback(h
 /**
  * The star field, Milky Way, Sun, Moon and planets behind the globe, drawn on a
  * canvas under the (transparent) Mapbox canvas and locked to its camera.
+ * The mode comes from the options sheet (see `lib/client/sky-mode`): "none"
+ * unmounts the scene, and the other two only change the orbital clock's speed.
  */
 export function SpaceBackdrop({ getMap, active, dark }: Props) {
   const hostRef = useRef<HTMLDivElement>(null);
@@ -57,10 +52,17 @@ export function SpaceBackdrop({ getMap, active, dark }: Props) {
   });
   const sceneRef = useRef<SpaceScene | null>(null);
   const [state, setState] = useState<State>("idle");
+  const mode = useSkyMode();
+  const enabled = mode !== "none";
+  // The orbital clock restarts from now whenever the speed changes, so switching to real time snaps to the present.
+  const clockRef = useRef({ start: 0, speed: SIM_SECONDS_PER_REAL_SECOND });
+  useEffect(() => {
+    clockRef.current = { start: Date.now(), speed: mode === "real" ? 1 : SIM_SECONDS_PER_REAL_SECOND };
+  }, [mode]);
 
   useEffect(() => {
     const host = hostRef.current;
-    if (!active || !host || skyMode() === "off") return;
+    if (!active || !enabled || !host) return;
 
     let cancelled = false;
     let raf = 0;
@@ -104,8 +106,7 @@ export function SpaceBackdrop({ getMap, active, dark }: Props) {
       scene.setScheme(dark ? "dark" : "light");
 
       const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      const speed = skyMode() === "real" ? 1 : SIM_SECONDS_PER_REAL_SECOND;
-      const simStart = Date.now();
+      const mountedAt = Date.now();
       let last = -Infinity;
       let lastKey = "";
       let needsRedraw = true;
@@ -127,8 +128,9 @@ export function SpaceBackdrop({ getMap, active, dark }: Props) {
         const f = readFrame(map);
         if (f.width === 0 || f.height === 0 || globeCoversViewport(f)) return;
         const now = Date.now();
-        const sim = reduced ? simStart : simStart + (now - simStart) * speed;
-        const key = [f.lat, f.lng, f.bearing, f.pitch, f.zoom, f.width, f.height, f.padding.top, f.padding.bottom, f.padding.left, f.padding.right].join(",");
+        const { start, speed } = clockRef.current;
+        const sim = reduced ? mountedAt : start + (now - start) * speed;
+        const key = [f.lat, f.lng, f.bearing, f.pitch, f.zoom, f.width, f.height, f.padding.top, f.padding.bottom, f.padding.left, f.padding.right, speed].join(",");
         if (reduced && !needsRedraw && key === lastKey) return;
         const basis = rotateBasis(eph.horToEqj(new Date(now), f.lat, f.lng), cameraBasisHor(f.bearing, f.pitch));
         scene.setCamera(basis.forward, basis.up, viewOffset(f));
@@ -171,7 +173,7 @@ export function SpaceBackdrop({ getMap, active, dark }: Props) {
     };
     // `dark` is applied by the effect below; restarting the scene on a scheme change would be wasteful.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [active]);
+  }, [active, enabled]);
 
   useEffect(() => {
     sceneRef.current?.setScheme(dark ? "dark" : "light");

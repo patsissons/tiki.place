@@ -13,6 +13,7 @@ import { usePlaces, useSearch } from "@/lib/client/use-places";
 import type { PublishedPlace } from "@/lib/schema/published";
 import { cn } from "@/lib/utils";
 import { DetailPanel } from "./detail-panel";
+import { OptionsDialog } from "./options-dialog";
 import { PlaceCard } from "./place-card";
 import { TikiMap, type Camera } from "./tiki-map";
 
@@ -161,7 +162,7 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
 
   return (
     <main className="relative h-dvh w-full overflow-hidden bg-bg">
-      <SiteHeader overlay />
+      <SiteHeader overlay actions={<OptionsDialog />} />
       <div className="absolute inset-0 md:left-[400px]">
         <TikiMap
           places={allPlaces}

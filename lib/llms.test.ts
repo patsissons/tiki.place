@@ -8,7 +8,7 @@ describe("llmsTxt", () => {
   const text = llmsTxt(567);
 
   it("opens with the llms.txt title and summary", () => {
-    expect(text.startsWith(`# ${SITE.name}\n\n> ${SITE.description} 567 places are published.\n`)).toBe(true);
+    expect(text.startsWith(`# ${SITE.name} (${SITE.domain})\n\n> ${SITE.description} 567 places are published.\n`)).toBe(true);
   });
 
   it("links the dataset by absolute URL", () => {

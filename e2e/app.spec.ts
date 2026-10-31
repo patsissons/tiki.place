@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { SITE } from "../lib/seo";
 
 test("explorer loads places, searches, and opens a detail panel", async ({ page }) => {
   await page.goto("/?view=false");
@@ -72,6 +73,32 @@ test("the sky renders behind the globe and can be switched off", async ({ page }
   expect(await page.locator("canvas").count()).toBe(1);
 });
 
+test("the options sheet sets the sky mode and remembers it", async ({ page }) => {
+  await page.goto("/");
+  const backdrop = page.getByTestId("space-backdrop");
+  await expect(backdrop).toHaveAttribute("data-state", "ready", { timeout: 30_000 });
+
+  await page.getByRole("button", { name: "Options" }).click();
+  const dialog = page.getByRole("dialog", { name: "Options" });
+  await expect(dialog.getByRole("radio", { name: "Accelerated" })).toBeChecked();
+  await dialog.getByRole("radio", { name: "None" }).click();
+  await expect(backdrop).toHaveAttribute("data-state", "idle");
+  expect(await page.locator("canvas").count()).toBe(1);
+  await page.keyboard.press("Escape");
+  await expect(dialog).toBeHidden();
+
+  // The choice survives a reload without any URL flag.
+  await page.reload();
+  await expect(page.locator(".mapboxgl-canvas")).toBeVisible();
+  await page.waitForTimeout(3_000);
+  await expect(page.getByTestId("space-backdrop")).toHaveAttribute("data-state", "idle");
+
+  await page.getByRole("button", { name: "Options" }).click();
+  await expect(page.getByRole("radio", { name: "None" })).toBeChecked();
+  await page.getByRole("radio", { name: "Real time" }).click();
+  await expect(page.getByTestId("space-backdrop")).toHaveAttribute("data-state", "ready", { timeout: 30_000 });
+});
+
 test("pages carry complete social metadata and generated images", async ({ page, request, isMobile }) => {
   test.skip(isMobile, "metadata is identical across viewports");
   const meta = (selector: string) => page.locator(selector).first().getAttribute("content");
@@ -79,7 +106,7 @@ test("pages carry complete social metadata and generated images", async ({ page,
   const local = (url: string) => new URL(url).pathname + new URL(url).search;
 
   await page.goto("/places/smugglers-cove-san-francisco");
-  expect(await meta('meta[property="og:site_name"]')).toBe("tiki.place");
+  expect(await meta('meta[property="og:site_name"]')).toBe(SITE.name);
   expect(await meta('meta[property="og:title"]')).toContain("Smuggler's Cove");
   expect(await meta('meta[property="og:description"]')).toContain("San Francisco");
   expect(await meta('meta[property="og:url"]')).toMatch(/^https?:\/\/.+\/places\/smugglers-cove-san-francisco$/);
@@ -93,7 +120,7 @@ test("pages carry complete social metadata and generated images", async ({ page,
   expect((await placePng.body()).length).toBeGreaterThan(10_000);
 
   await page.goto("/");
-  expect(await meta('meta[property="og:site_name"]')).toBe("tiki.place");
+  expect(await meta('meta[property="og:site_name"]')).toBe(SITE.name);
   const siteImage = await meta('meta[property="og:image"]');
   expect(siteImage).toMatch(/\/opengraph-image(\?|$)/);
   expect((await request.get(local(siteImage!))).headers()["content-type"]).toBe("image/png");
@@ -103,7 +130,7 @@ test("pages carry complete social metadata and generated images", async ({ page,
   expect((await request.get(appleIcon!)).headers()["content-type"]).toBe("image/png");
   const manifest = await request.get("/manifest.webmanifest");
   expect(manifest.ok()).toBeTruthy();
-  expect((await manifest.json()).name).toBe("tiki.place");
+  expect((await manifest.json()).name).toBe(SITE.name);
 });
 
 test("agents can find the dataset and read status and hours", async ({ page, request, isMobile }) => {

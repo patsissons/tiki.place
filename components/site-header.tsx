@@ -1,4 +1,6 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
+import { SITE } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 import { MobileMenu } from "./mobile-menu";
 
@@ -9,7 +11,14 @@ const links = [
   { href: "/about", label: "About" },
 ];
 
-export function SiteHeader({ className, overlay = false }: { className?: string; overlay?: boolean }) {
+type Props = {
+  className?: string;
+  overlay?: boolean;
+  /** Extra controls shown before the navigation on every viewport (the explorer's options button). */
+  actions?: ReactNode;
+};
+
+export function SiteHeader({ className, overlay = false, actions }: Props) {
   return (
     <header
       className={cn(
@@ -20,19 +29,22 @@ export function SiteHeader({ className, overlay = false }: { className?: string;
     >
       <Link href="/" className={cn("pointer-events-auto flex items-center gap-2 rounded-full px-2 py-1", overlay && "bg-bg/70 backdrop-blur")}>
         <Torch />
-        <span className="font-display text-lg font-semibold tracking-tight">tiki.place</span>
+        <span className="font-display text-lg font-semibold tracking-tight">{SITE.name}</span>
       </Link>
-      <nav className={cn("pointer-events-auto hidden items-center gap-1 rounded-full text-sm sm:flex", overlay && "bg-bg/70 px-1 backdrop-blur")}>
-        {links.map((l) => (
-          <Link key={l.href} href={l.href} className="rounded-full px-3 py-1.5 text-fg-muted transition-colors hover:bg-fg/8 hover:text-fg">
-            {l.label}
+      <div className="flex items-center gap-2">
+        {actions}
+        <nav className={cn("pointer-events-auto hidden items-center gap-1 rounded-full text-sm sm:flex", overlay && "bg-bg/70 px-1 backdrop-blur")}>
+          {links.map((l) => (
+            <Link key={l.href} href={l.href} className="rounded-full px-3 py-1.5 text-fg-muted transition-colors hover:bg-fg/8 hover:text-fg">
+              {l.label}
+            </Link>
+          ))}
+          <Link href="/submit" className="ml-1 rounded-full bg-amber px-3 py-1.5 font-medium text-[#1a1206] hover:bg-amber/90">
+            Suggest a bar
           </Link>
-        ))}
-        <Link href="/submit" className="ml-1 rounded-full bg-amber px-3 py-1.5 font-medium text-[#1a1206] hover:bg-amber/90">
-          Suggest a bar
-        </Link>
-      </nav>
-      <MobileMenu links={links} />
+        </nav>
+        <MobileMenu links={links} />
+      </div>
     </header>
   );
 }
