@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("explorer loads places, searches, and opens a detail panel", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/?view=false");
   const search = page.getByLabel("Search places").locator("visible=true");
   await expect(search).toBeVisible();
   await expect(page.getByText(/\d+ shown/).locator("visible=true")).toBeVisible({ timeout: 20_000 });
@@ -12,6 +12,33 @@ test("explorer loads places, searches, and opens a detail panel", async ({ page 
   await expect(page).toHaveURL(/p=smugglers-cove-san-francisco/);
   await expect(page.getByRole("heading", { name: "Smuggler's Cove" }).locator("visible=true")).toBeVisible();
   await expect(page.getByText("Where this comes from").locator("visible=true")).toBeVisible();
+});
+
+test("in view toggle starts on and round-trips through the URL", async ({ page }) => {
+  await page.goto("/");
+  const toggle = page.getByRole("button", { name: "In view" }).locator("visible=true");
+  await expect(toggle).toHaveAttribute("aria-pressed", "true");
+  await toggle.click();
+  await expect(toggle).toHaveAttribute("aria-pressed", "false");
+  await expect(page).toHaveURL(/view=false/);
+  await toggle.click();
+  await expect(toggle).toHaveAttribute("aria-pressed", "true");
+  await expect(page).not.toHaveURL(/view=/);
+});
+
+test("in view limits the list to the map frame", async ({ page }) => {
+  const card = page.getByRole("button", { name: /Smuggler's Cove/ }).locator("visible=true").first();
+
+  await page.goto("/?c=37.77,-122.42,12&q=smuggler");
+  await expect(card).toBeVisible({ timeout: 20_000 });
+
+  await page.goto("/?c=40.7,-74,12&q=smuggler");
+  const showOutside = page.getByRole("button", { name: /Show \d+ outside the map/ }).locator("visible=true");
+  await expect(showOutside).toBeVisible({ timeout: 20_000 });
+  await expect(card).toBeHidden();
+  await showOutside.click();
+  await expect(card).toBeVisible();
+  await expect(page).toHaveURL(/view=false/);
 });
 
 test("place page renders hours and sources", async ({ page }) => {

@@ -40,7 +40,9 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
   const [q, setQ] = useQueryState("q", parseAsString.withDefault(""));
   const [selectedId, setSelectedId] = useQueryState("p", parseAsString);
   const [openOnly, setOpenOnly] = useQueryState("open", parseAsBoolean.withDefault(false));
+  const [inView, setInView] = useQueryState("view", parseAsBoolean.withDefault(true));
   const [cameraParam, setCameraParam] = useQueryState("c", parseAsString);
+  const [frameIds, setFrameIds] = useState<Set<string> | null>(null);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [locating, setLocating] = useState(false);
   const [flyTo, setFlyTo] = useState<FlyTo>(null);
@@ -49,7 +51,7 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
   const { isMobile, viewportHeight } = useViewport();
 
   const searched = useSearch(data, q);
-  const visible = useMemo(() => {
+  const matching = useMemo(() => {
     if (!searched) return [];
     let list = searched;
     if (openOnly) list = list.filter((p) => isOpenNow(p.hours, p.timezone, clock ?? undefined) === true);
@@ -60,6 +62,8 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
     }
     return list;
   }, [searched, openOnly, userLocation, q, clock]);
+  const visible = useMemo(() => (inView && frameIds ? matching.filter((p) => frameIds.has(p.id)) : matching), [matching, inView, frameIds]);
+  const hidden = matching.length - visible.length;
 
   const allPlaces = data.status === "ready" ? data.places : [];
   const selected = selectedId ? (allPlaces.find((p) => p.id === selectedId) ?? null) : null;
@@ -125,6 +129,9 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
               <Button size="sm" variant={userLocation ? "primary" : "secondary"} onClick={locate} disabled={locating}>
                 <LocateFixed className={cn(locating && "animate-pulse")} /> {userLocation ? "Nearest first" : "Near me"}
               </Button>
+              <Button size="sm" variant={inView ? "primary" : "secondary"} onClick={() => void setInView(inView ? false : null)} aria-pressed={inView}>
+                In view
+              </Button>
               <span className="ml-auto font-mono text-xs text-fg-muted">
                 {data.status === "ready" ? `${visible.length} shown` : data.status === "error" ? "failed to load" : "loading…"}
               </span>
@@ -136,7 +143,16 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
                 <PlaceCard place={p} selected={false} distanceKm={userLocation ? distanceKm(userLocation, p) : undefined} onSelect={() => select(p.id)} />
               </li>
             ))}
-            {data.status === "ready" && visible.length === 0 && <li className="px-3 py-8 text-center text-sm text-fg-muted">No places match. Try another name or city.</li>}
+            {data.status === "ready" && visible.length === 0 && (
+              <li className="px-3 py-8 text-center text-sm text-fg-muted">{hidden > 0 ? "No places in view." : "No places match. Try another name or city."}</li>
+            )}
+            {hidden > 0 && (q.trim() || visible.length === 0) && (
+              <li className="px-3 py-2 text-center">
+                <Button size="sm" variant="ghost" onClick={() => void setInView(false)}>
+                  Show {hidden} outside the map
+                </Button>
+              </li>
+            )}
           </ul>
         </>
       )}
@@ -153,6 +169,7 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
           onSelect={select}
           camera={parseCamera(cameraParam)}
           onCameraChange={onCameraChange}
+          onFrameChange={setFrameIds}
           userLocation={userLocation}
           flyToRequest={flyTo}
           bottomPadding={isMobile ? Math.round(viewportHeight * 0.42) : 0}
