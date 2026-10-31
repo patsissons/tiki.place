@@ -1,10 +1,12 @@
 {
   "id": "hawaiian-room",
-  "name": "Hawaiian Room",
-  "aliases": [],
+  "name": "Bottoms Up Tiki Lounge",
+  "aliases": [
+    "Hawaiian Room"
+  ],
   "location": {
-    "lat": 33.8896481,
-    "lng": -118.1226622,
+    "lat": 33.8900375,
+    "lng": -118.1227722,
     "precision": "rooftop"
   },
   "address": {
@@ -17,7 +19,8 @@
   "formattedAddress": "9875 Alondra Blvd, Bellflower CA 90706, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "tikirat": "hawaiian-room"
+    "tikirat": "hawaiian-room",
+    "overture": "e3047e1e-7670-4dec-99fb-e7dfc793e5ff"
   },
   "status": {
     "value": "unverified",
@@ -25,10 +28,11 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
-    "phone": "562-866-9252"
+    "phone": "562-866-9252",
+    "website": "http://mybottomsup.com/"
   },
   "established": 1964,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.927,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -43,6 +47,10 @@
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:24:11.742Z"
     },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:24:11.742Z"
@@ -52,12 +60,12 @@
       "observedAt": "2026-10-30T20:24:11.742Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:24:11.742Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:24:11.742Z"
+      "sourceId": "owner",
+      "observedAt": "2026-10-31T01:25:08.277Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -65,6 +73,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "overture",
+      "sourceRef": "e3047e1e-7670-4dec-99fb-e7dfc793e5ff",
+      "url": "https://explore.overturemaps.org/?feature=places.place.e3047e1e-7670-4dec-99fb-e7dfc793e5ff#17/33.890037536621094/-118.12277221679688",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "hawaiian-room",
@@ -110,5 +125,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-10-31T22:32:38.788Z"
 }
