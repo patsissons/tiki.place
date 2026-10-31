@@ -19,7 +19,8 @@
   "externalIds": {
     "overture": "5ce73d69-c051-46b1-b304-17a4bb291baf",
     "google": "ChIJzUBUZTMVkFQRgnS9r2A7Y84",
-    "osm": "node/2158768499"
+    "osm": "node/2158768499",
+    "tikirat": "hula-hula"
   },
   "status": {
     "value": "open",
@@ -120,7 +121,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.994,
+  "established": 2007,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -142,6 +144,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:24:47.728Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -195,6 +201,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "hula-hula",
+      "url": "https://tikirat.com/bars/hula-hula",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:24:47.728Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "hula-hula-seattle",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -203,6 +216,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

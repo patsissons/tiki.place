@@ -26,9 +26,10 @@
   },
   "tikiConfidence": 0.75,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-10-31T00:42:49.133Z",
+    "reason": "own menu meets the 3-drink rule"
   },
   "provenance": {
     "address": {
@@ -74,5 +75,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z"
 }

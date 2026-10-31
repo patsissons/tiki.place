@@ -19,7 +19,8 @@
   "externalIds": {
     "overture": "4f57e8d7-068f-4942-80d4-ca4bacfc949e",
     "osm": "node/4491333833",
-    "google": "ChIJVbD7XbsFzkwRAXrHq0MUcUc"
+    "google": "ChIJVbD7XbsFzkwRAXrHq0MUcUc",
+    "tikirat": "p-tiki-bar"
   },
   "status": {
     "value": "open",
@@ -90,7 +91,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.884,
+  "established": 2023,
+  "tikiConfidence": 0.983,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -112,6 +114,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:27:50.861Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -163,9 +169,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.4f57e8d7-068f-4942-80d4-ca4bacfc949e#17/45.430030822753906/-75.69204711914062",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "p-tiki-bar",
+      "url": "https://tikirat.com/bars/p-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:27:50.861Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

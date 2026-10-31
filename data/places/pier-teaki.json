@@ -18,7 +18,8 @@
   "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "pier-teaki",
-    "google": "ChIJqfxlC-XhwogRAZ7oO6hcGqY"
+    "google": "ChIJqfxlC-XhwogRAZ7oO6hcGqY",
+    "overture": "034d2980-8025-48ba-87b1-176989a6843d"
   },
   "status": {
     "value": "open",
@@ -110,7 +111,7 @@
   },
   "priceLevel": "$$",
   "established": 2020,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.964,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -175,6 +176,13 @@
       "lastSeenAt": "2026-10-26T04:40:49.037Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "034d2980-8025-48ba-87b1-176989a6843d",
+      "url": "https://explore.overturemaps.org/?feature=places.place.034d2980-8025-48ba-87b1-176989a6843d#17/27.773666381835938/-82.62711334228516",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "pier-teaki",
       "url": "https://tikirat.com/bars/pier-teaki",
@@ -183,6 +191,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

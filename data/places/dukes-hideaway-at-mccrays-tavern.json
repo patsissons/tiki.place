@@ -2,7 +2,9 @@
   "id": "dukes-hideaway-at-mccrays-tavern",
   "name": "Duke's Hideaway at McCray's",
   "aliases": [
-    "Duke's Hideaway At McCray's Tavern"
+    "Duke's Hideaway",
+    "Duke's Hideaway At McCray's Tavern",
+    "Duke’s Hideaway at The Baxter"
   ],
   "location": {
     "lat": 33.7540372,
@@ -20,7 +22,9 @@
   "timezone": "America/New_York",
   "externalIds": {
     "osm": "node/14185903748",
-    "google": "ChIJF0Y0CBMD9YgRtQS13OVavH8"
+    "google": "ChIJF0Y0CBMD9YgRtQS13OVavH8",
+    "tikirat": "duke-s-hideaway-at-the-baxter",
+    "overture": "706164c3-cce1-4fc7-9704-1944cfe8871a"
   },
   "status": {
     "value": "open",
@@ -81,11 +85,12 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.763,
+  "established": 2022,
+  "tikiConfidence": 0.991,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-31T22:32:01.988Z"
   },
   "provenance": {
     "address": {
@@ -103,6 +108,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:22:50.284Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -147,9 +156,23 @@
       "url": "https://www.openstreetmap.org/node/14185903748",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "706164c3-cce1-4fc7-9704-1944cfe8871a",
+      "url": "https://explore.overturemaps.org/?feature=places.place.706164c3-cce1-4fc7-9704-1944cfe8871a#17/30.75127410888672/-82.96875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "duke-s-hideaway-at-the-baxter",
+      "url": "https://tikirat.com/bars/duke-s-hideaway-at-the-baxter",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:22:50.284Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

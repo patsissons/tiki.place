@@ -18,7 +18,8 @@
   "timezone": "America/Chicago",
   "externalIds": {
     "overture": "d0ca4859-000d-4185-831c-4ec4fd36f89d",
-    "google": "ChIJY7d19Ys9BYgR96OuLBioIjQ"
+    "google": "ChIJY7d19Ys9BYgR96OuLBioIjQ",
+    "tikirat": "trader-nick-s-south-shore-inn"
   },
   "status": {
     "value": "closed",
@@ -36,7 +37,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.975,
+  "established": 2018,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -58,6 +60,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:21.165Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -100,6 +106,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "trader-nick-s-south-shore-inn",
+      "url": "https://tikirat.com/bars/trader-nick-s-south-shore-inn",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:35:21.165Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "trader-nicks-south-shore-inn-cudahy",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -107,7 +120,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

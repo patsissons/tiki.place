@@ -20,7 +20,8 @@
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "overture": "b1213577-e648-462b-ba0f-d909d2ba1851",
-    "google": "ChIJB0UjK6Ub24ARjMkS-vDIVWc"
+    "google": "ChIJB0UjK6Ub24ARjMkS-vDIVWc",
+    "tikirat": "tonga-hut-restaurant-tiki-bar"
   },
   "status": {
     "value": "open",
@@ -111,7 +112,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "established": 2013,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -133,6 +135,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:48.032Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -179,6 +185,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "tonga-hut-restaurant-tiki-bar",
+      "url": "https://tikirat.com/bars/tonga-hut-restaurant-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:34:48.032Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "tonga-hut-palm-springs",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -186,7 +199,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

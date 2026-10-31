@@ -18,7 +18,8 @@
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "overture": "3b3eb972-2966-4ab3-8534-0a30615b9445",
-    "google": "ChIJzwFADGGWwoARGBd1-96GyeQ"
+    "google": "ChIJzwFADGGWwoARGBd1-96GyeQ",
+    "tikirat": "tonga-hut"
   },
   "status": {
     "value": "open",
@@ -119,7 +120,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "established": 1958,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -141,6 +143,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:34:44.992Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -185,9 +191,23 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.3b3eb972-2966-4ab3-8534-0a30615b9445#17/34.1864128112793/-118.41221618652344",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "tonga-hut",
+      "url": "https://tikirat.com/bars/tonga-hut",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:34:44.992Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tonga-hut-north-hollywood",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

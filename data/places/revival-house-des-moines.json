@@ -18,7 +18,8 @@
   "timezone": "America/Chicago",
   "externalIds": {
     "overture": "2483c297-a0ac-4f71-b53a-89cd2c5df7bd",
-    "google": "ChIJDSUc3JCZ7ocRYVvqis3orU8"
+    "google": "ChIJDSUc3JCZ7ocRYVvqis3orU8",
+    "tikirat": "revival-house"
   },
   "status": {
     "value": "open",
@@ -89,6 +90,7 @@
     ]
   },
   "contact": {
+    "phone": "515-650-8368",
     "website": "http://revivalhousedsm.com/",
     "googleMapsUri": "https://maps.google.com/?cid=5741501069463804769&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -98,7 +100,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.964,
+  "established": 2021,
+  "tikiConfidence": 0.995,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -113,9 +116,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
+    },
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:28:50.869Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -162,6 +173,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "revival-house",
+      "url": "https://tikirat.com/bars/revival-house",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:28:50.869Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "revival-house-des-moines",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -169,7 +187,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

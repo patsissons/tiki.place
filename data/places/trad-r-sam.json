@@ -1,34 +1,127 @@
 {
   "id": "trad-r-sam",
-  "name": "Trad’r Sam",
+  "name": "Trad'r Sam",
   "aliases": [],
   "location": {
-    "lat": 37.7803628,
-    "lng": -122.4856595,
+    "lat": 37.78025280000001,
+    "lng": -122.48561939999999,
     "precision": "rooftop"
   },
   "address": {
-    "street": "6150 Geary Blvd",
+    "street": "6150 Geary Boulevard",
     "locality": "San Francisco",
-    "region": "CA",
+    "region": "California",
     "postalCode": "94121",
     "country": "US"
   },
-  "formattedAddress": "6150 Geary Blvd, San Francisco CA 94121, USA",
+  "formattedAddress": "6150 Geary Blvd, San Francisco, CA 94121, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "tikirat": "trad-r-sam"
+    "tikirat": "trad-r-sam",
+    "osm": "node/1618687933",
+    "google": "ChIJC5_zVw-HhYARet1rQr-DRl0"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1400"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1400"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1400"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1400"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1400"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 2:00 PM – 2:00 AM",
+      "Tuesday: 2:00 PM – 2:00 AM",
+      "Wednesday: 2:00 PM – 2:00 AM",
+      "Thursday: 2:00 PM – 2:00 AM",
+      "Friday: 2:00 PM – 2:00 AM",
+      "Saturday: 12:00 PM – 2:00 AM",
+      "Sunday: 12:00 PM – 2:00 AM"
+    ]
   },
   "contact": {
-    "phone": "415-387-2727"
+    "phone": "+1 415-221-0773",
+    "website": "https://tradrsam.net/",
+    "googleMapsUri": "https://maps.google.com/?cid=6721204351373401466&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 537,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
   "established": 1937,
-  "tikiConfidence": 0.978,
+  "tikiConfidence": 0.995,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -36,28 +129,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:12.162Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:12.162Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:35:12.162Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:12.162Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:12.162Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:12.162Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -65,6 +178,20 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJC5_zVw-HhYARet1rQr-DRl0",
+      "url": "https://maps.google.com/?cid=6721204351373401466&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/1618687933",
+      "url": "https://www.openstreetmap.org/node/1618687933",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "trad-r-sam",
@@ -93,5 +220,6 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

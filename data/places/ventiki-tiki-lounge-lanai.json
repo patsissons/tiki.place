@@ -3,6 +3,7 @@
   "name": "VenTiki Tiki Lounge and Lanai",
   "aliases": [
     "Ventiki",
+    "Ventiki Polynesian Dining & Cocktails",
     "Ventiki Tiki Lounge Lanai"
   ],
   "location": {
@@ -22,7 +23,8 @@
   "externalIds": {
     "tikirat": "ventiki-tiki-lounge-lanai",
     "google": "ChIJz2sRpvqs6YARyQ9RtfbRX8I",
-    "osm": "node/13140726909"
+    "osm": "node/13140726909",
+    "overture": "e7a9a9aa-72ac-4135-a5f1-8642d9d98599"
   },
   "status": {
     "value": "open",
@@ -124,7 +126,7 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.986,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -196,6 +198,13 @@
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "e7a9a9aa-72ac-4135-a5f1-8642d9d98599",
+      "url": "https://explore.overturemaps.org/?feature=places.place.e7a9a9aa-72ac-4135-a5f1-8642d9d98599#17/34.28104019165039/-119.28981018066406",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "ventiki-tiki-lounge-lanai",
       "url": "https://tikirat.com/bars/ventiki-tiki-lounge-lanai",
@@ -211,6 +220,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }
