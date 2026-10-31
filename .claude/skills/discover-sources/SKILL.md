@@ -42,9 +42,20 @@ pnpm review merge <dup-slug> --into <slug>
 pnpm review link <sourceId:ref> --to <slug>     # force a source record onto a place
 pnpm review resolve <slug> --google <placeId>   # attach a Google Place ID you looked up
 pnpm review pin <slug> name '"Correct Name"'
+pnpm review batch <file.yml>       # many decisions, one replay, recorded as by: skill
 ```
 
-Each command records the decision and replays the engine offline, so you see the effect immediately. Approve when the place is a real tiki bar, lounge or restaurant with a tiki program. Reject car washes, ice cream shops, closed-for-decades spots and unrelated "Tiki" businesses, with a short reason. Merge duplicates into the slug with the better name. Weak Google matches (`reason: weak google match`) need a look at the Maps link before approving.
+Each command records the decision and replays the engine offline, so you see the effect immediately. A later approve or reject replaces an earlier one; deleting a decision does not undo it, because the state is saved on the place. Approve when the place is a real tiki bar, lounge or restaurant with a tiki program. Reject car washes, ice cream shops, closed-for-decades spots and unrelated "Tiki" businesses, with a short reason. Merge duplicates into the slug with the better name. Weak Google matches (`reason: weak google match`) need a look at the Maps link before approving.
+
+The owner's rule for what counts as tiki:
+
+- A bar is a tiki bar when its menu has at least 3 tiki drinks and at least 1 of them is a Mai Tai, Zombie or Painkiller. "Tiki" in the name or a bar's own description is not enough.
+- Tiki drinks include the classics (Navy Grog, Jungle Bird, Scorpion, Fog Cutter, Saturn and so on) and the tropical standards (Piña Colada, Hurricane, Bahama Mama, Rum Runner, Blue Hawaiian, Planter's Punch). A drink used only as an ingredient, or a variant like a Mai Tai Mule, does not count.
+- A tiki-adjacent bar (Tiki Rat marks these) counts only with a dedicated tiki room or tiki menu.
+- A place stays queued until someone has read its menu. Reject on the menu only when the page read is its actual drink list and that list falls short.
+- Read the list before rejecting. Name matching undercounts, because bars rename classics and some PDFs extract with broken spacing.
+
+Gather evidence without spending the Google budget: one paced request to a place's own site, then Google Maps pages in Claude in Chrome (four lookups per `browser_batch`, 14 s or more apart). Use what you see for the judgment only; never copy it into the dataset. Stop at any bot challenge and never solve one; DuckDuckGo's HTML endpoint challenged on the second search. Check old websites before approving, because some now serve spam.
 
 ## Manual sources
 
