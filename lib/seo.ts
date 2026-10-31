@@ -5,8 +5,10 @@ import type { PublishedPlace } from "./schema/published";
 
 /** Site identity shared by metadata, robots, the sitemap, JSON-LD and the social cards. */
 export const SITE = {
-  name: "tiki.place",
-  tagline: "the open tiki bar atlas",
+  name: "The World Tiki Atlas",
+  /** The wordmark: the host, shown small wherever the full name already appears. */
+  domain: "tiki.place",
+  tagline: "Every tiki bar, open and continuously verified",
   description: "An open, continuously verified atlas of tiki bars around the world.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://tiki.place",
 } as const;
@@ -15,7 +17,7 @@ export const SITE = {
 export const absoluteUrl = (path: string): string => new URL(path, SITE.url).toString();
 
 export type PageMeta = {
-  /** Page title. Templated as "<title> · tiki.place" unless `absolute` is set. */
+  /** Page title. Templated as "<title> · The World Tiki Atlas" unless `absolute` is set. */
   title: string;
   description: string;
   /** Canonical path, e.g. "/" or "/places/smugglers-cove-san-francisco". */

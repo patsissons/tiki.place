@@ -19,8 +19,8 @@ describe("pageMetadata", () => {
   });
 
   it("can opt out of the title template", () => {
-    const m = pageMetadata({ title: "tiki.place · the open tiki bar atlas", description: "d", path: "/", absolute: true });
-    expect(m.title).toEqual({ absolute: "tiki.place · the open tiki bar atlas" });
+    const m = pageMetadata({ title: `${SITE.name} · ${SITE.tagline}`, description: "d", path: "/", absolute: true });
+    expect(m.title).toEqual({ absolute: `${SITE.name} · ${SITE.tagline}` });
   });
 });
 

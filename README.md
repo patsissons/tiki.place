@@ -1,4 +1,4 @@
-# tiki.place
+# tiki.place · The World Tiki Atlas
 
 An open, continuously verified atlas of tiki bars. The database lives in this repository as plain JSON and YAML; a daily GitHub Action keeps it fresh; the Next.js site renders it.
 

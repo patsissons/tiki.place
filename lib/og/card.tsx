@@ -9,6 +9,7 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { ReactNode } from "react";
+import { SITE } from "@/lib/seo";
 import { OG_SIZE, headlineSize, type Fact } from "./text";
 import { Torch } from "./torch";
 
@@ -84,7 +85,7 @@ export function Frame({ children, footer }: { children: ReactNode; footer?: Reac
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", width: "100%" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             <Torch size={34} />
-            <span style={{ fontFamily: DISPLAY, fontSize: 30, letterSpacing: -0.5 }}>tiki.place</span>
+            <span style={{ fontFamily: DISPLAY, fontSize: 30, letterSpacing: -0.5 }}>{SITE.domain}</span>
           </div>
           {footer ? <div style={{ display: "flex", fontSize: 24, color: C.muted }}>{footer}</div> : null}
         </div>

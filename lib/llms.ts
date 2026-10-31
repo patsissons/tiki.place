@@ -41,7 +41,7 @@ const bullets = (entries: Record<string, string>) => Object.entries(entries).map
 
 export function llmsTxt(count: number): string {
   return [
-    `# ${SITE.name}`,
+    `# ${SITE.name} (${SITE.domain})`,
     "",
     `> ${SITE.description} ${count} places are published.`,
     "",
