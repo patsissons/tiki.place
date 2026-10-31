@@ -80,7 +80,8 @@ export function rowToObservation(row: OvertureRow, sourceId: string, observedAt:
   return makeObservation({
     sourceId,
     sourceRef: row.id,
-    url: `https://explore.overturemaps.org/#17/${row.lat}/${row.lng}`,
+    // The explorer only finds a feature in loaded tiles, so the link needs the position too.
+    url: `https://explore.overturemaps.org/?feature=places.place.${row.id}#17/${row.lat}/${row.lng}`,
     name: nz(row.name)!,
     address: {
       locality: nz(row.locality),

@@ -199,21 +199,21 @@
     {
       "sourceId": "overture",
       "sourceRef": "049fec58-00a2-4f49-b3bd-0b2158dbb3ab",
-      "url": "https://explore.overturemaps.org/#17/33.67562484741211/-111.96395111083984",
+      "url": "https://explore.overturemaps.org/?feature=places.place.049fec58-00a2-4f49-b3bd-0b2158dbb3ab#17/33.67562484741211/-111.96395111083984",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
       "sourceId": "overture",
       "sourceRef": "0967f689-930e-4fe3-8fa5-fe7874841142",
-      "url": "https://explore.overturemaps.org/#17/33.51165771484375/-112.06529235839844",
+      "url": "https://explore.overturemaps.org/?feature=places.place.0967f689-930e-4fe3-8fa5-fe7874841142#17/33.51165771484375/-112.06529235839844",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
       "sourceId": "overture",
       "sourceRef": "185a2a0c-724c-487b-a23c-69117496fb5c",
-      "url": "https://explore.overturemaps.org/#17/33.50605392456055/-112.07454681396484",
+      "url": "https://explore.overturemaps.org/?feature=places.place.185a2a0c-724c-487b-a23c-69117496fb5c#17/33.50605392456055/-112.07454681396484",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
