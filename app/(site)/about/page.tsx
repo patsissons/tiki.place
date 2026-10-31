@@ -25,6 +25,11 @@ export default function AboutPage() {
           licenses and freshness.
         </p>
         <p>
+          Every published place is free to download, with no key, as <a href="/data/places.json" className="text-seaglass hover:underline">JSON</a> or{" "}
+          <a href="/data/places.geojson" className="text-seaglass hover:underline">GeoJSON</a>. AI agents and scripts can start with{" "}
+          <a href="/llms.txt" className="text-seaglass hover:underline">llms.txt</a>, which explains the fields.
+        </p>
+        <p>
           The sky behind the globe is real. Stars come from the Yale Bright Star Catalog, the Milky Way from{" "}
           <a href="https://svs.gsfc.nasa.gov/4851" className="text-seaglass hover:underline">NASA&apos;s Deep Star Maps 2020</a>, and the Sun, Moon and planets sit
           where they actually are, lit as they actually are, computed with{" "}

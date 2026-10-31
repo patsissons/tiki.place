@@ -11,7 +11,7 @@ import { StatusChip } from "@/components/ui/status-chip";
 import { getPlace, getPublishedPlaces } from "@/lib/data/places";
 import { isPublished } from "@/lib/schema";
 import { toPublished } from "@/lib/data/published";
-import { absoluteUrl, pageMetadata } from "@/lib/seo";
+import { pageMetadata, placeJsonLd } from "@/lib/seo";
 import { citySlug, countryName, placeLocation } from "@/lib/utils";
 
 export const dynamicParams = false;
@@ -40,21 +40,10 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
   const where = placeLocation(p, { countryAsName: true });
   const city = citySlug(p);
   const directions = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BarOrPub",
-    name: p.name,
-    url: absoluteUrl(`/places/${p.id}`),
-    address: p.formattedAddress,
-    geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng },
-    telephone: p.phone,
-    sameAs: [p.website, p.googleMapsUri].filter(Boolean),
-    ...(p.rating !== undefined && p.ratingCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: p.rating, reviewCount: p.ratingCount } } : {}),
-  };
 
   return (
     <article className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(placeJsonLd(p)).replace(/</g, "\\u003c") }} />
       <nav className="text-sm text-fg-muted">
         <Link href="/" className="hover:text-fg">Explore</Link>
         {p.country && (

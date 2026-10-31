@@ -106,6 +106,24 @@ test("pages carry complete social metadata and generated images", async ({ page,
   expect((await manifest.json()).name).toBe("tiki.place");
 });
 
+test("agents can find the dataset and read status and hours", async ({ page, request, isMobile }) => {
+  test.skip(isMobile, "machine-readable output is identical across viewports");
+  const llms = await request.get("/llms.txt");
+  expect(llms.headers()["content-type"]).toContain("text/plain");
+  expect(await llms.text()).toMatch(/\(https?:\S+\/data\/places\.json\)/);
+  const places = await request.get("/data/places.json");
+  const record = ((await places.json()) as { id: string; status: string }[]).find((p) => p.id === "smugglers-cove-san-francisco");
+  expect(record?.status).toBe("open");
+
+  await page.goto("/places/smugglers-cove-san-francisco");
+  const ld = JSON.parse((await page.locator('script[type="application/ld+json"]').textContent())!);
+  expect(ld.additionalProperty.value).toBe("open");
+  expect(ld.openingHoursSpecification.length).toBeGreaterThan(0);
+
+  await page.goto("/about");
+  await expect(page.getByRole("link", { name: "llms.txt" })).toHaveAttribute("href", "/llms.txt");
+});
+
 test("share copies the permalink from the explorer", async ({ page, context, isMobile }) => {
   test.skip(isMobile, "clipboard permissions are Chromium-only");
   await context.grantPermissions(["clipboard-read", "clipboard-write"]);
