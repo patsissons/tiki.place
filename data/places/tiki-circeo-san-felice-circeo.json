@@ -182,7 +182,7 @@
     {
       "sourceId": "overture",
       "sourceRef": "b8d899ec-9ff7-4d1b-ac01-2628a26fa930",
-      "url": "https://explore.overturemaps.org/#17/41.232337951660156/13.090106010437012",
+      "url": "https://explore.overturemaps.org/?feature=places.place.b8d899ec-9ff7-4d1b-ac01-2628a26fa930#17/41.232337951660156/13.090106010437012",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }

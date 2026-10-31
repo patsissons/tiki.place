@@ -49,14 +49,14 @@
     {
       "sourceId": "overture",
       "sourceRef": "79db0057-ab1a-4a09-90e2-17199394d511",
-      "url": "https://explore.overturemaps.org/#17/11.059528350830078/124.44674682617188",
+      "url": "https://explore.overturemaps.org/?feature=places.place.79db0057-ab1a-4a09-90e2-17199394d511#17/11.059528350830078/124.44674682617188",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
       "sourceId": "overture",
       "sourceRef": "b4e99c74-3a7d-4587-a4c9-5247ca5875b8",
-      "url": "https://explore.overturemaps.org/#17/11.047033309936523/124.38386535644531",
+      "url": "https://explore.overturemaps.org/?feature=places.place.b4e99c74-3a7d-4587-a4c9-5247ca5875b8#17/11.047033309936523/124.38386535644531",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
