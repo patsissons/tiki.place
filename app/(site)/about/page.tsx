@@ -38,6 +38,11 @@ export default function AboutPage() {
           <a href="https://www.solarsystemscope.com/textures/" className="text-seaglass hover:underline">Solar System Scope</a> (CC BY 4.0).
         </p>
         <p>
+          The music on the map is original, written for this atlas: a synth loop for space that crossfades into an aloha loop as you zoom in. The speaker button
+          on the map turns it off. It is built with the Fluid R3 SoundFont and the Versilian Community Sample Library; see the{" "}
+          <a href="/music/CREDITS.txt" className="text-seaglass hover:underline">music credits</a>.
+        </p>
+        <p>
           Know a bar that is missing, or one that has closed? <Link href="/submit" className="text-seaglass hover:underline">Suggest a correction</Link>. The code
           and data are on <a href="https://github.com/patsissons/tiki.place" className="text-seaglass hover:underline">GitHub</a>.
         </p>

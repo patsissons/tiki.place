@@ -99,6 +99,72 @@ test("the options sheet sets the sky mode and remembers it", async ({ page }) =>
   await expect(page.getByTestId("space-backdrop")).toHaveAttribute("data-state", "ready", { timeout: 30_000 });
 });
 
+test("music waits for a gesture, follows focus, and the toggle turns it off and remembers", async ({ page }) => {
+  // Only iOS honours the session type, so stand in for it where the browser has none.
+  await page.addInitScript(() => {
+    if (!("audioSession" in navigator)) Object.defineProperty(navigator, "audioSession", { value: { type: "auto" } });
+  });
+  const sessionType = () => page.evaluate(() => (navigator as Navigator & { audioSession: { type: string } }).audioSession.type);
+  const fetched: string[] = [];
+  page.on("request", (r) => {
+    if (new URL(r.url()).pathname.startsWith("/music/")) fetched.push(r.url());
+  });
+  const music = page.getByTestId("background-music");
+  const search = page.getByLabel("Search places").locator("visible=true");
+
+  await page.goto("/");
+  await expect(page.locator(".mapboxgl-canvas")).toBeVisible();
+  await expect(music).toHaveAttribute("data-state", "idle");
+  expect(fetched).toEqual([]);
+
+  await search.click();
+  await expect(music).toHaveAttribute("data-state", "playing", { timeout: 20_000 });
+  expect(fetched).toHaveLength(2);
+  expect(await sessionType()).toBe("playback");
+
+  await page.evaluate(() => {
+    document.hasFocus = () => false;
+    window.dispatchEvent(new Event("blur"));
+  });
+  await expect(music).toHaveAttribute("data-state", "paused");
+  expect(await sessionType()).toBe("auto");
+  await page.evaluate(() => {
+    document.hasFocus = () => true;
+    window.dispatchEvent(new Event("focus"));
+  });
+  await expect(music).toHaveAttribute("data-state", "playing");
+
+  await page.getByRole("button", { name: "Turn music off" }).click();
+  await expect(music).toHaveAttribute("data-state", "paused");
+  expect(await sessionType()).toBe("auto");
+
+  // Off survives a reload: a gesture no longer starts anything or fetches the loops.
+  fetched.length = 0;
+  await page.reload();
+  await expect(page.locator(".mapboxgl-canvas")).toBeVisible();
+  await search.click();
+  await page.waitForTimeout(1_000);
+  await expect(music).toHaveAttribute("data-state", "idle");
+  expect(fetched).toEqual([]);
+
+  await page.getByRole("button", { name: "Turn music on" }).click();
+  await search.click();
+  await expect(music).toHaveAttribute("data-state", "playing", { timeout: 20_000 });
+});
+
+test("turning the music off as the first gesture never downloads it", async ({ page }) => {
+  const fetched: string[] = [];
+  page.on("request", (r) => {
+    if (new URL(r.url()).pathname.startsWith("/music/")) fetched.push(r.url());
+  });
+  await page.goto("/");
+  await expect(page.locator(".mapboxgl-canvas")).toBeVisible();
+  await page.getByRole("button", { name: "Turn music off" }).click();
+  await expect(page.getByRole("button", { name: "Turn music on" })).toBeVisible();
+  await page.waitForTimeout(1_000);
+  expect(fetched).toEqual([]);
+});
+
 test("pages carry complete social metadata and generated images", async ({ page, request, isMobile }) => {
   test.skip(isMobile, "metadata is identical across viewports");
   const meta = (selector: string) => page.locator(selector).first().getAttribute("content");
