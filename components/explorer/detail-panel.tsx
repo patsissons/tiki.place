@@ -4,6 +4,7 @@ import { ArrowLeft, ExternalLink, Globe, MapPin, Navigation, Phone, Star } from 
 import Link from "next/link";
 import { HoursTable, OpenNow } from "@/components/place/hours";
 import { SourcesFooter } from "@/components/place/sources-footer";
+import { ShareButton } from "@/components/share-button";
 import { Button } from "@/components/ui/button";
 import { StatusChip } from "@/components/ui/status-chip";
 import type { PublishedPlace } from "@/lib/schema/published";
@@ -58,6 +59,7 @@ export function DetailPanel({ place, onBack }: { place: PublishedPlace; onBack: 
               </a>
             </Button>
           )}
+          <ShareButton size="sm" variant="ghost" path={`/places/${place.id}`} title={place.name} text={placeLocation(place, { countryAsName: true })} />
         </div>
 
         {place.formattedAddress && (

@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = { title: "About", description: "Why tiki.place exists and how it stays accurate." };
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({ title: "About", description: "Why tiki.place exists and how it stays accurate.", path: "/about" });
 
 export default function AboutPage() {
   return (

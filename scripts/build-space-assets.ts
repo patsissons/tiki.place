@@ -9,6 +9,7 @@
  *   - NASA/Goddard SVS "Deep Star Maps 2020" Milky Way, celestial coordinates,
  *     4k EXR (34 MB) → milkyway.jpg, via ffmpeg
  *   - Solar System Scope 2k Moon texture (CC BY 4.0) → moon.jpg, via ffmpeg
+ *   - assets/og/sky.jpg, a 1200×630 crop of milkyway.jpg used as the Open Graph card backdrop
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -94,6 +95,14 @@ async function buildMilkyWay(): Promise<void> {
   writeIfChanged(path.join(OUT, "milkyway.jpg"), data);
 }
 
+/** Card-sized backdrop for the Open Graph images so each render decodes ~0.75 MP instead of 8 MP. */
+function buildOgSky(): void {
+  const src = path.join(OUT, "milkyway.jpg");
+  if (!existsSync(src)) return;
+  const data = ffmpeg(["-i", src, "-vf", "scale=1260:630:flags=lanczos,crop=1200:630", "-q:v", "6"], "jpg");
+  writeIfChanged(path.join(ROOT, "assets", "og", "sky.jpg"), data);
+}
+
 async function buildMoon(): Promise<void> {
   const file = await cached("2k_moon.jpg", SOURCES.moon);
   if (!file) return;
@@ -104,3 +113,4 @@ async function buildMoon(): Promise<void> {
 await buildStars();
 await buildMilkyWay();
 await buildMoon();
+buildOgSky();

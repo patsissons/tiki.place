@@ -71,3 +71,50 @@ test("the sky renders behind the globe and can be switched off", async ({ page }
   await expect(page.getByTestId("space-backdrop")).toHaveAttribute("data-state", "idle");
   expect(await page.locator("canvas").count()).toBe(1);
 });
+
+test("pages carry complete social metadata and generated images", async ({ page, request, isMobile }) => {
+  test.skip(isMobile, "metadata is identical across viewports");
+  const meta = (selector: string) => page.locator(selector).first().getAttribute("content");
+  // og:image is absolute against metadataBase (the production origin), so fetch its path locally.
+  const local = (url: string) => new URL(url).pathname + new URL(url).search;
+
+  await page.goto("/places/smugglers-cove-san-francisco");
+  expect(await meta('meta[property="og:site_name"]')).toBe("tiki.place");
+  expect(await meta('meta[property="og:title"]')).toContain("Smuggler's Cove");
+  expect(await meta('meta[property="og:description"]')).toContain("San Francisco");
+  expect(await meta('meta[property="og:url"]')).toMatch(/^https?:\/\/.+\/places\/smugglers-cove-san-francisco$/);
+  expect(await meta('meta[name="twitter:card"]')).toBe("summary_large_image");
+  // Files inside the (site) route group get a hashed suffix, so match loosely.
+  const placeImage = await meta('meta[property="og:image"]');
+  expect(placeImage).toMatch(/\/places\/smugglers-cove-san-francisco\/opengraph-image(-[0-9a-z]+)?(\?|$)/);
+  const placePng = await request.get(local(placeImage!));
+  expect(placePng.status()).toBe(200);
+  expect(placePng.headers()["content-type"]).toBe("image/png");
+  expect((await placePng.body()).length).toBeGreaterThan(10_000);
+
+  await page.goto("/");
+  expect(await meta('meta[property="og:site_name"]')).toBe("tiki.place");
+  const siteImage = await meta('meta[property="og:image"]');
+  expect(siteImage).toMatch(/\/opengraph-image(\?|$)/);
+  expect((await request.get(local(siteImage!))).headers()["content-type"]).toBe("image/png");
+  const icon = await page.locator('link[rel="icon"][sizes="32x32"]').getAttribute("href");
+  expect((await request.get(icon!)).headers()["content-type"]).toBe("image/png");
+  const appleIcon = await page.locator('link[rel="apple-touch-icon"]').getAttribute("href");
+  expect((await request.get(appleIcon!)).headers()["content-type"]).toBe("image/png");
+  const manifest = await request.get("/manifest.webmanifest");
+  expect(manifest.ok()).toBeTruthy();
+  expect((await manifest.json()).name).toBe("tiki.place");
+});
+
+test("share copies the permalink from the explorer", async ({ page, context, isMobile }) => {
+  test.skip(isMobile, "clipboard permissions are Chromium-only");
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  // Force the clipboard path: desktop Chrome on macOS has a native share sheet that would hang headless.
+  await page.addInitScript(() => Object.defineProperty(navigator, "share", { value: undefined, configurable: true }));
+  await page.goto("/?p=smugglers-cove-san-francisco&view=false");
+  const share = page.getByRole("button", { name: "Share" }).locator("visible=true");
+  await expect(share).toBeVisible({ timeout: 20_000 });
+  await share.click();
+  await expect(page.getByRole("button", { name: "Copied" }).locator("visible=true")).toBeVisible();
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe("http://localhost:3000/places/smugglers-cove-san-francisco");
+});

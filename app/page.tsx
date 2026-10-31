@@ -4,6 +4,9 @@ import { Suspense } from "react";
 import { Explorer } from "@/components/explorer/explorer";
 import { SiteHeader } from "@/components/site-header";
 import { ManifestSchema } from "@/lib/schema/published";
+import { SITE, pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({ title: `${SITE.name} · ${SITE.tagline}`, absolute: true, description: SITE.description, path: "/" });
 
 function readManifest() {
   try {

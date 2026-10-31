@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import YAML from "yaml";
+import { citySlug } from "../utils";
 import { PlaceSchema, SourceSchema, SyncStateSchema, emptySyncState, isPublished, type Place, type Source, type SyncState } from "../schema";
 
 // Statically scoped paths so Next traces exactly these folders into the build.
@@ -38,3 +39,20 @@ export const getSources = cache((): Source[] =>
 export const getSyncState = cache((): SyncState => (fs.existsSync(SYNC_STATE) ? SyncStateSchema.parse(JSON.parse(fs.readFileSync(SYNC_STATE, "utf8"))) : emptySyncState()));
 
 export const getRedirects = cache((): Record<string, string> => (fs.existsSync(REDIRECTS) ? (JSON.parse(fs.readFileSync(REDIRECTS, "utf8")) as Record<string, string>) : {}));
+
+/** City slug for a place, or null when it has no locality/country. Shared by pages and their cards. */
+export const cityOf = (p: Place): string | null => citySlug({ locality: p.address.locality, region: p.address.region, country: p.address.country });
+
+export const getCityPlaces = cache((slug: string): Place[] => getPublishedPlaces().filter((p) => cityOf(p) === slug));
+
+export const getCityParams = (): { slug: string }[] => [...new Set(getPublishedPlaces().map(cityOf).filter((s): s is string => Boolean(s)))].map((slug) => ({ slug }));
+
+export const getCountryPlaces = cache((cc: string): Place[] => getPublishedPlaces().filter((p) => p.address.country === cc.toUpperCase()));
+
+export const getCountryParams = (): { cc: string }[] =>
+  [...new Set(getPublishedPlaces().map((p) => p.address.country).filter((c): c is string => Boolean(c)))].map((cc) => ({ cc: cc.toLowerCase() }));
+
+export const getSiteStats = cache((): { places: number; countries: number } => {
+  const places = getPublishedPlaces();
+  return { places: places.length, countries: new Set(places.map((p) => p.address.country).filter(Boolean)).size };
+});

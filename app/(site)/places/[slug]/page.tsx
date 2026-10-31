@@ -5,11 +5,13 @@ import { Globe, MapPin, Navigation, Phone, Star } from "lucide-react";
 import { HoursTable, OpenNow } from "@/components/place/hours";
 import { SourcesFooter } from "@/components/place/sources-footer";
 import { StaticMap } from "@/components/place/static-map";
+import { ShareButton } from "@/components/share-button";
 import { Button } from "@/components/ui/button";
 import { StatusChip } from "@/components/ui/status-chip";
 import { getPlace, getPublishedPlaces } from "@/lib/data/places";
 import { isPublished } from "@/lib/schema";
 import { toPublished } from "@/lib/data/published";
+import { absoluteUrl, pageMetadata } from "@/lib/seo";
 import { citySlug, countryName, placeLocation } from "@/lib/utils";
 
 export const dynamicParams = false;
@@ -21,13 +23,13 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const place = getPlace(slug);
-  if (!place) return {};
+  if (!place || !isPublished(place)) return {};
   const where = placeLocation({ locality: place.address.locality, region: place.address.region, country: place.address.country }, { countryAsName: true });
-  return {
+  return pageMetadata({
     title: `${place.name} · ${where}`,
     description: `${place.name} is a tiki bar in ${where}. Hours, status, address and sources, verified continuously.`,
-    alternates: { canonical: `/places/${place.id}` },
-  };
+    path: `/places/${place.id}`,
+  });
 }
 
 export default async function PlacePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -42,7 +44,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
     "@context": "https://schema.org",
     "@type": "BarOrPub",
     name: p.name,
-    url: `/places/${p.id}`,
+    url: absoluteUrl(`/places/${p.id}`),
     address: p.formattedAddress,
     geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng },
     telephone: p.phone,
@@ -106,6 +108,7 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
             <Button asChild variant="ghost">
               <Link href={`/?p=${p.id}&c=${p.lat.toFixed(4)},${p.lng.toFixed(4)},14`}>Open in explorer</Link>
             </Button>
+            <ShareButton variant="ghost" path={`/places/${p.id}`} title={p.name} text={where} />
           </div>
 
           {p.formattedAddress && (

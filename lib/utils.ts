@@ -16,7 +16,9 @@ export function countryName(code?: string): string | undefined {
 
 export function placeLocation(p: { locality?: string; region?: string; country?: string }, opts: { countryAsName?: boolean } = {}): string {
   const country = opts.countryAsName ? countryName(p.country) : p.country;
-  return [p.locality, p.region, country].filter(Boolean).join(", ");
+  // City-states and some non-Latin records repeat the locality as the region ("Dubai, Dubai").
+  const region = p.region && p.region !== p.locality ? p.region : undefined;
+  return [p.locality, region, country].filter(Boolean).join(", ");
 }
 
 export function citySlug(p: { locality?: string; region?: string; country?: string }): string | null {

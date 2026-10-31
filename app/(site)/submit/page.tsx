@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
 import { Suspense } from "react";
 import { SubmitForm } from "@/components/submit-form";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: "Suggest a bar", description: "Suggest a missing tiki bar or correct a listing." };
+export const metadata = pageMetadata({ title: "Suggest a bar", description: "Suggest a missing tiki bar or correct a listing.", path: "/submit" });
 
 export default function SubmitPage() {
   return (

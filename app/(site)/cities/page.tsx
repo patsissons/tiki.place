@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { getPublishedPlaces } from "@/lib/data/places";
+import { pageMetadata } from "@/lib/seo";
 import { citySlug, countryName } from "@/lib/utils";
 
-export const metadata: Metadata = { title: "Cities", description: "Tiki bars by city." };
+export const metadata = pageMetadata({ title: "Cities", description: "Every city with a verified tiki bar, grouped by country.", path: "/cities" });
 
 export default function CitiesPage() {
   const groups = new Map<string, { slug: string; locality: string; region?: string; country: string; count: number }>();

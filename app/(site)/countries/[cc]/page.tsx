@@ -2,24 +2,32 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PlaceGrid } from "@/components/place/place-grid";
-import { getPublishedPlaces } from "@/lib/data/places";
+import { getCountryParams, getCountryPlaces } from "@/lib/data/places";
 import { toPublished } from "@/lib/data/published";
+import { pageMetadata } from "@/lib/seo";
 import { countryName } from "@/lib/utils";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [...new Set(getPublishedPlaces().map((p) => p.address.country).filter((c): c is string => Boolean(c)))].map((cc) => ({ cc: cc.toLowerCase() }));
+  return getCountryParams();
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ cc: string }> }): Promise<Metadata> {
-  const name = countryName((await params).cc.toUpperCase());
-  return { title: `Tiki bars in ${name}`, description: `Every verified tiki bar in ${name}.` };
+  const cc = (await params).cc.toUpperCase();
+  const places = getCountryPlaces(cc);
+  if (places.length === 0) return {};
+  const name = countryName(cc) ?? cc;
+  return pageMetadata({
+    title: `Tiki bars in ${name}`,
+    description: `All ${places.length} verified tiki bars in ${name}, with hours and status.`,
+    path: `/countries/${cc.toLowerCase()}`,
+  });
 }
 
 export default async function CountryPage({ params }: { params: Promise<{ cc: string }> }) {
   const cc = (await params).cc.toUpperCase();
-  const places = getPublishedPlaces().filter((p) => p.address.country === cc);
+  const places = getCountryPlaces(cc);
   if (places.length === 0) notFound();
   return (
     <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
