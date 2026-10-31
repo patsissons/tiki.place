@@ -23,7 +23,8 @@
     "validate": "tsx --env-file-if-exists=.env.local sync/cli.ts validate",
     "data:build": "tsx --env-file-if-exists=.env.local sync/cli.ts data:build",
     "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm validate",
-    "predev": "pnpm data:build"
+    "predev": "pnpm data:build",
+    "space:build": "tsx scripts/build-space-assets.ts"
   },
   "dependencies": {
     "@photostructure/tz-lookup": "11.7.0",
