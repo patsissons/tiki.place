@@ -23,11 +23,11 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-10-26T04:40:49.037Z",
-      "lastStatus": "error",
+      "lastRunAt": "2026-10-31T15:46:06.921Z",
+      "lastDiscoveryAt": "2026-10-31T15:46:06.921Z",
+      "lastStatus": "ok",
       "observationCount": 0,
-      "requestCount": 0,
-      "error": "github issues returned 401"
+      "requestCount": 1
     },
     "tikiwanderlust": {
       "lastRunAt": "2026-10-30T20:39:09.190Z",
@@ -38,6 +38,19 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-10-31T15:46:06.921Z",
+      "durationMs": 1090,
+      "sources": [
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 567,
+      "needsReview": 581,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-10-30T20:39:09.190Z",
       "durationMs": 436,
