@@ -19,7 +19,10 @@ export function SiteFooter() {
           <Link className="text-seaglass hover:underline" href="/sources">
             sources
           </Link>
-          .
+          . Sky behind the globe: <a className="hover:underline" href="https://svs.gsfc.nasa.gov/4851">NASA/Goddard SVS Deep Star Maps 2020</a> (Ernie
+          Wright), the <a className="hover:underline" href="http://tdc-www.harvard.edu/catalogs/bsc5.html">Yale Bright Star Catalog</a>, Moon texture by{" "}
+          <a className="hover:underline" href="https://www.solarsystemscope.com/textures/">Solar System Scope</a> (CC BY 4.0), positions by{" "}
+          <a className="hover:underline" href="https://github.com/cosinekitty/astronomy">astronomy-engine</a>.
         </p>
       </div>
     </footer>

@@ -24,6 +24,13 @@ export default function AboutPage() {
           licenses and freshness.
         </p>
         <p>
+          The sky behind the globe is real. Stars come from the Yale Bright Star Catalog, the Milky Way from{" "}
+          <a href="https://svs.gsfc.nasa.gov/4851" className="text-seaglass hover:underline">NASA&apos;s Deep Star Maps 2020</a>, and the Sun, Moon and planets sit
+          where they actually are, lit as they actually are, computed with{" "}
+          <a href="https://github.com/cosinekitty/astronomy" className="text-seaglass hover:underline">astronomy-engine</a>. Only the orbital clock is sped up,
+          and the Moon texture is by <a href="https://www.solarsystemscope.com/textures/" className="text-seaglass hover:underline">Solar System Scope</a> (CC BY 4.0).
+        </p>
+        <p>
           Know a bar that is missing, or one that has closed? <Link href="/submit" className="text-seaglass hover:underline">Suggest a correction</Link>. The code
           and data are on <a href="https://github.com/patsissons/tiki.place" className="text-seaglass hover:underline">GitHub</a>.
         </p>

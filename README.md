@@ -32,6 +32,7 @@ pnpm review list|show|approve|reject|merge|link|pin|resolve
 pnpm source list|add|pause|resume|retire
 pnpm validate                # every data file parses, invariants hold, canonical form
 pnpm data:build              # public/data/{places.json,places.geojson,manifest.json}
+pnpm space:build             # public/space/* sky assets (by hand; downloads ~40 MB of sources into .cache)
 pnpm check                   # lint + typecheck + test + validate
 ```
 

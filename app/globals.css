@@ -66,6 +66,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Deep-space gradient shown behind the globe before (or without) the WebGL sky. Dark in both schemes. */
+.space-fallback {
+  background: radial-gradient(ellipse 70% 60% at 50% 45%, #0f2a2e 0%, #081417 45%, #03070a 100%);
+}
+
 ::selection {
   background: color-mix(in oklab, var(--amber) 35%, transparent);
 }

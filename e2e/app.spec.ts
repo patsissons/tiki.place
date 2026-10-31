@@ -56,3 +56,18 @@ test("sources and submit pages render", async ({ page }) => {
   await page.goto("/submit");
   await expect(page.getByLabel("Bar name")).toBeVisible();
 });
+
+test("the sky renders behind the globe and can be switched off", async ({ page }) => {
+  await page.goto("/");
+  const backdrop = page.getByTestId("space-backdrop");
+  await expect(backdrop).toBeAttached();
+  await expect(page.locator(".mapboxgl-canvas")).toBeVisible();
+  await expect(backdrop).toHaveAttribute("data-state", "ready", { timeout: 30_000 });
+  expect(await page.locator("canvas").count()).toBe(2);
+
+  await page.goto("/?sky=0");
+  await expect(page.locator(".mapboxgl-canvas")).toBeVisible();
+  await page.waitForTimeout(3_000);
+  await expect(page.getByTestId("space-backdrop")).toHaveAttribute("data-state", "idle");
+  expect(await page.locator("canvas").count()).toBe(1);
+});
