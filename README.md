@@ -40,6 +40,9 @@ Social cards (`opengraph-image.tsx` next to the home, place, city and country ro
 `next/og` from `assets/og/`: a crop of the NASA Milky Way map plus Fraunces and Instrument Sans as static TTFs (SIL OFL, see
 `assets/og/OFL.txt`). No photos, Mapbox or Google calls are involved.
 
+Agents and scripts start at `/llms.txt` (`lib/llms.ts`), which points to the dataset and documents every field. Place pages also carry
+schema.org JSON-LD with status and hours (`placeJsonLd` in `lib/seo.ts`).
+
 ## Setup
 
 1. `cp .env.example .env.local` and fill in the Mapbox token (and the Google key if you will run sync locally).

@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { periodRange } from "./hours";
+import type { Hours, HoursPeriod, StatusValue } from "./schema/common";
+import type { PublishedPlace } from "./schema/published";
 
 /** Site identity shared by metadata, robots, the sitemap, JSON-LD and the social cards. */
 export const SITE = {
@@ -38,5 +41,55 @@ export function pageMetadata({ title, description, path, absolute = false }: Pag
     // Open Graph gets the bare title: networks already show the site name next to the card.
     openGraph: { type: "website", siteName: SITE.name, locale: "en_US", url: path, title, description },
     twitter: { card: "summary_large_image" },
+  };
+}
+
+const DAY_MIN = 1440;
+const SCHEMA_DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const clock = (minutes: number) => `${String(Math.floor(minutes / 60)).padStart(2, "0")}:${String(minutes % 60).padStart(2, "0")}`;
+
+function periodSpecs({ start, end }: { start: number; end: number }) {
+  const spec = (at: number, closes: number) => ({
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: SCHEMA_DAYS[Math.floor(at / DAY_MIN) % 7],
+    opens: clock(at % DAY_MIN),
+    closes: clock(closes),
+  });
+  // Under a day, including past midnight: schema.org reads a closes earlier than opens as the next morning.
+  if (end - start < DAY_MIN) return [spec(start, end % DAY_MIN)];
+  // Longer runs split at midnight, and 23:59 is the schema.org convention for "until the end of the day".
+  const specs = [];
+  for (let at = start; at < end; at = (Math.floor(at / DAY_MIN) + 1) * DAY_MIN) {
+    const dayEnd = (Math.floor(at / DAY_MIN) + 1) * DAY_MIN;
+    specs.push(spec(at, end >= dayEnd ? DAY_MIN - 1 : end % DAY_MIN));
+  }
+  return specs;
+}
+
+export const openingHoursSpecification = (hours: Hours) => hours.periods.flatMap((p: HoursPeriod) => periodSpecs(periodRange(p)));
+
+/** schema.org has no closed state for a business, so anything but open is spelled out for readers of the JSON-LD alone. */
+const STATUS_NOTE: Partial<Record<StatusValue, string>> = {
+  closed: "Permanently closed.",
+  temporarily_closed: "Temporarily closed.",
+  coming_soon: "Coming soon; not open yet.",
+  unverified: "Status unverified; it may not be open.",
+};
+
+export function placeJsonLd(p: PublishedPlace) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BarOrPub",
+    name: p.name,
+    url: absoluteUrl(`/places/${p.id}`),
+    description: STATUS_NOTE[p.status],
+    address: p.formattedAddress,
+    geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng },
+    telephone: p.phone,
+    sameAs: [p.website, p.googleMapsUri].filter(Boolean),
+    additionalProperty: { "@type": "PropertyValue", name: "status", value: p.status },
+    // Hours only describe a venue that is operating; on any other status they would read as open.
+    ...(p.status === "open" && p.hours?.periods.length ? { openingHoursSpecification: openingHoursSpecification(p.hours) } : {}),
+    ...(p.rating !== undefined && p.ratingCount ? { aggregateRating: { "@type": "AggregateRating", ratingValue: p.rating, reviewCount: p.ratingCount } } : {}),
   };
 }
