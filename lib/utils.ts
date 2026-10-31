@@ -21,6 +21,13 @@ export function placeLocation(p: { locality?: string; region?: string; country?:
   return [p.locality, region, country].filter(Boolean).join(", ");
 }
 
+/** The place's Google listing, or a Google Maps search for it when no listing is on record. */
+export function googleMapsUrl(p: { name: string; lat: number; lng: number; googleMapsUri?: string; formattedAddress?: string; locality?: string; region?: string; country?: string }): string {
+  if (p.googleMapsUri) return p.googleMapsUri;
+  const where = p.formattedAddress || placeLocation(p) || `${p.lat},${p.lng}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.name}, ${where}`)}`;
+}
+
 export function citySlug(p: { locality?: string; region?: string; country?: string }): string | null {
   if (!p.locality || !p.country) return null;
   return [p.locality, p.region, p.country]
