@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Globe, MapPin, Navigation, Phone, Star } from "lucide-react";
+import { Globe, MapIcon, MapPin, Navigation, Phone, Star } from "lucide-react";
 import { HoursTable, OpenNow } from "@/components/place/hours";
 import { SourcesFooter } from "@/components/place/sources-footer";
 import { StaticMap } from "@/components/place/static-map";
@@ -12,7 +12,7 @@ import { getPlace, getPublishedPlaces } from "@/lib/data/places";
 import { isPublished } from "@/lib/schema";
 import { toPublished } from "@/lib/data/published";
 import { pageMetadata, placeJsonLd } from "@/lib/seo";
-import { citySlug, countryName, placeLocation } from "@/lib/utils";
+import { citySlug, countryName, googleMapsUrl, placeLocation } from "@/lib/utils";
 
 export const dynamicParams = false;
 
@@ -83,6 +83,9 @@ export default async function PlacePage({ params }: { params: Promise<{ slug: st
           <div className="mt-5 flex flex-wrap gap-2">
             <Button variant="primary" asChild>
               <a href={directions} target="_blank" rel="noopener noreferrer"><Navigation /> Directions</a>
+            </Button>
+            <Button asChild>
+              <a href={googleMapsUrl(p)} target="_blank" rel="noopener noreferrer"><MapIcon /> Google Maps</a>
             </Button>
             {p.website && (
               <Button asChild>

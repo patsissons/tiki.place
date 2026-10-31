@@ -13,6 +13,7 @@ test("explorer loads places, searches, and opens a detail panel", async ({ page 
   await expect(page).toHaveURL(/p=smugglers-cove-san-francisco/);
   await expect(page.getByRole("heading", { name: "Smuggler's Cove" }).locator("visible=true")).toBeVisible();
   await expect(page.getByText("Where this comes from").locator("visible=true")).toBeVisible();
+  await expect(page.getByRole("link", { name: "Google Maps" }).locator("visible=true")).toHaveAttribute("href", /^https:\/\/maps\.google\.com\/\?cid=/);
 });
 
 test("in view toggle starts on and round-trips through the URL", async ({ page }) => {
@@ -48,6 +49,7 @@ test("place page renders hours and sources", async ({ page }) => {
   await expect(page.getByText("650 Gough St")).toBeVisible();
   await expect(page.getByText("Hours")).toBeVisible();
   await expect(page.getByText("Where this comes from")).toBeVisible();
+  await expect(page.getByRole("link", { name: "Google Maps" })).toHaveAttribute("href", /^https:\/\/maps\.google\.com\/\?cid=/);
 });
 
 test("sources and submit pages render", async ({ page }) => {
