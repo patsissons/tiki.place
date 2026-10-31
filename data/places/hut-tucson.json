@@ -19,7 +19,8 @@
   "externalIds": {
     "overture": "7858ce43-7b61-4c74-950a-1b7b6f090d86",
     "google": "ChIJC3bdoR1x1oYRfhRBxcTkVhA",
-    "osm": "node/371425280"
+    "osm": "node/371425280",
+    "tikirat": "the-hut"
   },
   "status": {
     "value": "open",
@@ -100,7 +101,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.941,
+  "established": 2006,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -122,6 +124,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:38.904Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -173,9 +179,16 @@
       "url": "https://explore.overturemaps.org/#17/32.22532653808594/-110.96586608886719",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-hut",
+      "url": "https://tikirat.com/bars/the-hut",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:31:38.904Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

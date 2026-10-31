@@ -19,7 +19,8 @@
   "externalIds": {
     "tikirat": "snowbird-tiki-bar",
     "google": "ChIJH2rlfG0ZyUwRM79aUBB0Vaw",
-    "osm": "node/11215969053"
+    "osm": "node/11215969053",
+    "overture": "42f1d3b4-ed1a-403f-be33-9597ddfcc767"
   },
   "status": {
     "value": "open",
@@ -121,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 2016,
-  "tikiConfidence": 0.93,
+  "tikiConfidence": 0.983,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -193,6 +194,20 @@
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "42f1d3b4-ed1a-403f-be33-9597ddfcc767",
+      "url": "https://explore.overturemaps.org/#17/45.531898498535156/-73.6126480102539",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "d830d5d4-8e27-484b-ac8c-4a0209ec9461",
+      "url": "https://explore.overturemaps.org/#17/45.53572082519531/-73.6025619506836",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "snowbird-tiki-bar",
       "url": "https://tikirat.com/bars/snowbird-tiki-bar",
@@ -201,6 +216,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

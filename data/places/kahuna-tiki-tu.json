@@ -122,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.983,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -206,9 +206,16 @@
       "url": "https://tikirat.com/bars/kahuna-tiki-tu",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:25:38.834Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "kahuna-tiki-tu-valley-village",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

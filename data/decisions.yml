@@ -1,0 +1,1045 @@
+- type: merge
+  from: doctor-funk-san-jose
+  into: dr-funk
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: dukes-hideaway-at-the-baxter
+  into: dukes-hideaway-at-mccrays-tavern
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: dukes-hideaway-atlanta
+  into: dukes-hideaway-at-mccrays-tavern
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: merge
+  from: electric-cure
+  into: electric-cure-edgewater
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: flamingo-tiki-room
+  into: flamingo-tiki-oklahoma-city
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and website
+- type: merge
+  from: hula-hula
+  into: hula-hula-seattle
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: hut
+  into: hut-tucson
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: kahuna-tiki-tu-valley-village
+  into: kahuna-tiki-tu
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: mai-tiki-ferndale
+  into: tigerlily-mai-tiki-bar
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: p-tiki-bar
+  into: poa-tiki-bar-ottawa
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: pier-teaki-st-petersburg
+  into: pier-teaki
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: pupu-house
+  into: pupu-house-honolulu
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: revival-house
+  into: revival-house-des-moines
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: samoan-joes-coventry
+  into: samoan-joes-tiki-bar-coventry
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: snowbird-tiki-bar-montreal
+  into: snowbird-tiki-bar
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: stray-pirate-las-vegas
+  into: stray-pirate-tropical-cocktail-lounge
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: merge
+  from: thes-os-tiki-bar
+  into: s-o-s-tiki-bar-decatur
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: tiki-bar-muel-gallur
+  into: tiki-bar-muel
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website
+- type: merge
+  from: tiki-bar-yaiza-2
+  into: tiki-bar-yaiza
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website
+- type: merge
+  from: tiki-docks-st-petersburg
+  into: tiki-docks-skyway-bar-grill
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: merge
+  from: tiki-tiki-bar-rosemont
+  into: petes-tiki-tiki
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: tiki-underground-hudson
+  into: tiki-underground
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and distinctive name
+- type: merge
+  from: tonga-hut-restaurant-tiki-bar
+  into: tonga-hut-palm-springs
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: tonga-hut
+  into: tonga-hut-valley-glen
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: tonga-hut-north-hollywood
+  into: tonga-hut-valley-glen
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: trader-nicks-south-shore-inn
+  into: trader-nicks-south-shore-inn-cudahy
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: tradr-sam-san-francisco
+  into: trad-r-sam
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: truck-yard-limin-lounge
+  into: limin-lounge-tiki-bar-colony
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address
+- type: merge
+  from: twisted-tiki
+  into: twisted-tiki-st-pete-beach
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: undertow
+  into: undertow-phoenix
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: undertow-arcadia-at-century-grand-phoenix
+  into: undertow-phoenix
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: merge
+  from: undertow-gilbert-2
+  into: undertow-gilbert
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: merge
+  from: ventiki-polynesian-dining-and-cocktails-ventura
+  into: ventiki-tiki-lounge-lanai
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same website and city
+- type: merge
+  from: waldorf-tiki-bar-vancouver
+  into: tiki-bar-at-the-waldorf-vancouver
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same address and website
+- type: merge
+  from: trader-sams-enchanted-tiki-bar-disneyland
+  into: trader-sams-enchanted-tiki-bar
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: trader-sams-grog-grotto-walt-disney-world
+  into: trader-sams-grog-grotto
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: trader-sams-tiki-terrace-bay-lake
+  into: trader-sams-grog-grotto
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: patio of the same bar
+- type: merge
+  from: tangaroa-terrace-disneyland
+  into: tangaroa-terrace-tropical-bar-grill
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: strong-water-tavern-universal-orlando
+  into: strong-water-tavern
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: rockaway-tiki-bar-arverne
+  into: rockaway-beach-rooftop-tiki-bar-new-york-deli
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same name; Arverne is in Queens
+- type: merge
+  from: mamahunes-kapaa
+  into: mamahunes
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: merge
+  from: lucky-tiki-highland-park
+  into: lucky-tiki-highland-park-los-angeles
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: kalanis-lake-tahoe
+  into: kalanis
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: hula-hoops-restaurant-and-tiki-bar-san-francisco
+  into: hula-hoops-restaurant-tiki-bar
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: cantiki-north-hollywood
+  into: cantiki
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: tiki-no-north-hollywood
+  into: tiki-no
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: zombie-hut-new-york-2
+  into: zombie-hut
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: belles-beach-house-venice-2
+  into: belles-beach-house
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar
+- type: merge
+  from: tiki-tiki-lounge-poki-poki-albuquerque
+  into: tiki-tiki-lounge
+  at: 2026-10-30T21:44:44.351Z
+  by: skill
+  note: same bar and city
+- type: approve
+  place: flask-cannon-at-v-pizza
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: jungle-bird-2
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: mahiki
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: marges-lakeside-inn
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: waikiki-tiki-room
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: waterworks
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: trader-vics-m-nchen
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: arvada-tavern-bernards-tiki-room
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: fongs-pizza-east-village
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Rat lists it as tiki
+- type: approve
+  place: friki-tiki-new-york
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Wanderlust lists it and it has a location
+- type: approve
+  place: kahuna-tiki-north-hollywood
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Wanderlust lists it and it has a location
+- type: approve
+  place: twisted-tiki-santa-ana
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Wanderlust lists it and it has a location
+- type: approve
+  place: tiki-docks-port-orange
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Wanderlust lists it and it has a location
+- type: approve
+  place: tiki-tiki-at-the-silver-palm-chicago
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: Tiki Wanderlust lists it and it has a location
+- type: approve
+  place: kokos-on-the-pier-folly-beach
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: capt-js-hurricane-tilburg
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: hawaika-valencia
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: mamasita-playa-bonita-cecina
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: paradise-unknown-san-antonio
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: wanika-francisco-alvarez
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: sugar-cane-london
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: tiki-bar-bridlington
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: kapu-petaluma
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: south-seas-oasis-charleston
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: sorrow-drowner-wilmington
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: pau-hana-lounge-wood-dale
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: super-power-brooklyn
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: longitude-oakland
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: make-believe-new-york
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: pacific-seas-los-angeles
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: cliff-dive-sydney
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: approve
+  place: archipelago-washington
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: known tiki bar
+- type: reject
+  place: sbs-engineering
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: budgetproduct-petit-lancy
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tokyo-bikini-bar-camarillo
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: bca-carrelage-ploermel
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: ceramiche-baroque-caltagirone
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: turner-tile-installation-monticello
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: badea-cosmin-ionut-florence
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: family-adventures-rowlett
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: place-igatpuri
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: place-2
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: place-3
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tong-kho-dasaha-quan-nam-tu-liem
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tekmezar-caddesi-mamak
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: ocean-village-poa-fort-pierce
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: surf-and-turf-tikis-tiki-bar-rentals-and-party-rentals-commerce-twp
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tiki-hut-paradise-ottawa
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: vacay-ean-events-reeds-spring
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: la-vista-findlay-ohio-findlay
+  reason: "not a bar: unrelated business"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: bnana-boat
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: place
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: dirty-laundry-orlando
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tipi-christmas-beverley
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: prime-kava-bar-santa-rosa
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: dailoma-coffee-and-cocktails-lisboa
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: coffe-box
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: mango-tango-benidorm-show-dinner-and-club-benidorm
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: john-js-chow-hall-lincoln
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: sippin-santa-on-main-las-vegas
+  reason: "themed differently: not tiki"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: cruisin-tikis-clearwater
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: cruisin-tikis-colonial-beach
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: cruisin-tikis-key-largo
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: cruisin-tikis-st-james-city
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: newport-beach-tikis-newport-beach
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: island-party-hut-chicago
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: mad-beach-tiki-tours-madeira-beach
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: island-time-floats-las-vegas
+  reason: tiki boat or float operator, not a fixed bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: polar-pub-orlando
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: polar-pub-lake-buena-vista
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: outer-rim-bay-lake
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: breakers-bay-bar-omaha
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: longboard-pool-bar-galveston
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: cascades-pool-bar-longboat-key
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tropical-paradise-myrtle-beach
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: landshark-beach-bar-atlantic-city
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: coconut-joes-powell
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: boca-grande-clubhouse-boca-grande
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: crystal-blue-boutique-hotel-and-beach-bar-and-sasa-studios-potos-thassos
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: brighthouse-tiki-bar-clearwater
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: bud-light-lime-lime-a-rita-tiki-terrace-akron
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: pool-bar-loule
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: tika-resort-pokhara
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: feldman-resort-boynton-beach
+  reason: water-park, ballpark or resort pool bar
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: margarita-hut-to-go-n-richland-hills-north-richland-hills
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: lalos-drink-and-beer-reynosa
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: la-presumida-drinks-togo-reynosa
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: drinks-el-patron-xochimilco
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: el-mero-salsero-tecolutla
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: el-tepito-drinks-veracruz
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: las-miches-de-camino-antiguo-a-las-animas-xalapa-de-enriquez
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: hw-micheladas-mazatlan
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: micheladas-la-reyna-maya-playa-del-carmen
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: bayou-bikinis-daiquiris-roseland
+  reason: to-go drinks, liquor or michelada shop
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: camp-conechella
+  reason: "not a public venue: temporary camp or private home bar"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: phools-gold-tiki-den-brisbane
+  reason: "not a public venue: temporary camp or private home bar"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: finzeys-porch-of-indecision-lorton
+  reason: "not a public venue: temporary camp or private home bar"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: grotto-at-frog-town-manor-bel-air
+  reason: "not a public venue: temporary camp or private home bar"
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: skipper-burnsys-enchanted-tiki-oasis-normal
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: sacky-and-geebles-hanalei-hideaway-reigate
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: hulagoon-lounge-marietta
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: shrunken-head-at-voodoo-village-bloomington
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: ohana-tiki-bar-at-casa-lennon-brookhaven
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: ricks-tiki-bar-basingstoke
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: yvis-seven-tiki-bar-grimbergen
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: jbs-tiki-bar-and-lounge-stockport
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: lazy-harrys-tiki-hideaway-bullhead-city
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: double-trouble-tiki-bar-oak-park-michigan-oak-park
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: pachamama-tiki-bar-aguimes
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: throwback-tiki-bar-sheboygan
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: dons-luau-genova
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: moondogs-island-tiki-bar-rooftop-and-cabana-atlanta
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: freaky-tiki-lounge-marana
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: kamanawanaleiya-lounge-omaha
+  reason: no website, Google search found no match and no listing on Google Maps
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: kon-tiki-sushi-poke-and-rum-monterotondo
+  reason: permanently closed sushi restaurant, no tiki program
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: bar-pacific-new-territories
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: coco-club-balma
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: coconut-joes-erie
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: cooshti-quarry-bay-hong-kong
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: corner-porch-delray-beach
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: dead-flamingo-miami
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: lazy-pineapple-ashtabula
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: roses-r-and-r-bar-brooklyn
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: seafarer-highlands
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: sidecar-fort-wayne
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: sometimes-at-pioneer-island-oshkosh
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: sunset-beach-club-punta-gorda
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: terraza-corona-aguascalientes
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: toucans-lakefront-mooresville
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: reject
+  place: vai-moana-beach-bar-barcelona
+  reason: own website shows no tiki program and no tiki directory lists it
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+- type: merge
+  from: sippin-santa-arvada
+  into: arvada-tavern-bernards-tiki-room
+  at: 2026-10-30T22:01:31.133Z
+  by: skill
+  note: seasonal pop-up at the same tavern
+- type: approve
+  place: abes-pagoda-bar-brooklyn
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: big-bamboo-bayside-tampa
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: fongs-pizza-ankeny
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: tiki-bar-solomons
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: wahoo-willies-fort-myers-beach
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: castaways-santa-cruz
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: lone-palm-beach-bar-hollywood
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: approve
+  place: mccaws-tiki-bar-nottingham
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+  note: own menu meets the 3-drink rule
+- type: reject
+  place: bonefish-harrys-beverly
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: dolphins-waterfront-bar-and-grill-at-cape-crossing-merritt-island
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: tiger-lily-easton
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: driftwood-tiki-bar-sea-bright
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: bar-tiki-tiki-long-beach
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: barefoot-bar-at-okoboji
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: bananas-axe-cabana-orlando
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: rum-room
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: sugar
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: acme-bar-co
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-10-31T00:42:49.133Z
+  by: skill
+- type: reject
+  place: truetts-luau
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-10-31T00:42:49.133Z
+  by: skill

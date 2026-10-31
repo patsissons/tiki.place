@@ -1,31 +1,120 @@
 {
   "id": "undertow-phoenix",
-  "name": "Undertow",
-  "aliases": [],
+  "name": "UnderTow Arcadia at Century Grand",
+  "aliases": [
+    "UnderTow"
+  ],
   "location": {
-    "lat": 33.4954701,
-    "lng": -112.003036,
+    "lat": 33.4954964,
+    "lng": -112.0029927,
     "precision": "rooftop"
   },
   "address": {
     "street": "3626 East Indian School Road",
     "locality": "Phoenix",
-    "region": "AZ",
+    "region": "Arizona",
+    "postalCode": "85018",
     "country": "US"
   },
+  "formattedAddress": "3626 E Indian School Rd Ste 100, Phoenix, AZ 85018, USA",
   "timezone": "America/Phoenix",
   "externalIds": {
-    "osm": "node/4802562589"
+    "osm": "node/4802562589",
+    "tikirat": "undertow",
+    "overture": "e094cec1-cd53-4318-9a8f-1201669b0c8a",
+    "google": "ChIJDbUDmasNK4cR12eeKc7Ulls"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1430"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1430"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1430"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:00 PM – 12:00 AM",
+      "Wednesday: 4:00 PM – 12:00 AM",
+      "Thursday: 4:00 PM – 12:00 AM",
+      "Friday: 2:30 PM – 12:00 AM",
+      "Saturday: 2:30 PM – 12:00 AM",
+      "Sunday: 2:30 PM – 12:00 AM"
+    ]
   },
   "contact": {
-    "website": "https://drinkundertow.com/"
+    "phone": "+1 602-739-1388",
+    "website": "https://bartershake.com/undertow/?utm_source=gbp",
+    "googleMapsUri": "https://maps.google.com/?cid=6599696285884639191&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.963,
+  "rating": {
+    "value": 4.7,
+    "count": 1725,
+    "at": "2026-10-26T04:40:49.037Z"
+  },
+  "priceLevel": "$$",
+  "established": 2016,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -33,20 +122,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "contact.website": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:36:00.181Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "name": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-10-26T04:40:49.037Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -55,11 +172,32 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJDbUDmasNK4cR12eeKc7Ulls",
+      "url": "https://maps.google.com/?cid=6599696285884639191&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-10-26T04:35:53.528Z",
+      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4802562589",
       "url": "https://www.openstreetmap.org/node/4802562589",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e094cec1-cd53-4318-9a8f-1201669b0c8a",
+      "url": "https://explore.overturemaps.org/#17/33.49543380737305/-112.00312805175781",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "undertow",
+      "url": "https://tikirat.com/bars/undertow",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:36:00.181Z"
     },
     {
       "sourceId": "tikiwanderlust",
@@ -82,5 +220,6 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
+  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

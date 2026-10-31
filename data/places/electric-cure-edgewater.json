@@ -8,13 +8,17 @@
     "precision": "rooftop"
   },
   "address": {
+    "street": "5350 W 25th Ave",
     "locality": "Edgewater",
     "region": "CO",
+    "postalCode": "80214",
     "country": "US"
   },
+  "formattedAddress": "5350 W 25th Ave, Edgewater CO 80214, USA",
   "timezone": "America/Denver",
   "externalIds": {
-    "overture": "9f843c7c-4bbe-436a-9525-1dcf5f918d77"
+    "overture": "9f843c7c-4bbe-436a-9525-1dcf5f918d77",
+    "tikirat": "the-electric-cure"
   },
   "status": {
     "value": "unverified",
@@ -22,9 +26,11 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
-    "website": "https://www.theelectriccure.com/"
+    "phone": "720-514-2640",
+    "website": "https://theelectriccure.com/"
   },
-  "tikiConfidence": 0.963,
+  "established": 2020,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -32,20 +38,32 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:14.911Z"
+    },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:14.911Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:14.911Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:14.911Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:14.911Z"
     },
     "location": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:31:14.911Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -59,6 +77,13 @@
       "url": "https://explore.overturemaps.org/#17/39.75289535522461/-105.05524444580078",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-electric-cure",
+      "url": "https://tikirat.com/bars/the-electric-cure",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:31:14.911Z"
     },
     {
       "sourceId": "tikiwanderlust",
@@ -80,6 +105,6 @@
       }
     ]
   },
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z"
 }

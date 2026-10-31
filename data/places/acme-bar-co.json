@@ -31,9 +31,10 @@
   "established": 2002,
   "tikiConfidence": 0.85,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-10-31T00:42:49.133Z",
+    "reason": "tiki-adjacent with no dedicated tiki room or menu"
   },
   "provenance": {
     "address": {
@@ -91,5 +92,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z"
 }

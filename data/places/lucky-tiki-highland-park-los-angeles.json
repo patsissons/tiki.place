@@ -1,7 +1,9 @@
 {
   "id": "lucky-tiki-highland-park-los-angeles",
   "name": "Lucky Tiki Highland Park",
-  "aliases": [],
+  "aliases": [
+    "The Lucky Tiki"
+  ],
   "location": {
     "lat": 34.1094156,
     "lng": -118.19364540000001,
@@ -89,7 +91,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.975,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -155,9 +157,16 @@
       "url": "https://explore.overturemaps.org/#17/34.109375/-118.19361114501953",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "lucky-tiki-highland-park",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }
