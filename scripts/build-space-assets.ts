@@ -86,8 +86,11 @@ async function buildStars(): Promise<void> {
 async function buildMilkyWay(): Promise<void> {
   const file = await cached("milkyway_2020_4k.exr", SOURCES.milkyway);
   if (!file) return;
-  // Linear EXR → sRGB, halve the resolution, lift the faint band a little.
-  const data = ffmpeg(["-apply_trc", "iec61966_2_1", "-i", file, "-vf", "scale=2048:1024:flags=lanczos", "-q:v", "5"], "jpg");
+  // Linear EXR → sRGB, then a tone curve that sinks the grey floor of unresolved stars (≈0.18)
+  // so the JPEG spends its bits on the band itself and the shader can add it straight onto black.
+  // A touch of blur hides codec blocks once the map is magnified on screen.
+  const curve = "curves=all='0/0 0.17/0 0.3/0.07 0.45/0.2 0.6/0.36 0.8/0.6 1/0.82'";
+  const data = ffmpeg(["-apply_trc", "iec61966_2_1", "-i", file, "-vf", `scale=4096:2048:flags=lanczos,${curve},gblur=sigma=0.7`, "-q:v", "4"], "jpg");
   writeIfChanged(path.join(OUT, "milkyway.jpg"), data);
 }
 
