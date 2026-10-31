@@ -1,7 +1,9 @@
 {
   "id": "tiki-tiki-lounge",
   "name": "The Tiki Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Tiki Tiki Lounge @ Poki Poki"
+  ],
   "location": {
     "lat": 35.1232941,
     "lng": -106.5513077,
@@ -28,11 +30,11 @@
     "phone": "505-503-6806"
   },
   "established": 2021,
-  "tikiConfidence": 0.895,
+  "tikiConfidence": 0.984,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-31T00:42:49.234Z"
   },
   "provenance": {
     "address": {
@@ -71,6 +73,13 @@
       "url": "https://tikirat.com/bars/the-tiki-tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:32:41.957Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-tiki-lounge-poki-poki-albuquerque",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -110,5 +119,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z"
 }

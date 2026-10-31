@@ -18,7 +18,8 @@
   "timezone": "Pacific/Honolulu",
   "externalIds": {
     "overture": "5cae340f-2f83-4c90-831c-05db4b82d541",
-    "google": "ChIJL18c9cVtAHwR6qDEiAQiRYA"
+    "google": "ChIJL18c9cVtAHwR6qDEiAQiRYA",
+    "tikirat": "the-pupu-house"
   },
   "status": {
     "value": "closed",
@@ -36,11 +37,12 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.763,
+  "established": 2023,
+  "tikiConfidence": 0.964,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-31T00:42:49.234Z"
   },
   "provenance": {
     "address": {
@@ -58,6 +60,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:05.934Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -98,9 +104,16 @@
       "url": "https://explore.overturemaps.org/#17/21.280553817749023/-157.82958984375",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "the-pupu-house",
+      "url": "https://tikirat.com/bars/the-pupu-house",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:32:05.934Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

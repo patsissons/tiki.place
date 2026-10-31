@@ -2,6 +2,7 @@
   "id": "tiki-docks-skyway-bar-grill",
   "name": "Tiki Docks Skyway",
   "aliases": [
+    "Tiki Docks",
     "Tiki Docks Skyway Bar Grill"
   ],
   "location": {
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2020,
-  "tikiConfidence": 0.93,
+  "tikiConfidence": 0.99,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -190,9 +191,16 @@
       "url": "https://tikirat.com/bars/tiki-docks-skyway-bar-grill",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:33:29.963Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-docks-st-petersburg",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

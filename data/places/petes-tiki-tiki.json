@@ -1,7 +1,9 @@
 {
   "id": "petes-tiki-tiki",
   "name": "Pete's Tiki Tiki",
-  "aliases": [],
+  "aliases": [
+    "Tiki Tiki Bar"
+  ],
   "location": {
     "lat": 41.9787661,
     "lng": -87.86849339999999,
@@ -187,6 +189,13 @@
     },
     {
       "sourceId": "overture",
+      "sourceRef": "3a5306f0-596a-4c93-9373-eb8f4ea2b0ae",
+      "url": "https://explore.overturemaps.org/#17/41.978668212890625/-87.86861419677734",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
       "sourceRef": "f056cd58-939c-4f78-96a2-9dea0256492a",
       "url": "https://explore.overturemaps.org/#17/41.97866439819336/-87.8681869506836",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
@@ -208,6 +217,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

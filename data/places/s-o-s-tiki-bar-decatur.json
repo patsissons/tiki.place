@@ -21,7 +21,8 @@
   "externalIds": {
     "overture": "e49a392a-c2b6-4c7b-9835-049eddcd1c95",
     "google": "ChIJB4FZZj4H9YgRySqQV5f5xfU",
-    "osm": "node/10055032917"
+    "osm": "node/10055032917",
+    "tikirat": "the-s-o-s-tiki-bar"
   },
   "status": {
     "value": "open",
@@ -92,7 +93,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.994,
+  "established": 2015,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -114,6 +116,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:32:20.987Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -167,6 +173,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "the-s-o-s-tiki-bar",
+      "url": "https://tikirat.com/bars/the-s-o-s-tiki-bar",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:32:20.987Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "sos-decatur",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -175,6 +188,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

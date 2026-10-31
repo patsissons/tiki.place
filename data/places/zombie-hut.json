@@ -121,7 +121,7 @@
   },
   "priceLevel": "$$",
   "established": 1999,
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -198,9 +198,16 @@
       "url": "https://tikirat.com/bars/zombie-hut",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:36:51.358Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "zombie-hut-new-york",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T00:42:49.234Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }
