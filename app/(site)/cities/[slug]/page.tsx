@@ -3,31 +3,34 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PlaceGrid } from "@/components/place/place-grid";
 import { Button } from "@/components/ui/button";
-import { getPublishedPlaces } from "@/lib/data/places";
+import { cityOf, getCityParams, getCityPlaces } from "@/lib/data/places";
 import { toPublished } from "@/lib/data/published";
-import { citySlug, countryName } from "@/lib/utils";
+import { pageMetadata } from "@/lib/seo";
+import { countryName, placeLocation } from "@/lib/utils";
 
 export const dynamicParams = false;
 
-function cityOf(p: ReturnType<typeof getPublishedPlaces>[number]) {
-  return citySlug({ locality: p.address.locality, region: p.address.region, country: p.address.country });
-}
-
 export function generateStaticParams() {
-  return [...new Set(getPublishedPlaces().map(cityOf).filter((s): s is string => Boolean(s)))].map((slug) => ({ slug }));
+  return getCityParams();
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const first = getPublishedPlaces().find((p) => cityOf(p) === slug);
+  const places = getCityPlaces(slug);
+  const first = places[0];
   if (!first) return {};
-  const where = [first.address.locality, first.address.region, countryName(first.address.country)].filter(Boolean).join(", ");
-  return { title: `Tiki bars in ${where}`, description: `Every verified tiki bar in ${where}, with hours and status.` };
+  const where = placeLocation(first.address, { countryAsName: true });
+  const n = places.length;
+  return pageMetadata({
+    title: `Tiki bars in ${where}`,
+    description: `${n === 1 ? "The verified tiki bar" : `All ${n} verified tiki bars`} in ${where}, with hours and status.`,
+    path: `/cities/${slug}`,
+  });
 }
 
 export default async function CityPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const places = getPublishedPlaces().filter((p) => cityOf(p) === slug);
+  const places = getCityPlaces(slug);
   if (places.length === 0) notFound();
   const first = places[0]!;
   const lat = places.reduce((s, p) => s + p.location!.lat, 0) / places.length;

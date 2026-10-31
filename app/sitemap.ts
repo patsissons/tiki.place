@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
 import { getPublishedPlaces } from "@/lib/data/places";
+import { SITE } from "@/lib/seo";
 import { citySlug } from "@/lib/utils";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://tiki.place";
+  const base = SITE.url;
   const places = getPublishedPlaces();
   const cities = new Set(places.map((p) => citySlug({ locality: p.address.locality, region: p.address.region, country: p.address.country })).filter(Boolean));
   const countries = new Set(places.map((p) => p.address.country).filter(Boolean));

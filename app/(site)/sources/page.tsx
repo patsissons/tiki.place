@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import { getAllPlaces, getSources, getSyncState } from "@/lib/data/places";
 import { isPublished } from "@/lib/schema";
+import { pageMetadata } from "@/lib/seo";
 import { relativeDays } from "@/lib/utils";
 
-export const metadata: Metadata = { title: "Sources", description: "Where tiki.place data comes from, how fresh it is, and under what licenses." };
+export const metadata = pageMetadata({ title: "Sources", description: "Where tiki.place data comes from, how fresh it is, and under what licenses.", path: "/sources" });
 
 export default function SourcesPage() {
   const sources = getSources();
