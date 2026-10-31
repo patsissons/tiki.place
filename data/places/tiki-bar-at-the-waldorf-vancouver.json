@@ -1,7 +1,9 @@
 {
   "id": "tiki-bar-at-the-waldorf-vancouver",
   "name": "Tiki Bar at the Waldorf",
-  "aliases": [],
+  "aliases": [
+    "Waldorf Tiki Bar"
+  ],
   "location": {
     "lat": 49.281467899999996,
     "lng": -123.07457899999999,
@@ -18,7 +20,8 @@
   "timezone": "America/Vancouver",
   "externalIds": {
     "overture": "db3c9ee7-9b90-4257-a685-49f419bc1d99",
-    "google": "ChIJ95DN-xNxhlQRXWpKDVqg42U"
+    "google": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
+    "tikirat": "waldorf-tiki-bar-vancouver"
   },
   "status": {
     "value": "open",
@@ -36,7 +39,7 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.975,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -98,9 +101,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.db3c9ee7-9b90-4257-a685-49f419bc1d99#17/49.28144454956055/-123.07449340820312",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikirat",
+      "sourceRef": "waldorf-tiki-bar-vancouver",
+      "url": "https://tikirat.com/bars/waldorf-tiki-bar-vancouver",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:38:42.778Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

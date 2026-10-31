@@ -29,11 +29,11 @@
     "website": "https://kalanis.com/"
   },
   "established": 2004,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.978,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-31T22:32:01.988Z"
   },
   "provenance": {
     "address": {
@@ -76,6 +76,13 @@
       "url": "https://tikirat.com/bars/kalani-s",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:25:41.747Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "kalanis-lake-tahoe",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -91,5 +98,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z"
 }

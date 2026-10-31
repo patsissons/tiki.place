@@ -2,6 +2,7 @@
   "id": "undertow-gilbert",
   "name": "UnderTow Gilbert at Epicenter",
   "aliases": [
+    "UnderTow",
     "Undertow Gilbert"
   ],
   "location": {
@@ -20,7 +21,8 @@
   "timezone": "America/Phoenix",
   "externalIds": {
     "tikirat": "undertow-gilbert",
-    "google": "ChIJT063Xv6tK4cR9aQWaWEkiP0"
+    "google": "ChIJT063Xv6tK4cR9aQWaWEkiP0",
+    "overture": "37ab891d-7a2a-4603-b028-a6583bfa0353"
   },
   "status": {
     "value": "open",
@@ -112,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.964,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -177,6 +179,13 @@
       "lastSeenAt": "2026-10-26T04:40:49.037Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "37ab891d-7a2a-4603-b028-a6583bfa0353",
+      "url": "https://explore.overturemaps.org/?feature=places.place.37ab891d-7a2a-4603-b028-a6583bfa0353#17/33.34429931640625/-111.69937896728516",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "undertow-gilbert",
       "url": "https://tikirat.com/bars/undertow-gilbert",
@@ -185,6 +194,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

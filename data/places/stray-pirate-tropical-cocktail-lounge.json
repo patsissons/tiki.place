@@ -2,7 +2,8 @@
   "id": "stray-pirate-tropical-cocktail-lounge",
   "name": "Stray Pirate - Tropical Cocktails & Effects",
   "aliases": [
-    "Stray Pirate Tropical Cocktail Lounge"
+    "Stray Pirate Tropical Cocktail Lounge",
+    "The Stray Pirate"
   ],
   "location": {
     "lat": 36.1552731,
@@ -122,7 +123,7 @@
   },
   "priceLevel": "$$",
   "established": 2024,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -192,9 +193,16 @@
       "url": "https://tikirat.com/bars/stray-pirate-tropical-cocktail-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:30:08.924Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "stray-pirate-las-vegas",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

@@ -2,6 +2,7 @@
   "id": "arvada-tavern-bernards-tiki-room",
   "name": "The Arvada Tavern",
   "aliases": [
+    "Sippin’ Santa",
     "The Arvada Tavern Bernard's Tiki Room"
   ],
   "location": {
@@ -20,7 +21,8 @@
   "timezone": "America/Denver",
   "externalIds": {
     "tikirat": "the-arvada-tavern-bernard-s-tiki-room",
-    "google": "ChIJ97TdiCyGa4cRbL0dR-b7ogo"
+    "google": "ChIJ97TdiCyGa4cRbL0dR-b7ogo",
+    "overture": "b0cce477-ab81-4716-a34d-3f29bb7f5834"
   },
   "status": {
     "value": "open",
@@ -122,12 +124,12 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.9,
+  "tikiConfidence": 0.975,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:35:53.528Z",
-    "reason": "weak google match; confirm this is the right place"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-10-30T22:01:31.133Z",
+    "reason": "Tiki Rat lists it as tiki"
   },
   "provenance": {
     "address": {
@@ -188,6 +190,13 @@
       "lastSeenAt": "2026-10-26T04:40:49.037Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "b0cce477-ab81-4716-a34d-3f29bb7f5834",
+      "url": "https://explore.overturemaps.org/?feature=places.place.b0cce477-ab81-4716-a34d-3f29bb7f5834#17/39.800506591796875/-105.08177947998047",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "the-arvada-tavern-bernard-s-tiki-room",
       "url": "https://tikirat.com/bars/the-arvada-tavern-bernard-s-tiki-room",
@@ -196,6 +205,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

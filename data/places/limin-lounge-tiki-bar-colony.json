@@ -2,7 +2,8 @@
   "id": "limin-lounge-tiki-bar-colony",
   "name": "Limin Lounge Tiki Bar",
   "aliases": [
-    "Limin’ Lounge"
+    "Limin’ Lounge",
+    "Truck Yard (Limin’ Lounge)"
   ],
   "location": {
     "lat": 33.0699738,
@@ -21,7 +22,8 @@
   "externalIds": {
     "overture": "d6708989-44a8-4de1-b292-a49ecd7b5035",
     "osm": "node/12523245442",
-    "google": "ChIJBdHPFIMlTIYRrbtaTi_BEoc"
+    "google": "ChIJBdHPFIMlTIYRrbtaTi_BEoc",
+    "tikirat": "truck-yard-limin-lounge"
   },
   "status": {
     "value": "open",
@@ -82,7 +84,8 @@
     ]
   },
   "contact": {
-    "website": "https://truckyardthecolony.com/",
+    "phone": "469-401-6764",
+    "website": "https://truckyard.com/the-colony",
     "googleMapsUri": "https://maps.google.com/?cid=9733054153623255981&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
@@ -91,7 +94,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.983,
+  "established": 2017,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -106,9 +110,17 @@
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
     },
+    "contact.phone": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:35:48.187Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -162,6 +174,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "truck-yard-limin-lounge",
+      "url": "https://tikirat.com/bars/truck-yard-limin-lounge",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:35:48.187Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "limin-lounge-the-colony",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -170,6 +189,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

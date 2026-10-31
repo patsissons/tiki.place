@@ -1,10 +1,12 @@
 {
   "id": "tigerlily-mai-tiki-bar",
   "name": "TigerLily / Mai Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Mai Tiki"
+  ],
   "location": {
-    "lat": 42.4604379,
-    "lng": -83.13681849999999,
+    "lat": 42.460434,
+    "lng": -83.1368179,
     "precision": "rooftop"
   },
   "address": {
@@ -17,7 +19,8 @@
   "formattedAddress": "231 W Nine Mile Rd Suite B, Ferndale MI 48220, USA",
   "timezone": "America/Detroit",
   "externalIds": {
-    "tikirat": "tigerlily-mai-tiki-bar"
+    "tikirat": "tigerlily-mai-tiki-bar",
+    "overture": "33c5f799-be5f-43fa-8c00-4b05413a15b1"
   },
   "status": {
     "value": "unverified",
@@ -29,11 +32,11 @@
     "website": "https://maitikibar.com/"
   },
   "established": 2022,
-  "tikiConfidence": 0.895,
+  "tikiConfidence": 0.989,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-10-31T22:32:01.988Z"
   },
   "provenance": {
     "address": {
@@ -57,8 +60,8 @@
       "observedAt": "2026-10-30T20:33:14.981Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:14.981Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
       "sourceId": "tikirat",
@@ -71,11 +74,25 @@
   },
   "sources": [
     {
+      "sourceId": "overture",
+      "sourceRef": "33c5f799-be5f-43fa-8c00-4b05413a15b1",
+      "url": "https://explore.overturemaps.org/?feature=places.place.33c5f799-be5f-43fa-8c00-4b05413a15b1#17/42.46043395996094/-83.1368179321289",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "tigerlily-mai-tiki-bar",
       "url": "https://tikirat.com/bars/tigerlily-mai-tiki-bar",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:33:14.981Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "mai-tiki-ferndale",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "resolution": {
@@ -97,5 +114,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-10-31T22:32:01.988Z"
 }
