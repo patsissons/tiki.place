@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { Star } from "lucide-react";
 import { StatusChip } from "@/components/ui/status-chip";
+import { byRating } from "@/lib/rating";
 import type { PublishedPlace } from "@/lib/schema/published";
 import { placeLocation } from "@/lib/utils";
 
 export function PlaceGrid({ places }: { places: PublishedPlace[] }) {
   return (
     <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      {places.map((p) => (
+      {[...places].sort(byRating).map((p) => (
         <li key={p.id}>
           <Link href={`/places/${p.id}`} className="flex h-full flex-col gap-2 rounded-2xl border border-line bg-bg-elevated/60 p-4 transition-colors hover:border-amber/40 hover:bg-bg-elevated">
             <div className="flex items-start justify-between gap-3">
