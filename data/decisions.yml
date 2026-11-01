@@ -1049,3 +1049,49 @@
   value: Bottoms Up Tiki Lounge
   at: 2026-10-31T01:25:08.277Z
   by: owner
+- type: resolve
+  place: tiki-bar-motherwell
+  google: ChIJpcbLsidEiEgRRjxEoGWGj7E
+  at: 2026-11-01T01:07:39.814Z
+  by: owner
+- type: pin
+  place: tiki-bar-motherwell
+  field: name
+  value: Tiki Bar & Darts Den
+  at: 2026-11-01T01:07:39.814Z
+  by: owner
+- type: pin
+  place: tiki-bar-motherwell
+  field: location
+  value:
+    lat: 55.8648715
+    lng: -4.2643702
+  at: 2026-11-01T01:07:39.814Z
+  by: owner
+- type: pin
+  place: tiki-bar-motherwell
+  field: address
+  value:
+    street: 214 Bath Street
+    locality: Glasgow
+    region: SCT
+    postalCode: G2 4HW
+    country: GB
+  at: 2026-11-01T01:07:39.814Z
+  by: owner
+- type: link
+  key: osm:node/6567398193
+  place: tiki-bar-motherwell
+  at: 2026-11-01T01:07:39.814Z
+  by: owner
+- type: link
+  key: overture:3ce8672f-c952-4581-9aff-e6db4dfaa3af
+  place: tiki-bar-motherwell
+  at: 2026-11-01T01:07:39.814Z
+  by: owner
+- type: pin
+  place: tiki-bar-motherwell
+  field: contact.website
+  value: https://www.tikibarglasgow.com/
+  at: 2026-11-01T01:07:50.957Z
+  by: owner
