@@ -43,6 +43,19 @@ test("in view limits the list to the map frame", async ({ page }) => {
   await expect(page).toHaveURL(/view=false/);
 });
 
+test("the list runs from highest to lowest rated, and search keeps the best match first", async ({ page }) => {
+  await page.goto("/?view=false");
+  await expect(page.getByText(/\d+ shown/).locator("visible=true")).toBeVisible({ timeout: 20_000 });
+  const cards = page.locator("li button").locator("visible=true");
+  await expect(cards.first()).toBeVisible();
+  const ratings = (await page.locator("li button span.font-mono:has(svg)").locator("visible=true").allTextContents()).map(Number);
+  expect(ratings.length).toBeGreaterThan(10);
+  expect(ratings).toEqual([...ratings].sort((a, b) => b - a));
+
+  await page.getByLabel("Search places").locator("visible=true").fill("smuggler");
+  await expect(cards.first()).toContainText("Smuggler's Cove");
+});
+
 test("place page renders hours and sources", async ({ page }) => {
   await page.goto("/places/smugglers-cove-san-francisco");
   await expect(page.getByRole("heading", { level: 1, name: "Smuggler's Cove" })).toBeVisible();

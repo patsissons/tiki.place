@@ -10,6 +10,7 @@ import { useClock } from "@/lib/client/use-clock";
 import { distanceKm } from "@/lib/geo";
 import { isOpenNow } from "@/lib/hours";
 import { usePlaces, useSearch } from "@/lib/client/use-places";
+import { byRating } from "@/lib/rating";
 import type { PublishedPlace } from "@/lib/schema/published";
 import { cn } from "@/lib/utils";
 import { DetailPanel } from "./detail-panel";
@@ -57,13 +58,9 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
     if (!searched) return [];
     let list = searched;
     if (openOnly) list = list.filter((p) => isOpenNow(p.hours, p.timezone, clock ?? undefined) === true);
-    if (userLocation) {
-      list = [...list].sort((a, b) => distanceKm(userLocation, a) - distanceKm(userLocation, b));
-    } else if (!q.trim()) {
-      list = [...list].sort((a, b) => a.name.localeCompare(b.name));
-    }
+    if (!q.trim()) list = [...list].sort(byRating);
     return list;
-  }, [searched, openOnly, userLocation, q, clock]);
+  }, [searched, openOnly, q, clock]);
   const visible = useMemo(() => (inView && frameIds ? matching.filter((p) => frameIds.has(p.id)) : matching), [matching, inView, frameIds]);
   const hidden = matching.length - visible.length;
 
@@ -129,7 +126,7 @@ export function Explorer({ manifestHash, total }: { manifestHash: string; total:
                 Open now
               </Button>
               <Button size="sm" variant={userLocation ? "primary" : "secondary"} onClick={locate} disabled={locating}>
-                <LocateFixed className={cn(locating && "animate-pulse")} /> {userLocation ? "Nearest first" : "Near me"}
+                <LocateFixed className={cn(locating && "animate-pulse")} /> Near me
               </Button>
               <Button size="sm" variant={inView ? "primary" : "secondary"} onClick={() => void setInView(inView ? false : null)} aria-pressed={inView}>
                 In view
