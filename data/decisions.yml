@@ -1106,3 +1106,14 @@
   value: Liquid Chef Tropical Tiki Cocktail Bar
   at: 2026-11-01T01:10:54.365Z
   by: owner
+- type: resolve
+  place: lost-lei-austin
+  google: ChIJq018atG1RIYRGHTlklSwB08
+  at: 2026-11-01T17:27:48.200Z
+  by: owner
+- type: pin
+  place: lost-lei-austin
+  field: name
+  value: Hen House
+  at: 2026-11-01T17:27:50.485Z
+  by: owner
