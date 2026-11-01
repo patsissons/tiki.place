@@ -1095,3 +1095,14 @@
   value: https://www.tikibarglasgow.com/
   at: 2026-11-01T01:07:50.957Z
   by: owner
+- type: resolve
+  place: liquid-chef-gastro-bar-oranjestad
+  google: ChIJ-frW4ZA5hY4RfBJ7qs4zdss
+  at: 2026-11-01T01:10:54.365Z
+  by: owner
+- type: pin
+  place: liquid-chef-gastro-bar-oranjestad
+  field: name
+  value: Liquid Chef Tropical Tiki Cocktail Bar
+  at: 2026-11-01T01:10:54.365Z
+  by: owner
