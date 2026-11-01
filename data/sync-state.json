@@ -16,8 +16,8 @@
       "requestCount": 1
     },
     "overture": {
-      "lastRunAt": "2026-10-26T04:19:34.568Z",
-      "lastDiscoveryAt": "2026-10-26T04:19:34.568Z",
+      "lastRunAt": "2026-11-01T13:44:39.158Z",
+      "lastDiscoveryAt": "2026-11-01T13:44:39.158Z",
       "lastStatus": "ok",
       "observationCount": 2556,
       "requestCount": 0
@@ -38,6 +38,19 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-01T13:44:39.158Z",
+      "durationMs": 646581,
+      "sources": [
+        "overture"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 567,
+      "needsReview": 581,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-10-31T15:46:06.921Z",
       "durationMs": 1090,
