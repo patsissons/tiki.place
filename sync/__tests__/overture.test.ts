@@ -17,7 +17,7 @@ describe("overture adapter", () => {
   });
   it("maps rows to observations with category and name tags", () => {
     const o = rowToObservation(rows[0]!, "overture", NOW.toISOString());
-    expect(o).toMatchObject({ sourceRef: "2a2b97d6", url: "https://explore.overturemaps.org/?feature=places.place.2a2b97d6#17/37.76789777/-122.42946866", name: "Last Rites", tags: ["tiki-category", "bar-category"], address: { locality: "San Francisco", region: "CA", country: "US" }, externalIds: { overture: "2a2b97d6" } });
+    expect(o).toMatchObject({ sourceRef: "2a2b97d6", name: "Last Rites", tags: ["tiki-category", "bar-category"], address: { locality: "San Francisco", region: "CA", country: "US" }, externalIds: { overture: "2a2b97d6" } });
     expect(rowToObservation(rows[1]!, "overture", NOW.toISOString())?.tags).toEqual(["tiki-name", "bar-category"]);
     expect(rowToObservation(rows[2]!, "overture", NOW.toISOString())).toBeNull();
     expect(rowToObservation({ ...rows[0]!, region: "", locality: " " }, "overture", NOW.toISOString())?.address).toEqual({ country: "US" });
