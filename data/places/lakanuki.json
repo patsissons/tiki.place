@@ -86,17 +86,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-01T16:50:03.603Z",
     "result": "none",
     "candidates": [
       {
         "googleId": "ChIJrcpwjLoNloAR6nhgKLH7SvA",
         "name": "Lakanuki | Hawaiian • Bar",
-        "distanceM": null,
+        "distanceM": 83,
         "nameSim": 0.667
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z"
 }

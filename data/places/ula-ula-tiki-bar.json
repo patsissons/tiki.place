@@ -83,17 +83,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-01T16:50:03.603Z",
     "result": "none",
     "candidates": [
       {
         "googleId": "ChIJWyR9fgAXBYgRgXlwI9WlY3w",
         "name": "Ula Ula Tiki at Redbar",
-        "distanceM": null,
+        "distanceM": 3,
         "nameSim": 0.75
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z"
 }

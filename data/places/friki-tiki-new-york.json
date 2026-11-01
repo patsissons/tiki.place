@@ -1,53 +1,84 @@
 {
   "id": "friki-tiki-new-york",
-  "name": "The Friki Tiki",
+  "name": "The Friki TIki",
   "aliases": [],
   "location": {
-    "lat": 40.7597133,
-    "lng": -73.9913358,
+    "lat": 40.759673,
+    "lng": -73.9913002,
     "precision": "rooftop"
   },
   "address": {
     "street": "357 West 44th Street",
     "locality": "New York",
-    "region": "NY",
+    "region": "New York",
+    "postalCode": "10036",
     "country": "US"
   },
+  "formattedAddress": "357 W 44th St, New York, NY 10036, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "4a7b02bb-1a07-4a84-8b0f-aee760d97d42",
-    "osm": "node/5984435987"
+    "osm": "node/5984435987",
+    "google": "ChIJjXxHANTX54kRBbsxE_cOlFI"
   },
   "status": {
-    "value": "temporarily_closed",
-    "sourceId": "tikiwanderlust",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "contact": {
-    "website": "https://thefrikitiki.com/"
+    "phone": "+1 212-582-3200",
+    "website": "https://thefrikitiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=5950397462005005061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.949,
+  "rating": {
+    "value": 4.5,
+    "count": 158,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.951,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -55,6 +86,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJjXxHANTX54kRBbsxE_cOlFI",
+      "url": "https://maps.google.com/?cid=5950397462005005061&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "osm",
       "sourceRef": "node/5984435987",
@@ -78,5 +116,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:41:15.641Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

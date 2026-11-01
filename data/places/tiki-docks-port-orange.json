@@ -5,49 +5,168 @@
     "Tiki Docks"
   ],
   "location": {
-    "lat": 29.1472588,
-    "lng": -80.9867783,
+    "lat": 29.147268699999998,
+    "lng": -80.9867752,
     "precision": "rooftop"
   },
   "address": {
+    "street": "3633 South Ridgewood Avenue",
     "locality": "Port Orange",
-    "region": "FL",
+    "region": "Florida",
+    "postalCode": "32129",
     "country": "US"
   },
+  "formattedAddress": "3633 S Ridgewood Ave, Port Orange, FL 32129, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "overture": "aa176fca-3d2a-4df7-afd5-5646610ef29a"
+    "overture": "aa176fca-3d2a-4df7-afd5-5646610ef29a",
+    "google": "ChIJpReaXQDZ5ogRPUNUMR6fLDQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 10:00 PM",
+      "Tuesday: 11:00 AM – 10:00 PM",
+      "Wednesday: 11:00 AM – 10:00 PM",
+      "Thursday: 11:00 AM – 10:00 PM",
+      "Friday: 11:00 AM – 11:00 PM",
+      "Saturday: 11:00 AM – 11:00 PM",
+      "Sunday: 11:00 AM – 10:00 PM"
+    ]
   },
   "contact": {
-    "website": "http://www.tikidocks.com/"
+    "phone": "+1 386-380-8454",
+    "website": "https://tikidocks.com/port-orange/",
+    "googleMapsUri": "https://maps.google.com/?cid=3759554740972962621&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.927,
+  "rating": {
+    "value": 4.6,
+    "count": 2736,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.93,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -55,6 +174,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJpReaXQDZ5ogRPUNUMR6fLDQ",
+      "url": "https://maps.google.com/?cid=3759554740972962621&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "aa176fca-3d2a-4df7-afd5-5646610ef29a",
@@ -71,5 +197,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:40:54.262Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

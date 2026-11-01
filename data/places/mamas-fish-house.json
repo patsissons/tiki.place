@@ -1,35 +1,126 @@
 {
   "id": "mamas-fish-house",
-  "name": "Mama’s Fish House",
+  "name": "Mama's Fish House",
   "aliases": [],
   "location": {
-    "lat": 20.9290233,
-    "lng": -156.3670454,
+    "lat": 20.9289879,
+    "lng": -156.3670266,
     "precision": "rooftop"
   },
   "address": {
-    "street": "799 Poho Pl",
+    "street": "799 Poho Place",
     "locality": "Paia",
-    "region": "HI",
+    "region": "Hawaii",
     "postalCode": "96779",
     "country": "US"
   },
-  "formattedAddress": "799 Poho Pl, Paia HI 96779, USA",
+  "formattedAddress": "799 Poho Pl, Paia, HI 96779, USA",
   "timezone": "Pacific/Honolulu",
   "externalIds": {
-    "tikirat": "mama-s-fish-house"
+    "tikirat": "mama-s-fish-house",
+    "google": "ChIJgz9Agw8zq34RRR2Qw8LrM5A"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2045"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "2045"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "2045"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "2045"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "2045"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "2045"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "2045"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 8:45 PM",
+      "Tuesday: 11:00 AM – 8:45 PM",
+      "Wednesday: 11:00 AM – 8:45 PM",
+      "Thursday: 11:00 AM – 8:45 PM",
+      "Friday: 11:00 AM – 8:45 PM",
+      "Saturday: 11:00 AM – 8:45 PM",
+      "Sunday: 11:00 AM – 8:45 PM"
+    ]
   },
   "contact": {
-    "phone": "808-579-8488",
-    "website": "https://mamasfishhouse.com/"
+    "phone": "+1 808-579-8488",
+    "website": "http://www.mamasfishhouse.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10390907987011050821&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.8,
+    "count": 12005,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$$$",
   "established": 1973,
-  "tikiConfidence": 0.978,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -37,32 +128,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:02.815Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:02.815Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:02.815Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:27:02.815Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:02.815Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:02.815Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:02.815Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +177,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJgz9Agw8zq34RRR2Qw8LrM5A",
+      "url": "https://maps.google.com/?cid=10390907987011050821&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "mama-s-fish-house",
@@ -85,24 +199,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "ambiguous",
-    "candidates": [
-      {
-        "googleId": "ChIJgz9Agw8zq34RRR2Qw8LrM5A",
-        "name": "Mama's Fish House",
-        "distanceM": null,
-        "nameSim": 1
-      },
-      {
-        "googleId": "ChIJ__9vgw8zq34RuUWUa1jByac",
-        "name": "The Inn At Mama's Fish House",
-        "distanceM": null,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

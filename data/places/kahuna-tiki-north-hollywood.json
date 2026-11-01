@@ -3,57 +3,77 @@
   "name": "Kahuna Tiki",
   "aliases": [],
   "location": {
-    "lat": 34.1647925,
-    "lng": -118.3717414,
+    "lat": 34.1646893,
+    "lng": -118.3716122,
     "precision": "rooftop"
   },
   "address": {
     "street": "11026 Magnolia Boulevard",
-    "locality": "North Hollywood",
-    "region": "CA",
+    "locality": "Los Angeles",
+    "region": "California",
     "postalCode": "91601",
     "country": "US"
   },
+  "formattedAddress": "11026 Magnolia Blvd, North Hollywood, CA 91601, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "overture": "26517fe2-6542-45d9-9159-48da42c1ab41",
-    "osm": "node/5104486021"
+    "osm": "node/5104486021",
+    "google": "ChIJTwdXbvOVwoARomqCBB1qJHA"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "contact": {
     "phone": "+1 818-853-7447",
-    "website": "http://www.kahunatiki.com/"
+    "website": "http://www.kahunatiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=8080700304271764130&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.949,
+  "rating": {
+    "value": 4.5,
+    "count": 655,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "tikiConfidence": 0.951,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.phone": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +81,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJTwdXbvOVwoARomqCBB1qJHA",
+      "url": "https://maps.google.com/?cid=8080700304271764130&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "osm",
       "sourceRef": "node/5104486021",
@@ -84,5 +111,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:41:15.641Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

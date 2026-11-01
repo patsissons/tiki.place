@@ -3,33 +3,123 @@
   "name": "Lava Lava Beach Club",
   "aliases": [],
   "location": {
-    "lat": 19.9128455,
-    "lng": -155.8872346,
+    "lat": 19.913297699999998,
+    "lng": -155.8879458,
     "precision": "rooftop"
   },
   "address": {
-    "street": "69-1081 Kuualii Pl",
+    "street": "69-1081 Ku'uali'i Place",
     "locality": "Waikoloa Village",
-    "region": "HI",
+    "region": "Hawaii",
     "postalCode": "96738",
     "country": "US"
   },
-  "formattedAddress": "69-1081 Kuualii Pl, Waikoloa HI 96738, USA",
+  "formattedAddress": "69-1081 Ku'uali'i Pl, Waikoloa Village, HI 96738, USA",
   "timezone": "Pacific/Honolulu",
   "externalIds": {
-    "tikirat": "lava-lava-beach-club"
+    "tikirat": "lava-lava-beach-club",
+    "google": "ChIJLV0YzpZ3VHkRrJxydNU8n4s"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1130"
+        },
+        "close": {
+          "day": 1,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1130"
+        },
+        "close": {
+          "day": 2,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1130"
+        },
+        "close": {
+          "day": 3,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1130"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1130"
+        },
+        "close": {
+          "day": 5,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "2100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:30 AM – 9:00 PM",
+      "Tuesday: 11:30 AM – 9:00 PM",
+      "Wednesday: 11:30 AM – 9:00 PM",
+      "Thursday: 11:30 AM – 9:00 PM",
+      "Friday: 11:30 AM – 9:00 PM",
+      "Saturday: 11:00 AM – 9:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ]
   },
   "contact": {
-    "phone": "808-769-5282",
-    "website": "https://lavalavabeachclub.com/"
+    "phone": "+1 808-769-5282",
+    "website": "http://lavalavabeachclub.com/bigisland",
+    "googleMapsUri": "https://maps.google.com/?cid=10060826980048346284&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.4,
+    "count": 6567,
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "established": 2012,
-  "tikiConfidence": 0.978,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -37,32 +127,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:17.868Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:17.868Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:17.868Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:26:17.868Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:17.868Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:17.868Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:17.868Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +172,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJLV0YzpZ3VHkRrJxydNU8n4s",
+      "url": "https://maps.google.com/?cid=10060826980048346284&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "lava-lava-beach-club",
@@ -85,24 +194,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "ambiguous",
-    "candidates": [
-      {
-        "googleId": "ChIJLV0YzpZ3VHkRrJxydNU8n4s",
-        "name": "Lava Lava Beach Club",
-        "distanceM": null,
-        "nameSim": 1
-      },
-      {
-        "googleId": "ChIJxbz0_UvgBnwRuv8oBcS1YpA",
-        "name": "Lava Lava Beach Club",
-        "distanceM": null,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

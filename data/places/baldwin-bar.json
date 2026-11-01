@@ -3,33 +3,124 @@
   "name": "The Baldwin Bar",
   "aliases": [],
   "location": {
-    "lat": 42.5022217,
-    "lng": -71.15754249999999,
+    "lat": 42.502224899999995,
+    "lng": -71.1575031,
     "precision": "rooftop"
   },
   "address": {
-    "street": "2 Alfred St",
+    "street": "2 Alfred Street",
     "locality": "Woburn",
-    "region": "MA",
+    "region": "Massachusetts",
     "postalCode": "01801",
     "country": "US"
   },
-  "formattedAddress": "2 Alfred St, Woburn MA 01801, USA",
+  "formattedAddress": "2 Alfred St, Woburn, MA 01801, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "the-baldwin-bar"
+    "tikirat": "the-baldwin-bar",
+    "google": "ChIJH75dWD1144kRwMB2_7fCPk0"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "2230"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "2230"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 – 9:30 PM",
+      "Tuesday: 5:00 – 9:30 PM",
+      "Wednesday: 5:00 – 9:30 PM",
+      "Thursday: 5:00 – 9:30 PM",
+      "Friday: 5:00 – 10:30 PM",
+      "Saturday: 5:00 – 10:30 PM",
+      "Sunday: 5:00 – 9:30 PM"
+    ]
   },
   "contact": {
-    "phone": "781-935-8488",
-    "website": "https://thebaldwinbar.com/"
+    "phone": "+1 781-935-8488",
+    "website": "http://www.thebaldwinbar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=5566100284997288128&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.4,
+    "count": 698,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$",
   "established": 2014,
-  "tikiConfidence": 0.978,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -37,32 +128,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:30:50.921Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:30:50.921Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:30:50.921Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:30:50.921Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:30:50.921Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:30:50.921Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:30:50.921Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +177,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJH75dWD1144kRwMB2_7fCPk0",
+      "url": "https://maps.google.com/?cid=5566100284997288128&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "the-baldwin-bar",
@@ -85,18 +199,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
-        "name": "Tiki Bar at the Waldorf",
-        "distanceM": null,
-        "nameSim": 0.333
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

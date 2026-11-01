@@ -2,18 +2,19 @@
   "version": 1,
   "sources": {
     "osm": {
-      "lastRunAt": "2026-10-26T04:08:35.388Z",
+      "lastRunAt": "2026-11-01T16:50:03.603Z",
       "lastDiscoveryAt": "2026-10-26T04:08:35.388Z",
-      "lastStatus": "ok",
+      "lastStatus": "error",
       "observationCount": 602,
-      "requestCount": 1
+      "requestCount": 1,
+      "error": "The operation was aborted due to timeout"
     },
     "tikirat": {
-      "lastRunAt": "2026-10-30T20:39:07.983Z",
-      "lastDiscoveryAt": "2026-10-30T20:39:07.983Z",
+      "lastRunAt": "2026-11-01T16:50:03.603Z",
+      "lastDiscoveryAt": "2026-11-01T16:50:03.603Z",
       "lastStatus": "ok",
       "observationCount": 316,
-      "requestCount": 1
+      "requestCount": 2
     },
     "overture": {
       "lastRunAt": "2026-11-01T13:44:39.158Z",
@@ -23,8 +24,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-10-31T15:46:06.921Z",
-      "lastDiscoveryAt": "2026-10-31T15:46:06.921Z",
+      "lastRunAt": "2026-11-01T16:50:03.603Z",
+      "lastDiscoveryAt": "2026-11-01T16:50:03.603Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -38,6 +39,22 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-01T16:50:03.603Z",
+      "durationMs": 257194,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 20,
+      "placesPublished": 572,
+      "needsReview": 572,
+      "googleCalls": 32,
+      "warnings": [
+        "osm: discovery failed: The operation was aborted due to timeout"
+      ]
+    },
     {
       "at": "2026-11-01T13:44:39.158Z",
       "durationMs": 646581,

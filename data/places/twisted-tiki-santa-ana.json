@@ -5,50 +5,159 @@
     "The Twisted Tiki Bar & Lounge"
   ],
   "location": {
-    "lat": 33.7493252,
-    "lng": -117.8674154,
+    "lat": 33.749287599999995,
+    "lng": -117.86743609999998,
     "precision": "rooftop"
   },
   "address": {
+    "street": "515 North Main Street",
     "locality": "Santa Ana",
-    "region": "CA",
+    "region": "California",
+    "postalCode": "92701",
     "country": "US"
   },
+  "formattedAddress": "515 N Main St, Santa Ana, CA 92701, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "overture": "40dd83dd-52a7-4904-b26a-38f7524c4acd",
-    "osm": "node/11040432834"
+    "osm": "node/11040432834",
+    "google": "ChIJpbRXiXnZ3IAREi2gwkCAGS0"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:00 – 10:00 PM",
+      "Wednesday: 5:00 – 10:00 PM",
+      "Thursday: 5:00 – 10:00 PM",
+      "Friday: 5:00 PM – 12:00 AM",
+      "Saturday: 5:00 PM – 12:00 AM",
+      "Sunday: 5:00 – 10:00 PM"
+    ]
   },
   "contact": {
-    "website": "https://linktr.ee/mcfaddenmarket"
+    "phone": "+1 657-695-1012",
+    "website": "http://mcfaddenmarket.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=3249769621756062994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.949,
+  "rating": {
+    "value": 4.4,
+    "count": 127,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.951,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -56,6 +165,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJpbRXiXnZ3IAREi2gwkCAGS0",
+      "url": "https://maps.google.com/?cid=3249769621756062994&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "osm",
       "sourceRef": "node/11040432834",
@@ -79,5 +195,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:40:55.272Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

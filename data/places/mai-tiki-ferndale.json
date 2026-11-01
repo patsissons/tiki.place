@@ -3,49 +3,81 @@
   "name": "Mai Tiki",
   "aliases": [],
   "location": {
-    "lat": 42.460434,
-    "lng": -83.1368179,
+    "lat": 42.460437899999995,
+    "lng": -83.13681849999999,
     "precision": "rooftop"
   },
   "address": {
+    "street": "231 West Nine Mile Road",
     "locality": "Ferndale",
-    "region": "MI",
+    "region": "Michigan",
+    "postalCode": "48220",
     "country": "US"
   },
+  "formattedAddress": "231 W Nine Mile Rd Ste B, Ferndale, MI 48220, USA",
   "timezone": "America/Detroit",
   "externalIds": {
-    "overture": "33c5f799-be5f-43fa-8c00-4b05413a15b1"
+    "overture": "33c5f799-be5f-43fa-8c00-4b05413a15b1",
+    "google": "ChIJiQ1p1YnPJIgRvrbauBCeW8o"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "contact": {
-    "website": "https://www.maitikibar.com/"
+    "phone": "+1 248-850-2534",
+    "website": "http://www.maitikibar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14581422013200119486&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.927,
+  "rating": {
+    "value": 4.1,
+    "count": 81,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.93,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "at": "2026-11-01T16:50:03.603Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -53,6 +85,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJiQ1p1YnPJIgRvrbauBCeW8o",
+      "url": "https://maps.google.com/?cid=14581422013200119486&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "33c5f799-be5f-43fa-8c00-4b05413a15b1",
@@ -69,5 +108,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:40:54.262Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

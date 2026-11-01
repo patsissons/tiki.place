@@ -6,6 +6,12 @@
       "pro": 0,
       "enterprise": 792,
       "textSearch": 2509
+    },
+    "2026-11": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 12,
+      "textSearch": 20
     }
   },
   "days": {
@@ -14,6 +20,12 @@
       "pro": 0,
       "enterprise": 792,
       "textSearch": 2509
+    },
+    "2026-11-01": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 12,
+      "textSearch": 20
     }
   }
 }

@@ -1,7 +1,9 @@
 {
   "id": "flamingo-tiki-oklahoma-city",
   "name": "Flamingo TIKI",
-  "aliases": [],
+  "aliases": [
+    "Flamingo TIKI Room"
+  ],
   "location": {
     "lat": 35.498654699999996,
     "lng": -97.5226728,
@@ -19,7 +21,8 @@
   "externalIds": {
     "overture": "8593b80e-92c2-44da-affa-124a19c8ef40",
     "osm": "node/10058466219",
-    "google": "ChIJSR6_ohoXsocRql1UD5Ytx34"
+    "google": "ChIJSR6_ohoXsocRql1UD5Ytx34",
+    "tikirat": "flamingo-tiki-room"
   },
   "status": {
     "value": "temporarily_closed",
@@ -37,7 +40,8 @@
     "at": "2026-10-26T04:40:49.037Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.983,
+  "established": 2021,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -59,6 +63,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-10-26T04:40:49.037Z"
+    },
+    "established": {
+      "sourceId": "tikirat",
+      "observedAt": "2026-10-30T20:23:11.317Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -108,6 +116,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikirat",
+      "sourceRef": "flamingo-tiki-room",
+      "url": "https://tikirat.com/bars/flamingo-tiki-room",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-30T20:23:11.317Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "flamingo-tiki-oklahoma-city",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -116,6 +131,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
   "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
 }

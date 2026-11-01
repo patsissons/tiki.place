@@ -1,35 +1,106 @@
 {
   "id": "revoluci-n",
-  "name": "Revolución",
+  "name": "Revolucion",
   "aliases": [],
   "location": {
-    "lat": 39.75251919999999,
-    "lng": -86.1387247,
+    "lat": 39.752469399999995,
+    "lng": -86.1387142,
     "precision": "rooftop"
   },
   "address": {
-    "street": "1132 Prospect St",
+    "street": "1132 Prospect Street",
     "locality": "Indianapolis",
-    "region": "IN",
+    "region": "Indiana",
     "postalCode": "46203",
     "country": "US"
   },
-  "formattedAddress": "1132 Prospect St, Indianapolis IN 46203, USA",
+  "formattedAddress": "1132 Prospect St, Indianapolis, IN 46203, USA",
   "timezone": "America/Indiana/Indianapolis",
   "externalIds": {
-    "tikirat": "revoluci-n"
+    "tikirat": "revoluci-n",
+    "google": "ChIJP6hDWX9aa4gRyhAO2R-Nv4A"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:00 – 10:00 PM",
+      "Wednesday: 5:00 – 10:00 PM",
+      "Thursday: 5:00 – 10:00 PM",
+      "Friday: 5:00 – 11:00 PM",
+      "Saturday: 4:00 – 11:00 PM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
-    "phone": "317-423-9490",
-    "website": "https://instagram.com/revolucionindy"
+    "phone": "+1 317-423-9490",
+    "website": "https://revolucion.res-menu.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9277288925331591370&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 799,
+    "at": "2026-11-01T16:50:03.603Z"
+  },
+  "priceLevel": "$$",
   "established": 2011,
-  "tikiConfidence": 0.978,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -37,32 +108,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:53.856Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:53.856Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:53.856Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:28:53.856Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:53.856Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:53.856Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:53.856Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-01T16:50:03.603Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +157,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJP6hDWX9aa4gRyhAO2R-Nv4A",
+      "url": "https://maps.google.com/?cid=9277288925331591370&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-01T16:50:03.603Z",
+      "lastSeenAt": "2026-11-01T16:50:03.603Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "revoluci-n",
@@ -85,30 +179,7 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-        "name": "The Shameful Tiki Room",
-        "distanceM": null,
-        "nameSim": 0
-      },
-      {
-        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
-        "name": "Tiki Bar at the Waldorf",
-        "distanceM": null,
-        "nameSim": 0
-      },
-      {
-        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
-        "name": "ConTiki Cabana",
-        "distanceM": null,
-        "nameSim": 0
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }

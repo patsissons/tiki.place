@@ -70,6 +70,11 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-01T16:50:03.603Z",
+    "result": "none",
+    "candidates": []
+  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:40:54.262Z"
+  "lastSyncedAt": "2026-11-01T16:50:03.603Z"
 }
