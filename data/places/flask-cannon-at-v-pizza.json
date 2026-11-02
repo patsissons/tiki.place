@@ -1,68 +1,177 @@
 {
   "id": "flask-cannon-at-v-pizza",
-  "name": "Flask & Cannon (at V Pizza)",
-  "aliases": [],
+  "name": "V Pizza + Flask & Cannon",
+  "aliases": [
+    "Flask & Cannon (at V Pizza)"
+  ],
   "location": {
-    "lat": 29.9731591,
-    "lng": -81.35589829999999,
+    "lat": 29.9730934,
+    "lng": -81.3560091,
     "precision": "rooftop"
   },
   "address": {
-    "street": "5700 US-1 N",
+    "street": "5700 U.S. 1",
     "locality": "St. Augustine",
-    "region": "FL",
+    "region": "Florida",
     "postalCode": "32095",
     "country": "US"
   },
-  "formattedAddress": "5700 US-1 N, St Augustine FL 32095, USA",
+  "formattedAddress": "5700 US-1, St. Augustine, FL 32095, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "flask-cannon-at-v-pizza"
+    "tikirat": "flask-cannon-at-v-pizza",
+    "google": "ChIJGxoynOkv5IgR9wHkM3qDnzw"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-02T20:24:28.556Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 10:00 PM",
+      "Tuesday: 11:00 AM – 10:00 PM",
+      "Wednesday: 11:00 AM – 10:00 PM",
+      "Thursday: 11:00 AM – 10:00 PM",
+      "Friday: 11:00 AM – 11:00 PM",
+      "Saturday: 11:00 AM – 11:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ]
   },
   "contact": {
-    "phone": "904-201-9982",
-    "website": "https://vpizza.com/"
+    "phone": "+1 904-201-9982",
+    "website": "https://vpizza.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4368354724452499959&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.4,
+    "count": 1175,
+    "at": "2026-11-02T20:24:28.556Z"
+  },
+  "priceLevel": "$$",
   "established": 2018,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-02T20:24:28.556Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:23:23.482Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:23:23.482Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:23:23.482Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:23:23.482Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:23:23.482Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:23:23.482Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:23:23.482Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +180,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJGxoynOkv5IgR9wHkM3qDnzw",
+      "url": "https://maps.google.com/?cid=4368354724452499959&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-02T20:24:28.556Z",
+      "lastSeenAt": "2026-11-02T20:24:28.556Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "flask-cannon-at-v-pizza",
       "url": "https://tikirat.com/bars/flask-cannon-at-v-pizza",
@@ -78,30 +194,7 @@
       "lastSeenAt": "2026-10-30T20:23:23.482Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "ambiguous",
-    "candidates": [
-      {
-        "googleId": "ChIJXy-J3QZJ5IgROoWMjCrN12E",
-        "name": "V Pizza + Flask & Cannon",
-        "distanceM": null,
-        "nameSim": 1
-      },
-      {
-        "googleId": "ChIJGxoynOkv5IgR9wHkM3qDnzw",
-        "name": "V Pizza + Flask & Cannon",
-        "distanceM": null,
-        "nameSim": 1
-      },
-      {
-        "googleId": "ChIJsTpp3QZJ5IgRPDlZ6An6aiQ",
-        "name": "Flask and Cannon",
-        "distanceM": null,
-        "nameSim": 0.769
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z",
+  "lastVerifiedAt": "2026-11-02T20:24:28.556Z"
 }

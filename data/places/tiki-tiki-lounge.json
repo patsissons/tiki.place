@@ -74,41 +74,29 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-02T20:24:28.556Z",
     "result": "none",
     "candidates": [
       {
-        "googleId": "ChIJg0Mk0NB1j1QR_muntY8JD40",
-        "name": "Tora Tiki",
-        "distanceM": null,
+        "googleId": "ChIJN2RP8Z8MIocRmJ5MI9SE7KE",
+        "name": "The Copper Lounge",
+        "distanceM": 8532,
         "nameSim": 0.5
       },
       {
-        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-        "name": "The Shameful Tiki Room",
-        "distanceM": null,
-        "nameSim": 0.4
+        "googleId": "ChIJ--vUPU91IocRPMVnJs2eIpA",
+        "name": "Poki Poki",
+        "distanceM": 0,
+        "nameSim": 0.143
       },
       {
-        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
-        "name": "Quayside Tiki Bar",
-        "distanceM": null,
-        "nameSim": 0.4
-      },
-      {
-        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
-        "name": "Tiki Bar at the Waldorf",
-        "distanceM": null,
-        "nameSim": 0.286
-      },
-      {
-        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
-        "name": "ConTiki Cabana",
-        "distanceM": null,
-        "nameSim": 0.273
+        "googleId": "ChIJK11WJhsLIocRHL1DevzzFtk",
+        "name": "Happy Accidents",
+        "distanceM": 7049,
+        "nameSim": 0
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
 }

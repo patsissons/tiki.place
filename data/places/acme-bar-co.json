@@ -79,17 +79,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-02T20:24:28.556Z",
     "result": "none",
     "candidates": [
       {
-        "googleId": "ChIJl6HeqiP1UocRxgLY2eiLzP0",
-        "name": "Water Witch",
-        "distanceM": null,
-        "nameSim": 0
+        "googleId": "ChIJ1aQPcOp-hYARBbrgSotATrc",
+        "name": "Acme Bar & Company",
+        "distanceM": 5,
+        "nameSim": 0.667
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
 }

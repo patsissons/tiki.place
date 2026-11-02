@@ -79,29 +79,41 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-02T20:24:28.556Z",
     "result": "none",
     "candidates": [
       {
-        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-        "name": "The Shameful Tiki Room",
-        "distanceM": null,
-        "nameSim": 0.667
+        "googleId": "ChIJF3AsbEAbBYgRWz4vynGD8Bk",
+        "name": "Wauwatiki Bar & Grill",
+        "distanceM": 7875,
+        "nameSim": 0.545
       },
       {
-        "googleId": "ChIJpeekwXByAHwRmkqRkpULgRM",
-        "name": "Tikis Grill & Bar",
-        "distanceM": null,
-        "nameSim": 0.5
+        "googleId": "ChIJnzF1bbgZBYgRUc-MK3iXR-s",
+        "name": "Kanaloa Tiki Lounge",
+        "distanceM": 1060,
+        "nameSim": 0.333
       },
       {
-        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
-        "name": "Tiki Bar at the Waldorf",
-        "distanceM": null,
-        "nameSim": 0.286
+        "googleId": "ChIJOUsWTgAZBYgRqiM5eG1khqU",
+        "name": "Tiki Bar East",
+        "distanceM": 5077,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJCWY7_IAXBYgRTYd4EDsdhYE",
+        "name": "At Random",
+        "distanceM": 3337,
+        "nameSim": 0.118
+      },
+      {
+        "googleId": "ChIJlRRF8yUZBYgRrwqIsTA_0tk",
+        "name": "Foundation",
+        "distanceM": 4956,
+        "nameSim": 0.105
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
 }

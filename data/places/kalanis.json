@@ -1,68 +1,175 @@
 {
   "id": "kalanis",
-  "name": "Kalani’s",
+  "name": "Kalani's",
   "aliases": [],
   "location": {
-    "lat": 38.9557599,
-    "lng": -119.9425648,
+    "lat": 38.9560211,
+    "lng": -119.94283089999999,
     "precision": "rooftop"
   },
   "address": {
     "street": "1001 Heavenly Village Way",
     "locality": "South Lake Tahoe",
-    "region": "CA",
+    "region": "California",
     "postalCode": "96150",
     "country": "US"
   },
-  "formattedAddress": "1001 Heavenly Village Way, South Lake Tahoe CA 96150, USA",
+  "formattedAddress": "1001 Heavenly Village Way #26, South Lake Tahoe, CA 96150, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "tikirat": "kalani-s"
+    "tikirat": "kalani-s",
+    "google": "ChIJRV9f9HaQmYARS-KagE_VWFA"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-02T20:24:28.556Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "2100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 – 9:00 PM",
+      "Tuesday: 5:00 – 9:00 PM",
+      "Wednesday: 5:00 – 9:00 PM",
+      "Thursday: 5:00 – 9:00 PM",
+      "Friday: 5:00 – 9:00 PM",
+      "Saturday: 5:00 – 9:00 PM",
+      "Sunday: 5:00 – 9:00 PM"
+    ]
   },
   "contact": {
-    "phone": "530-544-6100",
-    "website": "https://kalanis.com/"
+    "phone": "+1 530-544-6100",
+    "website": "http://kalanis.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=5789611858421539403&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 912,
+    "at": "2026-11-02T20:24:28.556Z"
+  },
+  "priceLevel": "$$",
   "established": 2004,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-02T20:24:28.556Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:41.747Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:41.747Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:41.747Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:25:41.747Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:41.747Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:41.747Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:41.747Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +178,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJRV9f9HaQmYARS-KagE_VWFA",
+      "url": "https://maps.google.com/?cid=5789611858421539403&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-02T20:24:28.556Z",
+      "lastSeenAt": "2026-11-02T20:24:28.556Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "kalani-s",
       "url": "https://tikirat.com/bars/kalani-s",
@@ -78,18 +192,7 @@
       "lastSeenAt": "2026-10-30T20:25:41.747Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-        "name": "The Shameful Tiki Room",
-        "distanceM": null,
-        "nameSim": 0
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z",
+  "lastVerifiedAt": "2026-11-02T20:24:28.556Z"
 }

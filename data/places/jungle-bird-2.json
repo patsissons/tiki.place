@@ -3,66 +3,173 @@
   "name": "Jungle Bird",
   "aliases": [],
   "location": {
-    "lat": 40.7425414,
-    "lng": -74.00003110000002,
+    "lat": 40.7426041,
+    "lng": -74.0001774,
     "precision": "rooftop"
   },
   "address": {
-    "street": "174 8th Ave",
+    "street": "174 8th Avenue",
     "locality": "New York",
-    "region": "NY",
+    "region": "New York",
     "postalCode": "10011",
     "country": "US"
   },
-  "formattedAddress": "174 8th Ave, New York NY 10011, USA",
+  "formattedAddress": "174 8th Ave, New York, NY 10011, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "jungle-bird-2"
+    "tikirat": "jungle-bird-2",
+    "google": "ChIJAcpCFvBZwokRdA1UO2M-MIo"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-02T20:24:28.556Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1400"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1400"
+        },
+        "close": {
+          "day": 6,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "0300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 PM – 2:00 AM",
+      "Tuesday: 4:00 PM – 2:00 AM",
+      "Wednesday: 4:00 PM – 2:00 AM",
+      "Thursday: 4:00 PM – 3:00 AM",
+      "Friday: 2:00 PM – 3:00 AM",
+      "Saturday: 2:00 PM – 3:00 AM",
+      "Sunday: 2:00 PM – 2:00 AM"
+    ]
   },
   "contact": {
     "phone": "646-868-8422",
-    "website": "https://junglebirdnyc.com/"
+    "website": "https://junglebirdnyc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "googleMapsUri": "https://maps.google.com/?cid=9957527372034215284&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.5,
+    "count": 615,
+    "at": "2026-11-02T20:24:28.556Z"
+  },
+  "priceLevel": "$$",
   "established": 2019,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-02T20:24:28.556Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:29.762Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.phone": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:25:29.762Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:29.762Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:25:29.762Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:29.762Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:29.762Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:29.762Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +178,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJAcpCFvBZwokRdA1UO2M-MIo",
+      "url": "https://maps.google.com/?cid=9957527372034215284&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-02T20:24:28.556Z",
+      "lastSeenAt": "2026-11-02T20:24:28.556Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "jungle-bird-2",
       "url": "https://tikirat.com/bars/jungle-bird-2",
@@ -78,36 +192,7 @@
       "lastSeenAt": "2026-10-30T20:25:29.762Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "ambiguous",
-    "candidates": [
-      {
-        "googleId": "ChIJVVWVDB9wcVMRlOzd6iuEMSA",
-        "name": "Jungle Bird Tiki Bar & Lounge",
-        "distanceM": null,
-        "nameSim": 0.947
-      },
-      {
-        "googleId": "ChIJby-YBvs_24gR6cGkTPFeUvk",
-        "name": "Jungle Bird Tiki",
-        "distanceM": null,
-        "nameSim": 0.947
-      },
-      {
-        "googleId": "ChIJqy31s5XQmoARdbKTWuIazkg",
-        "name": "The Jungle Bird",
-        "distanceM": null,
-        "nameSim": 0.947
-      },
-      {
-        "googleId": "ChIJAcpCFvBZwokRdA1UO2M-MIo",
-        "name": "Jungle Bird",
-        "distanceM": null,
-        "nameSim": 0.947
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z",
+  "lastVerifiedAt": "2026-11-02T20:24:28.556Z"
 }

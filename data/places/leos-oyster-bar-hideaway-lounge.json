@@ -1,68 +1,85 @@
 {
   "id": "leos-oyster-bar-hideaway-lounge",
-  "name": "Leo’s Oyster Bar (Hideaway Lounge)",
-  "aliases": [],
+  "name": "Leo's Oyster Bar",
+  "aliases": [
+    "Leo’s Oyster Bar (Hideaway Lounge)"
+  ],
   "location": {
-    "lat": 37.7940121,
-    "lng": -122.4025639,
+    "lat": 37.793944499999995,
+    "lng": -122.4025393,
     "precision": "rooftop"
   },
   "address": {
-    "street": "568 Sacramento St",
+    "street": "568 Sacramento Street",
     "locality": "San Francisco",
-    "region": "CA",
+    "region": "California",
     "postalCode": "94111",
     "country": "US"
   },
-  "formattedAddress": "568 Sacramento St, San Francisco CA 94111, USA",
+  "formattedAddress": "568 Sacramento St, San Francisco, CA 94111, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "tikirat": "leo-s-oyster-bar-hideaway-lounge"
+    "tikirat": "leo-s-oyster-bar-hideaway-lounge",
+    "google": "ChIJCbkIioqAhYARFoIrQYEaQ1w"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-02T20:24:28.556Z"
   },
   "contact": {
-    "phone": "415-872-9982",
-    "website": "https://leossf.com/"
+    "phone": "+1 209-459-8335",
+    "website": "https://www.leossf.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6648186617375457814&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.5,
+    "count": 549,
+    "at": "2026-11-02T20:24:28.556Z"
   },
   "established": 2016,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-02T20:24:28.556Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:26.828Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:26.828Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:26.828Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:26:26.828Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:26.828Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:26.828Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:26.828Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +88,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJCbkIioqAhYARFoIrQYEaQ1w",
+      "url": "https://maps.google.com/?cid=6648186617375457814&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-02T20:24:28.556Z",
+      "lastSeenAt": "2026-11-02T20:24:28.556Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "leo-s-oyster-bar-hideaway-lounge",
       "url": "https://tikirat.com/bars/leo-s-oyster-bar-hideaway-lounge",
@@ -78,11 +102,7 @@
       "lastSeenAt": "2026-10-30T20:26:26.828Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": []
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z",
+  "lastVerifiedAt": "2026-11-02T20:24:28.556Z"
 }

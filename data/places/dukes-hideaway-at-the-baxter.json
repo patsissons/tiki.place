@@ -79,17 +79,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-02T20:24:28.556Z",
     "result": "none",
     "candidates": [
       {
         "googleId": "ChIJF0Y0CBMD9YgRtQS13OVavH8",
         "name": "Duke's Hideaway at McCray's",
-        "distanceM": null,
+        "distanceM": 0,
         "nameSim": 0.667
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
 }

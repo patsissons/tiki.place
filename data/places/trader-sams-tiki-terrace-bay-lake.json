@@ -3,8 +3,8 @@
   "name": "Trader Sam's Tiki Terrace",
   "aliases": [],
   "location": {
-    "lat": 28.4060249,
-    "lng": -81.5854034,
+    "lat": 28.4059768,
+    "lng": -81.5854328,
     "precision": "rooftop"
   },
   "address": {
@@ -14,7 +14,8 @@
   },
   "timezone": "America/New_York",
   "externalIds": {
-    "overture": "ae4ba521-3dfb-4a7e-8051-c5bc57b0e2a2"
+    "overture": "ae4ba521-3dfb-4a7e-8051-c5bc57b0e2a2",
+    "osm": "node/14339739137"
   },
   "status": {
     "value": "unverified",
@@ -24,7 +25,7 @@
   "contact": {
     "website": "https://disneyworld.disney.go.com/dining/polynesian-resort/trader-sams-tiki-terrace/?CMP=OKC-18120859_gm_wdw_dining_tradersamstikiterrace_na"
   },
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.878,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -40,8 +41,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "osm",
+      "observedAt": "2026-11-02T20:24:28.556Z"
     },
     "name": {
       "sourceId": "overture",
@@ -54,6 +55,13 @@
   },
   "sources": [
     {
+      "sourceId": "osm",
+      "sourceRef": "node/14339739137",
+      "url": "https://www.openstreetmap.org/node/14339739137",
+      "firstSeenAt": "2026-11-02T20:24:28.556Z",
+      "lastSeenAt": "2026-11-02T20:24:28.556Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "ae4ba521-3dfb-4a7e-8051-c5bc57b0e2a2",
       "url": "https://explore.overturemaps.org/?feature=places.place.ae4ba521-3dfb-4a7e-8051-c5bc57b0e2a2#17/28.406024932861328/-81.58540344238281",
@@ -62,17 +70,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-02T20:24:28.556Z",
     "result": "none",
     "candidates": [
       {
         "googleId": "ChIJt7pYPhl-3YgRXRK2RDtkWPE",
         "name": "Trader Sam's Grog Grotto",
-        "distanceM": 14,
+        "distanceM": 8,
         "nameSim": 0.581
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
 }
