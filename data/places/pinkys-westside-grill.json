@@ -1,6 +1,6 @@
 {
   "id": "pinkys-westside-grill",
-  "name": "Pinky’s Westside Grill",
+  "name": "Pinky's Westside Grill",
   "aliases": [],
   "location": {
     "lat": 35.2291253,
@@ -8,61 +8,168 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "1600 W Morehead St",
+    "street": "1600 West Morehead Street",
     "locality": "Charlotte",
-    "region": "NC",
+    "region": "North Carolina",
     "postalCode": "28208",
     "country": "US"
   },
-  "formattedAddress": "1600 W Morehead St, Charlotte NC 28208, USA",
+  "formattedAddress": "1600 W Morehead St, Charlotte, NC 28208, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "pinky-s-westside-grill"
+    "tikirat": "pinky-s-westside-grill",
+    "google": "ChIJ8eIw99qhVogRhCqhvGOJ0cs"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-03T17:53:51.213Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 10:00 PM",
+      "Tuesday: 11:00 AM – 10:00 PM",
+      "Wednesday: 11:00 AM – 10:00 PM",
+      "Thursday: 11:00 AM – 10:00 PM",
+      "Friday: 11:00 AM – 11:00 PM",
+      "Saturday: 11:00 AM – 11:00 PM",
+      "Sunday: 11:00 AM – 10:00 PM"
+    ]
   },
   "contact": {
-    "phone": "704-332-0402",
-    "website": "https://eatdrinkpinkys.com/"
+    "phone": "+1 704-332-0402",
+    "website": "https://www.eatatpinkys.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14686670921291344516&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.5,
+    "count": 7655,
+    "at": "2026-11-03T17:53:51.213Z"
+  },
+  "priceLevel": "$",
   "established": 2010,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-03T17:53:51.213Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:23.845Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:23.845Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:23.845Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:28:23.845Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:23.845Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "location": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:28:23.845Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:28:23.845Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +178,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJ8eIw99qhVogRhCqhvGOJ0cs",
+      "url": "https://maps.google.com/?cid=14686670921291344516&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-03T17:53:51.213Z",
+      "lastSeenAt": "2026-11-03T17:53:51.213Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "pinky-s-westside-grill",
       "url": "https://tikirat.com/bars/pinky-s-westside-grill",
@@ -78,24 +192,7 @@
       "lastSeenAt": "2026-10-30T20:28:23.845Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "ambiguous",
-    "candidates": [
-      {
-        "googleId": "ChIJ8eIw99qhVogRhCqhvGOJ0cs",
-        "name": "Pinky's Westside Grill",
-        "distanceM": null,
-        "nameSim": 1
-      },
-      {
-        "googleId": "ChIJj7aT_o-oVogR2UXuVJecsYg",
-        "name": "Pinky's Westside Grill",
-        "distanceM": null,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-03T17:53:51.213Z",
+  "lastVerifiedAt": "2026-11-03T17:53:51.213Z"
 }

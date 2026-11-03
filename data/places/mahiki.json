@@ -3,65 +3,86 @@
   "name": "Mahiki",
   "aliases": [],
   "location": {
-    "lat": 51.5077492,
-    "lng": -0.1413204,
+    "lat": 51.507761599999995,
+    "lng": -0.141354,
     "precision": "rooftop"
   },
   "address": {
-    "street": "1 Dover St, Mayfair",
+    "street": "1 Dover Street",
     "locality": "London",
     "region": "England",
+    "postalCode": "W1S 4LD",
     "country": "GB"
   },
-  "formattedAddress": "1 Dover St, Mayfair, London W1S 4LD, UK",
+  "formattedAddress": "Head Office, 1 Dover St, London W1S 4LD, UK",
   "timezone": "Europe/London",
   "externalIds": {
-    "tikirat": "mahiki"
+    "tikirat": "mahiki",
+    "google": "ChIJW6Tk99UEdkgRnKPt55v7t4I"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-03T17:53:51.213Z"
   },
   "contact": {
     "phone": "— (see site)",
-    "website": "https://mahiki.co.uk/"
+    "website": "http://www.mahiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9419273792698295196&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 3.6,
+    "count": 900,
+    "at": "2026-11-03T17:53:51.213Z"
+  },
+  "priceLevel": "$$$$",
   "established": 2006,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-03T17:53:51.213Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:45.113Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "contact.phone": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:26:45.113Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:45.113Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:26:45.113Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:45.113Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:45.113Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:45.113Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +91,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJW6Tk99UEdkgRnKPt55v7t4I",
+      "url": "https://maps.google.com/?cid=9419273792698295196&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-03T17:53:51.213Z",
+      "lastSeenAt": "2026-11-03T17:53:51.213Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "mahiki",
       "url": "https://tikirat.com/bars/mahiki",
@@ -77,11 +105,7 @@
       "lastSeenAt": "2026-10-30T20:26:45.113Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": []
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-03T17:53:51.213Z",
+  "lastVerifiedAt": "2026-11-03T17:53:51.213Z"
 }

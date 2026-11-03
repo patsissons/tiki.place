@@ -3,61 +3,81 @@
   "name": "Waterworks",
   "aliases": [],
   "location": {
-    "lat": 30.4553035,
-    "lng": -84.2775719,
+    "lat": 30.4553092,
+    "lng": -84.2775831,
     "precision": "rooftop"
   },
   "address": {
-    "street": "1133 Thomasville Rd",
+    "street": "1133 Thomasville Road",
     "locality": "Tallahassee",
-    "region": "FL",
+    "region": "Florida",
     "postalCode": "32303",
     "country": "US"
   },
-  "formattedAddress": "1133 Thomasville Rd, Tallahassee FL 32303, USA",
+  "formattedAddress": "1133 Thomasville Rd, Tallahassee, FL 32303, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "waterworks"
+    "tikirat": "waterworks",
+    "google": "ChIJxY_LZIT17IgR1HENAZcOFPw"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-03T17:53:51.213Z"
   },
   "contact": {
-    "phone": "850-224-1887"
+    "phone": "+1 850-224-1887",
+    "googleMapsUri": "https://maps.google.com/?cid=18164159238812561876&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.1,
+    "count": 409,
+    "at": "2026-11-03T17:53:51.213Z"
+  },
+  "priceLevel": "$$",
   "established": 1996,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-03T17:53:51.213Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:36:33.374Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:36:33.374Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:36:33.374Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:36:33.374Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:36:33.374Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:36:33.374Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -66,6 +86,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJxY_LZIT17IgR1HENAZcOFPw",
+      "url": "https://maps.google.com/?cid=18164159238812561876&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-03T17:53:51.213Z",
+      "lastSeenAt": "2026-11-03T17:53:51.213Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "waterworks",
       "url": "https://tikirat.com/bars/waterworks",
@@ -73,11 +100,7 @@
       "lastSeenAt": "2026-10-30T20:36:33.374Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": []
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-03T17:53:51.213Z",
+  "lastVerifiedAt": "2026-11-03T17:53:51.213Z"
 }

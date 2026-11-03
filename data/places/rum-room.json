@@ -79,41 +79,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-03T17:53:51.213Z",
     "result": "none",
     "candidates": [
       {
-        "googleId": "ChIJyyXatb2jhVQR_GywamKR7yk",
-        "name": "Red Rum",
-        "distanceM": null,
+        "googleId": "ChIJi0I--Ay12YgReUdRZE-ogW8",
+        "name": "Rum Room Restaurant & Venu",
+        "distanceM": 38,
         "nameSim": 0.667
-      },
-      {
-        "googleId": "ChIJM8_O3JBxhlQRxzzY0cGTm4c",
-        "name": "The Flamingo Room",
-        "distanceM": null,
-        "nameSim": 0.5
-      },
-      {
-        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-        "name": "The Shameful Tiki Room",
-        "distanceM": null,
-        "nameSim": 0.4
-      },
-      {
-        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
-        "name": "Tiki Bar at the Waldorf",
-        "distanceM": null,
-        "nameSim": 0
-      },
-      {
-        "googleId": "ChIJlTiuEmpxhlQRHup7Ag0O7Cg",
-        "name": "Key Party",
-        "distanceM": null,
-        "nameSim": 0
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-03T17:53:51.213Z"
 }

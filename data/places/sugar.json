@@ -79,17 +79,17 @@
     }
   ],
   "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
+    "attemptedAt": "2026-11-03T17:53:51.213Z",
     "result": "none",
     "candidates": [
       {
-        "googleId": "ChIJ-WA1kqIFdkgR1DNItOUl3rQ",
-        "name": "Sugar Cane Bar",
-        "distanceM": null,
+        "googleId": "ChIJtwclboO22YgRoEae3LsRNio",
+        "name": "Sugar Rooftop",
+        "distanceM": 25,
         "nameSim": 0.667
       }
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-03T17:53:51.213Z"
 }

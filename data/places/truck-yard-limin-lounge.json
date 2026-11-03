@@ -1,68 +1,177 @@
 {
   "id": "truck-yard-limin-lounge",
-  "name": "Truck Yard (Limin’ Lounge)",
-  "aliases": [],
+  "name": "Truck Yard",
+  "aliases": [
+    "Truck Yard (Limin’ Lounge)"
+  ],
   "location": {
-    "lat": 33.0699817,
-    "lng": -96.8576858,
+    "lat": 33.0694101,
+    "lng": -96.85766029999999,
     "precision": "rooftop"
   },
   "address": {
-    "street": "5959 Grove Ln",
+    "street": "5959 Grove Lane",
     "locality": "The Colony",
-    "region": "TX",
+    "region": "Texas",
     "postalCode": "75056",
     "country": "US"
   },
-  "formattedAddress": "5959 Grove Ln, The Colony TX 75056, USA",
+  "formattedAddress": "5959 Grove Ln, The Colony, TX 75056, USA",
   "timezone": "America/Chicago",
   "externalIds": {
-    "tikirat": "truck-yard-limin-lounge"
+    "tikirat": "truck-yard-limin-lounge",
+    "google": "ChIJ39x4mBA7TIYR5sD3qOPAa94"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-03T17:53:51.213Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 PM – 12:00 AM",
+      "Tuesday: 4:00 PM – 12:00 AM",
+      "Wednesday: 4:00 PM – 12:00 AM",
+      "Thursday: 11:00 AM – 12:00 AM",
+      "Friday: 11:00 AM – 1:00 AM",
+      "Saturday: 11:00 AM – 1:00 AM",
+      "Sunday: 11:00 AM – 12:00 AM"
+    ]
   },
   "contact": {
-    "phone": "469-401-6764",
-    "website": "https://truckyard.com/the-colony"
+    "phone": "+1 877-517-4619",
+    "website": "https://truckyard.com/the-colony/",
+    "googleMapsUri": "https://maps.google.com/?cid=16027115782952960230&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.6,
+    "count": 4445,
+    "at": "2026-11-03T17:53:51.213Z"
+  },
+  "priceLevel": "$$",
   "established": 2017,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-03T17:53:51.213Z"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:48.187Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:48.187Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:48.187Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:35:48.187Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:48.187Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:48.187Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:48.187Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-03T17:53:51.213Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +180,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJ39x4mBA7TIYR5sD3qOPAa94",
+      "url": "https://maps.google.com/?cid=16027115782952960230&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-03T17:53:51.213Z",
+      "lastSeenAt": "2026-11-03T17:53:51.213Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "truck-yard-limin-lounge",
       "url": "https://tikirat.com/bars/truck-yard-limin-lounge",
@@ -78,18 +194,7 @@
       "lastSeenAt": "2026-10-30T20:35:48.187Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJBdHPFIMlTIYRrbtaTi_BEoc",
-        "name": "Limin Lounge Tiki Bar",
-        "distanceM": null,
-        "nameSim": 0.611
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z"
+  "lastSyncedAt": "2026-11-03T17:53:51.213Z",
+  "lastVerifiedAt": "2026-11-03T17:53:51.213Z"
 }
