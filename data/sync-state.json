@@ -9,11 +9,11 @@
       "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-11-05T18:05:36.015Z",
-      "lastDiscoveryAt": "2026-11-05T18:05:36.015Z",
+      "lastRunAt": "2026-11-06T17:31:30.171Z",
+      "lastDiscoveryAt": "2026-11-06T17:31:30.171Z",
       "lastStatus": "ok",
       "observationCount": 316,
-      "requestCount": 2
+      "requestCount": 1
     },
     "overture": {
       "lastRunAt": "2026-11-01T13:44:39.158Z",
@@ -23,8 +23,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-05T18:05:36.015Z",
-      "lastDiscoveryAt": "2026-11-05T18:05:36.015Z",
+      "lastRunAt": "2026-11-06T17:31:30.171Z",
+      "lastDiscoveryAt": "2026-11-06T17:31:30.171Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -38,6 +38,20 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-06T17:31:30.171Z",
+      "durationMs": 2240,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-11-05T18:05:36.015Z",
       "durationMs": 3729,
