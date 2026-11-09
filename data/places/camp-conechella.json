@@ -29,7 +29,7 @@
   "rating": {
     "value": 5,
     "count": 1,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-09T20:49:19.347Z"
   },
   "tikiConfidence": 0.75,
   "review": {
@@ -41,15 +41,15 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-09T20:49:19.347Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-09T20:49:19.347Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-09T20:49:19.347Z"
     },
     "location": {
       "sourceId": "google",
@@ -57,11 +57,11 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-09T20:49:19.347Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-09T20:49:19.347Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -74,7 +74,7 @@
       "sourceRef": "ChIJ9289F_25n4ARVP_UeNFZ2N0",
       "url": "https://maps.google.com/?cid=15985625633561837396&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
       "sourceId": "osm",
@@ -85,6 +85,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

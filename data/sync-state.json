@@ -2,15 +2,16 @@
   "version": 1,
   "sources": {
     "osm": {
-      "lastRunAt": "2026-11-02T20:24:28.556Z",
+      "lastRunAt": "2026-11-09T20:49:19.347Z",
       "lastDiscoveryAt": "2026-11-02T20:24:28.556Z",
-      "lastStatus": "ok",
+      "lastStatus": "error",
       "observationCount": 604,
-      "requestCount": 1
+      "requestCount": 1,
+      "error": "overpass https://overpass.kumi.systems/api/interpreter returned 504"
     },
     "tikirat": {
-      "lastRunAt": "2026-11-08T16:42:45.858Z",
-      "lastDiscoveryAt": "2026-11-08T16:42:45.858Z",
+      "lastRunAt": "2026-11-09T20:49:19.347Z",
+      "lastDiscoveryAt": "2026-11-09T20:49:19.347Z",
       "lastStatus": "ok",
       "observationCount": 316,
       "requestCount": 2
@@ -23,8 +24,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-08T16:42:45.858Z",
-      "lastDiscoveryAt": "2026-11-08T16:42:45.858Z",
+      "lastRunAt": "2026-11-09T20:49:19.347Z",
+      "lastDiscoveryAt": "2026-11-09T20:49:19.347Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -38,6 +39,22 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-09T20:49:19.347Z",
+      "durationMs": 156981,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 137,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 137,
+      "warnings": [
+        "osm: discovery failed: overpass https://overpass.kumi.systems/api/interpreter returned 504"
+      ]
+    },
     {
       "at": "2026-11-08T16:42:45.858Z",
       "durationMs": 3311,
