@@ -38,19 +38,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "location": {
       "sourceId": "google",
@@ -58,7 +58,7 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,7 +71,7 @@
       "sourceRef": "ChIJRfoE2klzFogRKseMFdQAjog",
       "url": "https://maps.google.com/?cid=9839803146745726762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
       "sourceId": "overture",
@@ -82,6 +82,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

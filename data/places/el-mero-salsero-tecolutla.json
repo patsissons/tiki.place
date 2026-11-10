@@ -114,7 +114,7 @@
   "rating": {
     "value": 4.8,
     "count": 6,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-10T17:54:51.536Z"
   },
   "tikiConfidence": 0.75,
   "review": {
@@ -125,23 +125,23 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "location": {
       "sourceId": "google",
@@ -149,11 +149,11 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -166,7 +166,7 @@
       "sourceRef": "ChIJF26KQVWz24UR39A_SOmQyR0",
       "url": "https://maps.google.com/?cid=2146406029032673503&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
       "sourceId": "overture",
@@ -177,6 +177,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }
