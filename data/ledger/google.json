@@ -9,7 +9,7 @@
     },
     "2026-11": {
       "essentials": 0,
-      "pro": 274,
+      "pro": 411,
       "enterprise": 21,
       "textSearch": 51
     }
@@ -76,6 +76,12 @@
       "textSearch": 0
     },
     "2026-11-10": {
+      "essentials": 0,
+      "pro": 137,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-11": {
       "essentials": 0,
       "pro": 137,
       "enterprise": 0,
