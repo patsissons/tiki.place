@@ -8,13 +8,13 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "Ari 4 Fang Nua Alley",
-    "locality": "เขตพญาไท",
-    "region": "กรุงเทพมหานคร",
+    "street": "Soi Ari 4 Nua",
+    "locality": "Khet Phaya Thai",
+    "region": "Krung Thep Maha Nakhon",
     "postalCode": "10400",
     "country": "TH"
   },
-  "formattedAddress": "Ari 4 Fang Nua Alley, แขวงพญาไท เขตพญาไท กรุงเทพมหานคร 10400, Thailand",
+  "formattedAddress": "Soi Ari 4 Nua, Phaya Thai, Khet Phaya Thai, Krung Thep Maha Nakhon 10400, Thailand",
   "timezone": "Asia/Bangkok",
   "externalIds": {
     "overture": "efddeaf4-a9d1-4298-bae0-c4ab4671f80d",
@@ -105,7 +105,7 @@
   "rating": {
     "value": 4.7,
     "count": 165,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-12T18:22:54.608Z"
   },
   "tikiConfidence": 0.834,
   "review": {
@@ -116,23 +116,23 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "location": {
       "sourceId": "google",
@@ -140,11 +140,11 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -157,7 +157,7 @@
       "sourceRef": "ChIJZVlE9hyc4jARcN4Qfg534aE",
       "url": "https://maps.google.com/?cid=11664735413994577520&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
       "sourceId": "overture",
@@ -168,6 +168,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }
