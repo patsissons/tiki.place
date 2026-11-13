@@ -10,13 +10,13 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "115 Durango Street",
+    "street": "115 Durango Street Service Road",
     "locality": "El Paso",
     "region": "Texas",
     "postalCode": "79901",
     "country": "US"
   },
-  "formattedAddress": "115 Durango St Ste d, El Paso, TX 79901, USA",
+  "formattedAddress": "115 Durango Street Service Road Ste d, El Paso, TX 79901, USA",
   "timezone": "America/Denver",
   "externalIds": {
     "tikirat": "the-tiki-room-el-paso",
@@ -99,7 +99,7 @@
   "rating": {
     "value": 4.6,
     "count": 663,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
   "established": 2023,
@@ -112,19 +112,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -132,11 +132,11 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "location": {
       "sourceId": "google",
@@ -144,15 +144,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -165,7 +165,7 @@
       "sourceRef": "ChIJWcPMyENZ54YRQ4t9PYhR1ho",
       "url": "https://maps.google.com/?cid=1933822735591246659&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
       "sourceId": "overture",
@@ -197,6 +197,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

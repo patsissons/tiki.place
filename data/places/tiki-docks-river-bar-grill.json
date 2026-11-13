@@ -1,24 +1,24 @@
 {
   "id": "tiki-docks-river-bar-grill",
-  "name": "Tiki Docks River Bar & Grill",
+  "name": "Tiki Docks Riverview",
   "aliases": [
     "Tiki Docks",
-    "Tiki Docks River Bar Grill",
-    "Tiki Docks Riverview"
+    "Tiki Docks River Bar & Grill",
+    "Tiki Docks River Bar Grill"
   ],
   "location": {
-    "lat": 27.868160200000002,
-    "lng": -82.32608479999999,
+    "lat": 27.867967,
+    "lng": -82.325599,
     "precision": "rooftop"
   },
   "address": {
-    "street": "10708 Palmetto Street",
+    "street": "10704 Palmetto Street",
     "locality": "Riverview",
     "region": "Florida",
     "postalCode": "33569",
     "country": "US"
   },
-  "formattedAddress": "10708 Palmetto St, Riverview, FL 33569, USA",
+  "formattedAddress": "10704 Palmetto St, Riverview, FL 33569, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "tiki-docks-river-bar-grill",
@@ -111,7 +111,7 @@
   "rating": {
     "value": 4.5,
     "count": 7010,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
   "established": 2019,
@@ -124,19 +124,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -144,27 +144,27 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "location": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:35:53.528Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -177,7 +177,7 @@
       "sourceRef": "ChIJR_tdFxTRwogRk0Gf4WInsPc",
       "url": "https://maps.google.com/?cid=17847808628914864531&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
       "sourceId": "overture",
@@ -202,6 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }
