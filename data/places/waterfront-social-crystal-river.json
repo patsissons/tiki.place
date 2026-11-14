@@ -8,13 +8,13 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "1610 Southeast Paradise Circle",
+    "street": "1610 Southeast Paradise Circle West",
     "locality": "Crystal River",
     "region": "Florida",
     "postalCode": "34429",
     "country": "US"
   },
-  "formattedAddress": "1610 SE Paradise Cir, Crystal River, FL 34429, USA",
+  "formattedAddress": "1610 SE Paradise Cir W, Crystal River, FL 34429, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "3673a656-ef0d-4869-922b-5f6dab80f01a",
@@ -106,7 +106,7 @@
   "rating": {
     "value": 4.4,
     "count": 2053,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-14T16:38:04.344Z"
   },
   "priceLevel": "$$",
   "tikiConfidence": 0.763,
@@ -118,27 +118,27 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "location": {
       "sourceId": "google",
@@ -146,15 +146,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -167,7 +167,7 @@
       "sourceRef": "ChIJCbjLeXBB6IgRr6R5UKcT0Xk",
       "url": "https://maps.google.com/?cid=8777818758052422831&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
       "sourceId": "overture",
@@ -178,6 +178,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

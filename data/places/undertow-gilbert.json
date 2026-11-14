@@ -5,8 +5,8 @@
     "Undertow Gilbert"
   ],
   "location": {
-    "lat": 33.3220667,
-    "lng": -111.7238297,
+    "lat": 33.3222361,
+    "lng": -111.7240312,
     "precision": "rooftop"
   },
   "address": {
@@ -108,7 +108,7 @@
   "rating": {
     "value": 4.4,
     "count": 439,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-14T16:38:04.344Z"
   },
   "priceLevel": "$$",
   "established": 2022,
@@ -121,19 +121,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -141,27 +141,27 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "location": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:35:53.528Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-14T16:38:04.344Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -174,7 +174,7 @@
       "sourceRef": "ChIJT063Xv6tK4cR9aQWaWEkiP0",
       "url": "https://maps.google.com/?cid=18268891889221936373&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
       "sourceId": "tikirat",
@@ -185,6 +185,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:37:54.191Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }
