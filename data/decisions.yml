@@ -1122,3 +1122,14 @@
   into: frankies-tiki-room
   at: 2026-11-01T17:56:44.744Z
   by: owner
+- type: resolve
+  place: boca-tiki-island-lounge-boca-raton
+  google: ChIJAyfeq2jj2IgRBJifJZpWJlw
+  at: 2026-11-15T04:10:04.190Z
+  by: owner
+- type: pin
+  place: boca-tiki-island-lounge-boca-raton
+  field: name
+  value: Boca Tiki
+  at: 2026-11-15T04:10:05.349Z
+  by: owner
