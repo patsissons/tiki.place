@@ -1,7 +1,9 @@
 {
   "id": "revoluci-n",
   "name": "Revolucion",
-  "aliases": [],
+  "aliases": [
+    "The Tiki Bar At La Revelucion"
+  ],
   "location": {
     "lat": 39.752469399999995,
     "lng": -86.1387142,
@@ -18,7 +20,8 @@
   "timezone": "America/Indiana/Indianapolis",
   "externalIds": {
     "tikirat": "revoluci-n",
-    "google": "ChIJP6hDWX9aa4gRyhAO2R-Nv4A"
+    "google": "ChIJP6hDWX9aa4gRyhAO2R-Nv4A",
+    "overture": "71ba9dd2-945f-4861-932b-33f8e2479245"
   },
   "status": {
     "value": "open",
@@ -100,7 +103,7 @@
   },
   "priceLevel": "$$",
   "established": 2011,
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -165,6 +168,13 @@
       "lastSeenAt": "2026-11-01T16:50:03.603Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "71ba9dd2-945f-4861-932b-33f8e2479245",
+      "url": "https://explore.overturemaps.org/?feature=places.place.71ba9dd2-945f-4861-932b-33f8e2479245#17/39.752803802490234/-86.13883972167969",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "revoluci-n",
       "url": "https://tikirat.com/bars/revoluci-n",
@@ -180,6 +190,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-01T16:50:03.603Z",
+  "lastSyncedAt": "2026-11-16T03:14:27.747Z",
   "lastVerifiedAt": "2026-11-01T16:50:03.603Z"
 }
