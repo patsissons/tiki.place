@@ -96,7 +96,7 @@
   "rating": {
     "value": 4.5,
     "count": 338,
-    "at": "2026-11-03T17:53:51.213Z"
+    "at": "2026-11-17T19:13:01.376Z"
   },
   "priceLevel": "$$",
   "established": 2016,
@@ -109,19 +109,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -129,11 +129,11 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "location": {
       "sourceId": "tikirat",
@@ -141,15 +141,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-11-03T17:53:51.213Z"
+      "observedAt": "2026-11-17T19:13:01.376Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -162,7 +162,7 @@
       "sourceRef": "ChIJGSFcGwZflIARjX9LKCV4dFc",
       "url": "https://maps.google.com/?cid=6301793879583326093&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-11-03T17:53:51.213Z",
-      "lastSeenAt": "2026-11-03T17:53:51.213Z"
+      "lastSeenAt": "2026-11-17T19:13:01.376Z"
     },
     {
       "sourceId": "tikirat",
@@ -173,6 +173,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-03T17:53:51.213Z",
-  "lastVerifiedAt": "2026-11-03T17:53:51.213Z"
+  "lastSyncedAt": "2026-11-17T19:13:01.376Z",
+  "lastVerifiedAt": "2026-11-17T19:13:01.376Z"
 }

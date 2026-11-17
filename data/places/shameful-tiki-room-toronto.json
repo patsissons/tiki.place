@@ -21,7 +21,8 @@
   "externalIds": {
     "tikirat": "the-shameful-tiki-room-toronto",
     "google": "ChIJ4w0kTqw1K4gRU4-jmTtdxJI",
-    "overture": "f5920175-9c51-4ced-82d3-fa5f57e4b4b2"
+    "overture": "f5920175-9c51-4ced-82d3-fa5f57e4b4b2",
+    "osm": "node/14379174063"
   },
   "status": {
     "value": "open",
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2015,
-  "tikiConfidence": 0.93,
+  "tikiConfidence": 0.951,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -178,6 +179,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/14379174063",
+      "url": "https://www.openstreetmap.org/node/14379174063",
+      "firstSeenAt": "2026-11-17T19:13:01.376Z",
+      "lastSeenAt": "2026-11-17T19:13:01.376Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "f5920175-9c51-4ced-82d3-fa5f57e4b4b2",
       "url": "https://explore.overturemaps.org/?feature=places.place.f5920175-9c51-4ced-82d3-fa5f57e4b4b2#17/43.64630126953125/-79.40809631347656",
@@ -193,6 +201,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-17T19:13:01.376Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

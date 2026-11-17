@@ -21,7 +21,8 @@
   "externalIds": {
     "tikirat": "aku-aku-tiki-bar",
     "google": "ChIJXbsCPuN654gR4UT3qPPErPI",
-    "overture": "814fc587-c0ab-466d-ace7-7906fc7121b1"
+    "overture": "814fc587-c0ab-466d-ace7-7906fc7121b1",
+    "osm": "node/14379261001"
   },
   "status": {
     "value": "open",
@@ -123,7 +124,7 @@
   },
   "priceLevel": "$$",
   "established": 2015,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -188,6 +189,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/14379261001",
+      "url": "https://www.openstreetmap.org/node/14379261001",
+      "firstSeenAt": "2026-11-17T19:13:01.376Z",
+      "lastSeenAt": "2026-11-17T19:13:01.376Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "814fc587-c0ab-466d-ace7-7906fc7121b1",
       "url": "https://explore.overturemaps.org/?feature=places.place.814fc587-c0ab-466d-ace7-7906fc7121b1#17/28.54245948791504/-81.37157440185547",
@@ -210,6 +218,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-17T19:13:01.376Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }
