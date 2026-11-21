@@ -3,7 +3,7 @@ import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import type { GoogleClient, GooglePlace } from "../adapters/google";
 import type { PoliteFetch } from "../core/fetch";
-import { NOW, fixture, place, source, tempRoot } from "./helpers";
+import { NOW, fixture, obs, place, source, tempRoot } from "./helpers";
 
 let root: string;
 let store: typeof import("@/lib/data/store");
@@ -159,6 +159,30 @@ describe("runEngine", () => {
     await engine.runEngine({ now: new Date("2026-11-04T10:00:00Z"), log: quiet, offline: true, skipVerify: true });
     expect(store.readPlaces().some((p) => p.id === "kona-club")).toBe(false);
     expect(fs.existsSync(path.join(root, "data", "places", "kona-club.json"))).toBe(false);
+  });
+
+  it("creates a place from a name-only record only when the owner promotes it", async () => {
+    store.writeSource(source({ id: "osm", adapter: "osm-overpass", trust: 0.6, tikiSignal: 0.3, schedule: { discovery: "weekly" } }));
+    const hit = obs({ sourceId: "osm", sourceRef: "node/1", name: "Tiki Bar Athens", coords: { lat: 37.9669, lng: 23.729 }, coordsPrecision: "rooftop", address: { country: "GR" }, tags: ["tiki-name", "bar-category"] });
+    store.writeObservations("osm", [hit]);
+    const run = (day: number) => engine.runEngine({ now: new Date(`2026-11-0${day}T10:00:00Z`), log: quiet, offline: true, skipVerify: true });
+
+    await run(2);
+    expect(store.readPlaces()).toEqual([]);
+
+    store.appendDecision({ type: "create", key: "osm:node/1", at: "2026-11-02T12:00:00.000Z", by: "owner" });
+    const r = await run(3);
+    expect(r.code).toBe(0);
+    const [created, ...rest] = store.readPlaces();
+    expect(rest).toEqual([]);
+    expect(created).toMatchObject({ name: "Tiki Bar Athens", review: { state: "needs_review" } });
+    expect(created!.sources.map((s) => `${s.sourceId}:${s.sourceRef}`)).toEqual(["osm:node/1"]);
+
+    // replaying the decision does not create a second place
+    await run(4);
+    expect(store.readPlaces().map((p) => p.id)).toEqual([created!.id]);
+    const { validateData } = await import("../core/validate");
+    expect(validateData().problems).toEqual([]);
   });
 
   it("does not count places that were already closed as flipped by this run", async () => {

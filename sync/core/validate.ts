@@ -110,7 +110,7 @@ export function validateData(): { problems: Problem[]; places: Place[] } {
     const where = `${paths.decisions}#${i + 1}`;
     if ("place" in d && !known(d.place)) add(where, `${d.type} references unknown place "${d.place}"`);
     if (d.type === "merge" && (!known(d.from) || !known(d.into))) add(where, `merge references unknown place(s)`);
-    if (d.type === "link" && !d.key.includes(":")) add(where, `link key must be "sourceId:sourceRef"`);
+    if ((d.type === "link" || d.type === "create") && !d.key.includes(":")) add(where, `${d.type} key must be "sourceId:sourceRef"`);
   });
 
   // ---- redirects ----

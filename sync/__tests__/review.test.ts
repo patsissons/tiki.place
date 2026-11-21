@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
-import { place, tempRoot } from "./helpers";
+import { obs, place, source, tempRoot } from "./helpers";
 
 let root: string;
 let store: typeof import("@/lib/data/store");
@@ -63,6 +63,31 @@ describe("review batch", () => {
       { type: "merge", from: "drop", into: "dup" },
     ]);
     await expect(review.reviewCommand(["batch", mergedAway])).rejects.toThrow(/merged away/);
+    expect(store.readDecisions()).toEqual([]);
+  });
+});
+
+describe("review create", () => {
+  beforeEach(() => {
+    store.writeSource(source({ id: "osm", adapter: "osm-overpass", tikiSignal: 0.3 }));
+    store.writeObservations("osm", [
+      obs({ sourceId: "osm", sourceRef: "node/1", name: "Tiki Bar Athens", tags: ["tiki-name", "bar-category"] }),
+      obs({ sourceId: "osm", sourceRef: "node/2", name: "Kept Tiki", tags: ["tiki-name", "bar-category"] }),
+    ]);
+  });
+
+  it("promotes a stranded record into a queued place", async () => {
+    expect(await review.reviewCommand(["create", "osm:node/1"])).toBe(0);
+    expect(store.readDecisions().map((d) => d.type)).toEqual(["create"]);
+    const created = store.readPlaces().find((p) => p.sources.some((s) => s.sourceRef === "node/1"));
+    expect(created).toMatchObject({ name: "Tiki Bar Athens", review: { state: "needs_review" } });
+  });
+
+  it("refuses unknown sources, unknown records and records a place already holds", async () => {
+    await expect(review.reviewCommand(["create", "nope:node/1"])).rejects.toThrow(/unknown source/);
+    await expect(review.reviewCommand(["create", "osm:node/9"])).rejects.toThrow(/no observation/);
+    store.writePlace(place({ id: "kept", sources: [{ sourceId: "osm", sourceRef: "node/2", url: "https://example.com", firstSeenAt: "2026-11-01T10:00:00.000Z", lastSeenAt: "2026-11-01T10:00:00.000Z" }] }));
+    await expect(review.reviewCommand(["create", "osm:node/2"])).rejects.toThrow(/already belongs to kept/);
     expect(store.readDecisions()).toEqual([]);
   });
 });

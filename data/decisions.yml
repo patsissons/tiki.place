@@ -4088,3 +4088,44 @@
   reason: permanently closed
   at: 2026-11-21T22:06:23.484Z
   by: owner
+- type: create
+  key: osm:node/7270241987
+  at: 2026-11-21T22:26:10.152Z
+  by: owner
+- type: link
+  key: overture:760cbd8c-74af-4908-8d36-0995c6195255
+  place: tiki-bar-athens
+  at: 2026-11-21T22:26:47.757Z
+  by: owner
+- type: pin
+  place: tiki-bar-athens
+  field: contact.website
+  value: https://athenstikibar.com/
+  at: 2026-11-21T22:26:47.757Z
+  by: owner
+- type: pin
+  place: tiki-bar-athens
+  field: established
+  value: 2007
+  at: 2026-11-21T22:26:47.757Z
+  by: owner
+- type: pin
+  place: tiki-bar-athens
+  field: address
+  value:
+    street: Falirou 15
+    locality: Athens
+    postalCode: 117 42
+    country: GR
+  at: 2026-11-21T22:26:47.757Z
+  by: owner
+- type: resolve
+  place: tiki-bar-athens
+  google: ChIJ2c2YkxC9oRQRt8Es1q_1xSk
+  at: 2026-11-21T22:26:47.757Z
+  by: owner
+- type: approve
+  place: tiki-bar-athens
+  at: 2026-11-21T22:26:47.757Z
+  by: owner
+  note: menu has Mai Tai, Zombie, Painkiller, Piña Colada (athenstikibar.com)

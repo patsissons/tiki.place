@@ -13,6 +13,7 @@ const usage = `usage:
   pnpm review reject <slug> --reason text
   pnpm review merge <from-slug> --into <slug>
   pnpm review link <sourceId:sourceRef> --to <slug>
+  pnpm review create <sourceId:sourceRef>
   pnpm review pin <slug> <field> <json-value>
   pnpm review resolve <slug> --google <placeId>
   pnpm review batch <file.yml> [--by owner|skill]`;
@@ -106,6 +107,21 @@ export async function reviewCommand(argv: string[]): Promise<number> {
       if (!readSources().some((s) => s.id === sourceId)) throw new Error(`unknown source "${sourceId}"`);
       return apply({ type: "link", key, place: findPlace(values.to).id, at, by: "owner" });
     }
+    case "create": {
+      // Promote a source record that can't create a place on its own (a name-only OSM or Overture hit).
+      const key = rest[0];
+      if (!key || !key.includes(":")) throw new Error("create needs <sourceId:sourceRef>");
+      const sourceId = key.slice(0, key.indexOf(":"));
+      const sourceRef = key.slice(key.indexOf(":") + 1);
+      if (!readSources().some((s) => s.id === sourceId)) throw new Error(`unknown source "${sourceId}"`);
+      if (!readObservations(sourceId).some((o) => o.sourceRef === sourceRef)) throw new Error(`no observation "${key}"`);
+      const holder = readPlaces().find((p) => p.sources.some((s) => s.sourceId === sourceId && s.sourceRef === sourceRef));
+      if (holder) throw new Error(`"${key}" already belongs to ${holder.id}; use link to move it`);
+      const code = await apply({ type: "create", key, at, by: "owner" });
+      const created = readPlaces().find((p) => p.sources.some((s) => s.sourceId === sourceId && s.sourceRef === sourceRef));
+      console.log(created ? `created ${created.id}` : `⚠ no place holds ${key} after replay`);
+      return code;
+    }
     case "pin": {
       const [slug, field, raw] = rest;
       if (!slug || !field || raw === undefined) throw new Error(usage);
@@ -134,7 +150,7 @@ export async function reviewCommand(argv: string[]): Promise<number> {
       const merged = new Set(decisions.flatMap((d) => (d.type === "merge" ? [d.from] : [])));
       const decided = new Map<string, Decision["type"]>();
       for (const d of decisions) {
-        const slugs = d.type === "merge" ? [d.from, d.into] : [d.place];
+        const slugs = d.type === "merge" ? [d.from, d.into] : d.type === "create" ? [] : [d.place];
         for (const slug of slugs) if (!known.has(slug) && !(slug in redirects)) throw new Error(`batch: no place "${slug}"`);
         if (d.type === "merge" && merged.has(d.into)) throw new Error(`batch: "${d.into}" is merged away; merge into its target`);
         if (d.type !== "approve" && d.type !== "reject") continue;
