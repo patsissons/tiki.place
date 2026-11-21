@@ -2664,3 +2664,253 @@
   reason: not a bar
   at: 2026-11-21T18:27:27.488Z
   by: skill
+- type: reject
+  place: 10th-island-tiki-cincinnati
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: ao-hawaiian-hideout
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: apostle-supper-club-saint-paul
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: ark-royal-tiki-bar-raleigh
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: cardinal-tiki-bar-pocono-lake
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: carolyns-freaky-tiki-seffner
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: downtown-tiki-lounge-san-mateo
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: flip-flops-tiki-bar-and-grill-carol-stream
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: friki-tiki-new-york
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: fuchsia-tiki-bar-new-paltz
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: green-parrot-tiki-bar-and-grill-tampa
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: hawaika-tiki-lounge-palmira
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: high-roller-tiki-lounge
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: kahuna-tiki-north-hollywood
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: kalao-tiki-bar-xalapa
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: kapu-petaluma
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: kokonuts-tiki-bar-lido-beach-sarasota
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: kong-tiki-odense
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: longitude-oakland
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: mahiki
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: make-believe-new-york
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: mambo-zombi
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: mcgowans-oceanside-tiki-bar-and-restaurant-hollywood
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: merara-tiki-lounge-port-clinton
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: navy-strength
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: ohana-room-denver-tiki-bar-denver
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: pacific-seas-los-angeles
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: pau-hana-lounge-wood-dale
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: ponche-tiki-bar-annapolis
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: pupu-house-honolulu
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: rapa-nui-tiki-bar
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: sneaky-tiki-seattle
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: sorrow-drowner-wilmington
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: south-seas-oasis-charleston
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: suffering-bastard-sanford
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: super-power-brooklyn
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: surf-city-tiki-hut-gilbert
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: thecavern-tikibar-crespiatica
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: tiki-bar-trofaiach
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: tiki-loft-brantford
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: tiki-mana-big-bowl-noodles-aspen
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: tiki-rock
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: tilted-tiki-tropical-bar-restaurant
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: trader-nicks-south-shore-inn-cudahy
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: waiana-tiki-bar-zurich
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: waterworks
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: zibu
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: zombie-club-tiki-lounge-crown-point
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: zombie-house
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
+- type: reject
+  place: archipelago-washington
+  reason: permanently closed
+  at: 2026-11-21T18:43:46.346Z
+  by: owner
