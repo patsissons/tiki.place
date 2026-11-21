@@ -4083,3 +4083,8 @@
   value: https://www.weaselboybrewing.com/the-rum-rooom
   at: 2026-11-21T21:52:18.854Z
   by: owner
+- type: reject
+  place: honey-bee-villa-park
+  reason: permanently closed
+  at: 2026-11-21T22:06:23.484Z
+  by: owner

@@ -26,10 +26,10 @@
   },
   "tikiConfidence": 0.85,
   "review": {
-    "state": "approved",
+    "state": "rejected",
     "by": "owner",
-    "at": "2026-11-21T21:22:37.883Z",
-    "reason": "owner linked its Google Maps place"
+    "at": "2026-11-21T22:06:23.484Z",
+    "reason": "permanently closed"
   },
   "provenance": {
     "address": {
@@ -64,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-21T22:06:23.753Z"
 }
