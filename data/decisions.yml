@@ -1143,3 +1143,1524 @@
   into: revoluci-n
   at: 2026-11-16T03:14:27.509Z
   by: owner
+- type: reject
+  place: 3-monkeys-quan-binh-thanh
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: 3ten-lexington
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: alma-santera-melendugno
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: aloha-tiki-bar-vientiane
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: american-legion-tiki-bar-fairhope
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: american-legion-tiki-bar-jacksonville
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: arashi-beach-shack-aruba
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: aria-claros-plaj-menderes
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: aunties-nfk-norfolk
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: axismundi-huldenberg
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: baby-mango-bar-aguascalientes
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: back-road-tiki-bar-chesapeake
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bagno-bambu-comacchio
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bahama-jacks-berry-islands
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: bamboo-room-st-johns
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bar-le-totem-lurais
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bar-way-kiki-benalmadena
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: barge-okauchee
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: barrabouda-cergy-pontoise
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: barracuda-bordeaux
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: barracuda-le-mans
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bentley-tiki-bar-clinton
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: big-owl-grasonville
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bills-island-baby-tiki-bar-eastpoint
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bimini-bait-shack-fort-myers
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: blackeasy-bar-quan-hoan-kiem
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: blue-kahuna-newcastle
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bobbers-winslow
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: boca-tiki-island-lounge-boca-raton
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: boho-bar-akrata
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: bora-bora-calafell
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: boxcar-on-prospect-champaign
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: bramido-restaurant-bar-arandas
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: breakers-brooklyn
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: brunos-bar-hampton
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: burts-tiki-lounge-albuquerque
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cabana-breeze-new-territories
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cantiki-taco-deck-norwalk
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cantina-sol-north-fort-myers
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: capt-hooks-tiki-bar-fla-yulee
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cha-cha-cha-bar-club-quan-hoan-kiem
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: chases-oceanfront-dining-and-cocktails-new-smyrna-beach
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cherokee-beach-st-louis
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: chincotiki-caribbean-bar-and-grill-chincoteague
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: chuck-social-toronto
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: club-nasso-waterfront-resort-and-famous-tiki-bar-toms-river
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: coco-loco-guatape
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: coconut-bar-trois-rivieres
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: coconut-club-washington
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: coconut-falls-tiki-bar-and-grill-fort-myers
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: coconut-hut-celina
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: coconuts-north-wilkes-barre
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: coconuts-tiki-bar-lanoka-harbor
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: conch-pearl-key-largo
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cortez-kitchen-tiki-bar-bradenton
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: costa-cafe-bar-lugones
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: crab-island-cafe-fort-walton-beach
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: craigs-tiki-bar-shawnee
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: curayacu-tiki-bar-punta-hermosa
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: cv-kepez
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: daves-tiki-bar-and-lounge-leechburg
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: dawns-beach-hut-saint-charles
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: deck-at-dockside-york
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: deer-creek-sunrise-tiki-bar-and-topside-tavern-davenport
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: delirio-south-beach-miami-beach
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: denny-oneills-tiki-bar-schererville
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: dirty-bird-tiki-bar-chillicothe
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: dlish-at-the-beach-ewa-beach
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: doce-botellas-madrid
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: dockside-grille-new-port-richey
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: drunken-parrot-tiki-lounge-spring-grove
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: egan-tiki-bar-lowell
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: el-tuki-tuki-texcoco-de-mora
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: essex-st-tiki-bar-san-diego
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: eurobeach-tikibar-ugento
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: faya-chill-bar-and-food-ploemeur
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: fish-and-chicks-new-york
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: flip-flops-tiki-bar-kenvil
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: fongs-pizza-cedar-rapids
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: forbidden-reef-los-angeles
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: freaky-tiki-college-station
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: garagem-4-3-7-conselheiro-lafaiete
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: getaway-st-petersburg
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: graystone-lounge-tiki-bar-silverton
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: gringo-locos-cartagena
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: guayami-vice-compostela
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: hawaiian-room
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: hawaiki-bellaria-igea-marina
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: hi-tide-lounge-alexandria
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: hideout-warrington
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: hiekkasarkkain-lahde-kalajoki
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: hoa-tahiti-shore-tiki-bar-boac
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: hogs-and-hydrants-durand
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: in-fondo-al-bar-castel-volturno
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jacks-tiki-bar-jackson
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jamaica-joez-beach-bar-hilton-head-island
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jimmies-on-41-sarasota
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jimmy-three-fingers-micco
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: joes-kitchen-palm-harbor
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: john-js-tiki-bar-lincoln
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jungla-bari
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jungle-tiki-bar-gianyar
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: jungle-tikibar-sestu
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: kahikimataro
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kahula-hapai-bournemouth
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: kanakas-tiki-bar-webster
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kanaloa-houston
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kapm-ottignies-louvain-la-neuve
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: keeters-tiki-bar-sunrise
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: kiki-lounge-douglas
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kirmizi-cesme-kemalpasa
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kokomos-canberra
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kokonut-hut-bradenton-beach
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: kona-kai-tiki-lounge-wood-dale
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: la-hawaii-santa-pola
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: la-plage-beach-cafe-hoegaarden
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lamarlin-tiki-bar-rockledge
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: last-resort-tiki-bar-suttons-bay
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: laughter-hut-longboat-key
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lava-dodgers-stadium
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lbi-tiki-barge-barnegat-light
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: le-barhumetre-est-devenu-arhumatise-rennes
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: le-bikini-bottom-paris
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: le-manuia-le-chateau-doleron
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: le-tikkis-soumans
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: leaping-lizards-tiki-bar-carolina-beach
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: leos-oyster-bar-hideaway-lounge
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lido-beach-bar-sarasota
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: likuna-paris
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: liquid-chef-gastro-bar-oranjestad
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: liquid-ranch-temple-terrace
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: longboards-daytona-beachfront-daytona-beach
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: longboards-newport-news
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: longshot-saloon-portage-des-sioux
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lost-lake-chicago
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: lost-lei-austin
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lost-river-detroit
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lower-unit-bar-and-grill-manitowish-waters
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lowery-tiki-bar-panama-city
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: luau-cocktail-lounge-cordoba
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lulus-restaurant-york
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: lynns-hula-hut-montauk
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mahalo-antigua-guatemala
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: mahina-portsmouth
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: makai-restaurant-and-tiki-bar-roma
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: makitiki-new-york
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mangos-tropical-bar-and-grill-milwaukee
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mar-vista-grande-tiki-bar-north-myrtle-beach
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: marama-tiki-bar-salerno
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: margarita-breeze-crystal-river
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: marines-tiki-bar-and-spa-zephyrhills
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: marinos-hot-tub-tiki-bar-paramus
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: marker-8-dunedin
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: martells-tiki-bar-point-pleasant-beach-union-city
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: matiki-bar-wien
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: maui-restobar-puerto-baquerizo-moreno
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: maya-speaktiki-sarasota
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: medbar-co
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mikes-tiki-bar-mesquite
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mixturas-bistro-humahuaca
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mm-88-tiki-bar-islamorada
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: modernist-craft-cocktail-bar
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: mohana-foligno
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mojito-bay-put-in-bay
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mos-tiki-bar-bergen-op-zoom
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: moxies-la-crosse
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: mr-flamingo-puerto-vallarta
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: naked-tiki-miami-beach
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: nokomos-sunset-hut-nokomis
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: ocean-house-tiki-bar-dennis-port
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: oceana-tiki-bar-fort-lauderdale
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: oh-no-lulu-ciudad-de-buenos-aires
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: pacha-mama-by-fujanera-foggia
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: palapa-de-tony-zipolite-san-pedro-pochutla
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: palm-grill-beach-haven
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: palm-royale-melbourne
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: paradise-tiki-bar-and-grill-dania-beach
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: parador-wilson-rosario
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: phat-sammys-huntsville
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: pineapple-paradise-bahia-de-banderas
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: pineappleroom-lyon
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: pinkys-westside-grill
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: pirates-cove-hideaway-and-tiki-bar-supply
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: pirates-hideaway-eagle-river
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: point-sea-isle-city
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: point-wildwood
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: poly-pop-lake-jackson
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: port-a-beer-hut-port-aransas
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: port-light-on-bloor-toronto
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: quarterdeck-narooma
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: reds-rum-roost-cruz-bay
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: road-to-nowhere-houston
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rob-n-kriss-tiki-bar-niceville
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rock-a-hula-wurzburg
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rooftop-tiki-bar-windermere
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rox-kiki-bar-greding
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rum-river-bar-and-grill-port-richey
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rum-rok-sacramento
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rumba-tiki-bar
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rumfire-palm-harbor
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: russell-resort-tavern-and-tiki-bar-north-east
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: rusty-knot-new-york
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: s-m-knorhaar-utrecht
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: safari-beach-company-galveston
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: sauvage-winter-haven
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: scallywaggs-bondi-sydney
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: serendipity-north-carolina-fuquay-varina
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: shaka-bar-gulf-breeze
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: shake-shaka-graz
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: shipwrecked-paradise-island-sacramento
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: sin-city-marmaraereglisi
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: smugglers-cove-tiki-bar-and-restaurant-punta-gorda
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: soggy-dollar-ottawa
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: south-beach-tiki-bar-miami-beach
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: splash-bar-neath
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: spot-at-oakdale-yacht-club-oakdale
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: square-grouper-tiki-bar-fort-pierce
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: stowaway-conroe
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: stych-ingersheim
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: swami-ocean-lounge-la-oliva
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: swizzle-dallas
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tahoe-tiki-bar-south-lake-tahoe
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: thermes-tiki-bar-resort-homestead
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: thirsty-parrot-lake-geneva
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: ti-cabana-castillon-la-bataille
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tikeasy-at-rosetta-livermore
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-at-the-tavern
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-1491-richmond
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-and-bistro-roeselare
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-and-restaurant-aruba
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-black-jack
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-cape-canaveral
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-cocoa-beach
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-compass-cove-myrtle-beach
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-daytona-beach
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tiki-bar-elkhart-lake
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-fort-lauderdale-beach-resort-hotel-ft-lauderdale
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-fort-lauderdale
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-glen-burnie
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-gretna
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-hamilton
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-harrison
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-hartland
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-huldenberg
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-indian-head
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-isla-mujeres
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tiki-bar-islamorada
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-izalco
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-key-west
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tiki-bar-motherwell
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-naples
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-north-myrtle-beach
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-rye
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-south-willis
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-titusville
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-waterford
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-bar-westbay-limited-bridport
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tiki-bungalow-beijing
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-cantina-and-fusion-restaurant-bonita-springs
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-iniki-atlanta
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tiki-mug-tiki-bar-and-tropikal-food-cancun
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-pub-quan-ngo-quyen
+  reason: can't find it
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-tiki
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-time-dauphin-island
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki-tolteca-new-orleans
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tiki
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tikicat-kansas-city
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tikis-tokyo
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: approve
+  place: tikisonicobar-miusic-club-valencia
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tikitaly-livorno
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tipsy-seagull-fall-river
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tipsy-tarpon-crystal-river
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tipsy-tiki-fmb-fort-myers-beach
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: todo-bien-las-vegas
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tradavi-tiki-bar-and-cocktail-lounge-palompon
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: traders-tiki-bar-arena
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tropical-spot-tiki-bar-and-grill-grant
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tropicalitros-san-andres-cholula
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tryangles-louisville
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tucanos-sydney
+  reason: own drink list falls short of the 3-drink rule
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: tupe-aloha-gold-coast
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: voodoo-shanty-bournemouth
+  reason: not a bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: waikiki-kitchen-bahrain
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: waterfront-social-crystal-river
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: waters-edge-at-royal-anchor-old-orchard-beach
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: wheelers-tropikana-singapore
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: wheelhouse-rock-hall
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: wiki-bar-davis
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: wood-ridge-farm-tiki-bar-lovingston
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: ya-pot-nantes
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: zona-512-club-urcuqui
+  reason: not a tiki bar
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: zona-cero-mallorca-palma
+  reason: permanently closed
+  at: 2026-11-21T18:27:26.243Z
+  by: owner
+- type: reject
+  place: fnk-ranch-ottawa
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: gypsybar-at-ocean-beach-iii-lavallette
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: litos-tiki-bar-pacifica
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: meiers-tiki-bar-and-resort-washington-twp
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: mud-meadow-tiki-bar-wells
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: nance-tiki-bar-gone-coastal-cedar-point
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: pelican-point-lino-lakes
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: raymonds-tiki-bar-prince-edward
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: red-dock-west-whiskey-and-tiki-bar-crestwood
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: relax-tiki-bar-sarasota
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: rulli-manor-laurel-springs
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: sailor-rays-tiki-bar-thornville
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: schultzs-tiki-bar-fond-du-lac
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: seaside-sammys-benton
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: thunder-island-garage-bar-appleton
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: tiki-bar-and-the-bucket-east-hampton
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: tiki-bar-linni-gorinchem
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: tiki-bar-sharpsburg
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: tiki-hut-convention-center-bellbrook
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: toeppes-last-resort-monroe
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill
+- type: reject
+  place: torquaytikiclub-torquay
+  reason: not a bar
+  at: 2026-11-21T18:27:27.488Z
+  by: skill

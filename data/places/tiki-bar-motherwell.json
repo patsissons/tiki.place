@@ -34,9 +34,9 @@
   },
   "tikiConfidence": 0.878,
   "review": {
-    "state": "auto_approved",
-    "by": "auto",
-    "at": "2026-11-21T18:26:53.842Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -88,5 +88,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
 }
