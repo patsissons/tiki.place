@@ -2,33 +2,55 @@
   "id": "emerald-lounge-richmond",
   "name": "The Emerald Lounge",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 37.5352852,
+    "lng": -77.4160812,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Richmond",
     "region": "Virginia",
     "country": "US"
   },
-  "externalIds": {},
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJCcN5PXcRsYkRQt6DxmItt4A"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://www.emeraldloungerva.com/"
+  },
   "tikiConfidence": 0.85,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -42,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
 }

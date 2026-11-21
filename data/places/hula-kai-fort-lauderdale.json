@@ -1,34 +1,58 @@
 {
   "id": "hula-kai-fort-lauderdale",
-  "name": "Hula Kai",
-  "aliases": [],
-  "location": null,
+  "name": "Hula Kai Tiki Bar + Lounge",
+  "aliases": [
+    "Hula Kai"
+  ],
+  "location": {
+    "lat": 26.1011645,
+    "lng": -80.1320198,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Fort Lauderdale",
     "region": "Florida",
     "country": "US"
   },
-  "externalIds": {},
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJ27MdRYkB2YgR13GYxihncoo"
+  },
   "status": {
     "value": "coming_soon",
     "sourceId": "tikiwanderlust",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "http://www.hulakaitikibar.com/"
+  },
   "tikiConfidence": 0.895,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -42,5 +66,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
 }

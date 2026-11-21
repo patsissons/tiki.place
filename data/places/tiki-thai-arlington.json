@@ -2,33 +2,55 @@
   "id": "tiki-thai-arlington",
   "name": "Tiki Thai",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 38.8564718,
+    "lng": -77.0496024,
+    "precision": "rooftop"
+  },
   "address": {
+    "street": "244 19th Ct S, Suites #10 & 15",
     "locality": "Arlington",
     "region": "Virginia",
+    "postalCode": "22202",
     "country": "US"
   },
+  "timezone": "America/New_York",
   "externalIds": {},
   "status": {
     "value": "coming_soon",
     "sourceId": "tikiwanderlust",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://tikithai.com/tiki-new-location/"
+  },
   "tikiConfidence": 0.895,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     }
   },
   "sources": [
@@ -42,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
 }

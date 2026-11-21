@@ -110,9 +110,10 @@
   },
   "tikiConfidence": 0.763,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-10-30T22:01:31.133Z",
+    "reason": "water-park, ballpark or resort pool bar"
   },
   "provenance": {
     "address": {
@@ -173,6 +174,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

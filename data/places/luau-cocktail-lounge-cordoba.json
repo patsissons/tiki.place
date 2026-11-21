@@ -1,6 +1,6 @@
 {
   "id": "luau-cocktail-lounge-cordoba",
-  "name": "Luau cocktail lounge",
+  "name": "Luau Cocktail Lounge",
   "aliases": [],
   "location": {
     "lat": 37.8785439,
@@ -13,7 +13,8 @@
   },
   "timezone": "Europe/Madrid",
   "externalIds": {
-    "overture": "7c3e6e90-0854-443f-88f9-1eb1e5c9ab51"
+    "overture": "7c3e6e90-0854-443f-88f9-1eb1e5c9ab51",
+    "google": "ChIJ40o3gYbfbA0RNRxSsS0mRbo"
   },
   "status": {
     "value": "unverified",
@@ -23,9 +24,9 @@
   "contact": {},
   "tikiConfidence": 0.825,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -37,8 +38,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -54,18 +55,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJ40o3gYbfbA0RNRxSsS0mRbo",
-        "name": "Luau Cocktail Lounge",
-        "distanceM": 2669,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

@@ -2,33 +2,55 @@
   "id": "trader-vics-outpost-oakland",
   "name": "Trader Vic’s Outpost",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 37.7112871,
+    "lng": -122.2121568,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Oakland",
     "region": "California",
     "country": "US"
   },
-  "externalIds": {},
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJu3nGPACFj4ARNN2kp6rhpMg"
+  },
   "status": {
     "value": "coming_soon",
     "sourceId": "tikiwanderlust",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://tradervics.com/pages/trader-vics-outpost"
+  },
   "tikiConfidence": 0.895,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -42,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
 }

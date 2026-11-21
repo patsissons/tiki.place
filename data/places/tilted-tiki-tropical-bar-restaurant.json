@@ -41,9 +41,10 @@
   "established": 2016,
   "tikiConfidence": 0.9,
   "review": {
-    "state": "auto_approved",
-    "by": "auto",
-    "at": "2026-10-26T04:35:53.528Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-21T18:43:46.346Z",
+    "reason": "permanently closed"
   },
   "provenance": {
     "address": {
@@ -108,6 +109,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

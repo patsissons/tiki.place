@@ -1,7 +1,9 @@
 {
   "id": "point-wildwood",
-  "name": "The Point",
-  "aliases": [],
+  "name": "The Point - Wildwood",
+  "aliases": [
+    "The Point"
+  ],
   "location": {
     "lat": 38.986393,
     "lng": -74.8132935,
@@ -14,7 +16,8 @@
   },
   "timezone": "America/New_York",
   "externalIds": {
-    "overture": "a80428ae-9b11-4d61-830a-566a98d6ead5"
+    "overture": "a80428ae-9b11-4d61-830a-566a98d6ead5",
+    "google": "ChIJ11uBWQCpwIkR5ScBBIJoLlU"
   },
   "status": {
     "value": "unverified",
@@ -26,9 +29,9 @@
   },
   "tikiConfidence": 0.75,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -44,8 +47,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,18 +64,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJG_6v6IKpwIkR0ichQ4aHcdU",
-        "name": "Pier Point",
-        "distanceM": 327,
-        "nameSim": 0.667
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

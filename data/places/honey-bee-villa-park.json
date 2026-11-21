@@ -2,33 +2,55 @@
   "id": "honey-bee-villa-park",
   "name": "The Honey Bee",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 41.8829794,
+    "lng": -87.9796065,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Villa Park",
     "region": "Illinois",
     "country": "US"
   },
-  "externalIds": {},
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "google": "ChIJlVzgv2xNDogRcIK_ee_SwbI"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "http://www.thehoneybeetiki.com/"
+  },
   "tikiConfidence": 0.85,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-21T22:06:23.484Z",
+    "reason": "permanently closed"
   },
   "provenance": {
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -42,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T22:06:23.753Z"
 }

@@ -1,34 +1,58 @@
 {
   "id": "trader-vics-island-bar-and-grill-kona",
-  "name": "Trader Vic’s Island Bar and Grill",
-  "aliases": [],
-  "location": null,
+  "name": "Island Bar & Grill by Trader Vic’s",
+  "aliases": [
+    "Trader Vic’s Island Bar and Grill"
+  ],
+  "location": {
+    "lat": 19.6380879,
+    "lng": -155.992641,
+    "precision": "rooftop"
+  },
   "address": {
-    "locality": "Kona",
+    "street": "75-5739 Ali‘i Dr",
+    "locality": "Kailua-Kona",
     "region": "Hawaii",
+    "postalCode": "96740",
     "country": "US"
   },
+  "timezone": "Pacific/Honolulu",
   "externalIds": {},
   "status": {
     "value": "coming_soon",
     "sourceId": "tikiwanderlust",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://tradervicskona.com/"
+  },
   "tikiConfidence": 0.895,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     }
   },
   "sources": [
@@ -42,5 +66,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
 }

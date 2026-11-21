@@ -1,7 +1,9 @@
 {
   "id": "tiki-tiki-lounge",
   "name": "The Tiki Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Tiki Tiki Lounge @ Poki Poki"
+  ],
   "location": {
     "lat": 35.1232941,
     "lng": -106.5513077,
@@ -17,7 +19,8 @@
   "formattedAddress": "3517 Wyoming Blvd NE, Albuquerque NM 87111, USA",
   "timezone": "America/Denver",
   "externalIds": {
-    "tikirat": "the-tiki-tiki-lounge"
+    "tikirat": "the-tiki-tiki-lounge",
+    "google": "ChIJ--vUPU91IocRPMVnJs2eIpA"
   },
   "status": {
     "value": "unverified",
@@ -28,11 +31,11 @@
     "phone": "505-503-6806"
   },
   "established": 2021,
-  "tikiConfidence": 0.895,
+  "tikiConfidence": 0.984,
   "review": {
-    "state": "needs_review",
+    "state": "auto_approved",
     "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "at": "2026-11-21T18:26:53.842Z"
   },
   "provenance": {
     "address": {
@@ -56,8 +59,8 @@
       "observedAt": "2026-10-30T20:32:41.957Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:32:41.957Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:19:59.821Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,32 +74,15 @@
       "url": "https://tikirat.com/bars/the-tiki-tiki-lounge",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:32:41.957Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-tiki-lounge-poki-poki-albuquerque",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-02T20:24:28.556Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJN2RP8Z8MIocRmJ5MI9SE7KE",
-        "name": "The Copper Lounge",
-        "distanceM": 8532,
-        "nameSim": 0.5
-      },
-      {
-        "googleId": "ChIJ--vUPU91IocRPMVnJs2eIpA",
-        "name": "Poki Poki",
-        "distanceM": 0,
-        "nameSim": 0.143
-      },
-      {
-        "googleId": "ChIJK11WJhsLIocRHL1DevzzFtk",
-        "name": "Happy Accidents",
-        "distanceM": 7049,
-        "nameSim": 0
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
+  "lastSyncedAt": "2026-11-21T21:20:00.098Z"
 }

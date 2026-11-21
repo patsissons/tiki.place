@@ -2,33 +2,55 @@
   "id": "morgans-cove-tampa",
   "name": "Morgan’s Cove",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 27.9475445,
+    "lng": -82.4551713,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Tampa",
     "region": "Florida",
     "country": "US"
   },
-  "externalIds": {},
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJRxXOTQDFwogRwF74OMPdvhg"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://morganscovetampa.com/"
+  },
   "tikiConfidence": 0.85,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -42,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
 }

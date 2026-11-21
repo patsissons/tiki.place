@@ -1,7 +1,9 @@
 {
   "id": "boca-tiki-island-lounge-boca-raton",
-  "name": "Boca Tiki Island Lounge",
-  "aliases": [],
+  "name": "Boca Tiki",
+  "aliases": [
+    "Boca Tiki Island Lounge"
+  ],
   "location": {
     "lat": 26.3479614,
     "lng": -80.0861969,
@@ -14,7 +16,8 @@
   },
   "timezone": "America/New_York",
   "externalIds": {
-    "overture": "ff8c6bc9-1518-4204-89d6-61997319e836"
+    "overture": "ff8c6bc9-1518-4204-89d6-61997319e836",
+    "google": "ChIJAyfeq2jj2IgRBJifJZpWJlw"
   },
   "status": {
     "value": "unverified",
@@ -24,9 +27,9 @@
   "contact": {},
   "tikiConfidence": 0.825,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -38,8 +41,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-15T04:10:05.349Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -55,18 +58,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJAyfeq2jj2IgRBJifJZpWJlw",
-        "name": "BOCA TIKI",
-        "distanceM": 1,
-        "nameSim": 0.667
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "trader-sams-grog-grotto",
   "name": "Trader Sam's Grog Grotto",
-  "aliases": [],
+  "aliases": [
+    "Trader Sam's Tiki Terrace"
+  ],
   "location": {
     "lat": 28.405902,
     "lng": -81.585431,
@@ -19,7 +21,8 @@
   "externalIds": {
     "tikirat": "trader-sam-s-grog-grotto",
     "google": "ChIJt7pYPhl-3YgRXRK2RDtkWPE",
-    "overture": "a13b6027-dca0-44d9-8278-90a87cd9288c"
+    "overture": "a13b6027-dca0-44d9-8278-90a87cd9288c",
+    "osm": "node/14339739137"
   },
   "status": {
     "value": "open",
@@ -111,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2015,
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -176,9 +179,23 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/14339739137",
+      "url": "https://www.openstreetmap.org/node/14339739137",
+      "firstSeenAt": "2026-11-02T20:24:28.556Z",
+      "lastSeenAt": "2026-11-02T20:24:28.556Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "a13b6027-dca0-44d9-8278-90a87cd9288c",
       "url": "https://explore.overturemaps.org/?feature=places.place.a13b6027-dca0-44d9-8278-90a87cd9288c#17/28.405874252319336/-81.58543395996094",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ae4ba521-3dfb-4a7e-8051-c5bc57b0e2a2",
+      "url": "https://explore.overturemaps.org/?feature=places.place.ae4ba521-3dfb-4a7e-8051-c5bc57b0e2a2#17/28.406024932861328/-81.58540344238281",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
@@ -188,9 +205,16 @@
       "url": "https://tikirat.com/bars/trader-sam-s-grog-grotto",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:35:27.182Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "trader-sams-grog-grotto-walt-disney-world",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

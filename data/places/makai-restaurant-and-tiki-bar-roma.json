@@ -14,7 +14,8 @@
   },
   "timezone": "Europe/Rome",
   "externalIds": {
-    "overture": "56da82d1-5dbe-4d13-90eb-6f1879587a8d"
+    "overture": "56da82d1-5dbe-4d13-90eb-6f1879587a8d",
+    "google": "ChIJ0Vl2yStgLxMRxsJb0Hke45E"
   },
   "status": {
     "value": "unverified",
@@ -26,9 +27,9 @@
   },
   "tikiConfidence": 0.825,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -44,8 +45,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:19:59.821Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,18 +62,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJ0Vl2yStgLxMRxsJb0Hke45E",
-        "name": "Makai Grand Line",
-        "distanceM": 8,
-        "nameSim": 0.5
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T21:20:00.098Z"
 }

@@ -13,7 +13,8 @@
   },
   "timezone": "Europe/Isle_of_Man",
   "externalIds": {
-    "overture": "67457b1d-c18c-4b06-9e78-d9c62e64a895"
+    "overture": "67457b1d-c18c-4b06-9e78-d9c62e64a895",
+    "google": "ChIJt5e54G6FY0gRLyqDyJiDuZQ"
   },
   "status": {
     "value": "unverified",
@@ -25,9 +26,9 @@
   },
   "tikiConfidence": 0.75,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -60,18 +61,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJt5e54G6FY0gRLyqDyJiDuZQ",
-        "name": "Kiki Lounge",
-        "distanceM": 537,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

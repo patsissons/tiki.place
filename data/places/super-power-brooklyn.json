@@ -38,9 +38,10 @@
   "priceLevel": "$",
   "tikiConfidence": 0.763,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-21T18:43:46.346Z",
+    "reason": "permanently closed"
   },
   "provenance": {
     "address": {
@@ -101,6 +102,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

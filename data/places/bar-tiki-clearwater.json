@@ -2,36 +2,66 @@
   "id": "bar-tiki-clearwater",
   "name": "Bar Tiki",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 27.9767778,
+    "lng": -82.8263582,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Clearwater",
     "region": "Florida",
     "country": "US"
   },
-  "externalIds": {},
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJWTEwAD33wogRatwjsCmC1Bg",
+    "osm": "node/10759526058"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.895,
+  "contact": {
+    "website": "http://www.bartiki.com/"
+  },
+  "tikiConfidence": 0.927,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-30T20:39:09.190Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:22:37.883Z",
+    "reason": "owner linked its Google Maps place"
   },
   "provenance": {
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/10759526058",
+      "url": "https://www.openstreetmap.org/node/10759526058",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "bar-tiki-clearwater",
@@ -40,7 +70,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "syncPolicy": "manual",
-  "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
 }

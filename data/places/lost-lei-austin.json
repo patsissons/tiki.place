@@ -1,7 +1,9 @@
 {
   "id": "lost-lei-austin",
-  "name": "The Lost Lei",
-  "aliases": [],
+  "name": "Hen House",
+  "aliases": [
+    "The Lost Lei"
+  ],
   "location": {
     "lat": 30.2663116,
     "lng": -97.7445984,
@@ -14,7 +16,8 @@
   },
   "timezone": "America/Chicago",
   "externalIds": {
-    "overture": "aea5f9e2-bdf8-4901-b5fe-6a524e74d99b"
+    "overture": "aea5f9e2-bdf8-4901-b5fe-6a524e74d99b",
+    "google": "ChIJq018atG1RIYRGHTlklSwB08"
   },
   "status": {
     "value": "unverified",
@@ -26,9 +29,9 @@
   },
   "tikiConfidence": 0.75,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T18:27:26.243Z"
   },
   "provenance": {
     "address": {
@@ -44,8 +47,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-01T17:27:50.485Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,18 +64,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJq018atG1RIYRGHTlklSwB08",
-        "name": "Hen House",
-        "distanceM": 10,
-        "nameSim": 0
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
 }

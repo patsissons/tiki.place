@@ -1,7 +1,9 @@
 {
   "id": "capt-js-hurricane-tilburg",
-  "name": "Capt. J's Hurricane",
-  "aliases": [],
+  "name": "Capt. J's Hurricane Caribbeanclub & Tikiroom",
+  "aliases": [
+    "Capt. J's Hurricane"
+  ],
   "location": {
     "lat": 51.5551033,
     "lng": 5.0887351,
@@ -13,7 +15,8 @@
   },
   "timezone": "Europe/Amsterdam",
   "externalIds": {
-    "overture": "ab7a387d-3157-4356-a589-bb468469cbc6"
+    "overture": "ab7a387d-3157-4356-a589-bb468469cbc6",
+    "google": "ChIJhVGuiay_xkcRNniHq4IXsiE"
   },
   "status": {
     "value": "unverified",
@@ -25,9 +28,10 @@
   },
   "tikiConfidence": 0.75,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-10-30T22:01:31.133Z",
+    "reason": "own menu meets the 3-drink rule"
   },
   "provenance": {
     "address": {
@@ -43,8 +47,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,18 +64,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJhVGuiay_xkcRNniHq4IXsiE",
-        "name": "Capt. J's Hurricane Caribbeanclub & Tikiroom",
-        "distanceM": 11,
-        "nameSim": 0.75
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:35:53.528Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

@@ -1,7 +1,9 @@
 /** Owner triage. Every subcommand records a decision and replays the engine offline. */
+import fs from "node:fs";
 import { parseArgs } from "node:util";
-import { appendDecision, readObservations, readPlaces, readRedirects, readSources } from "@/lib/data/store";
-import type { Decision, Place } from "@/lib/schema";
+import YAML from "yaml";
+import { appendDecision, readDecisions, readObservations, readPlaces, readRedirects, readSources, writeDecisions } from "@/lib/data/store";
+import { DecisionSchema, type Decision, type Place } from "@/lib/schema";
 import { runEngine } from "./core/engine";
 
 const usage = `usage:
@@ -12,7 +14,8 @@ const usage = `usage:
   pnpm review merge <from-slug> --into <slug>
   pnpm review link <sourceId:sourceRef> --to <slug>
   pnpm review pin <slug> <field> <json-value>
-  pnpm review resolve <slug> --google <placeId>`;
+  pnpm review resolve <slug> --google <placeId>
+  pnpm review batch <file.yml> [--by owner|skill]`;
 
 async function apply(decision: Decision) {
   appendDecision(decision);
@@ -118,6 +121,30 @@ export async function reviewCommand(argv: string[]): Promise<number> {
       const { positionals, values } = parseArgs({ args: rest, options: { google: { type: "string" } }, allowPositionals: true });
       if (!values.google) throw new Error("resolve needs --google <placeId>");
       return apply({ type: "resolve", place: findPlace(positionals[0] ?? "").id, google: values.google, at, by: "owner" });
+    }
+    case "batch": {
+      // Many decisions, one replay. Nothing is recorded unless every entry is valid.
+      const { positionals, values } = parseArgs({ args: rest, options: { by: { type: "string", default: "skill" } }, allowPositionals: true });
+      const file = positionals[0];
+      if (!file) throw new Error(usage);
+      const entries = YAML.parse(fs.readFileSync(file, "utf8")) as Record<string, unknown>[];
+      const decisions = entries.map((entry) => DecisionSchema.parse({ at, by: values.by, ...entry }));
+      const redirects = readRedirects();
+      const known = new Set(readPlaces().map((p) => p.id));
+      const merged = new Set(decisions.flatMap((d) => (d.type === "merge" ? [d.from] : [])));
+      const decided = new Map<string, Decision["type"]>();
+      for (const d of decisions) {
+        const slugs = d.type === "merge" ? [d.from, d.into] : [d.place];
+        for (const slug of slugs) if (!known.has(slug) && !(slug in redirects)) throw new Error(`batch: no place "${slug}"`);
+        if (d.type === "merge" && merged.has(d.into)) throw new Error(`batch: "${d.into}" is merged away; merge into its target`);
+        if (d.type !== "approve" && d.type !== "reject") continue;
+        if (decided.has(d.place)) throw new Error(`batch: "${d.place}" is decided twice`);
+        decided.set(d.place, d.type);
+      }
+      writeDecisions([...readDecisions(), ...decisions]);
+      const result = await runEngine({ offline: true, skipVerify: true, force: true, log: { info: () => {}, warn: (m) => console.warn(`⚠ ${m}`) } });
+      console.log(`recorded ${decisions.length} decision(s); ${result.summary.placesUpdated} place(s) updated, ${result.summary.needsReview} still need review`);
+      return result.code;
     }
     default:
       console.error(usage);

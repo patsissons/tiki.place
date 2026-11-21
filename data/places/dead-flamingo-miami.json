@@ -1,7 +1,9 @@
 {
   "id": "dead-flamingo-miami",
   "name": "The Dead Flamingo",
-  "aliases": [],
+  "aliases": [
+    "Casa Tiki"
+  ],
   "location": {
     "lat": 25.765383,
     "lng": -80.22317919999999,
@@ -119,11 +121,12 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.763,
+  "tikiConfidence": 0.975,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T21:19:59.821Z",
+    "reason": "has a tiki menu; Casa Tiki is its tiki program"
   },
   "provenance": {
     "address": {
@@ -185,9 +188,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.bb05f26b-e55d-402b-a8a3-d9c20e959d90#17/25.765466690063477/-80.2231674194336",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "casa-tiki-miami",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T21:20:00.098Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

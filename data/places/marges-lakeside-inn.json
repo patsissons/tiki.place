@@ -1,7 +1,9 @@
 {
   "id": "marges-lakeside-inn",
-  "name": "Marge’s Lakeside Inn",
-  "aliases": [],
+  "name": "Marge's Lakeside Inn in Lake Ontario",
+  "aliases": [
+    "Marge’s Lakeside Inn"
+  ],
   "location": {
     "lat": 43.2349454,
     "lng": -77.53767069999999,
@@ -17,7 +19,8 @@
   "formattedAddress": "4909 Culver Rd, Rochester NY 14622, USA",
   "timezone": "America/New_York",
   "externalIds": {
-    "tikirat": "marge-s-lakeside-inn"
+    "tikirat": "marge-s-lakeside-inn",
+    "google": "ChIJc1KamEfI1okRpUTaSgR9LgE"
   },
   "status": {
     "value": "unverified",
@@ -31,9 +34,10 @@
   "established": 1960,
   "tikiConfidence": 0.85,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-10-30T22:01:31.133Z",
+    "reason": "Tiki Rat lists it as tiki"
   },
   "provenance": {
     "address": {
@@ -61,8 +65,8 @@
       "observedAt": "2026-10-30T20:27:11.803Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:11.803Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -78,18 +82,6 @@
       "lastSeenAt": "2026-10-30T20:27:11.803Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-03T17:53:51.213Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJc1KamEfI1okRpUTaSgR9LgE",
-        "name": "Marge's Lakeside Inn in Lake Ontario",
-        "distanceM": 3,
-        "nameSim": 0.789
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-03T17:53:51.213Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

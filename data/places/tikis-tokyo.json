@@ -30,9 +30,10 @@
   "established": 2025,
   "tikiConfidence": 0.895,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-10-26T04:28:59.067Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-21T21:08:52.739Z",
+    "reason": "tiki-adjacent with no dedicated tiki room or menu"
   },
   "provenance": {
     "address": {
@@ -90,5 +91,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-02T20:24:28.556Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

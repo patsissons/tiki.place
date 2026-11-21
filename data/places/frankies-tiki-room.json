@@ -1,7 +1,9 @@
 {
   "id": "frankies-tiki-room",
   "name": "Frankie's Tiki Room",
-  "aliases": [],
+  "aliases": [
+    "Tiki Bar Lakay"
+  ],
   "location": {
     "lat": 36.1591391,
     "lng": -115.16464380000001,
@@ -137,6 +139,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "b0893c08-e034-46b1-80e0-324178d3ac6c",
+      "url": "https://explore.overturemaps.org/?feature=places.place.b0893c08-e034-46b1-80e0-324178d3ac6c#17/36.1115837097168/-115.27436065673828",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "frankie-s-tiki-room",
       "url": "https://tikirat.com/bars/frankie-s-tiki-room",
@@ -152,6 +161,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

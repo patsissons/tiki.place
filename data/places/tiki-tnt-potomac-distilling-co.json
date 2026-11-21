@@ -2,6 +2,7 @@
   "id": "tiki-tnt-potomac-distilling-co",
   "name": "Tiki TNT & Potomac Distilling Company",
   "aliases": [
+    "Tiki TNT",
     "Tiki TNT & Potomac Distilling Co.",
     "Tiki Tnt Potomac Distilling Co"
   ],
@@ -21,7 +22,9 @@
   "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "tiki-tnt-potomac-distilling-co",
-    "google": "ChIJo32ojVW3t4kRQsVu54T4Y4c"
+    "google": "ChIJo32ojVW3t4kRQsVu54T4Y4c",
+    "overture": "c1b475cd-f768-48cb-b786-751415c12d50",
+    "osm": "node/8691887336"
   },
   "status": {
     "value": "open",
@@ -113,7 +116,7 @@
   },
   "priceLevel": "$$",
   "established": 2018,
-  "tikiConfidence": 0.9,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -178,14 +181,35 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/8691887336",
+      "url": "https://www.openstreetmap.org/node/8691887336",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c1b475cd-f768-48cb-b786-751415c12d50",
+      "url": "https://explore.overturemaps.org/?feature=places.place.c1b475cd-f768-48cb-b786-751415c12d50#17/38.88105010986328/-77.0274887084961",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "tiki-tnt-potomac-distilling-co",
       "url": "https://tikirat.com/bars/tiki-tnt-potomac-distilling-co",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:34:33.002Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-tnt-district-of-columbia",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }
