@@ -13,6 +13,8 @@ export const DecisionSchema = z.discriminatedUnion("type", [
   z.strictObject({ type: z.literal("reject"), place: SlugSchema, reason: z.string().min(1), ...base }),
   /** Force a source record (key = "sourceId:sourceRef") to resolve to a given place. */
   z.strictObject({ type: z.literal("link"), key: z.string().min(3), place: SlugSchema, ...base }),
+  /** Promote a source record (key = "sourceId:sourceRef") that can't create a place on its own, such as a name-only hit. */
+  z.strictObject({ type: z.literal("create"), key: z.string().min(3), ...base }),
   /** Merge `from` into `into`; `from` becomes a redirect. */
   z.strictObject({ type: z.literal("merge"), from: SlugSchema, into: SlugSchema, ...base }),
   /** Pin a field to a value regardless of what sources say. */

@@ -40,10 +40,13 @@ pnpm review approve <slug>
 pnpm review reject <slug> --reason "not a bar"
 pnpm review merge <dup-slug> --into <slug>
 pnpm review link <sourceId:ref> --to <slug>     # force a source record onto a place
+pnpm review create <sourceId:ref>               # promote a stranded name-only record into a queued place
 pnpm review resolve <slug> --google <placeId>   # attach a Google Place ID you looked up
 pnpm review pin <slug> name '"Correct Name"'
 pnpm review batch <file.yml>       # many decisions, one replay, recorded as by: skill
 ```
+
+OSM and Overture records with only a "tiki" name (`tiki-name` tag) never create places on their own; they only corroborate places a tiki directory created, so a bar only they know sits stranded in `data/observations/`. When a bar like that is confirmed by hand (its menu passes the rule below), `pnpm review create` promotes its record into a queued place, then `link` any sibling records and approve it as usual. Never bulk-promote stranded records: most are beach bars, motels and unrelated businesses.
 
 Each command records the decision and replays the engine offline, so you see the effect immediately. A later approve or reject replaces an earlier one; deleting a decision does not undo it, because the state is saved on the place. Approve when the place is a real tiki bar, lounge or restaurant with a tiki program. Reject car washes, ice cream shops, closed-for-decades spots and unrelated "Tiki" businesses, with a short reason. Merge duplicates into the slug with the better name. Weak Google matches (`reason: weak google match`) need a look at the Maps link before approving.
 

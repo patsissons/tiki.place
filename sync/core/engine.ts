@@ -137,6 +137,7 @@ function applyDecisions(places: Map<string, Place>, decisions: Decision[], redir
         break;
       }
       case "link":
+      case "create":
         break; // consumed by resolution
     }
   }
@@ -225,6 +226,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   // ---- resolve + merge ----
   const index = new PlaceIndex(placeMap.values());
   const links = buildLinks(decisions, redirects);
+  const promoted = new Set(decisions.flatMap((d) => (d.type === "create" ? [d.key] : [])));
   const byPlace = new Map<string, Observation[]>();
   const created: { place: Place; via: string }[] = [];
   const mergeCtx = { sources: sourceMap, now };
@@ -236,7 +238,8 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
         byPlace.set(r.place.id, [...(byPlace.get(r.place.id) ?? []), obs]);
         continue;
       }
-      if (!canCreate(obs, source)) continue; // name-only hits only corroborate existing places
+      // name-only hits only corroborate existing places, unless the owner promoted one
+      if (!canCreate(obs, source) && !promoted.has(observationKey(obs))) continue;
       // New places get a temporary id; the final slug is chosen after every source (and Google) has contributed.
       const slug = `new-${created.length + 1}`;
       const skeleton = newPlaceSkeleton(slug, now);
