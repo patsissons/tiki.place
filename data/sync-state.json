@@ -9,11 +9,11 @@
       "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-11-20T18:38:44.782Z",
-      "lastDiscoveryAt": "2026-11-20T18:38:44.782Z",
+      "lastRunAt": "2026-11-21T17:36:50.948Z",
+      "lastDiscoveryAt": "2026-11-21T17:36:50.948Z",
       "lastStatus": "ok",
       "observationCount": 316,
-      "requestCount": 1
+      "requestCount": 2
     },
     "overture": {
       "lastRunAt": "2026-11-01T13:44:39.158Z",
@@ -23,8 +23,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-20T18:38:44.782Z",
-      "lastDiscoveryAt": "2026-11-20T18:38:44.782Z",
+      "lastRunAt": "2026-11-21T17:36:50.948Z",
+      "lastDiscoveryAt": "2026-11-21T17:36:50.948Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -38,6 +38,20 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-21T17:36:50.948Z",
+      "durationMs": 3075,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-11-20T18:38:44.782Z",
       "durationMs": 2244,
@@ -442,20 +456,6 @@
       "warnings": [
         "overture: discovery failed: [\n  {\n    \"origin\": \"string\",\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"inclusive\": true,\n    \"path\": [\n      \"address\",\n      \"region\"\n    ],\n    \"message\": \"Too small: expected string to have >=1 characters\"\n  }\n]"
       ]
-    },
-    {
-      "at": "2026-10-26T04:08:35.388Z",
-      "durationMs": 126472,
-      "sources": [
-        "osm",
-        "tikirat"
-      ],
-      "placesCreated": 343,
-      "placesUpdated": 2,
-      "placesPublished": 4,
-      "needsReview": 343,
-      "googleCalls": 0,
-      "warnings": []
     }
   ]
 }
