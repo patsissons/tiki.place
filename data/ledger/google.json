@@ -9,9 +9,9 @@
     },
     "2026-11": {
       "essentials": 0,
-      "pro": 0,
-      "enterprise": 12,
-      "textSearch": 20
+      "pro": 762,
+      "enterprise": 21,
+      "textSearch": 51
     }
   },
   "days": {
@@ -26,6 +26,126 @@
       "pro": 0,
       "enterprise": 12,
       "textSearch": 20
+    },
+    "2026-11-02": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 4,
+      "textSearch": 20
+    },
+    "2026-11-03": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 5,
+      "textSearch": 11
+    },
+    "2026-11-04": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-05": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-06": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-07": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-08": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-09": {
+      "essentials": 0,
+      "pro": 137,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-10": {
+      "essentials": 0,
+      "pro": 137,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-11": {
+      "essentials": 0,
+      "pro": 137,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-12": {
+      "essentials": 0,
+      "pro": 137,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-13": {
+      "essentials": 0,
+      "pro": 137,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-14": {
+      "essentials": 0,
+      "pro": 56,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-15": {
+      "essentials": 0,
+      "pro": 12,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-16": {
+      "essentials": 0,
+      "pro": 4,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-17": {
+      "essentials": 0,
+      "pro": 5,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-18": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-19": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-20": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
+    },
+    "2026-11-21": {
+      "essentials": 0,
+      "pro": 0,
+      "enterprise": 0,
+      "textSearch": 0
     }
   }
 }

@@ -10,13 +10,13 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "23А Baykal'skaya Street",
-    "locality": "Иркутск",
-    "region": "Иркутская область",
+    "street": "23А Baykal'skaya ulitsa",
+    "locality": "Irkutsk",
+    "region": "Irkutskaya oblast'",
     "postalCode": "664007",
     "country": "RU"
   },
-  "formattedAddress": "Baykal'skaya St, 23А, Иркутск, Иркутская обл., Russia, 664007",
+  "formattedAddress": "Baykal'skaya ulitsa, 23А, Irkutsk, Irkutskaya oblast', Russia, 664007",
   "timezone": "Asia/Irkutsk",
   "externalIds": {
     "overture": "5df8d299-150f-4996-9d6f-58807501c9c7",
@@ -118,7 +118,7 @@
   "rating": {
     "value": 4.2,
     "count": 49,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-13T17:49:11.025Z"
   },
   "tikiConfidence": 0.834,
   "review": {
@@ -129,27 +129,27 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "location": {
       "sourceId": "google",
@@ -157,11 +157,11 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-13T17:49:11.025Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -174,7 +174,7 @@
       "sourceRef": "ChIJKaMyO987qF0Rrhs9qfOIhyI",
       "url": "https://maps.google.com/?cid=2488107899243273134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
       "sourceId": "overture",
@@ -185,6 +185,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

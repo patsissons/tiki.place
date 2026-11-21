@@ -115,7 +115,7 @@
   "rating": {
     "value": 4.4,
     "count": 1816,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
   "tikiConfidence": 0.964,
@@ -127,23 +127,23 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "location": {
       "sourceId": "google",
@@ -151,15 +151,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -172,7 +172,7 @@
       "sourceRef": "ChIJc38QfrK22YgRyJVIb_9s2Js",
       "url": "https://maps.google.com/?cid=11229845515187819976&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
       "sourceId": "overture",
@@ -190,6 +190,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

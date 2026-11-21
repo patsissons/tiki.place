@@ -56,7 +56,7 @@
   "rating": {
     "value": 4.6,
     "count": 3323,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
   "established": 2008,
@@ -69,19 +69,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -89,11 +89,11 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "location": {
       "sourceId": "google",
@@ -101,15 +101,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -122,7 +122,7 @@
       "sourceRef": "ChIJ3_LBNpPDyIARIkTs_rNJJ_4",
       "url": "https://maps.google.com/?cid=18313687447150281762&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
       "sourceId": "osm",
@@ -161,6 +161,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-01T17:56:44.901Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

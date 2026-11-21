@@ -88,7 +88,7 @@
   "rating": {
     "value": 4.4,
     "count": 40,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
   "tikiConfidence": 0.975,
@@ -100,27 +100,27 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "location": {
       "sourceId": "google",
@@ -128,15 +128,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-11T17:55:26.537Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -149,7 +149,7 @@
       "sourceRef": "ChIJHdx3XgDFwoARE_VzcTgfkwM",
       "url": "https://maps.google.com/?cid=257583930972304659&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
       "sourceId": "overture",
@@ -167,6 +167,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-01T19:00:09.848Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

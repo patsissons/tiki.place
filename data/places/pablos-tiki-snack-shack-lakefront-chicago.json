@@ -32,7 +32,7 @@
   "rating": {
     "value": 4.1,
     "count": 11,
-    "at": "2026-10-26T04:40:49.037Z"
+    "at": "2026-11-12T18:22:54.608Z"
   },
   "tikiConfidence": 0.834,
   "review": {
@@ -43,11 +43,11 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -55,7 +55,7 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "location": {
       "sourceId": "google",
@@ -63,11 +63,11 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:40:49.037Z"
+      "observedAt": "2026-11-12T18:22:54.608Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -80,7 +80,7 @@
       "sourceRef": "ChIJ05c4HEkrDogRP4tvawTxE5I",
       "url": "https://maps.google.com/?cid=10526021755379616575&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-10-26T04:40:49.037Z"
+      "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
       "sourceId": "overture",
@@ -91,6 +91,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-10-26T04:40:49.037Z",
-  "lastVerifiedAt": "2026-10-26T04:40:49.037Z"
+  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

@@ -2,16 +2,15 @@
   "version": 1,
   "sources": {
     "osm": {
-      "lastRunAt": "2026-11-01T16:50:03.603Z",
-      "lastDiscoveryAt": "2026-10-26T04:08:35.388Z",
-      "lastStatus": "error",
-      "observationCount": 602,
-      "requestCount": 1,
-      "error": "The operation was aborted due to timeout"
+      "lastRunAt": "2026-11-17T19:13:01.376Z",
+      "lastDiscoveryAt": "2026-11-17T19:13:01.376Z",
+      "lastStatus": "ok",
+      "observationCount": 610,
+      "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-11-01T16:50:03.603Z",
-      "lastDiscoveryAt": "2026-11-01T16:50:03.603Z",
+      "lastRunAt": "2026-11-21T17:36:50.948Z",
+      "lastDiscoveryAt": "2026-11-21T17:36:50.948Z",
       "lastStatus": "ok",
       "observationCount": 316,
       "requestCount": 2
@@ -24,8 +23,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-01T16:50:03.603Z",
-      "lastDiscoveryAt": "2026-11-01T16:50:03.603Z",
+      "lastRunAt": "2026-11-21T17:36:50.948Z",
+      "lastDiscoveryAt": "2026-11-21T17:36:50.948Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -39,6 +38,291 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-21T17:36:50.948Z",
+      "durationMs": 3075,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-20T18:38:44.782Z",
+      "durationMs": 2244,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-19T19:01:39.928Z",
+      "durationMs": 3618,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-18T18:52:42.464Z",
+      "durationMs": 3571,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 1,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-17T19:13:01.376Z",
+      "durationMs": 134425,
+      "sources": [
+        "osm",
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 9,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 5,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-16T20:31:46.025Z",
+      "durationMs": 4731,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 4,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 4,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-15T17:14:47.787Z",
+      "durationMs": 7813,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 12,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 12,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-14T16:38:04.344Z",
+      "durationMs": 20601,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 56,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 56,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-13T17:49:11.025Z",
+      "durationMs": 45548,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 137,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 137,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-12T18:22:54.608Z",
+      "durationMs": 45378,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 137,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 137,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-11T17:55:26.537Z",
+      "durationMs": 47403,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 138,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 137,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-10T17:54:51.536Z",
+      "durationMs": 178294,
+      "sources": [
+        "osm",
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 139,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 137,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-09T20:49:19.347Z",
+      "durationMs": 156981,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 137,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 137,
+      "warnings": [
+        "osm: discovery failed: overpass https://overpass.kumi.systems/api/interpreter returned 504"
+      ]
+    },
+    {
+      "at": "2026-11-08T16:42:45.858Z",
+      "durationMs": 3311,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-07T16:29:32.101Z",
+      "durationMs": 3228,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-06T17:31:30.171Z",
+      "durationMs": 2240,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-05T18:05:36.015Z",
+      "durationMs": 3729,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-04T18:02:20.377Z",
+      "durationMs": 3484,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 0,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-03T17:53:51.213Z",
+      "durationMs": 9467,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 12,
+      "placesPublished": 582,
+      "needsReview": 554,
+      "googleCalls": 16,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-02T20:24:28.556Z",
+      "durationMs": 145375,
+      "sources": [
+        "osm",
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 21,
+      "placesPublished": 576,
+      "needsReview": 562,
+      "googleCalls": 24,
+      "warnings": []
+    },
     {
       "at": "2026-11-01T16:50:03.603Z",
       "durationMs": 257194,
@@ -172,20 +456,6 @@
       "warnings": [
         "overture: discovery failed: [\n  {\n    \"origin\": \"string\",\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"inclusive\": true,\n    \"path\": [\n      \"address\",\n      \"region\"\n    ],\n    \"message\": \"Too small: expected string to have >=1 characters\"\n  }\n]"
       ]
-    },
-    {
-      "at": "2026-10-26T04:08:35.388Z",
-      "durationMs": 126472,
-      "sources": [
-        "osm",
-        "tikirat"
-      ],
-      "placesCreated": 343,
-      "placesUpdated": 2,
-      "placesPublished": 4,
-      "needsReview": 343,
-      "googleCalls": 0,
-      "warnings": []
     }
   ]
 }
