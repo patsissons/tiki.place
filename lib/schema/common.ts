@@ -65,5 +65,8 @@ export const AdapterIdSchema = z.enum([
   "osm-overpass",
   "overture",
   "user-submission",
+  "tikiatlas",
+  "mytiki",
+  "google-mymaps",
 ]);
 export type AdapterId = z.infer<typeof AdapterIdSchema>;

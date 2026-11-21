@@ -12,6 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { countryToIso } from "@/lib/country";
 import { getRoot } from "@/lib/data/store";
 import type { Adapter, AdapterContext, DiscoverResult } from "./types";
 import { makeObservation, reconcileObservations, safeUrl } from "./types";
@@ -118,7 +119,7 @@ export function countryCode(value?: string): string | undefined {
   if (!value) return undefined;
   const v = value.trim();
   if (/^[A-Za-z]{2}$/.test(v)) return v.toUpperCase();
-  return COUNTRY_NAMES[v.toLowerCase()];
+  return COUNTRY_NAMES[v.toLowerCase()] ?? countryToIso(v);
 }
 
 function statusHint(value?: string): Observation["statusHint"] {

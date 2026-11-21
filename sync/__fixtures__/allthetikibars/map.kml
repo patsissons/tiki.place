@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>All The Tiki Bars</name>
+    <description>trimmed fixture</description>
+    <Style id="icon-1899-FFEA00-labelson-nodesc">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Tiki Bars</name>
+      <Placemark>
+        <name>Tiki-Ko</name>
+        <description>Bar</description>
+        <styleUrl>#icon-1899-F9A825-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            -119.0177715,35.376795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Tiki Restaurants</name>
+      <Placemark>
+        <name><![CDATA[Hula's Island Grill]]></name>
+        <styleUrl>#icon-1577-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.0261519,36.9713997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Points of Interest</name>
+      <Placemark>
+        <name><![CDATA[Beachcomber Resort & Club]]></name>
+        <description>Tiki events like the Hukilau</description>
+        <styleUrl>#icon-1535-000000</styleUrl>
+        <Point>
+          <coordinates>
+            -80.0906659,26.2223663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Tiki Adjacent Bars - inspired/inclusive/night of tiki</name>
+      <Placemark>
+        <name>Soggy Dollar Bar</name>
+        <description>Painkiller invented here!</description>
+        <styleUrl>#icon-1517-BDBDBD</styleUrl>
+        <Point>
+          <coordinates>
+            -64.7638011,18.4431478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    </Document>
+</kml>

@@ -46,6 +46,43 @@ export class RobotsDisallowed extends Error {
   }
 }
 
+/** The host asked us to slow down (429/503). The fetcher refuses further requests to it for this run. */
+export class SourceThrottled extends Error {
+  constructor(
+    public readonly host: string,
+    public readonly status: number,
+    public readonly retryAfterS?: number,
+  ) {
+    super(`${host} returned ${status}${retryAfterS !== undefined ? ` (Retry-After ${retryAfterS}s)` : ""}; stopping requests to it`);
+  }
+}
+
+/** A bot challenge (e.g. Cloudflare "Just a moment..."). Never retried or solved; the run stops for that host. */
+export class ChallengeDetected extends Error {
+  constructor(public readonly host: string) {
+    super(`${host} served a bot challenge; stopping requests to it`);
+  }
+}
+
+const CHALLENGE_MARKERS = [/<title>\s*Just a moment\.\.\.\s*<\/title>/i, /challenges\.cloudflare\.com/i, /cf-chl-/i, /Attention Required! \| Cloudflare/i];
+
+export function looksLikeChallenge(status: number, headers: Headers | Record<string, string>, body: string): boolean {
+  const get = (h: string) => (headers instanceof Headers ? headers.get(h) : headers[h]) ?? undefined;
+  if (get("cf-mitigated") === "challenge") return true;
+  const head = body.slice(0, 20_000);
+  // A 200 page may embed a Turnstile widget legitimately; only the interstitial title counts there.
+  if (status === 200) return CHALLENGE_MARKERS[0]!.test(head);
+  if (status !== 403 && status !== 503) return false;
+  return CHALLENGE_MARKERS.some((re) => re.test(head));
+}
+
+function retryAfterSeconds(value: string | null): number | undefined {
+  if (!value) return undefined;
+  if (/^\d+$/.test(value.trim())) return Number(value.trim());
+  const at = Date.parse(value);
+  return Number.isNaN(at) ? undefined : Math.max(0, Math.round((at - Date.now()) / 1000));
+}
+
 export type CreatePoliteFetchOptions = {
   cacheDir: string;
   userAgent: string;
@@ -62,11 +99,13 @@ export type CreatePoliteFetchOptions = {
 
 const defaultSleep = (ms: number) => new Promise<void>((r) => setTimeout(r, ms));
 
-function parseRobots(text: string, userAgent: string): string[] {
-  // Minimal: collect Disallow rules for the most specific matching agent group ("*" or our token).
+export type RobotsRule = { allow: boolean; path: string };
+
+export function parseRobots(text: string, userAgent: string): RobotsRule[] {
+  // Collect Allow/Disallow rules for the most specific matching agent group ("*" or our token).
   const token = userAgent.split("/")[0]!.toLowerCase();
-  const groups: { agents: string[]; disallow: string[] }[] = [];
-  let current: { agents: string[]; disallow: string[] } | null = null;
+  const groups: { agents: string[]; rules: RobotsRule[] }[] = [];
+  let current: { agents: string[]; rules: RobotsRule[] } | null = null;
   for (const raw of text.split(/\r?\n/)) {
     const line = raw.replace(/#.*$/, "").trim();
     if (!line) continue;
@@ -74,18 +113,35 @@ function parseRobots(text: string, userAgent: string): string[] {
     const key = k!.trim().toLowerCase();
     const value = rest.join(":").trim();
     if (key === "user-agent") {
-      if (!current || current.disallow.length > 0) {
-        current = { agents: [], disallow: [] };
+      if (!current || current.rules.length > 0) {
+        current = { agents: [], rules: [] };
         groups.push(current);
       }
       current.agents.push(value.toLowerCase());
-    } else if (key === "disallow" && current) {
-      if (value) current.disallow.push(value);
+    } else if ((key === "disallow" || key === "allow") && current) {
+      if (value) current.rules.push({ allow: key === "allow", path: value });
     }
   }
   const specific = groups.find((g) => g.agents.some((a) => a !== "*" && token.includes(a)));
   const wildcard = groups.find((g) => g.agents.includes("*"));
-  return (specific ?? wildcard)?.disallow ?? [];
+  return (specific ?? wildcard)?.rules ?? [];
+}
+
+function ruleMatches(rule: string, target: string): boolean {
+  const anchored = rule.endsWith("$");
+  const body = anchored ? rule.slice(0, -1) : rule;
+  const re = new RegExp(`^${body.split("*").map((p) => p.replace(/[.+?^${}()|[\]\\]/g, "\\$&")).join(".*")}${anchored ? "$" : ""}`);
+  return re.test(target);
+}
+
+/** RFC 9309: the longest matching rule wins; on a tie, Allow wins. No match means allowed. */
+export function robotsAllows(rules: RobotsRule[], target: string): boolean {
+  let best: RobotsRule | null = null;
+  for (const r of rules) {
+    if (!ruleMatches(r.path, target)) continue;
+    if (!best || r.path.length > best.path.length || (r.path.length === best.path.length && r.allow)) best = r;
+  }
+  return best ? best.allow : true;
 }
 
 export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetch {
@@ -102,7 +158,9 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
   } = options;
 
   const lastRequestAt = new Map<string, number>();
-  const robots = new Map<string, string[]>();
+  /** Hosts that throttled or challenged us this run: no further requests. */
+  const stopped = new Map<string, Error>();
+  const robots = new Map<string, RobotsRule[]>();
   let requests = 0;
 
   const cachePath = (url: string) => path.join(cacheDir, `${createHash("sha1").update(url).digest("hex")}.json`);
@@ -120,6 +178,8 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
 
   async function rawRequest(url: string, headers: Record<string, string>, timeoutMs = 60_000): Promise<Response> {
     const host = new URL(url).host;
+    const halt = stopped.get(host);
+    if (halt) throw halt;
     if (requests >= maxRequests) throw new RequestBudgetExhausted(host);
     const last = lastRequestAt.get(host) ?? 0;
     const wait = last + minIntervalMs - Date.now();
@@ -131,7 +191,7 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
 
   async function allowedByRobots(url: string): Promise<boolean> {
     if (!respectRobots) return true;
-    const { origin, pathname } = new URL(url);
+    const { origin, pathname, search } = new URL(url);
     if (pathname === "/robots.txt") return true;
     let rules = robots.get(origin);
     if (!rules) {
@@ -151,7 +211,7 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
       }
       robots.set(origin, rules);
     }
-    return !rules.some((rule) => pathname.startsWith(rule));
+    return robotsAllows(rules, pathname + search);
   }
 
   const politeFetch = async function politeFetch(url: string, opts: PoliteFetchOptions = {}): Promise<FetchResult> {
@@ -175,6 +235,17 @@ export function createPoliteFetch(options: CreatePoliteFetchOptions): PoliteFetc
       return { ...refreshed, fromCache: true };
     }
     const body = await res.text();
+    const host = new URL(url).host;
+    if (looksLikeChallenge(res.status, res.headers, body)) {
+      const err = new ChallengeDetected(host);
+      stopped.set(host, err);
+      throw err;
+    }
+    if (res.status === 429 || res.status === 503) {
+      const err = new SourceThrottled(host, res.status, retryAfterSeconds(res.headers.get("retry-after")));
+      stopped.set(host, err);
+      throw err;
+    }
     const keep: Record<string, string> = {};
     for (const h of ["etag", "last-modified", "content-type"]) {
       const v = res.headers.get(h);

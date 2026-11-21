@@ -40,7 +40,7 @@ import { WEAK_RESOLUTION_REASON, nextReviewState, tikiConfidence } from "./confi
 import { createPoliteFetch, type PoliteFetch } from "./fetch";
 import { latestPerKey, mergePlace, newPlaceSkeleton } from "./merge";
 import { buildPublicData } from "./publish";
-import { PlaceIndex, bestNameSimPlaces, buildLinks, resolveObservation } from "./resolve";
+import { PlaceIndex, bestNameSimPlaces, buildLinks, findRejected, resolveObservation } from "./resolve";
 import { GoogleBudget, planGoogleWork } from "./scheduler";
 import { deriveStatus } from "./status";
 
@@ -229,6 +229,8 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   const promoted = new Set(decisions.flatMap((d) => (d.type === "create" ? [d.key] : [])));
   const byPlace = new Map<string, Observation[]>();
   const created: { place: Place; via: string }[] = [];
+  /** Observations that would have created a place but describe one the owner rejected. */
+  const heldBack: { place: string; via: string; name: string }[] = [];
   const mergeCtx = { sources: sourceMap, now };
   const orderedSources = [...sources].sort((a, b) => (a.id === "google" ? -1 : b.id === "google" ? 1 : b.trust - a.trust));
   for (const source of orderedSources) {
@@ -240,6 +242,13 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
       }
       // name-only hits only corroborate existing places, unless the owner promoted one
       if (!canCreate(obs, source) && !promoted.has(observationKey(obs))) continue;
+      // The owner's rejections stand: a near-match to a rejected place attaches there instead of starting over.
+      const rejected = promoted.has(observationKey(obs)) ? null : findRejected(obs, index);
+      if (rejected) {
+        byPlace.set(rejected.place.id, [...(byPlace.get(rejected.place.id) ?? []), obs]);
+        heldBack.push({ place: rejected.place.id, via: observationKey(obs), name: obs.name });
+        continue;
+      }
       // New places get a temporary id; the final slug is chosen after every source (and Google) has contributed.
       const slug = `new-${created.length + 1}`;
       const skeleton = newPlaceSkeleton(slug, now);
@@ -272,7 +281,10 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   const score = (place: Place) => {
     const obs = byPlace.get(place.id) ?? [];
     place.tikiConfidence = tikiConfidence(place, obs, sourceMap);
-    const next = nextReviewState(place, place.tikiConfidence);
+    // Sources flagged queueNewPlaces never count toward auto-approval; a place they alone vouch for waits for the owner.
+    const vouching = obs.filter((o) => !sourceMap.get(o.sourceId)?.queueNewPlaces);
+    const eligible = vouching.some((o) => o.sourceId !== "google");
+    const next = nextReviewState(place, eligible ? tikiConfidence(place, vouching, sourceMap) : 0);
     if (next.state !== place.review.state) place.review = { state: next.state, by: "auto", at: nowIso, reason: next.reason };
     place.status = deriveStatus(place, obs, now);
   };
@@ -516,7 +528,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   for (const p of finalPlaces) serializePlace(p);
   buildPublicData(finalPlaces);
 
-  const report = renderReport({ summary, created, resolvedNow, unresolved, deleted, autoMerged, tripped, dryRun: Boolean(opts.dryRun), budgetToday: ledger.days[nowIso.slice(0, 10)] });
+  const report = renderReport({ summary, created, heldBack, resolvedNow, unresolved, deleted, autoMerged, tripped, dryRun: Boolean(opts.dryRun), budgetToday: ledger.days[nowIso.slice(0, 10)] });
   fs.mkdirSync(path.join(getRoot(), ".cache"), { recursive: true });
   fs.writeFileSync(path.join(getRoot(), ".cache", "summary.md"), report);
 
@@ -541,6 +553,7 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
 function renderReport(input: {
   summary: RunSummary;
   created: { place: Place; via: string }[];
+  heldBack: { place: string; via: string; name: string }[];
   resolvedNow: string[];
   unresolved: { id: string; outcome: string }[];
   deleted: string[];
@@ -565,6 +578,10 @@ function renderReport(input: {
     lines.push(`\n### New places (${input.created.length})`);
     for (const { place, via } of input.created.slice(0, 50)) lines.push(`- \`${place.id}\` ${place.name} ← ${via}`);
     if (input.created.length > 50) lines.push(`- … and ${input.created.length - 50} more`);
+  }
+  if (input.heldBack.length) {
+    lines.push(`\n### Held back by an owner rejection (${input.heldBack.length})`);
+    for (const h of input.heldBack) lines.push(`- ${h.name} ← ${h.via} → rejected \`${h.place}\``);
   }
   if (input.resolvedNow.length) lines.push(`\n### Resolved to Google (${input.resolvedNow.length})\n${input.resolvedNow.map((id) => `- \`${id}\``).join("\n")}`);
   if (input.unresolved.length) lines.push(`\n### Unresolved (${input.unresolved.length})\n${input.unresolved.map((u) => `- \`${u.id}\`: ${u.outcome}`).join("\n")}`);

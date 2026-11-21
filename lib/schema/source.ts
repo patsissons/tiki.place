@@ -18,6 +18,8 @@ export const SourceSchema = z.strictObject({
   trust: z.number().min(0).max(1),
   /** P(place is a tiki place | listed by this source), used by confidence scoring (0-1). */
   tikiSignal: z.number().min(0).max(1),
+  /** Places this source vouches for always wait for the owner: it never counts toward auto-approval. */
+  queueNewPlaces: z.boolean().optional(),
   schedule: z.strictObject({
     discovery: z.enum(["daily", "weekly", "monthly", "manual"]),
     /** For sources with a detail pass: re-fetch a record's detail page after this many days. */

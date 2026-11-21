@@ -4,6 +4,7 @@
  *
  *   pnpm sync run [--source id] [--dry-run] [--offline] [--skip-verify] [--force] [--include-manual]
  *   pnpm sync snapshot-tikirat [--limit n] [--refresh-days n]   slowly render bar pages into a snapshot
+ *   pnpm sync snapshot-mytiki [--limit n] [--refresh-days n] [--interval-s n]   slowly read mytiki.life bar pages
  *   pnpm sync fmt                      rewrite every data file in canonical form
  *   pnpm validate                      parse + invariants + canonical-form check
  *   pnpm data:build [--check]          generate public/data/*
@@ -57,6 +58,11 @@ const commands: Record<string, Command> = {
   async "snapshot-tikirat"(argv) {
     const { snapshotTikirat } = await import("./snapshot-tikirat");
     return snapshotTikirat(argv);
+  },
+
+  async "snapshot-mytiki"(argv) {
+    const { snapshotMytiki } = await import("./snapshot-mytiki");
+    return snapshotMytiki(argv);
   },
 
   async fetch(argv) {
