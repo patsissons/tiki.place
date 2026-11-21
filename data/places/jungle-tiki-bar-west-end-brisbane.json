@@ -1,0 +1,74 @@
+{
+  "id": "jungle-tiki-bar-west-end-brisbane",
+  "name": "Jungle Tiki Bar, West End, Brisbane",
+  "aliases": [],
+  "location": {
+    "lat": -27.4807279,
+    "lng": 153.0116225,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Vulture Street",
+    "locality": "Brisbane",
+    "region": "Queensland",
+    "postalCode": "4101",
+    "country": "AU"
+  },
+  "formattedAddress": "Vulture Street, Brisbane, Queensland, 4101, Australia",
+  "timezone": "Australia/Brisbane",
+  "externalIds": {
+    "google": "ChIJJ8mrs6FQkWsRXt6h_jyKZX8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "b3edf357ceca",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "jungle-tiki-bar-west-end-brisbane",
+      "url": "https://tikiatlas.com/bar?slug=jungle-tiki-bar-west-end-brisbane",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

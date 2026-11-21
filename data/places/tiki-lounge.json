@@ -32,7 +32,7 @@
     "website": "https://pghtikilounge.com/"
   },
   "established": 2002,
-  "tikiConfidence": 0.992,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -74,6 +74,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "1ce846cccc40",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/204087583",
       "url": "https://www.openstreetmap.org/way/204087583",
@@ -86,6 +93,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.17a47c10-4ab5-4188-99ae-2acdf54e98bb#17/40.428653717041016/-79.97738647460938",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-lounge",
+      "url": "https://tikiatlas.com/bar?slug=tiki-lounge",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -103,5 +117,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

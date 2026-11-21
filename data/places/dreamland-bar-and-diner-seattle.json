@@ -1,0 +1,74 @@
+{
+  "id": "dreamland-bar-and-diner-seattle",
+  "name": "Dreamland Bar & Diner",
+  "aliases": [],
+  "location": {
+    "lat": 47.65011479999999,
+    "lng": -122.3516283,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "551 North 34th Street",
+    "locality": "Seattle",
+    "region": "Washington",
+    "postalCode": "98103",
+    "country": "US"
+  },
+  "formattedAddress": "551 North 34th Street, Seattle, Washington, 98103, United States",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJe3dzpq8VkFQRGBb1awHGxVg"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "c19ad6d08137",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "dreamland-bar-and-diner",
+      "url": "https://tikiatlas.com/bar?slug=dreamland-bar-and-diner",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

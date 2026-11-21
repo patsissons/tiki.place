@@ -1,0 +1,79 @@
+{
+  "id": "trader-vics-abu-dhabi",
+  "name": "Trader Vic's Abu Dhabi",
+  "aliases": [
+    "Trader Vic's"
+  ],
+  "location": {
+    "lat": 24.4942084,
+    "lng": 54.3841749,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Abu Dhabi",
+    "region": "أبو ظبي",
+    "country": "AE"
+  },
+  "formattedAddress": "شارع أحمد بن حامد آل حامد, أبو ظبي, أبو ظبي, الإمارات العربية المتحدة",
+  "timezone": "Asia/Dubai",
+  "externalIds": {
+    "google": "ChIJH3txkVFmXj4R_xwM6m-1aMo"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "established": 1994,
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "e23052b5fcae",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-vics-abu-dhabi",
+      "url": "https://tikiatlas.com/bar?slug=trader-vics-abu-dhabi",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

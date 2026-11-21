@@ -78,7 +78,7 @@
     "count": 5,
     "at": "2026-11-13T17:49:11.025Z"
   },
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.99,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -128,6 +128,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "0d7c618d4d8c",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJU0S7ebdZ5IkRMIyFbrRHdU4",
       "url": "https://maps.google.com/?cid=5653503747507457072&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -140,9 +147,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.2023feda-fc1e-4d26-bcd6-60c22fbeed55#17/41.85212707519531/-71.2780532836914",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-bar-3",
+      "url": "https://tikiatlas.com/bar?slug=tiki-bar-3",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

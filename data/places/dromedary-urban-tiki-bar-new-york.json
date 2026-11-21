@@ -1,0 +1,74 @@
+{
+  "id": "dromedary-urban-tiki-bar-new-york",
+  "name": "Dromedary Urban Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.6996401,
+    "lng": -73.9158253,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "264 Irving Avenue",
+    "locality": "New York",
+    "region": "New York",
+    "postalCode": "11237",
+    "country": "US"
+  },
+  "formattedAddress": "264 Irving Avenue, New York, New York, 11237, United States",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJ561dGRlcwokRtRw8jZpJh5M"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "fcca2e1fd402",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "dromedary-urban-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=dromedary-urban-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

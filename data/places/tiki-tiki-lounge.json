@@ -2,6 +2,7 @@
   "id": "tiki-tiki-lounge",
   "name": "The Tiki Tiki Lounge",
   "aliases": [
+    "Poki Poki Cevicheria",
     "Tiki Tiki Lounge @ Poki Poki"
   ],
   "location": {
@@ -31,7 +32,7 @@
     "phone": "505-503-6806"
   },
   "established": 2021,
-  "tikiConfidence": 0.984,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -69,6 +70,20 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "0d148869f586",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "poki-poki-cevicheria",
+      "url": "https://tikiatlas.com/bar?slug=poki-poki-cevicheria",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "the-tiki-tiki-lounge",
       "url": "https://tikirat.com/bars/the-tiki-tiki-lounge",
@@ -84,5 +99,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:20:00.098Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

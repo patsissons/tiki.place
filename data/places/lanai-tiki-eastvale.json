@@ -1,0 +1,74 @@
+{
+  "id": "lanai-tiki-eastvale",
+  "name": "The Lanai Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 33.9993227,
+    "lng": -117.5559508,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Goodman Way",
+    "locality": "Eastvale",
+    "region": "California",
+    "postalCode": "91752",
+    "country": "US"
+  },
+  "formattedAddress": "Goodman Way, Eastvale, California, 91752, United States",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJgzyWGQDL3IARlvxBXW1fkgI"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "7b0df32d55ba",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-lanai-tiki",
+      "url": "https://tikiatlas.com/bar?slug=the-lanai-tiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

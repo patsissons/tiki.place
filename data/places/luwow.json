@@ -1,7 +1,9 @@
 {
   "id": "luwow",
   "name": "The LuWOW",
-  "aliases": [],
+  "aliases": [
+    "The Luwow Tiki Bar And Shop"
+  ],
   "location": {
     "lat": -37.81402430000001,
     "lng": 144.9672661,
@@ -18,7 +20,8 @@
   "timezone": "Australia/Melbourne",
   "externalIds": {
     "tikirat": "the-luwow",
-    "google": "ChIJsywmWidD1moRug0735B84qg"
+    "google": "ChIJsywmWidD1moRug0735B84qg",
+    "osm": "node/11135663731"
   },
   "status": {
     "value": "open",
@@ -110,7 +113,7 @@
   },
   "priceLevel": "$$",
   "established": 2019,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -168,11 +171,32 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "cf6f14495e1f",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJsywmWidD1moRug0735B84qg",
       "url": "https://maps.google.com/?cid=12169426104770825658&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/11135663731",
+      "url": "https://www.openstreetmap.org/node/11135663731",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-luwow",
+      "url": "https://tikiatlas.com/bar?slug=the-luwow",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -183,6 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

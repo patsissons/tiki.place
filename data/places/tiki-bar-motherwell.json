@@ -17,6 +17,7 @@
     "postalCode": "G2 4HW",
     "country": "GB"
   },
+  "formattedAddress": "214 Bath Street, Glasgow, Alba / Scotland, G2 4HG, United Kingdom",
   "timezone": "Europe/London",
   "externalIds": {
     "overture": "7563b6e8-4409-4657-90ef-f64d9543fd39",
@@ -32,7 +33,7 @@
     "phone": "+44 141 332 1341",
     "website": "https://www.tikibarglasgow.com/"
   },
-  "tikiConfidence": 0.878,
+  "tikiConfidence": 0.992,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -51,6 +52,10 @@
       "sourceId": "owner",
       "observedAt": "2026-11-01T01:07:50.957Z"
     },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-01T01:07:39.814Z"
@@ -65,6 +70,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "81af73b23274",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
     {
       "sourceId": "osm",
       "sourceRef": "node/6567398193",
@@ -85,8 +97,15 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.7563b6e8-4409-4657-90ef-f64d9543fd39#17/55.781349182128906/-4.006418704986572",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-bar-and-kitsch-inn",
+      "url": "https://tikiatlas.com/bar?slug=tiki-bar-and-kitsch-inn",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

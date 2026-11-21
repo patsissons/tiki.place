@@ -1,0 +1,102 @@
+{
+  "id": "rumpus-tiki-bar-budapest",
+  "name": "Rumpus Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 47.4996752,
+    "lng": 19.0594481,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "19 Király utca",
+    "locality": "Budapest",
+    "postalCode": "1075",
+    "country": "HU"
+  },
+  "formattedAddress": "19 Király utca, Budapest, 1075, Magyarország",
+  "timezone": "Europe/Budapest",
+  "externalIds": {
+    "google": "ChIJ37GTv_6-QUcR2ZMoUHjAN78",
+    "osm": "node/5984042187",
+    "overture": "9f39078a-8de1-4e4f-a549-b598a67795d8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "https://www.sevenrooms.com/explore/rumpustikibar/reservations/create/search?tracking=fb"
+  },
+  "tikiConfidence": 0.979,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "1011aa5d24c9",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/5984042187",
+      "url": "https://www.openstreetmap.org/node/5984042187",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/7680087785",
+      "url": "https://www.openstreetmap.org/node/7680087785",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "9f39078a-8de1-4e4f-a549-b598a67795d8",
+      "url": "https://explore.overturemaps.org/?feature=places.place.9f39078a-8de1-4e4f-a549-b598a67795d8#17/47.49965286254883/19.059415817260742",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "rumpus-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=rumpus-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

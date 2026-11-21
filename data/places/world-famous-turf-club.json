@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 1936,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -178,11 +178,25 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "d5ad28e667b7",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJq3L_B9iTj4ARlEBrOtQxIpY",
       "url": "https://maps.google.com/?cid=10818264042480287892&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-world-famous-turf-club",
+      "url": "https://tikiatlas.com/bar?slug=the-world-famous-turf-club",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -193,6 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

@@ -68,6 +68,13 @@ Tiki Wanderlust sits behind a Cloudflare challenge in CI, so its source has `dis
 2. `pnpm sync run --source tikiwanderlust --skip-verify`, then `pnpm validate`.
 3. Only when there is budget to spare: `pnpm sync run --include-manual` to resolve those places, within the normal daily caps.
 
+mytiki.life is also manual (`discovery: manual`): it has no coordinates and ~1,900 bar pages, so it is read slowly by hand, never from CI.
+
+1. `pnpm sync snapshot-mytiki --limit 300` (run in the background): the sitemap (cached a week), then one bar page every 20-30 s into `data/snapshots/mytiki.json`. It resumes where it stopped and stops at the first 429/503 or bot challenge; never retry past one. A full pass is ~13 hours; `--refresh-days` (default 120) controls re-reads.
+2. `pnpm sync run --source mytiki --skip-verify` (add `--force` on a big first import), then `pnpm validate`.
+
+Directory sources with `queueNewPlaces: true` (tikiatlas, allthetikibars, mytiki) never auto-approve a place; every new one waits for the owner. Their closed flags are not used as status hints, and closed or non-bar entries only add attribution. Before creating any place, the engine holds back records that look like an owner-rejected place and lists them under "Held back by an owner rejection" in the run report.
+
 ## Retire or pause a source
 
 `pnpm source retire <id> --reason "..."` keeps its observations and provenance; `pause`/`resume` toggle it. Explain why in the commit message.

@@ -1,7 +1,9 @@
 {
   "id": "bar-tiki-clearwater",
-  "name": "Bar Tiki",
-  "aliases": [],
+  "name": "Bar Tiki Clearwater Beach",
+  "aliases": [
+    "Bar Tiki"
+  ],
   "location": {
     "lat": 27.9767778,
     "lng": -82.8263582,
@@ -9,13 +11,16 @@
   },
   "address": {
     "locality": "Clearwater",
-    "region": "Florida",
+    "region": "FL",
+    "postalCode": "33767",
     "country": "US"
   },
+  "formattedAddress": "Marina, Clearwater, Florida, 33767, United States",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJWTEwAD33wogRatwjsCmC1Bg",
-    "osm": "node/10759526058"
+    "osm": "node/10759526058",
+    "overture": "adc8faa0-f32d-425d-8483-67fc58dc10af"
   },
   "status": {
     "value": "unverified",
@@ -25,7 +30,7 @@
   "contact": {
     "website": "http://www.bartiki.com/"
   },
-  "tikiConfidence": 0.927,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -34,20 +39,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -56,11 +65,32 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "efebb29bd4f3",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/10759526058",
       "url": "https://www.openstreetmap.org/node/10759526058",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "adc8faa0-f32d-425d-8483-67fc58dc10af",
+      "url": "https://explore.overturemaps.org/?feature=places.place.adc8faa0-f32d-425d-8483-67fc58dc10af#17/27.976837158203125/-82.82637786865234",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "bar-tiki-clearwater-beach",
+      "url": "https://tikiatlas.com/bar?slug=bar-tiki-clearwater-beach",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikiwanderlust",
@@ -71,5 +101,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

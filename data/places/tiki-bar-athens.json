@@ -13,6 +13,7 @@
     "postalCode": "117 42",
     "country": "GR"
   },
+  "formattedAddress": "Φαλήρου, Αθήνα, Περιφέρεια Αττικής, 117 42, Ελλάς",
   "timezone": "Europe/Athens",
   "externalIds": {
     "osm": "node/7270241987",
@@ -28,7 +29,7 @@
     "website": "https://athenstikibar.com/"
   },
   "established": 2007,
-  "tikiConfidence": 0.657,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -48,6 +49,10 @@
       "sourceId": "owner",
       "observedAt": "2026-11-21T22:26:47.757Z"
     },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
     "location": {
       "sourceId": "osm",
       "observedAt": "2026-10-26T04:08:35.388Z"
@@ -63,6 +68,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "e098c8a50689",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/7270241987",
       "url": "https://www.openstreetmap.org/node/7270241987",
@@ -75,8 +87,15 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.760cbd8c-74af-4908-8d36-0995c6195255#17/37.96686935424805/23.728933334350586",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-bar-athens",
+      "url": "https://tikiatlas.com/bar?slug=tiki-bar-athens",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:26:47.996Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

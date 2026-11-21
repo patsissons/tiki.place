@@ -1,0 +1,34 @@
+id: allthetikibars
+name: All The Tiki Bars (Google My Map)
+homepage: https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_
+adapter: google-mymaps
+status: active
+license:
+  name: Facts only, attribution
+  url: https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_
+  attribution: Listed on the All The Tiki Bars map
+trust: 0.5
+tikiSignal: 0.75
+queueNewPlaces: true
+schedule:
+  discovery: weekly
+politeness:
+  minIntervalMs: 10000
+  maxRequestsPerRun: 3
+  userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
+config:
+  mid: 1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_
+  vouchLayers:
+    - Tiki Bars
+    - Tiki Restaurants
+  attachLayers:
+    - Tiki Adjacent Bars - inspired/inclusive/night of tiki
+    - Points of Interest
+addedAt: 2026-11-21
+notes: |-
+  Public community Google My Map "An ongoing project to track all active tiki bars in the states and abroad" (461
+  placemarks when surveyed on 2026-11-21); its description invites people to copy and export it. The Tiki Atlas imports
+  most of its entries from this map. A weekly run is one request to the KML export, which google.com's robots.txt
+  allows (/maps/d/). We store each placemark's name, coordinates and layer, never the author's descriptions. Tiki Bars
+  and Tiki Restaurants vouch for a place; Tiki Adjacent and Points of Interest only add attribution, because an adjacent
+  bar counts only with a dedicated tiki room or menu. New places always wait for the owner's review (queueNewPlaces).

@@ -2,7 +2,8 @@
   "id": "tonga-hut-palm-springs",
   "name": "The Tonga Hut Restaurant and Tiki Bar",
   "aliases": [
-    "Tonga Hut"
+    "Tonga Hut",
+    "Tonga Hut Palm Springs"
   ],
   "location": {
     "lat": 33.825852,
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -171,6 +172,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "8455ea17be02",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJB0UjK6Ub24ARjMkS-vDIVWc",
       "url": "https://maps.google.com/?cid=7446078496240224652&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -183,6 +191,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.b1213577-e648-462b-ba0f-d909d2ba1851#17/33.825809478759766/-116.5466079711914",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tonga-hut-palm-springs",
+      "url": "https://tikiatlas.com/bar?slug=tonga-hut-palm-springs",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -200,6 +215,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

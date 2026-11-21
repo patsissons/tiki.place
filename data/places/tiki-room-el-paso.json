@@ -2,7 +2,8 @@
   "id": "tiki-room-el-paso",
   "name": "The Tiki Room El Paso",
   "aliases": [
-    "The Tiki Room"
+    "The Tiki Room",
+    "Toltec Tiki Room"
   ],
   "location": {
     "lat": 31.7570482,
@@ -103,7 +104,7 @@
   },
   "priceLevel": "$$",
   "established": 2023,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -182,6 +183,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "toltec-tiki-room",
+      "url": "https://tikiatlas.com/bar?slug=toltec-tiki-room",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "the-tiki-room-el-paso",
       "url": "https://tikirat.com/bars/the-tiki-room-el-paso",
@@ -197,6 +205,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

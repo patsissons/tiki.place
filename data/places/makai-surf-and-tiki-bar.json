@@ -1,0 +1,76 @@
+{
+  "id": "makai-surf-and-tiki-bar",
+  "name": "Makai - Surf & Tiki bar",
+  "aliases": [],
+  "location": {
+    "lat": 41.8720125,
+    "lng": 12.4794198,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4 Via dei Magazzini Generali"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "osm": "node/6269857798"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:16.549Z"
+  },
+  "contact": {
+    "phone": "+39 339 751 4140",
+    "website": "https://www.makaitikibar.it/"
+  },
+  "tikiConfidence": 0.878,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:16.549Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.phone": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:16.549Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "e862225d4dd1",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/6269857798",
+      "url": "https://www.openstreetmap.org/node/6269857798",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

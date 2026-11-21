@@ -1,0 +1,73 @@
+{
+  "id": "tiki-hideaway-liverpool",
+  "name": "Tiki Hideaway Liverpool",
+  "aliases": [],
+  "location": {
+    "lat": 53.4015857,
+    "lng": -2.977731,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "71a Seel Street",
+    "locality": "Liverpool",
+    "region": "England",
+    "country": "GB"
+  },
+  "formattedAddress": "71a Seel Street, Liverpool, England, L1 4AZ, United Kingdom",
+  "timezone": "Europe/London",
+  "externalIds": {
+    "google": "ChIJO9yIMa0he0gRxKm4B-BcSSg"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "e50784f64bf7",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-hideaway-liverpool",
+      "url": "https://tikiatlas.com/bar?slug=tiki-hideaway-liverpool",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

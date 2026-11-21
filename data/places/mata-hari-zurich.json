@@ -1,0 +1,74 @@
+{
+  "id": "mata-hari-zurich",
+  "name": "Mata Hari",
+  "aliases": [],
+  "location": {
+    "lat": 47.3840908,
+    "lng": 8.5308946,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "237 Langstrasse",
+    "locality": "Zürich",
+    "region": "Zürich",
+    "postalCode": "8005",
+    "country": "CH"
+  },
+  "formattedAddress": "237 Langstrasse, Zürich, Zürich, 8005, Schweiz/Suisse/Svizzera/Svizra",
+  "timezone": "Europe/Zurich",
+  "externalIds": {
+    "google": "ChIJjfXsURIKkEcRie1hO1SqDLo"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "dbf4d75eee7f",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "mata-hari",
+      "url": "https://tikiatlas.com/bar?slug=mata-hari",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

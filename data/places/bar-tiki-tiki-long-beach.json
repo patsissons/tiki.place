@@ -1,7 +1,9 @@
 {
   "id": "bar-tiki-tiki-long-beach",
   "name": "Bar Tiki Tiki",
-  "aliases": [],
+  "aliases": [
+    "Bar TikiTiki"
+  ],
   "location": {
     "lat": 33.7702751,
     "lng": -118.1899796,
@@ -10,11 +12,14 @@
   "address": {
     "locality": "Long Beach",
     "region": "CA",
+    "postalCode": "90802",
     "country": "US"
   },
+  "formattedAddress": "Long Beach Boulevard, Long Beach, California, 90802, United States",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "overture": "3534eb0c-8233-453f-8b86-17abba913670"
+    "overture": "3534eb0c-8233-453f-8b86-17abba913670",
+    "google": "ChIJh3XxOMYx3YARm76zPV-YQEw"
   },
   "status": {
     "value": "unverified",
@@ -24,7 +29,7 @@
   "contact": {
     "website": "http://rosemallowsbar.wixsite.com/qrcode"
   },
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.989,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -39,6 +44,10 @@
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "location": {
       "sourceId": "overture",
@@ -55,11 +64,25 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "9b430e3eb350",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3534eb0c-8233-453f-8b86-17abba913670",
       "url": "https://explore.overturemaps.org/?feature=places.place.3534eb0c-8233-453f-8b86-17abba913670#17/33.7702751159668/-118.18997955322266",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "bar-tikitiki",
+      "url": "https://tikiatlas.com/bar?slug=bar-tikitiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "resolution": {
@@ -81,5 +104,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

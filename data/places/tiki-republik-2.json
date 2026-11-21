@@ -1,0 +1,80 @@
+{
+  "id": "tiki-republik-2",
+  "name": "TIKI Republik",
+  "aliases": [],
+  "location": {
+    "lat": 25.019474,
+    "lng": 121.9500427,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "新北市",
+    "postalCode": "22841",
+    "country": "TW"
+  },
+  "formattedAddress": "舊草嶺環狀線自行車道, 新北市, 22841, 臺灣",
+  "timezone": "Asia/Taipei",
+  "externalIds": {
+    "google": "ChIJgbQNb8BdXTQRQZBfE1tzaF8",
+    "overture": "c0770284-aede-4f48-93a2-35e9825f93ac"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.969,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "05a755e50c02",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "c0770284-aede-4f48-93a2-35e9825f93ac",
+      "url": "https://explore.overturemaps.org/?feature=places.place.c0770284-aede-4f48-93a2-35e9825f93ac#17/25.019474029541016/121.95004272460938",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-republik",
+      "url": "https://tikiatlas.com/bar?slug=tiki-republik",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

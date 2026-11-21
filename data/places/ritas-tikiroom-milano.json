@@ -1,0 +1,103 @@
+{
+  "id": "ritas-tikiroom-milano",
+  "name": "Rita's Tiki Room",
+  "aliases": [
+    "Rita's Tikiroom"
+  ],
+  "location": {
+    "lat": 45.4504917,
+    "lng": 9.1695248,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "69 Ripa di Porta Ticinese",
+    "locality": "MILANO",
+    "region": "25",
+    "postalCode": "20143",
+    "country": "IT"
+  },
+  "formattedAddress": "69 Ripa di Porta Ticinese, Milano, Lombardia, 20143, Italia",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "google": "ChIJtxdau2XDhkcRVY4bEm7SwpU",
+    "osm": "node/1853370614",
+    "overture": "de943817-e32d-4152-9747-f0170856594c"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "phone": "+390283555017",
+    "website": "https://ritastikiroom.superbexperience.com/"
+  },
+  "tikiConfidence": 0.971,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "b262a1543557",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/1853370614",
+      "url": "https://www.openstreetmap.org/node/1853370614",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "de943817-e32d-4152-9747-f0170856594c",
+      "url": "https://explore.overturemaps.org/?feature=places.place.de943817-e32d-4152-9747-f0170856594c#17/45.450443267822266/9.169394493103027",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "ritas-tiki-room",
+      "url": "https://tikiatlas.com/bar?slug=ritas-tiki-room",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

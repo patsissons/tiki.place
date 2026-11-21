@@ -1,0 +1,73 @@
+{
+  "id": "paradise-palms-city-of-edinburgh",
+  "name": "Paradise Palms",
+  "aliases": [],
+  "location": {
+    "lat": 55.9462644,
+    "lng": -3.1891639,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "41 Lothian Street",
+    "locality": "City of Edinburgh",
+    "region": "Alba / Scotland",
+    "country": "GB"
+  },
+  "formattedAddress": "41 Lothian Street, City of Edinburgh, Alba / Scotland, EH1 1HB, United Kingdom",
+  "timezone": "Europe/London",
+  "externalIds": {
+    "google": "ChIJZQFf64THh0gR_f6xRyCXrwo"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "0e02d41521ff",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "paradise-palms",
+      "url": "https://tikiatlas.com/bar?slug=paradise-palms",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

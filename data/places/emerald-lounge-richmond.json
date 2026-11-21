@@ -8,10 +8,13 @@
     "precision": "rooftop"
   },
   "address": {
+    "street": "Jefferson Avenue",
     "locality": "Richmond",
     "region": "Virginia",
+    "postalCode": "23223",
     "country": "US"
   },
+  "formattedAddress": "Jefferson Avenue, Richmond, Virginia, 23223, United States",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJCcN5PXcRsYkRQt6DxmItt4A"
@@ -24,7 +27,7 @@
   "contact": {
     "website": "https://www.emeraldloungerva.com/"
   },
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -39,6 +42,10 @@
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "location": {
       "sourceId": "owner",
@@ -55,6 +62,20 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "38f0afac5862",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-emerald-lounge",
+      "url": "https://tikiatlas.com/bar?slug=the-emerald-lounge",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "emerald-lounge-richmond",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -62,7 +83,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

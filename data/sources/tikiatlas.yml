@@ -1,0 +1,30 @@
+id: tikiatlas
+name: The Tiki Atlas
+homepage: https://tikiatlas.com
+adapter: tikiatlas
+status: active
+license:
+  name: Facts only, attribution
+  url: https://tikiatlas.com
+  attribution: Listed on The Tiki Atlas
+trust: 0.55
+tikiSignal: 0.75
+queueNewPlaces: true
+schedule:
+  discovery: weekly
+politeness:
+  minIntervalMs: 10000
+  maxRequestsPerRun: 3
+  userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
+config:
+  dataUrl: https://tikiatlas.com/data.js
+  barUrl: https://tikiatlas.com/bar?slug=
+addedAt: 2026-11-21
+notes: |-
+  Static atlas of active and vanished tiki bars (~480 when surveyed on 2026-11-21). Every bar is in one file, data.js,
+  so a weekly run is a single request (plus robots.txt). robots.txt has no rules or content signals and there is no
+  terms page. ~420 entries were imported from the public "All The Tiki Bars" Google My Map and carry a Google place
+  ID, which matches our places without spending Google budget. We store facts only (name, address, coordinates,
+  website, Google ID, opening year), never the atlas's summaries, stories, drink lists or images. Its active/closed
+  flag is often stale (18 bars we rejected as permanently closed were still "active" there), so it is not used as a
+  status hint; closed entries only add attribution. New places always wait for the owner's review (queueNewPlaces).
