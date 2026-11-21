@@ -14,7 +14,8 @@
   },
   "timezone": "Europe/London",
   "externalIds": {
-    "overture": "79107ca8-a4d8-4a00-acf3-19e77c6e4235"
+    "overture": "79107ca8-a4d8-4a00-acf3-19e77c6e4235",
+    "google": "ChIJZS_cc9bDeUgRQ8CPr0Zqrhk"
   },
   "status": {
     "value": "unverified",
@@ -62,36 +63,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJifyfPy7BeUgROA9AYLoVKlc",
-        "name": "Golf Fang Nottingham",
-        "distanceM": 412,
-        "nameSim": 0.581
-      },
-      {
-        "googleId": "ChIJtRgf2DDDeUgRRz2hbBy4hLs",
-        "name": "Tropichol - Tiki Bar",
-        "distanceM": 214,
-        "nameSim": 0.571
-      },
-      {
-        "googleId": "ChIJn4LpOZXDeUgRcpRWHCRsuKc",
-        "name": "Tahula's Tiki Shack",
-        "distanceM": 419,
-        "nameSim": 0.286
-      },
-      {
-        "googleId": "ChIJZS_cc9bDeUgRQ8CPr0Zqrhk",
-        "name": "The Lost City Adventure Golf",
-        "distanceM": 57,
-        "nameSim": 0.049
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

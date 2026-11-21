@@ -1,7 +1,9 @@
 {
   "id": "tiki-tiki-chicago",
   "name": "Tiki Tiki Chicago",
-  "aliases": [],
+  "aliases": [
+    "Tiki Tiki at the Silver Palm"
+  ],
   "location": {
     "lat": 41.8956071,
     "lng": -87.6547798,
@@ -18,7 +20,8 @@
   "timezone": "America/Chicago",
   "externalIds": {
     "overture": "36cb60d7-b2ff-47f2-a95a-3f115fc088c2",
-    "google": "ChIJw-jNo5AtDogREhpwaYunG6o"
+    "google": "ChIJw-jNo5AtDogREhpwaYunG6o",
+    "osm": "node/9167628971"
   },
   "status": {
     "value": "temporarily_closed",
@@ -26,6 +29,7 @@
     "at": "2026-10-26T04:35:53.528Z"
   },
   "contact": {
+    "website": "https://www.silverpalmchicago.com/",
     "googleMapsUri": "https://maps.google.com/?cid=12257575028030183954&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
@@ -34,11 +38,12 @@
     "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.983,
   "review": {
-    "state": "auto_approved",
-    "by": "auto",
-    "at": "2026-10-26T04:35:53.528Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-10-30T22:01:31.133Z",
+    "reason": "Tiki Wanderlust lists it and it has a location"
   },
   "provenance": {
     "address": {
@@ -48,6 +53,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-13T17:49:11.025Z"
+    },
+    "contact.website": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -83,14 +92,28 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/9167628971",
+      "url": "https://www.openstreetmap.org/node/9167628971",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "36cb60d7-b2ff-47f2-a95a-3f115fc088c2",
       "url": "https://explore.overturemaps.org/?feature=places.place.36cb60d7-b2ff-47f2-a95a-3f115fc088c2#17/41.895599365234375/-87.65478515625",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-tiki-at-the-silver-palm-chicago",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T21:08:54.095Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

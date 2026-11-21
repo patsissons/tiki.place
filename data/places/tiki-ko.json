@@ -1,7 +1,9 @@
 {
   "id": "tiki-ko",
   "name": "Tiki-Ko",
-  "aliases": [],
+  "aliases": [
+    "Tiki-Ko & the Sinking Ship"
+  ],
   "location": {
     "lat": 35.376788499999996,
     "lng": -119.0177437,
@@ -111,7 +113,7 @@
   },
   "priceLevel": "$",
   "established": 2016,
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -188,9 +190,16 @@
       "url": "https://tikirat.com/bars/tiki-ko",
       "firstSeenAt": "2026-10-26T04:08:35.388Z",
       "lastSeenAt": "2026-10-30T20:33:48.355Z"
+    },
+    {
+      "sourceId": "tikiwanderlust",
+      "sourceRef": "tiki-ko-and-the-sinking-ship-bakersfield",
+      "url": "https://tikiwanderlust.com/master-list/",
+      "firstSeenAt": "2026-10-30T20:39:09.190Z",
+      "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

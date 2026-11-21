@@ -1,7 +1,8 @@
 {
   "id": "ula-ula-tiki-bar",
-  "name": "Ula Ula Tiki Bar",
+  "name": "Ula Ula Tiki at Redbar",
   "aliases": [
+    "Ula Ula Tiki Bar",
     "Ula Ula Tiki Room"
   ],
   "location": {
@@ -19,7 +20,8 @@
   "formattedAddress": "2245 E St Francis Ave (2F), St Francis WI 53235, USA",
   "timezone": "America/Chicago",
   "externalIds": {
-    "tikirat": "ula-ula-tiki-bar"
+    "tikirat": "ula-ula-tiki-bar",
+    "google": "ChIJWyR9fgAXBYgRgXlwI9WlY3w"
   },
   "status": {
     "value": "unverified",
@@ -58,8 +60,8 @@
       "observedAt": "2026-10-30T20:35:57.172Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:57.172Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -82,18 +84,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-01T16:50:03.603Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJWyR9fgAXBYgRgXlwI9WlY3w",
-        "name": "Ula Ula Tiki at Redbar",
-        "distanceM": 3,
-        "nameSim": 0.75
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-01T16:50:03.603Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "kahikimataro",
-  "name": "Kahikimataro",
-  "aliases": [],
+  "name": "Kahiki Mataró, Tiki Bar, pub, cocteleria",
+  "aliases": [
+    "Kahikimataro"
+  ],
   "location": {
     "lat": 41.5327148,
     "lng": 2.428226,
@@ -13,7 +15,8 @@
   },
   "timezone": "Europe/Madrid",
   "externalIds": {
-    "overture": "f82fe484-a3c2-4d33-b01b-bc8d6045a6c1"
+    "overture": "f82fe484-a3c2-4d33-b01b-bc8d6045a6c1",
+    "google": "ChIJs_2MCwC1pBIRzoy6pkraSnQ"
   },
   "status": {
     "value": "unverified",
@@ -23,7 +26,7 @@
   "contact": {
     "website": "http://kahiki.es/"
   },
-  "tikiConfidence": 0.75,
+  "tikiConfidence": 0.825,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -43,8 +46,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,18 +63,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJs_2MCwC1pBIRzoy6pkraSnQ",
-        "name": "Kahiki Mataró, Tiki Bar, pub, cocteleria",
-        "distanceM": 0,
-        "nameSim": 0.71
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

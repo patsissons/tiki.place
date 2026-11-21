@@ -1,7 +1,8 @@
 {
   "id": "tiki-tiki-lounge",
-  "name": "The Tiki Tiki Lounge",
+  "name": "Poki Poki",
   "aliases": [
+    "The Tiki Tiki Lounge",
     "Tiki Tiki Lounge @ Poki Poki"
   ],
   "location": {
@@ -19,7 +20,8 @@
   "formattedAddress": "3517 Wyoming Blvd NE, Albuquerque NM 87111, USA",
   "timezone": "America/Denver",
   "externalIds": {
-    "tikirat": "the-tiki-tiki-lounge"
+    "tikirat": "the-tiki-tiki-lounge",
+    "google": "ChIJ--vUPU91IocRPMVnJs2eIpA"
   },
   "status": {
     "value": "unverified",
@@ -58,8 +60,8 @@
       "observedAt": "2026-10-30T20:32:41.957Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:32:41.957Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -82,30 +84,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-02T20:24:28.556Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJN2RP8Z8MIocRmJ5MI9SE7KE",
-        "name": "The Copper Lounge",
-        "distanceM": 8532,
-        "nameSim": 0.5
-      },
-      {
-        "googleId": "ChIJ--vUPU91IocRPMVnJs2eIpA",
-        "name": "Poki Poki",
-        "distanceM": 0,
-        "nameSim": 0.143
-      },
-      {
-        "googleId": "ChIJK11WJhsLIocRHL1DevzzFtk",
-        "name": "Happy Accidents",
-        "distanceM": 7049,
-        "nameSim": 0
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

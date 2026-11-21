@@ -1,7 +1,9 @@
 {
   "id": "electric-cure-edgewater",
-  "name": "The Electric Cure",
-  "aliases": [],
+  "name": "The Cure Edgewater",
+  "aliases": [
+    "The Electric Cure"
+  ],
   "location": {
     "lat": 39.7528954,
     "lng": -105.0552444,
@@ -18,7 +20,8 @@
   "timezone": "America/Denver",
   "externalIds": {
     "overture": "9f843c7c-4bbe-436a-9525-1dcf5f918d77",
-    "tikirat": "the-electric-cure"
+    "tikirat": "the-electric-cure",
+    "google": "ChIJx-mQAR6Ha4cRyuHomE-tnmY"
   },
   "status": {
     "value": "unverified",
@@ -62,8 +65,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:31:14.911Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -93,18 +96,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJx-mQAR6Ha4cRyuHomE-tnmY",
-        "name": "The Cure Edgewater",
-        "distanceM": 11,
-        "nameSim": 0.5
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

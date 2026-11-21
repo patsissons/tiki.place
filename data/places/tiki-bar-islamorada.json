@@ -17,7 +17,8 @@
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "9ed97f6a-6e49-409e-8f34-959bcd392cac",
-    "osm": "way/965379606"
+    "osm": "way/965379606",
+    "google": "ChIJE7qU4Uo414gRk4jTMMkyMS4"
   },
   "status": {
     "value": "unverified",
@@ -83,36 +84,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJE7qU4Uo414gRk4jTMMkyMS4",
-        "name": "Tiki Bar",
-        "distanceM": 6713,
-        "nameSim": 1
-      },
-      {
-        "googleId": "ChIJH7vT1KQ414gRcMeMiICeW3I",
-        "name": "Marker 88 Tiki Bar",
-        "distanceM": 12648,
-        "nameSim": 0.667
-      },
-      {
-        "googleId": "ChIJHxGnWJg314gRlgkditeOHKE",
-        "name": "Tiki Bar at Amara Cay Resort",
-        "distanceM": 72,
-        "nameSim": 0.5
-      },
-      {
-        "googleId": "ChIJbTQRizU314gRXvFXkdQPJ04",
-        "name": "Amara Cay Resort",
-        "distanceM": 37,
-        "nameSim": 0.105
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

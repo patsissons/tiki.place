@@ -1,8 +1,8 @@
 {
   "id": "tiki-grill-bar",
-  "name": "Tiki Grill & Bar",
+  "name": "Tikis Grill & Bar",
   "aliases": [
-    "Tikis Grill & Bar"
+    "Tiki Grill & Bar"
   ],
   "location": {
     "lat": 21.2722354,
@@ -21,7 +21,8 @@
   "externalIds": {
     "tikirat": "tiki-grill-bar",
     "overture": "97d8a7b7-72f6-4f70-9d7c-e06915e878bf",
-    "osm": "node/4666917790"
+    "osm": "node/4666917790",
+    "google": "ChIJpeekwXByAHwRmkqRkpULgRM"
   },
   "status": {
     "value": "unverified",
@@ -65,8 +66,8 @@
       "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:32.973Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -103,42 +104,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJpeekwXByAHwRmkqRkpULgRM",
-        "name": "Tikis Grill & Bar",
-        "distanceM": null,
-        "nameSim": 0.692
-      },
-      {
-        "googleId": "ChIJPxVfFAHZhVQRPZkx8JJXs3c",
-        "name": "Quayside Tiki Bar",
-        "distanceM": null,
-        "nameSim": 0.667
-      },
-      {
-        "googleId": "ChIJ95DN-xNxhlQRXWpKDVqg42U",
-        "name": "Tiki Bar at the Waldorf",
-        "distanceM": null,
-        "nameSim": 0.5
-      },
-      {
-        "googleId": "ChIJyxAQun5xhlQRGApqaKckwMs",
-        "name": "ConTiki Cabana",
-        "distanceM": null,
-        "nameSim": 0.348
-      },
-      {
-        "googleId": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
-        "name": "The Shameful Tiki Room",
-        "distanceM": null,
-        "nameSim": 0.333
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

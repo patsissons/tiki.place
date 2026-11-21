@@ -17,7 +17,8 @@
   "formattedAddress": "6201 Minaret Rd, Mammoth Lakes CA 93546, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "tikirat": "lakanuki"
+    "tikirat": "lakanuki",
+    "google": "ChIJrcpwjLoNloAR6nhgKLH7SvA"
   },
   "status": {
     "value": "unverified",
@@ -85,18 +86,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-01T16:50:03.603Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJrcpwjLoNloAR6nhgKLH7SvA",
-        "name": "Lakanuki | Hawaiian • Bar",
-        "distanceM": 83,
-        "nameSim": 0.667
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-01T16:50:03.603Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

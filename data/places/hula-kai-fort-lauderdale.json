@@ -1,14 +1,18 @@
 {
   "id": "hula-kai-fort-lauderdale",
-  "name": "Hula Kai",
-  "aliases": [],
+  "name": "Hula Kai Tiki Bar + Lounge",
+  "aliases": [
+    "Hula Kai"
+  ],
   "location": null,
   "address": {
     "locality": "Fort Lauderdale",
     "region": "Florida",
     "country": "US"
   },
-  "externalIds": {},
+  "externalIds": {
+    "google": "ChIJ27MdRYkB2YgR13GYxihncoo"
+  },
   "status": {
     "value": "coming_soon",
     "sourceId": "tikiwanderlust",
@@ -27,8 +31,8 @@
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     }
   },
   "sources": [
@@ -42,5 +46,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

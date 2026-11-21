@@ -1,6 +1,6 @@
 {
   "id": "flask-and-cannon-jacksonville",
-  "name": "Flask & Cannon",
+  "name": "Flask and Cannon",
   "aliases": [],
   "location": null,
   "address": {
@@ -8,7 +8,9 @@
     "region": "Florida",
     "country": "US"
   },
-  "externalIds": {},
+  "externalIds": {
+    "google": "ChIJsTpp3QZJ5IgRPDlZ6An6aiQ"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
@@ -27,8 +29,8 @@
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     }
   },
   "sources": [
@@ -42,5 +44,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

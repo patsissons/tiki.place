@@ -2914,3 +2914,653 @@
   reason: permanently closed
   at: 2026-11-21T18:43:46.346Z
   by: owner
+- type: resolve
+  place: 999-tiki-bar-camarillo
+  google: ChIJ1z5OAQA36IARS6fZZUreRMU
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: asheville-yacht-club-asheville
+  google: ChIJA0tnk1bzWYgRhemjZb48ofs
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: ballmer-peak-distillery-lakewood
+  google: ChIJyYgGEnyDa4cRay25OnIRaFg
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: ballmer-peak-distillery-lakewood
+  field: name
+  value: Ballmer Peak Distillery - Green Mountain
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: bamboo-room-by-trader-vics-miami-beach
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: bar-tiki-clearwater
+  google: ChIJWTEwAD33wogRatwjsCmC1Bg
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: merge
+  from: bernards-tiki-room-arvada
+  into: arvada-tavern-bernards-tiki-room
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: blind-rabbit-anaheim
+  google: ChIJM1LyCjDW3IARmfcsEtdP9n4
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: blind-rabbit-anaheim
+  field: name
+  value: The Blind Rabbit
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: boat-drinks-st-augustine
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: capt-js-hurricane-tilburg
+  google: ChIJhVGuiay_xkcRNniHq4IXsiE
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: capt-js-hurricane-tilburg
+  field: name
+  value: Capt. J's Hurricane Caribbeanclub & Tikiroom
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: casa-bonita-lakewood
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: china-doll-harvey
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: curayacu-tiki-bar-punta-hermosa
+  google: ChIJIe9TDL2jBZERGcUW82FpDlk
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: curayacu-tiki-bar-punta-hermosa
+  field: name
+  value: Curayacu Tiki Bar - Punta Hermosa
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: da-hui-hawaiian-bar-and-grill-portland
+  google: ChIJlX9i6BSglVQRBNRHIc7xKYo
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: deck-honolulu
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: electric-cure-edgewater
+  google: ChIJx-mQAR6Ha4cRyuHomE-tnmY
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: electric-cure-edgewater
+  field: name
+  value: The Cure Edgewater
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: emerald-lounge-richmond
+  google: ChIJCcN5PXcRsYkRQt6DxmItt4A
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: flask-and-cannon-jacksonville
+  google: ChIJsTpp3QZJ5IgRPDlZ6An6aiQ
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: flask-and-cannon-jacksonville
+  field: name
+  value: Flask and Cannon
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: fongs-pizza-ankeny
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: galley-santa-monica
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: graystone-lounge-tiki-bar-silverton
+  google: ChIJnaIMBHrjv1QRTDx8IZkaP6c
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: graystone-lounge-tiki-bar-silverton
+  field: name
+  value: Rum Runner
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: gringo-locos-cartagena
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: hawaiian-room
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: honey-bee-villa-park
+  google: ChIJlVzgv2xNDogRcIK_ee_SwbI
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: merge
+  from: honu-and-the-ka-pakele-rum-bar-dunedin
+  into: honu-restaurant-and-tiki-bar-dunedin
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: house-of-foong-lin-bethesda
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: hula-kai-fort-lauderdale
+  google: ChIJ27MdRYkB2YgR13GYxihncoo
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: hula-kai-fort-lauderdale
+  field: name
+  value: Hula Kai Tiki Bar + Lounge
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: hulas-island-grill-santa-cruz
+  google: ChIJ7VP15SdAjoARn0mYvUIzxos
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: hulas-island-grill-santa-cruz
+  field: name
+  value: Hula's Island Grill
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: huli-huli-tiki-lounge-powell
+  google: ChIJ_0NtZmPzOIgR_n48hN8a764
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: huna-tiki-bar-ann-arbor
+  google: ChIJU8V8r0mvPIgRodujjEszdr8
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: island-breeze-tiki-bar-lakeland
+  google: ChIJSzyomAE53YgRbGVH-fb_d0U
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: jungle-room-richmond
+  google: ChIJtfwFtyMRsYkR7DWampIUEN0
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: kahikimataro
+  google: ChIJs_2MCwC1pBIRzoy6pkraSnQ
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: kahikimataro
+  field: name
+  value: Kahiki Mataró, Tiki Bar, pub, cocteleria
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: kanakas-tiki-bar-webster
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: kaona-room
+  google: ChIJdxmUNqO32YgRl8pmaDF5hXM
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: kaona-room
+  field: name
+  value: Kaona, The Hidden Tiki Room
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: kiki-lounge-douglas
+  google: ChIJt5e54G6FY0gRLyqDyJiDuZQ
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: kona-inn-kailua-kona
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: lakanuki
+  google: ChIJrcpwjLoNloAR6nhgKLH7SvA
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: lava-lava-beach-club-kauai
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: luau-cocktail-lounge-cordoba
+  google: ChIJ40o3gYbfbA0RNRxSsS0mRbo
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: luau-cocktail-lounge-cordoba
+  field: name
+  value: Luau Cocktail Lounge
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: mai-tai-bar-daytona-beach
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: makai-restaurant-and-tiki-bar-roma
+  google: ChIJ0Vl2yStgLxMRxsJb0Hke45E
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: makai-restaurant-and-tiki-bar-roma
+  field: name
+  value: Makai Grand Line
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: marama-tiki-bar-salerno
+  google: ChIJcyPtCATDOxMRaFiVDrh9pAQ
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: marges-lakeside-inn
+  google: ChIJc1KamEfI1okRpUTaSgR9LgE
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: marges-lakeside-inn
+  field: name
+  value: Marge's Lakeside Inn in Lake Ontario
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: mccaws-tiki-bar-nottingham
+  google: ChIJZS_cc9bDeUgRQ8CPr0Zqrhk
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: monkeypod-kapolei
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: monkeypod-kihei
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: monkeypod-lahaina
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: monkeypod-waikiki
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: morgans-cove-tampa
+  google: ChIJRxXOTQDFwogRwF74OMPdvhg
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: nickel-city-austin
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: nickel-city-fort-worth
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: nickel-city-houston
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: no-mans-land-fort-lauderdale
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: noka-ramen-oakland
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: oh-no-lulu-ciudad-de-buenos-aires
+  google: ChIJ8QKcfQDLvJURFICiJKSFdtU
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: ohana-sushi-grill-belltown
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: paradise-club-chicago
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: peppermill-restaurant-and-fireside-lounge-las-vegas
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: point-sea-isle-city
+  google: ChIJW28KlNS7wIkRjDSXnRZhSuI
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: point-sea-isle-city
+  field: name
+  value: The Point - Sea Isle City
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: point-wildwood
+  google: ChIJ11uBWQCpwIkR5ScBBIJoLlU
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: point-wildwood
+  field: name
+  value: The Point - Wildwood
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: pool-burger-austin
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: pufferfish-milwaukee
+  google: ChIJzaUhbfgZBYgR_yEon_hph68
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: reckless-noodle-house-denver
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: reckless-noodle-house-seattle
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: sacred-palm-columbus
+  google: ChIJrz3cTvSPOIgR__axmXhvHDA
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: ship-tavern-denver
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: shipwreck-tavern-bayville
+  google: ChIJJ222RkebwokRyIENxuakDWw
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: strange-bird-indianapolis
+  google: ChIJJx9xonFPa4gREQbY3SveYjE
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: sugar-cane-london
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tahiti-nui-hanalei
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tiki-bar-bridlington
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tiki-bar-elkhart-lake
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-bar-islamorada
+  google: ChIJE7qU4Uo414gRk4jTMMkyMS4
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tiki-bar-solomons
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-bs-pasadena
+  google: ChIJQxp2vqfDwoARqvxGx2ZNynE
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-bungalow-beijing
+  google: ChIJlR5fDfhT8DURG2ZHzFdLDgQ
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-grill-bar
+  google: ChIJpeekwXByAHwRmkqRkpULgRM
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: tiki-grill-bar
+  field: name
+  value: Tikis Grill & Bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: merge
+  from: tiki-ko-and-the-sinking-ship-bakersfield
+  into: tiki-ko
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-lounge
+  google: ChIJYc5aW27xNIgRV7EvBRJRk-g
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-mug-tiki-bar-and-tropikal-food-cancun
+  google: ChIJ0W7o-gAtTI8RtmoincWgdrg
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: tiki-thai-arlington
+  field: address
+  value:
+    street: "244 19th Ct S, Suites #10 & 15"
+    locality: Arlington
+    region: Virginia
+    postalCode: "22202"
+    country: US
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: tiki-thai-arlington
+  field: location
+  value:
+    lat: 38.8564718
+    lng: -77.0496024
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: tiki-thai-arlington
+  field: contact.website
+  value: https://tikithai.com/tiki-new-location/
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: merge
+  from: tiki-tiki-at-the-silver-palm-chicago
+  into: tiki-tiki-chicago
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tiki-tiki-lounge
+  google: ChIJ--vUPU91IocRPMVnJs2eIpA
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: tiki-tiki-lounge
+  field: name
+  value: Poki Poki
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tiki-tiki-restaurant-richmond
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: merge
+  from: tiki-tnt-washington
+  into: tiki-tnt-potomac-distilling-co
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tikis-tokyo
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tilted-tiki-stillwater
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tipsy-tiki-honolulu
+  google: ChIJTyrHT1JzAHwRfTOw8ANZZP0
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: tonys-on-the-pier-redondo-beach
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: trader-vics-island-bar-and-grill-kona
+  field: address
+  value:
+    street: 75-5739 Ali‘i Dr
+    locality: Kailua-Kona
+    region: Hawaii
+    postalCode: "96740"
+    country: US
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: trader-vics-island-bar-and-grill-kona
+  field: location
+  value:
+    lat: 19.6380879
+    lng: -155.992641
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: trader-vics-island-bar-and-grill-kona
+  field: name
+  value: Island Bar & Grill by Trader Vic’s
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: trader-vics-island-bar-and-grill-kona
+  field: contact.website
+  value: https://tradervicskona.com/
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: trader-vics-los-angeles
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: trader-vics-outpost-oakland
+  google: ChIJu3nGPACFj4ARNN2kp6rhpMg
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: trader-vics-outpost-san-jose
+  google: ChIJdYEs_B3Lj4ARlbMi1KaqNQQ
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: tropic-thunder-phoenix
+  google: ChIJzbU5_Z0TK4cRlw1bui3vFPg
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: ula-ula-tiki-bar
+  google: ChIJWyR9fgAXBYgRgXlwI9WlY3w
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: pin
+  place: ula-ula-tiki-bar
+  field: name
+  value: Ula Ula Tiki at Redbar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: voodoo-hut-kemah
+  reason: not a tiki bar
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: reject
+  place: waikiki-tiki-room
+  reason: permanently closed
+  at: 2026-11-21T21:08:52.739Z
+  by: owner
+- type: resolve
+  place: weasel-boy-brewing-zanesville
+  google: ChIJlVdnLW_uN4gRNGyDIDW2xK8
+  at: 2026-11-21T21:08:52.739Z
+  by: owner

@@ -8,7 +8,9 @@
     "region": "Hawaii",
     "country": "US"
   },
-  "externalIds": {},
+  "externalIds": {
+    "google": "ChIJTyrHT1JzAHwRfTOw8ANZZP0"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
@@ -42,5 +44,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-10-30T20:39:09.190Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

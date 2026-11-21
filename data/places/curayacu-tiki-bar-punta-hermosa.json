@@ -1,7 +1,9 @@
 {
   "id": "curayacu-tiki-bar-punta-hermosa",
-  "name": "Curayacu Tiki Bar",
-  "aliases": [],
+  "name": "Curayacu Tiki Bar - Punta Hermosa",
+  "aliases": [
+    "Curayacu Tiki Bar"
+  ],
   "location": {
     "lat": -12.3327818,
     "lng": -76.8259735,
@@ -13,7 +15,8 @@
   },
   "timezone": "America/Lima",
   "externalIds": {
-    "overture": "1a124324-8221-46d6-bd4e-79cf36201ce5"
+    "overture": "1a124324-8221-46d6-bd4e-79cf36201ce5",
+    "google": "ChIJIe9TDL2jBZERGcUW82FpDlk"
   },
   "status": {
     "value": "unverified",
@@ -37,8 +40,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:08:52.739Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -54,18 +57,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJIe9TDL2jBZERGcUW82FpDlk",
-        "name": "Curayacu Tiki Bar - Punta Hermosa",
-        "distanceM": 3,
-        "nameSim": 0.75
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

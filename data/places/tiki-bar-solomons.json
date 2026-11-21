@@ -30,10 +30,10 @@
   },
   "tikiConfidence": 0.878,
   "review": {
-    "state": "approved",
+    "state": "rejected",
     "by": "owner",
-    "at": "2026-10-31T00:42:49.133Z",
-    "reason": "own menu meets the 3-drink rule"
+    "at": "2026-11-21T21:08:52.739Z",
+    "reason": "tiki-adjacent with no dedicated tiki room or menu"
   },
   "provenance": {
     "address": {
@@ -90,5 +90,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

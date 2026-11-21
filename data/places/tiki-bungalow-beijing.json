@@ -13,7 +13,8 @@
   },
   "timezone": "Asia/Shanghai",
   "externalIds": {
-    "overture": "eb89090d-442d-492d-8664-7aaa45bbd574"
+    "overture": "eb89090d-442d-492d-8664-7aaa45bbd574",
+    "google": "ChIJlR5fDfhT8DURG2ZHzFdLDgQ"
   },
   "status": {
     "value": "unverified",
@@ -54,18 +55,6 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJlR5fDfhT8DURG2ZHzFdLDgQ",
-        "name": "The Tiki Bungalow",
-        "distanceM": 490,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }

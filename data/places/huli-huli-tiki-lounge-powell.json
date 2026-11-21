@@ -15,7 +15,8 @@
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "8dbae8e3-3a75-4589-aeba-ef458442edad",
-    "osm": "node/10151661707"
+    "osm": "node/10151661707",
+    "google": "ChIJ_0NtZmPzOIgR_n48hN8a764"
   },
   "status": {
     "value": "unverified",
@@ -83,18 +84,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-10-26T04:35:53.528Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJ_0NtZmPzOIgR_n48hN8a764",
-        "name": "Huli Huli - Powell",
-        "distanceM": 2,
-        "nameSim": 0.667
-      }
-    ]
-  },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-18T18:52:42.464Z"
+  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
 }
