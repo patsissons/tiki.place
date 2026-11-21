@@ -2,12 +2,17 @@
   "id": "tiki-bs-pasadena",
   "name": "Tiki B’s",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 34.1461012,
+    "lng": -118.1483643,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Pasadena",
     "region": "California",
     "country": "US"
   },
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJQxp2vqfDwoARqvxGx2ZNynE"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

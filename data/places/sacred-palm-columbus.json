@@ -2,12 +2,17 @@
   "id": "sacred-palm-columbus",
   "name": "Sacred Palm",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 39.9717081,
+    "lng": -83.0027011,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Columbus",
     "region": "Ohio",
     "country": "US"
   },
+  "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJrz3cTvSPOIgR__axmXhvHDA"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

@@ -2,12 +2,17 @@
   "id": "weasel-boy-brewing-zanesville",
   "name": "Weasel Boy Brewing",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 39.9362978,
+    "lng": -82.0095368,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Zanesville",
     "region": "Ohio",
     "country": "US"
   },
+  "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJlVdnLW_uN4gRNGyDIDW2xK8"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

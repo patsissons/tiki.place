@@ -2,12 +2,17 @@
   "id": "asheville-yacht-club-asheville",
   "name": "Asheville Yacht Club",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 35.5944176,
+    "lng": -82.5554715,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Asheville",
     "region": "North Carolina",
     "country": "US"
   },
+  "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJA0tnk1bzWYgRhemjZb48ofs"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

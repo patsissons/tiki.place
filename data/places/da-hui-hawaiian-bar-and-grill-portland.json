@@ -2,12 +2,17 @@
   "id": "da-hui-hawaiian-bar-and-grill-portland",
   "name": "Da’ Hui Hawaiian Bar & Grill",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 45.4889984,
+    "lng": -122.5956573,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Portland",
     "region": "Oregon",
     "country": "US"
   },
+  "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJlX9i6BSglVQRBNRHIc7xKYo"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

@@ -2,12 +2,17 @@
   "id": "tipsy-tiki-honolulu",
   "name": "Tipsy Tiki",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 21.2789059,
+    "lng": -157.8258569,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Honolulu",
     "region": "Hawaii",
     "country": "US"
   },
+  "timezone": "Pacific/Honolulu",
   "externalIds": {
     "google": "ChIJTyrHT1JzAHwRfTOw8ANZZP0"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

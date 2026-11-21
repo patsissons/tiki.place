@@ -3727,3 +3727,203 @@
   at: 2026-11-21T21:22:37.883Z
   by: owner
   note: owner linked its Google Maps place
+- type: pin
+  place: 999-tiki-bar-camarillo
+  field: location
+  value:
+    lat: 34.2168506
+    lng: -119.0442135
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: asheville-yacht-club-asheville
+  field: location
+  value:
+    lat: 35.5944176
+    lng: -82.5554715
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: ballmer-peak-distillery-lakewood
+  field: location
+  value:
+    lat: 39.7040147
+    lng: -105.1394052
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: bar-tiki-clearwater
+  field: location
+  value:
+    lat: 27.9767778
+    lng: -82.8263582
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: blind-rabbit-anaheim
+  field: location
+  value:
+    lat: 33.8314499
+    lng: -117.9118638
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: da-hui-hawaiian-bar-and-grill-portland
+  field: location
+  value:
+    lat: 45.4889984
+    lng: -122.5956573
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: emerald-lounge-richmond
+  field: location
+  value:
+    lat: 37.5352852
+    lng: -77.4160812
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: flask-and-cannon-jacksonville
+  field: location
+  value:
+    lat: 30.2939144
+    lng: -81.3907608
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: honey-bee-villa-park
+  field: location
+  value:
+    lat: 41.8829794
+    lng: -87.9796065
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: hula-kai-fort-lauderdale
+  field: location
+  value:
+    lat: 26.1011645
+    lng: -80.1320198
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: hulas-island-grill-santa-cruz
+  field: location
+  value:
+    lat: 36.9713997
+    lng: -122.0261519
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: huna-tiki-bar-ann-arbor
+  field: location
+  value:
+    lat: 42.2804173
+    lng: -83.749135
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: island-breeze-tiki-bar-lakeland
+  field: location
+  value:
+    lat: 28.0438693
+    lng: -81.9560261
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: jungle-room-richmond
+  field: location
+  value:
+    lat: 37.56146
+    lng: -77.4691518
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: morgans-cove-tampa
+  field: location
+  value:
+    lat: 27.9475445
+    lng: -82.4551713
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: pufferfish-milwaukee
+  field: location
+  value:
+    lat: 43.0397474
+    lng: -87.9063182
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: sacred-palm-columbus
+  field: location
+  value:
+    lat: 39.9717081
+    lng: -83.0027011
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: shipwreck-tavern-bayville
+  field: location
+  value:
+    lat: 40.9084389
+    lng: -73.5817936
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: strange-bird-indianapolis
+  field: location
+  value:
+    lat: 39.7680272
+    lng: -86.0708582
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: tiki-bs-pasadena
+  field: location
+  value:
+    lat: 34.1461012
+    lng: -118.1483643
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: tipsy-tiki-honolulu
+  field: location
+  value:
+    lat: 21.2789059
+    lng: -157.8258569
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: trader-vics-outpost-oakland
+  field: location
+  value:
+    lat: 37.7112871
+    lng: -122.2121568
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: trader-vics-outpost-san-jose
+  field: location
+  value:
+    lat: 37.365978
+    lng: -121.925522
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: tropic-thunder-phoenix
+  field: location
+  value:
+    lat: 33.4592
+    lng: -112.0716232
+  at: 2026-11-21T21:24:09.646Z
+  by: owner
+- type: pin
+  place: weasel-boy-brewing-zanesville
+  field: location
+  value:
+    lat: 39.9362978
+    lng: -82.0095368
+  at: 2026-11-21T21:24:09.646Z
+  by: owner

@@ -4,12 +4,17 @@
   "aliases": [
     "Ballmer Peak Distillery"
   ],
-  "location": null,
+  "location": {
+    "lat": 39.7040147,
+    "lng": -105.1394052,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Lakewood",
     "region": "Colorado",
     "country": "US"
   },
+  "timezone": "America/Denver",
   "externalIds": {
     "google": "ChIJyYgGEnyDa4cRay25OnIRaFg"
   },
@@ -31,9 +36,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -47,5 +60,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

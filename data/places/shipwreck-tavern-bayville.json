@@ -2,12 +2,17 @@
   "id": "shipwreck-tavern-bayville",
   "name": "Shipwreck Tavern",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 40.9084389,
+    "lng": -73.5817936,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Bayville",
     "region": "New York",
     "country": "US"
   },
+  "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJJ222RkebwokRyIENxuakDWw"
   },
@@ -29,9 +34,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -45,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }

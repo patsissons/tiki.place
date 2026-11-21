@@ -4,12 +4,17 @@
   "aliases": [
     "Hula Kai"
   ],
-  "location": null,
+  "location": {
+    "lat": 26.1011645,
+    "lng": -80.1320198,
+    "precision": "rooftop"
+  },
   "address": {
     "locality": "Fort Lauderdale",
     "region": "Florida",
     "country": "US"
   },
+  "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJ27MdRYkB2YgR13GYxihncoo"
   },
@@ -31,9 +36,17 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "location": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:24:09.646Z"
+    },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T21:24:09.646Z"
     }
   },
   "sources": [
@@ -47,5 +60,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:22:38.045Z"
+  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
 }
