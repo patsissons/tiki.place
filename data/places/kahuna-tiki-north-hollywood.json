@@ -36,7 +36,7 @@
     "count": 655,
     "at": "2026-11-15T17:14:47.787Z"
   },
-  "tikiConfidence": 0.951,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -83,6 +83,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "7ce6e2a184d8",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJTwdXbvOVwoARomqCBB1qJHA",
       "url": "https://maps.google.com/?cid=8080700304271764130&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -104,6 +111,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "kahuna-tiki",
+      "url": "https://tikiatlas.com/bar?slug=kahuna-tiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "kahuna-tiki-north-hollywood",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -112,6 +126,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-15T17:14:47.787Z"
 }

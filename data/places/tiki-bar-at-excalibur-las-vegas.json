@@ -1,0 +1,75 @@
+{
+  "id": "tiki-bar-at-excalibur-las-vegas",
+  "name": "The Tiki Bar at Excalibur",
+  "aliases": [],
+  "location": {
+    "lat": 36.0988,
+    "lng": -115.1754,
+    "precision": "locality"
+  },
+  "address": {
+    "street": "3850 S Las Vegas Blvd",
+    "locality": "Las Vegas",
+    "region": "NV",
+    "country": "US"
+  },
+  "formattedAddress": "3850 S Las Vegas Blvd, Las Vegas, NV 89109",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "https://excalibur.mgmresorts.com/"
+  },
+  "established": 2026,
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.website": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-tiki-bar-at-excalibur",
+      "url": "https://tikiatlas.com/bar?slug=the-tiki-bar-at-excalibur",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "tiki-as-fk-perth",
+  "name": "Tiki as FK",
+  "aliases": [],
+  "location": {
+    "lat": -31.9487541,
+    "lng": 115.8583305,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "91a James Street",
+    "locality": "Perth",
+    "region": "WA",
+    "postalCode": "6003",
+    "country": "AU"
+  },
+  "formattedAddress": "91 James Street, Perth, Western Australia, 6003, Australia",
+  "timezone": "Australia/Perth",
+  "externalIds": {
+    "google": "ChIJx22KYdG6MioRbI_xXTDsvjg",
+    "osm": "node/3266865471",
+    "overture": "86c55655-6422-479d-aa00-21fffc1c38c6"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "http://www.tiki-as-fk.co/"
+  },
+  "tikiConfidence": 0.979,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "58f1ff933c65",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/3266865471",
+      "url": "https://www.openstreetmap.org/node/3266865471",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "86c55655-6422-479d-aa00-21fffc1c38c6",
+      "url": "https://explore.overturemaps.org/?feature=places.place.86c55655-6422-479d-aa00-21fffc1c38c6#17/-31.94878387451172/115.85828399658203",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-as-fk",
+      "url": "https://tikiatlas.com/bar?slug=tiki-as-fk",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

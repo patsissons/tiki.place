@@ -86,7 +86,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.991,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -144,6 +144,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "a3a500657825",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJF0Y0CBMD9YgRtQS13OVavH8",
       "url": "https://maps.google.com/?cid=9204331681735312565&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -165,6 +172,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "dukes-hideaway-at-mccrays",
+      "url": "https://tikiatlas.com/bar?slug=dukes-hideaway-at-mccrays",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "duke-s-hideaway-at-the-baxter",
       "url": "https://tikirat.com/bars/duke-s-hideaway-at-the-baxter",
@@ -173,6 +187,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

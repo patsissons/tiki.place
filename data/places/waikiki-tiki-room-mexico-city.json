@@ -1,0 +1,62 @@
+{
+  "id": "waikiki-tiki-room-mexico-city",
+  "name": "Waikiki Tiki Room",
+  "aliases": [],
+  "location": {
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "precision": "locality"
+  },
+  "address": {
+    "locality": "Mexico City",
+    "country": "MX"
+  },
+  "timezone": "America/Mexico_City",
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "established": 2019,
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "waikiki-tiki-room",
+      "url": "https://tikiatlas.com/bar?slug=waikiki-tiki-room",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+}

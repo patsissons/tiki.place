@@ -121,7 +121,7 @@
   },
   "priceLevel": "$$",
   "established": 2024,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -179,6 +179,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "3be4e93737ce",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJ2-kH6HC1woARVXHJ8EmjY68",
       "url": "https://maps.google.com/?cid=12638124517299417429&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -191,6 +198,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.e4ecf598-e423-4ebb-9090-05116bed710d#17/33.83955383300781/-118.35308837890625",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-hula-hula-room",
+      "url": "https://tikiatlas.com/bar?slug=the-hula-hula-room",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -208,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

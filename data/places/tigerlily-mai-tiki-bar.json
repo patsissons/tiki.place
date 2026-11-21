@@ -40,7 +40,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -94,6 +94,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "231595749df4",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJiQ1p1YnPJIgRvrbauBCeW8o",
       "url": "https://maps.google.com/?cid=14581422013200119486&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -106,6 +113,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.33c5f799-be5f-43fa-8c00-4b05413a15b1#17/42.46043395996094/-83.1368179321289",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "mai-tiki",
+      "url": "https://tikiatlas.com/bar?slug=mai-tiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -128,6 +142,6 @@
     "candidates": []
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-15T17:14:47.787Z"
 }

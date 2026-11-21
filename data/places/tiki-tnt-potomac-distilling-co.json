@@ -116,7 +116,7 @@
   },
   "priceLevel": "$$",
   "established": 2018,
-  "tikiConfidence": 0.997,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -174,6 +174,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "91ce11e5750b",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJo32ojVW3t4kRQsVu54T4Y4c",
       "url": "https://maps.google.com/?cid=9755914467516794178&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -195,6 +202,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-tnt-and-potomac-distilling-company",
+      "url": "https://tikiatlas.com/bar?slug=tiki-tnt-and-potomac-distilling-company",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "tiki-tnt-potomac-distilling-co",
       "url": "https://tikirat.com/bars/tiki-tnt-potomac-distilling-co",
@@ -210,6 +224,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

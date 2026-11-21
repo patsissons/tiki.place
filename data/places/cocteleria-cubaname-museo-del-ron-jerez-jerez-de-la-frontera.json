@@ -1,0 +1,73 @@
+{
+  "id": "cocteleria-cubaname-museo-del-ron-jerez-jerez-de-la-frontera",
+  "name": "Coctelería, Cubaname - Museo del Ron, Jerez",
+  "aliases": [],
+  "location": {
+    "lat": 36.6954649,
+    "lng": -6.1357021,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Jerez de la Frontera",
+    "region": "Andalucía",
+    "postalCode": "11407",
+    "country": "ES"
+  },
+  "formattedAddress": "Avenida Tomás García Figueras, Jerez de la Frontera, Andalucía, 11407, España",
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "google": "ChIJpZf227nGDQ0RHuylO2b3MBA"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "3b570a98d74c",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "cocteleri-a-cubaname-museo-del-ron-jerez",
+      "url": "https://tikiatlas.com/bar?slug=cocteleri-a-cubaname-museo-del-ron-jerez",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

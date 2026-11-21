@@ -1,0 +1,89 @@
+{
+  "id": "aloha-brno",
+  "name": "Aloha Tiki Bar",
+  "aliases": [
+    "ALOHA"
+  ],
+  "location": {
+    "lat": 49.1964073,
+    "lng": 16.6097603,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "12 Kozí",
+    "locality": "Brno",
+    "region": "64",
+    "country": "CZ"
+  },
+  "formattedAddress": "12 Kozí, Brno, Jihomoravský kraj, 602 00, Česko",
+  "timezone": "Europe/Prague",
+  "externalIds": {
+    "google": "ChIJSTTfA1qUEkcRMd3CRo8zWfE",
+    "overture": "ae2106fe-eaf3-474c-b0f8-2ed353c3d288"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "http://www.alohabar.cz/"
+  },
+  "tikiConfidence": 0.969,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "788927e65856",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "ae2106fe-eaf3-474c-b0f8-2ed353c3d288",
+      "url": "https://explore.overturemaps.org/?feature=places.place.ae2106fe-eaf3-474c-b0f8-2ed353c3d288#17/49.196407318115234/16.609760284423828",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "aloha",
+      "url": "https://tikiatlas.com/bar?slug=aloha",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

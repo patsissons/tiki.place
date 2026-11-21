@@ -1,0 +1,74 @@
+{
+  "id": "mon-kou-restaurant-attleboro",
+  "name": "Mon Kou Restaurant",
+  "aliases": [],
+  "location": {
+    "lat": 41.909188,
+    "lng": -71.36332999999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "676 Washington Street",
+    "locality": "Attleboro",
+    "region": "Massachusetts",
+    "postalCode": "02861",
+    "country": "US"
+  },
+  "formattedAddress": "676 Washington Street, Attleboro, Massachusetts, 02861, United States",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJVWbGxSBd5IkR-Pf5f18C0Cs"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "df4ed0aae436",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "mon-kou-restaurant",
+      "url": "https://tikiatlas.com/bar?slug=mon-kou-restaurant",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

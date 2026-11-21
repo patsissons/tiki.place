@@ -91,7 +91,7 @@
   },
   "priceLevel": "$$",
   "established": 2018,
-  "tikiConfidence": 0.995,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -149,6 +149,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "6ff493f67bb0",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJeStEMadVkFQRL8sEheIhMxM",
       "url": "https://maps.google.com/?cid=1383486767310883631&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -161,6 +168,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.23406e9c-e71c-4b9b-95f3-24181ac0d853#17/47.25734329223633/-122.44196319580078",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "devils-reef",
+      "url": "https://tikiatlas.com/bar?slug=devils-reef",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -178,6 +192,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

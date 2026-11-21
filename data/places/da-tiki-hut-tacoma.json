@@ -1,0 +1,96 @@
+{
+  "id": "da-tiki-hut-tacoma",
+  "name": "Da Tiki Hut",
+  "aliases": [],
+  "location": {
+    "lat": 47.2556154,
+    "lng": -122.4976064,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "4427 6th Avenue",
+    "locality": "Tacoma",
+    "region": "WA",
+    "postalCode": "98406",
+    "country": "US"
+  },
+  "formattedAddress": "4427 6th Avenue, Tacoma, Washington, 98406, United States",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJpZYk9ydVkFQReiiZPRpLCdk",
+    "osm": "node/11024960374",
+    "overture": "70c7869f-6e79-4784-844f-f538933d1fce"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "https://www.datikihut.com/"
+  },
+  "tikiConfidence": 0.979,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "91bfd7b71201",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/11024960374",
+      "url": "https://www.openstreetmap.org/node/11024960374",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "70c7869f-6e79-4784-844f-f538933d1fce",
+      "url": "https://explore.overturemaps.org/?feature=places.place.70c7869f-6e79-4784-844f-f538933d1fce#17/47.25556945800781/-122.49761199951172",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "da-tiki-hut",
+      "url": "https://tikiatlas.com/bar?slug=da-tiki-hut",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

@@ -123,7 +123,7 @@
   },
   "priceLevel": "$",
   "established": 2021,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -181,6 +181,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "3ae0f2e51baa",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJryTAIaZX2YARW18WNkCLXwE",
       "url": "https://maps.google.com/?cid=98950824727043931&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -193,6 +200,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.7302d80f-cb5e-4200-aefc-fc57aa415f7e#17/32.76862335205078/-117.04427337646484",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-luau",
+      "url": "https://tikiatlas.com/bar?slug=the-luau",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -210,6 +224,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

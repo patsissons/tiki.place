@@ -79,7 +79,7 @@
     "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -133,6 +133,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "b4944035b871",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJoarltpnFyIAR5WgXsVqtUi4",
       "url": "https://maps.google.com/?cid=3337920878864722149&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -147,6 +154,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-di-amore",
+      "url": "https://tikiatlas.com/bar?slug=tiki-di-amore",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "tiki-di-amore-las-vegas",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -155,6 +169,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

@@ -2,6 +2,7 @@
   "id": "tiki-ko",
   "name": "Tiki-Ko",
   "aliases": [
+    "The Sinking Ship at Tiki-Ko",
     "Tiki-Ko & the Sinking Ship"
   ],
   "location": {
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$",
   "established": 2016,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -171,6 +172,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "8fceb07df2bd",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJ-bPO8Itp6oARqRdqaEsAl5Y",
       "url": "https://maps.google.com/?cid=10851142151046829993&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -183,6 +191,20 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.9856a11a-f55e-492f-be72-1d91e1088799#17/35.37675857543945/-119.01775360107422",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-sinking-ship-at-tiki-ko",
+      "url": "https://tikiatlas.com/bar?slug=the-sinking-ship-at-tiki-ko",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-ko",
+      "url": "https://tikiatlas.com/bar?slug=tiki-ko",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -200,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

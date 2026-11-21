@@ -1,7 +1,9 @@
 {
   "id": "shipwrecked-paradise-island-sacramento",
   "name": "Shipwrecked Paradise Island",
-  "aliases": [],
+  "aliases": [
+    "Shipwrecked Tiki Bar"
+  ],
   "location": {
     "lat": 38.572135,
     "lng": -121.48803029999999,
@@ -18,7 +20,8 @@
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "overture": "6b5a5f16-1118-4e77-a71a-7b9eedcd1df8",
-    "google": "ChIJBSFAmqTRmoARYX75CpTLgh8"
+    "google": "ChIJBSFAmqTRmoARYX75CpTLgh8",
+    "osm": "node/3104202077"
   },
   "status": {
     "value": "open",
@@ -99,7 +102,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.763,
+  "tikiConfidence": 0.993,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -153,6 +156,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "13f3ab0a6e6f",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJBSFAmqTRmoARYX75CpTLgh8",
       "url": "https://maps.google.com/?cid=2270600998847872609&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -160,14 +170,28 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/3104202077",
+      "url": "https://www.openstreetmap.org/node/3104202077",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "6b5a5f16-1118-4e77-a71a-7b9eedcd1df8",
       "url": "https://explore.overturemaps.org/?feature=places.place.6b5a5f16-1118-4e77-a71a-7b9eedcd1df8#17/38.57213592529297/-121.48804473876953",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "shipwrecked-paradise-island",
+      "url": "https://tikiatlas.com/bar?slug=shipwrecked-paradise-island",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

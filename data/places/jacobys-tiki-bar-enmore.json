@@ -101,7 +101,7 @@
   },
   "priceLevel": "$$",
   "established": 2017,
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -156,6 +156,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "430c150b14e0",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJafLjQjiwEmsRXoy09xcPE9g",
       "url": "https://maps.google.com/?cid=15569804932364405854&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -170,6 +177,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "jacobys-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=jacobys-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "jacoby-s-tiki-bar",
       "url": "https://tikirat.com/bars/jacoby-s-tiki-bar",
@@ -178,6 +192,6 @@
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

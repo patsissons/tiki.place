@@ -1,0 +1,73 @@
+{
+  "id": "il-mercante-venezia",
+  "name": "Il Mercante",
+  "aliases": [],
+  "location": {
+    "lat": 45.43728780000001,
+    "lng": 12.327257,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Venezia",
+    "region": "Veneto",
+    "postalCode": "30125",
+    "country": "IT"
+  },
+  "formattedAddress": "Fondamenta dei Frari, Venezia, Veneto, 30125, Italia",
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "google": "ChIJc2hovcWxfkcROjxeScS3wK8"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "83f982b2a06e",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "il-mercante",
+      "url": "https://tikiatlas.com/bar?slug=il-mercante",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

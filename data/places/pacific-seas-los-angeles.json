@@ -1,7 +1,9 @@
 {
   "id": "pacific-seas-los-angeles",
   "name": "The Pacific Seas",
-  "aliases": [],
+  "aliases": [
+    "Clifton's Pacific Seas"
+  ],
   "location": {
     "lat": 34.045420899999996,
     "lng": -118.2530005,
@@ -36,7 +38,8 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.763,
+  "established": 2017,
+  "tikiConfidence": 0.941,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -59,6 +62,10 @@
     "contact.website": {
       "sourceId": "google",
       "observedAt": "2026-11-12T18:22:54.608Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -99,9 +106,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.3897f5da-0b77-4173-b628-88366bcf745b#17/34.04520797729492/-118.25272369384766",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "cliftons-pacific-seas",
+      "url": "https://tikiatlas.com/bar?slug=cliftons-pacific-seas",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

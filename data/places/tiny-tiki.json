@@ -99,7 +99,7 @@
   },
   "priceLevel": "$",
   "established": 2018,
-  "tikiConfidence": 0.985,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -153,11 +153,25 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "88f3831b782c",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJT90hS2IYnlQR2G6-Dk5Phgo",
       "url": "https://maps.google.com/?cid=758380783931911896&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-tiny-tiki",
+      "url": "https://tikiatlas.com/bar?slug=the-tiny-tiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -175,6 +189,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

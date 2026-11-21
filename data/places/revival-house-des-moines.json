@@ -101,7 +101,7 @@
   },
   "priceLevel": "$",
   "established": 2021,
-  "tikiConfidence": 0.995,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -159,6 +159,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "f623c208d303",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJDSUc3JCZ7ocRYVvqis3orU8",
       "url": "https://maps.google.com/?cid=5741501069463804769&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -171,6 +178,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.2483c297-a0ac-4f71-b53a-89cd2c5df7bd#17/41.584720611572266/-93.6214599609375",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "revival-house",
+      "url": "https://tikiatlas.com/bar?slug=revival-house",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -188,6 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

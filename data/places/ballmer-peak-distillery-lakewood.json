@@ -57,6 +57,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "398ff83a1f8d",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "ballmer-peak-distillery-lakewood",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -64,7 +71,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

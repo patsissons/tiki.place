@@ -1,7 +1,9 @@
 {
   "id": "tiki-bar-solomons",
   "name": "Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Tiki Bar Solomons Island"
+  ],
   "location": {
     "lat": 38.319484,
     "lng": -76.4560476,
@@ -14,10 +16,12 @@
     "postalCode": "20688",
     "country": "US"
   },
+  "formattedAddress": "85 Charles Street, Solomons, Maryland, 20688, United States",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "91f7b846-10fa-4de7-8938-4c028960f1a1",
-    "osm": "node/1669255688"
+    "osm": "node/1669255688",
+    "google": "ChIJWeGE-4HYuYkRsoaKRBMfwM8"
   },
   "status": {
     "value": "unverified",
@@ -28,7 +32,7 @@
     "phone": "+1 410 449 6621",
     "website": "http://www.tikibarsolomonsisland.com/"
   },
-  "tikiConfidence": 0.878,
+  "tikiConfidence": 0.992,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -48,6 +52,10 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
     "location": {
       "sourceId": "osm",
       "observedAt": "2026-10-26T04:08:35.388Z"
@@ -63,6 +71,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "96fceee52572",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1669255688",
       "url": "https://www.openstreetmap.org/node/1669255688",
@@ -75,6 +90,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.91f7b846-10fa-4de7-8938-4c028960f1a1#17/38.3193359375/-76.45597076416016",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-bar-solomons-island",
+      "url": "https://tikiatlas.com/bar?slug=tiki-bar-solomons-island",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "resolution": {
@@ -90,5 +112,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

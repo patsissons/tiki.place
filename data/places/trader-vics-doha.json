@@ -1,0 +1,79 @@
+{
+  "id": "trader-vics-doha",
+  "name": "Trader Vic's Doha",
+  "aliases": [
+    "Trader Vic's"
+  ],
+  "location": {
+    "lat": 25.326861,
+    "lng": 51.54109940000001,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Doha",
+    "region": "الدوحة",
+    "country": "QA"
+  },
+  "formattedAddress": "شارع الدفنة, الدوحة, قطر",
+  "timezone": "Asia/Qatar",
+  "externalIds": {
+    "google": "ChIJ3-LIq5TERT4RKQablJ5MBhs"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "established": 2007,
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "c76707c6e686",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-vics-doha",
+      "url": "https://tikiatlas.com/bar?slug=trader-vics-doha",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

@@ -38,7 +38,7 @@
   },
   "priceLevel": "$",
   "established": 2018,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 1,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -93,6 +93,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "5180a3560551",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJY7d19Ys9BYgR96OuLBioIjQ",
       "url": "https://maps.google.com/?cid=3756749860962739191&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -105,6 +112,20 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.d0ca4859-000d-4185-831c-4ec4fd36f89d#17/42.94480514526367/-87.8501968383789",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-nicks-south-shore-inn",
+      "url": "https://tikiatlas.com/bar?slug=trader-nicks-south-shore-inn",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-nicks-south-shore-inn-2",
+      "url": "https://tikiatlas.com/bar?slug=trader-nicks-south-shore-inn-2",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -122,6 +143,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

@@ -1,21 +1,33 @@
 {
   "id": "no-mans-land-fort-lauderdale",
   "name": "No Man’s Land",
-  "aliases": [],
-  "location": null,
+  "aliases": [
+    "No Man's Land Cocktail Parlor & Eatery"
+  ],
+  "location": {
+    "lat": 26.1306513,
+    "lng": -80.1364349,
+    "precision": "rooftop"
+  },
   "address": {
+    "street": "Northeast 6th Terrace",
     "locality": "Fort Lauderdale",
     "region": "Florida",
+    "postalCode": "33394",
     "country": "US"
   },
-  "externalIds": {},
+  "formattedAddress": "Northeast 6th Terrace, Fort Lauderdale, Florida, 33394, United States",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJyTDAxZoB2YgRsi0KjlW9to4"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {},
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -27,12 +39,38 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "c40b5f955e6e",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "no-mans-land-cocktail-parlor-and-eatery",
+      "url": "https://tikiatlas.com/bar?slug=no-mans-land-cocktail-parlor-and-eatery",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "no-mans-land-fort-lauderdale",
@@ -41,7 +79,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

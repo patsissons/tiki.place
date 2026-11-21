@@ -122,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 1937,
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.995,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -180,6 +180,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "bd89cc85f39f",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJAzV79FTAwoAR2AreXRJ9BFo",
       "url": "https://maps.google.com/?cid=6486446881158073048&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

@@ -129,7 +129,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.763,
+  "tikiConfidence": 0.985,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -183,6 +183,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "263baaa98f06",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJJw1IiisXPmsRte3Mh8ryXig",
       "url": "https://maps.google.com/?cid=2909029361003589045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -195,9 +202,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.239ea235-e8b1-406f-9e26-390a98ef1b8f#17/-36.21955871582031/150.12161254882812",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "quarterdeck",
+      "url": "https://tikiatlas.com/bar?slug=quarterdeck",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

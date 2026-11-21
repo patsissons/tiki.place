@@ -1,0 +1,73 @@
+{
+  "id": "haifisch-bar-das-original-seit-1947-hamburg",
+  "name": "Haifisch Bar das Original - seit 1947 -",
+  "aliases": [],
+  "location": {
+    "lat": 53.5444557,
+    "lng": 9.9459599,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "128 Große Elbstraße",
+    "locality": "Hamburg",
+    "postalCode": "22767",
+    "country": "DE"
+  },
+  "formattedAddress": "128 Große Elbstraße, Hamburg, 22767, Deutschland",
+  "timezone": "Europe/Berlin",
+  "externalIds": {
+    "google": "ChIJgavYOHmPsUcR9zan9-Wld9I"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "326cc564b583",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "haifisch-bar-das-original-seit-1947",
+      "url": "https://tikiatlas.com/bar?slug=haifisch-bar-das-original-seit-1947",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

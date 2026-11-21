@@ -1,0 +1,73 @@
+{
+  "id": "rum-club-utrecht",
+  "name": "Rum CLUB",
+  "aliases": [],
+  "location": {
+    "lat": 52.0922486,
+    "lng": 5.116469999999999,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "113 Oudegracht",
+    "locality": "Utrecht",
+    "region": "Utrecht",
+    "country": "NL"
+  },
+  "formattedAddress": "113 Oudegracht, Utrecht, Utrecht, 3511 AG, Nederland",
+  "timezone": "Europe/Amsterdam",
+  "externalIds": {
+    "google": "ChIJi2YbEjxvxkcR0abLfpJU6GU"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "8efe4130b4fb",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "rum-club-2",
+      "url": "https://tikiatlas.com/bar?slug=rum-club-2",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

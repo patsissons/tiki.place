@@ -1,7 +1,9 @@
 {
   "id": "hula-manchester",
   "name": "Hula",
-  "aliases": [],
+  "aliases": [
+    "Hula Manchester"
+  ],
   "location": {
     "lat": 53.4824608,
     "lng": -2.2331368,
@@ -68,7 +70,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.99,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -118,6 +120,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "12c7da90e376",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJfcAbur6xe0gRLwTKuFrEozw",
       "url": "https://maps.google.com/?cid=4369551957405860911&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -130,9 +139,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.c1730e49-df0b-4d62-a8a9-a490269d4c0d#17/53.482421875/-2.233156204223633",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "hula-manchester",
+      "url": "https://tikiatlas.com/bar?slug=hula-manchester",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

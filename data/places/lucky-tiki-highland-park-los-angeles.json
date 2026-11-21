@@ -91,7 +91,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -145,6 +145,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "b7d247cac138",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJHdx3XgDFwoARE_VzcTgfkwM",
       "url": "https://maps.google.com/?cid=257583930972304659&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -159,6 +166,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "lucky-tiki-highland-park",
+      "url": "https://tikiatlas.com/bar?slug=lucky-tiki-highland-park",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "lucky-tiki-highland-park",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -167,6 +181,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

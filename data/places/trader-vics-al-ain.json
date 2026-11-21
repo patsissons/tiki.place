@@ -1,0 +1,62 @@
+{
+  "id": "trader-vics-al-ain",
+  "name": "Trader Vic's Al Ain",
+  "aliases": [],
+  "location": {
+    "lat": 24.2075,
+    "lng": 55.7447,
+    "precision": "locality"
+  },
+  "address": {
+    "locality": "Al Ain",
+    "country": "AE"
+  },
+  "timezone": "Asia/Dubai",
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "established": 1999,
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-vics-al-ain",
+      "url": "https://tikiatlas.com/bar?slug=trader-vics-al-ain",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+}

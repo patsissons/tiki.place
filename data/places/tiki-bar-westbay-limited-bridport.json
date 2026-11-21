@@ -1,10 +1,12 @@
 {
   "id": "tiki-bar-westbay-limited-bridport",
   "name": "Tiki Bar Westbay limited",
-  "aliases": [],
+  "aliases": [
+    "Tiki Bar"
+  ],
   "location": {
-    "lat": 50.7108154,
-    "lng": -2.7609036,
+    "lat": 50.7106301,
+    "lng": -2.7610029,
     "precision": "rooftop"
   },
   "address": {
@@ -14,7 +16,8 @@
   },
   "timezone": "Europe/London",
   "externalIds": {
-    "overture": "d63a7284-4f21-4b2a-b65e-0c7ed46ddd68"
+    "overture": "d63a7284-4f21-4b2a-b65e-0c7ed46ddd68",
+    "osm": "node/10031837963"
   },
   "status": {
     "value": "unverified",
@@ -22,7 +25,7 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {},
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.878,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -35,8 +38,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "name": {
       "sourceId": "overture",
@@ -48,6 +51,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/10031837963",
+      "url": "https://www.openstreetmap.org/node/10031837963",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "d63a7284-4f21-4b2a-b65e-0c7ed46ddd68",
@@ -68,6 +78,6 @@
       }
     ]
   },
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
 }

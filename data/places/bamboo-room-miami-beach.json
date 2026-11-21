@@ -1,0 +1,62 @@
+{
+  "id": "bamboo-room-miami-beach",
+  "name": "Bamboo Room",
+  "aliases": [],
+  "location": {
+    "lat": 25.7907,
+    "lng": -80.13,
+    "precision": "locality"
+  },
+  "address": {
+    "locality": "Miami Beach",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "established": 2024,
+  "tikiConfidence": 0.75,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "bamboo-room-miami-beach",
+      "url": "https://tikiatlas.com/bar?slug=bamboo-room-miami-beach",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+}

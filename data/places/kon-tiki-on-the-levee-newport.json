@@ -1,0 +1,88 @@
+{
+  "id": "kon-tiki-on-the-levee-newport",
+  "name": "Kon-Tiki on the Levee",
+  "aliases": [],
+  "location": {
+    "lat": 39.0950928,
+    "lng": -84.4972229,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Levee Way",
+    "locality": "Newport",
+    "region": "KY",
+    "postalCode": "41071",
+    "country": "US"
+  },
+  "formattedAddress": "Levee Way, Newport, Kentucky, 41071, United States",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJSxIgv4exQYgRV3P4oam9ZU4",
+    "overture": "dda8e12f-1538-495d-914d-edeb1b137c34"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "https://kontikionthelevee.com/?y_source=1_MjUzMzA4MTUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D"
+  },
+  "tikiConfidence": 0.969,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "ae6e8e7e3675",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "dda8e12f-1538-495d-914d-edeb1b137c34",
+      "url": "https://explore.overturemaps.org/?feature=places.place.dda8e12f-1538-495d-914d-edeb1b137c34#17/39.0950927734375/-84.49722290039062",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "kon-tiki-on-the-levee",
+      "url": "https://tikiatlas.com/bar?slug=kon-tiki-on-the-levee",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

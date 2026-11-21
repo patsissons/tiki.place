@@ -1,0 +1,98 @@
+{
+  "id": "tiki-bar-at-beach-retreat-and-lodge-south-lake-tahoe",
+  "name": "The Beach Tiki Bar",
+  "aliases": [
+    "Tiki Bar at Beach Retreat & Lodge"
+  ],
+  "location": {
+    "lat": 38.946846,
+    "lng": -119.966629,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "3411 Lake Tahoe Boulevard",
+    "locality": "South Lake Tahoe",
+    "region": "CA",
+    "postalCode": "96150",
+    "country": "US"
+  },
+  "formattedAddress": "3411 Lake Tahoe Boulevard, South Lake Tahoe, California, 96150, United States",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJc0q0bAuRmYAR_GBg8fT35ig",
+    "osm": "way/1166302545",
+    "overture": "2a32307f-f5d3-452c-a56e-989e295f4520"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {
+    "website": "https://www.tahoebeachretreat.com/"
+  },
+  "tikiConfidence": 0.979,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "5b54c96fe724",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/1166302545",
+      "url": "https://www.openstreetmap.org/way/1166302545",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "2a32307f-f5d3-452c-a56e-989e295f4520",
+      "url": "https://explore.overturemaps.org/?feature=places.place.2a32307f-f5d3-452c-a56e-989e295f4520#17/38.94684600830078/-119.96662902832031",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-beach-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=the-beach-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

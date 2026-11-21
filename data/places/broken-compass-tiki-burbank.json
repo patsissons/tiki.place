@@ -109,7 +109,7 @@
     "at": "2026-11-09T20:49:19.347Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.983,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -159,6 +159,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "8a2d921b2ea7",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJX4z-_GaVwoARkKvSXYqqeGs",
       "url": "https://maps.google.com/?cid=7744127070519864208&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -180,6 +187,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "broken-compass-tiki",
+      "url": "https://tikiatlas.com/bar?slug=broken-compass-tiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "broken-compass-tiki-burbank",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -188,6 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

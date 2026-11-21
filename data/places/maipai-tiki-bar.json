@@ -83,7 +83,7 @@
   },
   "priceLevel": "$$",
   "established": 2021,
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -141,6 +141,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "5e7b623c0dc3",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJP_7Z5oabLIgRb4TljaUm62M",
       "url": "https://maps.google.com/?cid=7199890921773958255&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -155,6 +162,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "maipai",
+      "url": "https://tikiatlas.com/bar?slug=maipai",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "maipai-tiki-bar",
       "url": "https://tikirat.com/bars/maipai-tiki-bar",
@@ -163,6 +177,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

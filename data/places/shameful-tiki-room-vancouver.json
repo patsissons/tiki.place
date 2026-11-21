@@ -124,7 +124,7 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.983,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -179,6 +179,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "ca66fa944281",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJ-VlvsPdzhlQRVkrLK5hQOpQ",
       "url": "https://maps.google.com/?cid=10680938080762546774&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -200,6 +207,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "shameful-tiki-room-vancouver",
+      "url": "https://tikiatlas.com/bar?slug=shameful-tiki-room-vancouver",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "the-shameful-tiki-room-vancouver",
       "url": "https://tikirat.com/bars/the-shameful-tiki-room-vancouver",
@@ -208,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

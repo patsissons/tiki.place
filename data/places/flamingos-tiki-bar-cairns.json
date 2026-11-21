@@ -118,7 +118,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.99,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -168,6 +168,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "6655bf42cdc3",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJM4gkD65neGkRtk43XC-e8-0",
       "url": "https://maps.google.com/?cid=17146222132577390262&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -180,9 +187,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.f2815a70-183b-4cd2-8f32-3a5d1cac5f96#17/-16.92201805114746/145.77891540527344",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "flamingos-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=flamingos-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

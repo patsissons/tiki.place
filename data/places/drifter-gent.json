@@ -1,0 +1,74 @@
+{
+  "id": "drifter-gent",
+  "name": "The Drifter",
+  "aliases": [],
+  "location": {
+    "lat": 51.05893939999999,
+    "lng": 3.7245918,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "47-49 Oudburg",
+    "locality": "Gent",
+    "region": "Oost-Vlaanderen",
+    "postalCode": "9000",
+    "country": "BE"
+  },
+  "formattedAddress": "47-49 Oudburg, Gent, Oost-Vlaanderen, 9000, België / Belgique / Belgien",
+  "timezone": "Europe/Brussels",
+  "externalIds": {
+    "google": "ChIJr8Se9Thxw0cRz8gfkrKMF5I"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "5813e8e54037",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-drifter",
+      "url": "https://tikiatlas.com/bar?slug=the-drifter",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

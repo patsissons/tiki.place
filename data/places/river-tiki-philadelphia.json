@@ -1,0 +1,74 @@
+{
+  "id": "river-tiki-philadelphia",
+  "name": "River Tiki",
+  "aliases": [],
+  "location": {
+    "lat": 39.9456841,
+    "lng": -75.1401691,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "211 South Christopher Columbus Boulevard",
+    "locality": "Philadelphia",
+    "region": "Pennsylvania",
+    "postalCode": "19106",
+    "country": "US"
+  },
+  "formattedAddress": "211 South Christopher Columbus Boulevard, Philadelphia, Pennsylvania, 19106, United States",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJB4wmSADJxokRlDw8wY3na64"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "9845a10c3eda",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "river-tiki",
+      "url": "https://tikiatlas.com/bar?slug=river-tiki",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

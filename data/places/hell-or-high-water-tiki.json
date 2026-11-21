@@ -2,7 +2,8 @@
   "id": "hell-or-high-water-tiki",
   "name": "Hell or High Water Tiki",
   "aliases": [
-    "Hell or High Water"
+    "Hell or High Water",
+    "Hell or High Water Tiki Bar"
   ],
   "location": {
     "lat": 39.7680082,
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -171,6 +172,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "c7172bbd5ea2",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJ_ZursPN5bIcR-G30X_FZAFM",
       "url": "https://maps.google.com/?cid=5980879198379863544&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -192,6 +200,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "hell-or-high-water-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=hell-or-high-water-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "hell-or-high-water-tiki",
       "url": "https://tikirat.com/bars/hell-or-high-water-tiki",
@@ -207,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

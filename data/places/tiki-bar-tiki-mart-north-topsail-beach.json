@@ -1,0 +1,74 @@
+{
+  "id": "tiki-bar-tiki-mart-north-topsail-beach",
+  "name": "TIKI BAR/TIKI MART",
+  "aliases": [],
+  "location": {
+    "lat": 34.52344889999999,
+    "lng": -77.3519038,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "2181 New River Inlet Road",
+    "locality": "North Topsail Beach",
+    "region": "North Carolina",
+    "postalCode": "28460",
+    "country": "US"
+  },
+  "formattedAddress": "2181 New River Inlet Road, North Topsail Beach, North Carolina, 28460, United States",
+  "timezone": "America/New_York",
+  "externalIds": {
+    "google": "ChIJ1fN-GUOoqYkRWbl9fZJoSoc"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.956,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "b84d3bcba7be",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "tiki-bar-tiki-mart",
+      "url": "https://tikiatlas.com/bar?slug=tiki-bar-tiki-mart",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

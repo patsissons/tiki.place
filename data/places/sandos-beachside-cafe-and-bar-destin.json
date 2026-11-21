@@ -1,0 +1,74 @@
+{
+  "id": "sandos-beachside-cafe-and-bar-destin",
+  "name": "Sandos Beachside Cafe & Bar",
+  "aliases": [],
+  "location": {
+    "lat": 30.380175,
+    "lng": -86.3998189,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Scenic Highway 98 Trail",
+    "locality": "Destin",
+    "region": "Florida",
+    "postalCode": "32551",
+    "country": "US"
+  },
+  "formattedAddress": "Scenic Highway 98 Trail, Destin, Florida, 32551, United States",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "google": "ChIJLas5TyZbkYgRFhw51HXg51w"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "bc1bd4221de5",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "sandos-beachside-cafe-and-bar",
+      "url": "https://tikiatlas.com/bar?slug=sandos-beachside-cafe-and-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

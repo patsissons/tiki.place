@@ -1,0 +1,50 @@
+{
+  "id": "toltec-tiki-room",
+  "name": "Toltec Tiki Room",
+  "aliases": [],
+  "location": {
+    "lat": 31.7595905,
+    "lng": -106.4822877,
+    "precision": "rooftop"
+  },
+  "address": {},
+  "timezone": "America/Denver",
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:16.549Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:16.549Z"
+  },
+  "provenance": {
+    "location": {
+      "sourceId": "allthetikibars",
+      "observedAt": "2026-11-21T22:52:16.549Z"
+    },
+    "name": {
+      "sourceId": "allthetikibars",
+      "observedAt": "2026-11-21T22:52:16.549Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:16.549Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "cec9e57535c6",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

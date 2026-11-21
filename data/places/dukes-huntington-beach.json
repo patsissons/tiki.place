@@ -1,0 +1,74 @@
+{
+  "id": "dukes-huntington-beach",
+  "name": "Duke's Huntington Beach",
+  "aliases": [],
+  "location": {
+    "lat": 33.6565841,
+    "lng": -118.0019217,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "317 Pacific Coast Highway",
+    "locality": "Huntington Beach",
+    "region": "California",
+    "postalCode": "92648",
+    "country": "US"
+  },
+  "formattedAddress": "317 Pacific Coast Highway, Huntington Beach, California, 92648, United States",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJg6yePEIh3YAR9jvzwIJzPoA"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "b5be0b123074",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "dukes-huntington-beach",
+      "url": "https://tikiatlas.com/bar?slug=dukes-huntington-beach",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

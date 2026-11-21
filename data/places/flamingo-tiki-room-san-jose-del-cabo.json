@@ -1,0 +1,62 @@
+{
+  "id": "flamingo-tiki-room-san-jose-del-cabo",
+  "name": "Flamingo Tiki Room",
+  "aliases": [],
+  "location": {
+    "lat": 23.0621,
+    "lng": -109.6977,
+    "precision": "locality"
+  },
+  "address": {
+    "locality": "San Jose del Cabo",
+    "country": "MX"
+  },
+  "timezone": "America/Mazatlan",
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "established": 2024,
+  "tikiConfidence": 0.825,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "flamingo-tiki-room",
+      "url": "https://tikiatlas.com/bar?slug=flamingo-tiki-room",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+}

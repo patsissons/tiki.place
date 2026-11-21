@@ -2,20 +2,30 @@
   "id": "paradise-club-chicago",
   "name": "Paradise Club",
   "aliases": [],
-  "location": null,
+  "location": {
+    "lat": 41.93815379999999,
+    "lng": -87.8038734,
+    "precision": "rooftop"
+  },
   "address": {
+    "street": "7068 West Belmont Avenue",
     "locality": "Chicago",
     "region": "Illinois",
+    "postalCode": "60634",
     "country": "US"
   },
-  "externalIds": {},
+  "formattedAddress": "7068 West Belmont Avenue, Chicago, Illinois, 60634, United States",
+  "timezone": "America/Chicago",
+  "externalIds": {
+    "google": "ChIJB5nEKAjLD4gRChDv_R_Ve6o"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {},
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -27,12 +37,38 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "2e222c4a5e16",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "paradise-club",
+      "url": "https://tikiatlas.com/bar?slug=paradise-club",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "paradise-club-chicago",
@@ -41,7 +77,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
 }

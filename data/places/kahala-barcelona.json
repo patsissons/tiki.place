@@ -121,7 +121,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.99,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -175,6 +175,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "69ccfe617e26",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJWcMLcHqYpBIRKnBa0F7p6rU",
       "url": "https://maps.google.com/?cid=13108546258847035434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -187,9 +194,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.685cf82a-b3e6-4e0f-aff9-bc5c3bde6e92#17/41.39072036743164/2.1379873752593994",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "kahala-barcelona",
+      "url": "https://tikiatlas.com/bar?slug=kahala-barcelona",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

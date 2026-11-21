@@ -1,0 +1,74 @@
+{
+  "id": "limbo-louisville",
+  "name": "The Limbo",
+  "aliases": [],
+  "location": {
+    "lat": 38.24907769999999,
+    "lng": -85.7582517,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "574 South 4th Street",
+    "locality": "Louisville",
+    "region": "Kentucky",
+    "postalCode": "40202",
+    "country": "US"
+  },
+  "formattedAddress": "574 South 4th Street, Louisville, Kentucky, 40202, United States",
+  "timezone": "America/Kentucky/Louisville",
+  "externalIds": {
+    "google": "ChIJ-6MAM65yaYgRizw04ApCvcI"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.938,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-21T22:52:15.230Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "formattedAddress": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "location": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "name": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-11-21T22:52:15.230Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "allthetikibars",
+      "sourceRef": "faf3f9a11307",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "the-limbo",
+      "url": "https://tikiatlas.com/bar?slug=the-limbo",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    }
+  ],
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+}

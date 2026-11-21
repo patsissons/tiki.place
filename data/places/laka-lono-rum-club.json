@@ -121,7 +121,7 @@
   },
   "priceLevel": "$",
   "established": 2016,
-  "tikiConfidence": 0.995,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -179,6 +179,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "fc7151a26f65",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJGV6hD6-Pk4cR-FHEQRBrA40",
       "url": "https://maps.google.com/?cid=10161082901845004792&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -191,6 +198,13 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.c31e5162-c480-4d28-a498-73e331135f91#17/41.25557327270508/-95.93229675292969",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "laka-lono-rum-club",
+      "url": "https://tikiatlas.com/bar?slug=laka-lono-rum-club",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -208,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

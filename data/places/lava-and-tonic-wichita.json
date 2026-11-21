@@ -99,7 +99,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.964,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -153,6 +153,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "c59241db1ac6",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJI4tyX5jjuocRGq6G6QSojvI",
       "url": "https://maps.google.com/?cid=17478091942922726938&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
@@ -167,6 +174,13 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
+      "sourceId": "tikiatlas",
+      "sourceRef": "lava-and-tonic",
+      "url": "https://tikiatlas.com/bar?slug=lava-and-tonic",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "lava-and-tonic-wichita",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -175,6 +189,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

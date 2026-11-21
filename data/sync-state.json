@@ -35,9 +35,49 @@
       "lastStatus": "ok",
       "observationCount": 311,
       "requestCount": 0
+    },
+    "tikiatlas": {
+      "lastRunAt": "2026-11-21T22:52:15.230Z",
+      "lastDiscoveryAt": "2026-11-21T22:52:15.230Z",
+      "lastStatus": "ok",
+      "observationCount": 479,
+      "requestCount": 1
+    },
+    "allthetikibars": {
+      "lastRunAt": "2026-11-21T22:52:16.549Z",
+      "lastDiscoveryAt": "2026-11-21T22:52:16.549Z",
+      "lastStatus": "ok",
+      "observationCount": 446,
+      "requestCount": 1
     }
   },
   "runs": [
+    {
+      "at": "2026-11-21T22:52:16.549Z",
+      "durationMs": 909,
+      "sources": [
+        "allthetikibars"
+      ],
+      "placesCreated": 12,
+      "placesUpdated": 419,
+      "placesPublished": 620,
+      "needsReview": 176,
+      "googleCalls": 0,
+      "warnings": []
+    },
+    {
+      "at": "2026-11-21T22:52:15.230Z",
+      "durationMs": 773,
+      "sources": [
+        "tikiatlas"
+      ],
+      "placesCreated": 164,
+      "placesUpdated": 280,
+      "placesPublished": 620,
+      "needsReview": 164,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-11-21T17:36:50.948Z",
       "durationMs": 3075,
@@ -429,32 +469,6 @@
       "warnings": [
         "user-submission: discovery failed: github issues returned 401",
         "bamboo-hut-san-francisco: details failed: place details ChIJMzF8WPSAhYARCEJqdcwnTMo: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'GetPlaceRequest' and limit 'GetPlaceRequest per minute' of service 'places.googleapis.com' for consumer 'project_number:890239050253'.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"RATE_LIMIT_EXCEEDED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"quota_limit\": \"GetPlaceRequestPerMinutePerProject\",\n          \"quota_metric\": \"places.googleapis.com/GetPlaceRequest\",\n          \"service\": \"places.googleapis.com\",\n          \"quota_unit\": \"1/min/{project}\",\n          \"quota_location\": \"global\",\n          \"quota_limit_value\": \"600\",\n          \"consumer\": \"projects/890239050253\",\n          \"window_start_time\": \"1792989267\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Request a higher quota limit.\",\n            \"url\": \"https://cloud.google.com/docs/quotas/help/request_increase\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
-      ]
-    },
-    {
-      "at": "2026-10-26T04:19:34.568Z",
-      "durationMs": 442843,
-      "sources": [
-        "overture"
-      ],
-      "placesCreated": 860,
-      "placesUpdated": 19,
-      "placesPublished": 12,
-      "needsReview": 1195,
-      "googleCalls": 0,
-      "warnings": []
-    },
-    {
-      "at": "2026-10-26T04:10:54.740Z",
-      "durationMs": 441094,
-      "sources": [],
-      "placesCreated": 0,
-      "placesUpdated": 0,
-      "placesPublished": 4,
-      "needsReview": 343,
-      "googleCalls": 0,
-      "warnings": [
-        "overture: discovery failed: [\n  {\n    \"origin\": \"string\",\n    \"code\": \"too_small\",\n    \"minimum\": 1,\n    \"inclusive\": true,\n    \"path\": [\n      \"address\",\n      \"region\"\n    ],\n    \"message\": \"Too small: expected string to have >=1 characters\"\n  }\n]"
       ]
     }
   ]

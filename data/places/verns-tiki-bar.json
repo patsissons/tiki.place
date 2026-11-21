@@ -79,7 +79,7 @@
   },
   "priceLevel": "$$",
   "established": 2024,
-  "tikiConfidence": 0.9,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -133,11 +133,25 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "05582a0b8633",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "google",
       "sourceRef": "ChIJS6IxIQAzs1IRcQMx5PaeuJc",
       "url": "https://maps.google.com/?cid=10932662878669439857&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "verns-tiki-bar",
+      "url": "https://tikiatlas.com/bar?slug=verns-tiki-bar",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     },
     {
       "sourceId": "tikirat",
@@ -148,6 +162,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }
