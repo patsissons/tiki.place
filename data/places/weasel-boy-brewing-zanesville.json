@@ -21,7 +21,9 @@
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://www.weaselboybrewing.com/the-rum-rooom"
+  },
   "tikiConfidence": 0.85,
   "review": {
     "state": "approved",
@@ -33,6 +35,10 @@
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "location": {
       "sourceId": "owner",
@@ -58,5 +64,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:24:09.944Z"
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
 }

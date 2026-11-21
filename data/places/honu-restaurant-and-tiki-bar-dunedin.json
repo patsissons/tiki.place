@@ -82,7 +82,7 @@
   },
   "contact": {
     "phone": "+1 727-333-7777",
-    "website": "http://thehonurestaurant.com/",
+    "website": "https://thehonurestaurant.com/",
     "googleMapsUri": "https://maps.google.com/?cid=14494396669670994768&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
@@ -111,8 +111,8 @@
       "observedAt": "2026-11-10T17:54:51.536Z"
     },
     "contact.website": {
-      "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -167,6 +167,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z",
+  "lastSyncedAt": "2026-11-21T21:52:19.121Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }
