@@ -1,8 +1,7 @@
 {
   "id": "tiki-tiki-lounge",
-  "name": "Poki Poki",
+  "name": "The Tiki Tiki Lounge",
   "aliases": [
-    "The Tiki Tiki Lounge",
     "Tiki Tiki Lounge @ Poki Poki"
   ],
   "location": {
@@ -61,7 +60,7 @@
     },
     "name": {
       "sourceId": "owner",
-      "observedAt": "2026-11-21T21:08:52.739Z"
+      "observedAt": "2026-11-21T21:19:59.821Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -85,5 +84,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-21T21:20:00.098Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "mccaws-tiki-bar-nottingham",
-  "name": "McCaws Tiki Bar, Nottingham",
-  "aliases": [],
+  "name": "McCaws Tiki Bar",
+  "aliases": [
+    "McCaws Tiki Bar, Nottingham"
+  ],
   "location": {
     "lat": 52.9554787,
     "lng": -1.14987,
@@ -46,8 +48,8 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T21:19:59.821Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -64,5 +66,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-21T21:20:00.098Z"
 }
