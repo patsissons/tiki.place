@@ -1,0 +1,82 @@
+{
+  "id": "tiki-bar-athens",
+  "name": "Tiki Bar Athens",
+  "aliases": [],
+  "location": {
+    "lat": 37.9669146,
+    "lng": 23.729012,
+    "precision": "rooftop"
+  },
+  "address": {
+    "street": "Falirou 15",
+    "locality": "Athens",
+    "postalCode": "117 42",
+    "country": "GR"
+  },
+  "timezone": "Europe/Athens",
+  "externalIds": {
+    "osm": "node/7270241987",
+    "google": "ChIJ2c2YkxC9oRQRt8Es1q_1xSk",
+    "overture": "760cbd8c-74af-4908-8d36-0995c6195255"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-21T22:26:10.379Z"
+  },
+  "contact": {
+    "website": "https://athenstikibar.com/"
+  },
+  "established": 2007,
+  "tikiConfidence": 0.657,
+  "review": {
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-21T22:26:47.757Z",
+    "reason": "menu has Mai Tai, Zombie, Painkiller, Piña Colada (athenstikibar.com)"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T22:26:47.757Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T22:26:47.757Z"
+    },
+    "established": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-21T22:26:47.757Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/7270241987",
+      "url": "https://www.openstreetmap.org/node/7270241987",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "760cbd8c-74af-4908-8d36-0995c6195255",
+      "url": "https://explore.overturemaps.org/?feature=places.place.760cbd8c-74af-4908-8d36-0995c6195255#17/37.96686935424805/23.728933334350586",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-21T22:26:47.996Z"
+}
