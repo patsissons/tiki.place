@@ -51,8 +51,8 @@
       "requestCount": 1
     },
     "mytiki": {
-      "lastRunAt": "2026-11-22T16:52:36.825Z",
-      "lastDiscoveryAt": "2026-11-22T16:52:36.825Z",
+      "lastRunAt": "2026-11-22T18:21:57.159Z",
+      "lastDiscoveryAt": "2026-11-22T18:21:57.159Z",
       "lastStatus": "ok",
       "observationCount": 1872,
       "requestCount": 0
@@ -60,15 +60,15 @@
   },
   "runs": [
     {
-      "at": "2026-11-22T16:52:36.825Z",
-      "durationMs": 831,
+      "at": "2026-11-22T18:21:57.159Z",
+      "durationMs": 1154,
       "sources": [
         "mytiki"
       ],
-      "placesCreated": 152,
-      "placesUpdated": 380,
+      "placesCreated": 150,
+      "placesUpdated": 383,
       "placesPublished": 620,
-      "needsReview": 328,
+      "needsReview": 326,
       "googleCalls": 0,
       "warnings": []
     },

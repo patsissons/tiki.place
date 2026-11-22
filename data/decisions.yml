@@ -4231,3 +4231,32 @@
   at: 2026-11-22T16:52:30.755Z
   by: skill
   note: mytiki.life duplicate; alohapolinesianbar website
+- type: link
+  key: mytiki:laki-kane-oxford-street-london
+  place: laki-kane-london
+  at: 2026-11-22T18:21:28.150Z
+  by: owner
+  note: "owner: Laki Kane Oxford Street is the same place as laki-kane-london"
+- type: link
+  key: mytiki:don-the-beachcomber-at-the-royal-kona-resort
+  place: dons-the-beachcomber-tiki-grill-kailua
+  at: 2026-11-22T18:21:28.150Z
+  by: owner
+  note: "owner: both Don the Beachcomber records are the same location"
+- type: create
+  key: mytiki:damons-central-avenue
+  at: 2026-11-22T18:22:26.637Z
+  by: skill
+  note: old Damon's location on South Central Avenue, not the live Brand Boulevard steakhouse
+- type: pin
+  place: maya-speaktiki-dunwoody
+  field: name
+  value: Maya SpeakTiki
+  at: 2026-11-22T18:22:26.637Z
+  by: skill
+  note: Overture name is the lowercase handle mayaspeaktiki
+- type: reject
+  place: damons-south-central-avenue-glendale
+  reason: permanently closed; Damon's original South Central Avenue location (the live steakhouse is on Brand Boulevard)
+  at: 2026-11-22T18:23:57.768Z
+  by: skill

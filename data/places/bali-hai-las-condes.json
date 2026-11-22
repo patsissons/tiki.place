@@ -13,7 +13,7 @@
   "status": {
     "value": "unverified",
     "sourceId": "system",
-    "at": "2026-11-22T16:52:36.825Z"
+    "at": "2026-11-22T18:21:57.159Z"
   },
   "contact": {
     "phone": "+56 2 2228 8273",
@@ -23,7 +23,7 @@
   "review": {
     "state": "needs_review",
     "by": "auto",
-    "at": "2026-11-22T16:52:36.825Z"
+    "at": "2026-11-22T18:21:57.159Z"
   },
   "provenance": {
     "address": {
@@ -54,5 +54,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-11-21T23:16:23.603Z",
-  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

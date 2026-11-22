@@ -1,26 +1,27 @@
 {
   "id": "jungle-tiki-bar-west-end-brisbane",
-  "name": "Jungle Tiki Bar, West End, Brisbane",
+  "name": "Jungle Tiki Bar",
   "aliases": [
-    "Jungle Tiki Bar",
-    "Jungle Tiki Bar - Brisbane's West End"
+    "Jungle Tiki Bar - Brisbane's West End",
+    "Jungle Tiki Bar, West End, Brisbane"
   ],
   "location": {
-    "lat": -27.4807279,
-    "lng": 153.0116225,
+    "lat": -27.4808044,
+    "lng": 153.0115967,
     "precision": "rooftop"
   },
   "address": {
     "street": "Vulture Street",
     "locality": "Brisbane",
-    "region": "Queensland",
+    "region": "QLD",
     "postalCode": "4101",
     "country": "AU"
   },
   "formattedAddress": "Vulture Street, Brisbane, Queensland, 4101, Australia",
   "timezone": "Australia/Brisbane",
   "externalIds": {
-    "google": "ChIJJ8mrs6FQkWsRXt6h_jyKZX8"
+    "google": "ChIJJ8mrs6FQkWsRXt6h_jyKZX8",
+    "overture": "18ab7844-d7f2-4c51-ad85-10c04c10757b"
   },
   "status": {
     "value": "unverified",
@@ -29,9 +30,9 @@
   },
   "contact": {
     "phone": "+61448925912",
-    "website": "https://junglewestend.com.au/"
+    "website": "http://www.junglewestend.com/"
   },
-  "tikiConfidence": 0.987,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -39,28 +40,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T03:02:22.391Z"
     },
     "contact.website": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T03:02:22.391Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -83,6 +84,13 @@
       "lastSeenAt": "2026-11-22T03:02:22.391Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "18ab7844-d7f2-4c51-ad85-10c04c10757b",
+      "url": "https://explore.overturemaps.org/?feature=places.place.18ab7844-d7f2-4c51-ad85-10c04c10757b#17/-27.480804443359375/153.0115966796875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "jungle-tiki-bar-west-end-brisbane",
       "url": "https://tikiatlas.com/bar?slug=jungle-tiki-bar-west-end-brisbane",
@@ -90,6 +98,6 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
 }

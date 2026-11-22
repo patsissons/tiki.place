@@ -13,7 +13,7 @@
   "status": {
     "value": "unverified",
     "sourceId": "system",
-    "at": "2026-11-22T16:52:36.825Z"
+    "at": "2026-11-22T18:21:57.159Z"
   },
   "contact": {
     "website": "https://www.hongkongdisneyland.com/zh-hk/dining/hong-kong-disneyland-park/tahitian-terrace/"
@@ -22,7 +22,7 @@
   "review": {
     "state": "needs_review",
     "by": "auto",
-    "at": "2026-11-22T16:52:36.825Z"
+    "at": "2026-11-22T18:21:57.159Z"
   },
   "provenance": {
     "address": {
@@ -49,5 +49,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-11-22T09:47:18.807Z",
-  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }
