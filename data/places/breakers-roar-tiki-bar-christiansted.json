@@ -1,7 +1,9 @@
 {
   "id": "breakers-roar-tiki-bar-christiansted",
   "name": "Breakers Roar Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Breakers Roar"
+  ],
   "location": {
     "lat": 17.7473039,
     "lng": -64.703482,
@@ -117,7 +119,7 @@
     "count": 82,
     "at": "2026-11-09T20:49:19.347Z"
   },
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -181,6 +183,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "breakers-roar",
+      "url": "https://mytiki.life/tiki-bars/breakers-roar",
+      "firstSeenAt": "2026-11-22T00:06:11.685Z",
+      "lastSeenAt": "2026-11-22T00:06:11.685Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "2279e915-ed3e-40ec-b547-b5f9eeabe95f",
       "url": "https://explore.overturemaps.org/?feature=places.place.2279e915-ed3e-40ec-b547-b5f9eeabe95f#17/17.74730682373047/-64.70348358154297",
@@ -196,6 +205,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

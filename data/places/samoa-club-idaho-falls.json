@@ -1,0 +1,52 @@
+{
+  "id": "samoa-club-idaho-falls",
+  "name": "Samoa Club",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Idaho Falls",
+    "region": "Idaho",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 208-525-9924"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:33:28.334Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:33:28.334Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:33:28.334Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "samoa-club",
+      "url": "https://mytiki.life/tiki-bars/samoa-club",
+      "firstSeenAt": "2026-11-22T08:33:28.334Z",
+      "lastSeenAt": "2026-11-22T08:33:28.334Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:33:28.334Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

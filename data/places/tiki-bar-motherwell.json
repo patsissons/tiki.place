@@ -2,6 +2,7 @@
   "id": "tiki-bar-motherwell",
   "name": "Tiki Bar & Darts Den",
   "aliases": [
+    "The Tiki Bar & Kitsch Inn - Glasgow",
     "Tiki Bar",
     "Tiki Bar and Kitsch Inn"
   ],
@@ -34,7 +35,7 @@
     "website": "https://www.tikibarglasgow.com/",
     "googleMapsUri": "https://maps.google.com/?cid=12794592837421513798&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.993,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -90,6 +91,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-tiki-bar-kitsch-inn-glasgow",
+      "url": "https://mytiki.life/tiki-bars/the-tiki-bar-kitsch-inn-glasgow",
+      "firstSeenAt": "2026-11-22T12:14:18.437Z",
+      "lastSeenAt": "2026-11-22T12:14:18.437Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/6567398193",
       "url": "https://www.openstreetmap.org/node/6567398193",
@@ -119,6 +127,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

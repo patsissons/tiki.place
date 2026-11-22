@@ -92,7 +92,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -164,6 +164,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kaona-room",
+      "url": "https://mytiki.life/tiki-bars/kaona-room",
+      "firstSeenAt": "2026-11-22T03:16:46.984Z",
+      "lastSeenAt": "2026-11-22T03:16:46.984Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "kaona-the-hidden-tiki-room",
       "url": "https://tikiatlas.com/bar?slug=kaona-the-hidden-tiki-room",
@@ -186,6 +193,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

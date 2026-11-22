@@ -2,7 +2,8 @@
   "id": "hawaiian-room",
   "name": "Bottoms Up Tiki Lounge",
   "aliases": [
-    "Hawaiian Room"
+    "Hawaiian Room",
+    "Hawaiian Room - Bellflower"
   ],
   "location": {
     "lat": 33.8900375,
@@ -32,7 +33,7 @@
     "website": "http://mybottomsup.com/"
   },
   "established": 1964,
-  "tikiConfidence": 0.927,
+  "tikiConfidence": 0.978,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -75,6 +76,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hawaiian-room-3",
+      "url": "https://mytiki.life/tiki-bars/hawaiian-room-3",
+      "firstSeenAt": "2026-11-22T02:05:54.754Z",
+      "lastSeenAt": "2026-11-22T02:05:54.754Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "e3047e1e-7670-4dec-99fb-e7dfc793e5ff",
       "url": "https://explore.overturemaps.org/?feature=places.place.e3047e1e-7670-4dec-99fb-e7dfc793e5ff#17/33.890037536621094/-118.12277221679688",
@@ -102,5 +110,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

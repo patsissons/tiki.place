@@ -1,7 +1,9 @@
 {
   "id": "red-lei-lounge-jacksonville",
   "name": "Red Lei Lounge",
-  "aliases": [],
+  "aliases": [
+    "Red Lei Lounge - at The Red Gill Bistro"
+  ],
   "location": {
     "lat": 30.249216099999998,
     "lng": -81.59001789999999,
@@ -69,6 +71,7 @@
     ]
   },
   "contact": {
+    "phone": "+1 904-619-1208",
     "website": "http://www.theredleilounge/",
     "googleMapsUri": "https://maps.google.com/?cid=11431221387658286969&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -78,7 +81,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -92,6 +95,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-12T18:22:54.608Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:04:53.249Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -142,6 +149,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "red-lei-lounge-at-the-red-gill-bistro",
+      "url": "https://mytiki.life/tiki-bars/red-lei-lounge-at-the-red-gill-bistro",
+      "firstSeenAt": "2026-11-22T08:04:53.249Z",
+      "lastSeenAt": "2026-11-22T08:04:53.249Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "47f2d4c0-0cb6-48d1-9429-59f7129c9506",
       "url": "https://explore.overturemaps.org/?feature=places.place.47f2d4c0-0cb6-48d1-9429-59f7129c9506#17/30.24910545349121/-81.58997344970703",
@@ -164,6 +178,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

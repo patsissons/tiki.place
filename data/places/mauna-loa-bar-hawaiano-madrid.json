@@ -1,0 +1,56 @@
+{
+  "id": "mauna-loa-bar-hawaiano-madrid",
+  "name": "Mauna Loa Bar Hawaiano",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Madrid",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+34 914 29 70 62",
+    "website": "https://loabarhawaiano.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:16:38.800Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:16:38.800Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:16:38.800Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:16:38.800Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mauna-loa-bar-hawaiano",
+      "url": "https://mytiki.life/tiki-bars/mauna-loa-bar-hawaiano",
+      "firstSeenAt": "2026-11-22T06:16:38.800Z",
+      "lastSeenAt": "2026-11-22T06:16:38.800Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T06:16:38.800Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -89,6 +89,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tikicat",
+      "url": "https://mytiki.life/tiki-bars/tikicat",
+      "firstSeenAt": "2026-11-22T14:25:53.063Z",
+      "lastSeenAt": "2026-11-22T14:25:53.063Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "30351ca6-e165-4ce2-baba-8fbf1b29a69f",
       "url": "https://explore.overturemaps.org/?feature=places.place.30351ca6-e165-4ce2-baba-8fbf1b29a69f#17/39.053096771240234/-94.59069061279297",
@@ -97,6 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

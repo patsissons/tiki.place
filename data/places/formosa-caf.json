@@ -122,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 1939,
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -187,6 +187,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-formosa-cafe",
+      "url": "https://mytiki.life/tiki-bars/the-formosa-cafe",
+      "firstSeenAt": "2026-11-22T10:41:47.922Z",
+      "lastSeenAt": "2026-11-22T10:41:47.922Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "formosa-caf",
       "url": "https://tikirat.com/bars/formosa-caf",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "burts-tiki-lounge-albuquerque",
   "name": "Burt's Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Burt's Tiki Lounge - Albuquerque"
+  ],
   "location": {
     "lat": 35.0837402,
     "lng": -106.6511993,
@@ -49,6 +51,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "burts-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/burts-tiki-lounge",
+      "firstSeenAt": "2026-11-22T00:08:16.279Z",
+      "lastSeenAt": "2026-11-22T00:08:16.279Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "26627f91-dce4-42e6-a304-7c624f4aac14",
       "url": "https://explore.overturemaps.org/?feature=places.place.26627f91-dce4-42e6-a304-7c624f4aac14#17/35.083740234375/-106.65119934082031",
@@ -94,5 +103,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

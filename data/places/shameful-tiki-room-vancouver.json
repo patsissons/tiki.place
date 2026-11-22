@@ -124,7 +124,7 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-shameful-tiki-room",
+      "url": "https://mytiki.life/tiki-bars/the-shameful-tiki-room",
+      "firstSeenAt": "2026-11-22T12:00:29.993Z",
+      "lastSeenAt": "2026-11-22T12:00:29.993Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/6148806055",
       "url": "https://www.openstreetmap.org/node/6148806055",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

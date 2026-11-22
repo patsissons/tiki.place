@@ -1,7 +1,9 @@
 {
   "id": "roka-hula-delray-beach",
   "name": "Roka Hula",
-  "aliases": [],
+  "aliases": [
+    "Roka Hula - Delray Beach"
+  ],
   "location": {
     "lat": 26.4614357,
     "lng": -80.0706702,
@@ -109,7 +111,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -170,6 +172,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "roka-hula-delray-beach",
+      "url": "https://mytiki.life/tiki-bars/roka-hula-delray-beach",
+      "firstSeenAt": "2026-11-22T08:18:03.457Z",
+      "lastSeenAt": "2026-11-22T08:18:03.457Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "cc93bc42-8c1d-4b02-b1d3-d842ee0d8c46",
       "url": "https://explore.overturemaps.org/?feature=places.place.cc93bc42-8c1d-4b02-b1d3-d842ee0d8c46#17/26.46143913269043/-80.0706787109375",
@@ -178,6 +187,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

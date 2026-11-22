@@ -1,7 +1,9 @@
 {
   "id": "tipsy-hippo-singapore",
   "name": "Tipsy Hippo",
-  "aliases": [],
+  "aliases": [
+    "Tipsy Hippo - Singapore"
+  ],
   "location": {
     "lat": 1.2920388,
     "lng": 103.8427074,
@@ -61,6 +63,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tipsy-hippo-singapore",
+      "url": "https://mytiki.life/tiki-bars/tipsy-hippo-singapore",
+      "firstSeenAt": "2026-11-22T14:33:57.991Z",
+      "lastSeenAt": "2026-11-22T14:33:57.991Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tipsy-hippo",
       "url": "https://tikiatlas.com/bar?slug=tipsy-hippo",
@@ -69,5 +78,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

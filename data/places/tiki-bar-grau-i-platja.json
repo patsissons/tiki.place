@@ -1,0 +1,58 @@
+{
+  "id": "tiki-bar-grau-i-platja",
+  "name": "Tiki Bar",
+  "aliases": [
+    "Tiki Bar - Grau i Platja"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Grau i Platja",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "648 910 586",
+    "website": "https://tikibar.es/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:53:56.472Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:53:56.472Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:53:56.472Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:53:56.472Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-bar-3",
+      "url": "https://mytiki.life/tiki-bars/tiki-bar-3",
+      "firstSeenAt": "2026-11-22T12:53:56.472Z",
+      "lastSeenAt": "2026-11-22T12:53:56.472Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T12:53:56.472Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

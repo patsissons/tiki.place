@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "glitter-gulch-tiki",
+      "url": "https://mytiki.life/tiki-bars/glitter-gulch-tiki",
+      "firstSeenAt": "2026-11-22T01:42:27.316Z",
+      "lastSeenAt": "2026-11-22T01:42:27.316Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "d39e2f84-4d2e-4305-a23b-b64e1d1ff5c5",
       "url": "https://explore.overturemaps.org/?feature=places.place.d39e2f84-4d2e-4305-a23b-b64e1d1ff5c5#17/36.170291900634766/-115.14163970947266",
@@ -224,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

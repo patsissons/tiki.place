@@ -184,6 +184,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-on-18th",
+      "url": "https://mytiki.life/tiki-bars/tiki-on-18th",
+      "firstSeenAt": "2026-11-22T13:55:04.599Z",
+      "lastSeenAt": "2026-11-22T13:55:04.599Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/11197056817",
       "url": "https://www.openstreetmap.org/node/11197056817",
@@ -220,6 +227,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

@@ -2,7 +2,8 @@
   "id": "water-witch-tiki-savannah",
   "name": "Water Witch Tiki",
   "aliases": [
-    "Water Witch"
+    "Water Witch",
+    "Water Witch Tiki Bar"
   ],
   "location": {
     "lat": 32.055695799999995,
@@ -186,6 +187,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "water-witch-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/water-witch-tiki-bar",
+      "firstSeenAt": "2026-11-22T16:27:30.163Z",
+      "lastSeenAt": "2026-11-22T16:27:30.163Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/10056368717",
       "url": "https://www.openstreetmap.org/node/10056368717",
@@ -222,6 +230,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

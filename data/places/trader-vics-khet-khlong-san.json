@@ -1,0 +1,59 @@
+{
+  "id": "trader-vics-khet-khlong-san",
+  "name": "Trader Vic's",
+  "aliases": [
+    "Trader Vic's - Bangkok"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Khet Khlong San",
+    "region": "Bangkok",
+    "country": "TH"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+66 2 431 9488",
+    "website": "https://www.anantara.com/en/riverside-bangkok/restaurants/trader-vics"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:09:42.852Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:09:42.852Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:09:42.852Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:09:42.852Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-bangkok",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-bangkok",
+      "firstSeenAt": "2026-11-22T15:09:42.852Z",
+      "lastSeenAt": "2026-11-22T15:09:42.852Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T15:09:42.852Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

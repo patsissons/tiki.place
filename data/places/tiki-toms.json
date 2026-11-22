@@ -2,7 +2,8 @@
   "id": "tiki-toms",
   "name": "Tiki Tom's",
   "aliases": [
-    "Tiki Tom"
+    "Tiki Tom",
+    "Tiki Tom's - Walnut Creek"
   ],
   "location": {
     "lat": 37.895970399999996,
@@ -186,6 +187,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-toms",
+      "url": "https://mytiki.life/tiki-bars/tiki-toms",
+      "firstSeenAt": "2026-11-22T14:17:21.288Z",
+      "lastSeenAt": "2026-11-22T14:17:21.288Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/131467245",
       "url": "https://www.openstreetmap.org/way/131467245",
@@ -222,6 +230,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

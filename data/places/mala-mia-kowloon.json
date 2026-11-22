@@ -1,0 +1,56 @@
+{
+  "id": "mala-mia-kowloon",
+  "name": "Mala Mia",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Kowloon",
+    "country": "HK"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+852 3520 4800",
+    "website": "https://www.malamiahk.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:00:46.559Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:00:46.559Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:00:46.559Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:00:46.559Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mala-mia",
+      "url": "https://mytiki.life/tiki-bars/mala-mia",
+      "firstSeenAt": "2026-11-22T06:00:46.559Z",
+      "lastSeenAt": "2026-11-22T06:00:46.559Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T06:00:46.559Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

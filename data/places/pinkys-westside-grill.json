@@ -1,7 +1,10 @@
 {
   "id": "pinkys-westside-grill",
   "name": "Pinky's Westside Grill",
-  "aliases": [],
+  "aliases": [
+    "The Volcano Room",
+    "The Volcano Room - at Pinky's Westside Grill - Huntersville"
+  ],
   "location": {
     "lat": 35.2291253,
     "lng": -80.8674676,
@@ -120,7 +123,7 @@
   },
   "priceLevel": "$",
   "established": 2010,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.957,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -186,6 +189,13 @@
       "lastSeenAt": "2026-11-17T19:13:01.376Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-volcano-room-at-pinkys-westside-grill-huntersville",
+      "url": "https://mytiki.life/tiki-bars/the-volcano-room-at-pinkys-westside-grill-huntersville",
+      "firstSeenAt": "2026-11-22T12:38:37.445Z",
+      "lastSeenAt": "2026-11-22T12:38:37.445Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "pinky-s-westside-grill",
       "url": "https://tikirat.com/bars/pinky-s-westside-grill",
@@ -194,6 +204,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-17T19:13:01.376Z"
 }

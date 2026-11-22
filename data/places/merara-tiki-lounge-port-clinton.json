@@ -1,7 +1,9 @@
 {
   "id": "merara-tiki-lounge-port-clinton",
   "name": "The Merara Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "The 'Merara Tiki Lounge - at MacStack Tavern"
+  ],
   "location": {
     "lat": 41.522918499999996,
     "lng": -82.8544892,
@@ -101,6 +103,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-merara-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/the-merara-tiki-lounge",
+      "firstSeenAt": "2026-11-22T11:31:30.433Z",
+      "lastSeenAt": "2026-11-22T11:31:30.433Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "c6d27e30-2135-48cb-9d02-1d9bcda2c6b7",
       "url": "https://explore.overturemaps.org/?feature=places.place.c6d27e30-2135-48cb-9d02-1d9bcda2c6b7#17/41.522918701171875/-82.85448455810547",
@@ -116,6 +125,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

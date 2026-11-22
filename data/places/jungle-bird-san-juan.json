@@ -1,0 +1,47 @@
+{
+  "id": "jungle-bird-san-juan",
+  "name": "Jungle Bird",
+  "aliases": [
+    "Jungle Bird - San Juan"
+  ],
+  "location": null,
+  "address": {
+    "locality": "San Juan",
+    "country": "PR"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:01:08.618Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:01:08.618Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "jungle-bird-san-juan",
+      "url": "https://mytiki.life/tiki-bars/jungle-bird-san-juan",
+      "firstSeenAt": "2026-11-22T03:01:08.618Z",
+      "lastSeenAt": "2026-11-22T03:01:08.618Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T03:01:08.618Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

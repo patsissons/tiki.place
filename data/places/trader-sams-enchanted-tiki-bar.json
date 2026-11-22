@@ -259,6 +259,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-sams-enchanted-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/trader-sams-enchanted-tiki-bar",
+      "firstSeenAt": "2026-11-22T14:55:35.107Z",
+      "lastSeenAt": "2026-11-22T14:55:35.107Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1322687770",
       "url": "https://www.openstreetmap.org/node/1322687770",
@@ -295,6 +302,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

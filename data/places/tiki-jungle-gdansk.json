@@ -1,7 +1,9 @@
 {
   "id": "tiki-jungle-gdansk",
   "name": "Tiki Jungle",
-  "aliases": [],
+  "aliases": [
+    "Tiki Jungle - Gdańsk"
+  ],
   "location": {
     "lat": 54.3499865,
     "lng": 18.6515827,
@@ -24,8 +26,10 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.969,
+  "contact": {
+    "phone": "+48574225205"
+  },
+  "tikiConfidence": 0.991,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -35,6 +39,10 @@
     "address": {
       "sourceId": "osm",
       "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:40:26.676Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -62,6 +70,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-jungle",
+      "url": "https://mytiki.life/tiki-bars/tiki-jungle",
+      "firstSeenAt": "2026-11-22T13:40:26.676Z",
+      "lastSeenAt": "2026-11-22T13:40:26.676Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/11463494969",
       "url": "https://www.openstreetmap.org/node/11463494969",
@@ -77,5 +92,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

@@ -1,0 +1,49 @@
+{
+  "id": "damons-south-central-avenue-glendale",
+  "name": "Damon's - South Central Avenue",
+  "aliases": [
+    "Damon's"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Glendale",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:23:26.552Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0,
+  "review": {
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-22T18:23:57.768Z",
+    "reason": "permanently closed; Damon's original South Central Avenue location (the live steakhouse is on Brand Boulevard)"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:53:00.760Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:53:00.760Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "damons-central-avenue",
+      "url": "https://mytiki.life/tiki-bars/damons-central-avenue",
+      "firstSeenAt": "2026-11-22T00:53:00.760Z",
+      "lastSeenAt": "2026-11-22T00:53:00.760Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:53:00.760Z",
+  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+}

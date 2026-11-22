@@ -186,6 +186,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-sams-grog-grotto",
+      "url": "https://mytiki.life/tiki-bars/trader-sams-grog-grotto",
+      "firstSeenAt": "2026-11-22T14:56:11.732Z",
+      "lastSeenAt": "2026-11-22T14:56:11.732Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/14339739137",
       "url": "https://www.openstreetmap.org/node/14339739137",
@@ -229,6 +236,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

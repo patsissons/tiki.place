@@ -1,0 +1,57 @@
+{
+  "id": "noa-noa-wood-grill-and-sushi-bar-warsaw",
+  "name": "Noa Noa Wood Grill & Sushi Bar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Warsaw",
+    "region": "Indiana",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 574-372-3224",
+    "website": "http://noanoawoodgrill.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:49:50.382Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:49:50.382Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:49:50.382Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:49:50.382Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "noa-noa-wood-grill-sushi-bar",
+      "url": "https://mytiki.life/tiki-bars/noa-noa-wood-grill-sushi-bar",
+      "firstSeenAt": "2026-11-22T06:49:50.382Z",
+      "lastSeenAt": "2026-11-22T06:49:50.382Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T06:49:50.382Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

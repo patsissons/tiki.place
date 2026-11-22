@@ -3,6 +3,8 @@
   "name": "Hell or High Water Tiki",
   "aliases": [
     "Hell or High Water",
+    "Hell or High Water Tiki - Blake Street",
+    "Hell or High Water Tiki - Walnut Street",
     "Hell or High Water Tiki Bar"
   ],
   "location": {
@@ -186,6 +188,20 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hell-or-high-water-tiki",
+      "url": "https://mytiki.life/tiki-bars/hell-or-high-water-tiki",
+      "firstSeenAt": "2026-11-22T02:11:09.771Z",
+      "lastSeenAt": "2026-11-22T02:11:09.771Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "hell-or-high-water-tiki-walnut-street",
+      "url": "https://mytiki.life/tiki-bars/hell-or-high-water-tiki-walnut-street",
+      "firstSeenAt": "2026-11-22T02:11:34.412Z",
+      "lastSeenAt": "2026-11-22T02:11:34.412Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "ab512d4e-03db-419e-840a-86ed8c83cd42",
       "url": "https://explore.overturemaps.org/?feature=places.place.ab512d4e-03db-419e-840a-86ed8c83cd42#17/39.76800537109375/-104.97443389892578",
@@ -222,6 +238,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

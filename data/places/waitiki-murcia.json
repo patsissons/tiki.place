@@ -1,0 +1,80 @@
+{
+  "id": "waitiki-murcia",
+  "name": "Waitiki",
+  "aliases": [
+    "Waitiki - Murcia"
+  ],
+  "location": {
+    "lat": 37.9881897,
+    "lng": -1.1267872,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Murcia",
+    "region": "Murcia",
+    "country": "ES"
+  },
+  "timezone": "Europe/Madrid",
+  "externalIds": {
+    "overture": "867efdb7-8f6f-41cd-a6b4-e92e304f6d1f"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+34699046812",
+    "website": "https://waitiki.es/"
+  },
+  "tikiConfidence": 0.715,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:25:26.830Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "waitiki-3",
+      "url": "https://mytiki.life/tiki-bars/waitiki-3",
+      "firstSeenAt": "2026-11-22T16:25:26.830Z",
+      "lastSeenAt": "2026-11-22T16:25:26.830Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "867efdb7-8f6f-41cd-a6b4-e92e304f6d1f",
+      "url": "https://explore.overturemaps.org/?feature=places.place.867efdb7-8f6f-41cd-a6b4-e92e304f6d1f#17/37.988189697265625/-1.1267871856689453",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "beachcomber-london",
+  "name": "The Beachcomber",
+  "aliases": [
+    "The Beachcomber - at the May Fair Hotel",
+    "The Beachcomber - London"
+  ],
+  "location": null,
+  "address": {
+    "locality": "London",
+    "country": "GB"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+44 20 7221 2455",
+    "website": "https://thebeachcomber.co.uk/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:12:39.844Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:12:05.440Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:12:05.440Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:12:39.844Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-beachcomber-8",
+      "url": "https://mytiki.life/tiki-bars/the-beachcomber-8",
+      "firstSeenAt": "2026-11-22T10:12:05.440Z",
+      "lastSeenAt": "2026-11-22T10:12:05.440Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-beachcomber-at-the-may-fair-hotel",
+      "url": "https://mytiki.life/tiki-bars/the-beachcomber-at-the-may-fair-hotel",
+      "firstSeenAt": "2026-11-22T10:12:39.844Z",
+      "lastSeenAt": "2026-11-22T10:12:39.844Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T10:12:05.440Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

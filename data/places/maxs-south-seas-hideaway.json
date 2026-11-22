@@ -183,6 +183,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "maxs-southseas-hideaway",
+      "url": "https://mytiki.life/tiki-bars/maxs-southseas-hideaway",
+      "firstSeenAt": "2026-11-22T06:19:07.710Z",
+      "lastSeenAt": "2026-11-22T06:19:07.710Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "ad442007-95d9-4a95-a588-3c89b2cc267a",
       "url": "https://explore.overturemaps.org/?feature=places.place.ad442007-95d9-4a95-a588-3c89b2cc267a#17/42.96151351928711/-85.67008209228516",
@@ -212,6 +219,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

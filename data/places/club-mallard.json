@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 1945,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.957,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -185,6 +185,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "club-mallard",
+      "url": "https://mytiki.life/tiki-bars/club-mallard",
+      "firstSeenAt": "2026-11-22T00:39:39.096Z",
+      "lastSeenAt": "2026-11-22T00:39:39.096Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "club-mallard",
       "url": "https://tikirat.com/bars/club-mallard",
@@ -193,6 +200,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

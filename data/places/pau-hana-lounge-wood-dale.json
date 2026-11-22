@@ -1,7 +1,9 @@
 {
   "id": "pau-hana-lounge-wood-dale",
   "name": "Pau Hana Lounge",
-  "aliases": [],
+  "aliases": [
+    "Pau Hana Lounge - Wood Dale"
+  ],
   "location": {
     "lat": 41.9647106,
     "lng": -87.9978435,
@@ -35,7 +37,7 @@
     "count": 181,
     "at": "2026-11-12T18:22:54.608Z"
   },
-  "tikiConfidence": 0.985,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -96,6 +98,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "pau-hana-lounge-2",
+      "url": "https://mytiki.life/tiki-bars/pau-hana-lounge-2",
+      "firstSeenAt": "2026-11-22T07:25:03.004Z",
+      "lastSeenAt": "2026-11-22T07:25:03.004Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "90349c03-8bf5-4532-bfbd-e09992cd7b55",
       "url": "https://explore.overturemaps.org/?feature=places.place.90349c03-8bf5-4532-bfbd-e09992cd7b55#17/41.965797424316406/-87.99810028076172",
@@ -111,6 +120,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

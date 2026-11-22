@@ -103,6 +103,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kapu-bar",
+      "url": "https://mytiki.life/tiki-bars/kapu-bar",
+      "firstSeenAt": "2026-11-22T03:17:11.689Z",
+      "lastSeenAt": "2026-11-22T03:17:11.689Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "1f7ecf59-ad05-4364-8768-c2cd750de457",
       "url": "https://explore.overturemaps.org/?feature=places.place.1f7ecf59-ad05-4364-8768-c2cd750de457#17/38.23459243774414/-122.64238739013672",
@@ -118,6 +125,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

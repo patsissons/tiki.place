@@ -2,6 +2,8 @@
   "id": "alofah-tiki-bar-ciudad-de-mexico",
   "name": "Monkey Bee's Knee's",
   "aliases": [
+    "Alofah",
+    "Alofah - Mexico City",
     "Alofah Tiki Bar"
   ],
   "location": {
@@ -77,6 +79,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "alofah-mexico-city",
+      "url": "https://mytiki.life/tiki-bars/alofah-mexico-city",
+      "firstSeenAt": "2026-11-21T22:53:44.899Z",
+      "lastSeenAt": "2026-11-21T22:53:44.899Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "alofah-tiki-bar",
       "url": "https://tikiatlas.com/bar?slug=alofah-tiki-bar",
@@ -85,6 +94,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

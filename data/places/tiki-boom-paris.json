@@ -1,0 +1,77 @@
+{
+  "id": "tiki-boom-paris",
+  "name": "Tiki Boom",
+  "aliases": [
+    "Tikiboom"
+  ],
+  "location": {
+    "lat": 48.8518406,
+    "lng": 2.334522,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Paris",
+    "region": "IDF",
+    "country": "FR"
+  },
+  "timezone": "Europe/Paris",
+  "externalIds": {
+    "overture": "674c6ac2-0524-405d-95a2-c6f9c516e0a7",
+    "osm": "node/8121110453"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.86,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-boom",
+      "url": "https://mytiki.life/tiki-bars/tiki-boom",
+      "firstSeenAt": "2026-11-22T13:13:47.668Z",
+      "lastSeenAt": "2026-11-22T13:13:47.668Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/8121110453",
+      "url": "https://www.openstreetmap.org/node/8121110453",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "674c6ac2-0524-405d-95a2-c6f9c516e0a7",
+      "url": "https://explore.overturemaps.org/?feature=places.place.674c6ac2-0524-405d-95a2-c6f9c516e0a7#17/48.851837158203125/2.3345236778259277",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+}

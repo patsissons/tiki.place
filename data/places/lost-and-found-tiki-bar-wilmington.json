@@ -1,0 +1,52 @@
+{
+  "id": "lost-and-found-tiki-bar-wilmington",
+  "name": "Lost & Found Tiki Bar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Wilmington",
+    "region": "North Carolina",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "website": "https://www.lostandfoundtiki.com/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:19:46.085Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:19:46.085Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:19:46.085Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "lost-found-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/lost-found-tiki-bar",
+      "firstSeenAt": "2026-11-22T04:19:46.085Z",
+      "lastSeenAt": "2026-11-22T04:19:46.085Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T04:19:46.085Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

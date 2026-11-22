@@ -1,0 +1,58 @@
+{
+  "id": "fiji-tiki-bar-munich-munchen",
+  "name": "Fiji Tiki Bar - Munich",
+  "aliases": [
+    "Fiji Tiki Bar"
+  ],
+  "location": null,
+  "address": {
+    "locality": "München",
+    "country": "DE"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+49 89 49009097",
+    "website": "https://fiji-bar.de/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:29:56.106Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:29:56.106Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:29:56.106Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:29:56.106Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "fiji-tiki-bar-munich",
+      "url": "https://mytiki.life/tiki-bars/fiji-tiki-bar-munich",
+      "firstSeenAt": "2026-11-22T01:29:56.106Z",
+      "lastSeenAt": "2026-11-22T01:29:56.106Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:29:56.106Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

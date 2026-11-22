@@ -25,6 +25,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "(480) 699-8454",
     "googleMapsUri": "https://maps.google.com/?cid=4183678708680860776&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.941,
@@ -41,6 +42,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:34:24.526Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -75,6 +80,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-drunk-munk",
+      "url": "https://mytiki.life/tiki-bars/the-drunk-munk",
+      "firstSeenAt": "2026-11-22T10:34:24.526Z",
+      "lastSeenAt": "2026-11-22T10:34:24.526Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-drunk-munk",
       "url": "https://tikiatlas.com/bar?slug=the-drunk-munk",
@@ -83,6 +95,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -186,6 +186,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-thai",
+      "url": "https://mytiki.life/tiki-bars/tiki-thai",
+      "firstSeenAt": "2026-11-22T14:08:10.166Z",
+      "lastSeenAt": "2026-11-22T14:08:10.166Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/603105012",
       "url": "https://www.openstreetmap.org/way/603105012",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

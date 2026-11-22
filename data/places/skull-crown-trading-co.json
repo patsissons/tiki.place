@@ -176,6 +176,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "skull-crown-trading-company",
+      "url": "https://mytiki.life/tiki-bars/skull-crown-trading-company",
+      "firstSeenAt": "2026-11-22T08:55:05.001Z",
+      "lastSeenAt": "2026-11-22T08:55:05.001Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "cbf95985-3bdc-452a-a8f4-2b11c927f8e9",
       "url": "https://explore.overturemaps.org/?feature=places.place.cbf95985-3bdc-452a-a8f4-2b11c927f8e9#17/21.312002182006836/-157.8625946044922",
@@ -205,6 +212,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

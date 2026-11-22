@@ -1,7 +1,9 @@
 {
   "id": "trader-vics-outpost-san-jose",
   "name": "Trader Vic’s Outpost",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's Outpost - San Jose"
+  ],
   "location": {
     "lat": 37.365978,
     "lng": -121.925522,
@@ -27,7 +29,7 @@
   "contact": {
     "website": "https://tradervics.com/pages/trader-vics-outpost"
   },
-  "tikiConfidence": 0.993,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -69,6 +71,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-outpost-san-jose",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-outpost-san-jose",
+      "firstSeenAt": "2026-11-22T15:29:31.353Z",
+      "lastSeenAt": "2026-11-22T15:29:31.353Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "trader-vics-outpost",
       "url": "https://tikiatlas.com/bar?slug=trader-vics-outpost",
@@ -84,5 +93,5 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

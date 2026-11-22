@@ -1,0 +1,57 @@
+{
+  "id": "back-home-in-lahaina-carson",
+  "name": "Back Home in Lahaina",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Carson",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 310-835-4014",
+    "website": "http://www.backhomeinlahaina.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:10:59.643Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:10:59.643Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:10:59.643Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:10:59.643Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "back-home-in-lahaina",
+      "url": "https://mytiki.life/tiki-bars/back-home-in-lahaina",
+      "firstSeenAt": "2026-11-21T23:10:59.643Z",
+      "lastSeenAt": "2026-11-21T23:10:59.643Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:10:59.643Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -173,6 +173,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "forbidden-cove",
+      "url": "https://mytiki.life/tiki-bars/forbidden-cove",
+      "firstSeenAt": "2026-11-22T01:32:39.323Z",
+      "lastSeenAt": "2026-11-22T01:32:39.323Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "889ae768-028c-4ed5-bde6-ba6ac13504d5",
       "url": "https://explore.overturemaps.org/?feature=places.place.889ae768-028c-4ed5-bde6-ba6ac13504d5#17/32.832969665527344/-117.15638732910156",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

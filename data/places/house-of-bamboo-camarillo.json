@@ -109,7 +109,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.964,
+  "tikiConfidence": 0.989,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -170,6 +170,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "house-of-bamboo",
+      "url": "https://mytiki.life/tiki-bars/house-of-bamboo",
+      "firstSeenAt": "2026-11-22T02:25:08.947Z",
+      "lastSeenAt": "2026-11-22T02:25:08.947Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "becd129c-565f-4498-9601-3a07eb5a10cf",
       "url": "https://explore.overturemaps.org/?feature=places.place.becd129c-565f-4498-9601-3a07eb5a10cf#17/34.216880798339844/-119.04034423828125",
@@ -185,6 +192,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

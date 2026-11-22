@@ -118,7 +118,7 @@
     "at": "2026-11-14T16:38:04.344Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -182,6 +182,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tucana-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/tucana-tiki-bar",
+      "firstSeenAt": "2026-11-22T15:57:06.395Z",
+      "lastSeenAt": "2026-11-22T15:57:06.395Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "893723c6-e070-431a-8d9c-5434f93d77e9",
       "url": "https://explore.overturemaps.org/?feature=places.place.893723c6-e070-431a-8d9c-5434f93d77e9#17/33.50667190551758/-86.8153076171875",
@@ -197,6 +204,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

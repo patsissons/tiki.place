@@ -22,6 +22,7 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
+    "phone": "+1 504-535-7778",
     "website": "http://www.tikitolteca.com/"
   },
   "tikiConfidence": 0.825,
@@ -35,6 +36,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:15:58.808Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -54,6 +59,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-tolteca",
+      "url": "https://mytiki.life/tiki-bars/tiki-tolteca",
+      "firstSeenAt": "2026-11-22T14:15:58.808Z",
+      "lastSeenAt": "2026-11-22T14:15:58.808Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "ec72c205-bcbc-4cba-8de7-f78eff96ee3f",
@@ -75,5 +87,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "tiki-rock",
   "name": "Tiki Rock",
-  "aliases": [],
+  "aliases": [
+    "Tiki Rock - Boston"
+  ],
   "location": {
     "lat": 42.3588675,
     "lng": -71.05431589999999,
@@ -184,6 +186,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-rock",
+      "url": "https://mytiki.life/tiki-bars/tiki-rock",
+      "firstSeenAt": "2026-11-22T13:58:49.230Z",
+      "lastSeenAt": "2026-11-22T13:58:49.230Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "903240cf-7492-4f1f-b094-2b1db78b5a22",
       "url": "https://explore.overturemaps.org/?feature=places.place.903240cf-7492-4f1f-b094-2b1db78b5a22#17/42.3588981628418/-71.05442810058594",
@@ -213,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

@@ -25,6 +25,8 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "+1 888-566-8454",
+    "website": "https://www.kontikiinn.com/",
     "googleMapsUri": "https://maps.google.com/?cid=7896911227619469800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   "tikiConfidence": 0.825,
@@ -41,6 +43,14 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:33:38.954Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:33:38.954Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -73,9 +83,16 @@
       "url": "https://maps.google.com/?cid=7896911227619469800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
       "firstSeenAt": "2026-11-22T17:52:17.009Z",
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "kon-tiki-inn",
+      "url": "https://mytiki.life/tiki-bars/kon-tiki-inn",
+      "firstSeenAt": "2026-11-22T03:33:38.954Z",
+      "lastSeenAt": "2026-11-22T03:33:38.954Z"
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:16.549Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "lanai-tiki-eastvale",
   "name": "The Lanai Tiki",
-  "aliases": [],
+  "aliases": [
+    "The Lanai Tiki - at Cravings Food Hall"
+  ],
   "location": {
     "lat": 33.9993227,
     "lng": -117.5559508,
@@ -63,6 +65,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-lanai-tiki-at-cravings-food-hall",
+      "url": "https://mytiki.life/tiki-bars/the-lanai-tiki-at-cravings-food-hall",
+      "firstSeenAt": "2026-11-22T11:16:34.525Z",
+      "lastSeenAt": "2026-11-22T11:16:34.525Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-lanai-tiki",
       "url": "https://tikiatlas.com/bar?slug=the-lanai-tiki",
@@ -71,5 +80,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z"
 }

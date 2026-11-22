@@ -2,7 +2,8 @@
   "id": "hulas-island-grill-santa-cruz",
   "name": "Hula's Island Grill",
   "aliases": [
-    "Hula's Island Grill & Tiki Room"
+    "Hula's Island Grill & Tiki Room",
+    "Hula's Island Grill & Tiki Room - Santa Cruz"
   ],
   "location": {
     "lat": 36.9713997,
@@ -121,7 +122,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -190,6 +191,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hulas-island-grill-tiki-room-santa-cruz",
+      "url": "https://mytiki.life/tiki-bars/hulas-island-grill-tiki-room-santa-cruz",
+      "firstSeenAt": "2026-11-22T02:39:28.761Z",
+      "lastSeenAt": "2026-11-22T02:39:28.761Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/406683079",
       "url": "https://www.openstreetmap.org/node/406683079",
@@ -212,6 +220,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -1,7 +1,10 @@
 {
   "id": "liars-club-manchester",
   "name": "The Liars Club",
-  "aliases": [],
+  "aliases": [
+    "The Liars Lounge",
+    "The Liars Lounge - at Cane & Grain"
+  ],
   "location": {
     "lat": 53.481322299999995,
     "lng": -2.2496961,
@@ -25,9 +28,11 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "0161 839 7033",
+    "website": "https://caneandgrain.co.uk/liars-lounge/",
     "googleMapsUri": "https://maps.google.com/?cid=7248908767702885183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.941,
+  "tikiConfidence": 0.982,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -41,6 +46,14 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:19:19.891Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:19:19.891Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -75,6 +88,20 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-liars-club",
+      "url": "https://mytiki.life/tiki-bars/the-liars-club",
+      "firstSeenAt": "2026-11-22T11:18:39.474Z",
+      "lastSeenAt": "2026-11-22T11:18:39.474Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-liars-lounge",
+      "url": "https://mytiki.life/tiki-bars/the-liars-lounge",
+      "firstSeenAt": "2026-11-22T11:19:19.891Z",
+      "lastSeenAt": "2026-11-22T11:19:19.891Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-liars-club",
       "url": "https://tikiatlas.com/bar?slug=the-liars-club",
@@ -83,6 +110,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "tiki-house",
   "name": "Tiki House",
-  "aliases": [],
+  "aliases": [
+    "Tiki House Key West"
+  ],
   "location": {
     "lat": 24.558954099999998,
     "lng": -81.8050035,
@@ -193,6 +195,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-house-key-west",
+      "url": "https://mytiki.life/tiki-bars/tiki-house-key-west",
+      "firstSeenAt": "2026-11-22T13:32:41.378Z",
+      "lastSeenAt": "2026-11-22T13:32:41.378Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3c2260fa-0ea9-4cc9-8487-353ac7d56f23",
       "url": "https://explore.overturemaps.org/?feature=places.place.3c2260fa-0ea9-4cc9-8487-353ac7d56f23#17/24.55895233154297/-81.80520629882812",
@@ -222,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

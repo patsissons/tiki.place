@@ -1,7 +1,9 @@
 {
   "id": "lees-hawaiian-islander",
   "name": "Lee's Hawaiian Islander",
-  "aliases": [],
+  "aliases": [
+    "Lee's Hawaiian Islander - Lyndhurst"
+  ],
   "location": {
     "lat": 40.804158799999996,
     "lng": -74.13433309999999,
@@ -90,6 +92,7 @@
   },
   "contact": {
     "phone": "+1 201-939-3777",
+    "website": "https://www.loopnet.com/Listing/768-Stuyvesant-Ave-Lyndhurst-NJ/31574898/",
     "googleMapsUri": "https://maps.google.com/?cid=7087686647432586436&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
@@ -99,7 +102,7 @@
   },
   "priceLevel": "$$",
   "established": 1974,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -117,6 +120,10 @@
     "contact.phone": {
       "sourceId": "google",
       "observedAt": "2026-11-11T17:55:26.537Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:05:45.789Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -167,6 +174,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lees-hawaiian-islander-lyndhurst",
+      "url": "https://mytiki.life/tiki-bars/lees-hawaiian-islander-lyndhurst",
+      "firstSeenAt": "2026-11-22T04:05:45.789Z",
+      "lastSeenAt": "2026-11-22T04:05:45.789Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "lees-hawaiian-islander",
       "url": "https://tikiatlas.com/bar?slug=lees-hawaiian-islander",
@@ -189,6 +203,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

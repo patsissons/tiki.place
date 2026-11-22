@@ -1,7 +1,9 @@
 {
   "id": "castaways-cove",
   "name": "Castaways Cove",
-  "aliases": [],
+  "aliases": [
+    "Castaways Cove Restaurant and Tiki Bar"
+  ],
   "location": {
     "lat": 39.4813093,
     "lng": -106.0473317,
@@ -193,6 +195,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "castaways-cove-restaurant-and-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/castaways-cove-restaurant-and-tiki-bar",
+      "firstSeenAt": "2026-11-22T00:20:32.405Z",
+      "lastSeenAt": "2026-11-22T00:20:32.405Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "bf651f56-f972-41ba-b1db-323f491fd723",
       "url": "https://explore.overturemaps.org/?feature=places.place.bf651f56-f972-41ba-b1db-323f491fd723#17/39.481300354003906/-106.04769897460938",
@@ -222,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

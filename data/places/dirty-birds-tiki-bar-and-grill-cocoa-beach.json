@@ -1,7 +1,10 @@
 {
   "id": "dirty-birds-tiki-bar-and-grill-cocoa-beach",
   "name": "Dirty Birds Tiki Bar & Grill",
-  "aliases": [],
+  "aliases": [
+    "Dirty Birds",
+    "Dirty Birds - Cocoa Beach"
+  ],
   "location": {
     "lat": 28.318211599999998,
     "lng": -80.6092888,
@@ -110,7 +113,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.884,
+  "tikiConfidence": 0.965,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -171,6 +174,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "dirty-birds-cocoa-beach",
+      "url": "https://mytiki.life/tiki-bars/dirty-birds-cocoa-beach",
+      "firstSeenAt": "2026-11-22T01:02:14.901Z",
+      "lastSeenAt": "2026-11-22T01:02:14.901Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/13991045363",
       "url": "https://www.openstreetmap.org/node/13991045363",
@@ -186,6 +196,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

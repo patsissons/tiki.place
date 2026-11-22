@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "three-dots-and-a-dash",
+      "url": "https://mytiki.life/tiki-bars/three-dots-and-a-dash",
+      "firstSeenAt": "2026-11-22T12:45:17.004Z",
+      "lastSeenAt": "2026-11-22T12:45:17.004Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "1525ed24-9aee-41ff-838d-69143ad843db",
       "url": "https://explore.overturemaps.org/?feature=places.place.1525ed24-9aee-41ff-838d-69143ad843db#17/41.89021301269531/-87.63082885742188",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

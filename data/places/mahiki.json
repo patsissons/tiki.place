@@ -1,7 +1,10 @@
 {
   "id": "mahiki",
   "name": "Mahiki",
-  "aliases": [],
+  "aliases": [
+    "Mahiki - Dover Street - London",
+    "Mahiki - Kensington High Street - London"
+  ],
   "location": {
     "lat": 51.507761599999995,
     "lng": -0.141354,
@@ -99,6 +102,20 @@
       "lastSeenAt": "2026-11-17T19:13:01.376Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mahiki-dover-street-london",
+      "url": "https://mytiki.life/tiki-bars/mahiki-dover-street-london",
+      "firstSeenAt": "2026-11-22T05:43:46.280Z",
+      "lastSeenAt": "2026-11-22T05:43:46.280Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mahiki-kensington-high-street-london",
+      "url": "https://mytiki.life/tiki-bars/mahiki-kensington-high-street-london",
+      "firstSeenAt": "2026-11-22T05:45:35.736Z",
+      "lastSeenAt": "2026-11-22T05:45:35.736Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "mahiki",
       "url": "https://tikirat.com/bars/mahiki",
@@ -107,6 +124,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-17T19:13:01.376Z"
 }

@@ -1,0 +1,80 @@
+{
+  "id": "luau-tiki-bar-bari",
+  "name": "Luau Tiki Bar",
+  "aliases": [
+    "Luau Tiki Bar - Bari"
+  ],
+  "location": {
+    "lat": 41.1240273,
+    "lng": 16.8739128,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Bari",
+    "region": "75",
+    "country": "IT"
+  },
+  "timezone": "Europe/Rome",
+  "externalIds": {
+    "overture": "bd439c27-a39d-4a29-b9f4-cd3a92138351"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+39 392 392 9346",
+    "website": "http://luautiki.bar/"
+  },
+  "tikiConfidence": 0.853,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:36:26.529Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "luau-tiki-bar-bari",
+      "url": "https://mytiki.life/tiki-bars/luau-tiki-bar-bari",
+      "firstSeenAt": "2026-11-22T05:36:26.529Z",
+      "lastSeenAt": "2026-11-22T05:36:26.529Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "bd439c27-a39d-4a29-b9f4-cd3a92138351",
+      "url": "https://explore.overturemaps.org/?feature=places.place.bd439c27-a39d-4a29-b9f4-cd3a92138351#17/41.124027252197266/16.873912811279297",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

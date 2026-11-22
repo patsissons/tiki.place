@@ -79,7 +79,7 @@
     "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -140,6 +140,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "te-fiti-tiki",
+      "url": "https://mytiki.life/tiki-bars/te-fiti-tiki",
+      "firstSeenAt": "2026-11-22T09:53:07.615Z",
+      "lastSeenAt": "2026-11-22T09:53:07.615Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "a7f721e9-2d56-4663-a73d-80528b5ab220",
       "url": "https://explore.overturemaps.org/?feature=places.place.a7f721e9-2d56-4663-a73d-80528b5ab220#17/43.32942581176758/-83.73896026611328",
@@ -148,6 +155,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

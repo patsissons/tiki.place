@@ -1,0 +1,58 @@
+{
+  "id": "bali-hai-las-condes",
+  "name": "Bali-Hai",
+  "aliases": [
+    "Bali-Hai - Las Condes, Chile"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Las Condes",
+    "country": "CL"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+56 2 2228 8273",
+    "website": "http://www.balihai.cl/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:16:23.603Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:16:23.603Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:16:23.603Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:16:23.603Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "bali-hai-las-condes-chile",
+      "url": "https://mytiki.life/tiki-bars/bali-hai-las-condes-chile",
+      "firstSeenAt": "2026-11-21T23:16:23.603Z",
+      "lastSeenAt": "2026-11-21T23:16:23.603Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:16:23.603Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tiki-taky-prague",
+  "name": "Tiki Taky",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Prague",
+    "country": "CZ"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+420 774 801 040",
+    "website": "http://tiki-taky-bar.business.site/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:04:59.457Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:04:59.457Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:04:59.457Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:04:59.457Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-taky",
+      "url": "https://mytiki.life/tiki-bars/tiki-taky",
+      "firstSeenAt": "2026-11-22T14:04:59.457Z",
+      "lastSeenAt": "2026-11-22T14:04:59.457Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T14:04:59.457Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

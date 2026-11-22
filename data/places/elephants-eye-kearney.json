@@ -1,0 +1,59 @@
+{
+  "id": "elephants-eye-kearney",
+  "name": "The Elephant's Eye",
+  "aliases": [
+    "The Elephant's Eye - at the Clarion Inn & Suites and Convention Center"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Kearney",
+    "region": "Nebraska",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(308) 237-3141",
+    "website": "https://visitkearney.org/places/elephants-eye/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:35:38.339Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:35:38.339Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:35:38.339Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:35:38.339Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-elephants-eye",
+      "url": "https://mytiki.life/tiki-bars/the-elephants-eye",
+      "firstSeenAt": "2026-11-22T10:35:38.339Z",
+      "lastSeenAt": "2026-11-22T10:35:38.339Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T10:35:38.339Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "el-polinesio-havana-la-habana",
+  "name": "El Polinesio - Havana",
+  "aliases": [
+    "El Polinesio"
+  ],
+  "location": null,
+  "address": {
+    "locality": "La Habana",
+    "country": "CU"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:21:08.011Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:21:08.011Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "el-polinesio-havana",
+      "url": "https://mytiki.life/tiki-bars/el-polinesio-havana",
+      "firstSeenAt": "2026-11-22T01:21:08.011Z",
+      "lastSeenAt": "2026-11-22T01:21:08.011Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:21:08.011Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

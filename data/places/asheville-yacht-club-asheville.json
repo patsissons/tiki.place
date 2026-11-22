@@ -118,7 +118,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.991,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -187,6 +187,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "asheville-yacht-club",
+      "url": "https://mytiki.life/tiki-bars/asheville-yacht-club",
+      "firstSeenAt": "2026-11-21T23:08:53.913Z",
+      "lastSeenAt": "2026-11-21T23:08:53.913Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "asheville-yacht-club",
       "url": "https://tikiatlas.com/bar?slug=asheville-yacht-club",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

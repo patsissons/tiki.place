@@ -1,7 +1,10 @@
 {
   "id": "bar-krft-tiki",
   "name": "Bar KRFT Tiki",
-  "aliases": [],
+  "aliases": [
+    "KRFT Tiki",
+    "KRFT Tiki - Kyoto"
+  ],
   "location": {
     "lat": 35.002993,
     "lng": 135.77285220000002,
@@ -28,7 +31,7 @@
   "contact": {
     "googleMapsUri": "https://maps.google.com/?cid=18036735761790679294&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.971,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -76,6 +79,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "krft-tiki-kyoto",
+      "url": "https://mytiki.life/tiki-bars/krft-tiki-kyoto",
+      "firstSeenAt": "2026-11-22T03:51:54.222Z",
+      "lastSeenAt": "2026-11-22T03:51:54.222Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/13471075401",
       "url": "https://www.openstreetmap.org/node/13471075401",
@@ -91,6 +101,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

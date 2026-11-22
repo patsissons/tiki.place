@@ -1,7 +1,9 @@
 {
   "id": "jungle-room-richmond",
   "name": "The Jungle Room",
-  "aliases": [],
+  "aliases": [
+    "The Jungle Room - Richmond"
+  ],
   "location": {
     "lat": 37.56146,
     "lng": -77.4691518,
@@ -22,6 +24,7 @@
     "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {
+    "phone": "(804) 367-7921",
     "website": "https://www.sabairichmond.com/"
   },
   "tikiConfidence": 0.85,
@@ -35,6 +38,10 @@
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:08:58.646Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -55,6 +62,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-jungle-room",
+      "url": "https://mytiki.life/tiki-bars/the-jungle-room",
+      "firstSeenAt": "2026-11-22T11:08:58.646Z",
+      "lastSeenAt": "2026-11-22T11:08:58.646Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "jungle-room-richmond",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -64,5 +78,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

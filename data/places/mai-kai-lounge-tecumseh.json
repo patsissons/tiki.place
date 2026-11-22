@@ -1,0 +1,59 @@
+{
+  "id": "mai-kai-lounge-tecumseh",
+  "name": "Mai Kai Lounge",
+  "aliases": [
+    "Mai Kai Lounge -- at the Tecumseh Inn"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Tecumseh",
+    "region": "Michigan",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(517) 423-7401",
+    "website": "https://tecumsehinn.com/index.html"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:47:57.754Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:47:57.754Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:47:57.754Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:47:57.754Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mai-kai-lounge-1",
+      "url": "https://mytiki.life/tiki-bars/mai-kai-lounge-1",
+      "firstSeenAt": "2026-11-22T05:47:57.754Z",
+      "lastSeenAt": "2026-11-22T05:47:57.754Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T05:47:57.754Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

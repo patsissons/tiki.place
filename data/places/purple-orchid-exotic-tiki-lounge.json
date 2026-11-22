@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "purple-orchid-exotic-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/purple-orchid-exotic-tiki-lounge",
+      "firstSeenAt": "2026-11-22T07:58:52.538Z",
+      "lastSeenAt": "2026-11-22T07:58:52.538Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "da526a17-10d1-477b-81f0-8b1334fa7354",
       "url": "https://explore.overturemaps.org/?feature=places.place.da526a17-10d1-477b-81f0-8b1334fa7354#17/33.918521881103516/-118.41734313964844",
@@ -224,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

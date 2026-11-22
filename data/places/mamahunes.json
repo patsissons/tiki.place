@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mamahunes",
+      "url": "https://mytiki.life/tiki-bars/mamahunes",
+      "firstSeenAt": "2026-11-22T06:04:29.915Z",
+      "lastSeenAt": "2026-11-22T06:04:29.915Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "6fbd823a-e1ca-4f34-93ed-14cfeb90f71a",
       "url": "https://explore.overturemaps.org/?feature=places.place.6fbd823a-e1ca-4f34-93ed-14cfeb90f71a#17/22.042490005493164/-159.3358612060547",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

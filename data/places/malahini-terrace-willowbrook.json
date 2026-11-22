@@ -1,0 +1,57 @@
+{
+  "id": "malahini-terrace-willowbrook",
+  "name": "Malahini Terrace",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Willowbrook",
+    "region": "Illinois",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(630) 325-0520",
+    "website": "https://www.willowbrookmalahiniterrace.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:01:53.851Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:01:53.851Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:01:53.851Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:01:53.851Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "malahini-terrace",
+      "url": "https://mytiki.life/tiki-bars/malahini-terrace",
+      "firstSeenAt": "2026-11-22T06:01:53.851Z",
+      "lastSeenAt": "2026-11-22T06:01:53.851Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T06:01:53.851Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

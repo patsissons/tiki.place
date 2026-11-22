@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 1988,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -192,6 +192,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "luau-larrys",
+      "url": "https://mytiki.life/tiki-bars/luau-larrys",
+      "firstSeenAt": "2026-11-22T04:28:28.540Z",
+      "lastSeenAt": "2026-11-22T04:28:28.540Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "luau-larrys",
       "url": "https://tikiatlas.com/bar?slug=luau-larrys",
@@ -214,6 +221,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

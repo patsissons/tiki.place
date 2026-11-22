@@ -1,0 +1,59 @@
+{
+  "id": "bar-hana-sarasota",
+  "name": "Bar Hana",
+  "aliases": [
+    "Bar Hana - by Kojo - Sarasota"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Sarasota",
+    "region": "Florida",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(941) 536-9717",
+    "website": "https://barhana.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:26:54.315Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:26:54.315Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:26:54.315Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:26:54.315Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "bar-hana-by-kojo-sarasota",
+      "url": "https://mytiki.life/tiki-bars/bar-hana-by-kojo-sarasota",
+      "firstSeenAt": "2026-11-21T23:26:54.315Z",
+      "lastSeenAt": "2026-11-21T23:26:54.315Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:26:54.315Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -184,6 +184,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "last-rites",
+      "url": "https://mytiki.life/tiki-bars/last-rites",
+      "firstSeenAt": "2026-11-22T04:01:03.393Z",
+      "lastSeenAt": "2026-11-22T04:01:03.393Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/3853311617",
       "url": "https://www.openstreetmap.org/node/3853311617",
@@ -220,6 +227,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

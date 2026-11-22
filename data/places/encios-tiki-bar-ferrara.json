@@ -109,7 +109,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -170,6 +170,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "encios-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/encios-tiki-bar",
+      "firstSeenAt": "2026-11-22T01:24:51.105Z",
+      "lastSeenAt": "2026-11-22T01:24:51.105Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3c8bf451-8f01-4cf3-898e-af6148ebe127",
       "url": "https://explore.overturemaps.org/?feature=places.place.3c8bf451-8f01-4cf3-898e-af6148ebe127#17/44.83346176147461/11.61755657196045",
@@ -178,6 +185,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

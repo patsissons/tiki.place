@@ -2,7 +2,8 @@
   "id": "lucky-tiki-highland-park-los-angeles",
   "name": "Lucky Tiki Highland Park",
   "aliases": [
-    "The Lucky Tiki"
+    "The Lucky Tiki",
+    "The Lucky Tiki - Chatsworth Street"
   ],
   "location": {
     "lat": 34.1094156,
@@ -91,7 +92,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -159,6 +160,20 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-lucky-tiki",
+      "url": "https://mytiki.life/tiki-bars/the-lucky-tiki",
+      "firstSeenAt": "2026-11-22T11:26:39.904Z",
+      "lastSeenAt": "2026-11-22T11:26:39.904Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-lucky-tiki-highland-park",
+      "url": "https://mytiki.life/tiki-bars/the-lucky-tiki-highland-park",
+      "firstSeenAt": "2026-11-22T11:27:16.885Z",
+      "lastSeenAt": "2026-11-22T11:27:16.885Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "45ac4502-1adf-4b68-a169-7fe6cfdf1a6e",
       "url": "https://explore.overturemaps.org/?feature=places.place.45ac4502-1adf-4b68-a169-7fe6cfdf1a6e#17/34.109375/-118.19361114501953",
@@ -181,6 +196,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

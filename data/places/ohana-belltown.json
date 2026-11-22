@@ -1,7 +1,9 @@
 {
   "id": "ohana-belltown",
   "name": "Ohana Belltown",
-  "aliases": [],
+  "aliases": [
+    "Ohana Belltown - Seattle"
+  ],
   "location": {
     "lat": 47.6126571,
     "lng": -122.3458926,
@@ -120,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 1998,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.957,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -185,6 +187,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "ohana-belltown-seattle",
+      "url": "https://mytiki.life/tiki-bars/ohana-belltown-seattle",
+      "firstSeenAt": "2026-11-22T06:53:29.315Z",
+      "lastSeenAt": "2026-11-22T06:53:29.315Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "ohana-belltown",
       "url": "https://tikirat.com/bars/ohana-belltown",
@@ -193,6 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

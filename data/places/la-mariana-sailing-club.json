@@ -173,6 +173,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "la-mariana-sailing-club",
+      "url": "https://mytiki.life/tiki-bars/la-mariana-sailing-club",
+      "firstSeenAt": "2026-11-22T03:54:30.287Z",
+      "lastSeenAt": "2026-11-22T03:54:30.287Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "18723b54-90b1-4012-8938-71535ded8f2b",
       "url": "https://explore.overturemaps.org/?feature=places.place.18723b54-90b1-4012-8938-71535ded8f2b#17/21.32183837890625/-157.8931121826172",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

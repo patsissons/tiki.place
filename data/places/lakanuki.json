@@ -122,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 2005,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -194,6 +194,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lakanuki",
+      "url": "https://mytiki.life/tiki-bars/lakanuki",
+      "firstSeenAt": "2026-11-22T03:55:31.715Z",
+      "lastSeenAt": "2026-11-22T03:55:31.715Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "lakanuki",
       "url": "https://tikiatlas.com/bar?slug=lakanuki",
@@ -216,6 +223,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

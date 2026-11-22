@@ -1,7 +1,9 @@
 {
   "id": "swizzle-dallas",
   "name": "Swizzle",
-  "aliases": [],
+  "aliases": [
+    "Swizzle Dallas"
+  ],
   "location": {
     "lat": 32.8123249,
     "lng": -96.7700588,
@@ -89,6 +91,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "swizzle-dallas",
+      "url": "https://mytiki.life/tiki-bars/swizzle-dallas",
+      "firstSeenAt": "2026-11-22T09:32:42.583Z",
+      "lastSeenAt": "2026-11-22T09:32:42.583Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "dd22b9b4-9768-4a05-b8ad-f0f945c8a82a",
       "url": "https://explore.overturemaps.org/?feature=places.place.dd22b9b4-9768-4a05-b8ad-f0f945c8a82a#17/32.812408447265625/-96.76976776123047",
@@ -97,6 +106,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

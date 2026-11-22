@@ -203,6 +203,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "sip-n-dip-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/sip-n-dip-tiki-lounge",
+      "firstSeenAt": "2026-11-22T08:53:45.160Z",
+      "lastSeenAt": "2026-11-22T08:53:45.160Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "56966746-d773-4fe9-bff0-bd316c6196c5",
       "url": "https://explore.overturemaps.org/?feature=places.place.56966746-d773-4fe9-bff0-bd316c6196c5#17/47.50446701049805/-111.29524230957031",
@@ -232,6 +239,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

@@ -2,6 +2,7 @@
   "id": "tiki-bar-solomons",
   "name": "Tiki Bar",
   "aliases": [
+    "Solomons Island Tiki Bar",
     "Tiki Bar Solomons Island"
   ],
   "location": {
@@ -78,6 +79,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "solomons-island-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/solomons-island-tiki-bar",
+      "firstSeenAt": "2026-11-22T09:02:26.582Z",
+      "lastSeenAt": "2026-11-22T09:02:26.582Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1669255688",
       "url": "https://www.openstreetmap.org/node/1669255688",
@@ -112,5 +120,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

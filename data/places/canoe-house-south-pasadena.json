@@ -1,0 +1,57 @@
+{
+  "id": "canoe-house-south-pasadena",
+  "name": "Canoe House",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "South Pasadena",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(626) 799-4169",
+    "website": "http://canoehouserestaurant.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:17:37.048Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:17:37.048Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:17:37.048Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:17:37.048Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "canoe-house",
+      "url": "https://mytiki.life/tiki-bars/canoe-house",
+      "firstSeenAt": "2026-11-22T00:17:37.048Z",
+      "lastSeenAt": "2026-11-22T00:17:37.048Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:17:37.048Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -3,6 +3,7 @@
   "name": "Tiki Docks Skyway",
   "aliases": [
     "Tiki Docks",
+    "Tiki Docks - St. Petersburg",
     "Tiki Docks Skyway Bar Grill"
   ],
   "location": {
@@ -114,7 +115,7 @@
   },
   "priceLevel": "$$",
   "established": 2020,
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -179,6 +180,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-docks-1",
+      "url": "https://mytiki.life/tiki-bars/tiki-docks-1",
+      "firstSeenAt": "2026-11-22T13:23:00.658Z",
+      "lastSeenAt": "2026-11-22T13:23:00.658Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "923498c6-ed75-422c-bf8b-12cb2e2aa88c",
       "url": "https://explore.overturemaps.org/?feature=places.place.923498c6-ed75-422c-bf8b-12cb2e2aa88c#17/27.722614288330078/-82.68245697021484",
@@ -201,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

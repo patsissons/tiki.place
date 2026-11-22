@@ -174,6 +174,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-inferno-room",
+      "url": "https://mytiki.life/tiki-bars/the-inferno-room",
+      "firstSeenAt": "2026-11-22T10:59:27.447Z",
+      "lastSeenAt": "2026-11-22T10:59:27.447Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/9569936817",
       "url": "https://www.openstreetmap.org/node/9569936817",
@@ -210,6 +217,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

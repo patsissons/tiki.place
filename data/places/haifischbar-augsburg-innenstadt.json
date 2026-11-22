@@ -1,0 +1,57 @@
+{
+  "id": "haifischbar-augsburg-innenstadt",
+  "name": "Haifischbar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Augsburg-Innenstadt",
+    "region": "Augsburg",
+    "country": "DE"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+49 821 3179161",
+    "website": "https://haifischbar.eatbu.com/?lang=de"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:45:51.855Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:45:51.855Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:45:51.855Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:45:51.855Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "haifischbar",
+      "url": "https://mytiki.life/tiki-bars/haifischbar",
+      "firstSeenAt": "2026-11-22T01:45:51.855Z",
+      "lastSeenAt": "2026-11-22T01:45:51.855Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:45:51.855Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

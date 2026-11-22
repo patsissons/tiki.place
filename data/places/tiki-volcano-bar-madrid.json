@@ -1,7 +1,10 @@
 {
   "id": "tiki-volcano-bar-madrid",
   "name": "Tiki Volcano Bar",
-  "aliases": [],
+  "aliases": [
+    "Tiki Volcano",
+    "Tiki Volcano - Madrid"
+  ],
   "location": {
     "lat": 40.428808499999995,
     "lng": -3.7045575,
@@ -98,7 +101,7 @@
     "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -155,6 +158,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-volcano-madrid",
+      "url": "https://mytiki.life/tiki-bars/tiki-volcano-madrid",
+      "firstSeenAt": "2026-11-22T14:24:36.114Z",
+      "lastSeenAt": "2026-11-22T14:24:36.114Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "349b33ec-962a-447d-87e0-a307f44fad1b",
       "url": "https://explore.overturemaps.org/?feature=places.place.349b33ec-962a-447d-87e0-a307f44fad1b#17/40.42879867553711/-3.704556941986084",
@@ -163,6 +173,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

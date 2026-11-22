@@ -3,6 +3,7 @@
   "name": "Kon-Tiki - Bar Zürich",
   "aliases": [
     "Kon-Tiki",
+    "Kon-Tiki - Zürich",
     "Kon-Tiki Coffeeshop",
     "Kon-Tiki Coffeeshop & Bar",
     "Kontiki"
@@ -32,10 +33,11 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "+41 44 251 35 77",
     "website": "http://www.kontikibar.ch/",
     "googleMapsUri": "https://maps.google.com/?cid=15081278632739536674&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.98,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -49,6 +51,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:28:48.335Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -87,6 +93,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kon-tiki-8",
+      "url": "https://mytiki.life/tiki-bars/kon-tiki-8",
+      "firstSeenAt": "2026-11-22T03:28:48.335Z",
+      "lastSeenAt": "2026-11-22T03:28:48.335Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/317773504",
       "url": "https://www.openstreetmap.org/node/317773504",
@@ -109,6 +122,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -1,0 +1,88 @@
+{
+  "id": "tiki-bar-am-kap-zwenkau",
+  "name": "Tiki Bar Am Kap Zwenkau",
+  "aliases": [
+    "Tiki Bar am Kap"
+  ],
+  "location": {
+    "lat": 51.2326051,
+    "lng": 12.3362052,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Zwenkau",
+    "region": "SN",
+    "country": "DE"
+  },
+  "timezone": "Europe/Berlin",
+  "externalIds": {
+    "overture": "a929c57f-7c4c-4e58-ac5f-52e652ece2f1",
+    "osm": "node/8755589617"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "01520 4020936",
+    "website": "http://www.tiki-am-kap.de/"
+  },
+  "tikiConfidence": 0.897,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:54:24.353Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-bar-am-kap-zwenkau",
+      "url": "https://mytiki.life/tiki-bars/tiki-bar-am-kap-zwenkau",
+      "firstSeenAt": "2026-11-22T12:54:24.353Z",
+      "lastSeenAt": "2026-11-22T12:54:24.353Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/8755589617",
+      "url": "https://www.openstreetmap.org/node/8755589617",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a929c57f-7c4c-4e58-ac5f-52e652ece2f1",
+      "url": "https://explore.overturemaps.org/?feature=places.place.a929c57f-7c4c-4e58-ac5f-52e652ece2f1#17/51.23250198364258/12.336149215698242",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+}

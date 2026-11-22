@@ -2,6 +2,8 @@
   "id": "fongs-pizza-east-village",
   "name": "Fong's Pizza",
   "aliases": [
+    "Fong's Pizza - 4th Street - Des Moines",
+    "Fong's Pizza - East Court Avenue - Des Moines",
     "Fong's Pizza East Village"
   ],
   "location": {
@@ -122,7 +124,7 @@
   },
   "priceLevel": "$",
   "established": 2009,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.957,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -188,6 +190,20 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "fongs-pizza",
+      "url": "https://mytiki.life/tiki-bars/fongs-pizza",
+      "firstSeenAt": "2026-11-22T01:31:53.084Z",
+      "lastSeenAt": "2026-11-22T01:31:53.084Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "fongs-pizza-east-court-avenue-des-moines",
+      "url": "https://mytiki.life/tiki-bars/fongs-pizza-east-court-avenue-des-moines",
+      "firstSeenAt": "2026-11-22T01:32:16.915Z",
+      "lastSeenAt": "2026-11-22T01:32:16.915Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "fong-s-pizza-east-village",
       "url": "https://tikirat.com/bars/fong-s-pizza-east-village",
@@ -196,6 +212,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

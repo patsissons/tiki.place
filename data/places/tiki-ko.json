@@ -186,6 +186,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-ko",
+      "url": "https://mytiki.life/tiki-bars/tiki-ko",
+      "firstSeenAt": "2026-11-22T13:44:01.820Z",
+      "lastSeenAt": "2026-11-22T13:44:01.820Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "9856a11a-f55e-492f-be72-1d91e1088799",
       "url": "https://explore.overturemaps.org/?feature=places.place.9856a11a-f55e-492f-be72-1d91e1088799#17/35.37675857543945/-119.01775360107422",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

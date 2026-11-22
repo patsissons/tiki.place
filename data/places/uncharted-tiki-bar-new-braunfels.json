@@ -1,7 +1,10 @@
 {
   "id": "uncharted-tiki-bar-new-braunfels",
   "name": "Uncharted Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Uncharted",
+    "Uncharted - at The Phoenix Saloon"
+  ],
   "location": {
     "lat": 29.7019464,
     "lng": -98.1251946,
@@ -62,6 +65,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "uncharted-at-the-phoenix-saloon",
+      "url": "https://mytiki.life/tiki-bars/uncharted-at-the-phoenix-saloon",
+      "firstSeenAt": "2026-11-22T16:00:41.484Z",
+      "lastSeenAt": "2026-11-22T16:00:41.484Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "uncharted-tiki-bar",
       "url": "https://tikiatlas.com/bar?slug=uncharted-tiki-bar",
@@ -70,5 +80,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

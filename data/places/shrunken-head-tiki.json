@@ -2,7 +2,8 @@
   "id": "shrunken-head-tiki",
   "name": "Shrunken Head Tiki",
   "aliases": [
-    "Shrunken Head Tiki Bar"
+    "Shrunken Head Tiki Bar",
+    "Shrunken Head Tiki Bar - Colorado Springs"
   ],
   "location": {
     "lat": 38.8359373,
@@ -196,6 +197,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "shrunken-head-tiki-bar-colorado-springs",
+      "url": "https://mytiki.life/tiki-bars/shrunken-head-tiki-bar-colorado-springs",
+      "firstSeenAt": "2026-11-22T08:51:51.689Z",
+      "lastSeenAt": "2026-11-22T08:51:51.689Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/12433832983",
       "url": "https://www.openstreetmap.org/node/12433832983",
@@ -232,6 +240,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

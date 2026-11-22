@@ -1,0 +1,81 @@
+{
+  "id": "maya-speaktiki-dunwoody",
+  "name": "Maya SpeakTiki",
+  "aliases": [
+    "Maya SpeakTiki - at Agave Bandido - Dunwoody",
+    "mayaspeaktiki"
+  ],
+  "location": {
+    "lat": 33.919239,
+    "lng": -84.2913132,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Dunwoody",
+    "region": "GA",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "a59842c3-6a90-4167-b2be-50f12b87afba"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(678) 626-6656",
+    "website": "https://www.mayaspeaktiki.com/dunwoody/"
+  },
+  "tikiConfidence": 0.715,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:19:40.077Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:19:40.077Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-22T18:22:26.637Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "maya-speaktiki-at-agave-bandido-dunwoody",
+      "url": "https://mytiki.life/tiki-bars/maya-speaktiki-at-agave-bandido-dunwoody",
+      "firstSeenAt": "2026-11-22T06:19:40.077Z",
+      "lastSeenAt": "2026-11-22T06:19:40.077Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "a59842c3-6a90-4167-b2be-50f12b87afba",
+      "url": "https://explore.overturemaps.org/?feature=places.place.a59842c3-6a90-4167-b2be-50f12b87afba#17/33.91923904418945/-84.29131317138672",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

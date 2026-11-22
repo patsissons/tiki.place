@@ -25,10 +25,12 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "619-630-2187",
+    "website": "https://mothershiptrip.com/",
     "googleMapsUri": "https://maps.google.com/?cid=2735593608670303486&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "established": 2022,
-  "tikiConfidence": 0.941,
+  "tikiConfidence": 0.982,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -42,6 +44,14 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:40:01.765Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:40:01.765Z"
     },
     "established": {
       "sourceId": "tikiatlas",
@@ -80,6 +90,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mothership",
+      "url": "https://mytiki.life/tiki-bars/mothership",
+      "firstSeenAt": "2026-11-22T06:40:01.765Z",
+      "lastSeenAt": "2026-11-22T06:40:01.765Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "mothership",
       "url": "https://tikiatlas.com/bar?slug=mothership",
@@ -88,6 +105,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

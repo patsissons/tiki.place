@@ -1,0 +1,58 @@
+{
+  "id": "kona-kai-london",
+  "name": "Kona Kai",
+  "aliases": [
+    "Kona Kai - London"
+  ],
+  "location": null,
+  "address": {
+    "locality": "London",
+    "country": "GB"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "020 7385 9991",
+    "website": "http://www.konakai.co.uk/index.html"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:44:08.132Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:44:08.132Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:44:08.132Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:44:08.132Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "kona-kai-london",
+      "url": "https://mytiki.life/tiki-bars/kona-kai-london",
+      "firstSeenAt": "2026-11-22T03:44:08.132Z",
+      "lastSeenAt": "2026-11-22T03:44:08.132Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T03:44:08.132Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

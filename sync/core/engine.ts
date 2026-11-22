@@ -236,7 +236,10 @@ export async function runEngine(opts: EngineOptions = {}): Promise<EngineResult>
   for (const source of orderedSources) {
     for (const obs of latestPerKey(observations.get(source.id) ?? [])) {
       const r = resolveObservation(obs, index, links);
-      if (r.kind === "match") {
+      // A record the owner promoted is its own place: it doesn't fold into a lookalike by name or town
+      // (Damon's old South Central Avenue room vs the live Brand Boulevard steakhouse). Links and its own place still win.
+      const ownPlace = promoted.has(observationKey(obs)) && r.kind === "match" && r.via !== "link" && r.via !== "source-ref";
+      if (r.kind === "match" && !ownPlace) {
         byPlace.set(r.place.id, [...(byPlace.get(r.place.id) ?? []), obs]);
         continue;
       }

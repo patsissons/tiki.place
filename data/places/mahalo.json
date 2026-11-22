@@ -1,7 +1,9 @@
 {
   "id": "mahalo",
   "name": "MAHALO",
-  "aliases": [],
+  "aliases": [
+    "Mahalo - Seoul"
+  ],
   "location": {
     "lat": 37.5347937,
     "lng": 126.99196529999999,
@@ -25,9 +27,10 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "+82 2-790-9550",
     "googleMapsUri": "https://maps.google.com/?cid=15752274754792929256&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.941,
+  "tikiConfidence": 0.982,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -41,6 +44,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:41:37.894Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -75,6 +82,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mahalo-seoul",
+      "url": "https://mytiki.life/tiki-bars/mahalo-seoul",
+      "firstSeenAt": "2026-11-22T05:41:37.894Z",
+      "lastSeenAt": "2026-11-22T05:41:37.894Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "mahalo",
       "url": "https://tikiatlas.com/bar?slug=mahalo",
@@ -83,6 +97,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

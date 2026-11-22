@@ -1,7 +1,9 @@
 {
   "id": "broken-compass-tiki-burbank",
   "name": "Broken Compass Tiki",
-  "aliases": [],
+  "aliases": [
+    "Broken Compass Tiki Bar"
+  ],
   "location": {
     "lat": 34.180631399999996,
     "lng": -118.33321620000001,
@@ -100,6 +102,7 @@
     ]
   },
   "contact": {
+    "phone": "(818) 588-3013",
     "website": "https://www.brokencompasstiki.com/",
     "googleMapsUri": "https://maps.google.com/?cid=7744127070519864208&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -109,7 +112,7 @@
     "at": "2026-11-09T20:49:19.347Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -123,6 +126,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-09T20:49:19.347Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:20:33.391Z"
     },
     "contact.website": {
       "sourceId": "google",
@@ -173,6 +180,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-burbank-pub",
+      "url": "https://mytiki.life/tiki-bars/the-burbank-pub",
+      "firstSeenAt": "2026-11-22T10:20:33.391Z",
+      "lastSeenAt": "2026-11-22T10:20:33.391Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/5141857650",
       "url": "https://www.openstreetmap.org/node/5141857650",
@@ -202,6 +216,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

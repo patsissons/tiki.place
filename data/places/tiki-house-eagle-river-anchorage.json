@@ -1,0 +1,54 @@
+{
+  "id": "tiki-house-eagle-river-anchorage",
+  "name": "The Tiki House - Eagle River",
+  "aliases": [
+    "The Tiki House"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Anchorage",
+    "region": "Alaska",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(907) 696-3000"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:17:39.398Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:17:39.398Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:17:39.398Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-tiki-house-eagle-river",
+      "url": "https://mytiki.life/tiki-bars/the-tiki-house-eagle-river",
+      "firstSeenAt": "2026-11-22T12:17:39.398Z",
+      "lastSeenAt": "2026-11-22T12:17:39.398Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T12:17:39.398Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -1,7 +1,9 @@
 {
   "id": "tiki-beach-forte-village-pula",
   "name": "Tiki Beach @ Forte Village",
-  "aliases": [],
+  "aliases": [
+    "Mahiki Forte Village"
+  ],
   "location": {
     "lat": 38.932116,
     "lng": 8.932341,
@@ -88,6 +90,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mahiki-forte-village",
+      "url": "https://mytiki.life/tiki-bars/mahiki-forte-village",
+      "firstSeenAt": "2026-11-22T05:44:56.114Z",
+      "lastSeenAt": "2026-11-22T05:44:56.114Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "c360e965-da32-46ca-b92b-202f463ced4b",
       "url": "https://explore.overturemaps.org/?feature=places.place.c360e965-da32-46ca-b92b-202f463ced4b#17/38.93211364746094/8.932340621948242",
@@ -96,6 +105,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

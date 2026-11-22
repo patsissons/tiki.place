@@ -2,6 +2,7 @@
   "id": "dons-the-beachcomber-tiki-grill-kailua",
   "name": "Don the Beachcomber",
   "aliases": [
+    "Don the Beachcomber - at the Royal Kona Resort",
     "Don’s the Beachcomber Tiki Grill"
   ],
   "location": {
@@ -28,9 +29,11 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "+1 808-329-3111",
+    "website": "http://www.royalkona.com/",
     "googleMapsUri": "https://maps.google.com/?cid=13478415146807453862&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.971,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -44,6 +47,14 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:09:28.887Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:09:28.887Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -78,6 +89,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "don-the-beachcomber-at-the-royal-kona-resort",
+      "url": "https://mytiki.life/tiki-bars/don-the-beachcomber-at-the-royal-kona-resort",
+      "firstSeenAt": "2026-11-22T01:09:28.887Z",
+      "lastSeenAt": "2026-11-22T01:09:28.887Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/9177586210",
       "url": "https://www.openstreetmap.org/node/9177586210",
@@ -93,6 +111,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

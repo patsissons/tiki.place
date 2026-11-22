@@ -1,0 +1,59 @@
+{
+  "id": "hula-hut-austin",
+  "name": "Hula Hut",
+  "aliases": [
+    "Hula Hut - Austin"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Austin",
+    "region": "Texas",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 512-476-4852",
+    "website": "http://www.hulahut.com/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:37:13.573Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:37:13.573Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:37:13.573Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:37:13.573Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "hula-hut-austin",
+      "url": "https://mytiki.life/tiki-bars/hula-hut-austin",
+      "firstSeenAt": "2026-11-22T02:37:13.573Z",
+      "lastSeenAt": "2026-11-22T02:37:13.573Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T02:37:13.573Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

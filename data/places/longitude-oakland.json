@@ -89,6 +89,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "longitude",
+      "url": "https://mytiki.life/tiki-bars/longitude",
+      "firstSeenAt": "2026-11-22T04:18:00.232Z",
+      "lastSeenAt": "2026-11-22T04:18:00.232Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "8ce781bc-8372-4f5f-9a24-81425cdf54c7",
       "url": "https://explore.overturemaps.org/?feature=places.place.8ce781bc-8372-4f5f-9a24-81425cdf54c7#17/37.80320739746094/-122.26876068115234",
@@ -97,6 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

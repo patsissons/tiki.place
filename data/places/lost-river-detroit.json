@@ -26,6 +26,7 @@
     "at": "2026-10-26T04:35:53.528Z"
   },
   "contact": {
+    "phone": "+1 313-720-0673",
     "website": "http://www.lostrivertiki.com/",
     "googleMapsUri": "https://maps.google.com/?cid=11670485591969553359&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -49,6 +50,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-11T17:55:26.537Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:22:10.915Z"
     },
     "contact.website": {
       "sourceId": "google",
@@ -84,6 +89,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lost-river",
+      "url": "https://mytiki.life/tiki-bars/lost-river",
+      "firstSeenAt": "2026-11-22T04:22:10.915Z",
+      "lastSeenAt": "2026-11-22T04:22:10.915Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "a8910e5f-793b-46bc-9b55-55eaf3838155",
       "url": "https://explore.overturemaps.org/?feature=places.place.a8910e5f-793b-46bc-9b55-55eaf3838155#17/42.388458251953125/-82.94243621826172",
@@ -92,6 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

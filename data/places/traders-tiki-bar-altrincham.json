@@ -1,7 +1,9 @@
 {
   "id": "traders-tiki-bar-altrincham",
   "name": "Traders Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Trader's Tiki Bar - Altrincham"
+  ],
   "location": {
     "lat": 53.385517,
     "lng": -2.3505107,
@@ -94,6 +96,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "traders-tiki-bar-altrincham",
+      "url": "https://mytiki.life/tiki-bars/traders-tiki-bar-altrincham",
+      "firstSeenAt": "2026-11-22T15:43:25.646Z",
+      "lastSeenAt": "2026-11-22T15:43:25.646Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/5092084513",
       "url": "https://www.openstreetmap.org/node/5092084513",
@@ -109,6 +118,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

@@ -1,0 +1,59 @@
+{
+  "id": "splash-bar-honolulu",
+  "name": "Splash Bar",
+  "aliases": [
+    "Splash Bar - at Sheraton Princess Kaiulani Waikiki Beach"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Honolulu",
+    "region": "Hawaii",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(808) 931-8653",
+    "website": "https://www.splashbarwaikiki.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:17:55.708Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:17:55.708Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:17:55.708Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:17:55.708Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "splash-bar-at-sheraton-princess-kaiulani-waikiki-beach",
+      "url": "https://mytiki.life/tiki-bars/splash-bar-at-sheraton-princess-kaiulani-waikiki-beach",
+      "firstSeenAt": "2026-11-22T09:17:55.708Z",
+      "lastSeenAt": "2026-11-22T09:17:55.708Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T09:17:55.708Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

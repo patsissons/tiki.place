@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "petes-tiki-tiki",
+      "url": "https://mytiki.life/tiki-bars/petes-tiki-tiki",
+      "firstSeenAt": "2026-11-22T07:28:30.531Z",
+      "lastSeenAt": "2026-11-22T07:28:30.531Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3a5306f0-596a-4c93-9373-eb8f4ea2b0ae",
       "url": "https://explore.overturemaps.org/?feature=places.place.3a5306f0-596a-4c93-9373-eb8f4ea2b0ae#17/41.978668212890625/-87.86861419677734",
@@ -238,6 +245,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

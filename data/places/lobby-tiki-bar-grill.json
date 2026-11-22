@@ -3,6 +3,7 @@
   "name": "The Lobby Tiki Bar",
   "aliases": [
     "The Lobby Tiki Bar & Grill",
+    "The Lobby Tiki Bar & Grill - at The Brick House",
     "The Lobby Tiki Bar Grill"
   ],
   "location": {
@@ -124,7 +125,7 @@
   },
   "priceLevel": "$$",
   "established": 2023,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -196,6 +197,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-lobby-tiki-bar-grill-at-the-brick-house",
+      "url": "https://mytiki.life/tiki-bars/the-lobby-tiki-bar-grill-at-the-brick-house",
+      "firstSeenAt": "2026-11-22T11:20:22.835Z",
+      "lastSeenAt": "2026-11-22T11:20:22.835Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "35a31e3a-9192-42b6-81bf-d2141f161584",
       "url": "https://explore.overturemaps.org/?feature=places.place.35a31e3a-9192-42b6-81bf-d2141f161584#17/33.19659423828125/-117.38082122802734",
@@ -218,6 +226,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

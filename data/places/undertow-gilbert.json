@@ -114,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -186,6 +186,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "undertow-gilbert",
+      "url": "https://mytiki.life/tiki-bars/undertow-gilbert",
+      "firstSeenAt": "2026-11-22T16:02:29.087Z",
+      "lastSeenAt": "2026-11-22T16:02:29.087Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "37ab891d-7a2a-4603-b028-a6583bfa0353",
       "url": "https://explore.overturemaps.org/?feature=places.place.37ab891d-7a2a-4603-b028-a6583bfa0353#17/33.34429931640625/-111.69937896728516",
@@ -208,6 +215,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

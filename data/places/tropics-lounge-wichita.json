@@ -1,0 +1,54 @@
+{
+  "id": "tropics-lounge-wichita",
+  "name": "Tropics Lounge",
+  "aliases": [
+    "Tropics Lounge - Wichita"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Wichita",
+    "region": "Kansas",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 316-425-5553"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:54:00.563Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:54:00.563Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:54:00.563Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tropics-lounge",
+      "url": "https://mytiki.life/tiki-bars/tropics-lounge",
+      "firstSeenAt": "2026-11-22T15:54:00.563Z",
+      "lastSeenAt": "2026-11-22T15:54:00.563Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T15:54:00.563Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

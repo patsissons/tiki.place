@@ -1,0 +1,78 @@
+{
+  "id": "mangoladas-tiki-bar-neumarkt-in-der-oberpfalz",
+  "name": "Mangoladas Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 49.2792854,
+    "lng": 11.4563351,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Neumarkt in der Oberpfalz",
+    "region": "BY",
+    "country": "DE"
+  },
+  "timezone": "Europe/Berlin",
+  "externalIds": {
+    "overture": "22173bad-7dfd-456d-90ff-c3e3f84073bd"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "0 91 81-90 40 179",
+    "website": "http://www.mangoladas.de/"
+  },
+  "tikiConfidence": 0.853,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:05:47.132Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mangoladas-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/mangoladas-tiki-bar",
+      "firstSeenAt": "2026-11-22T06:05:47.132Z",
+      "lastSeenAt": "2026-11-22T06:05:47.132Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "22173bad-7dfd-456d-90ff-c3e3f84073bd",
+      "url": "https://explore.overturemaps.org/?feature=places.place.22173bad-7dfd-456d-90ff-c3e3f84073bd#17/49.2792854309082/11.456335067749023",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

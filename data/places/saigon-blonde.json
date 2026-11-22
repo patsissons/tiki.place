@@ -183,6 +183,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "saigon-blonde",
+      "url": "https://mytiki.life/tiki-bars/saigon-blonde",
+      "firstSeenAt": "2026-11-22T08:32:06.106Z",
+      "lastSeenAt": "2026-11-22T08:32:06.106Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "0c98b99b-7489-4c31-b3c9-f757640111b4",
       "url": "https://explore.overturemaps.org/?feature=places.place.0c98b99b-7489-4c31-b3c9-f757640111b4#17/27.771305084228516/-82.6366958618164",
@@ -212,6 +219,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

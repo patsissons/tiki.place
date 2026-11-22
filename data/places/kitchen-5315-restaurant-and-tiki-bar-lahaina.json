@@ -1,0 +1,78 @@
+{
+  "id": "kitchen-5315-restaurant-and-tiki-bar-lahaina",
+  "name": "Kitchen 5315 Restaurant and Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 20.9927063,
+    "lng": -156.6668701,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Lahaina",
+    "region": "HI",
+    "country": "US"
+  },
+  "timezone": "Pacific/Honolulu",
+  "externalIds": {
+    "overture": "34e94207-136d-4a2f-b94b-962fb0e1e216"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "808-442-3700",
+    "website": "http://kitchen5315maui.com/"
+  },
+  "tikiConfidence": 0.853,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:24:41.183Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "kitchen-5135-restaurant-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/kitchen-5135-restaurant-tiki-bar",
+      "firstSeenAt": "2026-11-22T03:24:41.183Z",
+      "lastSeenAt": "2026-11-22T03:24:41.183Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "34e94207-136d-4a2f-b94b-962fb0e1e216",
+      "url": "https://explore.overturemaps.org/?feature=places.place.34e94207-136d-4a2f-b94b-962fb0e1e216#17/20.992706298828125/-156.6668701171875",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

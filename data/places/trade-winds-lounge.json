@@ -1,7 +1,9 @@
 {
   "id": "trade-winds-lounge",
   "name": "Trade Winds Lounge",
-  "aliases": [],
+  "aliases": [
+    "Trade Winds Tropical Lounge"
+  ],
   "location": {
     "lat": 29.893015899999998,
     "lng": -81.3115851,
@@ -120,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 1945,
-  "tikiConfidence": 0.857,
+  "tikiConfidence": 0.957,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -185,6 +187,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trade-winds-tropical-lounge",
+      "url": "https://mytiki.life/tiki-bars/trade-winds-tropical-lounge",
+      "firstSeenAt": "2026-11-22T14:48:05.577Z",
+      "lastSeenAt": "2026-11-22T14:48:05.577Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "trade-winds-lounge",
       "url": "https://tikirat.com/bars/trade-winds-lounge",
@@ -193,6 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

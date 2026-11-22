@@ -1,0 +1,57 @@
+{
+  "id": "fallen-trident-santa-clarita",
+  "name": "The Fallen Trident",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Santa Clarita",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "661-579-7522",
+    "website": "https://www.fallentrident.com/?"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:39:46.554Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:39:46.554Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:39:46.554Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:39:46.554Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-fallen-trident",
+      "url": "https://mytiki.life/tiki-bars/the-fallen-trident",
+      "firstSeenAt": "2026-11-22T10:39:46.554Z",
+      "lastSeenAt": "2026-11-22T10:39:46.554Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T10:39:46.554Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

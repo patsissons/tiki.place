@@ -2,7 +2,8 @@
   "id": "huli-huli-tiki-lounge-powell",
   "name": "Huli Huli - Powell",
   "aliases": [
-    "Huli Huli Tiki Lounge"
+    "Huli Huli Tiki Lounge",
+    "Huli Huli Tiki Lounge - Powell"
   ],
   "location": {
     "lat": 40.158183699999995,
@@ -112,7 +113,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -180,6 +181,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "huli-huli-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/huli-huli-tiki-lounge",
+      "firstSeenAt": "2026-11-22T02:41:35.750Z",
+      "lastSeenAt": "2026-11-22T02:41:35.750Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/10151661707",
       "url": "https://www.openstreetmap.org/node/10151661707",
@@ -216,6 +224,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

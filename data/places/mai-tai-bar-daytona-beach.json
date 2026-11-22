@@ -14,8 +14,11 @@
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.895,
+  "contact": {
+    "phone": "+1 386-947-2493",
+    "website": "https://www.maitaibar.com/"
+  },
+  "tikiConfidence": 0.969,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -27,12 +30,27 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:51:11.390Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:51:11.390Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mai-tai-bar",
+      "url": "https://mytiki.life/tiki-bars/mai-tai-bar",
+      "firstSeenAt": "2026-11-22T05:51:11.390Z",
+      "lastSeenAt": "2026-11-22T05:51:11.390Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "mai-tai-bar-daytona-beach",
@@ -43,5 +61,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

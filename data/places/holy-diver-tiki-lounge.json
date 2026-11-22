@@ -1,7 +1,9 @@
 {
   "id": "holy-diver-tiki-lounge",
   "name": "Holy Diver Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Holy Diver Tiki Lounge - at Hi-Tones"
+  ],
   "location": {
     "lat": 29.4472324,
     "lng": -98.4869056,
@@ -89,7 +91,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -157,6 +159,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "holy-diver-tiki-lounge-at-hi-tones",
+      "url": "https://mytiki.life/tiki-bars/holy-diver-tiki-lounge-at-hi-tones",
+      "firstSeenAt": "2026-11-22T02:18:55.454Z",
+      "lastSeenAt": "2026-11-22T02:18:55.454Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "holy-diver-tiki-lounge",
       "url": "https://tikiatlas.com/bar?slug=holy-diver-tiki-lounge",
@@ -179,6 +188,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

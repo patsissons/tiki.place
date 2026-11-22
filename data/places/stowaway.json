@@ -1,7 +1,11 @@
 {
   "id": "stowaway",
   "name": "STOWAWAY",
-  "aliases": [],
+  "aliases": [
+    "Stowaway - Park Avenue in Tustin",
+    "Stowaway & Belly of the Beast",
+    "Stowaway & Belly of the Beast - Newport Avenue in Tustin"
+  ],
   "location": {
     "lat": 33.733696699999996,
     "lng": -117.82767779999998,
@@ -183,6 +187,20 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "stowaway",
+      "url": "https://mytiki.life/tiki-bars/stowaway",
+      "firstSeenAt": "2026-11-22T09:21:36.857Z",
+      "lastSeenAt": "2026-11-22T09:21:36.857Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "stowaway-newport-avenue-in-tustin",
+      "url": "https://mytiki.life/tiki-bars/stowaway-newport-avenue-in-tustin",
+      "firstSeenAt": "2026-11-22T09:22:08.639Z",
+      "lastSeenAt": "2026-11-22T09:22:08.639Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "01584ccb-b651-47f3-9035-da0941c2fc9a",
       "url": "https://explore.overturemaps.org/?feature=places.place.01584ccb-b651-47f3-9035-da0941c2fc9a#17/33.733665466308594/-117.82762145996094",
@@ -212,6 +230,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

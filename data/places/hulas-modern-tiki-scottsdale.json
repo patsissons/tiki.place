@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hulas-modern-tiki-scottsdale",
+      "url": "https://mytiki.life/tiki-bars/hulas-modern-tiki-scottsdale",
+      "firstSeenAt": "2026-11-22T02:40:46.451Z",
+      "lastSeenAt": "2026-11-22T02:40:46.451Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "46303724-f398-42cd-b029-2deb9918401f",
       "url": "https://explore.overturemaps.org/?feature=places.place.46303724-f398-42cd-b029-2deb9918401f#17/33.49397277832031/-111.92569732666016",
@@ -224,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

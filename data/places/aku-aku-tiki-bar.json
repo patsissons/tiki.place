@@ -2,7 +2,8 @@
   "id": "aku-aku-tiki-bar",
   "name": "Aku Aku Tiki Bar",
   "aliases": [
-    "Aku Aku"
+    "Aku Aku",
+    "Aku Aku - Orlando"
   ],
   "location": {
     "lat": 28.5423883,
@@ -196,6 +197,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "aku-aku-orlando",
+      "url": "https://mytiki.life/tiki-bars/aku-aku-orlando",
+      "firstSeenAt": "2026-11-21T22:46:57.605Z",
+      "lastSeenAt": "2026-11-21T22:46:57.605Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/14379261001",
       "url": "https://www.openstreetmap.org/node/14379261001",
@@ -232,6 +240,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

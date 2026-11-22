@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 2023,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -192,6 +192,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tikehau-lounge",
+      "url": "https://mytiki.life/tiki-bars/tikehau-lounge",
+      "firstSeenAt": "2026-11-22T12:46:31.148Z",
+      "lastSeenAt": "2026-11-22T12:46:31.148Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tikehau-lounge",
       "url": "https://tikiatlas.com/bar?slug=tikehau-lounge",
@@ -214,6 +221,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

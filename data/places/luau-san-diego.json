@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-luau-san-diego",
+      "url": "https://mytiki.life/tiki-bars/the-luau-san-diego",
+      "firstSeenAt": "2026-11-22T11:26:02.146Z",
+      "lastSeenAt": "2026-11-22T11:26:02.146Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "7302d80f-cb5e-4200-aefc-fc57aa415f7e",
       "url": "https://explore.overturemaps.org/?feature=places.place.7302d80f-cb5e-4200-aefc-fc57aa415f7e#17/32.76862335205078/-117.04427337646484",
@@ -224,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

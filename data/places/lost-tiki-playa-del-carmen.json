@@ -1,7 +1,9 @@
 {
   "id": "lost-tiki-playa-del-carmen",
   "name": "The Lost Tiki",
-  "aliases": [],
+  "aliases": [
+    "The Lost Tiki - Playa del Carmen"
+  ],
   "location": {
     "lat": 20.6263799,
     "lng": -87.0763649,
@@ -110,7 +112,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.884,
+  "tikiConfidence": 0.965,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -171,6 +173,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-lost-tiki-playa-del-carmen",
+      "url": "https://mytiki.life/tiki-bars/the-lost-tiki-playa-del-carmen",
+      "firstSeenAt": "2026-11-22T11:22:09.941Z",
+      "lastSeenAt": "2026-11-22T11:22:09.941Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/13485264201",
       "url": "https://www.openstreetmap.org/node/13485264201",
@@ -186,6 +195,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

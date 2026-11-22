@@ -1,7 +1,10 @@
 {
   "id": "tiny-tiki-bar-washington",
   "name": "Tiny Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Tiny Tiki",
+    "Tiny Tiki - Washington DC"
+  ],
   "location": {
     "lat": 38.9160385,
     "lng": -77.02417369999999,
@@ -62,6 +65,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiny-tiki-washington-dc",
+      "url": "https://mytiki.life/tiki-bars/tiny-tiki-washington-dc",
+      "firstSeenAt": "2026-11-22T14:32:43.808Z",
+      "lastSeenAt": "2026-11-22T14:32:43.808Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tiny-tiki-bar",
       "url": "https://tikiatlas.com/bar?slug=tiny-tiki-bar",
@@ -70,5 +80,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

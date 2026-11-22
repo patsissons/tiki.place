@@ -25,6 +25,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "(208) 972-0344",
     "googleMapsUri": "https://maps.google.com/?cid=13939932169728281449&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.941,
@@ -41,6 +42,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:59:07.018Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -75,6 +80,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "devils-den",
+      "url": "https://mytiki.life/tiki-bars/devils-den",
+      "firstSeenAt": "2026-11-22T00:59:07.018Z",
+      "lastSeenAt": "2026-11-22T00:59:07.018Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "devils-den",
       "url": "https://tikiatlas.com/bar?slug=devils-den",
@@ -83,6 +95,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

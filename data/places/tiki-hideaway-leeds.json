@@ -1,0 +1,80 @@
+{
+  "id": "tiki-hideaway-leeds",
+  "name": "Tiki Hideaway",
+  "aliases": [
+    "Tiki Hideaway - Leeds"
+  ],
+  "location": {
+    "lat": 53.7955322,
+    "lng": -1.5410726,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Leeds",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "6aed1423-d3e7-4e45-8e7a-6bd9027a811e"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+44 113 242 3966",
+    "website": "http://www.tikihideaway.co.uk/"
+  },
+  "tikiConfidence": 0.853,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:30:15.458Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-hideaway",
+      "url": "https://mytiki.life/tiki-bars/tiki-hideaway",
+      "firstSeenAt": "2026-11-22T13:30:15.458Z",
+      "lastSeenAt": "2026-11-22T13:30:15.458Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "6aed1423-d3e7-4e45-8e7a-6bd9027a811e",
+      "url": "https://explore.overturemaps.org/?feature=places.place.6aed1423-d3e7-4e45-8e7a-6bd9027a811e#17/53.7955322265625/-1.5410726070404053",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

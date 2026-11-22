@@ -1,0 +1,56 @@
+{
+  "id": "danton-ku-biel",
+  "name": "Dan'ton-Ku",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Biel",
+    "country": "CH"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+41 32 323 94 70",
+    "website": "http://www.dantonku.ch/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:54:19.777Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:54:19.777Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:54:19.777Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:54:19.777Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "danton-ku",
+      "url": "https://mytiki.life/tiki-bars/danton-ku",
+      "firstSeenAt": "2026-11-22T00:54:19.777Z",
+      "lastSeenAt": "2026-11-22T00:54:19.777Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:54:19.777Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

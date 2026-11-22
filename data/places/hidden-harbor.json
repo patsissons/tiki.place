@@ -173,6 +173,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hidden-harbor",
+      "url": "https://mytiki.life/tiki-bars/hidden-harbor",
+      "firstSeenAt": "2026-11-22T02:12:55.414Z",
+      "lastSeenAt": "2026-11-22T02:12:55.414Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "f05e5b69-b759-43fe-b309-f12801fabd04",
       "url": "https://explore.overturemaps.org/?feature=places.place.f05e5b69-b759-43fe-b309-f12801fabd04#17/40.43767166137695/-79.91944885253906",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

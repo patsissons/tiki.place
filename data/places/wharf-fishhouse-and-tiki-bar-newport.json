@@ -26,9 +26,10 @@
     "at": "2026-11-21T22:52:15.230Z"
   },
   "contact": {
+    "phone": "401-324-5377",
     "website": "https://www.toasttab.com/fish-house-new-41-bowens-wharf-newport-ri-02840/v3?rwg_token=ADQ7psTA-0hNU777mp2tNXRWhujXFNM0mic4DA-DRZ04suSff1Q8FC1_houou9h2V1vhlkUaftlrV98P-WvjQQyDZcNPKG6uRw%3D%3D"
   },
-  "tikiConfidence": 0.969,
+  "tikiConfidence": 0.991,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -38,6 +39,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:33:18.703Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -69,6 +74,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "wharf-fishhouse-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/wharf-fishhouse-tiki-bar",
+      "firstSeenAt": "2026-11-22T16:33:18.703Z",
+      "lastSeenAt": "2026-11-22T16:33:18.703Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "98a23980-0e60-4528-8452-415688e2c70f",
       "url": "https://explore.overturemaps.org/?feature=places.place.98a23980-0e60-4528-8452-415688e2c70f#17/41.486351013183594/-71.3156509399414",
@@ -84,5 +96,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

@@ -104,7 +104,7 @@
   },
   "priceLevel": "$",
   "established": 2022,
-  "tikiConfidence": 0.997,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -169,6 +169,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "rockaway-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/rockaway-tiki-bar",
+      "firstSeenAt": "2026-11-22T08:16:40.918Z",
+      "lastSeenAt": "2026-11-22T08:16:40.918Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4855020321",
       "url": "https://www.openstreetmap.org/node/4855020321",
@@ -198,6 +205,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

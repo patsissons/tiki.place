@@ -103,7 +103,7 @@
   },
   "priceLevel": "$$",
   "established": 2011,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -168,6 +168,13 @@
       "lastSeenAt": "2026-11-15T17:14:47.787Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "revolucion",
+      "url": "https://mytiki.life/tiki-bars/revolucion",
+      "firstSeenAt": "2026-11-22T08:13:05.643Z",
+      "lastSeenAt": "2026-11-22T08:13:05.643Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "71ba9dd2-945f-4861-932b-33f8e2479245",
       "url": "https://explore.overturemaps.org/?feature=places.place.71ba9dd2-945f-4861-932b-33f8e2479245#17/39.752803802490234/-86.13883972167969",
@@ -190,6 +197,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-15T17:14:47.787Z"
 }

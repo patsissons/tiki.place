@@ -33,7 +33,7 @@
     "website": "https://ritastikiroom.superbexperience.com/",
     "googleMapsUri": "https://maps.google.com/?cid=10791419027325161045&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.972,
+  "tikiConfidence": 0.992,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -89,6 +89,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "ritas-tiki-room",
+      "url": "https://mytiki.life/tiki-bars/ritas-tiki-room",
+      "firstSeenAt": "2026-11-22T08:14:18.982Z",
+      "lastSeenAt": "2026-11-22T08:14:18.982Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1853370614",
       "url": "https://www.openstreetmap.org/node/1853370614",
@@ -111,6 +118,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -2,7 +2,9 @@
   "id": "aku-tiki-traders-restaurant-daytona-beach",
   "name": "Traders Restaurant & Tiki Lounge",
   "aliases": [
-    "Aku Tiki Traders Restaurant"
+    "Aku Tiki Inn",
+    "Aku Tiki Traders Restaurant",
+    "Traders Restaurant"
   ],
   "location": {
     "lat": 29.194491099999997,
@@ -111,7 +113,7 @@
     "at": "2026-11-09T20:49:19.347Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -172,6 +174,20 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "aku-tiki-inn",
+      "url": "https://mytiki.life/tiki-bars/aku-tiki-inn",
+      "firstSeenAt": "2026-11-21T22:49:03.643Z",
+      "lastSeenAt": "2026-11-21T22:49:03.643Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "traders-restaurant",
+      "url": "https://mytiki.life/tiki-bars/traders-restaurant",
+      "firstSeenAt": "2026-11-22T15:42:41.817Z",
+      "lastSeenAt": "2026-11-22T15:42:41.817Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "53f1f88f-11be-49f7-9ac1-4a40597131a9",
       "url": "https://explore.overturemaps.org/?feature=places.place.53f1f88f-11be-49f7-9ac1-4a40597131a9#17/29.19478988647461/-80.99173736572266",
@@ -187,6 +203,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

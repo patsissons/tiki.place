@@ -1,0 +1,58 @@
+{
+  "id": "lola-lo-reading",
+  "name": "Lola Lo",
+  "aliases": [
+    "Lola Lo - Reading"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Reading",
+    "country": "GB"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+44 20 3475 2362",
+    "website": "https://www.lolalo.co.uk/venues/reading/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:16:42.279Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:16:42.279Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:16:42.279Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:16:42.279Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "lola-lo-reading",
+      "url": "https://mytiki.life/tiki-bars/lola-lo-reading",
+      "firstSeenAt": "2026-11-22T04:16:42.279Z",
+      "lastSeenAt": "2026-11-22T04:16:42.279Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T04:16:42.279Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

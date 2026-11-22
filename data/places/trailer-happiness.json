@@ -121,7 +121,7 @@
   },
   "priceLevel": "$$",
   "established": 2003,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trailer-happiness",
+      "url": "https://mytiki.life/tiki-bars/trailer-happiness",
+      "firstSeenAt": "2026-11-22T15:44:45.838Z",
+      "lastSeenAt": "2026-11-22T15:44:45.838Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "89eb686e-2bc2-4b84-b32f-cec1cb074d76",
       "url": "https://explore.overturemaps.org/?feature=places.place.89eb686e-2bc2-4b84-b32f-cec1cb074d76#17/51.51500701904297/-0.20459163188934326",
@@ -215,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "marama-tiki-bar-salerno",
   "name": "Marama Tiki Bar Salerno",
-  "aliases": [],
+  "aliases": [
+    "Marama"
+  ],
   "location": {
     "lat": 40.6775017,
     "lng": 14.762834499999997,
@@ -109,7 +111,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -170,6 +172,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "marama",
+      "url": "https://mytiki.life/tiki-bars/marama",
+      "firstSeenAt": "2026-11-22T06:08:23.116Z",
+      "lastSeenAt": "2026-11-22T06:08:23.116Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "0e24e98f-cd17-4edc-9dcf-9b25d1dc932d",
       "url": "https://explore.overturemaps.org/?feature=places.place.0e24e98f-cd17-4edc-9dcf-9b25d1dc932d#17/40.67900466918945/14.75784683227539",
@@ -185,6 +194,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

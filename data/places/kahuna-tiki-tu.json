@@ -194,6 +194,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kahuna-tiki-tu",
+      "url": "https://mytiki.life/tiki-bars/kahuna-tiki-tu",
+      "firstSeenAt": "2026-11-22T03:07:41.442Z",
+      "lastSeenAt": "2026-11-22T03:07:41.442Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/13525362738",
       "url": "https://www.openstreetmap.org/node/13525362738",
@@ -230,6 +237,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

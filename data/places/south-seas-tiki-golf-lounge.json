@@ -3,6 +3,7 @@
   "name": "South Seas Tiki & Golf Lounge",
   "aliases": [
     "South Seas",
+    "South Seas Tiki & Golf Lounge - Louisville",
     "South Seas Tiki Golf Lounge"
   ],
   "location": {
@@ -177,6 +178,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "south-seas-tiki-golf-lounge-louisville",
+      "url": "https://mytiki.life/tiki-bars/south-seas-tiki-golf-lounge-louisville",
+      "firstSeenAt": "2026-11-22T09:14:44.059Z",
+      "lastSeenAt": "2026-11-22T09:14:44.059Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/330578568",
       "url": "https://www.openstreetmap.org/way/330578568",
@@ -213,6 +221,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

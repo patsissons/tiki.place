@@ -2,6 +2,8 @@
   "id": "damons-steak-house",
   "name": "Damon's Steak House",
   "aliases": [
+    "Damon's",
+    "Damon's - North Brand Boulevard",
     "Damon’s Steakhouse"
   ],
   "location": {
@@ -122,7 +124,7 @@
   },
   "priceLevel": "$$",
   "established": 1937,
-  "tikiConfidence": 0.995,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -194,6 +196,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "damons-north-brand-boulevard",
+      "url": "https://mytiki.life/tiki-bars/damons-north-brand-boulevard",
+      "firstSeenAt": "2026-11-22T00:53:26.737Z",
+      "lastSeenAt": "2026-11-22T00:53:26.737Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "damon-s-steak-house",
       "url": "https://tikirat.com/bars/damon-s-steak-house",
@@ -209,6 +218,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

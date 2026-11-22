@@ -24,7 +24,7 @@
   "contact": {
     "website": "https://www.instagram.com/tropicthunderphx/"
   },
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.955,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -55,6 +55,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tropic-thunder",
+      "url": "https://mytiki.life/tiki-bars/tropic-thunder",
+      "firstSeenAt": "2026-11-22T15:47:59.640Z",
+      "lastSeenAt": "2026-11-22T15:47:59.640Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "tropic-thunder-phoenix",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -64,5 +71,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

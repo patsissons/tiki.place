@@ -99,7 +99,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -167,6 +167,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lava-tonic",
+      "url": "https://mytiki.life/tiki-bars/lava-tonic",
+      "firstSeenAt": "2026-11-22T04:03:31.855Z",
+      "lastSeenAt": "2026-11-22T04:03:31.855Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "d8a92807-c1c0-4360-a233-b240131a99bc",
       "url": "https://explore.overturemaps.org/?feature=places.place.d8a92807-c1c0-4360-a233-b240131a99bc#17/37.68631362915039/-97.31653594970703",
@@ -189,6 +196,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

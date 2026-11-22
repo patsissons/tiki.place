@@ -1,7 +1,9 @@
 {
   "id": "cabali-oro-valley",
   "name": "Cabali",
-  "aliases": [],
+  "aliases": [
+    "Cabali - Oro Valley (Tucson)"
+  ],
   "location": {
     "lat": 32.3553103,
     "lng": -110.97505489999999,
@@ -184,6 +186,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "cabali",
+      "url": "https://mytiki.life/tiki-bars/cabali",
+      "firstSeenAt": "2026-11-22T00:11:57.005Z",
+      "lastSeenAt": "2026-11-22T00:11:57.005Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/13645916074",
       "url": "https://www.openstreetmap.org/node/13645916074",
@@ -220,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

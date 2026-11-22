@@ -1,0 +1,52 @@
+{
+  "id": "mings-restaurant-and-lounge-yreka",
+  "name": "Ming's Restaurant & Lounge",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Yreka",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 530-842-3888"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:23:11.531Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:23:11.531Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:23:11.531Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mings-restaurant-lounge",
+      "url": "https://mytiki.life/tiki-bars/mings-restaurant-lounge",
+      "firstSeenAt": "2026-11-22T06:23:11.531Z",
+      "lastSeenAt": "2026-11-22T06:23:11.531Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T06:23:11.531Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

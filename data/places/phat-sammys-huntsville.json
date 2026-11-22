@@ -101,6 +101,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "phat-sammys",
+      "url": "https://mytiki.life/tiki-bars/phat-sammys",
+      "firstSeenAt": "2026-11-22T07:29:09.176Z",
+      "lastSeenAt": "2026-11-22T07:29:09.176Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "c2e1927b-6e95-40b6-88ce-211745caa6b3",
       "url": "https://explore.overturemaps.org/?feature=places.place.c2e1927b-6e95-40b6-88ce-211745caa6b3#17/34.730716705322266/-86.58674621582031",
@@ -116,6 +123,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

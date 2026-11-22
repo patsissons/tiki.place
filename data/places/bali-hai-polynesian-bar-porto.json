@@ -1,0 +1,45 @@
+{
+  "id": "bali-hai-polynesian-bar-porto",
+  "name": "Bali-Hai Polynesian Bar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Porto",
+    "country": "PT"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:19:49.543Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:19:49.543Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "bali-hai-polynesian-bar",
+      "url": "https://mytiki.life/tiki-bars/bali-hai-polynesian-bar",
+      "firstSeenAt": "2026-11-21T23:19:49.543Z",
+      "lastSeenAt": "2026-11-21T23:19:49.543Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:19:49.543Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

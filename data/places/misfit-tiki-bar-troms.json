@@ -100,7 +100,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.993,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -168,6 +168,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "misfit-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/misfit-tiki-bar",
+      "firstSeenAt": "2026-11-22T06:24:21.767Z",
+      "lastSeenAt": "2026-11-22T06:24:21.767Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/12769120144",
       "url": "https://www.openstreetmap.org/node/12769120144",
@@ -190,6 +197,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

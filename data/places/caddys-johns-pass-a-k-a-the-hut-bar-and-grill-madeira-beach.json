@@ -1,0 +1,59 @@
+{
+  "id": "caddys-johns-pass-a-k-a-the-hut-bar-and-grill-madeira-beach",
+  "name": "Caddy's John's Pass - A.K.A. The Hut Bar & Grill",
+  "aliases": [
+    "Caddy's John's Pass"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Madeira Beach",
+    "region": "Florida",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "727-258-4820",
+    "website": "https://thehutbarandgrill.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:13:07.027Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:13:07.027Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:13:07.027Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:13:07.027Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "caddys-johns-pass-aka-the-hut-bar-grill",
+      "url": "https://mytiki.life/tiki-bars/caddys-johns-pass-aka-the-hut-bar-grill",
+      "firstSeenAt": "2026-11-22T00:13:07.027Z",
+      "lastSeenAt": "2026-11-22T00:13:07.027Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:13:07.027Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

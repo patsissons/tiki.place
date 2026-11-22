@@ -2,6 +2,7 @@
   "id": "kahala-barcelona",
   "name": "KAHALA - Tiki Bar | Barcelona",
   "aliases": [
+    "Kahala",
     "KAHALA Barcelona"
   ],
   "location": {
@@ -121,7 +122,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -189,6 +190,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kahala",
+      "url": "https://mytiki.life/tiki-bars/kahala",
+      "firstSeenAt": "2026-11-22T03:03:29.050Z",
+      "lastSeenAt": "2026-11-22T03:03:29.050Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "685cf82a-b3e6-4e0f-aff9-bc5c3bde6e92",
       "url": "https://explore.overturemaps.org/?feature=places.place.685cf82a-b3e6-4e0f-aff9-bc5c3bde6e92#17/41.39072036743164/2.1379873752593994",
@@ -204,6 +212,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

@@ -1,7 +1,10 @@
 {
   "id": "pupu-house-honolulu",
   "name": "The Pupu House",
-  "aliases": [],
+  "aliases": [
+    "The Pupu House & Kiki's Tiki Bar",
+    "The Pupu House & Kiki's Tiki Bar - Waikiki"
+  ],
   "location": {
     "lat": 21.2805011,
     "lng": -157.8295805,
@@ -38,7 +41,7 @@
   },
   "priceLevel": "$$",
   "established": 2023,
-  "tikiConfidence": 0.964,
+  "tikiConfidence": 0.993,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -100,6 +103,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-pupu-house-kikis-tiki-lounge-waikiki",
+      "url": "https://mytiki.life/tiki-bars/the-pupu-house-kikis-tiki-lounge-waikiki",
+      "firstSeenAt": "2026-11-22T11:49:00.757Z",
+      "lastSeenAt": "2026-11-22T11:49:00.757Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "5cae340f-2f83-4c90-831c-05db4b82d541",
       "url": "https://explore.overturemaps.org/?feature=places.place.5cae340f-2f83-4c90-831c-05db4b82d541#17/21.280553817749023/-157.82958984375",
@@ -115,6 +125,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

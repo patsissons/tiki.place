@@ -1,0 +1,57 @@
+{
+  "id": "kaias-island-kitchen-and-tiki-bar-danville",
+  "name": "Kaia’s Island Kitchen & Tiki Bar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Danville",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(925) 820-7210",
+    "website": "https://kaiasdanville.com/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:10:11.762Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:10:11.762Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:10:11.762Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:10:11.762Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "kaias-island-kitchen-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/kaias-island-kitchen-tiki-bar",
+      "firstSeenAt": "2026-11-22T03:10:11.762Z",
+      "lastSeenAt": "2026-11-22T03:10:11.762Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T03:10:11.762Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

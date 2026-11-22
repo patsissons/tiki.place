@@ -1,0 +1,81 @@
+{
+  "id": "tiki-hideaway-manchester",
+  "name": "Tiki Hideaway Manchester",
+  "aliases": [
+    "Tiki Hideaway",
+    "Tiki Hideaway - at the Mean-Eyed Cat Bar - Manchester"
+  ],
+  "location": {
+    "lat": 53.4834976,
+    "lng": -2.2339656,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Manchester",
+    "region": "ENG",
+    "country": "GB"
+  },
+  "timezone": "Europe/London",
+  "externalIds": {
+    "overture": "56bb241f-c6cf-44c5-88bd-eed66b17fa09"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "0161 546 2095",
+    "website": "https://www.stagandhenmanchester.co.uk/activities/tiki-dive-bar"
+  },
+  "tikiConfidence": 0.853,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:31:26.735Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-hideaway-at-the-mean-eyed-cat-bar-manchester",
+      "url": "https://mytiki.life/tiki-bars/tiki-hideaway-at-the-mean-eyed-cat-bar-manchester",
+      "firstSeenAt": "2026-11-22T13:31:26.735Z",
+      "lastSeenAt": "2026-11-22T13:31:26.735Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "56bb241f-c6cf-44c5-88bd-eed66b17fa09",
+      "url": "https://explore.overturemaps.org/?feature=places.place.56bb241f-c6cf-44c5-88bd-eed66b17fa09#17/53.483497619628906/-2.2339656352996826",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+}

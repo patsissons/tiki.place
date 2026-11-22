@@ -1,7 +1,9 @@
 {
   "id": "creeky-tiki-bar-and-grill",
   "name": "Creeky Tiki Bar and Grill",
-  "aliases": [],
+  "aliases": [
+    "Creeky Tiki Bar & Island Grill"
+  ],
   "location": {
     "lat": 35.2797805,
     "lng": -120.66328469999999,
@@ -26,6 +28,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "(805) 544-2200",
     "website": "https://www.creekytikislo.com/",
     "googleMapsUri": "https://maps.google.com/?cid=758216589533567487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
@@ -43,6 +46,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:49:08.648Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -81,6 +88,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "creeky-tiki-bar-island-grill",
+      "url": "https://mytiki.life/tiki-bars/creeky-tiki-bar-island-grill",
+      "firstSeenAt": "2026-11-22T00:49:08.648Z",
+      "lastSeenAt": "2026-11-22T00:49:08.648Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "e52d6c0c-0cae-4956-a677-5f7423964948",
       "url": "https://explore.overturemaps.org/?feature=places.place.e52d6c0c-0cae-4956-a677-5f7423964948#17/35.27994155883789/-120.66343688964844",
@@ -89,6 +103,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

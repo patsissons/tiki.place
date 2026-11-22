@@ -1,7 +1,9 @@
 {
   "id": "coconut-bar-trois-rivieres",
   "name": "Coconut Bar",
-  "aliases": [],
+  "aliases": [
+    "Htel-Motel Coconut"
+  ],
   "location": {
     "lat": 46.3096123,
     "lng": -72.58166059999999,
@@ -170,6 +172,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "htel-motel-coconut",
+      "url": "https://mytiki.life/tiki-bars/htel-motel-coconut",
+      "firstSeenAt": "2026-11-22T02:28:33.686Z",
+      "lastSeenAt": "2026-11-22T02:28:33.686Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "984ae75c-8ddd-45ec-86df-12b273c86f0b",
       "url": "https://explore.overturemaps.org/?feature=places.place.984ae75c-8ddd-45ec-86df-12b273c86f0b#17/46.309505462646484/-72.5817642211914",
@@ -178,6 +187,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

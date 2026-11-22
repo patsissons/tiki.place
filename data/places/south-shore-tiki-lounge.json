@@ -194,6 +194,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "south-shore-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/south-shore-tiki-lounge",
+      "firstSeenAt": "2026-11-22T09:15:29.024Z",
+      "lastSeenAt": "2026-11-22T09:15:29.024Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4527314225",
       "url": "https://www.openstreetmap.org/node/4527314225",
@@ -237,6 +244,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

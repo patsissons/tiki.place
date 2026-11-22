@@ -1,7 +1,9 @@
 {
   "id": "kanaloa-houston",
   "name": "Kanaloa",
-  "aliases": [],
+  "aliases": [
+    "Kanaloa - Houston"
+  ],
   "location": {
     "lat": 29.7622375,
     "lng": -95.3616486,
@@ -22,6 +24,7 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
+    "phone": "832-582-6764",
     "website": "https://www.kanaloahtx.com/"
   },
   "tikiConfidence": 0.75,
@@ -35,6 +38,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:14:43.811Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -54,6 +61,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "kanaloa-houston",
+      "url": "https://mytiki.life/tiki-bars/kanaloa-houston",
+      "firstSeenAt": "2026-11-22T03:14:43.811Z",
+      "lastSeenAt": "2026-11-22T03:14:43.811Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "745c13ef-7c0a-4742-bd29-0b838288243c",
@@ -99,5 +113,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

@@ -1,7 +1,10 @@
 {
   "id": "tiki-hideaway-liverpool",
   "name": "Tiki Hideaway Liverpool",
-  "aliases": [],
+  "aliases": [
+    "Tiki Hideaway",
+    "Tiki Hideaway - at the Mean-Eyed Cat Bar - Liverpool"
+  ],
   "location": {
     "lat": 53.4015857,
     "lng": -2.977731,
@@ -23,8 +26,11 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "phone": "0151 458 6496",
+    "website": "https://tikihideaway.co.uk/locations/liverpool/"
+  },
+  "tikiConfidence": 0.987,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -34,6 +40,14 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:30:49.876Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:30:49.876Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -61,6 +75,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-hideaway-at-the-mean-eyed-cat-bar-liverpool",
+      "url": "https://mytiki.life/tiki-bars/tiki-hideaway-at-the-mean-eyed-cat-bar-liverpool",
+      "firstSeenAt": "2026-11-22T13:30:49.876Z",
+      "lastSeenAt": "2026-11-22T13:30:49.876Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tiki-hideaway-liverpool",
       "url": "https://tikiatlas.com/bar?slug=tiki-hideaway-liverpool",
@@ -69,5 +90,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
 }

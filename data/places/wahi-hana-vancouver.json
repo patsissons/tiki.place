@@ -121,7 +121,7 @@
     "at": "2026-11-14T16:38:04.344Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -189,6 +189,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "wahi-hana",
+      "url": "https://mytiki.life/tiki-bars/wahi-hana",
+      "firstSeenAt": "2026-11-22T16:13:12.351Z",
+      "lastSeenAt": "2026-11-22T16:13:12.351Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3bad5262-43a8-47d9-b409-7eaba3c096ad",
       "url": "https://explore.overturemaps.org/?feature=places.place.3bad5262-43a8-47d9-b409-7eaba3c096ad#17/45.635372161865234/-122.67113494873047",
@@ -211,6 +218,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

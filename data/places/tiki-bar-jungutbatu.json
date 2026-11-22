@@ -19,7 +19,8 @@
   "timezone": "Asia/Makassar",
   "externalIds": {
     "google": "ChIJoQzD46lt0i0Rv0B_VLDgfsE",
-    "osm": "node/6723624605"
+    "osm": "node/6723624605",
+    "overture": "97bc5256-e013-4840-9714-9a77909b044e"
   },
   "status": {
     "value": "open",
@@ -27,9 +28,10 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "website": "http://www.tikibarmore.com/",
     "googleMapsUri": "https://maps.google.com/?cid=7006327677779233357&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.971,
+  "tikiConfidence": 0.98,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -43,6 +45,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -84,6 +90,13 @@
       "lastSeenAt": "2026-10-26T04:08:35.388Z"
     },
     {
+      "sourceId": "overture",
+      "sourceRef": "97bc5256-e013-4840-9714-9a77909b044e",
+      "url": "https://explore.overturemaps.org/?feature=places.place.97bc5256-e013-4840-9714-9a77909b044e#17/-8.673418998718262/115.44908142089844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tiki-bar-2",
       "url": "https://tikiatlas.com/bar?slug=tiki-bar-2",
@@ -92,6 +105,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

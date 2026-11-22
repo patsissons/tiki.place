@@ -156,6 +156,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "toucans-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/toucans-tiki-lounge",
+      "firstSeenAt": "2026-11-22T14:43:34.046Z",
+      "lastSeenAt": "2026-11-22T14:43:34.046Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/3942568414",
       "url": "https://www.openstreetmap.org/node/3942568414",
@@ -178,6 +185,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

@@ -163,6 +163,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lime-in-the-coconut",
+      "url": "https://mytiki.life/tiki-bars/lime-in-the-coconut",
+      "firstSeenAt": "2026-11-22T04:11:11.552Z",
+      "lastSeenAt": "2026-11-22T04:11:11.552Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "7559a83b-3b7d-4d9b-ba8f-5bce7d9a830b",
       "url": "https://explore.overturemaps.org/?feature=places.place.7559a83b-3b7d-4d9b-ba8f-5bce7d9a830b#17/32.642982482910156/-117.08085632324219",
@@ -192,6 +199,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

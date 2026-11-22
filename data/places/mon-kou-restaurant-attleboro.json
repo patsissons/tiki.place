@@ -25,6 +25,7 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "phone": "508 399 8020",
     "googleMapsUri": "https://maps.google.com/?cid=3157025947978954744&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.941,
@@ -41,6 +42,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:30:40.832Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -75,6 +80,13 @@
       "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mon-kou-restaurant",
+      "url": "https://mytiki.life/tiki-bars/mon-kou-restaurant",
+      "firstSeenAt": "2026-11-22T06:30:40.832Z",
+      "lastSeenAt": "2026-11-22T06:30:40.832Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "mon-kou-restaurant",
       "url": "https://tikiatlas.com/bar?slug=mon-kou-restaurant",
@@ -83,6 +95,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -1,0 +1,86 @@
+{
+  "id": "martells-tiki-bar-point-pleasant-beach",
+  "name": "Martell's Tiki Bar",
+  "aliases": [],
+  "location": {
+    "lat": 40.0938187,
+    "lng": -74.0359268,
+    "precision": "rooftop"
+  },
+  "address": {
+    "locality": "Point Pleasant Beach",
+    "region": "NJ",
+    "country": "US"
+  },
+  "timezone": "America/New_York",
+  "externalIds": {
+    "overture": "596118a1-4bd9-4706-87ed-0cf715447db8",
+    "osm": "way/580196086"
+  },
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 732-892-0131",
+    "website": "https://martells.com/"
+  },
+  "tikiConfidence": 0.897,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:11:19.121Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "location": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "name": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "timezone": {
+      "sourceId": "system",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "martells-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/martells-tiki-bar",
+      "firstSeenAt": "2026-11-22T06:11:19.121Z",
+      "lastSeenAt": "2026-11-22T06:11:19.121Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "way/580196086",
+      "url": "https://www.openstreetmap.org/way/580196086",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "596118a1-4bd9-4706-87ed-0cf715447db8",
+      "url": "https://explore.overturemaps.org/?feature=places.place.596118a1-4bd9-4706-87ed-0cf715447db8#17/40.09381866455078/-74.03592681884766",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    }
+  ],
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+}

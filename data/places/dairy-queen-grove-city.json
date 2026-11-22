@@ -1,0 +1,52 @@
+{
+  "id": "dairy-queen-grove-city",
+  "name": "Dairy Queen",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Grove City",
+    "region": "Ohio",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "(614) 871-1856"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:52:34.397Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:52:34.397Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:52:34.397Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "dairy-queen",
+      "url": "https://mytiki.life/tiki-bars/dairy-queen",
+      "firstSeenAt": "2026-11-22T00:52:34.397Z",
+      "lastSeenAt": "2026-11-22T00:52:34.397Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:52:34.397Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

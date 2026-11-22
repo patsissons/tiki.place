@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "belles-beach-house",
+      "url": "https://mytiki.life/tiki-bars/belles-beach-house",
+      "firstSeenAt": "2026-11-21T23:32:12.620Z",
+      "lastSeenAt": "2026-11-21T23:32:12.620Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "a00f272c-95f2-49d3-ab37-c13331f3903c",
       "url": "https://explore.overturemaps.org/?feature=places.place.a00f272c-95f2-49d3-ab37-c13331f3903c#17/33.987022399902344/-118.47314453125",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

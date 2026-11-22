@@ -101,7 +101,7 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.93,
+  "tikiConfidence": 0.979,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -166,6 +166,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-tap-house",
+      "url": "https://mytiki.life/tiki-bars/tiki-tap-house",
+      "firstSeenAt": "2026-11-22T14:06:41.012Z",
+      "lastSeenAt": "2026-11-22T14:06:41.012Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "5ca9bec6-f1d9-472d-b2b1-770b33f753f6",
       "url": "https://explore.overturemaps.org/?feature=places.place.5ca9bec6-f1d9-472d-b2b1-770b33f753f6#17/46.71923065185547/-122.95282745361328",
@@ -181,6 +188,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

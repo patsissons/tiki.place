@@ -1,0 +1,54 @@
+{
+  "id": "polynesian-room-truro",
+  "name": "Polynesian Room",
+  "aliases": [
+    "Polynesian Room - at The Chow Family Restaurant"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Truro",
+    "region": "Nova Scotia",
+    "country": "CA"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+1 902-895-9256"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:27:08.472Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:27:08.472Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:27:08.472Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-chow-family-restaurant",
+      "url": "https://mytiki.life/tiki-bars/the-chow-family-restaurant",
+      "firstSeenAt": "2026-11-22T10:27:08.472Z",
+      "lastSeenAt": "2026-11-22T10:27:08.472Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T10:27:08.472Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

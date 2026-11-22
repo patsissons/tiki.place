@@ -1,0 +1,57 @@
+{
+  "id": "bamboo-door-sheffield",
+  "name": "Bamboo Door - Sheffield",
+  "aliases": [
+    "Bamboo Door"
+  ],
+  "location": null,
+  "address": {
+    "country": "GB"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+44 114 272 6733",
+    "website": "https://bamboodoor.co.uk/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:24:32.236Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:24:32.236Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:24:32.236Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:24:32.236Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "bamboo-door",
+      "url": "https://mytiki.life/tiki-bars/bamboo-door",
+      "firstSeenAt": "2026-11-21T23:24:32.236Z",
+      "lastSeenAt": "2026-11-21T23:24:32.236Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:24:32.236Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

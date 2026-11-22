@@ -1,0 +1,58 @@
+{
+  "id": "bora-bora-madrid",
+  "name": "Bora-Bora",
+  "aliases": [
+    "Bora-Bora - Madrid"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Madrid",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "contact": {
+    "phone": "+34 636 53 98 05",
+    "website": "https://boraboramadrid.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T18:21:57.159Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:44:11.457Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:44:11.457Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:44:11.457Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:44:11.457Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "bora-bora-1",
+      "url": "https://mytiki.life/tiki-bars/bora-bora-1",
+      "firstSeenAt": "2026-11-21T23:44:11.457Z",
+      "lastSeenAt": "2026-11-21T23:44:11.457Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:44:11.457Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+}

@@ -1,7 +1,9 @@
 {
   "id": "hula-hula-room",
   "name": "The Hula Hula Room",
-  "aliases": [],
+  "aliases": [
+    "Hula Hula Room - Torrance"
+  ],
   "location": {
     "lat": 33.839542,
     "lng": -118.35302050000001,
@@ -193,6 +195,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hula-hula-room-torrance",
+      "url": "https://mytiki.life/tiki-bars/hula-hula-room-torrance",
+      "firstSeenAt": "2026-11-22T02:36:22.739Z",
+      "lastSeenAt": "2026-11-22T02:36:22.739Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "e4ecf598-e423-4ebb-9090-05116bed710d",
       "url": "https://explore.overturemaps.org/?feature=places.place.e4ecf598-e423-4ebb-9090-05116bed710d#17/33.83955383300781/-118.35308837890625",
@@ -222,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

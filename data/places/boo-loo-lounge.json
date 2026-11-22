@@ -175,6 +175,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "boo-loo-lounge",
+      "url": "https://mytiki.life/tiki-bars/boo-loo-lounge",
+      "firstSeenAt": "2026-11-21T23:42:52.502Z",
+      "lastSeenAt": "2026-11-21T23:42:52.502Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/11819669314",
       "url": "https://www.openstreetmap.org/node/11819669314",
@@ -204,6 +211,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

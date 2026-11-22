@@ -118,7 +118,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -182,6 +182,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "flamingos-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/flamingos-tiki-bar",
+      "firstSeenAt": "2026-11-22T01:30:41.610Z",
+      "lastSeenAt": "2026-11-22T01:30:41.610Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "f2815a70-183b-4cd2-8f32-3a5d1cac5f96",
       "url": "https://explore.overturemaps.org/?feature=places.place.f2815a70-183b-4cd2-8f32-3a5d1cac5f96#17/-16.92201805114746/145.77891540527344",
@@ -197,6 +204,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }
