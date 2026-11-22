@@ -6,31 +6,33 @@
     "The Liars Lounge - at Cane & Grain"
   ],
   "location": {
-    "lat": 53.48145059999999,
-    "lng": -2.2495482,
+    "lat": 53.481322299999995,
+    "lng": -2.2496961,
     "precision": "rooftop"
   },
   "address": {
-    "street": "38 King Street West",
+    "street": "19A Back Bridge Street",
     "locality": "Manchester",
     "region": "England",
+    "postalCode": "M3 2PB",
     "country": "GB"
   },
-  "formattedAddress": "38 King Street West, Manchester, England, M3 2WZ, United Kingdom",
+  "formattedAddress": "19A Back Bridge St, Manchester M3 2PB, UK",
   "timezone": "Europe/London",
   "externalIds": {
     "google": "ChIJg9DGE8Oxe0gRPyMlLB5MmWQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "0161 839 7033",
-    "website": "https://caneandgrain.co.uk/liars-lounge/"
+    "website": "https://caneandgrain.co.uk/liars-lounge/",
+    "googleMapsUri": "https://maps.google.com/?cid=7248908767702885183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.981,
+  "tikiConfidence": 0.982,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -38,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -50,16 +56,16 @@
       "observedAt": "2026-11-22T11:19:19.891Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -73,6 +79,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJg9DGE8Oxe0gRPyMlLB5MmWQ",
+      "url": "https://maps.google.com/?cid=7248908767702885183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -97,5 +110,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

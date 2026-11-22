@@ -2,32 +2,126 @@
   "id": "mccaws-tiki-bar-nottingham",
   "name": "McCaws Tiki Bar",
   "aliases": [
-    "McCaws Tiki Bar, Nottingham"
+    "McCaws Tiki Bar, Nottingham",
+    "The Lost City Adventure Golf"
   ],
   "location": {
-    "lat": 52.9554787,
-    "lng": -1.14987,
+    "lat": 52.9555782,
+    "lng": -1.1507097,
     "precision": "rooftop"
   },
   "address": {
+    "street": "Burton Street",
     "locality": "Nottingham",
-    "region": "ENG",
+    "region": "England",
+    "postalCode": "NG1 4DB",
     "country": "GB"
   },
+  "formattedAddress": "The Cornerhouse, Burton St, Nottingham NG1 4DB, UK",
   "timezone": "Europe/London",
   "externalIds": {
     "overture": "79107ca8-a4d8-4a00-acf3-19e77c6e4235",
     "google": "ChIJZS_cc9bDeUgRQ8CPr0Zqrhk"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1000"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1000"
+        },
+        "close": {
+          "day": 1,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1000"
+        },
+        "close": {
+          "day": 2,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1000"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1000"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1000"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1000"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 11:00 PM",
+      "Friday: 10:00 AM – 11:00 PM",
+      "Saturday: 10:00 AM – 11:00 PM",
+      "Sunday: 10:00 AM – 9:00 PM"
+    ]
   },
   "contact": {
-    "website": "https://www.lostcityadventuregolf.com/nottingham/tiki-bar/"
+    "phone": "+44 115 985 9455",
+    "website": "https://www.lostcityadventuregolf.com/nottingham",
+    "googleMapsUri": "https://maps.google.com/?cid=1850533348721541187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.825,
+  "rating": {
+    "value": 4.4,
+    "count": 1800,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,20 +130,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:19:59.821Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -57,6 +171,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJZS_cc9bDeUgRQ8CPr0Zqrhk",
+      "url": "https://maps.google.com/?cid=1850533348721541187&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "79107ca8-a4d8-4a00-acf3-19e77c6e4235",
@@ -66,5 +187,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:20:00.098Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

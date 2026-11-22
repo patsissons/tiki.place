@@ -5,30 +5,113 @@
     "Marama"
   ],
   "location": {
-    "lat": 40.6790047,
-    "lng": 14.7578468,
+    "lat": 40.6775017,
+    "lng": 14.762834499999997,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "SALERNO",
-    "region": "72",
+    "street": "8 Piazza Gioia Flavio",
+    "locality": "Salerno",
+    "region": "Campania",
+    "postalCode": "84121",
     "country": "IT"
   },
+  "formattedAddress": "Piazza Gioia Flavio, 8, 84121 Salerno SA, Italy",
   "timezone": "Europe/Rome",
   "externalIds": {
     "overture": "0e24e98f-cd17-4edc-9dcf-9b25d1dc932d",
     "google": "ChIJcyPtCATDOxMRaFiVDrh9pAQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "2000"
+        },
+        "close": {
+          "day": 1,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1900"
+        },
+        "close": {
+          "day": 2,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1900"
+        },
+        "close": {
+          "day": 4,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1900"
+        },
+        "close": {
+          "day": 5,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1900"
+        },
+        "close": {
+          "day": 6,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1900"
+        },
+        "close": {
+          "day": 0,
+          "time": "0300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 7:00 PM – 3:00 AM",
+      "Tuesday: Closed",
+      "Wednesday: 7:00 PM – 3:00 AM",
+      "Thursday: 7:00 PM – 3:00 AM",
+      "Friday: 7:00 PM – 3:00 AM",
+      "Saturday: 7:00 PM – 3:00 AM",
+      "Sunday: 8:00 PM – 3:00 AM"
+    ]
   },
   "contact": {
-    "phone": "39 392 842 2691",
-    "website": "http://linktr.ee/maramatikibar"
+    "phone": "+39 392 842 2691",
+    "website": "http://linktr.ee/maramatikibar",
+    "googleMapsUri": "https://maps.google.com/?cid=334530501804382312&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.948,
+  "rating": {
+    "value": 4.9,
+    "count": 61,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.95,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,24 +119,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T06:08:23.116Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +164,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJcyPtCATDOxMRaFiVDrh9pAQ",
+      "url": "https://maps.google.com/?cid=334530501804382312&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "marama",
@@ -84,5 +194,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

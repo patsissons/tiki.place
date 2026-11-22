@@ -8,26 +8,116 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "89 Patton Avenue",
+    "street": "87 Patton Avenue",
     "locality": "Asheville",
     "region": "North Carolina",
     "postalCode": "28801",
     "country": "US"
   },
-  "formattedAddress": "89 Patton Avenue, Asheville, North Carolina, 28801, United States",
+  "formattedAddress": "87 Patton Ave, Asheville, NC 28801, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJA0tnk1bzWYgRhemjZb48ofs"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1300"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 PM – 12:00 AM",
+      "Tuesday: 4:00 PM – 12:00 AM",
+      "Wednesday: 4:00 PM – 12:00 AM",
+      "Thursday: 4:00 PM – 2:00 AM",
+      "Friday: 1:00 PM – 2:00 AM",
+      "Saturday: 1:00 PM – 2:00 AM",
+      "Sunday: 1:00 PM – 2:00 AM"
+    ]
   },
   "contact": {
-    "phone": "(828) 255-8454",
-    "website": "https://ashevilleyachtclub.com/"
+    "phone": "+1 828-255-8454",
+    "website": "https://ashevilleyachtclub.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=18131840363217021317&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 739,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
   "tikiConfidence": 0.997,
   "review": {
     "state": "approved",
@@ -37,28 +127,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-21T23:08:53.913Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -72,6 +178,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJA0tnk1bzWYgRhemjZb48ofs",
+      "url": "https://maps.google.com/?cid=18131840363217021317&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -96,5 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

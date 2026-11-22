@@ -8,23 +8,26 @@
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Lima",
-    "region": "Lima",
-    "postalCode": "15042",
+    "street": "111 Avenida Almirante Miguel Grau",
+    "locality": "Barranco",
+    "region": "Provincia de Lima",
+    "postalCode": "15063",
     "country": "PE"
   },
-  "formattedAddress": "Avenida Almirante Miguel Grau, Lima, Lima, 15042, Perú",
+  "formattedAddress": "Av. Almte. Miguel Grau 111, Barranco 15063, Peru",
   "timezone": "America/Lima",
   "externalIds": {
     "google": "ChIJsTaR1NSeBZEROycLbPeXBMI"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=13980466232190248763&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.958,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -32,20 +35,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJsTaR1NSeBZEROycLbPeXBMI",
+      "url": "https://maps.google.com/?cid=13980466232190248763&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "curayacu-tiki-bar-barranco",
       "url": "https://tikiatlas.com/bar?slug=curayacu-tiki-bar-barranco",
@@ -69,5 +83,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

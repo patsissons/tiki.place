@@ -3,29 +3,31 @@
   "name": "Hey Sailor!",
   "aliases": [],
   "location": {
-    "lat": 44.45833059999999,
+    "lat": 44.4583306,
     "lng": -68.9255819,
     "precision": "rooftop"
   },
   "address": {
-    "street": "29 East Main Street",
+    "street": "25 East Main Street",
     "locality": "Searsport",
     "region": "Maine",
     "postalCode": "04974",
     "country": "US"
   },
-  "formattedAddress": "29 East Main Street, Searsport, Maine, 04974, United States",
+  "formattedAddress": "25 E Main St, Searsport, ME 04974, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJazB5OqdprkwRsUu50uxisE8"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=5742198294184545201&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +35,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJazB5OqdprkwRsUu50uxisE8",
+      "url": "https://maps.google.com/?cid=5742198294184545201&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "hey-sailor",
       "url": "https://tikiatlas.com/bar?slug=hey-sailor",
@@ -70,5 +83,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

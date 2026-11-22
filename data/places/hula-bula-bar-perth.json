@@ -4,7 +4,7 @@
   "aliases": [],
   "location": {
     "lat": -31.9569416,
-    "lng": 115.8658981,
+    "lng": 115.86589810000001,
     "precision": "rooftop"
   },
   "address": {
@@ -14,21 +14,22 @@
     "postalCode": "6000",
     "country": "AU"
   },
-  "formattedAddress": "12 Victoria Avenue, Perth, Western Australia, 6000, Australia",
+  "formattedAddress": "Unit 2/12 Victoria Ave, Perth WA 6000, Australia",
   "timezone": "Australia/Perth",
   "externalIds": {
     "google": "ChIJ-VhaSya7MioRStlKJkp_P6k"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "+61 8 9225 4457",
-    "website": "http://www.hulabulabar.com/"
+    "website": "http://www.hulabulabar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12195606272389339466&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.987,
+  "tikiConfidence": 0.988,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,8 +37,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -48,16 +53,16 @@
       "observedAt": "2026-11-22T02:34:20.024Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -71,6 +76,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ-VhaSya7MioRStlKJkp_P6k",
+      "url": "https://maps.google.com/?cid=12195606272389339466&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -88,5 +100,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

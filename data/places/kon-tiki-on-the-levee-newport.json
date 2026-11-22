@@ -3,32 +3,33 @@
   "name": "Kon-Tiki on the Levee",
   "aliases": [],
   "location": {
-    "lat": 39.0950928,
-    "lng": -84.4972229,
+    "lat": 39.095031399999996,
+    "lng": -84.4971478,
     "precision": "rooftop"
   },
   "address": {
-    "street": "Levee Way",
+    "street": "1 Levee Way",
     "locality": "Newport",
-    "region": "KY",
+    "region": "Kentucky",
     "postalCode": "41071",
     "country": "US"
   },
-  "formattedAddress": "Levee Way, Newport, Kentucky, 41071, United States",
+  "formattedAddress": "1 Levee Wy Ste 21377, Newport, KY 41071, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJSxIgv4exQYgRV3P4oam9ZU4",
     "overture": "dda8e12f-1538-495d-914d-edeb1b137c34"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://kontikionthelevee.com/?y_source=1_MjUzMzA4MTUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D"
+    "website": "https://kontikionthelevee.com/?y_source=1_MjUzMzA4MTUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "googleMapsUri": "https://maps.google.com/?cid=5649129843870692183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.969,
+  "tikiConfidence": 0.971,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,24 +37,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +72,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJSxIgv4exQYgRV3P4oam9ZU4",
+      "url": "https://maps.google.com/?cid=5649129843870692183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "overture",
@@ -84,5 +96,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

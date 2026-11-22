@@ -3,31 +3,32 @@
   "name": "Mon Kou Restaurant",
   "aliases": [],
   "location": {
-    "lat": 41.909188,
-    "lng": -71.36332999999999,
+    "lat": 41.909170499999995,
+    "lng": -71.3633103,
     "precision": "rooftop"
   },
   "address": {
     "street": "676 Washington Street",
     "locality": "Attleboro",
     "region": "Massachusetts",
-    "postalCode": "02861",
+    "postalCode": "02703",
     "country": "US"
   },
-  "formattedAddress": "676 Washington Street, Attleboro, Massachusetts, 02861, United States",
+  "formattedAddress": "676 Washington St, Attleboro, MA 02703, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJVWbGxSBd5IkR-Pf5f18C0Cs"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "phone": "508 399 8020"
+    "phone": "508 399 8020",
+    "googleMapsUri": "https://maps.google.com/?cid=3157025947978954744&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.938,
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -35,24 +36,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T06:30:40.832Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -66,6 +71,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJVWbGxSBd5IkR-Pf5f18C0Cs",
+      "url": "https://maps.google.com/?cid=3157025947978954744&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -83,5 +95,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

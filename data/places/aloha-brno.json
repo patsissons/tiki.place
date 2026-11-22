@@ -1,35 +1,37 @@
 {
   "id": "aloha-brno",
-  "name": "Aloha Tiki Bar",
+  "name": "ALOHA",
   "aliases": [
-    "ALOHA"
+    "Aloha Tiki Bar"
   ],
   "location": {
-    "lat": 49.1964073,
-    "lng": 16.6097603,
+    "lat": 49.1963692,
+    "lng": 16.60956,
     "precision": "rooftop"
   },
   "address": {
-    "street": "12 Kozí",
-    "locality": "Brno",
-    "region": "64",
+    "street": "19 Kozí",
+    "locality": "Brno-střed",
+    "region": "Jihomoravský kraj",
+    "postalCode": "602 00",
     "country": "CZ"
   },
-  "formattedAddress": "12 Kozí, Brno, Jihomoravský kraj, 602 00, Česko",
+  "formattedAddress": "10, Kozí 19, 602 00 Brno-střed-Brno-město, Czechia",
   "timezone": "Europe/Prague",
   "externalIds": {
     "google": "ChIJSTTfA1qUEkcRMd3CRo8zWfE",
     "overture": "ae2106fe-eaf3-474c-b0f8-2ed353c3d288"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "http://www.alohabar.cz/"
+    "website": "http://www.alohabar.cz/",
+    "googleMapsUri": "https://maps.google.com/?cid=17390988126528396593&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.969,
+  "tikiConfidence": 0.971,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -37,24 +39,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -68,6 +74,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJSTTfA1qUEkcRMd3CRo8zWfE",
+      "url": "https://maps.google.com/?cid=17390988126528396593&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "overture",
@@ -85,5 +98,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

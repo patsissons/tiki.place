@@ -2,31 +2,104 @@
   "id": "liquid-chef-gastro-bar-oranjestad",
   "name": "Liquid Chef Tropical Tiki Cocktail Bar",
   "aliases": [
-    "Liquid Chef Gastro Bar"
+    "Liquid Chef Gastro Bar",
+    "Tropical cocktails Liquid Chef"
   ],
   "location": {
-    "lat": 12.5188913,
-    "lng": -70.0363693,
+    "lat": 12.5188937,
+    "lng": -70.03636519999999,
     "precision": "rooftop"
   },
   "address": {
+    "street": "4 Wilhelminastraat",
     "locality": "Oranjestad",
     "country": "AW"
   },
+  "formattedAddress": "lokaal 1, Wilhelminastraat 4, Oranjestad, Aruba",
   "timezone": "America/Aruba",
   "externalIds": {
     "overture": "4c0b6298-fd00-48da-a082-b1012863e40a",
     "google": "ChIJ-frW4ZA5hY4RfBJ7qs4zdss"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:00 PM – 12:00 AM",
+      "Wednesday: 5:00 PM – 12:00 AM",
+      "Thursday: 5:00 PM – 1:00 AM",
+      "Friday: 6:00 PM – 1:00 AM",
+      "Saturday: 6:00 PM – 1:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
-    "website": "https://liquidchefgastrobar.com/"
+    "website": "https://liquidchefgastrobar.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14660962599667700348&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.825,
+  "rating": {
+    "value": 5,
+    "count": 221,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -34,20 +107,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-01T01:10:54.365Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -55,6 +148,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ-frW4ZA5hY4RfBJ7qs4zdss",
+      "url": "https://maps.google.com/?cid=14660962599667700348&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "4c0b6298-fd00-48da-a082-b1012863e40a",
@@ -64,5 +164,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

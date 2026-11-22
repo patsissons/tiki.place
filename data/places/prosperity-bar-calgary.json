@@ -3,31 +3,33 @@
   "name": "Prosperity Bar",
   "aliases": [],
   "location": {
-    "lat": 51.05110699999999,
+    "lat": 51.051106999999995,
     "lng": -114.0621106,
     "precision": "rooftop"
   },
   "address": {
-    "street": "107 2 Avenue SE",
+    "street": "107 2 Avenue Southeast",
     "locality": "Calgary",
     "region": "Alberta",
+    "postalCode": "T2G 0B2",
     "country": "CA"
   },
-  "formattedAddress": "107 2 Avenue SE, Calgary, Alberta, T2G 0B1, Canada",
+  "formattedAddress": "107 2 Ave SE, Calgary, AB T2G 0B2, Canada",
   "timezone": "America/Edmonton",
   "externalIds": {
     "google": "ChIJI6ZszV1vcVMRWSK1DFQS2pQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "+1 825-540-1232",
-    "website": "https://prosperitybar.ca/"
+    "website": "https://prosperitybar.ca/",
+    "googleMapsUri": "https://maps.google.com/?cid=10725905614736007769&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.981,
+  "tikiConfidence": 0.982,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -35,8 +37,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -47,16 +53,16 @@
       "observedAt": "2026-11-22T07:54:35.654Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +76,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJI6ZszV1vcVMRWSK1DFQS2pQ",
+      "url": "https://maps.google.com/?cid=10725905614736007769&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -87,5 +100,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

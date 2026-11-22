@@ -3,26 +3,30 @@
   "name": "THE KAZAN ROOM",
   "aliases": [],
   "location": {
-    "lat": 34.69791050000001,
-    "lng": 135.1917355,
+    "lat": 34.6978389,
+    "lng": 135.191546,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "神戸市",
+    "locality": "Kobe",
+    "region": "Hyogo",
+    "postalCode": "650-0004",
     "country": "JP"
   },
-  "formattedAddress": "北野坂, 神戸市, 650-0002, 日本",
+  "formattedAddress": "Japan, 〒650-0004 Hyogo, Kobe, Chuo Ward, Nakayamatedōri, 1-chōme−22−１０ 象ビルジング 4階",
   "timezone": "Asia/Tokyo",
   "externalIds": {
     "google": "ChIJHbayTDuPAGARylPLbqDg70s"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=5471839051936650186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -30,20 +34,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -59,6 +67,20 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJHbayTDuPAGARylPLbqDg70s",
+      "url": "https://maps.google.com/?cid=5471839051936650186&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-kazan-room",
+      "url": "https://mytiki.life/tiki-bars/the-kazan-room",
+      "firstSeenAt": "2026-11-22T11:10:10.122Z",
+      "lastSeenAt": "2026-11-22T11:10:10.122Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-kazan-room",
       "url": "https://tikiatlas.com/bar?slug=the-kazan-room",
@@ -67,5 +89,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -6,29 +6,73 @@
     "Capt. J's Hurricane Tiki Room"
   ],
   "location": {
-    "lat": 51.5551033,
-    "lng": 5.0887351,
+    "lat": 51.555151599999995,
+    "lng": 5.0888681,
     "precision": "rooftop"
   },
   "address": {
+    "street": "25 Paleisring",
     "locality": "Tilburg",
+    "region": "Noord-Brabant",
+    "postalCode": "5038 WD",
     "country": "NL"
   },
+  "formattedAddress": "Paleisring 25, 5038 WD Tilburg, Netherlands",
   "timezone": "Europe/Amsterdam",
   "externalIds": {
     "overture": "ab7a387d-3157-4356-a589-bb468469cbc6",
     "google": "ChIJhVGuiay_xkcRNniHq4IXsiE"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 5,
+          "time": "2000"
+        },
+        "close": {
+          "day": 6,
+          "time": "0400"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0400"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 8:00 PM – 4:00 AM",
+      "Saturday: 6:00 PM – 4:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
     "phone": "013 222 00 95",
-    "website": "http://www.tikiroom.nl/"
+    "website": "http://www.tikiroom.nl/",
+    "googleMapsUri": "https://maps.google.com/?cid=2428028999097088054&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.948,
+  "rating": {
+    "value": 4,
+    "count": 30,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.95,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,24 +81,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T00:18:23.561Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +126,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJhVGuiay_xkcRNniHq4IXsiE",
+      "url": "https://maps.google.com/?cid=2428028999097088054&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "capt-js-hurricane",
@@ -78,5 +149,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

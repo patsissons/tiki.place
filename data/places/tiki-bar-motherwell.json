@@ -18,7 +18,7 @@
     "postalCode": "G2 4HW",
     "country": "GB"
   },
-  "formattedAddress": "214 Bath Street, Glasgow, Alba / Scotland, G2 4HG, United Kingdom",
+  "formattedAddress": "214 Bath St, Glasgow G2 4HW, UK",
   "timezone": "Europe/London",
   "externalIds": {
     "overture": "7563b6e8-4409-4657-90ef-f64d9543fd39",
@@ -26,13 +26,14 @@
     "osm": "node/6567398193"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "+44 141 332 1341",
-    "website": "https://www.tikibarglasgow.com/"
+    "website": "https://www.tikibarglasgow.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12794592837421513798&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.998,
   "review": {
@@ -45,6 +46,10 @@
       "sourceId": "owner",
       "observedAt": "2026-11-01T01:07:39.814Z"
     },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "contact.phone": {
       "sourceId": "osm",
       "observedAt": "2026-10-26T04:08:35.388Z"
@@ -54,8 +59,8 @@
       "observedAt": "2026-11-01T01:07:50.957Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
@@ -77,6 +82,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJpcbLsidEiEgRRjxEoGWGj7E",
+      "url": "https://maps.google.com/?cid=12794592837421513798&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -115,5 +127,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

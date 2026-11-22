@@ -5,29 +5,123 @@
     "Graystone Lounge Tiki Bar"
   ],
   "location": {
-    "lat": 45.005497,
-    "lng": -122.7828522,
+    "lat": 45.005435,
+    "lng": -122.78292099999999,
     "precision": "rooftop"
   },
   "address": {
+    "street": "203 East Main Street",
     "locality": "Silverton",
-    "region": "OR",
+    "region": "Oregon",
+    "postalCode": "97381",
     "country": "US"
   },
+  "formattedAddress": "203 E Main St, Silverton, OR 97381, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "overture": "ee553a72-0945-4a24-b502-3a51711dc127",
     "google": "ChIJnaIMBHrjv1QRTDx8IZkaP6c"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1300"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1300"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1300"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 PM – 12:00 AM",
+      "Tuesday: 5:00 PM – 12:00 AM",
+      "Wednesday: 1:00 PM – 12:00 AM",
+      "Thursday: 1:00 PM – 12:00 AM",
+      "Friday: 1:00 PM – 2:00 AM",
+      "Saturday: 1:00 PM – 2:00 AM",
+      "Sunday: 1:00 PM – 12:00 AM"
+    ]
   },
   "contact": {
-    "website": "https://www.graystonelounge.com/"
+    "phone": "+1 503-406-8692",
+    "website": "https://www.graystonelounge.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12051380372860845132&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.825,
+  "rating": {
+    "value": 4.5,
+    "count": 26,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,20 +129,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -56,6 +174,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJnaIMBHrjv1QRTDx8IZkaP6c",
+      "url": "https://maps.google.com/?cid=12051380372860845132&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "ee553a72-0945-4a24-b502-3a51711dc127",
@@ -65,5 +190,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

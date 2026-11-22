@@ -3,7 +3,7 @@
   "name": "LaniKai Lounge & Tiki Room",
   "aliases": [],
   "location": {
-    "lat": 29.8920081,
+    "lat": 29.892008099999998,
     "lng": -97.9399631,
     "precision": "rooftop"
   },
@@ -14,18 +14,20 @@
     "postalCode": "78666",
     "country": "US"
   },
-  "formattedAddress": "700 North LBJ Drive, San Marcos, Texas, 78666, United States",
+  "formattedAddress": "700 N LBJ Dr Ste 113, San Marcos, TX 78666, USA",
   "timezone": "America/Chicago",
   "externalIds": {
     "google": "ChIJ-6wYBuypXIYRGhVKKUnT5X4"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=9143946929624454426&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.958,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +35,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJ-6wYBuypXIYRGhVKKUnT5X4",
+      "url": "https://maps.google.com/?cid=9143946929624454426&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "lanikai-lounge-and-tiki-room",
       "url": "https://tikiatlas.com/bar?slug=lanikai-lounge-and-tiki-room",
@@ -70,5 +83,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

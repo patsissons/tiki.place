@@ -10,23 +10,116 @@
     "precision": "rooftop"
   },
   "address": {
+    "street": "12347 West Alameda Parkway",
     "locality": "Lakewood",
     "region": "Colorado",
+    "postalCode": "80228",
     "country": "US"
   },
+  "formattedAddress": "12347 W Alameda Pkwy, Lakewood, CO 80228, USA",
   "timezone": "America/Denver",
   "externalIds": {
     "google": "ChIJyYgGEnyDa4cRay25OnIRaFg"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1330"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1500"
+        },
+        "close": {
+          "day": 1,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1500"
+        },
+        "close": {
+          "day": 2,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1500"
+        },
+        "close": {
+          "day": 3,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1500"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1500"
+        },
+        "close": {
+          "day": 5,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1330"
+        },
+        "close": {
+          "day": 6,
+          "time": "2200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 3:00 – 9:00 PM",
+      "Tuesday: 3:00 – 9:00 PM",
+      "Wednesday: 3:00 – 9:00 PM",
+      "Thursday: 3:00 – 9:00 PM",
+      "Friday: 3:00 – 10:00 PM",
+      "Saturday: 1:30 – 10:00 PM",
+      "Sunday: 1:30 – 9:00 PM"
+    ]
   },
   "contact": {
-    "website": "https://ballmerpeakdistillery.com/"
+    "phone": "+1 720-316-5824",
+    "website": "https://ballmerpeakdistillery.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6370360855224724843&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.85,
+  "rating": {
+    "value": 4.8,
+    "count": 235,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "tikiConfidence": 0.857,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,12 +128,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
@@ -49,6 +158,10 @@
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -64,6 +177,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJyYgGEnyDa4cRay25OnIRaFg",
+      "url": "https://maps.google.com/?cid=6370360855224724843&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "ballmer-peak-distillery-lakewood",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -72,5 +192,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

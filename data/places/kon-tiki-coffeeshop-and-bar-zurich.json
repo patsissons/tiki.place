@@ -1,25 +1,26 @@
 {
   "id": "kon-tiki-coffeeshop-and-bar-zurich",
-  "name": "Kon-Tiki Coffeeshop",
+  "name": "Kon-Tiki - Bar Zürich",
   "aliases": [
     "Kon-Tiki",
     "Kon-Tiki - Zürich",
+    "Kon-Tiki Coffeeshop",
     "Kon-Tiki Coffeeshop & Bar",
     "Kontiki"
   ],
   "location": {
-    "lat": 47.3738276,
-    "lng": 8.5437708,
+    "lat": 47.373852,
+    "lng": 8.543809999999999,
     "precision": "rooftop"
   },
   "address": {
     "street": "24 Niederdorfstrasse",
     "locality": "Zürich",
-    "region": "ZH",
+    "region": "Zürich",
     "postalCode": "8001",
     "country": "CH"
   },
-  "formattedAddress": "24 Niederdorfstrasse, Zürich, Zürich, 8001, Schweiz/Suisse/Svizzera/Svizra",
+  "formattedAddress": "Niederdorfstrasse 24, 8001 Zürich, Switzerland",
   "timezone": "Europe/Zurich",
   "externalIds": {
     "google": "ChIJn0FZy6mgmkcRIv8gLwN3S9E",
@@ -27,13 +28,14 @@
     "osm": "node/317773504"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "+41 44 251 35 77",
-    "website": "http://www.kontikibar.ch/"
+    "website": "http://www.kontikibar.ch/",
+    "googleMapsUri": "https://maps.google.com/?cid=15081278632739536674&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.994,
   "review": {
@@ -43,8 +45,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -55,16 +61,16 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -78,6 +84,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJn0FZy6mgmkcRIv8gLwN3S9E",
+      "url": "https://maps.google.com/?cid=15081278632739536674&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -109,5 +122,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

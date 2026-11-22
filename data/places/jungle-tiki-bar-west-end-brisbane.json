@@ -1,38 +1,38 @@
 {
   "id": "jungle-tiki-bar-west-end-brisbane",
-  "name": "Jungle Tiki Bar",
+  "name": "Jungle Tiki Bar, West End, Brisbane",
   "aliases": [
-    "Jungle Tiki Bar - Brisbane's West End",
-    "Jungle Tiki Bar, West End, Brisbane"
+    "Jungle Tiki Bar",
+    "Jungle Tiki Bar - Brisbane's West End"
   ],
   "location": {
-    "lat": -27.4808044,
-    "lng": 153.0115967,
+    "lat": -27.480727899999998,
+    "lng": 153.0116225,
     "precision": "rooftop"
   },
   "address": {
-    "street": "Vulture Street",
-    "locality": "Brisbane",
-    "region": "QLD",
+    "street": "76 Vulture Street",
+    "locality": "West End",
+    "region": "Queensland",
     "postalCode": "4101",
     "country": "AU"
   },
-  "formattedAddress": "Vulture Street, Brisbane, Queensland, 4101, Australia",
+  "formattedAddress": "76 Vulture St, West End QLD 4101, Australia",
   "timezone": "Australia/Brisbane",
   "externalIds": {
-    "google": "ChIJJ8mrs6FQkWsRXt6h_jyKZX8",
-    "overture": "18ab7844-d7f2-4c51-ad85-10c04c10757b"
+    "google": "ChIJJ8mrs6FQkWsRXt6h_jyKZX8"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "+61448925912",
-    "website": "http://www.junglewestend.com/"
+    "website": "https://junglewestend.com.au/",
+    "googleMapsUri": "https://maps.google.com/?cid=9179895410039316062&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.991,
+  "tikiConfidence": 0.988,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -40,28 +40,32 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T03:02:22.391Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:02:22.391Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -77,18 +81,18 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJJ8mrs6FQkWsRXt6h_jyKZX8",
+      "url": "https://maps.google.com/?cid=9179895410039316062&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "mytiki",
       "sourceRef": "jungle-tiki-bar-brisbanes-west-end",
       "url": "https://mytiki.life/tiki-bars/jungle-tiki-bar-brisbanes-west-end",
       "firstSeenAt": "2026-11-22T03:02:22.391Z",
       "lastSeenAt": "2026-11-22T03:02:22.391Z"
-    },
-    {
-      "sourceId": "overture",
-      "sourceRef": "18ab7844-d7f2-4c51-ad85-10c04c10757b",
-      "url": "https://explore.overturemaps.org/?feature=places.place.18ab7844-d7f2-4c51-ad85-10c04c10757b#17/-27.480804443359375/153.0115966796875",
-      "firstSeenAt": "2026-10-26T04:19:34.568Z",
-      "lastSeenAt": "2026-10-26T04:19:34.568Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -98,6 +102,7 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "firstSeenAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -5,18 +5,18 @@
     "Tiki Bar at Beach Retreat & Lodge"
   ],
   "location": {
-    "lat": 38.946846,
-    "lng": -119.966629,
+    "lat": 38.955521,
+    "lng": -119.9426522,
     "precision": "rooftop"
   },
   "address": {
-    "street": "3411 Lake Tahoe Boulevard",
+    "street": "1021 Heavenly Village Way",
     "locality": "South Lake Tahoe",
-    "region": "CA",
+    "region": "California",
     "postalCode": "96150",
     "country": "US"
   },
-  "formattedAddress": "3411 Lake Tahoe Boulevard, South Lake Tahoe, California, 96150, United States",
+  "formattedAddress": "1021 Heavenly Village Way, South Lake Tahoe, CA 96150, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJc0q0bAuRmYAR_GBg8fT35ig",
@@ -24,14 +24,15 @@
     "overture": "2a32307f-f5d3-452c-a56e-989e295f4520"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://www.tahoebeachretreat.com/"
+    "website": "https://www.tahoebeachretreat.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=2947315637554274556&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.98,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -39,24 +40,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +75,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJc0q0bAuRmYAR_GBg8fT35ig",
+      "url": "https://maps.google.com/?cid=2947315637554274556&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -94,5 +106,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

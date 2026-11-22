@@ -3,31 +3,32 @@
   "name": "Devil's Den",
   "aliases": [],
   "location": {
-    "lat": 43.61593360000001,
-    "lng": -116.2011758,
+    "lat": 43.6159305,
+    "lng": -116.20117030000002,
     "precision": "rooftop"
   },
   "address": {
-    "street": "202 North Capitol Boulevard",
+    "street": "204 North Capitol Boulevard",
     "locality": "Boise",
     "region": "Idaho",
     "postalCode": "83702",
     "country": "US"
   },
-  "formattedAddress": "202 North Capitol Boulevard, Boise, Idaho, 83702, United States",
+  "formattedAddress": "204 N Capitol Blvd STE 101, Boise, ID 83702, USA",
   "timezone": "America/Boise",
   "externalIds": {
     "google": "ChIJs2X9QZv5rlQRacuxkXOWdME"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "phone": "(208) 972-0344"
+    "phone": "(208) 972-0344",
+    "googleMapsUri": "https://maps.google.com/?cid=13939932169728281449&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.938,
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -35,24 +36,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T00:59:07.018Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -66,6 +71,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJs2X9QZv5rlQRacuxkXOWdME",
+      "url": "https://maps.google.com/?cid=13939932169728281449&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -83,5 +95,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

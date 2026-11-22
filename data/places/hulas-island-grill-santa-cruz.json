@@ -11,27 +11,117 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "Cathcart Street",
+    "street": "221 Cathcart Street",
     "locality": "Santa Cruz",
     "region": "California",
-    "postalCode": "95061",
+    "postalCode": "95060",
     "country": "US"
   },
-  "formattedAddress": "Cathcart Street, Santa Cruz, California, 95061, United States",
+  "formattedAddress": "221 Cathcart St, Santa Cruz, CA 95060, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJ7VP15SdAjoARn0mYvUIzxos",
     "osm": "node/406683079"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "2100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 4:00 – 8:30 PM",
+      "Tuesday: 4:00 – 8:30 PM",
+      "Wednesday: 12:00 – 8:30 PM",
+      "Thursday: 12:00 – 8:30 PM",
+      "Friday: 12:00 – 9:00 PM",
+      "Saturday: 12:00 – 9:00 PM",
+      "Sunday: 12:00 – 8:30 PM"
+    ]
   },
   "contact": {
     "phone": "+1 831-426-4852",
-    "website": "https://www.hulastiki.com/"
+    "website": "https://www.hulastiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10071793978402425247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.4,
+    "count": 2661,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
@@ -41,20 +131,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T02:39:28.761Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
@@ -63,6 +161,14 @@
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -76,6 +182,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ7VP15SdAjoARn0mYvUIzxos",
+      "url": "https://maps.google.com/?cid=10071793978402425247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -107,5 +220,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

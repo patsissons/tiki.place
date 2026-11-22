@@ -1,22 +1,23 @@
 {
   "id": "huli-huli-tiki-lounge-powell",
-  "name": "Huli Huli Tiki Lounge",
+  "name": "Huli Huli - Powell",
   "aliases": [
+    "Huli Huli Tiki Lounge",
     "Huli Huli Tiki Lounge - Powell"
   ],
   "location": {
-    "lat": 40.1581978,
-    "lng": -83.0758843,
+    "lat": 40.158183699999995,
+    "lng": -83.0759059,
     "precision": "rooftop"
   },
   "address": {
-    "street": "West Olentangy Street",
+    "street": "26 West Olentangy Street",
     "locality": "Powell",
-    "region": "OH",
+    "region": "Ohio",
     "postalCode": "43065",
     "country": "US"
   },
-  "formattedAddress": "West Olentangy Street, Powell, Ohio, 43065, United States",
+  "formattedAddress": "26 W Olentangy St, Powell, OH 43065, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "8dbae8e3-3a75-4589-aeba-ef458442edad",
@@ -24,14 +25,94 @@
     "google": "ChIJ_0NtZmPzOIgR_n48hN8a764"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "2000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1630"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1630"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1630"
+        },
+        "close": {
+          "day": 4,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1630"
+        },
+        "close": {
+          "day": 5,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 6,
+          "time": "2300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:30 – 9:30 PM",
+      "Wednesday: 4:30 – 9:30 PM",
+      "Thursday: 4:30 – 9:30 PM",
+      "Friday: 4:30 – 11:00 PM",
+      "Saturday: 1:00 – 11:00 PM",
+      "Sunday: 1:00 – 8:00 PM"
+    ]
   },
   "contact": {
     "phone": "+1 614-396-8437",
-    "website": "http://www.hulihulipowell.com/"
+    "website": "https://www.hulihulipowell.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12605323429331894014&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.5,
+    "count": 944,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
@@ -40,28 +121,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T02:41:35.750Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -75,6 +172,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_0NtZmPzOIgR_n48hN8a764",
+      "url": "https://maps.google.com/?cid=12605323429331894014&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -120,5 +224,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

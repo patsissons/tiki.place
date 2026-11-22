@@ -57,6 +57,30 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-22T17:52:17.009Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJc2ouWu77cg0RbngjixVDULE",
+        "name": "Tiki",
+        "distanceM": 746,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJk-tgigH7cg0RpTmDVi34e28",
+        "name": "Tiki pinSeria",
+        "distanceM": 970,
+        "nameSim": 0.5
+      },
+      {
+        "googleId": "ChIJ6ee8i_P7cg0R5PbP1RXSLb8",
+        "name": "Tiki Mexican Food",
+        "distanceM": 931,
+        "nameSim": 0.4
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z"
 }

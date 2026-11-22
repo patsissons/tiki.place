@@ -77,6 +77,18 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-22T17:52:17.009Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ9QUdeg6gHBUR3yDhIEPFRmA",
+        "name": "Trader Vic's Amman",
+        "distanceM": 2516,
+        "nameSim": 1
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z"
 }

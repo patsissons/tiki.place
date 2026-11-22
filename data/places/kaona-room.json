@@ -5,32 +5,92 @@
     "Kaona Room"
   ],
   "location": {
-    "lat": 25.7911781,
-    "lng": -80.1925231,
+    "lat": 25.7908397,
+    "lng": -80.1925165,
     "precision": "rooftop"
   },
   "address": {
-    "street": "1600 NE 1st Ave",
+    "street": "1600 Northeast 1st Avenue",
     "locality": "Miami",
-    "region": "FL",
+    "region": "Florida",
     "postalCode": "33132",
     "country": "US"
   },
-  "formattedAddress": "1600 NE 1st Ave, Miami FL 33132, USA",
+  "formattedAddress": "1600 NE 1st Ave, Miami, FL 33132, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "kaona-room",
     "google": "ChIJdxmUNqO32YgRl8pmaDF5hXM"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 6:00 PM – 1:00 AM",
+      "Thursday: 6:00 PM – 1:00 AM",
+      "Friday: 6:00 PM – 2:00 AM",
+      "Saturday: 6:00 PM – 2:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
-    "phone": "786-302-6370",
-    "website": "https://kaonaroom.com/"
+    "phone": "+1 786-807-8587",
+    "website": "https://www.kaonaroom.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=8324192739376155287&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.8,
+    "count": 276,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "established": 2022,
   "tikiConfidence": 1,
   "review": {
@@ -40,32 +100,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:44.780Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:44.780Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:44.780Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:25:44.780Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:44.780Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:25:44.780Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -79,6 +155,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJdxmUNqO32YgRl8pmaDF5hXM",
+      "url": "https://maps.google.com/?cid=8324192739376155287&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -110,5 +193,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

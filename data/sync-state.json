@@ -9,8 +9,8 @@
       "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-11-21T17:36:50.948Z",
-      "lastDiscoveryAt": "2026-11-21T17:36:50.948Z",
+      "lastRunAt": "2026-11-22T17:52:17.009Z",
+      "lastDiscoveryAt": "2026-11-22T17:52:17.009Z",
       "lastStatus": "ok",
       "observationCount": 316,
       "requestCount": 2
@@ -23,8 +23,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-21T17:36:50.948Z",
-      "lastDiscoveryAt": "2026-11-21T17:36:50.948Z",
+      "lastRunAt": "2026-11-22T17:52:17.009Z",
+      "lastDiscoveryAt": "2026-11-22T17:52:17.009Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -49,28 +49,26 @@
       "lastStatus": "ok",
       "observationCount": 446,
       "requestCount": 1
-    },
-    "mytiki": {
-      "lastRunAt": "2026-11-22T18:21:57.159Z",
-      "lastDiscoveryAt": "2026-11-22T18:21:57.159Z",
-      "lastStatus": "ok",
-      "observationCount": 1872,
-      "requestCount": 0
     }
   },
   "runs": [
     {
-      "at": "2026-11-22T18:21:57.159Z",
-      "durationMs": 1154,
+      "at": "2026-11-22T17:52:17.009Z",
+      "durationMs": 56741,
       "sources": [
-        "mytiki"
+        "tikirat",
+        "user-submission"
       ],
-      "placesCreated": 150,
-      "placesUpdated": 383,
+      "placesCreated": 0,
+      "placesUpdated": 164,
       "placesPublished": 620,
-      "needsReview": 326,
-      "googleCalls": 0,
-      "warnings": []
+      "needsReview": 176,
+      "googleCalls": 164,
+      "warnings": [
+        "lanai-tiki-eastvale: Google place ChIJgzyWGQDL3IARlvxBXW1fkgI no longer exists (404); needs review",
+        "no-vacancy-saint-petersburg: Google place ChIJMS54UaLhwogR9naeotRw1NA no longer exists (404); needs review",
+        "tiki-bar-bigfork: Google place ChIJBY7h0zGzZ1MRmNl4aithwLI no longer exists (404); needs review"
+      ]
     },
     {
       "at": "2026-11-21T22:52:16.549Z",

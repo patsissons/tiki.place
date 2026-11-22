@@ -1,30 +1,35 @@
 {
   "id": "oh-no-lulu-ciudad-de-buenos-aires",
-  "name": "Oh No Lulu",
+  "name": "Oh no lulu",
   "aliases": [],
   "location": {
-    "lat": -34.5956459,
-    "lng": -58.4302597,
+    "lat": -34.5895475,
+    "lng": -58.421403100000006,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Ciudad de Buenos Aires",
+    "street": "1900 Aráoz",
+    "locality": "Ciudad Autónoma de Buenos Aires",
+    "region": "Ciudad Autónoma de Buenos Aires",
+    "postalCode": "C1414",
     "country": "AR"
   },
+  "formattedAddress": "Aráoz 1900, C1414 Cdad. Autónoma de Buenos Aires, Argentina",
   "timezone": "America/Argentina/Buenos_Aires",
   "externalIds": {
     "overture": "df2b876b-b874-4bf8-ba5e-f5babb4fbd4d",
     "google": "ChIJ8QKcfQDLvJURFICiJKSFdtU"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "http://ohnolulu.meitre.com/"
+    "website": "http://ohnolulu.meitre.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=15381628517366267924&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.75,
+  "tikiConfidence": 0.763,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -32,20 +37,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -53,6 +66,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ8QKcfQDLvJURFICiJKSFdtU",
+      "url": "https://maps.google.com/?cid=15381628517366267924&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "df2b876b-b874-4bf8-ba5e-f5babb4fbd4d",
@@ -62,5 +82,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

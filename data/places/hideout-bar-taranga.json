@@ -8,21 +8,25 @@
     "precision": "rooftop"
   },
   "address": {
-    "locality": "港区",
+    "locality": "Minato City",
+    "region": "Tokyo",
+    "postalCode": "105-0004",
     "country": "JP"
   },
-  "formattedAddress": "新橋仲通り, 港区, 105-0004, 日本",
+  "formattedAddress": "Japan, 〒105-0004 Tokyo, Minato City, Shinbashi, 2-chōme−9−７ 2F",
   "timezone": "Asia/Tokyo",
   "externalIds": {
     "google": "ChIJSd2uN5OLGGARSH-jwJbmJes"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=16944202708202782536&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -30,20 +34,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -59,6 +67,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJSd2uN5OLGGARSH-jwJbmJes",
+      "url": "https://maps.google.com/?cid=16944202708202782536&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "hideout-bar-taranga",
       "url": "https://tikiatlas.com/bar?slug=hideout-bar-taranga",
@@ -67,5 +82,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

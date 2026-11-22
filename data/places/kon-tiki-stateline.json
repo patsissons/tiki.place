@@ -1,31 +1,35 @@
 {
   "id": "kon-tiki-stateline",
-  "name": "The Kon Tiki",
-  "aliases": [],
+  "name": "The Kon Tiki Bar",
+  "aliases": [
+    "The Kon Tiki"
+  ],
   "location": {
     "lat": 47.705476,
     "lng": -117.03661,
     "precision": "rooftop"
   },
   "address": {
-    "street": "6727 West Seltice Way",
-    "locality": "Stateline",
+    "street": "6717 West Seltice Way",
+    "locality": "Post Falls",
     "region": "Idaho",
-    "postalCode": "99025",
+    "postalCode": "83854",
     "country": "US"
   },
-  "formattedAddress": "6727 West Seltice Way, Stateline, Idaho, 99025, United States",
+  "formattedAddress": "6717 W Seltice Way, Post Falls, ID 83854, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJN1QlfQXdYVMRO5dw8Y6WcbY"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=13146454327951398715&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.958,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +37,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +70,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJN1QlfQXdYVMRO5dw8Y6WcbY",
+      "url": "https://maps.google.com/?cid=13146454327951398715&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-kon-tiki",
       "url": "https://tikiatlas.com/bar?slug=the-kon-tiki",
@@ -70,5 +85,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -8,24 +8,26 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "252 Calle Canals",
+    "street": "254 Calle Canals",
     "locality": "San Juan",
-    "region": "Puerto Rico",
+    "region": "San Juan",
     "postalCode": "00907",
-    "country": "US"
+    "country": "PR"
   },
-  "formattedAddress": "252 Calle Canals, San Juan, Puerto Rico, 00907, United States",
+  "formattedAddress": "254 C. Canals, San Juan, 00907, Puerto Rico",
   "timezone": "America/Puerto_Rico",
   "externalIds": {
     "google": "ChIJUVMJHjZvA4wRIUQb1ZqoIMM"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=14060423419604452385&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +35,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJUVMJHjZvA4wRIUQb1ZqoIMM",
+      "url": "https://maps.google.com/?cid=14060423419604452385&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "junglebird",
       "url": "https://tikiatlas.com/bar?slug=junglebird",
@@ -70,5 +83,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

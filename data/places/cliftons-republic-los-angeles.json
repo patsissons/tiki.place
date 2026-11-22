@@ -3,7 +3,7 @@
   "name": "Clifton's Republic",
   "aliases": [],
   "location": {
-    "lat": 34.0454209,
+    "lat": 34.045420899999996,
     "lng": -118.2530005,
     "precision": "rooftop"
   },
@@ -11,20 +11,22 @@
     "street": "648 South Broadway",
     "locality": "Los Angeles",
     "region": "California",
-    "postalCode": "90013",
+    "postalCode": "90014",
     "country": "US"
   },
-  "formattedAddress": "648 South Broadway, Los Angeles, California, 90013, United States",
+  "formattedAddress": "648 S Broadway, Los Angeles, CA 90014, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJA6IDVLXHwoAR8gTOFqwApzg"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=4082232326351619314&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
   "tikiConfidence": 0.938,
   "review": {
     "state": "needs_review",
@@ -33,20 +35,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJA6IDVLXHwoAR8gTOFqwApzg",
+      "url": "https://maps.google.com/?cid=4082232326351619314&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "cliftons-republic",
       "url": "https://tikiatlas.com/bar?slug=cliftons-republic",
@@ -70,5 +83,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

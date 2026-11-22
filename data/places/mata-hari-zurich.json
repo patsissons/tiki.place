@@ -5,8 +5,8 @@
     "Mata Hari Bar"
   ],
   "location": {
-    "lat": 47.3840908,
-    "lng": 8.5308946,
+    "lat": 47.384098599999994,
+    "lng": 8.5308995,
     "precision": "rooftop"
   },
   "address": {
@@ -16,20 +16,21 @@
     "postalCode": "8005",
     "country": "CH"
   },
-  "formattedAddress": "237 Langstrasse, Zürich, Zürich, 8005, Schweiz/Suisse/Svizzera/Svizra",
+  "formattedAddress": "Langstrasse 237, 8005 Zürich, Switzerland",
   "timezone": "Europe/Zurich",
   "externalIds": {
     "google": "ChIJjfXsURIKkEcRie1hO1SqDLo"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://www.matahari-bar.ch/"
+    "website": "https://www.matahari-bar.ch/",
+    "googleMapsUri": "https://maps.google.com/?cid=13406277469525372297&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.981,
+  "tikiConfidence": 0.982,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -37,24 +38,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T06:13:13.483Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -68,6 +73,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJjfXsURIKkEcRie1hO1SqDLo",
+      "url": "https://maps.google.com/?cid=13406277469525372297&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -85,5 +97,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -3,28 +3,93 @@
   "name": "Kiki Lounge",
   "aliases": [],
   "location": {
-    "lat": 54.1525269,
-    "lng": -4.4783392,
+    "lat": 54.1477783,
+    "lng": -4.4798086,
     "precision": "rooftop"
   },
   "address": {
+    "street": "32 North Quay",
     "locality": "Douglas",
+    "region": "Douglas",
+    "postalCode": "IM99 1HP",
     "country": "IM"
   },
+  "formattedAddress": "32 N Quay, Douglas, Isle of Man IM99 1HP, Isle of Man",
   "timezone": "Europe/Isle_of_Man",
   "externalIds": {
     "overture": "67457b1d-c18c-4b06-9e78-d9c62e64a895",
     "google": "ChIJt5e54G6FY0gRLyqDyJiDuZQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 4:00 PM – 1:00 AM",
+      "Thursday: 4:00 PM – 1:00 AM",
+      "Friday: 4:00 PM – 1:00 AM",
+      "Saturday: 2:00 PM – 1:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
-    "website": "http://www.kikis.im/"
+    "phone": "+44 7624 400292",
+    "website": "http://www.kikis.im/",
+    "googleMapsUri": "https://maps.google.com/?cid=10716741480527112751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.75,
+  "rating": {
+    "value": 4.8,
+    "count": 184,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.763,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -32,20 +97,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -53,6 +142,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJt5e54G6FY0gRLyqDyJiDuZQ",
+      "url": "https://maps.google.com/?cid=10716741480527112751&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "67457b1d-c18c-4b06-9e78-d9c62e64a895",
@@ -62,5 +158,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

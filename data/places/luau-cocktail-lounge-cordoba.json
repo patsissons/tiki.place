@@ -3,26 +3,101 @@
   "name": "Luau Cocktail Lounge",
   "aliases": [],
   "location": {
-    "lat": 37.8785439,
-    "lng": -4.7794108,
+    "lat": 37.8905232,
+    "lng": -4.8057688,
     "precision": "rooftop"
   },
   "address": {
     "locality": "Córdoba",
+    "region": "Andalucía",
+    "postalCode": "14011",
     "country": "ES"
   },
+  "formattedAddress": "plaza marina, Noroeste, 14011 Córdoba, Spain",
   "timezone": "Europe/Madrid",
   "externalIds": {
     "overture": "7c3e6e90-0854-443f-88f9-1eb1e5c9ab51",
     "google": "ChIJ40o3gYbfbA0RNRxSsS0mRbo"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.825,
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 5:00 PM – 12:00 AM",
+      "Thursday: 5:00 PM – 12:00 AM",
+      "Friday: 5:00 PM – 2:00 AM",
+      "Saturday: 4:00 PM – 2:00 AM",
+      "Sunday: 4:00 PM – 12:00 AM"
+    ]
+  },
+  "contact": {
+    "phone": "+34 957 89 68 38",
+    "googleMapsUri": "https://maps.google.com/?cid=13422176242137963573&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.9,
+    "count": 190,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -30,16 +105,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -47,6 +146,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ40o3gYbfbA0RNRxSsS0mRbo",
+      "url": "https://maps.google.com/?cid=13422176242137963573&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "7c3e6e90-0854-443f-88f9-1eb1e5c9ab51",
@@ -56,5 +162,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

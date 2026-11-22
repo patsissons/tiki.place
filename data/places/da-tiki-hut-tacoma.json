@@ -3,18 +3,18 @@
   "name": "Da Tiki Hut",
   "aliases": [],
   "location": {
-    "lat": 47.2556154,
-    "lng": -122.4976064,
+    "lat": 47.2556593,
+    "lng": -122.49753860000001,
     "precision": "rooftop"
   },
   "address": {
     "street": "4427 6th Avenue",
     "locality": "Tacoma",
-    "region": "WA",
+    "region": "Washington",
     "postalCode": "98406",
     "country": "US"
   },
-  "formattedAddress": "4427 6th Avenue, Tacoma, Washington, 98406, United States",
+  "formattedAddress": "4427 6th Ave Ste 101, Tacoma, WA 98406, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJpZYk9ydVkFQReiiZPRpLCdk",
@@ -22,14 +22,15 @@
     "overture": "70c7869f-6e79-4784-844f-f538933d1fce"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://www.datikihut.com/"
+    "website": "https://www.datikihut.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=15639113757095438458&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.98,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -37,24 +38,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -68,6 +73,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJpZYk9ydVkFQReiiZPRpLCdk",
+      "url": "https://maps.google.com/?cid=15639113757095438458&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -92,5 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

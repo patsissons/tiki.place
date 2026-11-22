@@ -10,12 +10,13 @@
     "precision": "rooftop"
   },
   "address": {
+    "street": "25 Causeway Boulevard",
     "locality": "Clearwater",
-    "region": "FL",
+    "region": "Florida",
     "postalCode": "33767",
     "country": "US"
   },
-  "formattedAddress": "Marina, Clearwater, Florida, 33767, United States",
+  "formattedAddress": "25 Causeway Blvd, Clearwater, FL 33767, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJWTEwAD33wogRatwjsCmC1Bg",
@@ -23,14 +24,94 @@
     "overture": "adc8faa0-f32d-425d-8483-67fc58dc10af"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1500"
+        },
+        "close": {
+          "day": 0,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1500"
+        },
+        "close": {
+          "day": 6,
+          "time": "2200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 4:00 – 9:00 PM",
+      "Wednesday: 4:00 – 9:00 PM",
+      "Thursday: 4:00 – 9:00 PM",
+      "Friday: 4:00 – 10:00 PM",
+      "Saturday: 3:00 – 10:00 PM",
+      "Sunday: 3:00 – 9:00 PM"
+    ]
   },
   "contact": {
-    "phone": "(727) 443-1750",
-    "website": "http://www.bartiki.com/"
+    "phone": "+1 727-443-1750",
+    "website": "http://www.bartiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1789198067533339754&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.6,
+    "count": 389,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
@@ -40,28 +121,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-21T23:27:39.147Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -75,6 +172,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWTEwAD33wogRatwjsCmC1Bg",
+      "url": "https://maps.google.com/?cid=1789198067533339754&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -113,5 +217,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

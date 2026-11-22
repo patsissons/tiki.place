@@ -8,25 +8,115 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "Jefferson Avenue",
+    "street": "2416 Jefferson Avenue",
     "locality": "Richmond",
     "region": "Virginia",
     "postalCode": "23223",
     "country": "US"
   },
-  "formattedAddress": "Jefferson Avenue, Richmond, Virginia, 23223, United States",
+  "formattedAddress": "2416 Jefferson Ave C1, Richmond, VA 23223, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJCcN5PXcRsYkRQt6DxmItt4A"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 – 11:00 PM",
+      "Tuesday: 5:00 – 11:00 PM",
+      "Wednesday: 5:00 – 11:00 PM",
+      "Thursday: 5:00 – 11:00 PM",
+      "Friday: 5:00 PM – 1:00 AM",
+      "Saturday: 5:00 PM – 1:00 AM",
+      "Sunday: 5:00 – 11:00 PM"
+    ]
   },
   "contact": {
-    "website": "https://www.emeraldloungerva.com/"
+    "website": "https://www.emeraldloungerva.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9274931859853401666&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.5,
+    "count": 238,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "tikiConfidence": 0.997,
   "review": {
     "state": "approved",
@@ -36,24 +126,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +173,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJCcN5PXcRsYkRQt6DxmItt4A",
+      "url": "https://maps.google.com/?cid=9274931859853401666&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -91,5 +204,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

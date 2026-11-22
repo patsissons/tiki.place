@@ -1,33 +1,38 @@
 {
   "id": "creeky-tiki-bar-and-grill",
-  "name": "Creeky Tiki Bar And Grill",
+  "name": "Creeky Tiki Bar and Grill",
   "aliases": [
     "Creeky Tiki Bar & Island Grill"
   ],
   "location": {
-    "lat": 35.2799416,
-    "lng": -120.6634369,
+    "lat": 35.2797805,
+    "lng": -120.66328469999999,
     "precision": "rooftop"
   },
   "address": {
+    "street": "782 Higuera Street",
     "locality": "San Luis Obispo",
-    "region": "CA",
+    "region": "California",
+    "postalCode": "93401",
     "country": "US"
   },
+  "formattedAddress": "782 Higuera St, San Luis Obispo, CA 93401, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
-    "overture": "e52d6c0c-0cae-4956-a677-5f7423964948"
+    "overture": "e52d6c0c-0cae-4956-a677-5f7423964948",
+    "google": "ChIJ5Tz8UgLx7IAR_9n0kfi5hQo"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:16.549Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
     "phone": "(805) 544-2200",
-    "website": "https://www.creekytikislo.com/"
+    "website": "https://www.creekytikislo.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=758216589533567487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.878,
+  "tikiConfidence": 0.884,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -35,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -46,13 +55,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -66,6 +79,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ5Tz8UgLx7IAR_9n0kfi5hQo",
+      "url": "https://maps.google.com/?cid=758216589533567487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "mytiki",
@@ -83,5 +103,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "lastSyncedAt": "2026-11-22T18:32:19.564Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }
