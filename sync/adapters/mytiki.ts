@@ -2,12 +2,13 @@
  * mytiki.life: a collector community site whose tiki bar section lists ~1,900 bars,
  * past and present, plus motels, apartments and other tiki-themed places.
  *
- * Bar pages carry no coordinates. `pnpm sync snapshot-mytiki` reads the sitemap and
- * then one bar page at a time, 20 s or more apart, into a committed snapshot
- * (config.snapshot). This adapter reads only that file, never the network, so the
- * daily sync costs mytiki.life nothing. Facts only (name, type, city, phone, website,
- * closed flag); descriptions and photos are never stored. Every derived place links
- * back to its mytiki.life page.
+ * Bar pages carry no coordinates, and there is no feed: one page per bar, kept in a
+ * committed snapshot (config.snapshot). The weekly sync reads the sitemap (robots.txt plus
+ * five requests), which gives every bar's last-edited date, then reads only bars that are
+ * new or edited since we last read them, at most `pagesPerRun`, 30-45 s apart. Bars that
+ * leave the sitemap lose their link. A full re-read is `pnpm sync snapshot-mytiki`, by
+ * hand. Facts only (name, type, city, phone, website, closed flag); descriptions and photos
+ * are never stored. Every derived place links back to its mytiki.life page.
  *
  * Only open bar-like entries vouch for a place (`tiki-directory`); closed rooms and
  * non-bars only add attribution to places that already exist. The site's closed flag
@@ -19,13 +20,21 @@ import { z } from "zod";
 import { countryToIso } from "@/lib/country";
 import { getRoot } from "@/lib/data/store";
 import type { Address, Observation } from "@/lib/schema";
-import type { Adapter, AdapterContext, DiscoverResult } from "./types";
+import { ChallengeDetected, RequestBudgetExhausted, SourceThrottled, type PoliteFetch } from "../core/fetch";
+import type { Adapter, AdapterContext, DiscoverResult, Logger } from "./types";
 import { makeObservation, reconcileObservations, safeUrl } from "./types";
 
 const ConfigSchema = z.object({
   base: z.url().default("https://mytiki.life"),
   sitemap: z.url().default("https://mytiki.life/sitemap.xml"),
   snapshot: z.string().default("data/snapshots/mytiki.json"),
+  /** Weekly sync: most bar pages to read per run (new bars first, then edited ones). */
+  pagesPerRun: z.number().int().min(0).default(10),
+  /** Gap between bar pages, plus up to jitterMs more. */
+  pageIntervalMs: z.number().int().min(0).default(30_000),
+  jitterMs: z.number().int().min(0).default(15_000),
+  /** A sitemap listing fewer bars than this means the site changed; refuse it. */
+  minBars: z.number().int().min(1).default(500),
 });
 export type MytikiConfig = z.infer<typeof ConfigSchema>;
 export const mytikiConfig = (source: { config: Record<string, unknown> }) => ConfigSchema.parse(source.config);
@@ -59,11 +68,17 @@ const decode = (s: string) =>
     .replace(/&amp;/g, "&");
 const text = (html: string) => decode(html.replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
 
-/** Every /tiki-bars/<slug> URL in a sitemap page. */
+/** Every /tiki-bars/<slug> URL in a sitemap page, with its <lastmod> ("" when absent). */
+export function parseBarSitemapEntries(xml: string): Map<string, string> {
+  const out = new Map<string, string>();
+  for (const m of xml.matchAll(/<loc>\s*https?:\/\/(?:www\.)?mytiki\.life\/tiki-bars\/([a-z0-9-]+)\s*<\/loc>(?:\s*<lastmod>\s*([^<\s]+)\s*<\/lastmod>)?/g)) {
+    if (!out.has(m[1]!)) out.set(m[1]!, m[2] ?? "");
+  }
+  return out;
+}
+
 export function parseBarSlugs(xml: string): string[] {
-  const out = new Set<string>();
-  for (const m of xml.matchAll(/<loc>\s*https?:\/\/(?:www\.)?mytiki\.life\/tiki-bars\/([a-z0-9-]+)\s*<\/loc>/g)) out.add(m[1]!);
-  return [...out];
+  return [...parseBarSitemapEntries(xml).keys()];
 }
 
 /** Sitemap index -> the tikiBars section pages. */
@@ -165,6 +180,89 @@ export function displayName(name: string, address: Address): { name: string; alt
   return { name: primary, altNames: [...new Set(alts)].filter((a) => a !== primary) };
 }
 
+/** slug -> lastmod for every bar in the sitemap (robots.txt aside, one index plus a few section pages). */
+export async function readBarSitemap(fetch: PoliteFetch, config: MytikiConfig, cacheTtlMs: number): Promise<Map<string, string>> {
+  const index = await fetch(config.sitemap, { cacheTtlMs });
+  if (index.status !== 200) throw new Error(`sitemap returned ${index.status}`);
+  const bars = new Map<string, string>();
+  for (const url of parseBarSitemaps(index.body)) {
+    const page = await fetch(url, { cacheTtlMs });
+    if (page.status !== 200) throw new Error(`${url} returned ${page.status}`);
+    for (const [slug, lastmod] of parseBarSitemapEntries(page.body)) if (!bars.has(slug)) bars.set(slug, lastmod);
+  }
+  if (bars.size < config.minBars) throw new Error(`sitemap yielded only ${bars.size} bars; has the site changed?`);
+  return bars;
+}
+
+/** Bars to read: ones we have never read, and ones edited (per the sitemap) since we read them, oldest read first. */
+export function barsToRead(sitemap: Map<string, string>, rows: Map<string, MytikiRow>): { missing: string[]; edited: string[] } {
+  const missing = [...sitemap.keys()].filter((s) => !rows.has(s)).sort();
+  const edited = [...sitemap]
+    .filter(([slug, lastmod]) => {
+      const row = rows.get(slug);
+      const t = Date.parse(lastmod);
+      return row !== undefined && Number.isFinite(t) && t > Date.parse(row.fetched_at);
+    })
+    .map(([slug]) => slug)
+    .sort((a, b) => rows.get(a)!.fetched_at.localeCompare(rows.get(b)!.fetched_at));
+  return { missing, edited };
+}
+
+export type ReadPagesOptions = {
+  intervalMs: number;
+  jitterMs: number;
+  log: Logger;
+  onRow: (row: MytikiRow) => void;
+  maxConsecutiveFailures?: number;
+};
+
+/**
+ * Read bar pages one at a time, each started at least intervalMs (plus random jitter) after
+ * the last. Stops at the first throttle, bot challenge or exhausted budget, or after three
+ * failures in a row, and says why; whatever was read before that is kept.
+ */
+export async function readBarPages(fetch: PoliteFetch, config: MytikiConfig, slugs: string[], opts: ReadPagesOptions): Promise<{ read: number; stoppedBy?: string }> {
+  const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+  const stamp = () => new Date().toISOString().slice(11, 19);
+  const maxFailures = opts.maxConsecutiveFailures ?? 3;
+  let failures = 0;
+  let read = 0;
+  let lastStart = 0;
+  for (const [i, slug] of slugs.entries()) {
+    // The fetcher's interval is only a floor; wait explicitly so the jitter is on top of it.
+    if (lastStart) await sleep(Math.max(0, lastStart + opts.intervalMs + Math.floor(Math.random() * opts.jitterMs) - Date.now()));
+    lastStart = Date.now();
+    const at = `${stamp()} [${i + 1}/${slugs.length}] ${slug}`;
+    try {
+      const res = await fetch(`${config.base.replace(/\/$/, "")}/tiki-bars/${slug}`);
+      if (res.status === 404 || res.status === 410) {
+        opts.log.info(`${at}: ${res.status}, skipped`);
+        continue;
+      }
+      if (res.status !== 200) throw new Error(`HTTP ${res.status}`);
+      const row = parseBarPage(slug, res.body, new Date().toISOString());
+      if (!row) throw new Error("no bar on the page");
+      opts.onRow(row);
+      read++;
+      failures = 0;
+      opts.log.info(`${at}: ${row.name} | ${row.type ?? "?"} | ${row.address ?? "?"} | closed ${row.closed ?? "?"}`);
+    } catch (err) {
+      if (err instanceof SourceThrottled || err instanceof ChallengeDetected || err instanceof RequestBudgetExhausted) return { read, stoppedBy: err.message };
+      failures++;
+      opts.log.warn(`${at}: ${err instanceof Error ? err.message : err}`);
+      if (failures >= maxFailures) return { read, stoppedBy: `${failures} failures in a row` };
+    }
+  }
+  return { read };
+}
+
+export function writeSnapshot(relPath: string, rows: Iterable<MytikiRow>) {
+  const file = path.join(getRoot(), relPath);
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  const sorted = [...rows].sort((a, b) => a.slug.localeCompare(b.slug));
+  fs.writeFileSync(file, `[\n${sorted.map((r) => `  ${JSON.stringify(r)}`).join(",\n")}\n]\n`);
+}
+
 export function readSnapshot(relPath: string): MytikiRow[] {
   const file = path.join(getRoot(), relPath);
   if (!fs.existsSync(file)) return [];
@@ -191,15 +289,39 @@ export function rowToObservation(sourceId: string, base: string, row: MytikiRow)
   });
 }
 
+const DAY_MS = 86_400_000;
+
 export const mytikiAdapter: Adapter = {
   id: "mytiki",
 
   async discover(ctx: AdapterContext): Promise<DiscoverResult> {
     const config = mytikiConfig(ctx.source);
-    const rows = readSnapshot(config.snapshot);
-    if (rows.length === 0) throw new Error(`snapshot ${config.snapshot} is empty or missing; run pnpm sync snapshot-mytiki`);
-    const observations = rows.map((r) => rowToObservation(ctx.source.id, config.base, r));
-    // The snapshot fills in over several sessions, so it never claims to be the complete listing.
-    return { observations: reconcileObservations(ctx.prior, observations), complete: false };
+    const rows = new Map(readSnapshot(config.snapshot).map((r) => [r.slug, r]));
+    if (rows.size === 0) throw new Error(`snapshot ${config.snapshot} is empty or missing; run pnpm sync snapshot-mytiki`);
+
+    // A sitemap failure (or a challenge) throws, and the engine keeps last run's observations.
+    const sitemap = await readBarSitemap(ctx.fetch, config, 3 * DAY_MS);
+    const { missing, edited } = barsToRead(sitemap, rows);
+    const due = [...missing, ...edited].slice(0, config.pagesPerRun);
+    let changed = false;
+    if (due.length) {
+      ctx.log.info(`mytiki: ${missing.length} new and ${edited.length} edited bar(s); reading ${due.length}`);
+      const { stoppedBy } = await readBarPages(ctx.fetch, config, due, {
+        intervalMs: config.pageIntervalMs,
+        jitterMs: config.jitterMs,
+        log: ctx.log,
+        onRow: (row) => {
+          rows.set(row.slug, row);
+          changed = true;
+        },
+      });
+      if (stoppedBy) ctx.log.warn(`mytiki: stopped reading pages (${stoppedBy}); the rest wait for the next run`);
+    }
+    if (changed && !ctx.dryRun) writeSnapshot(config.snapshot, rows.values());
+
+    // The sitemap is the full listing: bars no longer in it lose their link (their rows stay in the snapshot).
+    const listed = [...rows.values()].filter((r) => sitemap.has(r.slug));
+    const observations = listed.map((r) => rowToObservation(ctx.source.id, config.base, r));
+    return { observations: reconcileObservations(ctx.prior, observations), complete: true };
   },
 };

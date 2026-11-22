@@ -12,7 +12,7 @@ const quiet = { info() {}, warn() {} };
 const ISO = NOW.toISOString();
 const googleSource = source({ id: "google", adapter: "google", trust: 1, tikiSignal: 0.05, schedule: { discovery: "manual" }, config: {} });
 const atlasSource = source({ id: "tikiatlas", adapter: "tikiatlas", trust: 0.55, tikiSignal: 0.75, queueNewPlaces: true, schedule: { discovery: "weekly" } });
-const mytikiSource = source({ id: "mytiki", adapter: "mytiki", trust: 0.45, tikiSignal: 0.7, queueNewPlaces: true, schedule: { discovery: "manual" }, config: { snapshot: "data/snapshots/mytiki.json" } });
+const mytikiSource = source({ id: "mytiki", adapter: "mytiki", trust: 0.45, tikiSignal: 0.7, queueNewPlaces: true, schedule: { discovery: "daily" }, config: { snapshot: "data/snapshots/mytiki.json", minBars: 1, pageIntervalMs: 0, jitterMs: 0 } });
 
 type Bar = { slug: string; name: string; status?: string; city?: string; state?: string; country?: string; latitude?: number; longitude?: number; googlePlaceId?: string; address?: string };
 const bar = (b: Bar) => ({ status: "active", country: "United States", ...b });
@@ -94,7 +94,22 @@ describe("new directory sources", () => {
       `${root}/data/snapshots/mytiki.json`,
       JSON.stringify([{ slug: "hula-hut-austin", name: "Hula Hut - Austin", type: "Bar & Restaurant", phone: "(512) 476-4852", address: "Austin, Texas, United States", closed: "no", fetched_at: ISO }]),
     );
-    const result = await engine.runEngine({ now: NOW, log: quiet, skipVerify: true, force: true, sourceFilter: ["mytiki"] });
+    // The sitemap lists the bar as last edited before we read it, so no bar page is fetched.
+    const sitemap = (url: string) =>
+      url.endsWith("sitemap.xml")
+        ? `<sitemapindex><sitemap><loc>https://mytiki.life/sitemaps-1-section-tikiBars-1-sitemap-p1.xml</loc></sitemap></sitemapindex>`
+        : `<urlset><url><loc>https://mytiki.life/tiki-bars/hula-hut-austin</loc><lastmod>2026-01-01T00:00:00Z</lastmod></url></urlset>`;
+    const asked: string[] = [];
+    const fetchFactory = () =>
+      Object.assign(
+        async (url: string) => {
+          asked.push(url);
+          return { url, status: 200, body: sitemap(url), fromCache: false, fetchedAt: ISO, headers: {} };
+        },
+        { requests: 2, remaining: 10 },
+      ) as unknown as PoliteFetch;
+    const result = await engine.runEngine({ now: NOW, log: quiet, skipVerify: true, force: true, sourceFilter: ["mytiki"], fetchFactory });
+    expect(asked.some((u) => u.includes("/tiki-bars/"))).toBe(false);
     expect(result.summary.placesCreated).toBe(0);
     const hut = store.readPlaces().find((p) => p.id === "hula-hut-austin")!;
     expect(hut.sources.find((s) => s.sourceId === "mytiki")?.url).toBe("https://mytiki.life/tiki-bars/hula-hut-austin");

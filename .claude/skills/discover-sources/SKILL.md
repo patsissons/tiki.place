@@ -68,10 +68,9 @@ Tiki Wanderlust sits behind a Cloudflare challenge in CI, so its source has `dis
 2. `pnpm sync run --source tikiwanderlust --skip-verify`, then `pnpm validate`.
 3. Only when there is budget to spare: `pnpm sync run --include-manual` to resolve those places, within the normal daily caps.
 
-mytiki.life is also manual (`discovery: manual`): it has no coordinates and ~1,900 bar pages, so it is read slowly by hand, never from CI.
+mytiki.life has no coordinates and ~1,900 bar pages, one page per bar, kept in `data/snapshots/mytiki.json`. The daily sync keeps it current from the sitemap's per-bar `<lastmod>`: robots.txt, the sitemap at most every 3 days (cached), then at most 10 new or edited bar pages 30-45 s apart (`pagesPerRun`, `pageIntervalMs`, `jitterMs` in the source config). It stops at the first 429/503 or bot challenge and the rest wait for the next day. Bars that leave the sitemap lose their link. `skipGoogle: true` keeps places only mytiki.life lists off the daily Google work, as if the source were manual.
 
-1. `pnpm sync snapshot-mytiki --limit 300` (run in the background): the sitemap (cached a week), then one bar page every 20-30 s into `data/snapshots/mytiki.json`. It resumes where it stopped and stops at the first 429/503 or bot challenge; never retry past one. A full pass is ~13 hours; `--refresh-days` (default 120) controls re-reads.
-2. `pnpm sync run --source mytiki --skip-verify` (add `--force` on a big first import), then `pnpm validate`.
+For a full refresh by hand (rarely needed): `pnpm sync snapshot-mytiki --limit 300` in the background reads never-read bars, then edited ones, then rows older than `--refresh-days` (default 120), one page every 30-45 s (`--interval-s`, `--jitter-s`). It resumes where it stopped and stops at the first 429/503 or bot challenge; never retry past one. Then `pnpm sync run --source mytiki --skip-verify` and `pnpm validate`.
 
 Directory sources with `queueNewPlaces: true` (tikiatlas, allthetikibars, mytiki) never auto-approve a place; every new one waits for the owner. Their closed flags are not used as status hints, and closed or non-bar entries only add attribution. Before creating any place, the engine holds back records that look like an owner-rejected place and lists them under "Held back by an owner rejection" in the run report.
 

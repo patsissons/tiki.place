@@ -1,14 +1,15 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it } from "vitest";
 import { countryToIso } from "@/lib/country";
 import { ChallengeDetected, SourceThrottled, createPoliteFetch, parseRobots, robotsAllows } from "../core/fetch";
 import { googleMyMapsAdapter, parseKml, placemarkRef } from "../adapters/google-mymaps";
-import { displayName, parseAddress, parseBarPage, parseBarSitemaps, parseBarSlugs, rowToObservation, vouches } from "../adapters/mytiki";
+import { barsToRead, displayName, mytikiAdapter, parseAddress, parseBarPage, parseBarSitemapEntries, parseBarSitemaps, parseBarSlugs, readSnapshot, rowToObservation, vouches, type MytikiRow } from "../adapters/mytiki";
 import { barToObservation, parseAtlasData } from "../adapters/tikiatlas";
 import type { PoliteFetch } from "../core/fetch";
-import { NOW, fixture, source } from "./helpers";
+import { mergePlace, newPlaceSkeleton } from "../core/merge";
+import { NOW, fixture, source, tempRoot } from "./helpers";
 
 const log = { info() {}, warn() {} };
 const AT = "2026-11-21T00:00:00.000Z";
@@ -153,6 +154,80 @@ describe("mytiki", () => {
       "https://mytiki.life/sitemaps-1-section-tikiBars-1-sitemap-p1.xml",
     ]);
     expect(parseBarSlugs(`<url><loc>https://mytiki.life/tiki-bars/a-b</loc></url><url><loc>https://mytiki.life/tiki-bars/a-b</loc></url><url><loc>https://mytiki.life/tiki-mugs/c</loc></url>`)).toEqual(["a-b"]);
+  });
+});
+
+describe("mytiki scheduled refresh", () => {
+  const row = (slug: string, fetched_at: string, closed: MytikiRow["closed"] = "no"): MytikiRow => ({ slug, name: `Bar ${slug}`, type: "Bar", address: "Austin, Texas, United States", closed, fetched_at });
+  const urlset = (entries: [string, string][]) =>
+    `<urlset>${entries.map(([slug, lastmod]) => `<url><loc>https://mytiki.life/tiki-bars/${slug}</loc><lastmod>${lastmod}</lastmod><image:image><image:loc>https://assets.mytiki.life/x.jpg</image:loc></image:image></url>`).join("")}</urlset>`;
+  const index = `<sitemapindex><sitemap><loc>https://mytiki.life/sitemaps-1-section-tikiBars-1-sitemap-p1.xml</loc></sitemap></sitemapindex>`;
+  const page = fixture("mytiki/hula-hut-austin.html");
+
+  afterEach(() => {
+    delete process.env.TIKI_ROOT;
+  });
+
+  it("reads lastmod per bar and picks new, then edited bars", () => {
+    const sitemap = parseBarSitemapEntries(urlset([["kept", "2026-01-01T00:00:00+11:00"], ["edited", "2026-11-20T00:00:00+11:00"], ["new-bar", "2026-11-20T00:00:00Z"]]));
+    expect(sitemap.get("edited")).toBe("2026-11-20T00:00:00+11:00");
+    const rows = new Map([row("kept", "2026-11-01T00:00:00.000Z"), row("edited", "2026-11-01T00:00:00.000Z")].map((r) => [r.slug, r]));
+    expect(barsToRead(sitemap, rows)).toEqual({ missing: ["new-bar"], edited: ["edited"] });
+  });
+
+  it("reads only new and edited pages, drops delisted bars, and saves the snapshot", async () => {
+    const before = [row("kept", "2026-11-01T00:00:00.000Z"), row("edited", "2026-11-01T00:00:00.000Z"), row("delisted", "2026-11-01T00:00:00.000Z")];
+    process.env.TIKI_ROOT = tempRoot({ "data/snapshots/mytiki.json": JSON.stringify(before) });
+    const sitemapXml = urlset([["kept", "2026-10-01T00:00:00Z"], ["edited", "2026-11-15T00:00:00Z"], ["brand-new", "2026-11-15T00:00:00Z"], ["also-new", "2026-11-15T00:00:00Z"]]);
+    const asked: string[] = [];
+    const fetch = Object.assign(
+      async (url: string) => {
+        asked.push(url);
+        const body = url.endsWith("sitemap.xml") ? index : url.includes("section-tikiBars") ? sitemapXml : page;
+        return { url, status: 200, body, fromCache: false, fetchedAt: AT, headers: {} };
+      },
+      { requests: 0, remaining: 99 },
+    ) as unknown as PoliteFetch;
+    const src = source({ id: "mytiki", adapter: "mytiki", config: { pagesPerRun: 2, pageIntervalMs: 0, jitterMs: 0, minBars: 1 } });
+    const { observations, complete } = await mytikiAdapter.discover({ source: src, fetch, now: NOW, log, dryRun: false, prior: [] });
+
+    // New bars first, then edited, capped at pagesPerRun: "also-new" and "brand-new" now, "edited" next run.
+    expect(asked.filter((u) => u.includes("/tiki-bars/"))).toEqual(["https://mytiki.life/tiki-bars/also-new", "https://mytiki.life/tiki-bars/brand-new"]);
+    expect(complete).toBe(true);
+    expect(observations.map((o) => o.sourceRef).sort()).toEqual(["also-new", "brand-new", "edited", "kept"]);
+    const saved = readSnapshot("data/snapshots/mytiki.json").map((r) => r.slug);
+    expect(saved).toEqual(["also-new", "brand-new", "delisted", "edited", "kept"]);
+  });
+
+  it("keeps places it alone lists off the daily Google work while running daily", () => {
+    const daily = source({ id: "mytiki", adapter: "mytiki", schedule: { discovery: "daily" }, skipGoogle: true });
+    const other = source({ id: "tikirat" });
+    const ctx = { sources: new Map([["mytiki", daily], ["tikirat", other]]), now: NOW };
+    const o = rowToObservation("mytiki", "https://mytiki.life", row("solo", AT));
+    const alone = mergePlace(newPlaceSkeleton("solo", NOW), [o], ctx);
+    expect(alone.syncPolicy).toBe("manual");
+    expect(mergePlace(alone, [o, { ...o, sourceId: "tikirat", sourceRef: "solo" }], ctx).syncPolicy).toBeUndefined();
+  });
+
+  it("keeps what it read when the site throttles, and writes nothing on a dry run", async () => {
+    process.env.TIKI_ROOT = tempRoot({ "data/snapshots/mytiki.json": JSON.stringify([row("kept", "2026-11-01T00:00:00.000Z")]) });
+    const sitemapXml = urlset([["kept", "2026-10-01T00:00:00Z"], ["a", "2026-11-15T00:00:00Z"], ["b", "2026-11-15T00:00:00Z"]]);
+    const { SourceThrottled } = await import("../core/fetch");
+    let pages = 0;
+    const fetch = Object.assign(
+      async (url: string) => {
+        if (url.includes("/tiki-bars/") && ++pages > 1) throw new SourceThrottled("mytiki.life", 429, 60);
+        const body = url.endsWith("sitemap.xml") ? index : url.includes("section-tikiBars") ? sitemapXml : page;
+        return { url, status: 200, body, fromCache: false, fetchedAt: AT, headers: {} };
+      },
+      { requests: 0, remaining: 99 },
+    ) as unknown as PoliteFetch;
+    const warnings: string[] = [];
+    const src = source({ id: "mytiki", adapter: "mytiki", config: { pageIntervalMs: 0, jitterMs: 0, minBars: 1 } });
+    const { observations } = await mytikiAdapter.discover({ source: src, fetch, now: NOW, log: { info() {}, warn: (m: string) => warnings.push(m) }, dryRun: true, prior: [] });
+    expect(observations.map((o) => o.sourceRef).sort()).toEqual(["a", "kept"]);
+    expect(warnings.join(" ")).toContain("429");
+    expect(readSnapshot("data/snapshots/mytiki.json").map((r) => r.slug)).toEqual(["kept"]);
   });
 });
 

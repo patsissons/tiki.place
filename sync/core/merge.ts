@@ -214,9 +214,13 @@ export function mergePlace(existing: Place, observations: Observation[], ctx: Me
     if (earliest < place.firstSeenAt) place.firstSeenAt = earliest;
   }
 
-  // places known only to manually refreshed sources opt out of the daily sync's Google work
+  // places known only to manually refreshed (or skipGoogle) sources opt out of the daily sync's Google work
   const listedBy = place.sources.filter((s) => s.sourceId !== "google");
-  if (listedBy.length > 0 && listedBy.every((s) => sources.get(s.sourceId)?.schedule.discovery === "manual")) place.syncPolicy = "manual";
+  const noGoogle = (id: string) => {
+    const src = sources.get(id);
+    return src?.schedule.discovery === "manual" || src?.skipGoogle === true;
+  };
+  if (listedBy.length > 0 && listedBy.every((s) => noGoogle(s.sourceId))) place.syncPolicy = "manual";
   else delete place.syncPolicy;
 
   // timezone from location
