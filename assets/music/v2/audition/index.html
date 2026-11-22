@@ -1,0 +1,273 @@
+<title>Tiki Music Sketches</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: one sticky mixing strip (transport + zoom fader) over a single column of sketch rows. */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --fg: #17202b; --muted: #5d6b7c; --line: #d5dce5;
+  --space: #4b3fa8; --lagoon: #0e8f86; --accent: #0e8f86; --on-accent: #ffffff;
+  --good: #1f8a4c; --bad: #b8442f;
+  --display: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  --body: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0c1118; --surface: #151c26; --fg: #e8edf3; --muted: #94a2b3; --line: #2a3442;
+  --space: #8f84ee; --lagoon: #3fc9bd; --accent: #3fc9bd; --on-accent: #06211f;
+  --good: #58c98a; --bad: #ee8a72; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0c1118; --surface: #151c26; --fg: #e8edf3; --muted: #94a2b3; --line: #2a3442;
+  --space: #8f84ee; --lagoon: #3fc9bd; --accent: #3fc9bd; --on-accent: #06211f;
+  --good: #58c98a; --bad: #ee8a72; color-scheme: dark }
+
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body);
+  padding-block: 20px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+h1 { font: 700 28px/1.15 var(--display); margin: 0; text-wrap: balance; }
+h2 { font: 700 18px/1.2 var(--display); margin: 0; }
+p { margin: 0; }
+.lede { color: var(--muted); max-width: 62ch; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.mixer { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+.mixer-top { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; justify-content: space-between; }
+.now { font-weight: 600; min-width: 0; }
+.readout { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
+.readout b { font-weight: 600; }
+.readout .s { color: var(--space); } .readout .l { color: var(--lagoon); }
+.fader { display: flex; flex-direction: column; gap: 2px; }
+input[type=range] { width: 100%; height: 28px; margin: 0; appearance: none; -webkit-appearance: none; background: transparent; }
+input[type=range]::-webkit-slider-runnable-track { height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--space) 0 25%, var(--lagoon) 75% 100%); }
+input[type=range]::-moz-range-track { height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--space) 0 25%, var(--lagoon) 75% 100%); }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; margin-top: -7px; border-radius: 50%; background: var(--surface); border: 3px solid var(--fg); }
+input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: var(--surface); border: 3px solid var(--fg); }
+.scale { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+.mixer-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 6px 12px; font-size: 13px; font-weight: 500; }
+.btn[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.btn.primary { background: var(--accent); color: var(--on-accent); border-color: var(--accent); font-weight: 600; }
+
+.rows { display: flex; flex-direction: column; }
+.row { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 4px 14px; padding: 18px 0; border-top: 1px solid var(--line); }
+.row:last-child { border-bottom: 1px solid var(--line); }
+.play { grid-row: 1 / span 2; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--fg); background: transparent; display: grid; place-items: center; }
+.play svg { width: 16px; height: 16px; fill: var(--fg); }
+.row.on .play { background: var(--accent); border-color: var(--accent); }
+.row.on .play svg { fill: var(--on-accent); }
+.row.loading .play { opacity: .5; }
+.head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.meta { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.tag { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; }
+.body { grid-column: 2; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.about { color: var(--muted); max-width: 62ch; }
+.bar { position: relative; height: 26px; cursor: pointer; }
+.bar::before { content: ""; position: absolute; inset: 11px 0; background: var(--line); border-radius: 1px; }
+.bar i { position: absolute; top: 9px; left: 0; height: 8px; border-radius: 2px; background: var(--accent); width: 0; }
+.bar .mid { position: absolute; left: 50%; top: 4px; bottom: 4px; width: 1px; background: var(--muted); }
+.sec { display: flex; font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.sec span { flex: 1; }
+.chords { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.verdict { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-start; }
+.vote { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 5px 10px; font-size: 13px; }
+.vote[aria-pressed="true"].up { background: var(--good); border-color: var(--good); color: var(--bg); }
+.vote[aria-pressed="true"].down { background: var(--bad); border-color: var(--bad); color: var(--bg); }
+textarea { flex: 1 1 220px; min-width: 0; min-height: 34px; font: 14px/1.4 var(--body); color: var(--fg); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; resize: vertical; }
+#out { width: 100%; min-height: 140px; font-family: ui-monospace, Menlo, monospace; font-size: 12px; }
+.msg { font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:8px">
+    <h1>Tiki Music Sketches, round 1</h1>
+    <p class="lede">Six rough directions for the map music. Each has one tune played two ways: celestial when the globe is zoomed out, bossa nova when you are down at street level. Press play, then drag the zoom fader to hear the blend the site would make. Click anywhere on a progress bar to jump to that point.</p>
+  </header>
+
+  <section class="mixer" aria-label="Playback">
+    <div class="mixer-top">
+      <span class="now" id="now">Nothing playing</span>
+      <span class="readout" id="readout"></span>
+    </div>
+    <div class="fader">
+      <input type="range" id="zoom" min="1" max="11" step="0.05" value="3" aria-label="Map zoom">
+      <div class="scale"><span>Orbit</span><span>Zoom 3</span><span>blend</span><span>Zoom 9</span><span>Barstool</span></div>
+    </div>
+    <div class="mixer-btns">
+      <button class="btn" id="sweep" aria-pressed="false">Sweep the zoom</button>
+      <button class="btn" data-z="1">Celestial only</button>
+      <button class="btn" data-z="6">Half and half</button>
+      <button class="btn" data-z="11">Bossa only</button>
+    </div>
+  </section>
+
+  <section class="rows" id="rows" aria-label="Sketches"></section>
+
+  <section style="display:flex;flex-direction:column;gap:10px">
+    <h2>Send the verdict back</h2>
+    <p class="lede">Your votes and notes are saved in this browser. Copy them and paste them into the chat.</p>
+    <div><button class="btn primary" id="copy">Copy verdict</button> <span class="msg" id="msg" role="status"></span></div>
+    <textarea id="out" readonly hidden aria-label="Verdict text"></textarea>
+  </section>
+</div>
+
+<script>
+const START = 3, END = 9, KEY = "tiki-music-r1";
+const PLAY = '<svg viewBox="0 0 16 16"><path d="M4 2l10 6-10 6z"/></svg>';
+const STOP = '<svg viewBox="0 0 16 16"><rect x="3" y="3" width="10" height="10"/></svg>';
+const $ = (id) => document.getElementById(id);
+let ctx, master, cur = null, sketches = [], sweeping = false;
+const cache = {};
+let verdict = {};
+try { verdict = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(verdict)); } catch (e) {} };
+
+// Same maths as lib/music/blend.ts on the site.
+function gains(zoom) {
+  const x = Math.min(1, Math.max(0, (zoom - START) / (END - START)));
+  const t = x * x * (3 - 2 * x);
+  return { space: Math.cos(t * Math.PI / 2), bossa: Math.sin(t * Math.PI / 2), t };
+}
+function applyZoom(immediate) {
+  const z = +$("zoom").value, g = gains(z);
+  $("readout").innerHTML = `zoom <b>${z.toFixed(1)}</b> · <b class="s">${Math.round((1 - g.t) * 100)}% celestial</b> · <b class="l">${Math.round(g.t * 100)}% bossa</b>`;
+  if (!cur) return;
+  for (const m of ["space", "bossa"]) {
+    if (immediate) cur.g[m].gain.setValueAtTime(g[m], ctx.currentTime);
+    else cur.g[m].gain.setTargetAtTime(g[m], ctx.currentTime, 0.06);
+  }
+}
+async function load(s) {
+  if (!cache[s.id]) cache[s.id] = Promise.all(["space", "bossa"].map(async (m) => {
+    const r = await fetch(`audio/${s.id}-${m}.mp4`);
+    if (!r.ok) throw new Error(`audio/${s.id}-${m}.mp4 ${r.status}`);
+    return ctx.decodeAudioData(await r.arrayBuffer());
+  }));
+  return cache[s.id];
+}
+function stop() {
+  if (!cur) return;
+  for (const n of cur.src) { try { n.stop(); } catch (e) {} }
+  cur.row.classList.remove("on");
+  cur.row.querySelector(".play").innerHTML = PLAY;
+  cur.row.querySelector(".bar i").style.width = "0";
+  cur = null;
+  $("now").textContent = "Nothing playing";
+}
+function startAt(s, row, bufs, offset) {
+  const t0 = ctx.currentTime + 0.06, g = {}, src = [];
+  ["space", "bossa"].forEach((m, i) => {
+    g[m] = ctx.createGain(); g[m].connect(master);
+    const n = ctx.createBufferSource();
+    n.buffer = bufs[i]; n.loop = true; n.loopStart = 0; n.loopEnd = s.seconds;   // pinned, as on the site
+    n.connect(g[m]); n.start(t0, offset); src.push(n);
+  });
+  cur = { s, row, g, src, t0: t0 - offset, bufs };
+  applyZoom(true);
+}
+function seek(s, row, frac) {
+  const offset = Math.min(0.999, Math.max(0, frac)) * s.seconds;
+  if (cur && cur.s === s) {
+    for (const n of cur.src) { try { n.stop(); } catch (e) {} }
+    startAt(s, row, cur.bufs, offset);
+  } else play(s, row, offset);
+}
+async function play(s, row, offset) {
+  if (cur && cur.s === s && offset === undefined) return stop();
+  stop();
+  if (!ctx) {
+    ctx = new (window.AudioContext || window.webkitAudioContext)();
+    master = ctx.createGain(); master.gain.value = 0.8; master.connect(ctx.destination);
+    try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch (e) {}
+  }
+  ctx.resume();
+  row.classList.add("loading");
+  let bufs;
+  try { bufs = await load(s); } catch (e) { $("now").textContent = "Could not load " + s.title; row.classList.remove("loading"); return; }
+  row.classList.remove("loading");
+  if (cur) stop();
+  startAt(s, row, bufs, offset || 0);
+  row.classList.add("on");
+  row.querySelector(".play").innerHTML = STOP;
+  $("now").textContent = "Playing: " + s.title;
+}
+function tick(ts) {
+  if (cur) {
+    const p = (((ctx.currentTime - cur.t0) % cur.s.seconds) + cur.s.seconds) % cur.s.seconds / cur.s.seconds;
+    cur.row.querySelector(".bar i").style.width = (p * 100).toFixed(2) + "%";
+  }
+  if (sweeping) {
+    const ph = (ts / 1000 % 20) / 20;                       // 20 s there and back
+    $("zoom").value = (6 - 5 * Math.cos(ph * 2 * Math.PI)).toFixed(2);
+    applyZoom();
+  }
+  requestAnimationFrame(tick);
+}
+function rowFor(s) {
+  const row = document.createElement("article");
+  row.className = "row";
+  const v = verdict[s.id] || {};
+  const meta = s.live ? "24 s · 80 BPM · C major" : `${Math.round(s.seconds)} s · ${Math.round(s.bpm)} / ${Math.round(s.bpm * 2)} BPM · starts on ${s.key}`;
+  row.innerHTML = `
+    <button class="play" aria-label="Play ${s.title}">${PLAY}</button>
+    <div class="head"><h2>${s.title}</h2>${s.live ? '<span class="tag">Live on the site</span>' : ""}<span class="meta">${meta}</span></div>
+    <div class="body">
+      <p class="about">${s.about}</p>
+      <div><div class="bar" tabindex="0" role="slider" aria-label="Position in ${s.title}, click to jump" title="Click to jump"><i></i>${s.live ? "" : '<span class="mid"></span>'}</div>
+      ${s.live ? "" : '<div class="sec"><span>Section A</span><span>Section B, more instruments join</span></div>'}</div>
+      ${s.live ? "" : `<p class="chords">${s.chords.join(" | ")}</p>`}
+      <div class="verdict">
+        <button class="vote up" id="up-${s.id}" aria-pressed="${v.vote === "up"}">Keep</button>
+        <button class="vote down" id="down-${s.id}" aria-pressed="${v.vote === "down"}">Drop</button>
+        <textarea id="note-${s.id}" rows="1" placeholder="What works, what doesn't" aria-label="Notes on ${s.title}"></textarea>
+      </div>
+    </div>`;
+  row.querySelector(".play").onclick = () => play(s, row);
+  const bar = row.querySelector(".bar");
+  const fracAt = (x) => { const r = bar.getBoundingClientRect(); return (x - r.left) / r.width; };
+  bar.onclick = (e) => seek(s, row, fracAt(e.clientX));
+  bar.onkeydown = (e) => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    const now = cur && cur.s === s ? ((ctx.currentTime - cur.t0) % s.seconds) / s.seconds : 0;
+    seek(s, row, now + (e.key === "ArrowRight" ? 0.0625 : -0.0625));
+  };
+  const note = row.querySelector("textarea");
+  note.value = v.note || "";
+  note.oninput = () => { (verdict[s.id] ||= {}).note = note.value; save(); };
+  for (const dir of ["up", "down"]) {
+    row.querySelector("." + dir).onclick = () => {
+      const o = (verdict[s.id] ||= {});
+      o.vote = o.vote === dir ? null : dir; save();
+      row.querySelector(".up").setAttribute("aria-pressed", o.vote === "up");
+      row.querySelector(".down").setAttribute("aria-pressed", o.vote === "down");
+    };
+  }
+  return row;
+}
+function verdictText() {
+  const lines = ["Music sketches, round 1 verdict"];
+  for (const s of sketches) {
+    const v = verdict[s.id] || {};
+    lines.push(`- ${s.title} [${s.id}]: ${v.vote === "up" ? "KEEP" : v.vote === "down" ? "DROP" : "no vote"}${v.note ? " — " + v.note.trim() : ""}`);
+  }
+  return lines.join("\n");
+}
+$("zoom").oninput = () => { if (sweeping) toggleSweep(); applyZoom(); };
+function toggleSweep() { sweeping = !sweeping; $("sweep").setAttribute("aria-pressed", sweeping); }
+$("sweep").onclick = toggleSweep;
+document.querySelectorAll("[data-z]").forEach((b) => b.onclick = () => { if (sweeping) toggleSweep(); $("zoom").value = b.dataset.z; applyZoom(); });
+$("copy").onclick = async () => {
+  const text = verdictText();
+  try { await navigator.clipboard.writeText(text); $("msg").textContent = "Copied. Paste it into the chat."; }
+  catch (e) { const o = $("out"); o.hidden = false; o.value = text; o.select(); $("msg").textContent = "Select the text below and copy it."; }
+};
+fetch("sketches.json").then((r) => r.json()).then((list) => {
+  sketches = list;
+  for (const s of list) $("rows").appendChild(rowFor(s));
+}).catch(() => { $("rows").textContent = "Could not load the sketch list."; });
+applyZoom();
+requestAnimationFrame(tick);
+</script>

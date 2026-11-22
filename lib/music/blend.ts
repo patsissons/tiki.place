@@ -1,5 +1,5 @@
 /** Both loops run for exactly this long, so they stay locked together forever. */
-export const LOOP_SECONDS = 24;
+export const LOOP_SECONDS = 48;
 export const MUSIC_FILES = { space: "/music/space.m4a", aloha: "/music/aloha.m4a" } as const;
 
 /** Below this map zoom only the space loop plays. */

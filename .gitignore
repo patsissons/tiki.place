@@ -18,3 +18,5 @@ assets/music/stems
 assets/music/work
 assets/music/*.wav
 assets/music/loop.json
+assets/music/v2/out
+assets/music/v2/__pycache__
