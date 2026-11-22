@@ -123,8 +123,15 @@ describe("mytiki", () => {
     expect(parseAddress("Austin, Texas, United States")).toEqual({ locality: "Austin", region: "Texas", country: "US" });
     expect(parseAddress("Edinburgh, United Kingdom")).toEqual({ locality: "Edinburgh", country: "GB" });
     expect(parseAddress("12 Main St, Austin, Texas, United States")).toEqual({ street: "12 Main St", locality: "Austin", region: "Texas", country: "US" });
+    expect(parseAddress("Manhattan, New York, New York, United States")).toEqual({ locality: "New York", region: "New York", country: "US" });
+    expect(parseAddress("Ville-Marie, Montréal, Quebec, Canada")).toEqual({ locality: "Montréal", region: "Quebec", country: "CA" });
+    expect(parseAddress("Washington, D.C., District of Columbia, United States")).toEqual({ locality: "Washington", region: "District of Columbia", country: "US" });
     expect(displayName("Hula Hut - Austin", { locality: "Austin" })).toEqual({ name: "Hula Hut", altNames: ["Hula Hut - Austin"] });
     expect(displayName("Tiki-Ti", { locality: "Los Angeles" })).toEqual({ name: "Tiki-Ti", altNames: [] });
+    expect(displayName("Holy Diver Tiki Lounge - at Hi-Tones", { locality: "San Antonio" })).toEqual({ name: "Holy Diver Tiki Lounge", altNames: ["Holy Diver Tiki Lounge - at Hi-Tones"] });
+    expect(displayName("Mai Kai Lounge -- at the Tecumseh Inn", { locality: "Tecumseh" })).toEqual({ name: "Mai Kai Lounge", altNames: ["Mai Kai Lounge -- at the Tecumseh Inn"] });
+    expect(displayName("Trader Vic's - at the Jumeirah Beach Hilton - Dubai", {})).toEqual({ name: "Trader Vic's", altNames: ["Trader Vic's - at the Jumeirah Beach Hilton - Dubai"] });
+    expect(displayName("Chi-Chi - Santa Catalina Island", { locality: "Avalon" })).toEqual({ name: "Chi-Chi - Santa Catalina Island", altNames: ["Chi-Chi"] });
   });
 
   it("builds observations with attribution and no coordinates", () => {

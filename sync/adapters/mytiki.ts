@@ -122,9 +122,16 @@ export function parseAddress(value?: string): Address {
   const rest = country ? parts.slice(0, -1) : parts;
   if (rest.length === 0) return { country };
   if (rest.length === 1) return { locality: rest[0], country };
-  const region = rest[rest.length - 1];
-  const locality = rest[rest.length - 2];
-  const street = rest.slice(0, -2).join(", ") || undefined;
+  const region = rest[rest.length - 1]!;
+  let locality = rest[rest.length - 2]!;
+  let lead = rest.slice(0, -2);
+  // "Washington, D.C., District of Columbia": the city is the part before the abbreviation.
+  if (/^d\.?\s?c\.?$/i.test(locality) && lead.length) {
+    locality = lead[lead.length - 1]!;
+    lead = lead.slice(0, -1);
+  }
+  // Leading parts are usually a neighbourhood ("Manhattan", "Ville-Marie"); only a part with a house number is a street.
+  const street = /[0-9]/.test(lead[0] ?? "") ? lead.join(", ") : undefined;
   return { ...(street ? { street } : {}), locality, region, ...(country ? { country } : {}) };
 }
 
@@ -137,14 +144,25 @@ export function vouches(row: MytikiRow): boolean {
   return BAR_LIKE.test(type) && !NOT_BAR.test(type);
 }
 
-/** "Hula Hut - Austin" in Austin is "Hula Hut"; the full title stays as an alt name. */
+/**
+ * mytiki.life titles carry their own disambiguation. "Hula Hut - Austin" in Austin is "Hula Hut",
+ * and "Holy Diver Tiki Lounge - at Hi-Tones" is the bar inside a host venue. The full title stays as an
+ * alt name, and so does the part before any other " - " ("Chi-Chi - Santa Catalina Island").
+ */
 export function displayName(name: string, address: Address): { name: string; altNames: string[] } {
-  const m = /^(.+?)\s+[-–—]\s+(.+)$/.exec(name);
-  if (!m) return { name, altNames: [] };
-  const suffix = m[2]!.toLowerCase();
-  const places = [address.locality, address.region].filter(Boolean).map((s) => s!.toLowerCase());
-  if (places.some((p) => suffix === p || suffix.startsWith(`${p} `) || suffix.includes(p))) return { name: m[1]!, altNames: [name] };
-  return { name, altNames: [] };
+  const alts: string[] = [];
+  let primary = name;
+  const host = /^(.+?)\s+[-–—]{1,2}\s+at\s+\S.*$/i.exec(primary);
+  if (host) primary = host[1]!;
+  const m = /^(.+?)\s+[-–—]{1,2}\s+(.+)$/.exec(primary);
+  if (m) {
+    const suffix = m[2]!.toLowerCase();
+    const places = [address.locality, address.region].filter(Boolean).map((s) => s!.toLowerCase());
+    if (places.some((p) => suffix === p || suffix.startsWith(`${p} `) || suffix.includes(p))) primary = m[1]!;
+    else alts.push(m[1]!);
+  }
+  if (primary !== name) alts.unshift(name);
+  return { name: primary, altNames: [...new Set(alts)].filter((a) => a !== primary) };
 }
 
 export function readSnapshot(relPath: string): MytikiRow[] {

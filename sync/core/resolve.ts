@@ -39,6 +39,7 @@ export class PlaceIndex {
   private byLocality = new Map<string, Place[]>();
   private byPhoneKey = new Map<string, Place[]>();
   private byHostKey = new Map<string, Place[]>();
+  private byTown = new Map<string, Place[]>();
   readonly places = new Map<string, Place>();
 
   constructor(places: Iterable<Place> = []) {
@@ -64,6 +65,7 @@ export class PlaceIndex {
     for (const [map, key] of [
       [this.byPhoneKey, phoneKey(place.contact.phone)],
       [this.byHostKey, hostKey(place.contact.website)],
+      [this.byTown, place.address.locality ? normalizeName(place.address.locality) : null],
     ] as const) {
       if (!key) continue;
       const bucket = map.get(key) ?? [];
@@ -88,7 +90,7 @@ export class PlaceIndex {
     for (const bucket of this.grid.values()) {
       for (let i = bucket.length - 1; i >= 0; i--) if (bucket[i]!.id === id) bucket.splice(i, 1);
     }
-    for (const map of [this.byLocality, this.byPhoneKey, this.byHostKey]) {
+    for (const map of [this.byLocality, this.byPhoneKey, this.byHostKey, this.byTown]) {
       for (const bucket of map.values()) {
         for (let i = bucket.length - 1; i >= 0; i--) if (bucket[i]!.id === id) bucket.splice(i, 1);
       }
@@ -125,6 +127,19 @@ export class PlaceIndex {
   inLocality(locality?: string, region?: string, country?: string): Place[] {
     const key = localityKey(locality, region, country);
     return key ? (this.byLocality.get(key) ?? []) : [];
+  }
+  /**
+   * Places in a town of this name where the region and country don't conflict: a superset of
+   * inLocality for records that leave the region out ("Paris, France" vs Paris, Île-de-France).
+   */
+  inTown(locality?: string, region?: string, country?: string): Place[] {
+    if (!locality) return [];
+    const key = localityKey(locality, region, country);
+    return (this.byTown.get(normalizeName(locality)) ?? []).filter(
+      (p) =>
+        sameCountry(country, p.address.country) &&
+        (!region || !p.address.region || localityKey(p.address.locality, p.address.region, p.address.country) === key),
+    );
   }
 }
 
@@ -220,8 +235,24 @@ export function findRejected(obs: Observation, index: PlaceIndex): { place: Plac
       consider(place, sim, 0.75);
     }
   }
+  // "Aloha Bar at the House of Foong Lin" in Chevy Chase vs rejected "House of Foong Lin" in Bethesda:
+  // a distinctive rejected name inside the record's name, in the same state or region.
+  if (obs.address.region) {
+    const region = localityKey("x", obs.address.region, obs.address.country);
+    const mine = [obs.name, ...obs.altNames].map((n) => ` ${normalizeName(n)} `);
+    for (const place of index.places.values()) {
+      if (place.review.state !== "rejected" || !place.address.region || localityKey("x", place.address.region, place.address.country) !== region) continue;
+      for (const n of [place.name, ...place.aliases]) {
+        const theirs = normalizeName(n);
+        if (distinctiveTokens(theirs) >= 2 && mine.some((m) => m.includes(` ${theirs} `))) consider(place, 0.75, 0.75);
+      }
+    }
+  }
   return best;
 }
+
+const GENERIC = new Set(["the", "a", "of", "and", "at", "tiki", "bar", "bars", "lounge", "room", "restaurant", "grill", "hut", "club", "island", "kitchen", "cafe", "pub", "tavern", "beach", "house", "cocktail", "cocktails", "polynesian", "hawaiian", "tropical", "luau", "lanai", "inn"]);
+const distinctiveTokens = (normalized: string) => normalized.split(" ").filter((t) => t.length > 1 && !GENERIC.has(t)).length;
 
 export function resolveObservation(obs: Observation, index: PlaceIndex, links: DecisionLinks): ResolveResult {
   const linked = links.get(observationKey(obs));
@@ -278,15 +309,18 @@ export function resolveObservation(obs: Observation, index: PlaceIndex, links: D
   }
 
   if (obs.address.locality) {
-    let best: { place: Place; score: number } | null = null;
-    for (const place of index.inLocality(obs.address.locality, obs.address.region, obs.address.country)) {
-      const locality = obs.address.locality;
+    const locality = obs.address.locality;
+    const hits: { place: Place; score: number }[] = [];
+    for (const place of index.inTown(locality, obs.address.region, obs.address.country)) {
       const sim = Math.max(bestNameSim(obs, place), ...[place.name, ...place.aliases].map((n) => nameSim(withoutLocality(obs.name, locality), withoutLocality(n, locality))));
       // The same street number in the same town makes a looser name enough ("The Mai-Kai" at 3599 vs "Mai-Kai Restaurant and Polynesian Show").
       const sameNumber = streetNumber(obs.address.street) !== undefined && streetNumber(obs.address.street) === streetNumber(place.address.street);
-      if (sim >= (sameNumber ? 0.6 : 0.9) && (!best || sim > best.score)) best = { place, score: sim };
+      if (sim >= (sameNumber ? 0.6 : 0.9)) hits.push({ place, score: sim });
     }
-    if (best) return { kind: "match", place: best.place, via: "locality+name", score: best.score };
+    hits.sort((a, b) => b.score - a.score);
+    // Two equally good places in one town (a chain's branches) can't be told apart by name; leave it for review.
+    const [best, second] = hits;
+    if (best && !(second && second.score >= best.score)) return { kind: "match", place: best.place, via: "locality+name", score: best.score };
   }
 
   return { kind: "create" };
