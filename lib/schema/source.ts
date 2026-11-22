@@ -20,6 +20,11 @@ export const SourceSchema = z.strictObject({
   tikiSignal: z.number().min(0).max(1),
   /** Places this source vouches for always wait for the owner: it never counts toward auto-approval. */
   queueNewPlaces: z.boolean().optional(),
+  /**
+   * Places listed only by this source (or by manual ones) get syncPolicy "manual": the daily
+   * sync spends no Google budget on them. Manual sources imply it.
+   */
+  skipGoogle: z.boolean().optional(),
   schedule: z.strictObject({
     discovery: z.enum(["daily", "weekly", "monthly", "manual"]),
     /** For sources with a detail pass: re-fetch a record's detail page after this many days. */

@@ -10,24 +10,31 @@ license:
 trust: 0.45
 tikiSignal: 0.7
 queueNewPlaces: true
+skipGoogle: true
 schedule:
-  discovery: manual
+  discovery: daily
   detailRefreshDays: 120
 politeness:
-  minIntervalMs: 20000
-  maxRequestsPerRun: 200
+  minIntervalMs: 30000
+  maxRequestsPerRun: 20
   userAgent: tiki.place-bot/1.0 (+https://tiki.place/sources)
 config:
   base: https://mytiki.life
   sitemap: https://mytiki.life/sitemap.xml
   snapshot: data/snapshots/mytiki.json
+  pagesPerRun: 10
+  pageIntervalMs: 30000
+  jitterMs: 15000
 addedAt: 2026-11-21
 notes: |-
   Collector community site (Craft CMS behind Cloudflare) whose tiki bar section lists ~1,880 bars, past and present,
   plus motels, apartments, parks and other tiki-themed places. robots.txt has no rules or content signals and there is
   no terms page (surveyed 2026-11-21). Bar pages give name, type, phone, a city-level or full address, a closed flag
-  and links, but no coordinates. `pnpm sync snapshot-mytiki` reads the sitemap and then one bar page at a time, 20-30 s
-  apart, by hand and never from CI, into data/snapshots/mytiki.json; it stops at the first 429/503 or bot challenge.
-  This adapter reads only that file. Only open bar-like entries vouch for a place; closed rooms and non-bars only add
-  attribution to places we already have. The closed flag is not used as a status hint, and new places always wait for
+  and links, but no coordinates. The full snapshot (data/snapshots/mytiki.json) was read by hand on 2026-11-21/22,
+  20-45 s per page; the site timed out three times in a row at 20-30 s, so the rest ran at 30-45 s. The daily sync then
+  keeps it current from the sitemap, which gives each bar's last-edited date (about 58 edits a week in November 2026):
+  robots.txt, the sitemap at most every 3 days (5 requests, cached), and at most 10 new or edited bar pages, 30-45 s
+  apart. It stops at the first 429/503 or bot challenge and the rest wait for the next day. Bars that leave the sitemap
+  lose their link. `pnpm sync snapshot-mytiki` is the manual full refresh (rows older than 120 days). Only open bar-like
+  entries vouch for a place; closed rooms and non-bars only add attribution to places we already have. The closed flag is not used as a status hint, and new places always wait for
   the owner's review (queueNewPlaces). Descriptions and photos are never stored.
