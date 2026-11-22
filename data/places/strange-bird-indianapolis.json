@@ -14,18 +14,19 @@
     "postalCode": "46219",
     "country": "US"
   },
-  "formattedAddress": "128 South Audubon Road, Indianapolis, Indiana, 46219, United States",
+  "formattedAddress": "128 S Audubon Rd, Indianapolis, IN 46219, USA",
   "timezone": "America/Indiana/Indianapolis",
   "externalIds": {
     "google": "ChIJJx9xonFPa4gREQbY3SveYjE"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://strangebirdindy.com/"
+    "website": "https://strangebirdindy.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=3558650935562995217&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.991,
   "review": {
@@ -36,24 +37,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +72,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJJx9xonFPa4gREQbY3SveYjE",
+      "url": "https://maps.google.com/?cid=3558650935562995217&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -84,5 +96,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

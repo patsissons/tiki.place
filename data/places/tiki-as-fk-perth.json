@@ -3,18 +3,18 @@
   "name": "Tiki as FK",
   "aliases": [],
   "location": {
-    "lat": -31.9487541,
-    "lng": 115.8583305,
+    "lat": -31.94889,
+    "lng": 115.8582,
     "precision": "rooftop"
   },
   "address": {
     "street": "91a James Street",
-    "locality": "Perth",
-    "region": "WA",
+    "locality": "Northbridge",
+    "region": "Western Australia",
     "postalCode": "6003",
     "country": "AU"
   },
-  "formattedAddress": "91 James Street, Perth, Western Australia, 6003, Australia",
+  "formattedAddress": "91a James St, Northbridge WA 6003, Australia",
   "timezone": "Australia/Perth",
   "externalIds": {
     "google": "ChIJx22KYdG6MioRbI_xXTDsvjg",
@@ -22,14 +22,15 @@
     "overture": "86c55655-6422-479d-aa00-21fffc1c38c6"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "http://www.tiki-as-fk.co/"
+    "website": "http://www.tiki-as-fk.co/",
+    "googleMapsUri": "https://maps.google.com/?cid=4088965204177686380&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.98,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -37,24 +38,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -68,6 +73,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJx22KYdG6MioRbI_xXTDsvjg",
+      "url": "https://maps.google.com/?cid=4088965204177686380&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -92,5 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

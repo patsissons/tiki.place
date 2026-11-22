@@ -5,29 +5,40 @@
     "The Point"
   ],
   "location": {
-    "lat": 39.1534843,
-    "lng": -74.6915588,
+    "lat": 39.1534309,
+    "lng": -74.6916351,
     "precision": "rooftop"
   },
   "address": {
+    "street": "10 43rd Street",
     "locality": "Sea Isle City",
-    "region": "NJ",
+    "region": "New Jersey",
+    "postalCode": "08243",
     "country": "US"
   },
+  "formattedAddress": "10 43rd St, Sea Isle City, NJ 08243, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "eeacebfb-e936-487f-8d8e-53614115828d",
     "google": "ChIJW28KlNS7wIkRjDSXnRZhSuI"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://dothepoint.com/sea-isle-city/"
+    "phone": "+1 609-331-6968",
+    "website": "https://dothepoint.com/sea-isle-city/",
+    "googleMapsUri": "https://maps.google.com/?cid=16305952150609409164&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.75,
+  "rating": {
+    "value": 4.2,
+    "count": 276,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.763,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,20 +46,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -56,6 +87,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJW28KlNS7wIkRjDSXnRZhSuI",
+      "url": "https://maps.google.com/?cid=16305952150609409164&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "eeacebfb-e936-487f-8d8e-53614115828d",
@@ -65,5 +103,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

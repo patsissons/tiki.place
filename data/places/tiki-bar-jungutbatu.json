@@ -1,31 +1,35 @@
 {
   "id": "tiki-bar-jungutbatu",
-  "name": "Tiki Bar",
-  "aliases": [],
+  "name": "TIKI BAR & MORE",
+  "aliases": [
+    "Tiki Bar"
+  ],
   "location": {
-    "lat": -8.6733821,
-    "lng": 115.4490759,
+    "lat": -8.6734125,
+    "lng": 115.4490526,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Jungutbatu",
+    "locality": "Kabupaten Klungkung",
     "region": "Bali",
-    "postalCode": "80372",
+    "postalCode": "80771",
     "country": "ID"
   },
-  "formattedAddress": "Yellow Bridge, Jungutbatu, Bali, 80372, Indonesia",
+  "formattedAddress": "Lembongan island, Jungutbatu, Kec. Nusa Penida, Kabupaten Klungkung, Bali 80771, Indonesia",
   "timezone": "Asia/Makassar",
   "externalIds": {
     "google": "ChIJoQzD46lt0i0Rv0B_VLDgfsE",
     "osm": "node/6723624605"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.969,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=7006327677779233357&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.971,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +37,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,6 +68,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJfcxvqXRt0i0RTcoE3uZ5O2E",
+      "url": "https://maps.google.com/?cid=7006327677779233357&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -77,5 +92,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

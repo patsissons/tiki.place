@@ -5,29 +5,33 @@
     "The Point"
   ],
   "location": {
-    "lat": 38.986393,
-    "lng": -74.8132935,
+    "lat": 38.9863935,
+    "lng": -74.8132858,
     "precision": "rooftop"
   },
   "address": {
+    "street": "3710 Ocean Avenue",
     "locality": "Wildwood",
-    "region": "NJ",
+    "region": "New Jersey",
+    "postalCode": "08260",
     "country": "US"
   },
+  "formattedAddress": "3710 Ocean Ave, Wildwood, NJ 08260, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "a80428ae-9b11-4d61-830a-566a98d6ead5",
     "google": "ChIJ11uBWQCpwIkR5ScBBIJoLlU"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://dothepoint.com/wildwood/"
+    "website": "https://dothepoint.com/wildwood/",
+    "googleMapsUri": "https://maps.google.com/?cid=6137958249774786533&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.75,
+  "tikiConfidence": 0.763,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,16 +39,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
@@ -57,6 +69,13 @@
   },
   "sources": [
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJ11uBWQCpwIkR5ScBBIJoLlU",
+      "url": "https://maps.google.com/?cid=6137958249774786533&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "a80428ae-9b11-4d61-830a-566a98d6ead5",
       "url": "https://explore.overturemaps.org/?feature=places.place.a80428ae-9b11-4d61-830a-566a98d6ead5#17/38.986392974853516/-74.81329345703125",
@@ -65,5 +84,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

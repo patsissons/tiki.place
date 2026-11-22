@@ -1,31 +1,35 @@
 {
   "id": "tiki-bar-tiki-mart-north-topsail-beach",
-  "name": "TIKI BAR/TIKI MART",
-  "aliases": [],
+  "name": "Tiki Bar",
+  "aliases": [
+    "TIKI BAR/TIKI MART"
+  ],
   "location": {
-    "lat": 34.52344889999999,
-    "lng": -77.3519038,
+    "lat": 34.5233841,
+    "lng": -77.3519888,
     "precision": "rooftop"
   },
   "address": {
-    "street": "2181 New River Inlet Road",
+    "street": "2183 New River Inlet Road",
     "locality": "North Topsail Beach",
     "region": "North Carolina",
     "postalCode": "28460",
     "country": "US"
   },
-  "formattedAddress": "2181 New River Inlet Road, North Topsail Beach, North Carolina, 28460, United States",
+  "formattedAddress": "2183 New River Inlet Rd, North Topsail Beach, NC 28460, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJ1fN-GUOoqYkRWbl9fZJoSoc"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=6335229735210875673&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.958,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +37,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +70,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJkQ0bsPGpqYkRGXu88eBB61c",
+      "url": "https://maps.google.com/?cid=6335229735210875673&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tiki-bar-tiki-mart",
       "url": "https://tikiatlas.com/bar?slug=tiki-bar-tiki-mart",
@@ -70,5 +85,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

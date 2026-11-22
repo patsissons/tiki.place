@@ -5,17 +5,18 @@
     "Cheeki tiki"
   ],
   "location": {
-    "lat": 39.3731892,
-    "lng": 3.229094,
+    "lat": 39.373116499999995,
+    "lng": 3.228983,
     "precision": "rooftop"
   },
   "address": {
+    "street": "36 Avinguda d'en Fernando Tarragó",
     "locality": "Santanyí",
     "region": "Illes Balears",
     "postalCode": "07660",
     "country": "ES"
   },
-  "formattedAddress": "Avinguda de Cala Llonga, Cala d'Or, Illes Balears, 07660, España",
+  "formattedAddress": "Av. d'en Fernando Tarragó, 36, 07660 Santanyí, Illes Balears, Spain",
   "timezone": "Europe/Madrid",
   "externalIds": {
     "google": "ChIJVSqex8RQlhIR6mQstJwiuN4",
@@ -23,12 +24,14 @@
     "overture": "b50a0408-e480-4be4-b8ac-b0425a51b670"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.979,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=16048615328567813354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.98,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,20 +39,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -63,6 +70,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJVSqex8RQlhIR6mQstJwiuN4",
+      "url": "https://maps.google.com/?cid=16048615328567813354&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -87,5 +101,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

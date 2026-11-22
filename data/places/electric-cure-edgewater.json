@@ -5,18 +5,18 @@
     "The Electric Cure"
   ],
   "location": {
-    "lat": 39.7528954,
-    "lng": -105.0552444,
+    "lat": 39.75289120000001,
+    "lng": -105.05511360000001,
     "precision": "rooftop"
   },
   "address": {
-    "street": "5350 W 25th Ave",
+    "street": "5350 West 25th Avenue",
     "locality": "Edgewater",
-    "region": "CO",
+    "region": "Colorado",
     "postalCode": "80214",
     "country": "US"
   },
-  "formattedAddress": "5350 W 25th Ave, Edgewater CO 80214, USA",
+  "formattedAddress": "5350 W 25th Ave, Edgewater, CO 80214, USA",
   "timezone": "America/Denver",
   "externalIds": {
     "overture": "9f843c7c-4bbe-436a-9525-1dcf5f918d77",
@@ -24,14 +24,94 @@
     "google": "ChIJx-mQAR6Ha4cRyuHomE-tnmY"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1600"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:00 PM – 12:00 AM",
+      "Wednesday: 5:00 PM – 12:00 AM",
+      "Thursday: 5:00 PM – 12:00 AM",
+      "Friday: 4:00 PM – 1:00 AM",
+      "Saturday: 4:00 PM – 1:00 AM",
+      "Sunday: 4:00 PM – 12:00 AM"
+    ]
   },
   "contact": {
     "phone": "720-514-2640",
-    "website": "https://theelectriccure.com/"
+    "website": "http://thecureedgewater.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=7394538195568353738&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 260,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "established": 2020,
   "tikiConfidence": 1,
   "review": {
@@ -41,32 +121,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:31:14.911Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:31:14.911Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:31:14.911Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:31:14.911Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:31:14.911Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -80,6 +176,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJx-mQAR6Ha4cRyuHomE-tnmY",
+      "url": "https://maps.google.com/?cid=7394538195568353738&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "overture",
@@ -111,5 +214,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -8,25 +8,116 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "104 5th Avenue North",
-    "locality": "Jacksonville",
+    "street": "528 1st Street North",
+    "locality": "Jacksonville Beach",
     "region": "Florida",
     "postalCode": "32250",
     "country": "US"
   },
-  "formattedAddress": "104 5th Avenue North, Jacksonville Beach, Florida, 32250, United States",
+  "formattedAddress": "528 1st St N, Jacksonville Beach, FL 32250, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJsTpp3QZJ5IgRPDlZ6An6aiQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1200"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1200"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1200"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1200"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1200"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1200"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 12:00 PM – 12:00 AM",
+      "Tuesday: 12:00 PM – 12:00 AM",
+      "Wednesday: 12:00 PM – 12:00 AM",
+      "Thursday: 12:00 PM – 12:00 AM",
+      "Friday: 12:00 PM – 2:00 AM",
+      "Saturday: 12:00 PM – 2:00 AM",
+      "Sunday: 11:00 AM – 12:00 AM"
+    ]
   },
   "contact": {
-    "website": "https://www.instagram.com/flaskandcannon/"
+    "phone": "+1 904-853-6633",
+    "website": "https://www.instagram.com/flaskandcannon/",
+    "googleMapsUri": "https://maps.google.com/?cid=2624184653356546364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.5,
+    "count": 421,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
   "tikiConfidence": 0.991,
   "review": {
     "state": "approved",
@@ -36,16 +127,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
@@ -54,6 +157,14 @@
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +178,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJsTpp3QZJ5IgRPDlZ6An6aiQ",
+      "url": "https://maps.google.com/?cid=2624184653356546364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -84,5 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

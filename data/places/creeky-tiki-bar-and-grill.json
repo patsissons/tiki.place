@@ -4,32 +4,61 @@
   "aliases": [],
   "location": {
     "lat": 35.2797805,
-    "lng": -120.6632847,
+    "lng": -120.66328469999999,
     "precision": "rooftop"
   },
-  "address": {},
-  "timezone": "America/Los_Angeles",
-  "externalIds": {},
-  "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:16.549Z"
+  "address": {
+    "street": "782 Higuera Street",
+    "locality": "San Luis Obispo",
+    "region": "California",
+    "postalCode": "93401",
+    "country": "US"
   },
-  "contact": {},
-  "tikiConfidence": 0.825,
+  "formattedAddress": "782 Higuera St, San Luis Obispo, CA 93401, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "overture": "e52d6c0c-0cae-4956-a677-5f7423964948",
+    "google": "ChIJ5Tz8UgLx7IAR_9n0kfi5hQo"
+  },
+  "status": {
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "contact": {
+    "website": "https://www.creekytikislo.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=758216589533567487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "tikiConfidence": 0.884,
   "review": {
     "state": "needs_review",
     "by": "auto",
     "at": "2026-11-21T22:52:16.549Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "allthetikibars",
-      "observedAt": "2026-11-21T22:52:16.549Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "allthetikibars",
-      "observedAt": "2026-11-21T22:52:16.549Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -43,8 +72,23 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ5Tz8UgLx7IAR_9n0kfi5hQo",
+      "url": "https://maps.google.com/?cid=758216589533567487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e52d6c0c-0cae-4956-a677-5f7423964948",
+      "url": "https://explore.overturemaps.org/?feature=places.place.e52d6c0c-0cae-4956-a677-5f7423964948#17/35.27994155883789/-120.66343688964844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "firstSeenAt": "2026-11-21T22:52:16.549Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -14,20 +14,111 @@
     "postalCode": "93010",
     "country": "US"
   },
-  "formattedAddress": "1980 Ventura Boulevard, Camarillo, California, 93010, United States",
+  "formattedAddress": "1980 Ventura Blvd, Camarillo, CA 93010, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJ1z5OAQA36IARS6fZZUreRMU"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "2300"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 11:00 PM",
+      "Tuesday: 11:00 AM – 11:00 PM",
+      "Wednesday: 11:00 AM – 11:00 PM",
+      "Thursday: 11:00 AM – 11:00 PM",
+      "Friday: 11:00 AM – 12:00 AM",
+      "Saturday: 11:00 AM – 12:00 AM",
+      "Sunday: 11:00 AM – 11:00 PM"
+    ]
   },
   "contact": {
-    "website": "https://www.instagram.com/999.tikibar"
+    "phone": "+1 626-999-2535",
+    "website": "https://www.instagram.com/999.tikibar",
+    "googleMapsUri": "https://maps.google.com/?cid=14214730735005837131&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.993,
+  "rating": {
+    "value": 4,
+    "count": 43,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.994,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,24 +127,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +178,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ1z5OAQA36IARS6fZZUreRMU",
+      "url": "https://maps.google.com/?cid=14214730735005837131&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -84,5 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

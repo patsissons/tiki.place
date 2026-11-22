@@ -1,31 +1,35 @@
 {
   "id": "alofah-tiki-bar-ciudad-de-mexico",
-  "name": "Alofah Tiki Bar",
-  "aliases": [],
+  "name": "Monkey Bee's Knee's",
+  "aliases": [
+    "Alofah Tiki Bar"
+  ],
   "location": {
     "lat": 19.4126087,
     "lng": -99.1574423,
     "precision": "rooftop"
   },
   "address": {
-    "street": "Calle Coahuila",
+    "street": "49 Coahuila",
     "locality": "Ciudad de México",
     "region": "Ciudad de México",
     "postalCode": "06700",
     "country": "MX"
   },
-  "formattedAddress": "Calle Coahuila, Ciudad de México, Ciudad de México, 06700, México",
+  "formattedAddress": "Coahuila 49, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",
   "timezone": "America/Mexico_City",
   "externalIds": {
     "google": "ChIJI-NoV1b_0YURJfCPXymBf6c"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=12069507541073129509&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.958,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,20 +37,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +70,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJI-NoV1b_0YURJfCPXymBf6c",
+      "url": "https://maps.google.com/?cid=12069507541073129509&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "alofah-tiki-bar",
       "url": "https://tikiatlas.com/bar?slug=alofah-tiki-bar",
@@ -70,5 +85,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

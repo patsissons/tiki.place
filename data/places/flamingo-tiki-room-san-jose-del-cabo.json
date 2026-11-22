@@ -57,6 +57,42 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-22T17:52:17.009Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ5_jbl_RRr4YRezMrjA5EDNg",
+        "name": "Simaruba Mexican Restaurant and Rooftop Bar",
+        "distanceM": 462,
+        "nameSim": 0.128
+      },
+      {
+        "googleId": "ChIJJ52XLgBRr4YRemwv29dJVOw",
+        "name": "Totoy by Lumbre",
+        "distanceM": 177,
+        "nameSim": 0.077
+      },
+      {
+        "googleId": "ChIJffC9IAFRr4YRqE7c-NDOyng",
+        "name": "Palma Bar Tropical",
+        "distanceM": 154,
+        "nameSim": 0.069
+      },
+      {
+        "googleId": "ChIJyfzgh35Rr4YRzWQPjLPHc-w",
+        "name": "Drift Kitchen + Mezcal Bar",
+        "distanceM": 245,
+        "nameSim": 0.057
+      },
+      {
+        "googleId": "ChIJDZYGOQBRr4YROOkSAI8wJTQ",
+        "name": "Agavia Bar",
+        "distanceM": 3417,
+        "nameSim": 0
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z"
 }

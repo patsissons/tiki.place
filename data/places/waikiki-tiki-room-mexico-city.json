@@ -57,6 +57,18 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-22T17:52:17.009Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ4w_GVjr_0YURLfOIx0xltHM",
+        "name": "Waikiki Tiki Room",
+        "distanceM": 3239,
+        "nameSim": 1
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z"
 }

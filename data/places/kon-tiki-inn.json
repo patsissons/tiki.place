@@ -3,19 +3,30 @@
   "name": "Kon Tiki Inn",
   "aliases": [],
   "location": {
-    "lat": 35.145507,
-    "lng": -120.6464808,
+    "lat": 35.1455073,
+    "lng": -120.6464728,
     "precision": "rooftop"
   },
-  "address": {},
-  "timezone": "America/Los_Angeles",
-  "externalIds": {},
-  "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:16.549Z"
+  "address": {
+    "street": "1621 Price Street",
+    "locality": "Pismo Beach",
+    "region": "California",
+    "postalCode": "93449",
+    "country": "US"
   },
-  "contact": {},
+  "formattedAddress": "1621 Price St, Pismo Beach, CA 93449, USA",
+  "timezone": "America/Los_Angeles",
+  "externalIds": {
+    "google": "ChIJLx-0g-lY7IAR6GkNAex2l20"
+  },
+  "status": {
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=7896911227619469800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
   "tikiConfidence": 0.825,
   "review": {
     "state": "needs_review",
@@ -23,13 +34,25 @@
     "at": "2026-11-21T22:52:16.549Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
     "location": {
-      "sourceId": "allthetikibars",
-      "observedAt": "2026-11-21T22:52:16.549Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "allthetikibars",
-      "observedAt": "2026-11-21T22:52:16.549Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -43,8 +66,16 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJLx-0g-lY7IAR6GkNAex2l20",
+      "url": "https://maps.google.com/?cid=7896911227619469800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:16.549Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

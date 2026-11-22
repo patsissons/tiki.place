@@ -5,34 +5,41 @@
     "Marge’s Lakeside Inn"
   ],
   "location": {
-    "lat": 43.2349454,
-    "lng": -77.53767069999999,
+    "lat": 43.2349179,
+    "lng": -77.5376519,
     "precision": "rooftop"
   },
   "address": {
-    "street": "4909 Culver Rd",
+    "street": "4909 Culver Road",
     "locality": "Rochester",
-    "region": "NY",
+    "region": "New York",
     "postalCode": "14622",
     "country": "US"
   },
-  "formattedAddress": "4909 Culver Rd, Rochester NY 14622, USA",
+  "formattedAddress": "4909 Culver Rd, Rochester, NY 14622, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "marge-s-lakeside-inn",
     "google": "ChIJc1KamEfI1okRpUTaSgR9LgE"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "phone": "585-323-1020",
-    "website": "https://margeslakesideinn.com/"
+    "phone": "+1 585-323-1020",
+    "website": "http://margeslakesideinn.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=85142900355777701&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.5,
+    "count": 837,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "established": 1960,
-  "tikiConfidence": 0.85,
+  "tikiConfidence": 0.857,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -41,32 +48,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:11.803Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:11.803Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:11.803Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:27:11.803Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:11.803Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:27:11.803Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -74,6 +93,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJc1KamEfI1okRpUTaSgR9LgE",
+      "url": "https://maps.google.com/?cid=85142900355777701&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "tikirat",
       "sourceRef": "marge-s-lakeside-inn",
@@ -83,5 +109,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

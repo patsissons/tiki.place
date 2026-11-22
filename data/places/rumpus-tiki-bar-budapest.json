@@ -3,8 +3,8 @@
   "name": "Rumpus Tiki Bar",
   "aliases": [],
   "location": {
-    "lat": 47.4996752,
-    "lng": 19.0594481,
+    "lat": 47.4996023,
+    "lng": 19.0595109,
     "precision": "rooftop"
   },
   "address": {
@@ -13,7 +13,7 @@
     "postalCode": "1075",
     "country": "HU"
   },
-  "formattedAddress": "19 Király utca, Budapest, 1075, Magyarország",
+  "formattedAddress": "Budapest, Király u. 19, 1075 Hungary",
   "timezone": "Europe/Budapest",
   "externalIds": {
     "google": "ChIJ37GTv_6-QUcR2ZMoUHjAN78",
@@ -21,14 +21,15 @@
     "overture": "9f39078a-8de1-4e4f-a549-b598a67795d8"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
-    "website": "https://www.sevenrooms.com/explore/rumpustikibar/reservations/create/search?tracking=fb"
+    "website": "https://www.sevenrooms.com/explore/rumpustikibar/reservations/create/search?tracking=fb",
+    "googleMapsUri": "https://maps.google.com/?cid=13778693207936766937&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.98,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,24 +37,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +72,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ37GTv_6-QUcR2ZMoUHjAN78",
+      "url": "https://maps.google.com/?cid=13778693207936766937&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -98,5 +110,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

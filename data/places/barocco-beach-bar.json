@@ -8,21 +8,24 @@
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Δημοτική Ενότητα Μελιτειέων",
+    "locality": "Mesongi",
     "region": "Περιφέρεια Ιονίων Νήσων",
+    "postalCode": "490 80",
     "country": "GR"
   },
-  "formattedAddress": "Κέρκυρα - Λευκίμμη - Κάβος, Δημοτική Ενότητα Μελιτειέων, Περιφέρεια Ιονίων Νήσων, Ελλάς",
+  "formattedAddress": "BaroCco BEACH BAR, Mesongi 490 80, Greece",
   "timezone": "Europe/Athens",
   "externalIds": {
     "google": "ChIJoVKenMOhXBMRqyYkz0wJ6gg"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=642336122351134379&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
   "tikiConfidence": 0.938,
   "review": {
     "state": "needs_review",
@@ -31,20 +34,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,6 +67,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJoVKenMOhXBMRqyYkz0wJ6gg",
+      "url": "https://maps.google.com/?cid=642336122351134379&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "barocco-beach-bar",
       "url": "https://tikiatlas.com/bar?slug=barocco-beach-bar",
@@ -68,5 +82,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

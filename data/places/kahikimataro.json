@@ -5,28 +5,103 @@
     "Kahikimataro"
   ],
   "location": {
-    "lat": 41.5327148,
-    "lng": 2.428226,
+    "lat": 41.532715499999995,
+    "lng": 2.4282293999999998,
     "precision": "rooftop"
   },
   "address": {
+    "street": "35 Carrer Carrasco i Formiguera",
     "locality": "Mataró",
+    "region": "Catalunya",
+    "postalCode": "08302",
     "country": "ES"
   },
+  "formattedAddress": "Carrer Carrasco i Formiguera, 35, 08302 Mataró, Barcelona, Spain",
   "timezone": "Europe/Madrid",
   "externalIds": {
     "overture": "f82fe484-a3c2-4d33-b01b-bc8d6045a6c1",
     "google": "ChIJs_2MCwC1pBIRzoy6pkraSnQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "2300"
+        },
+        "close": {
+          "day": 4,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "2200"
+        },
+        "close": {
+          "day": 5,
+          "time": "0230"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "2100"
+        },
+        "close": {
+          "day": 6,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 11:00 PM – 2:30 AM",
+      "Thursday: 10:00 PM – 2:30 AM",
+      "Friday: 9:00 PM – 3:00 AM",
+      "Saturday: 6:00 PM – 3:00 AM",
+      "Sunday: 6:00 PM – 2:30 AM"
+    ]
   },
   "contact": {
-    "website": "http://kahiki.es/"
+    "phone": "+34 930 29 67 94",
+    "website": "http://kahiki.es/",
+    "googleMapsUri": "https://maps.google.com/?cid=8379750070835907790&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.825,
+  "rating": {
+    "value": 4.9,
+    "count": 975,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -34,20 +109,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -55,6 +154,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJs_2MCwC1pBIRzoy6pkraSnQ",
+      "url": "https://maps.google.com/?cid=8379750070835907790&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "f82fe484-a3c2-4d33-b01b-bc8d6045a6c1",
@@ -64,5 +170,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

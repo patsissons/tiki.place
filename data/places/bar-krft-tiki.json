@@ -3,28 +3,32 @@
   "name": "Bar KRFT Tiki",
   "aliases": [],
   "location": {
-    "lat": 35.0029649,
-    "lng": 135.7727681,
+    "lat": 35.002993,
+    "lng": 135.77285220000002,
     "precision": "rooftop"
   },
   "address": {
     "street": "12",
-    "locality": "京都市",
+    "locality": "Kyoto",
+    "region": "Kyoto",
+    "postalCode": "605-0802",
     "country": "JP"
   },
-  "formattedAddress": "12, 京都市, 605-0802, 日本",
+  "formattedAddress": "Japan, 〒605-0802 Kyoto, Higashiyama Ward, Yamatochō, １８ KABIN Gion 1階",
   "timezone": "Asia/Tokyo",
   "externalIds": {
     "google": "ChIJIyFD73sJAWAR_jge1ZxbT_o",
     "osm": "node/13471075401"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.969,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=18036735761790679294&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.971,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -32,20 +36,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -59,6 +67,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJIyFD73sJAWAR_jge1ZxbT_o",
+      "url": "https://maps.google.com/?cid=18036735761790679294&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "osm",
@@ -76,5 +91,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -70,6 +70,42 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-22T17:52:17.009Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJb7Qe8RTEyIAR1uAqCd2Ff7w",
+        "name": "The Buffet at Excalibur",
+        "distanceM": 21,
+        "nameSim": 0.762
+      },
+      {
+        "googleId": "ChIJsQkBl83FyIARkoGQ7Xm-Xd8",
+        "name": "TAP Sports Bar at Excalibur",
+        "distanceM": 20,
+        "nameSim": 0.684
+      },
+      {
+        "googleId": "ChIJzZtJhM3FyIAR6eHpF4xTR68",
+        "name": "Excalibur Hotel & Casino",
+        "distanceM": 3,
+        "nameSim": 0.615
+      },
+      {
+        "googleId": "ChIJYVv-us3FyIARwTOJt7L9i8c",
+        "name": "Lobby Bar",
+        "distanceM": 21,
+        "nameSim": 0.333
+      },
+      {
+        "googleId": "ChIJezcMnM3FyIARW42NFlxD3Bs",
+        "name": "The Lounge",
+        "distanceM": 21,
+        "nameSim": 0
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z"
 }

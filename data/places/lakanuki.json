@@ -1,34 +1,126 @@
 {
   "id": "lakanuki",
-  "name": "Lakanuki",
-  "aliases": [],
+  "name": "Lakanuki | Hawaiian • Bar",
+  "aliases": [
+    "Lakanuki"
+  ],
   "location": {
-    "lat": 37.6507382,
-    "lng": -118.9859751,
+    "lat": 37.6513464,
+    "lng": -118.9854275,
     "precision": "rooftop"
   },
   "address": {
-    "street": "6201 Minaret Rd",
+    "street": "6201 Minaret Road",
     "locality": "Mammoth Lakes",
-    "region": "CA",
+    "region": "California",
     "postalCode": "93546",
     "country": "US"
   },
-  "formattedAddress": "6201 Minaret Rd, Mammoth Lakes CA 93546, USA",
+  "formattedAddress": "6201 Minaret Rd, Mammoth Lakes, CA 93546, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "tikirat": "lakanuki",
     "google": "ChIJrcpwjLoNloAR6nhgKLH7SvA"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1400"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1500"
+        },
+        "close": {
+          "day": 1,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1500"
+        },
+        "close": {
+          "day": 2,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1500"
+        },
+        "close": {
+          "day": 3,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1500"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1400"
+        },
+        "close": {
+          "day": 6,
+          "time": "0145"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 3:00 – 9:30 PM",
+      "Tuesday: 3:00 – 9:30 PM",
+      "Wednesday: 3:00 – 9:30 PM",
+      "Thursday: 3:00 PM – 12:00 AM",
+      "Friday: 2:00 PM – 1:45 AM",
+      "Saturday: 1:00 PM – 2:00 AM",
+      "Sunday: 2:00 PM – 12:00 AM"
+    ]
   },
   "contact": {
-    "phone": "760-934-7447",
-    "website": "https://lakanuki.info/"
+    "phone": "+1 760-934-7447",
+    "website": "https://lakanuki-mammoth.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=17314928455684487402&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 3.8,
+    "count": 562,
+    "at": "2026-11-22T17:52:17.009Z"
+  },
+  "priceLevel": "$$",
   "established": 2005,
   "tikiConfidence": 0.999,
   "review": {
@@ -38,32 +130,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:11.784Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:11.784Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:11.784Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:26:11.784Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:11.784Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:11.784Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:26:11.784Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -77,6 +185,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJrcpwjLoNloAR6nhgKLH7SvA",
+      "url": "https://maps.google.com/?cid=17314928455684487402&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -101,5 +216,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

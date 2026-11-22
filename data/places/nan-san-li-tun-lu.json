@@ -1,18 +1,22 @@
 {
   "id": "nan-san-li-tun-lu",
-  "name": "Nan San Li Tun Lu",
-  "aliases": [],
+  "name": "South Sanlitun Road",
+  "aliases": [
+    "Nan San Li Tun Lu"
+  ],
   "location": {
-    "lat": 39.92786,
-    "lng": 116.45528,
+    "lat": 39.9291399,
+    "lng": 116.4554,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "朝阳区",
-    "postalCode": "100026",
+    "street": "Nan San Li Tun Lu",
+    "locality": "Chao Yang Qu",
+    "region": "Bei Jing Shi",
+    "postalCode": "100020",
     "country": "CN"
   },
-  "formattedAddress": "东三环北路, 朝阳区, 100026, 中国",
+  "formattedAddress": "Nan San Li Tun Lu, 使馆区 Chao Yang Qu, Bei Jing Shi, China, 100020",
   "timezone": "Asia/Shanghai",
   "externalIds": {
     "google": "EkXkuK3lm73ljJfkuqzluILmnJ3pmLPljLrkvb_ppobljLrljZfkuInph4zlsa_ot68g6YKu5pS_57yW56CBOiAxMDAwMjAiLiosChQKEgltNL7m8azxNREYo4AH2qCAoxIUChIJiZt2_o6s8TUR_w1lf_GeS0E"
@@ -22,7 +26,9 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?q=%E4%B8%AD%E5%9B%BD%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA%E4%BD%BF%E9%A6%86%E5%8C%BA%E5%8D%97%E4%B8%89%E9%87%8C%E5%B1%AF%E8%B7%AF+%E9%82%AE%E6%94%BF%E7%BC%96%E7%A0%81:+100020&ftid=0x35f1acf1e6be346d:0xa380a0da0780a318&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
   "tikiConfidence": 0.938,
   "review": {
     "state": "needs_review",
@@ -31,20 +37,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-22T17:52:17.009Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,6 +70,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "EkZOYW4gU2FuIExpIFR1biBMdSwg5L2_6aaG5Yy6IENoYW8gWWFuZyBRdSwgQmVpIEppbmcgU2hpLCBDaGluYSwgMTAwMDIwIi4qLAoUChIJbTS-5vGs8TURGKOAB9qggKMSFAoSCYmbdv6OrPE1Ef8NZX_xnktB",
+      "url": "https://maps.google.com/?q=%E4%B8%AD%E5%9B%BD%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA%E4%BD%BF%E9%A6%86%E5%8C%BA%E5%8D%97%E4%B8%89%E9%87%8C%E5%B1%AF%E8%B7%AF+%E9%82%AE%E6%94%BF%E7%BC%96%E7%A0%81:+100020&ftid=0x35f1acf1e6be346d:0xa380a0da0780a318&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-22T17:52:17.009Z",
+      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "nan-san-li-tun-lu",
       "url": "https://tikiatlas.com/bar?slug=nan-san-li-tun-lu",
@@ -68,5 +85,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }
