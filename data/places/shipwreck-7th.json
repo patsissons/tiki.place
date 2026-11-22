@@ -3,7 +3,8 @@
   "name": "ShipWreck Tiki Lounge",
   "aliases": [
     "ShipWreck",
-    "Shipwreck 7th"
+    "Shipwreck 7th",
+    "Shipwreck 7th Tiki Bar"
   ],
   "location": {
     "lat": 32.7484344,
@@ -114,7 +115,7 @@
   },
   "priceLevel": "$$",
   "established": 2023,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -179,6 +180,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "shipwreck-7th-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/shipwreck-7th-tiki-bar",
+      "firstSeenAt": "2026-11-22T08:47:53.722Z",
+      "lastSeenAt": "2026-11-22T08:47:53.722Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "9bc010a7-ce88-4be9-85ed-08e407f70c68",
       "url": "https://explore.overturemaps.org/?feature=places.place.9bc010a7-ce88-4be9-85ed-08e407f70c68#17/32.748435974121094/-97.35636138916016",
@@ -201,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

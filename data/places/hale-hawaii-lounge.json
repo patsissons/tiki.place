@@ -101,7 +101,7 @@
   },
   "priceLevel": "$",
   "established": 1964,
-  "tikiConfidence": 0.964,
+  "tikiConfidence": 0.989,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -166,6 +166,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hale-hawaii-lounge",
+      "url": "https://mytiki.life/tiki-bars/hale-hawaii-lounge",
+      "firstSeenAt": "2026-11-22T01:47:28.454Z",
+      "lastSeenAt": "2026-11-22T01:47:28.454Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "f7a9ec84-513c-47ef-ba64-f0b274fb2e32",
       "url": "https://explore.overturemaps.org/?feature=places.place.f7a9ec84-513c-47ef-ba64-f0b274fb2e32#17/33.79755401611328/-118.34114074707031",
@@ -181,6 +188,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

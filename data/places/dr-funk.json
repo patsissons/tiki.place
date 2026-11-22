@@ -197,6 +197,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "dr-funk",
+      "url": "https://mytiki.life/tiki-bars/dr-funk",
+      "firstSeenAt": "2026-11-22T01:16:22.864Z",
+      "lastSeenAt": "2026-11-22T01:16:22.864Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4485153089",
       "url": "https://www.openstreetmap.org/node/4485153089",
@@ -233,6 +240,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

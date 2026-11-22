@@ -1,7 +1,9 @@
 {
   "id": "isla-nu-bar",
   "name": "Isla Nu-Bar",
-  "aliases": [],
+  "aliases": [
+    "Isla Nu-Bar - at Universal Studios Hollywood Theme Park"
+  ],
   "location": {
     "lat": 34.1404016,
     "lng": -118.3571306,
@@ -121,7 +123,7 @@
   },
   "priceLevel": "$$",
   "established": 2019,
-  "tikiConfidence": 0.964,
+  "tikiConfidence": 0.989,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -186,6 +188,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "isla-nu-bar-at-universal-studios-hollywood-theme-park",
+      "url": "https://mytiki.life/tiki-bars/isla-nu-bar-at-universal-studios-hollywood-theme-park",
+      "firstSeenAt": "2026-11-22T02:47:27.995Z",
+      "lastSeenAt": "2026-11-22T02:47:27.995Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "347fa3c2-66c9-46a4-a652-0e9a0c7a0e6c",
       "url": "https://explore.overturemaps.org/?feature=places.place.347fa3c2-66c9-46a4-a652-0e9a0c7a0e6c#17/34.140525817871094/-118.35718536376953",
@@ -201,6 +210,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

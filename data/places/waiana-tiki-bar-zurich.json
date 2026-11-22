@@ -101,6 +101,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "waiana-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/waiana-tiki-bar",
+      "firstSeenAt": "2026-11-22T16:15:03.890Z",
+      "lastSeenAt": "2026-11-22T16:15:03.890Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "5290ddc3-1c27-4a73-99cc-650d7f527a94",
       "url": "https://explore.overturemaps.org/?feature=places.place.5290ddc3-1c27-4a73-99cc-650d7f527a94#17/47.371925354003906/8.540386199951172",
@@ -116,6 +123,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

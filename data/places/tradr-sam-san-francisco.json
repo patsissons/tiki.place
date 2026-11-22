@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tradr-sam",
+      "url": "https://mytiki.life/tiki-bars/tradr-sam",
+      "firstSeenAt": "2026-11-22T15:44:04.885Z",
+      "lastSeenAt": "2026-11-22T15:44:04.885Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1618687933",
       "url": "https://www.openstreetmap.org/node/1618687933",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

@@ -1,7 +1,10 @@
 {
   "id": "honi-honi-tiki-lounge-edmonton",
   "name": "Honi Honi Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Honi Honi",
+    "Honi Honi - Edmonton"
+  ],
   "location": {
     "lat": 53.54434,
     "lng": -113.49763999999999,
@@ -89,7 +92,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.993,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -153,6 +156,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "honi-honi-edmonton",
+      "url": "https://mytiki.life/tiki-bars/honi-honi-edmonton",
+      "firstSeenAt": "2026-11-22T02:20:10.433Z",
+      "lastSeenAt": "2026-11-22T02:20:10.433Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/13082321243",
       "url": "https://www.openstreetmap.org/node/13082321243",
@@ -175,6 +185,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

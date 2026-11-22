@@ -1,7 +1,9 @@
 {
   "id": "cheeky-tiki-kailua-kona",
   "name": "Cheeky Tiki",
-  "aliases": [],
+  "aliases": [
+    "Cheeky Tiki - Kailua-Kona"
+  ],
   "location": {
     "lat": 19.640401999999998,
     "lng": -155.9964044,
@@ -118,7 +120,7 @@
     "count": 531,
     "at": "2026-11-09T20:49:19.347Z"
   },
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -178,6 +180,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "cheeky-tiki-kona",
+      "url": "https://mytiki.life/tiki-bars/cheeky-tiki-kona",
+      "firstSeenAt": "2026-11-22T00:25:31.843Z",
+      "lastSeenAt": "2026-11-22T00:25:31.843Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/14124250047",
       "url": "https://www.openstreetmap.org/node/14124250047",
@@ -207,6 +216,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

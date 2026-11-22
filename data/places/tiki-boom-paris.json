@@ -1,0 +1,45 @@
+{
+  "id": "tiki-boom-paris",
+  "name": "Tiki Boom",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Paris",
+    "country": "FR"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:13:47.668Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:13:47.668Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-boom",
+      "url": "https://mytiki.life/tiki-bars/tiki-boom",
+      "firstSeenAt": "2026-11-22T13:13:47.668Z",
+      "lastSeenAt": "2026-11-22T13:13:47.668Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T13:13:47.668Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

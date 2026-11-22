@@ -1,0 +1,57 @@
+{
+  "id": "islander-lounge-pensacola-beach",
+  "name": "The Islander Lounge",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Pensacola Beach",
+    "region": "Florida",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "(850) 932-9011",
+    "website": "https://www.pnj.com/story/news/2018/09/08/pensacolas-oldest-beach-bar-islander-celebrates-60-years/1210600002/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:02:34.298Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:02:34.298Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:02:34.298Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:02:34.298Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-islander-lounge",
+      "url": "https://mytiki.life/tiki-bars/the-islander-lounge",
+      "firstSeenAt": "2026-11-22T11:02:34.298Z",
+      "lastSeenAt": "2026-11-22T11:02:34.298Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T11:02:34.298Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

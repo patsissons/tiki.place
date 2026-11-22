@@ -110,7 +110,7 @@
   },
   "priceLevel": "$$",
   "established": 2023,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -178,6 +178,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "marys-bar-of-tropical-escapism",
+      "url": "https://mytiki.life/tiki-bars/marys-bar-of-tropical-escapism",
+      "firstSeenAt": "2026-11-22T06:12:32.827Z",
+      "lastSeenAt": "2026-11-22T06:12:32.827Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "0031975a-af7a-45e9-a7f6-9369ea8ee3ee",
       "url": "https://explore.overturemaps.org/?feature=places.place.0031975a-af7a-45e9-a7f6-9369ea8ee3ee#17/35.1298828125/-89.99027252197266",
@@ -200,6 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

@@ -1,0 +1,50 @@
+{
+  "id": "tiki-grove",
+  "name": "Tiki Grove",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "country": "ID"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+62 878-6248-3842"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:28:11.544Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:28:11.544Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:28:11.544Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-grove",
+      "url": "https://mytiki.life/tiki-bars/tiki-grove",
+      "firstSeenAt": "2026-11-22T13:28:11.544Z",
+      "lastSeenAt": "2026-11-22T13:28:11.544Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T13:28:11.544Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

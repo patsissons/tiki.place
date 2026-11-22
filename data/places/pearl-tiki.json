@@ -2,7 +2,8 @@
   "id": "pearl-tiki",
   "name": "The Pearl",
   "aliases": [
-    "The Pearl Tiki"
+    "The Pearl Tiki",
+    "The Pearl Tiki Bar"
   ],
   "location": {
     "lat": 32.3359816,
@@ -40,7 +41,7 @@
   },
   "priceLevel": "$",
   "established": 2024,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -101,6 +102,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-pearl-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/the-pearl-tiki-bar",
+      "firstSeenAt": "2026-11-22T11:42:57.762Z",
+      "lastSeenAt": "2026-11-22T11:42:57.762Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "9524676a-8cb5-4138-bafe-a842b9eab8bf",
       "url": "https://explore.overturemaps.org/?feature=places.place.9524676a-8cb5-4138-bafe-a842b9eab8bf#17/32.335941314697266/-90.17662811279297",
@@ -123,6 +131,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

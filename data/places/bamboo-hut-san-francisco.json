@@ -1,7 +1,9 @@
 {
   "id": "bamboo-hut-san-francisco",
   "name": "Bamboo Hut",
-  "aliases": [],
+  "aliases": [
+    "Bamboo Hut - San Francisco"
+  ],
   "location": {
     "lat": 37.7979318,
     "lng": -122.40510099999999,
@@ -164,6 +166,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "bamboo-hut",
+      "url": "https://mytiki.life/tiki-bars/bamboo-hut",
+      "firstSeenAt": "2026-11-21T23:25:40.836Z",
+      "lastSeenAt": "2026-11-21T23:25:40.836Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/12887090805",
       "url": "https://www.openstreetmap.org/node/12887090805",
@@ -200,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

@@ -175,6 +175,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-breakers",
+      "url": "https://mytiki.life/tiki-bars/the-breakers",
+      "firstSeenAt": "2026-11-22T10:18:02.344Z",
+      "lastSeenAt": "2026-11-22T10:18:02.344Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "65fb300c-0741-4095-9382-50ecee277de3",
       "url": "https://explore.overturemaps.org/?feature=places.place.65fb300c-0741-4095-9382-50ecee277de3#17/42.251258850097656/-88.34905242919922",
@@ -204,6 +211,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

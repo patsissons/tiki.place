@@ -109,7 +109,7 @@
     "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -177,6 +177,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tikis-bar-and-grill",
+      "url": "https://mytiki.life/tiki-bars/tikis-bar-and-grill",
+      "firstSeenAt": "2026-11-22T14:26:23.955Z",
+      "lastSeenAt": "2026-11-22T14:26:23.955Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "4e47f400-827c-4dca-ad12-b5b69e0a323a",
       "url": "https://explore.overturemaps.org/?feature=places.place.4e47f400-827c-4dca-ad12-b5b69e0a323a#17/36.82200622558594/-76.1230239868164",
@@ -199,6 +206,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

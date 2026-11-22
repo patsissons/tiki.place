@@ -1,7 +1,9 @@
 {
   "id": "revival-house-des-moines",
   "name": "Revival House",
-  "aliases": [],
+  "aliases": [
+    "Revival House - at Blue Sushi Saki Grill - Des Moines"
+  ],
   "location": {
     "lat": 41.5847318,
     "lng": -93.6214143,
@@ -173,6 +175,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "revival-house-at-blue-sushi-saki-grill",
+      "url": "https://mytiki.life/tiki-bars/revival-house-at-blue-sushi-saki-grill",
+      "firstSeenAt": "2026-11-22T08:11:15.696Z",
+      "lastSeenAt": "2026-11-22T08:11:15.696Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "2483c297-a0ac-4f71-b53a-89cd2c5df7bd",
       "url": "https://explore.overturemaps.org/?feature=places.place.2483c297-a0ac-4f71-b53a-89cd2c5df7bd#17/41.584720611572266/-93.6214599609375",
@@ -202,6 +211,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

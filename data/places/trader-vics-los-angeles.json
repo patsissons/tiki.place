@@ -1,7 +1,9 @@
 {
   "id": "trader-vics-los-angeles",
   "name": "Trader Vic’s",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's - at the LA Live Complex - Los Angeles"
+  ],
   "location": null,
   "address": {
     "locality": "Los Angeles",
@@ -14,7 +16,9 @@
     "sourceId": "tikiwanderlust",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "+1 213-785-3330"
+  },
   "tikiConfidence": 0.895,
   "review": {
     "state": "rejected",
@@ -27,12 +31,23 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T15:04:11.665Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-at-the-la-live-complex-los-angeles",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-at-the-la-live-complex-los-angeles",
+      "firstSeenAt": "2026-11-22T15:04:11.665Z",
+      "lastSeenAt": "2026-11-22T15:04:11.665Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "trader-vics-los-angeles",
@@ -43,5 +58,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

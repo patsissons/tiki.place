@@ -164,6 +164,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-ti",
+      "url": "https://mytiki.life/tiki-bars/tiki-ti",
+      "firstSeenAt": "2026-11-22T14:08:40.429Z",
+      "lastSeenAt": "2026-11-22T14:08:40.429Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4580768557",
       "url": "https://www.openstreetmap.org/node/4580768557",
@@ -200,6 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

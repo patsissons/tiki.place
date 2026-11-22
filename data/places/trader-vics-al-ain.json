@@ -1,7 +1,10 @@
 {
   "id": "trader-vics-al-ain",
   "name": "Trader Vic's Al Ain",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's",
+    "Trader Vic's - at The Al Ain Rotana - Abu Dhabi"
+  ],
   "location": {
     "lat": 24.2075,
     "lng": 55.7447,
@@ -18,9 +21,12 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "+971 3 754 5111",
+    "website": "https://www.rotana.com/rotanahotelandresorts/unitedarabemirates/alain/alainrotana/diningout/tradervics"
+  },
   "established": 1999,
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.948,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -30,6 +36,14 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:58:11.322Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:58:11.322Z"
     },
     "established": {
       "sourceId": "tikiatlas",
@@ -50,6 +64,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-at-the-al-ain-rotana-abu-dhabi",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-at-the-al-ain-rotana-abu-dhabi",
+      "firstSeenAt": "2026-11-22T14:58:11.322Z",
+      "lastSeenAt": "2026-11-22T14:58:11.322Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "trader-vics-al-ain",
       "url": "https://tikiatlas.com/bar?slug=trader-vics-al-ain",
@@ -58,5 +79,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

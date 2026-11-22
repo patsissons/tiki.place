@@ -22,9 +22,10 @@
     "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {
+    "phone": "(808) 470-3463",
     "website": "https://www.kuhioavenuefoodhall.com/location/tipsy-tiki/"
   },
-  "tikiConfidence": 0.895,
+  "tikiConfidence": 0.969,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,6 +36,10 @@
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:34:41.658Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -55,6 +60,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tipsy-tiki",
+      "url": "https://mytiki.life/tiki-bars/tipsy-tiki",
+      "firstSeenAt": "2026-11-22T14:34:41.658Z",
+      "lastSeenAt": "2026-11-22T14:34:41.658Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "tipsy-tiki-honolulu",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -64,5 +76,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

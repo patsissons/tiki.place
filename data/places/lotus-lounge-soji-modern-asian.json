@@ -2,6 +2,7 @@
   "id": "lotus-lounge-soji-modern-asian",
   "name": "Lotus Lounge",
   "aliases": [
+    "Lotus Lounge - at Soji Modern Asian",
     "Lotus Lounge Soji Modern Asian"
   ],
   "location": {
@@ -185,6 +186,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lotus-lounge-at-soji-modern-asian",
+      "url": "https://mytiki.life/tiki-bars/lotus-lounge-at-soji-modern-asian",
+      "firstSeenAt": "2026-11-22T04:23:07.218Z",
+      "lastSeenAt": "2026-11-22T04:23:07.218Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "b7b58c2e-5b04-4624-92be-8af89b6d3922",
       "url": "https://explore.overturemaps.org/?feature=places.place.b7b58c2e-5b04-4624-92be-8af89b6d3922#17/30.44430160522461/-91.13774871826172",
@@ -214,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

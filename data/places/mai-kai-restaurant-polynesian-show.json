@@ -3,6 +3,7 @@
   "name": "MAI-KAI Restaurant and Polynesian Show",
   "aliases": [
     "Mai Kai Restaurant Polynesian Show",
+    "Mai-Kai - Fort Lauderdale",
     "The Mai-Kai"
   ],
   "location": {
@@ -180,6 +181,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mai-kai-fort-lauderdale",
+      "url": "https://mytiki.life/tiki-bars/mai-kai-fort-lauderdale",
+      "firstSeenAt": "2026-11-22T05:47:28.508Z",
+      "lastSeenAt": "2026-11-22T05:47:28.508Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "mai-kai-restaurant-and-polynesian-show",
       "url": "https://tikiatlas.com/bar?slug=mai-kai-restaurant-and-polynesian-show",
@@ -209,6 +217,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

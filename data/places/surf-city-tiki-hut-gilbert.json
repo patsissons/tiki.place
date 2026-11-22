@@ -101,6 +101,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "surf-city-tiki-hut",
+      "url": "https://mytiki.life/tiki-bars/surf-city-tiki-hut",
+      "firstSeenAt": "2026-11-22T09:28:50.685Z",
+      "lastSeenAt": "2026-11-22T09:28:50.685Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "d484106e-848c-4dcd-b8f8-6973920a2479",
       "url": "https://explore.overturemaps.org/?feature=places.place.d484106e-848c-4dcd-b8f8-6973920a2479#17/33.31740951538086/-111.6876449584961",
@@ -116,6 +123,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

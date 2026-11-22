@@ -2,6 +2,8 @@
   "id": "samoan-joes-tiki-bar-coventry",
   "name": "Samoan Joe's",
   "aliases": [
+    "Samoan Joe's - Skydome - Coventry",
+    "Samoan Joe's - Spon Street - Coventry",
     "Samoan Joe's Tiki Bar"
   ],
   "location": {
@@ -28,6 +30,7 @@
     "at": "2026-10-26T04:35:53.528Z"
   },
   "contact": {
+    "phone": "+44 7452 821292",
     "website": "https://samoanjoes.co.uk/",
     "googleMapsUri": "https://maps.google.com/?cid=512240461861731873&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
@@ -51,6 +54,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-12T18:22:54.608Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:37:04.808Z"
     },
     "contact.website": {
       "sourceId": "google",
@@ -90,6 +97,20 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "samoan-joes",
+      "url": "https://mytiki.life/tiki-bars/samoan-joes",
+      "firstSeenAt": "2026-11-22T08:36:31.158Z",
+      "lastSeenAt": "2026-11-22T08:36:31.158Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "samoan-joes-skydome-coventry",
+      "url": "https://mytiki.life/tiki-bars/samoan-joes-skydome-coventry",
+      "firstSeenAt": "2026-11-22T08:37:04.808Z",
+      "lastSeenAt": "2026-11-22T08:37:04.808Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "45bb7e0e-6c6a-43f7-aa9f-0bb855204f2e",
       "url": "https://explore.overturemaps.org/?feature=places.place.45bb7e0e-6c6a-43f7-aa9f-0bb855204f2e#17/52.43321228027344/-1.521707534790039",
@@ -105,6 +126,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

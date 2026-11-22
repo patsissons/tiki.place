@@ -24,9 +24,10 @@
     "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {
+    "phone": "954-536-0804",
     "website": "http://www.hulakaitikibar.com/"
   },
-  "tikiConfidence": 0.895,
+  "tikiConfidence": 0.969,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,6 +38,10 @@
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:38:23.225Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -57,6 +62,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hula-kai",
+      "url": "https://mytiki.life/tiki-bars/hula-kai",
+      "firstSeenAt": "2026-11-22T02:38:23.225Z",
+      "lastSeenAt": "2026-11-22T02:38:23.225Z"
+    },
+    {
       "sourceId": "tikiwanderlust",
       "sourceRef": "hula-kai-fort-lauderdale",
       "url": "https://tikiwanderlust.com/master-list/",
@@ -66,5 +78,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:52:19.121Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "trader-vics-amman",
   "name": "Trader Vic's Amman",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's"
+  ],
   "location": {
     "lat": 31.9539,
     "lng": 35.9106,
@@ -18,9 +20,12 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "+962 6 566 1122",
+    "website": "http://tradervicsamman.com/"
+  },
   "established": 2004,
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.948,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -30,6 +35,14 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:57:30.084Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:57:30.084Z"
     },
     "established": {
       "sourceId": "tikiatlas",
@@ -50,6 +63,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-amman",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-amman",
+      "firstSeenAt": "2026-11-22T14:57:30.084Z",
+      "lastSeenAt": "2026-11-22T14:57:30.084Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "trader-vics-amman",
       "url": "https://tikiatlas.com/bar?slug=trader-vics-amman",
@@ -58,5 +78,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

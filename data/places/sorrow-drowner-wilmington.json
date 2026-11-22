@@ -89,6 +89,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-sorrow-drowner",
+      "url": "https://mytiki.life/tiki-bars/the-sorrow-drowner",
+      "firstSeenAt": "2026-11-22T12:03:31.645Z",
+      "lastSeenAt": "2026-11-22T12:03:31.645Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "9bf86bfd-946f-454a-b54a-ecb610e51d18",
       "url": "https://explore.overturemaps.org/?feature=places.place.9bf86bfd-946f-454a-b54a-ecb610e51d18#17/34.23539352416992/-77.93646240234375",
@@ -97,6 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

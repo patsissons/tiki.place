@@ -2,7 +2,8 @@
   "id": "bahi-hut-tiki-cocktail-lounge",
   "name": "Bahi Hut Tiki Cocktail Lounge",
   "aliases": [
-    "Bahi Hut"
+    "Bahi Hut",
+    "Bahi Hut Lounge"
   ],
   "location": {
     "lat": 27.373267199999997,
@@ -185,6 +186,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "bahi-hut-lounge",
+      "url": "https://mytiki.life/tiki-bars/bahi-hut-lounge",
+      "firstSeenAt": "2026-11-21T23:11:24.436Z",
+      "lastSeenAt": "2026-11-21T23:11:24.436Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "ad338728-8b9a-4e3e-91e5-4b09aef7359e",
       "url": "https://explore.overturemaps.org/?feature=places.place.ad338728-8b9a-4e3e-91e5-4b09aef7359e#17/27.373308181762695/-82.55409240722656",
@@ -214,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "zombie-club-tiki-lounge-crown-point",
   "name": "Zombie Club Tiki Lounge",
-  "aliases": [],
+  "aliases": [
+    "Zombie Club"
+  ],
   "location": {
     "lat": 41.418141,
     "lng": -87.365282,
@@ -94,6 +96,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "zombie-club",
+      "url": "https://mytiki.life/tiki-bars/zombie-club",
+      "firstSeenAt": "2026-11-22T16:44:20.877Z",
+      "lastSeenAt": "2026-11-22T16:44:20.877Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "0733560f-851d-481c-aaf2-222088f26953",
       "url": "https://explore.overturemaps.org/?feature=places.place.0733560f-851d-481c-aaf2-222088f26953#17/41.418190002441406/-87.36526489257812",
@@ -102,6 +111,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

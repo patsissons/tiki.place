@@ -2,7 +2,8 @@
   "id": "rum-row-tiki-bar-chanhassen",
   "name": "Rum Row Tiki Bar - Chanhassen",
   "aliases": [
-    "Rum Row Tiki Bar"
+    "Rum Row Tiki Bar",
+    "Rum Row Tiki Bar - at Tequila Butcher"
   ],
   "location": {
     "lat": 44.8591866,
@@ -91,7 +92,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -159,6 +160,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "rum-row-tiki-bar-at-tequila-butcher",
+      "url": "https://mytiki.life/tiki-bars/rum-row-tiki-bar-at-tequila-butcher",
+      "firstSeenAt": "2026-11-22T08:30:07.694Z",
+      "lastSeenAt": "2026-11-22T08:30:07.694Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "e12a554c-e616-416a-a118-378ebb00c66e",
       "url": "https://explore.overturemaps.org/?feature=places.place.e12a554c-e616-416a-a118-378ebb00c66e#17/44.85918426513672/-93.5350112915039",
@@ -181,6 +189,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

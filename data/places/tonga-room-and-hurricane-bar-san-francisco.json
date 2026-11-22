@@ -3,6 +3,7 @@
   "name": "Tonga Room & Hurricane Bar",
   "aliases": [
     "Tonga Room",
+    "Tonga Room - at the Fairmont Hotel",
     "Tonga Room Hurricane Bar"
   ],
   "location": {
@@ -167,6 +168,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tonga-room-at-the-fairmont-hotel",
+      "url": "https://mytiki.life/tiki-bars/tonga-room-at-the-fairmont-hotel",
+      "firstSeenAt": "2026-11-22T14:40:38.281Z",
+      "lastSeenAt": "2026-11-22T14:40:38.281Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/2071647991",
       "url": "https://www.openstreetmap.org/node/2071647991",
@@ -203,6 +211,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

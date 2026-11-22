@@ -175,6 +175,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "adrift",
+      "url": "https://mytiki.life/tiki-bars/adrift",
+      "firstSeenAt": "2026-11-21T22:44:06.899Z",
+      "lastSeenAt": "2026-11-21T22:44:06.899Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "81df277e-b8c0-4177-8c87-0f5122d03edf",
       "url": "https://explore.overturemaps.org/?feature=places.place.81df277e-b8c0-4177-8c87-0f5122d03edf#17/39.7126579284668/-104.98743438720703",
@@ -204,6 +211,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

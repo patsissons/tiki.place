@@ -1,0 +1,54 @@
+{
+  "id": "yours-truly-honolulu",
+  "name": "Yours Truly",
+  "aliases": [
+    "Yours Truly - at the AC Hotel Honolulu"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Honolulu",
+    "region": "Hawaii",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "website": "https://www.yourstrulyhawaii.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:41:40.875Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:41:40.875Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:41:40.875Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "yours-truly-at-the-ac-hotel-honolulu",
+      "url": "https://mytiki.life/tiki-bars/yours-truly-at-the-ac-hotel-honolulu",
+      "firstSeenAt": "2026-11-22T16:41:40.875Z",
+      "lastSeenAt": "2026-11-22T16:41:40.875Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T16:41:40.875Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

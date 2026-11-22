@@ -192,6 +192,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "beachbum-berrys-latitude-29",
+      "url": "https://mytiki.life/tiki-bars/beachbum-berrys-latitude-29",
+      "firstSeenAt": "2026-11-21T23:29:13.815Z",
+      "lastSeenAt": "2026-11-21T23:29:13.815Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "73ebe906-0460-4b80-a81b-8615aa618918",
       "url": "https://explore.overturemaps.org/?feature=places.place.73ebe906-0460-4b80-a81b-8615aa618918#17/29.95368003845215/-90.06504821777344",
@@ -221,6 +228,6 @@
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

@@ -1,0 +1,51 @@
+{
+  "id": "tiki-bar-mar-del-plata",
+  "name": "Tiki Bar Mar Del Plata",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Mar del Plata",
+    "country": "AR"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+54 223 301-5211"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:58:36.363Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:58:36.363Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:58:36.363Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-bar-mar-del-plata",
+      "url": "https://mytiki.life/tiki-bars/tiki-bar-mar-del-plata",
+      "firstSeenAt": "2026-11-22T12:58:36.363Z",
+      "lastSeenAt": "2026-11-22T12:58:36.363Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T12:58:36.363Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

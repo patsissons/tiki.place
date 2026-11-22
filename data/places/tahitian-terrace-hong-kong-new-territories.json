@@ -1,0 +1,53 @@
+{
+  "id": "tahitian-terrace-hong-kong-new-territories",
+  "name": "Tahitian Terrace - Hong Kong",
+  "aliases": [
+    "Tahitian Terrace"
+  ],
+  "location": null,
+  "address": {
+    "locality": "New Territories",
+    "country": "HK"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "website": "https://www.hongkongdisneyland.com/zh-hk/dining/hong-kong-disneyland-park/tahitian-terrace/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:47:18.807Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:47:18.807Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:47:18.807Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tahitian-terrace",
+      "url": "https://mytiki.life/tiki-bars/tahitian-terrace",
+      "firstSeenAt": "2026-11-22T09:47:18.807Z",
+      "lastSeenAt": "2026-11-22T09:47:18.807Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T09:47:18.807Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "bora-bora-polinesian-bar-lisbon",
+  "name": "Bora-Bora Polinesian Bar",
+  "aliases": [
+    "Bora-Bora Polinesian Bar - Lisbon"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Lisbon",
+    "country": "PT"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+351 21 243 8935"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:43:42.457Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:43:42.457Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:43:42.457Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "bora-bora",
+      "url": "https://mytiki.life/tiki-bars/bora-bora",
+      "firstSeenAt": "2026-11-21T23:43:42.457Z",
+      "lastSeenAt": "2026-11-21T23:43:42.457Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:43:42.457Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

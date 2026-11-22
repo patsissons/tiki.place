@@ -1,0 +1,67 @@
+{
+  "id": "revival-house-omaha",
+  "name": "Revival House",
+  "aliases": [
+    "Revival House - Blackstone District - Omaha",
+    "Revival House - Shops of Legacy - Omaha"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Omaha",
+    "region": "Nebraska",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "(402) 343-2419",
+    "website": "https://revivalhousebar.com/location-shops-of-legacy"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:12:27.034Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:11:44.090Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:12:27.034Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:12:27.034Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "revival-house-blackstone-district-omaha",
+      "url": "https://mytiki.life/tiki-bars/revival-house-blackstone-district-omaha",
+      "firstSeenAt": "2026-11-22T08:11:44.090Z",
+      "lastSeenAt": "2026-11-22T08:11:44.090Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "revival-house-shops-of-legacy-omaha",
+      "url": "https://mytiki.life/tiki-bars/revival-house-shops-of-legacy-omaha",
+      "firstSeenAt": "2026-11-22T08:12:27.034Z",
+      "lastSeenAt": "2026-11-22T08:12:27.034Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:11:44.090Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

@@ -1,7 +1,9 @@
 {
   "id": "verns-tiki-bar",
   "name": "Vern’s Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Vern's Tiki Bar - at Public Domain"
+  ],
   "location": {
     "lat": 44.9832617,
     "lng": -93.2711403,
@@ -79,7 +81,7 @@
   },
   "priceLevel": "$$",
   "established": 2024,
-  "tikiConfidence": 0.994,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -147,6 +149,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "verns-tiki-bar-at-public-domain",
+      "url": "https://mytiki.life/tiki-bars/verns-tiki-bar-at-public-domain",
+      "firstSeenAt": "2026-11-22T16:07:52.392Z",
+      "lastSeenAt": "2026-11-22T16:07:52.392Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "verns-tiki-bar",
       "url": "https://tikiatlas.com/bar?slug=verns-tiki-bar",
@@ -162,6 +171,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

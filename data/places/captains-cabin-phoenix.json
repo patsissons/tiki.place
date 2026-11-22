@@ -79,7 +79,7 @@
     "at": "2026-11-09T20:49:19.347Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -147,6 +147,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-captains-cabin",
+      "url": "https://mytiki.life/tiki-bars/the-captains-cabin",
+      "firstSeenAt": "2026-11-22T10:21:07.199Z",
+      "lastSeenAt": "2026-11-22T10:21:07.199Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "c08fd871-8b47-4ecc-ad74-67832e08c685",
       "url": "https://explore.overturemaps.org/?feature=places.place.c08fd871-8b47-4ecc-ad74-67832e08c685#17/33.51154327392578/-112.06539154052734",
@@ -169,6 +176,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

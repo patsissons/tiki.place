@@ -30,7 +30,7 @@
     "website": "https://lakanuki.info/"
   },
   "established": 2005,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -79,6 +79,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lakanuki",
+      "url": "https://mytiki.life/tiki-bars/lakanuki",
+      "firstSeenAt": "2026-11-22T03:55:31.715Z",
+      "lastSeenAt": "2026-11-22T03:55:31.715Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "lakanuki",
       "url": "https://tikiatlas.com/bar?slug=lakanuki",
@@ -101,5 +108,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

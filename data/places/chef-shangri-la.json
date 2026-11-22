@@ -175,6 +175,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "chef-shangri-la",
+      "url": "https://mytiki.life/tiki-bars/chef-shangri-la",
+      "firstSeenAt": "2026-11-22T00:26:01.256Z",
+      "lastSeenAt": "2026-11-22T00:26:01.256Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "chef-shangri-la",
       "url": "https://tikirat.com/bars/chef-shangri-la",
@@ -190,6 +197,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

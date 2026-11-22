@@ -1,0 +1,59 @@
+{
+  "id": "tiki-cove-boston",
+  "name": "Tiki Cove",
+  "aliases": [
+    "Tiki Cove - Boston"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Boston",
+    "region": "Massachusetts",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "617-982-6692",
+    "website": "https://www.tiki-cove.com/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:21:02.180Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:21:02.180Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:21:02.180Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:21:02.180Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-cove-boston",
+      "url": "https://mytiki.life/tiki-bars/tiki-cove-boston",
+      "firstSeenAt": "2026-11-22T13:21:02.180Z",
+      "lastSeenAt": "2026-11-22T13:21:02.180Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T13:21:02.180Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

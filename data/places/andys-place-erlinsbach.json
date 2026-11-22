@@ -1,0 +1,56 @@
+{
+  "id": "andys-place-erlinsbach",
+  "name": "Andy's Place",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Erlinsbach",
+    "country": "CH"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+41 62 844 16 98",
+    "website": "https://www.andys-place.ch/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:04:38.107Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:04:38.107Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:04:38.107Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:04:38.107Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "andys-place",
+      "url": "https://mytiki.life/tiki-bars/andys-place",
+      "firstSeenAt": "2026-11-21T23:04:38.107Z",
+      "lastSeenAt": "2026-11-21T23:04:38.107Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-21T23:04:38.107Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "spork-island-pittsburgh",
+  "name": "Spork Island",
+  "aliases": [
+    "Spork Island - Pittsburgh"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Pittsburgh",
+    "region": "Pennsylvania",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "(412) 785-7036",
+    "website": "https://www.sporkislandtradingcompany.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:18:25.869Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:18:25.869Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:18:25.869Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:18:25.869Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "spork-island-pittsburgh",
+      "url": "https://mytiki.life/tiki-bars/spork-island-pittsburgh",
+      "firstSeenAt": "2026-11-22T09:18:25.869Z",
+      "lastSeenAt": "2026-11-22T09:18:25.869Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T09:18:25.869Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

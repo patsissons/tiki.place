@@ -35,6 +35,7 @@
     "count": 1109,
     "at": "2026-11-11T17:55:26.537Z"
   },
+  "established": 2015,
   "tikiConfidence": 0.763,
   "review": {
     "state": "rejected",
@@ -58,6 +59,10 @@
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -89,14 +94,28 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "lost-lake",
+      "url": "https://mytiki.life/tiki-bars/lost-lake",
+      "firstSeenAt": "2026-11-22T04:21:25.940Z",
+      "lastSeenAt": "2026-11-22T04:21:25.940Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "2f11736e-75aa-4539-b44a-5dee15c46d3c",
       "url": "https://explore.overturemaps.org/?feature=places.place.2f11736e-75aa-4539-b44a-5dee15c46d3c#17/41.93206787109375/-87.70720672607422",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "lost-lake",
+      "url": "https://tikiatlas.com/bar?slug=lost-lake",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

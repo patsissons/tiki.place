@@ -2,6 +2,7 @@
   "id": "tilted-tiki-tropical-bar-restaurant",
   "name": "The Tilted Tiki Tropical Bar & Restaurant",
   "aliases": [
+    "The Tilted Tiki",
     "The Tilted Tiki Tropical Bar Restaurant"
   ],
   "location": {
@@ -108,6 +109,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-tilted-tiki",
+      "url": "https://mytiki.life/tiki-bars/the-tilted-tiki",
+      "firstSeenAt": "2026-11-22T12:27:34.080Z",
+      "lastSeenAt": "2026-11-22T12:27:34.080Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-tilted-tiki-tropical-bar-and-restaurant",
       "url": "https://tikiatlas.com/bar?slug=the-tilted-tiki-tropical-bar-and-restaurant",
@@ -123,6 +131,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

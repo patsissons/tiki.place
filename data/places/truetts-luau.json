@@ -1,7 +1,10 @@
 {
   "id": "truetts-luau",
   "name": "Truett’s Luau",
-  "aliases": [],
+  "aliases": [
+    "Chick-fil-A",
+    "Chick-fil-A - Truett's Luau"
+  ],
   "location": {
     "lat": 33.4465449,
     "lng": -84.4677301,
@@ -29,7 +32,7 @@
     "website": "https://chick-fil-a.com/truetts-luau"
   },
   "established": 2013,
-  "tikiConfidence": 0.895,
+  "tikiConfidence": 0.969,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -72,6 +75,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "chick-fil-a-truetts-luau",
+      "url": "https://mytiki.life/tiki-bars/chick-fil-a-truetts-luau",
+      "firstSeenAt": "2026-11-22T00:28:01.263Z",
+      "lastSeenAt": "2026-11-22T00:28:01.263Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "truett-s-luau",
       "url": "https://tikirat.com/bars/truett-s-luau",
@@ -92,5 +102,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

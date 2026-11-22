@@ -1,35 +1,58 @@
 {
   "id": "creeky-tiki-bar-and-grill",
-  "name": "Creeky Tiki Bar and Grill",
-  "aliases": [],
+  "name": "Creeky Tiki Bar And Grill",
+  "aliases": [
+    "Creeky Tiki Bar & Island Grill"
+  ],
   "location": {
-    "lat": 35.2797805,
-    "lng": -120.6632847,
+    "lat": 35.2799416,
+    "lng": -120.6634369,
     "precision": "rooftop"
   },
-  "address": {},
+  "address": {
+    "locality": "San Luis Obispo",
+    "region": "CA",
+    "country": "US"
+  },
   "timezone": "America/Los_Angeles",
-  "externalIds": {},
+  "externalIds": {
+    "overture": "e52d6c0c-0cae-4956-a677-5f7423964948"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-11-21T22:52:16.549Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.825,
+  "contact": {
+    "phone": "(805) 544-2200",
+    "website": "https://www.creekytikislo.com/"
+  },
+  "tikiConfidence": 0.878,
   "review": {
     "state": "needs_review",
     "by": "auto",
     "at": "2026-11-21T22:52:16.549Z"
   },
   "provenance": {
+    "address": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:49:08.648Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
     "location": {
-      "sourceId": "allthetikibars",
-      "observedAt": "2026-11-21T22:52:16.549Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "name": {
-      "sourceId": "allthetikibars",
-      "observedAt": "2026-11-21T22:52:16.549Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -43,8 +66,22 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "creeky-tiki-bar-island-grill",
+      "url": "https://mytiki.life/tiki-bars/creeky-tiki-bar-island-grill",
+      "firstSeenAt": "2026-11-22T00:49:08.648Z",
+      "lastSeenAt": "2026-11-22T00:49:08.648Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "e52d6c0c-0cae-4956-a677-5f7423964948",
+      "url": "https://explore.overturemaps.org/?feature=places.place.e52d6c0c-0cae-4956-a677-5f7423964948#17/35.27994155883789/-120.66343688964844",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
-  "firstSeenAt": "2026-11-21T22:52:16.549Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "firstSeenAt": "2026-10-26T04:19:34.568Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

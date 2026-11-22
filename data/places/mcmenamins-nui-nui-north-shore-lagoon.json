@@ -3,7 +3,9 @@
   "name": "McMenamins Nui Nui",
   "aliases": [
     "McMenamin’s North Shore Lagoon",
-    "Mcmenamins Nui Nui North Shore Lagoon"
+    "Mcmenamins Nui Nui North Shore Lagoon",
+    "Nui Nui",
+    "Nui Nui - at McMenamins Anderson School"
   ],
   "location": {
     "lat": 47.763667,
@@ -195,6 +197,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "nui-nui---at-mcmenamins-anderson-school",
+      "url": "https://mytiki.life/tiki-bars/nui-nui---at-mcmenamins-anderson-school",
+      "firstSeenAt": "2026-11-22T06:51:00.912Z",
+      "lastSeenAt": "2026-11-22T06:51:00.912Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "mcmenamins-north-shore-lagoon",
       "url": "https://tikiatlas.com/bar?slug=mcmenamins-north-shore-lagoon",
@@ -217,6 +226,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

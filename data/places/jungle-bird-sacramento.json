@@ -109,7 +109,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -177,6 +177,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-jungle-bird",
+      "url": "https://mytiki.life/tiki-bars/the-jungle-bird",
+      "firstSeenAt": "2026-11-22T11:08:22.404Z",
+      "lastSeenAt": "2026-11-22T11:08:22.404Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "da0b03ce-4f9e-49a5-a1d6-a03ffb113229",
       "url": "https://explore.overturemaps.org/?feature=places.place.da0b03ce-4f9e-49a5-a1d6-a03ffb113229#17/38.574588775634766/-121.47260284423828",
@@ -199,6 +206,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

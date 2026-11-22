@@ -1,0 +1,57 @@
+{
+  "id": "vavoom-tiki-room-centrum",
+  "name": "Vavoom Tiki Room",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Centrum",
+    "region": "Den Haag",
+    "country": "NL"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+31 70 346 7506",
+    "website": "https://vavoomtikiroom.nl/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:05:51.672Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:05:51.672Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:05:51.672Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:05:51.672Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "vavoom-tiki-room",
+      "url": "https://mytiki.life/tiki-bars/vavoom-tiki-room",
+      "firstSeenAt": "2026-11-22T16:05:51.672Z",
+      "lastSeenAt": "2026-11-22T16:05:51.672Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T16:05:51.672Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

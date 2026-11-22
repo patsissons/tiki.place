@@ -2,6 +2,7 @@
   "id": "tonga-hut-valley-glen",
   "name": "Tonga Hut",
   "aliases": [
+    "Tonga Hut - North Hollywood",
     "Tonga Hut Tiki Lounge"
   ],
   "location": {
@@ -195,6 +196,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tonga-hut-los-angeles",
+      "url": "https://mytiki.life/tiki-bars/tonga-hut-los-angeles",
+      "firstSeenAt": "2026-11-22T14:38:47.730Z",
+      "lastSeenAt": "2026-11-22T14:38:47.730Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3b3eb972-2966-4ab3-8534-0a30615b9445",
       "url": "https://explore.overturemaps.org/?feature=places.place.3b3eb972-2966-4ab3-8534-0a30615b9445#17/34.1864128112793/-118.41221618652344",
@@ -224,6 +232,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

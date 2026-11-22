@@ -101,7 +101,7 @@
   },
   "priceLevel": "$$",
   "established": 2017,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -170,6 +170,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "jacobys-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/jacobys-tiki-bar",
+      "firstSeenAt": "2026-11-22T02:53:20.359Z",
+      "lastSeenAt": "2026-11-22T02:53:20.359Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "15a5e004-2135-4c01-9f4f-43dd7da31ff4",
       "url": "https://explore.overturemaps.org/?feature=places.place.15a5e004-2135-4c01-9f4f-43dd7da31ff4#17/-33.898921966552734/151.1731719970703",
@@ -192,6 +199,6 @@
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

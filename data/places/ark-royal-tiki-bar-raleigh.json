@@ -1,7 +1,9 @@
 {
   "id": "ark-royal-tiki-bar-raleigh",
   "name": "The Ark Royal Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "The Ark Royal"
+  ],
   "location": {
     "lat": 35.785380599999996,
     "lng": -78.64684869999999,
@@ -94,6 +96,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-ark-royal",
+      "url": "https://mytiki.life/tiki-bars/the-ark-royal",
+      "firstSeenAt": "2026-11-22T09:59:09.242Z",
+      "lastSeenAt": "2026-11-22T09:59:09.242Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "7ce2fae2-485c-45df-81c5-eb906c7e31f6",
       "url": "https://explore.overturemaps.org/?feature=places.place.7ce2fae2-485c-45df-81c5-eb906c7e31f6#17/35.78520202636719/-78.64708709716797",
@@ -102,6 +111,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

@@ -124,7 +124,7 @@
   },
   "priceLevel": "$$$$",
   "established": 1971,
-  "tikiConfidence": 0.994,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -197,6 +197,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-munich",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-munich",
+      "firstSeenAt": "2026-11-22T15:26:26.059Z",
+      "lastSeenAt": "2026-11-22T15:26:26.059Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "trader-vics",
       "url": "https://tikiatlas.com/bar?slug=trader-vics",
@@ -219,6 +226,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

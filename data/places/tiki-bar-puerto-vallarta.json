@@ -1,7 +1,9 @@
 {
   "id": "tiki-bar-puerto-vallarta",
   "name": "Tiki Bar Puerto Vallarta",
-  "aliases": [],
+  "aliases": [
+    "Bar Tiki Tiki"
+  ],
   "location": {
     "lat": 20.6644373,
     "lng": -105.2302675,
@@ -185,9 +187,16 @@
       "url": "https://explore.overturemaps.org/?feature=places.place.6617e87a-29df-4ad9-8c38-acffd1bb38a5#17/20.6644344329834/-105.23026275634766",
       "firstSeenAt": "2026-10-26T04:19:34.568Z",
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "7c6cfa9a-0819-45f3-b3bf-c764fb675294",
+      "url": "https://explore.overturemaps.org/?feature=places.place.7c6cfa9a-0819-45f3-b3bf-c764fb675294#17/20.65137481689453/-105.24378204345703",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-13T17:49:11.025Z",
+  "lastSyncedAt": "2026-11-22T16:52:30.992Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

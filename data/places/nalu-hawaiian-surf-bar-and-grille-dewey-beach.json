@@ -1,0 +1,59 @@
+{
+  "id": "nalu-hawaiian-surf-bar-and-grille-dewey-beach",
+  "name": "Nalu Hawaiian Surf Bar & Grille",
+  "aliases": [
+    "Nalu Hawaiian Surf Bar & Grille - Dewey Beach"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Dewey Beach",
+    "region": "Delaware",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+302.227.1449",
+    "website": "https://www.nalusurfbar.com/dewey/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:44:46.455Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:44:46.455Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:44:46.455Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T06:44:46.455Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "nalu-hawaiian-surf-bar-grille",
+      "url": "https://mytiki.life/tiki-bars/nalu-hawaiian-surf-bar-grille",
+      "firstSeenAt": "2026-11-22T06:44:46.455Z",
+      "lastSeenAt": "2026-11-22T06:44:46.455Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T06:44:46.455Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

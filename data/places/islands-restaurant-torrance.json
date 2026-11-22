@@ -1,0 +1,59 @@
+{
+  "id": "islands-restaurant-torrance",
+  "name": "Islands Restaurant",
+  "aliases": [
+    "Islands Restaurant - Torrance"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Torrance",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+1 310-530-5383",
+    "website": "https://www.islandsrestaurants.com/locations/torrance"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:51:01.101Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:51:01.101Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:51:01.101Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:51:01.101Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "islands-restaurant",
+      "url": "https://mytiki.life/tiki-bars/islands-restaurant",
+      "firstSeenAt": "2026-11-22T02:51:01.101Z",
+      "lastSeenAt": "2026-11-22T02:51:01.101Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T02:51:01.101Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

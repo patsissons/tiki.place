@@ -121,7 +121,7 @@
   },
   "priceLevel": "$$",
   "established": 2009,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -190,6 +190,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "smugglers-cove",
+      "url": "https://mytiki.life/tiki-bars/smugglers-cove",
+      "firstSeenAt": "2026-11-22T08:59:53.443Z",
+      "lastSeenAt": "2026-11-22T08:59:53.443Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1295101185",
       "url": "https://www.openstreetmap.org/node/1295101185",
@@ -212,6 +219,6 @@
     }
   ],
   "firstSeenAt": "2026-03-09T12:00:00.000Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

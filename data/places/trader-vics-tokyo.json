@@ -1,7 +1,9 @@
 {
   "id": "trader-vics-tokyo",
   "name": "Trader Vic's Tokyo",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's"
+  ],
   "location": {
     "lat": 35.6798388,
     "lng": 139.7351429,
@@ -140,7 +142,7 @@
   },
   "priceLevel": "$$$$",
   "established": 1974,
-  "tikiConfidence": 0.994,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -212,6 +214,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-vics-tokyo",
+      "url": "https://mytiki.life/tiki-bars/trader-vics-tokyo",
+      "firstSeenAt": "2026-11-22T15:38:49.955Z",
+      "lastSeenAt": "2026-11-22T15:38:49.955Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "trader-vics-tokyo",
       "url": "https://tikiatlas.com/bar?slug=trader-vics-tokyo",
@@ -227,6 +236,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

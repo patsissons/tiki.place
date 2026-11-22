@@ -2,7 +2,8 @@
   "id": "capt-js-hurricane-tilburg",
   "name": "Capt. J's Hurricane Caribbeanclub & Tikiroom",
   "aliases": [
-    "Capt. J's Hurricane"
+    "Capt. J's Hurricane",
+    "Capt. J's Hurricane Tiki Room"
   ],
   "location": {
     "lat": 51.5551033,
@@ -24,9 +25,10 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
+    "phone": "013 222 00 95",
     "website": "http://www.tikiroom.nl/"
   },
-  "tikiConfidence": 0.75,
+  "tikiConfidence": 0.948,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,6 +39,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:18:23.561Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -57,6 +63,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "capt-js-hurricane",
+      "url": "https://mytiki.life/tiki-bars/capt-js-hurricane",
+      "firstSeenAt": "2026-11-22T00:18:23.561Z",
+      "lastSeenAt": "2026-11-22T00:18:23.561Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "ab7a387d-3157-4356-a589-bb468469cbc6",
       "url": "https://explore.overturemaps.org/?feature=places.place.ab7a387d-3157-4356-a589-bb468469cbc6#17/51.55510330200195/5.088735103607178",
@@ -65,5 +78,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

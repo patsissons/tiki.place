@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hugmans-oasis",
+      "url": "https://mytiki.life/tiki-bars/hugmans-oasis",
+      "firstSeenAt": "2026-11-22T02:31:33.058Z",
+      "lastSeenAt": "2026-11-22T02:31:33.058Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "41940845-2db4-4f5e-a556-cc2f63346dad",
       "url": "https://explore.overturemaps.org/?feature=places.place.41940845-2db4-4f5e-a556-cc2f63346dad#17/29.424909591674805/-98.49225616455078",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

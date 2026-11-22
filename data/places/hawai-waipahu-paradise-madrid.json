@@ -1,0 +1,56 @@
+{
+  "id": "hawai-waipahu-paradise-madrid",
+  "name": "Hawai Waipahu Paradise",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Madrid",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+34 674 28 39 51",
+    "website": "https://bar-de-copas-las-tintas.eatbu.com/?lang=en"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:24.451Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:24.451Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:24.451Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:24.451Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "hawai-waipahu-paradise",
+      "url": "https://mytiki.life/tiki-bars/hawai-waipahu-paradise",
+      "firstSeenAt": "2026-11-22T01:51:24.451Z",
+      "lastSeenAt": "2026-11-22T01:51:24.451Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:51:24.451Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

@@ -83,7 +83,7 @@
   },
   "priceLevel": "$$",
   "established": 2021,
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -155,6 +155,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "maipai-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/maipai-tiki-bar",
+      "firstSeenAt": "2026-11-22T05:55:34.683Z",
+      "lastSeenAt": "2026-11-22T05:55:34.683Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "4ac83991-2499-4006-ba1a-5abda72ea4fa",
       "url": "https://explore.overturemaps.org/?feature=places.place.4ac83991-2499-4006-ba1a-5abda72ea4fa#17/43.25711441040039/-79.83824157714844",
@@ -177,6 +184,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

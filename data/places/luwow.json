@@ -2,6 +2,7 @@
   "id": "luwow",
   "name": "The LuWOW",
   "aliases": [
+    "The LuWow - Melbourne",
     "The Luwow Tiki Bar And Shop"
   ],
   "location": {
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$$",
   "established": 2019,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -185,6 +186,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-luwow-melbourne",
+      "url": "https://mytiki.life/tiki-bars/the-luwow-melbourne",
+      "firstSeenAt": "2026-11-22T11:29:03.165Z",
+      "lastSeenAt": "2026-11-22T11:29:03.165Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/11135663731",
       "url": "https://www.openstreetmap.org/node/11135663731",
@@ -207,6 +215,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

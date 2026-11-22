@@ -130,6 +130,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-golden-tiki",
+      "url": "https://mytiki.life/tiki-bars/the-golden-tiki",
+      "firstSeenAt": "2026-11-22T10:44:16.100Z",
+      "lastSeenAt": "2026-11-22T10:44:16.100Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/12843104975",
       "url": "https://www.openstreetmap.org/node/12843104975",
@@ -166,6 +173,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

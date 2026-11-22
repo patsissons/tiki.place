@@ -1,0 +1,47 @@
+{
+  "id": "el-polinesio-cienfuegos",
+  "name": "El Polinesio",
+  "aliases": [
+    "El Polinesio - Cienfuegos"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Cienfuegos",
+    "country": "CU"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:20:39.197Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:20:39.197Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "el-polinesio-cienfuegos",
+      "url": "https://mytiki.life/tiki-bars/el-polinesio-cienfuegos",
+      "firstSeenAt": "2026-11-22T01:20:39.197Z",
+      "lastSeenAt": "2026-11-22T01:20:39.197Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:20:39.197Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

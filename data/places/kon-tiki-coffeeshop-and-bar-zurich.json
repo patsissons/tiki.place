@@ -2,11 +2,14 @@
   "id": "kon-tiki-coffeeshop-and-bar-zurich",
   "name": "Kon-Tiki Coffeeshop",
   "aliases": [
-    "Kon-Tiki Coffeeshop & Bar"
+    "Kon-Tiki",
+    "Kon-Tiki - Zürich",
+    "Kon-Tiki Coffeeshop & Bar",
+    "Kontiki"
   ],
   "location": {
-    "lat": 47.3739014,
-    "lng": 8.5437775,
+    "lat": 47.3738276,
+    "lng": 8.5437708,
     "precision": "rooftop"
   },
   "address": {
@@ -20,7 +23,8 @@
   "timezone": "Europe/Zurich",
   "externalIds": {
     "google": "ChIJn0FZy6mgmkcRIv8gLwN3S9E",
-    "overture": "39c98235-f7dc-4089-a2c4-1c3a541defbf"
+    "overture": "39c98235-f7dc-4089-a2c4-1c3a541defbf",
+    "osm": "node/317773504"
   },
   "status": {
     "value": "unverified",
@@ -28,9 +32,10 @@
     "at": "2026-11-21T22:52:15.230Z"
   },
   "contact": {
+    "phone": "+41 44 251 35 77",
     "website": "http://www.kontikibar.ch/"
   },
-  "tikiConfidence": 0.969,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -41,6 +46,10 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:28:48.335Z"
+    },
     "contact.website": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
@@ -50,8 +59,8 @@
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "name": {
       "sourceId": "overture",
@@ -71,6 +80,20 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kon-tiki-8",
+      "url": "https://mytiki.life/tiki-bars/kon-tiki-8",
+      "firstSeenAt": "2026-11-22T03:28:48.335Z",
+      "lastSeenAt": "2026-11-22T03:28:48.335Z"
+    },
+    {
+      "sourceId": "osm",
+      "sourceRef": "node/317773504",
+      "url": "https://www.openstreetmap.org/node/317773504",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "39c98235-f7dc-4089-a2c4-1c3a541defbf",
       "url": "https://explore.overturemaps.org/?feature=places.place.39c98235-f7dc-4089-a2c4-1c3a541defbf#17/47.3739013671875/8.543777465820312",
@@ -85,6 +108,6 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 1951,
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -185,6 +185,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "harbor-hut",
+      "url": "https://mytiki.life/tiki-bars/harbor-hut",
+      "firstSeenAt": "2026-11-22T01:50:35.916Z",
+      "lastSeenAt": "2026-11-22T01:50:35.916Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "harbor-hut",
       "url": "https://tikirat.com/bars/harbor-hut",
@@ -200,6 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-10T17:54:51.536Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

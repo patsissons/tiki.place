@@ -173,6 +173,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "pele-utu",
+      "url": "https://mytiki.life/tiki-bars/pele-utu",
+      "firstSeenAt": "2026-11-22T07:26:52.023Z",
+      "lastSeenAt": "2026-11-22T07:26:52.023Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3cc0dea8-e49b-4f66-a14c-f2916feb784a",
       "url": "https://explore.overturemaps.org/?feature=places.place.3cc0dea8-e49b-4f66-a14c-f2916feb784a#17/39.5289421081543/-119.83283233642578",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

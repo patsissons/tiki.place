@@ -120,7 +120,7 @@
   },
   "priceLevel": "$",
   "established": 2016,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -192,6 +192,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "test-pilot",
+      "url": "https://mytiki.life/tiki-bars/test-pilot",
+      "firstSeenAt": "2026-11-22T09:54:57.230Z",
+      "lastSeenAt": "2026-11-22T09:54:57.230Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "test-pilot",
       "url": "https://tikiatlas.com/bar?slug=test-pilot",
@@ -214,6 +221,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

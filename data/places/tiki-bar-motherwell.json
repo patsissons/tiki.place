@@ -2,6 +2,7 @@
   "id": "tiki-bar-motherwell",
   "name": "Tiki Bar & Darts Den",
   "aliases": [
+    "The Tiki Bar & Kitsch Inn - Glasgow",
     "Tiki Bar",
     "Tiki Bar and Kitsch Inn"
   ],
@@ -33,7 +34,7 @@
     "phone": "+44 141 332 1341",
     "website": "https://www.tikibarglasgow.com/"
   },
-  "tikiConfidence": 0.992,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -78,6 +79,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-tiki-bar-kitsch-inn-glasgow",
+      "url": "https://mytiki.life/tiki-bars/the-tiki-bar-kitsch-inn-glasgow",
+      "firstSeenAt": "2026-11-22T12:14:18.437Z",
+      "lastSeenAt": "2026-11-22T12:14:18.437Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/6567398193",
       "url": "https://www.openstreetmap.org/node/6567398193",
@@ -107,5 +115,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

@@ -1,7 +1,10 @@
 {
   "id": "alofah-tiki-bar-ciudad-de-mexico",
   "name": "Alofah Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Alofah",
+    "Alofah - Mexico City"
+  ],
   "location": {
     "lat": 19.4126087,
     "lng": -99.1574423,
@@ -62,6 +65,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "alofah-mexico-city",
+      "url": "https://mytiki.life/tiki-bars/alofah-mexico-city",
+      "firstSeenAt": "2026-11-21T22:53:44.899Z",
+      "lastSeenAt": "2026-11-21T22:53:44.899Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "alofah-tiki-bar",
       "url": "https://tikiatlas.com/bar?slug=alofah-tiki-bar",
@@ -70,5 +80,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

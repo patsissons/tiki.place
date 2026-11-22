@@ -25,6 +25,7 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
+    "phone": "(512) 402-5518",
     "website": "http://www.lostleiaustin.com/"
   },
   "tikiConfidence": 0.75,
@@ -37,6 +38,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:21:38.126Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -57,6 +62,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-lost-lei",
+      "url": "https://mytiki.life/tiki-bars/the-lost-lei",
+      "firstSeenAt": "2026-11-22T11:21:38.126Z",
+      "lastSeenAt": "2026-11-22T11:21:38.126Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "aea5f9e2-bdf8-4901-b5fe-6a524e74d99b",
       "url": "https://explore.overturemaps.org/?feature=places.place.aea5f9e2-bdf8-4901-b5fe-6a524e74d99b#17/30.266311645507812/-97.74459838867188",
@@ -65,5 +77,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

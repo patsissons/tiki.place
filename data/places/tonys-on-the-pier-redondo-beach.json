@@ -14,8 +14,11 @@
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.85,
+  "contact": {
+    "phone": "+1 310-374-1442",
+    "website": "https://www.oldtonys.com/"
+  },
+  "tikiConfidence": 0.955,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -27,12 +30,27 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:41:50.061Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T14:41:50.061Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tonys-on-the-pier",
+      "url": "https://mytiki.life/tiki-bars/tonys-on-the-pier",
+      "firstSeenAt": "2026-11-22T14:41:50.061Z",
+      "lastSeenAt": "2026-11-22T14:41:50.061Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "tonys-on-the-pier-redondo-beach",
@@ -43,5 +61,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

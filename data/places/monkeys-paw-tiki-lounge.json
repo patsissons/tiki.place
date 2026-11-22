@@ -2,7 +2,10 @@
   "id": "monkeys-paw-tiki-lounge",
   "name": "The Monkey's Paw Tiki Lounge",
   "aliases": [
-    "Monkey’s Paw"
+    "Monkey’s Paw",
+    "The Monkey's Paw - at Downtown Grill",
+    "The Monkey's Paw Tropical Tapas & Tiki Lounge",
+    "The Monkey's Paw Tropical Tapas & Tiki Lounge - Macon"
   ],
   "location": {
     "lat": 32.8365057,
@@ -83,7 +86,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -148,6 +151,20 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "monkeys-paw-at-downtown-grill",
+      "url": "https://mytiki.life/tiki-bars/monkeys-paw-at-downtown-grill",
+      "firstSeenAt": "2026-11-22T06:33:51.196Z",
+      "lastSeenAt": "2026-11-22T06:33:51.196Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-monkeys-paw-tropical-tapas-tiki-lounge-macon",
+      "url": "https://mytiki.life/tiki-bars/the-monkeys-paw-tropical-tapas-tiki-lounge-macon",
+      "firstSeenAt": "2026-11-22T11:32:43.239Z",
+      "lastSeenAt": "2026-11-22T11:32:43.239Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "01c35833-a919-405c-a858-d2d60a887ef1",
       "url": "https://explore.overturemaps.org/?feature=places.place.01c35833-a919-405c-a858-d2d60a887ef1#17/32.83649826049805/-83.6309585571289",
@@ -170,6 +187,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

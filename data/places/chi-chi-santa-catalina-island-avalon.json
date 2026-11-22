@@ -1,0 +1,48 @@
+{
+  "id": "chi-chi-santa-catalina-island-avalon",
+  "name": "Chi-Chi - Santa Catalina Island",
+  "aliases": [
+    "Chi-Chi"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Avalon",
+    "region": "California",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {},
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:27:40.382Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:27:40.382Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "chi-chi-santa-catalina-island",
+      "url": "https://mytiki.life/tiki-bars/chi-chi-santa-catalina-island",
+      "firstSeenAt": "2026-11-22T00:27:40.382Z",
+      "lastSeenAt": "2026-11-22T00:27:40.382Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:27:40.382Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

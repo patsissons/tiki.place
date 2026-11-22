@@ -2,7 +2,11 @@
   "id": "pacific-seas-los-angeles",
   "name": "The Pacific Seas",
   "aliases": [
-    "Clifton's Pacific Seas"
+    "Clifton's Pacific Seas",
+    "Clifton's Pacific Seas (Modern)",
+    "Clifton's Pacific Seas (Modern) - on Broadway - Los Angeles",
+    "Clifton's Pacific Seas (Original)",
+    "Clifton's Pacific Seas (Original) - on Olive Street - Los Angeles"
   ],
   "location": {
     "lat": 34.045420899999996,
@@ -101,6 +105,20 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "cliftons-pacific-seas",
+      "url": "https://mytiki.life/tiki-bars/cliftons-pacific-seas",
+      "firstSeenAt": "2026-11-22T00:36:46.020Z",
+      "lastSeenAt": "2026-11-22T00:36:46.020Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "cliftons-pacific-seas-1",
+      "url": "https://mytiki.life/tiki-bars/cliftons-pacific-seas-1",
+      "firstSeenAt": "2026-11-22T00:37:09.941Z",
+      "lastSeenAt": "2026-11-22T00:37:09.941Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3897f5da-0b77-4173-b628-88366bcf745b",
       "url": "https://explore.overturemaps.org/?feature=places.place.3897f5da-0b77-4173-b628-88366bcf745b#17/34.04520797729492/-118.25272369384766",
@@ -116,6 +134,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

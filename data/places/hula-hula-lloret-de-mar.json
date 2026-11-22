@@ -1,0 +1,53 @@
+{
+  "id": "hula-hula-lloret-de-mar",
+  "name": "Hula Hula",
+  "aliases": [
+    "Hula Hula - Lloret de Mar - Spain"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Lloret de Mar",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+34 972 36 41 22"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:35:06.771Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:35:06.771Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:35:06.771Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "hula-hula",
+      "url": "https://mytiki.life/tiki-bars/hula-hula",
+      "firstSeenAt": "2026-11-22T02:35:06.771Z",
+      "lastSeenAt": "2026-11-22T02:35:06.771Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T02:35:06.771Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

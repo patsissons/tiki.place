@@ -2,7 +2,8 @@
   "id": "bootlegger-tiki-palm-springs",
   "name": "Bootlegger Tiki",
   "aliases": [
-    "Don the Beachcomber"
+    "Don the Beachcomber",
+    "Don the Beachcomber - Palm Springs"
   ],
   "location": {
     "lat": 33.837396399999996,
@@ -196,6 +197,20 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "bootlegger-tiki",
+      "url": "https://mytiki.life/tiki-bars/bootlegger-tiki",
+      "firstSeenAt": "2026-11-21T23:43:15.856Z",
+      "lastSeenAt": "2026-11-21T23:43:15.856Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "don-the-beachcomber-palm-springs",
+      "url": "https://mytiki.life/tiki-bars/don-the-beachcomber-palm-springs",
+      "firstSeenAt": "2026-11-22T01:15:17.357Z",
+      "lastSeenAt": "2026-11-22T01:15:17.357Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/6361510295",
       "url": "https://www.openstreetmap.org/node/6361510295",
@@ -232,6 +247,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

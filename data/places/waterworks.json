@@ -94,6 +94,13 @@
       "lastSeenAt": "2026-11-17T19:13:01.376Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "waterworks",
+      "url": "https://mytiki.life/tiki-bars/waterworks",
+      "firstSeenAt": "2026-11-22T16:28:10.273Z",
+      "lastSeenAt": "2026-11-22T16:28:10.273Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "waterworks",
       "url": "https://tikirat.com/bars/waterworks",
@@ -102,6 +109,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-17T19:13:01.376Z"
 }

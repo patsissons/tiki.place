@@ -121,7 +121,7 @@
     "at": "2026-11-09T20:49:19.347Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -189,6 +189,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "aloha-oaxaca",
+      "url": "https://mytiki.life/tiki-bars/aloha-oaxaca",
+      "firstSeenAt": "2026-11-21T23:01:20.163Z",
+      "lastSeenAt": "2026-11-21T23:01:20.163Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "1796abbc-0875-4521-8138-0c8e1f91247a",
       "url": "https://explore.overturemaps.org/?feature=places.place.1796abbc-0875-4521-8138-0c8e1f91247a#17/17.069326400756836/-96.72161865234375",
@@ -204,6 +211,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

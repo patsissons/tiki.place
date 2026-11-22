@@ -1,7 +1,9 @@
 {
   "id": "kalypsotuttifrutti-cala-dor",
   "name": "Kalypsotuttifrutti",
-  "aliases": [],
+  "aliases": [
+    "Kalypso Tutti Frutti"
+  ],
   "location": {
     "lat": 39.3731567,
     "lng": 3.228468,
@@ -23,8 +25,11 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "phone": "+34 677 10 24 76",
+    "website": "http://kalypsotuttifrutti.com/"
+  },
+  "tikiConfidence": 0.981,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -34,6 +39,14 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:12:44.238Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:12:44.238Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -61,6 +74,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kalypsotuttifrutti-cala-dor-illes-balears",
+      "url": "https://mytiki.life/tiki-bars/kalypsotuttifrutti-cala-dor-illes-balears",
+      "firstSeenAt": "2026-11-22T03:12:44.238Z",
+      "lastSeenAt": "2026-11-22T03:12:44.238Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "kalypsotuttifrutti",
       "url": "https://tikiatlas.com/bar?slug=kalypsotuttifrutti",
@@ -69,5 +89,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

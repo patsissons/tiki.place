@@ -1,7 +1,9 @@
 {
   "id": "tiki-underground",
   "name": "Tiki Underground",
-  "aliases": [],
+  "aliases": [
+    "Tiki Underground - Cuyahoga Falls"
+  ],
   "location": {
     "lat": 41.1305179,
     "lng": -81.484128,
@@ -184,6 +186,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-underground-cuyahoga-falls",
+      "url": "https://mytiki.life/tiki-bars/tiki-underground-cuyahoga-falls",
+      "firstSeenAt": "2026-11-22T14:21:41.081Z",
+      "lastSeenAt": "2026-11-22T14:21:41.081Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/1218800858",
       "url": "https://www.openstreetmap.org/way/1218800858",
@@ -227,6 +236,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

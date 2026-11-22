@@ -1,0 +1,59 @@
+{
+  "id": "restaurant-waikiki-yonamoto",
+  "name": "Restaurant Waikiki",
+  "aliases": [
+    "Restaurant Waikiki - Yachiyo, Japan"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Yonamoto",
+    "region": "Yachiyo",
+    "country": "JP"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+81 47-488-0080",
+    "website": "http://waikiki-aloha.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:10:30.846Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:10:30.846Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:10:30.846Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:10:30.846Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "restaurant-waikiki-yachiyo-japan",
+      "url": "https://mytiki.life/tiki-bars/restaurant-waikiki-yachiyo-japan",
+      "firstSeenAt": "2026-11-22T08:10:30.846Z",
+      "lastSeenAt": "2026-11-22T08:10:30.846Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:10:30.846Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

@@ -183,6 +183,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "trader-morts-liquor-deli",
+      "url": "https://mytiki.life/tiki-bars/trader-morts-liquor-deli",
+      "firstSeenAt": "2026-11-22T14:53:55.001Z",
+      "lastSeenAt": "2026-11-22T14:53:55.001Z"
+    },
+    {
       "sourceId": "tikirat",
       "sourceRef": "trader-mort-s-liquor-deli",
       "url": "https://tikirat.com/bars/trader-mort-s-liquor-deli",
@@ -191,6 +198,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-14T16:38:04.344Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

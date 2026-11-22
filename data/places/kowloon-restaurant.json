@@ -1,7 +1,10 @@
 {
   "id": "kowloon-restaurant",
   "name": "Kowloon Restaurant",
-  "aliases": [],
+  "aliases": [
+    "Kowloon",
+    "Kowloon - Saugus, Massachusetts"
+  ],
   "location": {
     "lat": 42.467878999999996,
     "lng": -71.02488079999999,
@@ -120,7 +123,7 @@
   },
   "priceLevel": "$$",
   "established": 1950,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -192,6 +195,13 @@
       "lastSeenAt": "2026-11-15T17:14:47.787Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kowloon",
+      "url": "https://mytiki.life/tiki-bars/kowloon",
+      "firstSeenAt": "2026-11-22T03:50:21.451Z",
+      "lastSeenAt": "2026-11-22T03:50:21.451Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "kowloon-restaurant",
       "url": "https://tikiatlas.com/bar?slug=kowloon-restaurant",
@@ -214,6 +224,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-15T17:14:47.787Z"
 }

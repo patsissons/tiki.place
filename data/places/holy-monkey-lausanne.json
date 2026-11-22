@@ -1,0 +1,56 @@
+{
+  "id": "holy-monkey-lausanne",
+  "name": "Holy Monkey",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Lausanne",
+    "country": "CH"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+41 21 515 51 92",
+    "website": "https://holymonkey.ch/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:19:17.775Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:19:17.775Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:19:17.775Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T02:19:17.775Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "holy-monkey",
+      "url": "https://mytiki.life/tiki-bars/holy-monkey",
+      "firstSeenAt": "2026-11-22T02:19:17.775Z",
+      "lastSeenAt": "2026-11-22T02:19:17.775Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T02:19:17.775Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

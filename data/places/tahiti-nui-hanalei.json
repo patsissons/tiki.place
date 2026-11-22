@@ -14,7 +14,10 @@
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "+1 808-826-6277",
+    "website": "https://www.thenui.com/"
+  },
   "tikiConfidence": 0.85,
   "review": {
     "state": "rejected",
@@ -27,12 +30,27 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:42:34.118Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:42:34.118Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tahiti-nui",
+      "url": "https://mytiki.life/tiki-bars/tahiti-nui",
+      "firstSeenAt": "2026-11-22T09:42:34.118Z",
+      "lastSeenAt": "2026-11-22T09:42:34.118Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "tahiti-nui-hanalei",
@@ -43,5 +61,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

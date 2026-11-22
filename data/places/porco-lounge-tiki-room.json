@@ -166,6 +166,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "porco-lounge-tiki-room",
+      "url": "https://mytiki.life/tiki-bars/porco-lounge-tiki-room",
+      "firstSeenAt": "2026-11-22T07:50:24.676Z",
+      "lastSeenAt": "2026-11-22T07:50:24.676Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/252180623",
       "url": "https://www.openstreetmap.org/way/252180623",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

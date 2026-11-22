@@ -1,0 +1,58 @@
+{
+  "id": "hawaii-cinco-cero-monterrey-mexico-san-pedro-garza-garcia",
+  "name": "Hawaii Cinco Cero - Monterrey, Mexico",
+  "aliases": [
+    "Hawaii Cinco Cero"
+  ],
+  "location": null,
+  "address": {
+    "locality": "San Pedro Garza García",
+    "country": "MX"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+52 81 1098 5249",
+    "website": "https://www.cincocero.com.mx/eng/index.php"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:47.602Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:47.602Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:47.602Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:51:47.602Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "hawaii-cinco-cero-monterrey-mexico",
+      "url": "https://mytiki.life/tiki-bars/hawaii-cinco-cero-monterrey-mexico",
+      "firstSeenAt": "2026-11-22T01:51:47.602Z",
+      "lastSeenAt": "2026-11-22T01:51:47.602Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:51:47.602Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

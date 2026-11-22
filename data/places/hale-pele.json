@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hale-pele",
+      "url": "https://mytiki.life/tiki-bars/hale-pele",
+      "firstSeenAt": "2026-11-22T01:48:40.125Z",
+      "lastSeenAt": "2026-11-22T01:48:40.125Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "cbf372b5-5e23-4d25-8eaa-54335d7c1868",
       "url": "https://explore.overturemaps.org/?feature=places.place.cbf372b5-5e23-4d25-8eaa-54335d7c1868#17/45.5352668762207/-122.63737487792969",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

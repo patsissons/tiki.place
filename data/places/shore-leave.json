@@ -173,6 +173,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "shore-leave",
+      "url": "https://mytiki.life/tiki-bars/shore-leave",
+      "firstSeenAt": "2026-11-22T08:51:11.048Z",
+      "lastSeenAt": "2026-11-22T08:51:11.048Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "582df0e6-81af-40d8-8b2e-a21f3f87c14e",
       "url": "https://explore.overturemaps.org/?feature=places.place.582df0e6-81af-40d8-8b2e-a21f3f87c14e#17/42.34543228149414/-71.06401062011719",
@@ -202,6 +209,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

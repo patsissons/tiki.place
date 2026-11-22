@@ -1,0 +1,52 @@
+{
+  "id": "lees-tahitian-richland",
+  "name": "Lee's Tahitian",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Richland",
+    "region": "Washington",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+1 509-946-1068"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:06:08.341Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:06:08.341Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T04:06:08.341Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "lees-tahitian",
+      "url": "https://mytiki.life/tiki-bars/lees-tahitian",
+      "firstSeenAt": "2026-11-22T04:06:08.341Z",
+      "lastSeenAt": "2026-11-22T04:06:08.341Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T04:06:08.341Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

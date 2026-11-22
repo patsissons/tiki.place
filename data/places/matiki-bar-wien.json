@@ -102,7 +102,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.986,
+  "tikiConfidence": 0.996,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -170,6 +170,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "matiki",
+      "url": "https://mytiki.life/tiki-bars/matiki",
+      "firstSeenAt": "2026-11-22T06:13:44.405Z",
+      "lastSeenAt": "2026-11-22T06:13:44.405Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/6019712908",
       "url": "https://www.openstreetmap.org/node/6019712908",
@@ -192,6 +199,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

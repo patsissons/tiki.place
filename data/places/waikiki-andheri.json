@@ -1,0 +1,53 @@
+{
+  "id": "waikiki-andheri",
+  "name": "Waikiki",
+  "aliases": [
+    "Waikiki - at the Peninsula Grand Hotel - Andheri (Mumbai)"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Andheri",
+    "country": "IN"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "website": "https://waikikiexperience.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:15:47.475Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:15:47.475Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:15:47.475Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "waikiki-at-the-peninsula-grand-hotel-andheri-mumbai",
+      "url": "https://mytiki.life/tiki-bars/waikiki-at-the-peninsula-grand-hotel-andheri-mumbai",
+      "firstSeenAt": "2026-11-22T16:15:47.475Z",
+      "lastSeenAt": "2026-11-22T16:15:47.475Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T16:15:47.475Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

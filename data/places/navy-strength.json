@@ -1,7 +1,9 @@
 {
   "id": "navy-strength",
   "name": "Navy Strength",
-  "aliases": [],
+  "aliases": [
+    "Navy Strength Tropical Bar"
+  ],
   "location": {
     "lat": 47.6153178,
     "lng": -122.3482096,
@@ -164,6 +166,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "navy-strength-tropical-bar",
+      "url": "https://mytiki.life/tiki-bars/navy-strength-tropical-bar",
+      "firstSeenAt": "2026-11-22T06:46:03.977Z",
+      "lastSeenAt": "2026-11-22T06:46:03.977Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/5067774521",
       "url": "https://www.openstreetmap.org/node/5067774521",
@@ -193,6 +202,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

@@ -1,7 +1,9 @@
 {
   "id": "ponche-tiki-bar-annapolis",
   "name": "Ponche Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Ponche Tiki Bar - at Pearl Restaurant"
+  ],
   "location": {
     "lat": 38.977990299999995,
     "lng": -76.48768079999999,
@@ -94,6 +96,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "ponche-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/ponche-tiki-bar",
+      "firstSeenAt": "2026-11-22T07:49:48.628Z",
+      "lastSeenAt": "2026-11-22T07:49:48.628Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "541c165d-51e6-40c9-8c1b-37e757860f23",
       "url": "https://explore.overturemaps.org/?feature=places.place.541c165d-51e6-40c9-8c1b-37e757860f23#17/38.977935791015625/-76.4876708984375",
@@ -109,6 +118,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

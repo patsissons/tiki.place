@@ -91,6 +91,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "blue-kahunas",
+      "url": "https://mytiki.life/tiki-bars/blue-kahunas",
+      "firstSeenAt": "2026-11-21T23:40:22.188Z",
+      "lastSeenAt": "2026-11-21T23:40:22.188Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "06a57bec-81ab-4fde-af4c-61c9181a3bfa",
       "url": "https://explore.overturemaps.org/?feature=places.place.06a57bec-81ab-4fde-af4c-61c9181a3bfa#17/-32.92698287963867/151.78170776367188",
@@ -99,6 +106,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

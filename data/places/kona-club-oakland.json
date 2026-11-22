@@ -194,6 +194,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kona-club",
+      "url": "https://mytiki.life/tiki-bars/kona-club",
+      "firstSeenAt": "2026-11-22T03:38:58.435Z",
+      "lastSeenAt": "2026-11-22T03:38:58.435Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1241641683",
       "url": "https://www.openstreetmap.org/node/1241641683",
@@ -230,6 +237,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

@@ -1,29 +1,37 @@
 {
   "id": "tiki-taky-bar-praha",
   "name": "Tiki Taky Bar",
-  "aliases": [],
+  "aliases": [
+    "Tiki Taky Cocktail Bar"
+  ],
   "location": {
-    "lat": 50.0861143,
-    "lng": 14.4510693,
+    "lat": 50.0846181,
+    "lng": 14.4480283,
     "precision": "rooftop"
   },
   "address": {
-    "street": "231/22 Cimburkova",
+    "street": "Seifertova",
     "locality": "Praha",
+    "region": "10",
+    "postalCode": "13000",
     "country": "CZ"
   },
   "formattedAddress": "231/22 Cimburkova, Praha, 130 00, Česko",
   "timezone": "Europe/Prague",
   "externalIds": {
-    "google": "ChIJe9MTyZiUC0cROmuplB0d1Ps"
+    "google": "ChIJe9MTyZiUC0cROmuplB0d1Ps",
+    "overture": "2bd04933-091d-41ad-8097-6eda8463dcf2",
+    "osm": "node/5176055310"
   },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "website": "https://tikitaky.cz/?lang=en#reservation"
+  },
+  "tikiConfidence": 0.979,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -31,20 +39,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "osm",
+      "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "overture",
+      "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,6 +72,20 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/5176055310",
+      "url": "https://www.openstreetmap.org/node/5176055310",
+      "firstSeenAt": "2026-10-26T04:08:35.388Z",
+      "lastSeenAt": "2026-10-26T04:08:35.388Z"
+    },
+    {
+      "sourceId": "overture",
+      "sourceRef": "2bd04933-091d-41ad-8097-6eda8463dcf2",
+      "url": "https://explore.overturemaps.org/?feature=places.place.2bd04933-091d-41ad-8097-6eda8463dcf2#17/50.08457946777344/14.44837760925293",
+      "firstSeenAt": "2026-10-26T04:19:34.568Z",
+      "lastSeenAt": "2026-10-26T04:19:34.568Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tiki-taky-bar",
       "url": "https://tikiatlas.com/bar?slug=tiki-taky-bar",
@@ -67,6 +93,6 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "firstSeenAt": "2026-10-26T04:08:35.388Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

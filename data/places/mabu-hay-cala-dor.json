@@ -1,0 +1,56 @@
+{
+  "id": "mabu-hay-cala-dor",
+  "name": "Mabu-Hay",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Cala d'Or",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+34971658021",
+    "website": "https://mabu-hay.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:39:46.438Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:39:46.438Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:39:46.438Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T05:39:46.438Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "mabu-hay",
+      "url": "https://mytiki.life/tiki-bars/mabu-hay",
+      "firstSeenAt": "2026-11-22T05:39:46.438Z",
+      "lastSeenAt": "2026-11-22T05:39:46.438Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T05:39:46.438Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

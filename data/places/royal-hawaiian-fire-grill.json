@@ -2,6 +2,9 @@
   "id": "royal-hawaiian-fire-grill",
   "name": "Royal Hawaiian",
   "aliases": [
+    "Royal Hawaiian - Laguna Beach - from 1947 to 2006",
+    "Royal Hawaiian - Laguna Beach - from 2006 to 2022",
+    "Royal Hawaiian - Laguna Beach - from 2023 Onward",
     "The Royal Hawaiian Fire Grill"
   ],
   "location": {
@@ -102,7 +105,7 @@
   },
   "priceLevel": "$$",
   "established": 1947,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -174,6 +177,27 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "royal-hawaiian",
+      "url": "https://mytiki.life/tiki-bars/royal-hawaiian",
+      "firstSeenAt": "2026-11-22T08:19:16.373Z",
+      "lastSeenAt": "2026-11-22T08:19:16.373Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "royal-hawaiian-1",
+      "url": "https://mytiki.life/tiki-bars/royal-hawaiian-1",
+      "firstSeenAt": "2026-11-22T08:19:52.572Z",
+      "lastSeenAt": "2026-11-22T08:19:52.572Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "royal-hawaiian-from-2023-onward",
+      "url": "https://mytiki.life/tiki-bars/royal-hawaiian-from-2023-onward",
+      "firstSeenAt": "2026-11-22T08:23:38.685Z",
+      "lastSeenAt": "2026-11-22T08:23:38.685Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-royal-hawaiian-fire-grill",
       "url": "https://tikiatlas.com/bar?slug=the-royal-hawaiian-fire-grill",
@@ -196,6 +220,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

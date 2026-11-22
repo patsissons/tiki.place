@@ -1,7 +1,10 @@
 {
   "id": "hulas-modern-tiki-uptown",
   "name": "HULA'S Modern Tiki Uptown",
-  "aliases": [],
+  "aliases": [
+    "Hula's Modern Tiki",
+    "Hula's Modern Tiki - Uptown - Phoenix"
+  ],
   "location": {
     "lat": 33.51165,
     "lng": -112.0653177,
@@ -120,7 +123,7 @@
   },
   "priceLevel": "$$",
   "established": 2009,
-  "tikiConfidence": 0.994,
+  "tikiConfidence": 0.998,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -192,6 +195,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hulas-modern-tiki-uptown-phoenix",
+      "url": "https://mytiki.life/tiki-bars/hulas-modern-tiki-uptown-phoenix",
+      "firstSeenAt": "2026-11-22T02:41:11.249Z",
+      "lastSeenAt": "2026-11-22T02:41:11.249Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "hulas-modern-tiki-uptown",
       "url": "https://tikiatlas.com/bar?slug=hulas-modern-tiki-uptown",
@@ -207,6 +217,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

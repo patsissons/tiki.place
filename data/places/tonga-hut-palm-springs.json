@@ -186,6 +186,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tonga-hut-palm-springs",
+      "url": "https://mytiki.life/tiki-bars/tonga-hut-palm-springs",
+      "firstSeenAt": "2026-11-22T14:39:26.592Z",
+      "lastSeenAt": "2026-11-22T14:39:26.592Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "b1213577-e648-462b-ba0f-d909d2ba1851",
       "url": "https://explore.overturemaps.org/?feature=places.place.b1213577-e648-462b-ba0f-d909d2ba1851#17/33.825809478759766/-116.5466079711914",
@@ -215,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

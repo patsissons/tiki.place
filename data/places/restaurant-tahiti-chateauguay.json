@@ -1,0 +1,57 @@
+{
+  "id": "restaurant-tahiti-chateauguay",
+  "name": "Restaurant Tahiti",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Châteauguay",
+    "region": "Quebec",
+    "country": "CA"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+1 450-692-8112",
+    "website": "https://restaurant-tahiti-fusion.restaurants-world.com/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:09:15.630Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:09:15.630Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:09:15.630Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:09:15.630Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "restaurant-tahiti",
+      "url": "https://mytiki.life/tiki-bars/restaurant-tahiti",
+      "firstSeenAt": "2026-11-22T08:09:15.630Z",
+      "lastSeenAt": "2026-11-22T08:09:15.630Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:09:15.630Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

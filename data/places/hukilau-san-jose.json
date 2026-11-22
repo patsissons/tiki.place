@@ -182,7 +182,7 @@
   },
   "priceLevel": "$$",
   "established": 2005,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -254,6 +254,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hukilau-1",
+      "url": "https://mytiki.life/tiki-bars/hukilau-1",
+      "firstSeenAt": "2026-11-22T02:32:54.341Z",
+      "lastSeenAt": "2026-11-22T02:32:54.341Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "hukilau",
       "url": "https://tikiatlas.com/bar?slug=hukilau",
@@ -276,6 +283,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

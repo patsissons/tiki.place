@@ -2,6 +2,7 @@
   "id": "mama-kwans-tiki-bar-grill",
   "name": "Mama Kwan's Tiki Bar & Grill",
   "aliases": [
+    "Mama Kwan's",
     "Mama Kwan's Tiki Bar Grill"
   ],
   "location": {
@@ -113,7 +114,7 @@
   },
   "priceLevel": "$",
   "established": 2001,
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.993,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -178,6 +179,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mama-kwans",
+      "url": "https://mytiki.life/tiki-bars/mama-kwans",
+      "firstSeenAt": "2026-11-22T06:03:50.359Z",
+      "lastSeenAt": "2026-11-22T06:03:50.359Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "cbfd5eaf-0304-4279-b8ed-d20de827f6c8",
       "url": "https://explore.overturemaps.org/?feature=places.place.cbfd5eaf-0304-4279-b8ed-d20de827f6c8#17/35.99748992919922/-75.65081787109375",
@@ -193,6 +201,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

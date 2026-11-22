@@ -1,0 +1,53 @@
+{
+  "id": "el-polinesio-matanzas",
+  "name": "El Polinesio",
+  "aliases": [
+    "El Polinesio - Matanzas"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Matanzas",
+    "country": "CU"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+53 45 269958"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:21:59.798Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:21:59.798Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:21:59.798Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "el-polinesio-matanzas",
+      "url": "https://mytiki.life/tiki-bars/el-polinesio-matanzas",
+      "firstSeenAt": "2026-11-22T01:21:59.798Z",
+      "lastSeenAt": "2026-11-22T01:21:59.798Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T01:21:59.798Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

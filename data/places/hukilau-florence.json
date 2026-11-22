@@ -1,0 +1,59 @@
+{
+  "id": "hukilau-florence",
+  "name": "The Hukilau",
+  "aliases": [
+    "The Hukilau - Florence"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Florence",
+    "region": "Oregon",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "541-991-1071",
+    "website": "https://www.hukilauflorence.com/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:53:47.694Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:53:47.694Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:53:47.694Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T10:53:47.694Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "the-hukilau-florence",
+      "url": "https://mytiki.life/tiki-bars/the-hukilau-florence",
+      "firstSeenAt": "2026-11-22T10:53:47.694Z",
+      "lastSeenAt": "2026-11-22T10:53:47.694Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T10:53:47.694Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

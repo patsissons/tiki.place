@@ -1,7 +1,9 @@
 {
   "id": "kontiki-nurnberg",
   "name": "KonTiki",
-  "aliases": [],
+  "aliases": [
+    "KonTiki - Nürnberg"
+  ],
   "location": {
     "lat": 49.4525843,
     "lng": 11.073338699999999,
@@ -100,7 +102,7 @@
     "at": "2026-11-11T17:55:26.537Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.884,
+  "tikiConfidence": 0.965,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -161,6 +163,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kontiki-nurnberg",
+      "url": "https://mytiki.life/tiki-bars/kontiki-nurnberg",
+      "firstSeenAt": "2026-11-22T03:49:03.730Z",
+      "lastSeenAt": "2026-11-22T03:49:03.730Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/1503630924",
       "url": "https://www.openstreetmap.org/node/1503630924",
@@ -176,6 +185,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-11T17:55:26.537Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

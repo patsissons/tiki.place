@@ -22,8 +22,11 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "phone": "+351 291 822 032",
+    "website": "http://www.pukikibar.com/"
+  },
+  "tikiConfidence": 0.981,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,6 +36,14 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T07:58:18.206Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T07:58:18.206Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -60,6 +71,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "pukiki",
+      "url": "https://mytiki.life/tiki-bars/pukiki",
+      "firstSeenAt": "2026-11-22T07:58:18.206Z",
+      "lastSeenAt": "2026-11-22T07:58:18.206Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "pukiki",
       "url": "https://tikiatlas.com/bar?slug=pukiki",
@@ -68,5 +86,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

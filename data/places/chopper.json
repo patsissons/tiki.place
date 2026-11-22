@@ -185,6 +185,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "choppers-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/choppers-tiki-bar",
+      "firstSeenAt": "2026-11-22T00:31:35.938Z",
+      "lastSeenAt": "2026-11-22T00:31:35.938Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "d0d289b5-cb3e-47b5-9dfa-bb274f3d1c13",
       "url": "https://explore.overturemaps.org/?feature=places.place.d0d289b5-cb3e-47b5-9dfa-bb274f3d1c13#17/36.1826171875/-86.7485580444336",
@@ -214,6 +221,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

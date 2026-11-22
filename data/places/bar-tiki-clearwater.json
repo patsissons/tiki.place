@@ -28,9 +28,10 @@
     "at": "2026-10-30T20:39:09.190Z"
   },
   "contact": {
+    "phone": "(727) 443-1750",
     "website": "http://www.bartiki.com/"
   },
-  "tikiConfidence": 0.997,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -41,6 +42,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-21T23:27:39.147Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -72,6 +77,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "bar-tiki-clearwater-beach",
+      "url": "https://mytiki.life/tiki-bars/bar-tiki-clearwater-beach",
+      "firstSeenAt": "2026-11-21T23:27:39.147Z",
+      "lastSeenAt": "2026-11-21T23:27:39.147Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/10759526058",
       "url": "https://www.openstreetmap.org/node/10759526058",
@@ -101,5 +113,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

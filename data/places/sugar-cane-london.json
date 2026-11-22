@@ -22,9 +22,10 @@
     "at": "2026-10-26T04:28:59.067Z"
   },
   "contact": {
+    "phone": "+44 20 7223 8866",
     "website": "https://thesugarcane.co.uk/"
   },
-  "tikiConfidence": 0.75,
+  "tikiConfidence": 0.925,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -35,6 +36,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T09:24:36.149Z"
     },
     "contact.website": {
       "sourceId": "overture",
@@ -54,6 +59,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "sugar-cane",
+      "url": "https://mytiki.life/tiki-bars/sugar-cane",
+      "firstSeenAt": "2026-11-22T09:24:36.149Z",
+      "lastSeenAt": "2026-11-22T09:24:36.149Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "e197c318-304c-47e0-b0b2-dca81cab5661",
@@ -87,5 +99,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

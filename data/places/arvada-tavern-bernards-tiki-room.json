@@ -3,6 +3,7 @@
   "name": "The Arvada Tavern",
   "aliases": [
     "Bernard's Tiki Room",
+    "Bernard's Tiki Room - at the Arvada Tavern",
     "Sippin’ Santa",
     "The Arvada Tavern Bernard's Tiki Room"
   ],
@@ -125,7 +126,7 @@
   },
   "priceLevel": "$$",
   "established": 2013,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -191,6 +192,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "bernards-tiki-room",
+      "url": "https://mytiki.life/tiki-bars/bernards-tiki-room",
+      "firstSeenAt": "2026-11-21T23:33:46.876Z",
+      "lastSeenAt": "2026-11-21T23:33:46.876Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "92265cce-e920-4b0a-8e99-ccf806a98585",
       "url": "https://explore.overturemaps.org/?feature=places.place.92265cce-e920-4b0a-8e99-ccf806a98585#17/39.80035400390625/-105.08161163330078",
@@ -220,6 +228,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.996,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -181,6 +181,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "chiefs-da-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/chiefs-da-tiki-bar",
+      "firstSeenAt": "2026-11-22T00:28:21.603Z",
+      "lastSeenAt": "2026-11-22T00:28:21.603Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "6e580042-fd06-4d79-9aa8-bf899cfab5fd",
       "url": "https://explore.overturemaps.org/?feature=places.place.6e580042-fd06-4d79-9aa8-bf899cfab5fd#17/32.658836364746094/-117.03758239746094",
@@ -203,6 +210,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

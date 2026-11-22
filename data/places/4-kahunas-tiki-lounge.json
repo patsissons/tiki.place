@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "4-kahunas-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/4-kahunas-tiki-lounge",
+      "firstSeenAt": "2026-11-21T22:41:51.015Z",
+      "lastSeenAt": "2026-11-21T22:41:51.015Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "caf56666-d762-42be-8486-03cf16af4071",
       "url": "https://explore.overturemaps.org/?feature=places.place.caf56666-d762-42be-8486-03cf16af4071#17/32.73789596557617/-97.10194396972656",
@@ -224,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

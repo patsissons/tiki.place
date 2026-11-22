@@ -3,6 +3,7 @@
   "name": "Duke's Hideaway at McCray's",
   "aliases": [
     "Duke's Hideaway",
+    "Duke's Hideaway - at McCray's Tavern On The Beltline",
     "Duke's Hideaway At McCray's Tavern",
     "Duke’s Hideaway at The Baxter"
   ],
@@ -86,7 +87,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -158,6 +159,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "dukes-hideaway-at-mccrays-tavern-on-the-beltline",
+      "url": "https://mytiki.life/tiki-bars/dukes-hideaway-at-mccrays-tavern-on-the-beltline",
+      "firstSeenAt": "2026-11-22T01:18:37.715Z",
+      "lastSeenAt": "2026-11-22T01:18:37.715Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/14185903748",
       "url": "https://www.openstreetmap.org/node/14185903748",
@@ -187,6 +195,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

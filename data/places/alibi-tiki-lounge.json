@@ -195,6 +195,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-alibi",
+      "url": "https://mytiki.life/tiki-bars/the-alibi",
+      "firstSeenAt": "2026-11-22T09:56:42.964Z",
+      "lastSeenAt": "2026-11-22T09:56:42.964Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "5fab38d3-6c5c-417f-9408-900d8f993559",
       "url": "https://explore.overturemaps.org/?feature=places.place.5fab38d3-6c5c-417f-9408-900d8f993559#17/45.55253601074219/-122.68070220947266",
@@ -224,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

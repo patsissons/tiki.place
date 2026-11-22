@@ -55,6 +55,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "rum-rok",
+      "url": "https://mytiki.life/tiki-bars/rum-rok",
+      "firstSeenAt": "2026-11-22T08:29:32.017Z",
+      "lastSeenAt": "2026-11-22T08:29:32.017Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "40625319-353e-4b52-ad3c-02012b419b96",
       "url": "https://explore.overturemaps.org/?feature=places.place.40625319-353e-4b52-ad3c-02012b419b96#17/38.58032989501953/-121.4854965209961",
@@ -99,5 +106,5 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

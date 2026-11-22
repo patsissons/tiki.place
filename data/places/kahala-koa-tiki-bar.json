@@ -165,6 +165,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "kahala-koa",
+      "url": "https://mytiki.life/tiki-bars/kahala-koa",
+      "firstSeenAt": "2026-11-22T03:03:53.088Z",
+      "lastSeenAt": "2026-11-22T03:03:53.088Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "032f09e3-0918-49e2-8377-77f8369b6a65",
       "url": "https://explore.overturemaps.org/?feature=places.place.032f09e3-0918-49e2-8377-77f8369b6a65#17/42.10356903076172/-87.96751403808594",
@@ -194,6 +201,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

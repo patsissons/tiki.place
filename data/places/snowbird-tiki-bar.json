@@ -122,7 +122,7 @@
   },
   "priceLevel": "$$",
   "established": 2016,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -194,6 +194,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "snowbird-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/snowbird-tiki-bar",
+      "firstSeenAt": "2026-11-22T09:01:50.772Z",
+      "lastSeenAt": "2026-11-22T09:01:50.772Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/11215969053",
       "url": "https://www.openstreetmap.org/node/11215969053",
@@ -230,6 +237,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

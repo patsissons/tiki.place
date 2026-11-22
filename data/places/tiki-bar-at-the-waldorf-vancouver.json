@@ -2,6 +2,8 @@
   "id": "tiki-bar-at-the-waldorf-vancouver",
   "name": "Tiki Bar at the Waldorf",
   "aliases": [
+    "The Polynesian Room",
+    "The Polynesian Room - at the Waldorf Hotel",
     "Waldorf Tiki Bar"
   ],
   "location": {
@@ -39,7 +41,7 @@
     "at": "2026-11-13T17:49:11.025Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.975,
+  "tikiConfidence": 0.993,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -96,6 +98,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-polynesian-room-at-the-waldorf-hotel",
+      "url": "https://mytiki.life/tiki-bars/the-polynesian-room-at-the-waldorf-hotel",
+      "firstSeenAt": "2026-11-22T11:48:21.965Z",
+      "lastSeenAt": "2026-11-22T11:48:21.965Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "db3c9ee7-9b90-4257-a685-49f419bc1d99",
       "url": "https://explore.overturemaps.org/?feature=places.place.db3c9ee7-9b90-4257-a685-49f419bc1d99#17/49.28144454956055/-123.07449340820312",
@@ -111,6 +120,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

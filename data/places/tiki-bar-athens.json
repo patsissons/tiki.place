@@ -26,10 +26,11 @@
     "at": "2026-11-21T22:26:10.379Z"
   },
   "contact": {
+    "phone": "+30 21 0923 6908",
     "website": "https://athenstikibar.com/"
   },
   "established": 2007,
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.994,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -40,6 +41,10 @@
     "address": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T22:26:47.757Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:56:53.468Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -75,6 +80,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-bar-athens",
+      "url": "https://mytiki.life/tiki-bars/tiki-bar-athens",
+      "firstSeenAt": "2026-11-22T12:56:53.468Z",
+      "lastSeenAt": "2026-11-22T12:56:53.468Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/7270241987",
       "url": "https://www.openstreetmap.org/node/7270241987",
@@ -97,5 +109,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

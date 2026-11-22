@@ -1,7 +1,9 @@
 {
   "id": "pineapple-parlor",
   "name": "Pineapple Parlor",
-  "aliases": [],
+  "aliases": [
+    "Pineapple Parlor - at Daiquiri Time Out - Galveston"
+  ],
   "location": {
     "lat": 29.3040003,
     "lng": -94.7986311,
@@ -100,7 +102,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -172,6 +174,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "pineapple-parlor-at-daiquiri-time-out-galveston",
+      "url": "https://mytiki.life/tiki-bars/pineapple-parlor-at-daiquiri-time-out-galveston",
+      "firstSeenAt": "2026-11-22T07:32:14.566Z",
+      "lastSeenAt": "2026-11-22T07:32:14.566Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "pineapple-parlor",
       "url": "https://tikiatlas.com/bar?slug=pineapple-parlor",
@@ -194,6 +203,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

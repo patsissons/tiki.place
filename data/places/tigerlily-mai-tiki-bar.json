@@ -2,6 +2,8 @@
   "id": "tigerlily-mai-tiki-bar",
   "name": "Mai Tiki",
   "aliases": [
+    "Mai Tiki Bar",
+    "Mai Tiki Bar - at Tigerlily",
     "TigerLily / Mai Tiki Bar"
   ],
   "location": {
@@ -40,7 +42,7 @@
   },
   "priceLevel": "$$",
   "established": 2022,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -108,6 +110,13 @@
       "lastSeenAt": "2026-11-15T17:14:47.787Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "mai-tiki-bar-at-tigerlily",
+      "url": "https://mytiki.life/tiki-bars/mai-tiki-bar-at-tigerlily",
+      "firstSeenAt": "2026-11-22T05:54:18.111Z",
+      "lastSeenAt": "2026-11-22T05:54:18.111Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "33c5f799-be5f-43fa-8c00-4b05413a15b1",
       "url": "https://explore.overturemaps.org/?feature=places.place.33c5f799-be5f-43fa-8c00-4b05413a15b1#17/42.46043395996094/-83.1368179321289",
@@ -142,6 +151,6 @@
     "candidates": []
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-15T17:14:47.787Z"
 }

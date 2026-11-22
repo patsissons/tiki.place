@@ -1,7 +1,9 @@
 {
   "id": "aloha-tiki-bar-cocteleria-hawaiana-barcelona",
   "name": "Aloha, Tiki Bar, Coctelería Hawaiana",
-  "aliases": [],
+  "aliases": [
+    "Aloha Polinesian Bar"
+  ],
   "location": {
     "lat": 41.3897373,
     "lng": 2.154684,
@@ -99,7 +101,7 @@
     "at": "2026-11-09T20:49:19.347Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -160,6 +162,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "aloha-polinesian-bar",
+      "url": "https://mytiki.life/tiki-bars/aloha-polinesian-bar",
+      "firstSeenAt": "2026-11-21T23:01:47.522Z",
+      "lastSeenAt": "2026-11-21T23:01:47.522Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "1a5cf501-f135-4d17-a38f-54af745bccea",
       "url": "https://explore.overturemaps.org/?feature=places.place.1a5cf501-f135-4d17-a38f-54af745bccea#17/41.389686584472656/2.1547086238861084",
@@ -168,6 +177,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

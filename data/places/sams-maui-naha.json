@@ -1,0 +1,67 @@
+{
+  "id": "sams-maui-naha",
+  "name": "Sam's Maui",
+  "aliases": [
+    "Sam's Maui - Kokusai Street, Naha, Okinawa",
+    "Sam's Maui - Kumoji, Naha, Okinawa"
+  ],
+  "location": null,
+  "address": {
+    "locality": "Naha",
+    "region": "Naha",
+    "country": "JP"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+81 98-862-9085",
+    "website": "http://www.sams-okinawa.jp/maui/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:40:44.354Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:40:44.354Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:40:44.354Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:40:44.354Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "sams-maui",
+      "url": "https://mytiki.life/tiki-bars/sams-maui",
+      "firstSeenAt": "2026-11-22T08:39:59.976Z",
+      "lastSeenAt": "2026-11-22T08:39:59.976Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "sams-maui-1",
+      "url": "https://mytiki.life/tiki-bars/sams-maui-1",
+      "firstSeenAt": "2026-11-22T08:40:44.354Z",
+      "lastSeenAt": "2026-11-22T08:40:44.354Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:39:59.976Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

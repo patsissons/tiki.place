@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-bamboo-club",
+      "url": "https://mytiki.life/tiki-bars/the-bamboo-club",
+      "firstSeenAt": "2026-11-22T10:01:41.827Z",
+      "lastSeenAt": "2026-11-22T10:01:41.827Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "e803b0a6-46b2-4cc7-8a4d-8dd6d8eb4a43",
       "url": "https://explore.overturemaps.org/?feature=places.place.e803b0a6-46b2-4cc7-8a4d-8dd6d8eb4a43#17/33.78235626220703/-118.1507797241211",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

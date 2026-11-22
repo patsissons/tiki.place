@@ -1,0 +1,52 @@
+{
+  "id": "tiki-box-bar-koh-samui-thailand",
+  "name": "Tiki Box Bar - Koh Samui - Thailand",
+  "aliases": [
+    "Tiki Box Bar"
+  ],
+  "location": null,
+  "address": {
+    "country": "TH"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+66 88 857 5563"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:14:58.086Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:14:58.086Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:14:58.086Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-box-bar-koh-samui-thailand",
+      "url": "https://mytiki.life/tiki-bars/tiki-box-bar-koh-samui-thailand",
+      "firstSeenAt": "2026-11-22T13:14:58.086Z",
+      "lastSeenAt": "2026-11-22T13:14:58.086Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T13:14:58.086Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

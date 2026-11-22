@@ -1,0 +1,51 @@
+{
+  "id": "cheeki-tiki-bar-cala-d-or",
+  "name": "Cheeki Tiki Bar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Cala d Or",
+    "country": "ES"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+34649559808"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:25:08.434Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:25:08.434Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:25:08.434Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "cheeki-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/cheeki-tiki-bar",
+      "firstSeenAt": "2026-11-22T00:25:08.434Z",
+      "lastSeenAt": "2026-11-22T00:25:08.434Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:25:08.434Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

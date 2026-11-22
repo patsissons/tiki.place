@@ -1,7 +1,9 @@
 {
   "id": "china-doll-harvey",
   "name": "China Doll",
-  "aliases": [],
+  "aliases": [
+    "China Doll Restaurant"
+  ],
   "location": null,
   "address": {
     "locality": "Harvey",
@@ -14,8 +16,11 @@
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.85,
+  "contact": {
+    "phone": "+1 504-366-8822",
+    "website": "http://www.chinadoll.restaurant/"
+  },
+  "tikiConfidence": 0.955,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -27,12 +32,27 @@
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:29:11.082Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:29:11.082Z"
+    },
     "name": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
     }
   },
   "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "china-doll-restaurant",
+      "url": "https://mytiki.life/tiki-bars/china-doll-restaurant",
+      "firstSeenAt": "2026-11-22T00:29:11.082Z",
+      "lastSeenAt": "2026-11-22T00:29:11.082Z"
+    },
     {
       "sourceId": "tikiwanderlust",
       "sourceRef": "china-doll-harvey",
@@ -43,5 +63,5 @@
   ],
   "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

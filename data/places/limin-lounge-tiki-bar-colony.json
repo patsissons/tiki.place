@@ -4,6 +4,7 @@
   "aliases": [
     "Limin Lounge Tiki Bar",
     "Limin’ Lounge",
+    "Limin' Lounge - in The Texas Truck Yard at The Colony",
     "Truck Yard (Limin’ Lounge)"
   ],
   "location": {
@@ -126,7 +127,7 @@
   },
   "priceLevel": "$$",
   "established": 2017,
-  "tikiConfidence": 0.997,
+  "tikiConfidence": 0.999,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -198,6 +199,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "limin-lounge-a-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/limin-lounge-a-tiki-bar",
+      "firstSeenAt": "2026-11-22T04:11:35.412Z",
+      "lastSeenAt": "2026-11-22T04:11:35.412Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/12523245442",
       "url": "https://www.openstreetmap.org/node/12523245442",
@@ -227,6 +235,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T18:26:53.842Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-17T19:13:01.376Z"
 }

@@ -2,7 +2,8 @@
   "id": "rendezvous-tiki-lounge-kenosha",
   "name": "Rendezvous Tiki Lounge",
   "aliases": [
-    "Olle’s Tiki Bar"
+    "Olle’s Tiki Bar",
+    "The Rendez'vous"
   ],
   "location": {
     "lat": 42.5880805,
@@ -38,7 +39,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.998,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -102,6 +103,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-rendezvous",
+      "url": "https://mytiki.life/tiki-bars/the-rendezvous",
+      "firstSeenAt": "2026-11-22T11:51:57.291Z",
+      "lastSeenAt": "2026-11-22T11:51:57.291Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "cefe087b-3733-45f8-86c5-c12ab4445d77",
       "url": "https://explore.overturemaps.org/?feature=places.place.cefe087b-3733-45f8-86c5-c12ab4445d77#17/42.58808898925781/-87.83003997802734",
@@ -131,6 +139,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

@@ -1,0 +1,56 @@
+{
+  "id": "w-der-imbiss-berlin",
+  "name": "W Der Imbiss",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Berlin",
+    "country": "DE"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "030 21964464",
+    "website": "https://w-derimbiss.de/w-der-imbiss-fuggerstrasse"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:12:38.832Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:12:38.832Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:12:38.832Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T16:12:38.832Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "w-der-imbiss",
+      "url": "https://mytiki.life/tiki-bars/w-der-imbiss",
+      "firstSeenAt": "2026-11-22T16:12:38.832Z",
+      "lastSeenAt": "2026-11-22T16:12:38.832Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T16:12:38.832Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

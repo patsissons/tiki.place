@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-11T17:55:26.537Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "laka-lono-rum-club",
+      "url": "https://mytiki.life/tiki-bars/laka-lono-rum-club",
+      "firstSeenAt": "2026-11-22T03:55:12.469Z",
+      "lastSeenAt": "2026-11-22T03:55:12.469Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "c31e5162-c480-4d28-a498-73e331135f91",
       "url": "https://explore.overturemaps.org/?feature=places.place.c31e5162-c480-4d28-a498-73e331135f91#17/41.25557327270508/-95.93229675292969",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
 }

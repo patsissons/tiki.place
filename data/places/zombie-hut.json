@@ -1,7 +1,9 @@
 {
   "id": "zombie-hut",
   "name": "Zombie Hut",
-  "aliases": [],
+  "aliases": [
+    "Zombie Hut - Brooklyn"
+  ],
   "location": {
     "lat": 40.6825665,
     "lng": -73.99317020000001,
@@ -193,6 +195,13 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "zombie-hut-brooklyn",
+      "url": "https://mytiki.life/tiki-bars/zombie-hut-brooklyn",
+      "firstSeenAt": "2026-11-22T16:45:41.470Z",
+      "lastSeenAt": "2026-11-22T16:45:41.470Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "3d093e80-42f3-4b21-b1f3-03be8a800a23",
       "url": "https://explore.overturemaps.org/?feature=places.place.3d093e80-42f3-4b21-b1f3-03be8a800a23#17/40.68259048461914/-73.99320983886719",
@@ -222,6 +231,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

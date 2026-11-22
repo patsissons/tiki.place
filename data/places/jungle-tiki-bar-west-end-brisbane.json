@@ -1,7 +1,10 @@
 {
   "id": "jungle-tiki-bar-west-end-brisbane",
   "name": "Jungle Tiki Bar, West End, Brisbane",
-  "aliases": [],
+  "aliases": [
+    "Jungle Tiki Bar",
+    "Jungle Tiki Bar - Brisbane's West End"
+  ],
   "location": {
     "lat": -27.4807279,
     "lng": 153.0116225,
@@ -24,8 +27,11 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "phone": "+61448925912",
+    "website": "https://junglewestend.com.au/"
+  },
+  "tikiConfidence": 0.987,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -35,6 +41,14 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:02:22.391Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T03:02:22.391Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -62,6 +76,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "jungle-tiki-bar-brisbanes-west-end",
+      "url": "https://mytiki.life/tiki-bars/jungle-tiki-bar-brisbanes-west-end",
+      "firstSeenAt": "2026-11-22T03:02:22.391Z",
+      "lastSeenAt": "2026-11-22T03:02:22.391Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "jungle-tiki-bar-west-end-brisbane",
       "url": "https://tikiatlas.com/bar?slug=jungle-tiki-bar-west-end-brisbane",
@@ -70,5 +91,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

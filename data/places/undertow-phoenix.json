@@ -3,6 +3,8 @@
   "name": "UnderTow Arcadia at Century Grand",
   "aliases": [
     "UnderTow",
+    "UnderTow - at Sip Coffee & Beer Garage",
+    "Undertow - at The Century Grand",
     "Undertow Arcadia"
   ],
   "location": {
@@ -187,6 +189,20 @@
       "lastSeenAt": "2026-11-14T16:38:04.344Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "undertow",
+      "url": "https://mytiki.life/tiki-bars/undertow",
+      "firstSeenAt": "2026-11-22T16:01:15.709Z",
+      "lastSeenAt": "2026-11-22T16:01:15.709Z"
+    },
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "undertow-at-the-century-grand",
+      "url": "https://mytiki.life/tiki-bars/undertow-at-the-century-grand",
+      "firstSeenAt": "2026-11-22T16:01:56.343Z",
+      "lastSeenAt": "2026-11-22T16:01:56.343Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4802562589",
       "url": "https://www.openstreetmap.org/node/4802562589",
@@ -235,6 +251,6 @@
     ]
   },
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-14T16:38:04.344Z"
 }

@@ -24,8 +24,10 @@
     "sourceId": "system",
     "at": "2026-10-30T20:39:09.190Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.991,
+  "contact": {
+    "phone": "+1 773-794-9081"
+  },
+  "tikiConfidence": 0.997,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -36,6 +38,10 @@
     "address": {
       "sourceId": "tikiwanderlust",
       "observedAt": "2026-10-30T20:39:09.190Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T07:20:32.973Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -63,6 +69,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "paradise-club",
+      "url": "https://mytiki.life/tiki-bars/paradise-club",
+      "firstSeenAt": "2026-11-22T07:20:32.973Z",
+      "lastSeenAt": "2026-11-22T07:20:32.973Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "paradise-club",
       "url": "https://tikiatlas.com/bar?slug=paradise-club",
@@ -78,5 +91,5 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

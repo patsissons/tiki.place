@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-royal-tot",
+      "url": "https://mytiki.life/tiki-bars/the-royal-tot",
+      "firstSeenAt": "2026-11-22T11:53:14.027Z",
+      "lastSeenAt": "2026-11-22T11:53:14.027Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "1c1f6d99-b8e3-432e-9b50-a031f5b1a1a7",
       "url": "https://explore.overturemaps.org/?feature=places.place.1c1f6d99-b8e3-432e-9b50-a031f5b1a1a7#17/35.22476577758789/-80.82066345214844",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

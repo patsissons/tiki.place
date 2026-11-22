@@ -1,0 +1,57 @@
+{
+  "id": "tiki-port-barnstable",
+  "name": "Tiki Port",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Barnstable",
+    "region": "Massachusetts",
+    "country": "US"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+1 508-771-5220",
+    "website": "http://www.tikiport.com/"
+  },
+  "tikiConfidence": 0.79,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:56:08.397Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:56:08.397Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:56:08.397Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T13:56:08.397Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-port",
+      "url": "https://mytiki.life/tiki-bars/tiki-port",
+      "firstSeenAt": "2026-11-22T13:56:08.397Z",
+      "lastSeenAt": "2026-11-22T13:56:08.397Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T13:56:08.397Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

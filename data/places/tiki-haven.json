@@ -122,7 +122,7 @@
   },
   "priceLevel": "$",
   "established": 2002,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -194,6 +194,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-haven",
+      "url": "https://mytiki.life/tiki-bars/tiki-haven",
+      "firstSeenAt": "2026-11-22T13:28:48.902Z",
+      "lastSeenAt": "2026-11-22T13:28:48.902Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4199804593",
       "url": "https://www.openstreetmap.org/node/4199804593",
@@ -223,6 +230,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

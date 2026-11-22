@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "foundation",
+      "url": "https://mytiki.life/tiki-bars/foundation",
+      "firstSeenAt": "2026-11-22T01:34:33.136Z",
+      "lastSeenAt": "2026-11-22T01:34:33.136Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "ff1793a0-2561-4be5-b3cb-1f8ced5c7743",
       "url": "https://explore.overturemaps.org/?feature=places.place.ff1793a0-2561-4be5-b3cb-1f8ced5c7743#17/43.06797790527344/-87.9002456665039",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

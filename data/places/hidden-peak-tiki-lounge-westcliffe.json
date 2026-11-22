@@ -1,7 +1,9 @@
 {
   "id": "hidden-peak-tiki-lounge-westcliffe",
   "name": "hidden peak tiki lounge",
-  "aliases": [],
+  "aliases": [
+    "Hidden Peak Tiki Lounge - at B. Social Feedstore Restaurant"
+  ],
   "location": {
     "lat": 38.137114499999996,
     "lng": -105.46880159999999,
@@ -88,7 +90,7 @@
     "at": "2026-11-10T17:54:51.536Z"
   },
   "priceLevel": "$",
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -152,6 +154,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hidden-peak-tiki-lounge-at-b-social-feedstore-restaurant",
+      "url": "https://mytiki.life/tiki-bars/hidden-peak-tiki-lounge-at-b-social-feedstore-restaurant",
+      "firstSeenAt": "2026-11-22T02:13:24.099Z",
+      "lastSeenAt": "2026-11-22T02:13:24.099Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "15138a82-4637-4082-ae58-c4915b56260d",
       "url": "https://explore.overturemaps.org/?feature=places.place.15138a82-4637-4082-ae58-c4915b56260d#17/38.13711166381836/-105.46880340576172",
@@ -167,6 +176,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

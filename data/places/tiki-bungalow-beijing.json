@@ -21,8 +21,10 @@
     "sourceId": "system",
     "at": "2026-10-26T04:28:59.067Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.825,
+  "contact": {
+    "website": "https://www.barhopsters.com/2019/03/25/chinas-one-only-tiki-bar/"
+  },
+  "tikiConfidence": 0.948,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -32,6 +34,10 @@
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T12:15:03.961Z"
     },
     "location": {
       "sourceId": "overture",
@@ -48,6 +54,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-tiki-bungalow",
+      "url": "https://mytiki.life/tiki-bars/the-tiki-bungalow",
+      "firstSeenAt": "2026-11-22T12:15:03.961Z",
+      "lastSeenAt": "2026-11-22T12:15:03.961Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "eb89090d-442d-492d-8664-7aaa45bbd574",
       "url": "https://explore.overturemaps.org/?feature=places.place.eb89090d-442d-492d-8664-7aaa45bbd574#17/39.941993713378906/116.40583038330078",
@@ -56,5 +69,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

@@ -94,6 +94,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "fuchsia-tiki-bar",
+      "url": "https://mytiki.life/tiki-bars/fuchsia-tiki-bar",
+      "firstSeenAt": "2026-11-22T01:38:20.682Z",
+      "lastSeenAt": "2026-11-22T01:38:20.682Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "0ecc8eaf-93df-4bb5-ba5a-941e1ed5e01e",
       "url": "https://explore.overturemaps.org/?feature=places.place.0ecc8eaf-93df-4bb5-ba5a-941e1ed5e01e#17/41.745361328125/-74.07585144042969",
@@ -102,6 +109,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:43:46.530Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

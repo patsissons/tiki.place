@@ -1,7 +1,9 @@
 {
   "id": "tiki-bar-islamorada",
   "name": "Tiki Bar",
-  "aliases": [],
+  "aliases": [
+    "Tiki Bar - at Three Waters Resort & Marina - Islamorada"
+  ],
   "location": {
     "lat": 24.9001999,
     "lng": -80.6553192,
@@ -29,7 +31,7 @@
     "phone": "+1 305 664 2321",
     "website": "https://www.islamoradaresortcollection.com/"
   },
-  "tikiConfidence": 0.878,
+  "tikiConfidence": 0.963,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -63,6 +65,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tiki-bar-at-three-waters-resort-marina-islamorada",
+      "url": "https://mytiki.life/tiki-bars/tiki-bar-at-three-waters-resort-marina-islamorada",
+      "firstSeenAt": "2026-11-22T12:55:44.615Z",
+      "lastSeenAt": "2026-11-22T12:55:44.615Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "way/965379606",
       "url": "https://www.openstreetmap.org/way/965379606",
@@ -85,5 +94,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

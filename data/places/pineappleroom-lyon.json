@@ -2,6 +2,7 @@
   "id": "pineappleroom-lyon",
   "name": "Pineapple Room",
   "aliases": [
+    "Pineapple Room - Lyon - France",
     "PineappleRoom"
   ],
   "location": {
@@ -111,7 +112,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.763,
+  "tikiConfidence": 0.929,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -172,6 +173,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "pineapple-room-lyon-france",
+      "url": "https://mytiki.life/tiki-bars/pineapple-room-lyon-france",
+      "firstSeenAt": "2026-11-22T07:32:58.143Z",
+      "lastSeenAt": "2026-11-22T07:32:58.143Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "486e5e3e-6f32-47ac-8283-db2403b8c2ea",
       "url": "https://explore.overturemaps.org/?feature=places.place.486e5e3e-6f32-47ac-8283-db2403b8c2ea#17/45.7651481628418/4.8545637130737305",
@@ -180,6 +188,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

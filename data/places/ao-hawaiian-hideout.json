@@ -120,7 +120,7 @@
   },
   "priceLevel": "$$",
   "established": 2019,
-  "tikiConfidence": 0.999,
+  "tikiConfidence": 1,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-09T20:49:19.347Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "ao-hawaiian-hideout",
+      "url": "https://mytiki.life/tiki-bars/ao-hawaiian-hideout",
+      "firstSeenAt": "2026-11-21T23:05:00.002Z",
+      "lastSeenAt": "2026-11-21T23:05:00.002Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "ao-hawaiian-hideout",
       "url": "https://tikiatlas.com/bar?slug=ao-hawaiian-hideout",
@@ -215,6 +222,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
 }

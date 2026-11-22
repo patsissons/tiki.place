@@ -49,9 +49,29 @@
       "lastStatus": "ok",
       "observationCount": 446,
       "requestCount": 1
+    },
+    "mytiki": {
+      "lastRunAt": "2026-11-22T16:52:36.825Z",
+      "lastDiscoveryAt": "2026-11-22T16:52:36.825Z",
+      "lastStatus": "ok",
+      "observationCount": 1872,
+      "requestCount": 0
     }
   },
   "runs": [
+    {
+      "at": "2026-11-22T16:52:36.825Z",
+      "durationMs": 831,
+      "sources": [
+        "mytiki"
+      ],
+      "placesCreated": 152,
+      "placesUpdated": 380,
+      "placesPublished": 620,
+      "needsReview": 328,
+      "googleCalls": 0,
+      "warnings": []
+    },
     {
       "at": "2026-11-21T22:52:16.549Z",
       "durationMs": 909,
@@ -455,20 +475,6 @@
       "googleCalls": 743,
       "warnings": [
         "user-submission: discovery failed: github issues returned 401"
-      ]
-    },
-    {
-      "at": "2026-10-26T04:35:53.528Z",
-      "durationMs": 199547,
-      "sources": [],
-      "placesCreated": 0,
-      "placesUpdated": 1063,
-      "placesPublished": 535,
-      "needsReview": 528,
-      "googleCalls": 1187,
-      "warnings": [
-        "user-submission: discovery failed: github issues returned 401",
-        "bamboo-hut-san-francisco: details failed: place details ChIJMzF8WPSAhYARCEJqdcwnTMo: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'GetPlaceRequest' and limit 'GetPlaceRequest per minute' of service 'places.googleapis.com' for consumer 'project_number:890239050253'.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"RATE_LIMIT_EXCEEDED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"quota_limit\": \"GetPlaceRequestPerMinutePerProject\",\n          \"quota_metric\": \"places.googleapis.com/GetPlaceRequest\",\n          \"service\": \"places.googleapis.com\",\n          \"quota_unit\": \"1/min/{project}\",\n          \"quota_location\": \"global\",\n          \"quota_limit_value\": \"600\",\n          \"consumer\": \"projects/890239050253\",\n          \"window_start_time\": \"1792989267\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Request a higher quota limit.\",\n            \"url\": \"https://cloud.google.com/docs/quotas/help/request_increase\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
       ]
     }
   ]

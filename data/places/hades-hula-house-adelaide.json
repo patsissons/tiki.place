@@ -1,7 +1,9 @@
 {
   "id": "hades-hula-house-adelaide",
   "name": "Hades Hula House",
-  "aliases": [],
+  "aliases": [
+    "Hades Hula House - Adelaide"
+  ],
   "location": {
     "lat": -34.9230882,
     "lng": 138.5948028,
@@ -24,7 +26,9 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "+61 0480 458 292"
+  },
   "established": 2021,
   "tikiConfidence": 0.956,
   "review": {
@@ -36,6 +40,10 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T01:45:23.401Z"
     },
     "established": {
       "sourceId": "tikiatlas",
@@ -67,6 +75,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "hades-hula-house-1",
+      "url": "https://mytiki.life/tiki-bars/hades-hula-house-1",
+      "firstSeenAt": "2026-11-22T01:45:23.401Z",
+      "lastSeenAt": "2026-11-22T01:45:23.401Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "hades-hula-house",
       "url": "https://tikiatlas.com/bar?slug=hades-hula-house",
@@ -75,5 +90,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

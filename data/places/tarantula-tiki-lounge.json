@@ -193,6 +193,13 @@
       "lastSeenAt": "2026-11-13T17:49:11.025Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tarantula-tiki-lounge",
+      "url": "https://mytiki.life/tiki-bars/tarantula-tiki-lounge",
+      "firstSeenAt": "2026-11-22T09:52:34.693Z",
+      "lastSeenAt": "2026-11-22T09:52:34.693Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "fdacaf7e-e41f-48dd-b594-934b500f82ca",
       "url": "https://explore.overturemaps.org/?feature=places.place.fdacaf7e-e41f-48dd-b594-934b500f82ca#17/32.74280548095703/-97.3258285522461",
@@ -222,6 +229,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-13T17:49:11.025Z"
 }

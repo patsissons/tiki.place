@@ -24,7 +24,9 @@
     "sourceId": "system",
     "at": "2026-11-21T22:52:15.230Z"
   },
-  "contact": {},
+  "contact": {
+    "phone": "(502) 822-1222"
+  },
   "tikiConfidence": 0.938,
   "review": {
     "state": "needs_review",
@@ -35,6 +37,10 @@
     "address": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T11:19:51.918Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -62,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "the-limbo",
+      "url": "https://mytiki.life/tiki-bars/the-limbo",
+      "firstSeenAt": "2026-11-22T11:19:51.918Z",
+      "lastSeenAt": "2026-11-22T11:19:51.918Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "the-limbo",
       "url": "https://tikiatlas.com/bar?slug=the-limbo",
@@ -70,5 +83,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }

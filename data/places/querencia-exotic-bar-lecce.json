@@ -1,0 +1,56 @@
+{
+  "id": "querencia-exotic-bar-lecce",
+  "name": "Queréncia Exotic Bar",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Lecce",
+    "country": "IT"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+393278830236",
+    "website": "https://salentovip.it/listings/querencia/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:00:30.574Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:00:30.574Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:00:30.574Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:00:30.574Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "querencia-exotic-bar",
+      "url": "https://mytiki.life/tiki-bars/querencia-exotic-bar",
+      "firstSeenAt": "2026-11-22T08:00:30.574Z",
+      "lastSeenAt": "2026-11-22T08:00:30.574Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:00:30.574Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

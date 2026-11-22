@@ -1,0 +1,52 @@
+{
+  "id": "salon-bar-bali-hai-roberval",
+  "name": "Salon Bar Bali Ha'i",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Roberval",
+    "region": "Quebec",
+    "country": "CA"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+1 418-275-1447"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:32:49.974Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:32:49.974Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T08:32:49.974Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "salon-bar-bali-hai",
+      "url": "https://mytiki.life/tiki-bars/salon-bar-bali-hai",
+      "firstSeenAt": "2026-11-22T08:32:49.974Z",
+      "lastSeenAt": "2026-11-22T08:32:49.974Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T08:32:49.974Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

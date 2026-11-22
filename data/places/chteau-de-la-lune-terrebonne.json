@@ -1,0 +1,57 @@
+{
+  "id": "chteau-de-la-lune-terrebonne",
+  "name": "Chteau de la Lune",
+  "aliases": [],
+  "location": null,
+  "address": {
+    "locality": "Terrebonne",
+    "region": "Quebec",
+    "country": "CA"
+  },
+  "externalIds": {},
+  "status": {
+    "value": "unverified",
+    "sourceId": "system",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "contact": {
+    "phone": "+1 450-471-9912",
+    "website": "https://www.chateaudelalune.net/"
+  },
+  "tikiConfidence": 0.7,
+  "review": {
+    "state": "needs_review",
+    "by": "auto",
+    "at": "2026-11-22T16:52:36.825Z"
+  },
+  "provenance": {
+    "address": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:34:36.515Z"
+    },
+    "contact.phone": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:34:36.515Z"
+    },
+    "contact.website": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:34:36.515Z"
+    },
+    "name": {
+      "sourceId": "mytiki",
+      "observedAt": "2026-11-22T00:34:36.515Z"
+    }
+  },
+  "sources": [
+    {
+      "sourceId": "mytiki",
+      "sourceRef": "chteau-de-la-lune",
+      "url": "https://mytiki.life/tiki-bars/chteau-de-la-lune",
+      "firstSeenAt": "2026-11-22T00:34:36.515Z",
+      "lastSeenAt": "2026-11-22T00:34:36.515Z"
+    }
+  ],
+  "syncPolicy": "manual",
+  "firstSeenAt": "2026-11-22T00:34:36.515Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
+}

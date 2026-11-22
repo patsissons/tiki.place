@@ -183,6 +183,13 @@
       "lastSeenAt": "2026-11-10T17:54:51.536Z"
     },
     {
+      "sourceId": "mytiki",
+      "sourceRef": "casa-tiki",
+      "url": "https://mytiki.life/tiki-bars/casa-tiki",
+      "firstSeenAt": "2026-11-22T00:19:40.431Z",
+      "lastSeenAt": "2026-11-22T00:19:40.431Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "bb05f26b-e55d-402b-a8a3-d9c20e959d90",
       "url": "https://explore.overturemaps.org/?feature=places.place.bb05f26b-e55d-402b-a8a3-d9c20e959d90#17/25.765466690063477/-80.2231674194336",
@@ -198,6 +205,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:20:00.098Z",
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z",
   "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
 }

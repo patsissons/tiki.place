@@ -2,7 +2,8 @@
   "id": "tiki-grill-bar",
   "name": "Tikis Grill & Bar",
   "aliases": [
-    "Tiki Grill & Bar"
+    "Tiki Grill & Bar",
+    "Tiki's Grill & Bar - Honolulu"
   ],
   "location": {
     "lat": 21.2722354,
@@ -34,7 +35,7 @@
     "website": "https://tikis.com/"
   },
   "established": 2002,
-  "tikiConfidence": 0.99,
+  "tikiConfidence": 0.997,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -76,6 +77,13 @@
   },
   "sources": [
     {
+      "sourceId": "mytiki",
+      "sourceRef": "tikis-grill-bar",
+      "url": "https://mytiki.life/tiki-bars/tikis-grill-bar",
+      "firstSeenAt": "2026-11-22T14:27:45.422Z",
+      "lastSeenAt": "2026-11-22T14:27:45.422Z"
+    },
+    {
       "sourceId": "osm",
       "sourceRef": "node/4666917790",
       "url": "https://www.openstreetmap.org/node/4666917790",
@@ -105,5 +113,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-22T16:52:36.825Z"
 }
