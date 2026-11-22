@@ -185,6 +185,21 @@ describe("runEngine", () => {
     expect(validateData().problems).toEqual([]);
   });
 
+  it("keeps a promoted record as its own place instead of folding it into a lookalike", async () => {
+    store.writeSource(source({ id: "dir", adapter: "tikirat", trust: 0.5, tikiSignal: 0.85, schedule: { discovery: "weekly" } }));
+    const at = "2026-11-01T00:00:00.000Z";
+    const live = obs({ sourceId: "dir", sourceRef: "damons-brand", name: "Damon's", address: { locality: "Glendale", region: "California", country: "US" }, tags: ["tiki-directory"], observedAt: at });
+    const old = obs({ sourceId: "dir", sourceRef: "damons-central", name: "Damon's", address: { locality: "Glendale", region: "California", country: "US" }, observedAt: at });
+    store.writeObservations("dir", [live, old]);
+    store.appendDecision({ type: "create", key: "dir:damons-central", at, by: "owner" });
+    const run = (day: number) => engine.runEngine({ now: new Date(`2026-11-0${day}T10:00:00Z`), log: quiet, offline: true, skipVerify: true });
+    await run(2);
+    const refs = () => store.readPlaces().map((p) => p.sources.map((s) => s.sourceRef).join(",")).sort();
+    expect(refs()).toEqual(["damons-brand", "damons-central"]);
+    await run(3);
+    expect(refs()).toEqual(["damons-brand", "damons-central"]);
+  });
+
   it("does not count places that were already closed as flipped by this run", async () => {
     await engine.runEngine({ now: NOW, log: quiet, fetchFactory: () => fakeFetch(smallSitemap), skipVerify: true });
     const at = NOW.toISOString();
