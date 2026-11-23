@@ -38,15 +38,15 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-11-22T17:52:17.009Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-11-22T17:52:17.009Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-11-22T17:52:17.009Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
       "sourceId": "google",
@@ -54,7 +54,7 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-11-22T17:52:17.009Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -74,7 +74,7 @@
       "sourceRef": "ChIJkQ0bsPGpqYkRGXu88eBB61c",
       "url": "https://maps.google.com/?cid=6335229735210875673&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-11-22T17:52:17.009Z",
-      "lastSeenAt": "2026-11-22T17:52:17.009Z"
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -85,6 +85,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
-  "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

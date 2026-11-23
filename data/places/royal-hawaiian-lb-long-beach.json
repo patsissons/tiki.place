@@ -63,6 +63,42 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-23T22:04:49.340Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJUaNhzzXk3IARvaf7vR0OU3I",
+        "name": "Royal Hawaiian",
+        "distanceM": 45112,
+        "nameSim": 0.923
+      },
+      {
+        "googleId": "ChIJp_hwDe8z3YARIGlwX1I7jCg",
+        "name": "L&L Hawaiian Barbecue",
+        "distanceM": 3949,
+        "nameSim": 0.516
+      },
+      {
+        "googleId": "ChIJFaaXfdEx3YARrH0gebfdvCI",
+        "name": "L&L Hawaiian Barbecue",
+        "distanceM": 6820,
+        "nameSim": 0.516
+      },
+      {
+        "googleId": "ChIJy6_Yk3VyAHwRyPUq5FiSeLk",
+        "name": "The Royal Hawaiian, a Luxury Collection Resort, Waikiki",
+        "distanceM": 4118245,
+        "nameSim": 0.471
+      },
+      {
+        "googleId": "ChIJZSoKoj4x3YARvca95H5w3jI",
+        "name": "Hotel Royal",
+        "distanceM": 633,
+        "nameSim": 0.4
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z"
 }

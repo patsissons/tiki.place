@@ -73,6 +73,42 @@
       "lastSeenAt": "2026-10-26T04:19:34.568Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-23T22:04:49.340Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJDVNlLFwZh4gRDmKG1cmdubk",
+        "name": "The Tiki Bar and Grill",
+        "distanceM": 394603,
+        "nameSim": 1
+      },
+      {
+        "googleId": "ChIJLf04Pdnvm4gRdwQuOctPT2M",
+        "name": "Ton 80 Bar & Grill",
+        "distanceM": 1768,
+        "nameSim": 0.69
+      },
+      {
+        "googleId": "ChIJ8X7CickJnIgR6o69mZc4GqI",
+        "name": "Jobu's Tiki and Sushi Bar",
+        "distanceM": 20178,
+        "nameSim": 0.667
+      },
+      {
+        "googleId": "ChIJR38cE1rvm4gRrRZdkEg-_80",
+        "name": "The Hideaway Bar at Sioux Bayou Landing",
+        "distanceM": 3282,
+        "nameSim": 0.25
+      },
+      {
+        "googleId": "ChIJodWCJzbum4gR4NrPD8WF8U0",
+        "name": "Mary Walker Marina",
+        "distanceM": 203,
+        "nameSim": 0.148
+      }
+    ]
+  },
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z"
 }

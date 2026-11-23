@@ -1,34 +1,39 @@
 {
   "id": "tiki-bar-am-kap-zwenkau",
-  "name": "Tiki Bar Am Kap Zwenkau",
+  "name": "Tiki Bar am Kap Zwenkau",
   "aliases": [
     "Tiki Bar am Kap"
   ],
   "location": {
-    "lat": 51.2326051,
-    "lng": 12.3362052,
+    "lat": 51.232652099999996,
+    "lng": 12.3362088,
     "precision": "rooftop"
   },
   "address": {
+    "street": "12 Hafenstraße",
     "locality": "Zwenkau",
-    "region": "SN",
+    "region": "Sachsen",
+    "postalCode": "04442",
     "country": "DE"
   },
+  "formattedAddress": "Hafenstraße 12, 04442 Zwenkau, Germany",
   "timezone": "Europe/Berlin",
   "externalIds": {
     "overture": "a929c57f-7c4c-4e58-ac5f-52e652ece2f1",
-    "osm": "node/8755589617"
+    "osm": "node/8755589617",
+    "google": "ChIJP6w-pP_7pkcRtuHk8gFcouY"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "01520 4020936",
-    "website": "http://www.tiki-am-kap.de/"
+    "website": "http://www.tiki-am-kap.de/",
+    "googleMapsUri": "https://maps.google.com/?cid=16618946738390360502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.897,
+  "tikiConfidence": 0.902,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,8 +41,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -47,13 +56,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +74,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJP6w-pP_7pkcRtuHk8gFcouY",
+      "url": "https://maps.google.com/?cid=16618946738390360502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "tiki-bar-am-kap-zwenkau",
@@ -84,5 +104,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

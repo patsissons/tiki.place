@@ -3,26 +3,122 @@
   "name": "The Tiki Mug - Tiki Bar & Tropikal Food",
   "aliases": [],
   "location": {
-    "lat": 21.1632767,
-    "lng": -86.8388519,
+    "lat": 21.159126999999998,
+    "lng": -86.8396805,
     "precision": "rooftop"
   },
   "address": {
+    "street": "Palenque",
     "locality": "Cancún",
+    "region": "Quintana Roo",
+    "postalCode": "77509",
     "country": "MX"
   },
+  "formattedAddress": "Palenque Supermanzana 30, 77509 Cancún, Q.R., Mexico",
   "timezone": "America/Cancun",
   "externalIds": {
     "overture": "f3067f54-7115-43bb-b1f7-850d87be6af4",
     "google": "ChIJ0W7o-gAtTI8RtmoincWgdrg"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.825,
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1700"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1700"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 5:00 PM – 2:00 AM",
+      "Tuesday: 5:00 PM – 2:00 AM",
+      "Wednesday: 5:00 PM – 2:00 AM",
+      "Thursday: 5:00 PM – 2:00 AM",
+      "Friday: 5:00 PM – 2:00 AM",
+      "Saturday: 5:00 PM – 2:00 AM",
+      "Sunday: 5:00 PM – 2:00 AM"
+    ]
+  },
+  "contact": {
+    "website": "https://www.facebook.com/The.Tiki.Mug.Cancun",
+    "googleMapsUri": "https://maps.google.com/?cid=13291988120835877558&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 4.8,
+    "count": 187,
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -30,16 +126,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -47,6 +167,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ0W7o-gAtTI8RtmoincWgdrg",
+      "url": "https://maps.google.com/?cid=13291988120835877558&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "overture",
       "sourceRef": "f3067f54-7115-43bb-b1f7-850d87be6af4",
@@ -56,5 +183,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T21:08:52.994Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

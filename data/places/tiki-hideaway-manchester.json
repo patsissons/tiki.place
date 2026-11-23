@@ -6,29 +6,34 @@
     "Tiki Hideaway - at the Mean-Eyed Cat Bar - Manchester"
   ],
   "location": {
-    "lat": 53.4834976,
-    "lng": -2.2339656,
+    "lat": 53.483509,
+    "lng": -2.2339671,
     "precision": "rooftop"
   },
   "address": {
+    "street": "60 Oldham Street",
     "locality": "Manchester",
-    "region": "ENG",
+    "region": "England",
+    "postalCode": "M4 1LE",
     "country": "GB"
   },
+  "formattedAddress": "60 Oldham St, Manchester M4 1LE, UK",
   "timezone": "Europe/London",
   "externalIds": {
-    "overture": "56bb241f-c6cf-44c5-88bd-eed66b17fa09"
+    "overture": "56bb241f-c6cf-44c5-88bd-eed66b17fa09",
+    "google": "ChIJ37A9Irqxe0gRMlVcTgwht5A"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "0161 546 2095",
-    "website": "https://www.stagandhenmanchester.co.uk/activities/tiki-dive-bar"
+    "website": "https://www.stagandhenmanchester.co.uk/activities/tiki-dive-bar",
+    "googleMapsUri": "https://maps.google.com/?cid=10427839798937670962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.853,
+  "tikiConfidence": 0.86,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,8 +41,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -47,13 +56,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +74,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ37A9Irqxe0gRMlVcTgwht5A",
+      "url": "https://maps.google.com/?cid=10427839798937670962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "tiki-hideaway-at-the-mean-eyed-cat-bar-manchester",
@@ -77,5 +97,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

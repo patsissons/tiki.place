@@ -5,27 +5,33 @@
     "Tikiboom"
   ],
   "location": {
-    "lat": 48.8518406,
-    "lng": 2.334522,
+    "lat": 48.8519329,
+    "lng": 2.3345054,
     "precision": "rooftop"
   },
   "address": {
+    "street": "11 Rue Guisarde",
     "locality": "Paris",
-    "region": "IDF",
+    "region": "Île-de-France",
+    "postalCode": "75006",
     "country": "FR"
   },
+  "formattedAddress": "11 Rue Guisarde, 75006 Paris, France",
   "timezone": "Europe/Paris",
   "externalIds": {
     "overture": "674c6ac2-0524-405d-95a2-c6f9c516e0a7",
-    "osm": "node/8121110453"
+    "osm": "node/8121110453",
+    "google": "ChIJeZ7hZ3Nx5kcRalUKLw86E24"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.86,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=7931747205617702250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "tikiConfidence": 0.867,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,16 +39,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -50,6 +64,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJeZ7hZ3Nx5kcRalUKLw86E24",
+      "url": "https://maps.google.com/?cid=7931747205617702250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "tiki-boom",
@@ -73,5 +94,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

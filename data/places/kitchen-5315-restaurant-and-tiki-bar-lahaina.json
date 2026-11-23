@@ -1,31 +1,36 @@
 {
   "id": "kitchen-5315-restaurant-and-tiki-bar-lahaina",
-  "name": "Kitchen 5315 Restaurant and Tiki Bar",
+  "name": "Kitchen 5315 Restaurant & Tiki Bar",
   "aliases": [],
   "location": {
-    "lat": 20.9927063,
-    "lng": -156.6668701,
+    "lat": 20.9925767,
+    "lng": -156.66695679999998,
     "precision": "rooftop"
   },
   "address": {
+    "street": "5315 Lower Honoapiilani Road",
     "locality": "Lahaina",
-    "region": "HI",
+    "region": "Hawaii",
+    "postalCode": "96761",
     "country": "US"
   },
+  "formattedAddress": "5315 Lower Honoapiilani Rd, Lahaina, HI 96761, USA",
   "timezone": "Pacific/Honolulu",
   "externalIds": {
-    "overture": "34e94207-136d-4a2f-b94b-962fb0e1e216"
+    "overture": "34e94207-136d-4a2f-b94b-962fb0e1e216",
+    "google": "ChIJv-KWYU3Uqn4RGn98NsSXV8Y"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "808-442-3700",
-    "website": "http://kitchen5315maui.com/"
+    "website": "http://kitchen5315maui.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=14292058811467071258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.853,
+  "tikiConfidence": 0.86,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -33,8 +38,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -44,13 +53,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -58,6 +71,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJv-KWYU3Uqn4RGn98NsSXV8Y",
+      "url": "https://maps.google.com/?cid=14292058811467071258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "kitchen-5135-restaurant-tiki-bar",
@@ -74,5 +94,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

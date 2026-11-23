@@ -6,18 +6,18 @@
     "Tiki's Grill & Bar - Honolulu"
   ],
   "location": {
-    "lat": 21.2722354,
-    "lng": -157.8230022,
+    "lat": 21.272156199999998,
+    "lng": -157.8228507,
     "precision": "rooftop"
   },
   "address": {
-    "street": "2570 Kalākaua Ave",
+    "street": "2570 Kalākaua Avenue",
     "locality": "Honolulu",
-    "region": "HI",
+    "region": "Hawaii",
     "postalCode": "96815",
     "country": "US"
   },
-  "formattedAddress": "2570 Kalākaua Ave, Honolulu HI 96815, USA",
+  "formattedAddress": "2570 Kalākaua Ave, Honolulu, HI 96815, USA",
   "timezone": "Pacific/Honolulu",
   "externalIds": {
     "tikirat": "tiki-grill-bar",
@@ -26,14 +26,104 @@
     "google": "ChIJpeekwXByAHwRmkqRkpULgRM"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1100"
+        },
+        "close": {
+          "day": 1,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1100"
+        },
+        "close": {
+          "day": 2,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1100"
+        },
+        "close": {
+          "day": 3,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1100"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1100"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1100"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1100"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 11:00 AM – 12:00 AM",
+      "Tuesday: 11:00 AM – 12:00 AM",
+      "Wednesday: 11:00 AM – 12:00 AM",
+      "Thursday: 11:00 AM – 12:00 AM",
+      "Friday: 11:00 AM – 12:00 AM",
+      "Saturday: 11:00 AM – 12:00 AM",
+      "Sunday: 11:00 AM – 12:00 AM"
+    ]
   },
   "contact": {
-    "phone": "808-923-8454",
-    "website": "https://tikis.com/"
+    "phone": "+1 808-923-8454",
+    "website": "http://www.tikisgrill.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1405417295753333402&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.7,
+    "count": 16479,
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "priceLevel": "$$$",
   "established": 2002,
   "tikiConfidence": 0.997,
   "review": {
@@ -43,32 +133,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:32.973Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:32.973Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:32.973Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:33:32.973Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:32.973Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:08:52.739Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -76,6 +182,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJpeekwXByAHwRmkqRkpULgRM",
+      "url": "https://maps.google.com/?cid=1405417295753333402&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "tikis-grill-bar",
@@ -113,5 +226,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

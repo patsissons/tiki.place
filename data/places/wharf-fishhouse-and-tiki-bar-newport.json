@@ -3,31 +3,32 @@
   "name": "Wharf Fishhouse & Tiki Bar",
   "aliases": [],
   "location": {
-    "lat": 41.486351,
-    "lng": -71.3156509,
+    "lat": 41.4864155,
+    "lng": -71.31565359999999,
     "precision": "rooftop"
   },
   "address": {
-    "street": "36 Bowen's Wharf",
+    "street": "41 Bowens Wharf",
     "locality": "Newport",
-    "region": "RI",
+    "region": "Rhode Island",
     "postalCode": "02840",
     "country": "US"
   },
-  "formattedAddress": "36 Bowen's Wharf, Newport, Rhode Island, 02840, United States",
+  "formattedAddress": "41 Bowens Wharf, Newport, RI 02840, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "google": "ChIJH9wmlJWv5YkRfu3Ro-f3DYs",
     "overture": "98a23980-0e60-4528-8452-415688e2c70f"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "401-324-5377",
-    "website": "https://www.toasttab.com/fish-house-new-41-bowens-wharf-newport-ri-02840/v3?rwg_token=ADQ7psTA-0hNU777mp2tNXRWhujXFNM0mic4DA-DRZ04suSff1Q8FC1_houou9h2V1vhlkUaftlrV98P-WvjQQyDZcNPKG6uRw%3D%3D"
+    "website": "https://www.toasttab.com/fish-house-new-41-bowens-wharf-newport-ri-02840/v3?rwg_token=ADQ7psTA-0hNU777mp2tNXRWhujXFNM0mic4DA-DRZ04suSff1Q8FC1_houou9h2V1vhlkUaftlrV98P-WvjQQyDZcNPKG6uRw%3D%3D",
+    "googleMapsUri": "https://maps.google.com/?cid=10019937320227171710&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.991,
   "review": {
@@ -37,8 +38,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -49,16 +54,16 @@
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -72,6 +77,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJH9wmlJWv5YkRfu3Ro-f3DYs",
+      "url": "https://maps.google.com/?cid=10019937320227171710&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -96,5 +108,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

@@ -5,18 +5,18 @@
     "Tiki Lounge - Pittsburgh"
   ],
   "location": {
-    "lat": 40.4286537,
-    "lng": -79.9773865,
+    "lat": 40.4286998,
+    "lng": -79.9773701,
     "precision": "rooftop"
   },
   "address": {
-    "street": "2003 E Carson St",
+    "street": "2003 East Carson Street",
     "locality": "Pittsburgh",
-    "region": "PA",
+    "region": "Pennsylvania",
     "postalCode": "15203",
     "country": "US"
   },
-  "formattedAddress": "2003 E Carson St, Pittsburgh PA 15203, USA",
+  "formattedAddress": "2003 E Carson St, Pittsburgh, PA 15203, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "tikirat": "tiki-lounge",
@@ -25,14 +25,104 @@
     "google": "ChIJYc5aW27xNIgRV7EvBRJRk-g"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1800"
+        },
+        "close": {
+          "day": 2,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1800"
+        },
+        "close": {
+          "day": 3,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:00 PM – 2:00 AM",
+      "Tuesday: 6:00 PM – 2:00 AM",
+      "Wednesday: 6:00 PM – 2:00 AM",
+      "Thursday: 6:00 PM – 2:00 AM",
+      "Friday: 4:00 PM – 2:00 AM",
+      "Saturday: 4:00 PM – 2:00 AM",
+      "Sunday: 6:00 PM – 2:00 AM"
+    ]
   },
   "contact": {
-    "phone": "412-381-8454",
-    "website": "https://pghtikilounge.com/"
+    "phone": "+1 412-381-8454",
+    "website": "http://www.tikilounge412.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=16758827776214020439&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.2,
+    "count": 900,
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "priceLevel": "$",
   "established": 2002,
   "tikiConfidence": 1,
   "review": {
@@ -42,32 +132,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:50.997Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:50.997Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:50.997Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:33:50.997Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:50.997Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:33:50.997Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -81,6 +187,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJYc5aW27xNIgRV7EvBRJRk-g",
+      "url": "https://maps.google.com/?cid=16758827776214020439&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -126,5 +239,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

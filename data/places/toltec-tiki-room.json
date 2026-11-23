@@ -45,6 +45,18 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-23T22:04:49.340Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJWcPMyENZ54YRQ4t9PYhR1ho",
+        "name": "The Tiki Room El Paso",
+        "distanceM": 1110,
+        "nameSim": 0.571
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:16.549Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z"
 }

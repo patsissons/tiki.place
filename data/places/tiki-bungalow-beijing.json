@@ -3,28 +3,38 @@
   "name": "The Tiki Bungalow",
   "aliases": [],
   "location": {
-    "lat": 39.9419937,
-    "lng": 116.4058304,
+    "lat": 39.943964,
+    "lng": 116.410968,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Beijing",
+    "street": "46号 Fang Jia Hu Tong",
+    "locality": "Dong Cheng Qu",
+    "region": "Bei Jing Shi",
+    "postalCode": "100007",
     "country": "CN"
   },
+  "formattedAddress": "46 Fang Jia Hu Tong, 交道口 Dong Cheng Qu, China, 100007",
   "timezone": "Asia/Shanghai",
   "externalIds": {
     "overture": "eb89090d-442d-492d-8664-7aaa45bbd574",
     "google": "ChIJlR5fDfhT8DURG2ZHzFdLDgQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
-    "website": "https://www.barhopsters.com/2019/03/25/chinas-one-only-tiki-bar/"
+    "website": "https://www.barhopsters.com/2019/03/25/chinas-one-only-tiki-bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=292253866287130139&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.948,
+  "rating": {
+    "value": 4.5,
+    "count": 16,
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "tikiConfidence": 0.95,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -32,20 +42,32 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T12:15:03.961Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -53,6 +75,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJlR5fDfhT8DURG2ZHzFdLDgQ",
+      "url": "https://maps.google.com/?cid=292253866287130139&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "the-tiki-bungalow",
@@ -69,5 +98,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

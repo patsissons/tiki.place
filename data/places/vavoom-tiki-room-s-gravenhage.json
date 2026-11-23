@@ -1,34 +1,37 @@
 {
   "id": "vavoom-tiki-room-s-gravenhage",
-  "name": "VaVoom Tiki Room",
-  "aliases": [],
+  "name": "Vavoom!",
+  "aliases": [
+    "Vavoom! Tiki Room"
+  ],
   "location": {
-    "lat": 52.0759596,
-    "lng": 4.3090376,
+    "lat": 52.076004,
+    "lng": 4.3090234999999995,
     "precision": "rooftop"
   },
   "address": {
-    "street": "28G Grote Markt",
-    "locality": "'s-Gravenhage",
+    "street": "29 Grote Markt",
+    "locality": "Den Haag",
     "region": "Zuid-Holland",
-    "postalCode": "2511BG",
+    "postalCode": "2511 BG",
     "country": "NL"
   },
-  "formattedAddress": "28G Grote Markt, Den Haag, Zuid-Holland, 2511 BG, Nederland",
+  "formattedAddress": "Grote Markt 29, 2511 BG Den Haag, Netherlands",
   "timezone": "Europe/Amsterdam",
   "externalIds": {
     "google": "ChIJO6YE3SW3xUcRW9xzGodB3_c",
     "osm": "node/568040898"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
-    "website": "https://vavoomtikiroom.nl/"
+    "website": "https://vavoomtikiroom.nl/",
+    "googleMapsUri": "https://maps.google.com/?cid=17861066695694867547&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.969,
+  "tikiConfidence": 0.971,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -36,24 +39,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
       "sourceId": "osm",
       "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -67,6 +74,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJO6YE3SW3xUcRW9xzGodB3_c",
+      "url": "https://maps.google.com/?cid=17861066695694867547&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "osm",
@@ -84,5 +98,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

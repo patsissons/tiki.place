@@ -3,28 +3,31 @@
   "name": "Tropic City",
   "aliases": [],
   "location": {
-    "lat": 13.7306835,
-    "lng": 100.5153099,
+    "lat": 13.730683500000001,
+    "lng": 100.51530989999999,
     "precision": "rooftop"
   },
   "address": {
-    "street": "672/65 ซอยเจริญกรุง 28",
-    "locality": "กรุงเทพมหานคร",
+    "street": "65 Soi Charoen Krung 28",
+    "locality": "Khet Bang Rak",
+    "region": "Krung Thep Maha Nakhon",
     "postalCode": "10500",
     "country": "TH"
   },
-  "formattedAddress": "672/65 ซอยเจริญกรุง 28, กรุงเทพมหานคร, 10500, ประเทศไทย",
+  "formattedAddress": "672, 65 Soi Charoen Krung 28, Khwaeng Bang Rak, Khet Bang Rak, Krung Thep Maha Nakhon 10500, Thailand",
   "timezone": "Asia/Bangkok",
   "externalIds": {
     "google": "ChIJTcCxddmY4jAR6diNM1uwwWI"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "temporarily_closed",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.938,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=7116162791975540969&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.941,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -32,20 +35,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +68,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJTcCxddmY4jAR6diNM1uwwWI",
+      "url": "https://maps.google.com/?cid=7116162791975540969&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tropic-city",
       "url": "https://tikiatlas.com/bar?slug=tropic-city",
@@ -69,5 +83,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

@@ -3,8 +3,8 @@
   "name": "Aloha - The Tiki Bar",
   "aliases": [],
   "location": {
-    "lat": 18.5187906,
-    "lng": 73.93537649999999,
+    "lat": 18.5187888,
+    "lng": 73.9354321,
     "precision": "rooftop"
   },
   "address": {
@@ -31,7 +31,7 @@
   "rating": {
     "value": 3.8,
     "count": 406,
-    "at": "2026-11-09T20:49:19.347Z"
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "priceLevel": "$$$",
   "tikiConfidence": 0.834,
@@ -43,35 +43,35 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:35:53.528Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-11-09T20:49:19.347Z"
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -84,7 +84,7 @@
       "sourceRef": "ChIJfc3WdwjBwjsRPtLM0c4ajBY",
       "url": "https://maps.google.com/?cid=1624703041159352894&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-11-09T20:49:19.347Z"
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "overture",
@@ -95,6 +95,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-09T20:49:19.347Z",
-  "lastVerifiedAt": "2026-11-09T20:49:19.347Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

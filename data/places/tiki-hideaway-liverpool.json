@@ -6,31 +6,33 @@
     "Tiki Hideaway - at the Mean-Eyed Cat Bar - Liverpool"
   ],
   "location": {
-    "lat": 53.4015857,
-    "lng": -2.977731,
+    "lat": 53.4016764,
+    "lng": -2.9778594999999997,
     "precision": "rooftop"
   },
   "address": {
     "street": "71a Seel Street",
     "locality": "Liverpool",
     "region": "England",
+    "postalCode": "L1 4AZ",
     "country": "GB"
   },
-  "formattedAddress": "71a Seel Street, Liverpool, England, L1 4AZ, United Kingdom",
+  "formattedAddress": "71a Seel St, Liverpool L1 4AZ, UK",
   "timezone": "Europe/London",
   "externalIds": {
     "google": "ChIJO9yIMa0he0gRxKm4B-BcSSg"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "0151 458 6496",
-    "website": "https://tikihideaway.co.uk/locations/liverpool/"
+    "website": "https://tikihideaway.co.uk/locations/liverpool/",
+    "googleMapsUri": "https://maps.google.com/?cid=2902953552088967620&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.987,
+  "tikiConfidence": 0.988,
   "review": {
     "state": "needs_review",
     "by": "auto",
@@ -38,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -50,16 +56,16 @@
       "observedAt": "2026-11-22T13:30:49.876Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -73,6 +79,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJO9yIMa0he0gRxKm4B-BcSSg",
+      "url": "https://maps.google.com/?cid=2902953552088967620&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -90,5 +103,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

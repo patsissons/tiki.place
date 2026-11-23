@@ -28,7 +28,8 @@
   "review": {
     "state": "needs_review",
     "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "at": "2026-11-23T22:04:49.340Z",
+    "reason": "google place id retired"
   },
   "provenance": {
     "address": {
@@ -69,5 +70,5 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:16.549Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z"
 }

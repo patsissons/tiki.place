@@ -57,6 +57,18 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-23T22:04:49.340Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJFbEmJB212YgRS3g4EW2ams8",
+        "name": "Bamboo Room by Trader Vic's Miami",
+        "distanceM": 478,
+        "nameSim": 0.533
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-21T22:52:15.230Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z"
 }
