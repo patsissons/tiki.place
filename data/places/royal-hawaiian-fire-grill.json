@@ -5,7 +5,6 @@
     "Royal Hawaiian - Laguna Beach - from 1947 to 2006",
     "Royal Hawaiian - Laguna Beach - from 2006 to 2022",
     "Royal Hawaiian - Laguna Beach - from 2023 Onward",
-    "Royal Hawaiian LB",
     "The Royal Hawaiian Fire Grill"
   ],
   "location": {
@@ -200,13 +199,6 @@
     },
     {
       "sourceId": "tikiatlas",
-      "sourceRef": "royal-hawaiian-lb",
-      "url": "https://tikiatlas.com/bar?slug=royal-hawaiian-lb",
-      "firstSeenAt": "2026-11-21T22:52:15.230Z",
-      "lastSeenAt": "2026-11-21T22:52:15.230Z"
-    },
-    {
-      "sourceId": "tikiatlas",
       "sourceRef": "the-royal-hawaiian-fire-grill",
       "url": "https://tikiatlas.com/bar?slug=the-royal-hawaiian-fire-grill",
       "firstSeenAt": "2026-11-21T22:52:15.230Z",
@@ -228,6 +220,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }
