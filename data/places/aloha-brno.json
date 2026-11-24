@@ -33,9 +33,10 @@
   },
   "tikiConfidence": 0.971,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z",
+    "reason": "not a tiki bar"
   },
   "provenance": {
     "address": {
@@ -98,6 +99,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-24T02:33:06.845Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }
