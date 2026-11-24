@@ -5183,3 +5183,340 @@
   reason: not a tiki bar
   at: 2026-11-24T02:33:06.558Z
   by: owner
+- type: reject
+  place: blue-ribbon-sushi-bar-and-grill-at-the-grove
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: chins-restaurant
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: citrus-and-cane
+  into: citrus-cane
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: reject
+  place: hot-joy-2
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: la-otra
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: luau-lounge-2
+  into: luau-lounge
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: reject
+  place: makai-surf-and-tiki-bar
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: petes-tiki-tiki-2
+  into: petes-tiki-tiki
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: merge
+  from: toltec-tiki-room
+  into: tiki-room-el-paso
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: merge
+  from: tropic-thunder
+  into: tropic-thunder-phoenix
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: resolve
+  place: trader-vics-al-ain
+  google: ChIJjT6rqDexij4R_iHhJvVckrg
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: trader-vics-al-ain
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: pin
+  place: trader-vics-al-ain
+  field: name
+  value: Trader Vic's Al Ain
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: trader-vics-dubai-jbr-dubai
+  google: ChIJq2POIKsUXz4RTLMxR2mGuD0
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: trader-vics-dubai-jbr-dubai
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: trader-vics-dubai-madinat-dubai
+  into: trader-vics-madinat
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: resolve
+  place: trader-vics-dubai-palm-dubai
+  google: ChIJoVKWxfBrXz4RKKp4FnMqPJw
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: trader-vics-dubai-palm-dubai
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: sneaky-tonys-perth
+  reason: tiki-adjacent with no dedicated tiki room or menu
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: adliya-mai-tai-lounge-manama
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: manama-seef-mai-tai-lounge-manama
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: trader-vics-manama
+  google: ChIJv1hZXRSlST4Rtp0o3Msxk_s
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: trader-vics-manama
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: miss-things-hawaiian-barbecue-toronto
+  reason: permanently closed
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: shameful-tiki-room-toronto-2
+  into: shameful-tiki-room-toronto
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: reject
+  place: mangoladas-tiki-bar-neumarkt-in-der-oberpfalz
+  reason: permanently closed
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: tiki-beat-bar-and-club-regensburg
+  google: ChIJeRMRV6nBn0cRBN-Nrmxii_g
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: tiki-beat-bar-and-club-regensburg
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: pin
+  place: tiki-beat-bar-and-club-regensburg
+  field: contact.website
+  value: http://www.tikibeat.de/
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: tiki-bar-am-kap-zwenkau
+  google: ChIJP6w-pP_7pkcRtuHk8gFcouY
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: tiki-bar-am-kap-zwenkau
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: kon-tiki-copenhagen
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: waitiki-murcia
+  google: ChIJ_R3MoQyDYw0RO31RFf0brwc
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: waitiki-murcia
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: tiki-puka-puka-torremolinos
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: tiki-boom-paris
+  google: ChIJeZ7hZ3Nx5kcRalUKLw86E24
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: tiki-boom-paris
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: pin
+  place: tiki-boom-paris
+  field: contact.website
+  value: https://www.instagram.com/tikiboombar/
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: tiki-hideaway-leeds
+  google: ChIJvZYmphlceUgRZ7O4KHeBmw4
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: tiki-hideaway-leeds
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: laki-kane-london
+  google: ChIJlz6w9GYbdkgR0mTs-6I8MFM
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: laki-kane-london
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: tiki-hideaway-manchester
+  google: ChIJ37A9Irqxe0gRMlVcTgwht5A
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: tiki-hideaway-manchester
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: tiki-easy-norwich
+  reason: can't find it
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: honi-honi-hong-kong
+  reason: permanently closed
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: luau-tiki-bar-bari
+  google: ChIJfVa3qmfoRxMR5rRHY1XT7Ek
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: luau-tiki-bar-bari
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: trader-vics-amman
+  google: ChIJ9QUdeg6gHBUR3yDhIEPFRmA
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: trader-vics-amman
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: waikiki-tiki-room-mexico-city
+  reason: permanently closed
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: flamingo-tiki-room-san-jose-del-cabo
+  reason: can't find it
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: jungle-bird-warsaw
+  reason: can't find it
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: trader-vics-seychelles-mahe
+  google: ChIJn0DyMd4o4CIR246nvqf9ZXw
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: trader-vics-seychelles-mahe
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: trader-vics-bangkok
+  into: trader-vics-at-anantara-riverside-bangkok-resort
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: resolve
+  place: maya-speaktiki-dunwoody
+  google: ChIJQX3rylEJ9YgR_kcgqb9vu6c
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: maya-speaktiki-dunwoody
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: tiki-bar-and-grill-gautier
+  reason: permanently closed
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: kitchen-5315-restaurant-and-tiki-bar-lahaina
+  google: ChIJv-KWYU3Uqn4RGn98NsSXV8Y
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: kitchen-5315-restaurant-and-tiki-bar-lahaina
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: resolve
+  place: tiki-bar-at-excalibur-las-vegas
+  google: ChIJezcMnM3FyIARW42NFlxD3Bs
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: approve
+  place: tiki-bar-at-excalibur-las-vegas
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: pin
+  place: tiki-bar-at-excalibur-las-vegas
+  field: name
+  value: The Tiki Bar at Excalibur
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: pin
+  place: tiki-bar-at-excalibur-las-vegas
+  field: contact.website
+  value: https://excalibur.mgmresorts.com/en/nightlife/tiki-bar.html
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: merge
+  from: royal-hawaiian-lb-long-beach
+  into: royal-hawaiian-fire-grill
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
+- type: reject
+  place: bamboo-room-miami-beach
+  reason: permanently closed
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+- type: reject
+  place: martells-tiki-bar-point-pleasant-beach
+  reason: not a tiki bar
+  at: 2026-11-24T03:56:07.085Z
+  by: owner

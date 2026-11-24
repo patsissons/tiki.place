@@ -19,7 +19,8 @@
   "timezone": "Europe/Berlin",
   "externalIds": {
     "overture": "c8faa18c-f810-4bc7-892a-2ef3a9fd898e",
-    "osm": "node/3500867001"
+    "osm": "node/3500867001",
+    "google": "ChIJeRMRV6nBn0cRBN-Nrmxii_g"
   },
   "status": {
     "value": "unverified",
@@ -28,13 +29,13 @@
   },
   "contact": {
     "phone": "+49 941 93081758",
-    "website": "https://whatsapp.com/channel/0029VaTddDJCMY0CqLs7eU2v"
+    "website": "http://www.tikibeat.de/"
   },
   "tikiConfidence": 0.86,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -46,8 +47,8 @@
       "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T03:56:07.085Z"
     },
     "location": {
       "sourceId": "osm",
@@ -93,5 +94,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
 }

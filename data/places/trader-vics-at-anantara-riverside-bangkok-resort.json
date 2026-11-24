@@ -1,7 +1,9 @@
 {
   "id": "trader-vics-at-anantara-riverside-bangkok-resort",
   "name": "Trader Vic's at Anantara Riverside Bangkok Resort",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's Bangkok"
+  ],
   "location": {
     "lat": 13.704222,
     "lng": 100.491994,
@@ -26,6 +28,7 @@
   "contact": {
     "website": "https://www.tradervicsbangkok.com/"
   },
+  "established": 2000,
   "tikiConfidence": 0.956,
   "review": {
     "state": "approved",
@@ -40,6 +43,10 @@
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-24T02:33:06.558Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
       "sourceId": "tikiatlas",
@@ -72,8 +79,15 @@
       "url": "https://tikiatlas.com/bar?slug=trader-vics-at-anantara-riverside-bangkok-resort",
       "firstSeenAt": "2026-11-21T22:52:15.230Z",
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-vics-bangkok",
+      "url": "https://tikiatlas.com/bar?slug=trader-vics-bangkok",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T02:33:06.845Z"
+  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
 }

@@ -17,24 +17,31 @@
   "timezone": "Europe/Paris",
   "externalIds": {
     "overture": "674c6ac2-0524-405d-95a2-c6f9c516e0a7",
-    "osm": "node/8121110453"
+    "osm": "node/8121110453",
+    "google": "ChIJeZ7hZ3Nx5kcRalUKLw86E24"
   },
   "status": {
     "value": "unverified",
     "sourceId": "system",
     "at": "2026-11-22T18:21:57.159Z"
   },
-  "contact": {},
+  "contact": {
+    "website": "https://www.instagram.com/tikiboombar/"
+  },
   "tikiConfidence": 0.86,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T03:56:07.085Z"
     },
     "location": {
       "sourceId": "osm",
@@ -73,5 +80,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
 }

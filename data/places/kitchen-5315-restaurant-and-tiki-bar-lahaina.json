@@ -14,7 +14,8 @@
   },
   "timezone": "Pacific/Honolulu",
   "externalIds": {
-    "overture": "34e94207-136d-4a2f-b94b-962fb0e1e216"
+    "overture": "34e94207-136d-4a2f-b94b-962fb0e1e216",
+    "google": "ChIJv-KWYU3Uqn4RGn98NsSXV8Y"
   },
   "status": {
     "value": "unverified",
@@ -27,9 +28,9 @@
   },
   "tikiConfidence": 0.853,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -74,5 +75,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
 }

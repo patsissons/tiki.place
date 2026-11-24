@@ -17,7 +17,8 @@
   "timezone": "Europe/Berlin",
   "externalIds": {
     "overture": "a929c57f-7c4c-4e58-ac5f-52e652ece2f1",
-    "osm": "node/8755589617"
+    "osm": "node/8755589617",
+    "google": "ChIJP6w-pP_7pkcRtuHk8gFcouY"
   },
   "status": {
     "value": "unverified",
@@ -30,9 +31,9 @@
   },
   "tikiConfidence": 0.897,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -84,5 +85,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:23:57.930Z"
+  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
 }

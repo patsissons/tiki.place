@@ -16,7 +16,8 @@
   },
   "timezone": "Europe/Rome",
   "externalIds": {
-    "overture": "bd439c27-a39d-4a29-b9f4-cd3a92138351"
+    "overture": "bd439c27-a39d-4a29-b9f4-cd3a92138351",
+    "google": "ChIJfVa3qmfoRxMR5rRHY1XT7Ek"
   },
   "status": {
     "value": "unverified",
@@ -29,9 +30,9 @@
   },
   "tikiConfidence": 0.853,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -76,5 +77,5 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-22T18:23:26.552Z"
+  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
 }
