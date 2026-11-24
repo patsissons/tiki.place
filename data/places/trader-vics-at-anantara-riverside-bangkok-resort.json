@@ -1,7 +1,9 @@
 {
   "id": "trader-vics-at-anantara-riverside-bangkok-resort",
   "name": "Trader Vic's at Anantara Riverside Bangkok Resort",
-  "aliases": [],
+  "aliases": [
+    "Trader Vic's Bangkok"
+  ],
   "location": {
     "lat": 13.7042433,
     "lng": 100.49198849999999,
@@ -25,13 +27,15 @@
     "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
+    "website": "https://www.tradervicsbangkok.com/",
     "googleMapsUri": "https://maps.google.com/?cid=4462836799040760746&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "established": 2000,
   "tikiConfidence": 0.958,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z"
   },
   "provenance": {
     "address": {
@@ -41,6 +45,14 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T02:33:06.558Z"
+    },
+    "established": {
+      "sourceId": "tikiatlas",
+      "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -80,9 +92,16 @@
       "url": "https://tikiatlas.com/bar?slug=trader-vics-at-anantara-riverside-bangkok-resort",
       "firstSeenAt": "2026-11-21T22:52:15.230Z",
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
+      "sourceId": "tikiatlas",
+      "sourceRef": "trader-vics-bangkok",
+      "url": "https://tikiatlas.com/bar?slug=trader-vics-bangkok",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

@@ -31,14 +31,14 @@
   },
   "contact": {
     "phone": "+49 941 93081758",
-    "website": "https://whatsapp.com/channel/0029VaTddDJCMY0CqLs7eU2v",
+    "website": "http://www.tikibeat.de/",
     "googleMapsUri": "https://maps.google.com/?cid=17909516562093432580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
   "tikiConfidence": 0.867,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -54,8 +54,8 @@
       "observedAt": "2026-10-26T04:08:35.388Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T03:56:07.085Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -112,6 +112,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

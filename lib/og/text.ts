@@ -37,3 +37,16 @@ export function verifiedLine(iso?: string): string {
   if (Number.isNaN(d.getTime())) return "Community listed";
   return `Verified ${d.toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" })}`;
 }
+
+/**
+ * Scripts whose glyphs need contextual shaping. The card renderer (satori) can't apply those font
+ * substitutions and fails the whole build ("lookupType: 5 - substFormat: 3 is not yet supported"),
+ * which Google's local-language addresses for Gulf bars (e.g. Doha, "الدوحة") trigger.
+ */
+const SHAPED_SCRIPT =
+  /[\p{Script=Arabic}\p{Script=Hebrew}\p{Script=Syriac}\p{Script=Thaana}\p{Script=Nko}\p{Script=Devanagari}\p{Script=Bengali}\p{Script=Gurmukhi}\p{Script=Gujarati}\p{Script=Oriya}\p{Script=Tamil}\p{Script=Telugu}\p{Script=Kannada}\p{Script=Malayalam}\p{Script=Sinhala}\p{Script=Thai}\p{Script=Lao}\p{Script=Khmer}\p{Script=Myanmar}\p{Script=Tibetan}\p{Script=Mongolian}]/u;
+
+/** The text when a card can render it, otherwise undefined so the caller falls back. */
+export function cardText(text: string | undefined): string | undefined {
+  return text && !SHAPED_SCRIPT.test(text) ? text : undefined;
+}

@@ -14,7 +14,9 @@
     "country": "GB"
   },
   "timezone": "Europe/London",
-  "externalIds": {},
+  "externalIds": {
+    "google": "ChIJlz6w9GYbdkgR0mTs-6I8MFM"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
@@ -27,9 +29,9 @@
   "established": 2018,
   "tikiConfidence": 0.925,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -77,18 +79,6 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-23T22:04:49.340Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJlz6w9GYbdkgR0mTs-6I8MFM",
-        "name": "Laki Kane",
-        "distanceM": 1884,
-        "nameSim": 1
-      }
-    ]
-  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
 }

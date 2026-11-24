@@ -25,13 +25,14 @@
     "at": "2026-11-22T17:52:17.009Z"
   },
   "contact": {
+    "website": "http://lesarrangesdubocal.com/",
     "googleMapsUri": "https://maps.google.com/?cid=13900756379488369631&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.941,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z"
   },
   "provenance": {
     "address": {
@@ -41,6 +42,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-22T17:52:17.009Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T02:33:06.558Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -83,6 +88,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T17:52:17.009Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-22T17:52:17.009Z"
 }

@@ -28,13 +28,14 @@
     "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
+    "website": "https://instagram.com/tikirepublik",
     "googleMapsUri": "https://maps.google.com/?cid=6874871666185310273&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.971,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z"
   },
   "provenance": {
     "address": {
@@ -44,6 +45,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T02:33:06.558Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -93,6 +98,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

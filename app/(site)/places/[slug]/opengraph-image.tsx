@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getPlace, getPublishedPlaces } from "@/lib/data/places";
 import { toPublished } from "@/lib/data/published";
 import { Chip, Facts, Frame, Headline, Line, contentType as ogType, options, size as ogSize } from "@/lib/og/card";
-import { STATUS_TEXT, placeFacts, verifiedLine } from "@/lib/og/text";
+import { STATUS_TEXT, cardText, placeFacts, verifiedLine } from "@/lib/og/text";
 import { isPublished } from "@/lib/schema";
 import { placeLocation } from "@/lib/utils";
 
@@ -28,8 +28,8 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         <Facts items={placeFacts(p)} />
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
-        <Headline text={p.name} />
-        <Line items={[placeLocation(p, { countryAsName: true })]} size={34} />
+        <Headline text={cardText(p.name) ?? "A tiki bar"} />
+        <Line items={[placeLocation({ locality: cardText(p.locality), region: cardText(p.region), country: p.country }, { countryAsName: true })]} size={34} />
       </div>
     </Frame>,
     options,

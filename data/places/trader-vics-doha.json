@@ -1,8 +1,8 @@
 {
   "id": "trader-vics-doha",
-  "name": "Trader Vic's",
+  "name": "Trader Vic's Doha",
   "aliases": [
-    "Trader Vic's Doha"
+    "Trader Vic's"
   ],
   "location": {
     "lat": 25.326860999999997,
@@ -25,14 +25,15 @@
     "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
+    "website": "https://tradervicsdoha.com/",
     "googleMapsUri": "https://maps.google.com/?cid=1947328132866049577&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "established": 2007,
   "tikiConfidence": 0.958,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z"
   },
   "provenance": {
     "address": {
@@ -42,6 +43,10 @@
     "contact.googleMapsUri": {
       "sourceId": "google",
       "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.website": {
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T02:33:06.558Z"
     },
     "established": {
       "sourceId": "tikiatlas",
@@ -56,8 +61,8 @@
       "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "google",
-      "observedAt": "2026-11-23T22:04:49.340Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T04:03:48.679Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -88,6 +93,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:48.984Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

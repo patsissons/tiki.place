@@ -15,7 +15,9 @@
     "country": "AE"
   },
   "timezone": "Asia/Dubai",
-  "externalIds": {},
+  "externalIds": {
+    "google": "ChIJoVKWxfBrXz4RKKp4FnMqPJw"
+  },
   "status": {
     "value": "unverified",
     "sourceId": "system",
@@ -28,9 +30,9 @@
   "established": 2022,
   "tikiConfidence": 0.948,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z"
   },
   "provenance": {
     "address": {
@@ -78,18 +80,6 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
-  "resolution": {
-    "attemptedAt": "2026-11-22T17:52:17.009Z",
-    "result": "none",
-    "candidates": [
-      {
-        "googleId": "ChIJoVKWxfBrXz4RKKp4FnMqPJw",
-        "name": "Trader Vic's Palm Jumeirah",
-        "distanceM": 1457,
-        "nameSim": 0.75
-      }
-    ]
-  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-22T18:32:19.564Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
 }

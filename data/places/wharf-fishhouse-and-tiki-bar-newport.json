@@ -27,14 +27,14 @@
   },
   "contact": {
     "phone": "401-324-5377",
-    "website": "https://www.toasttab.com/fish-house-new-41-bowens-wharf-newport-ri-02840/v3?rwg_token=ADQ7psTA-0hNU777mp2tNXRWhujXFNM0mic4DA-DRZ04suSff1Q8FC1_houou9h2V1vhlkUaftlrV98P-WvjQQyDZcNPKG6uRw%3D%3D",
+    "website": "https://wharffishhousenewport.com/",
     "googleMapsUri": "https://maps.google.com/?cid=10019937320227171710&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.991,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z"
   },
   "provenance": {
     "address": {
@@ -50,8 +50,8 @@
       "observedAt": "2026-11-22T16:33:18.703Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T02:33:06.558Z"
     },
     "formattedAddress": {
       "sourceId": "google",
@@ -108,6 +108,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

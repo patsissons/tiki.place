@@ -3,6 +3,7 @@
   "name": "The Shameful Tiki Room Toronto",
   "aliases": [
     "Shameful Tiki Room",
+    "The Shameful Tiki Room - Toronto - 1378 Queen Street West",
     "The Shameful Tiki Room - Toronto - 777 Queen Street West"
   ],
   "location": {
@@ -188,6 +189,13 @@
     },
     {
       "sourceId": "mytiki",
+      "sourceRef": "the-shameful-tiki-room-1",
+      "url": "https://mytiki.life/tiki-bars/the-shameful-tiki-room-1",
+      "firstSeenAt": "2026-11-22T12:01:06.694Z",
+      "lastSeenAt": "2026-11-22T12:01:06.694Z"
+    },
+    {
+      "sourceId": "mytiki",
       "sourceRef": "the-shameful-tiki-room-toronto-777-queen-street-west",
       "url": "https://mytiki.life/tiki-bars/the-shameful-tiki-room-toronto-777-queen-street-west",
       "firstSeenAt": "2026-11-22T12:01:37.332Z",
@@ -209,6 +217,13 @@
     },
     {
       "sourceId": "tikiatlas",
+      "sourceRef": "shameful-tiki-room-toronto",
+      "url": "https://tikiatlas.com/bar?slug=shameful-tiki-room-toronto",
+      "firstSeenAt": "2026-11-21T22:52:15.230Z",
+      "lastSeenAt": "2026-11-21T22:52:15.230Z"
+    },
+    {
+      "sourceId": "tikiatlas",
       "sourceRef": "the-shameful-tiki-room-toronto",
       "url": "https://tikiatlas.com/bar?slug=the-shameful-tiki-room-toronto",
       "firstSeenAt": "2026-11-21T22:52:15.230Z",
@@ -223,6 +238,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

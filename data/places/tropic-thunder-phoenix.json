@@ -24,7 +24,7 @@
   "contact": {
     "website": "https://www.instagram.com/tropicthunderphx/"
   },
-  "tikiConfidence": 0.955,
+  "tikiConfidence": 0.989,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -55,6 +55,13 @@
   },
   "sources": [
     {
+      "sourceId": "allthetikibars",
+      "sourceRef": "3c2c3610181a",
+      "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
+      "firstSeenAt": "2026-11-21T22:52:16.549Z",
+      "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
       "sourceId": "mytiki",
       "sourceRef": "tropic-thunder",
       "url": "https://mytiki.life/tiki-bars/tropic-thunder",
@@ -69,7 +76,6 @@
       "lastSeenAt": "2026-10-30T20:39:09.190Z"
     }
   ],
-  "syncPolicy": "manual",
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
 }

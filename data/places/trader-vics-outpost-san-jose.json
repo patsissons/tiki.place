@@ -1,8 +1,8 @@
 {
   "id": "trader-vics-outpost-san-jose",
-  "name": "Trader Vic's",
+  "name": "Trader Vic's Outpost",
   "aliases": [
-    "Trader Vic's Outpost",
+    "Trader Vic's",
     "Trader Vic's Outpost - San Jose"
   ],
   "location": {
@@ -153,8 +153,8 @@
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "google",
-      "observedAt": "2026-11-23T22:04:49.340Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T04:03:48.679Z"
     },
     "priceLevel": {
       "sourceId": "google",
@@ -207,6 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:48.984Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

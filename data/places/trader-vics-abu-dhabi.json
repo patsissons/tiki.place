@@ -1,8 +1,8 @@
 {
   "id": "trader-vics-abu-dhabi",
-  "name": "Trader Vic's",
+  "name": "Trader Vic's Abu Dhabi",
   "aliases": [
-    "Trader Vic's Abu Dhabi"
+    "Trader Vic's"
   ],
   "location": {
     "lat": 24.494208399999998,
@@ -31,9 +31,9 @@
   "established": 1994,
   "tikiConfidence": 0.958,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-21T22:52:15.230Z"
+    "state": "approved",
+    "by": "owner",
+    "at": "2026-11-24T02:33:06.558Z"
   },
   "provenance": {
     "address": {
@@ -57,8 +57,8 @@
       "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "google",
-      "observedAt": "2026-11-23T22:04:49.340Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T04:03:48.679Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -89,6 +89,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:48.984Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

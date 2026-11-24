@@ -34,9 +34,10 @@
   },
   "tikiConfidence": 0.86,
   "review": {
-    "state": "needs_review",
-    "by": "auto",
-    "at": "2026-11-22T18:21:57.159Z"
+    "state": "rejected",
+    "by": "owner",
+    "at": "2026-11-24T03:56:07.085Z",
+    "reason": "permanently closed"
   },
   "provenance": {
     "address": {
@@ -96,6 +97,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
   "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }
