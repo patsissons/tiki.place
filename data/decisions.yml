@@ -5504,6 +5504,12 @@
   value: https://excalibur.mgmresorts.com/en/nightlife/tiki-bar.html
   at: 2026-11-24T03:56:07.085Z
   by: owner
+- type: merge
+  from: royal-hawaiian-lb-long-beach
+  into: royal-hawaiian-fire-grill
+  at: 2026-11-24T03:56:07.085Z
+  by: owner
+  note: owner linked both to the same Google place
 - type: reject
   place: bamboo-room-miami-beach
   reason: permanently closed
