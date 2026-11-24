@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { StatusValueSchema } from "@/lib/schema/common";
-import { STATUS_TEXT, headlineSize, placeFacts, pluralize, verifiedLine } from "./text";
+import { STATUS_TEXT, cardText, headlineSize, placeFacts, pluralize, verifiedLine } from "./text";
 
 describe("headlineSize", () => {
   it("steps down as names get longer and never below 52", () => {
@@ -55,5 +55,17 @@ describe("STATUS_TEXT", () => {
       expect(STATUS_TEXT[s].label).toBeTruthy();
       expect(STATUS_TEXT[s].color).toMatch(/^#[0-9a-f]{6}$/i);
     }
+  });
+});
+
+describe("cardText", () => {
+  it("keeps Latin and CJK text and drops scripts the card renderer can't shape", () => {
+    expect(cardText("Doha")).toBe("Doha");
+    expect(cardText("Zürich")).toBe("Zürich");
+    expect(cardText("東京")).toBe("東京");
+    expect(cardText("الدوحة")).toBeUndefined();
+    expect(cardText("תל אביב")).toBeUndefined();
+    expect(cardText("กรุงเทพมหานคร")).toBeUndefined();
+    expect(cardText(undefined)).toBeUndefined();
   });
 });

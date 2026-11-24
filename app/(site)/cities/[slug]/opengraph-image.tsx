@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { notFound } from "next/navigation";
 import { getCityParams, getCityPlaces } from "@/lib/data/places";
 import { Eyebrow, Frame, Headline, Line, contentType as ogType, options, size as ogSize } from "@/lib/og/card";
-import { pluralize } from "@/lib/og/text";
+import { cardText, pluralize } from "@/lib/og/text";
 import { countryName } from "@/lib/utils";
 
 export const dynamicParams = false;
@@ -17,7 +17,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const places = getCityPlaces(slug);
   const first = places[0];
   if (!first) notFound();
-  const where = [first.address.locality, first.address.region].filter(Boolean).join(", ");
+  const where = [cardText(first.address.locality), cardText(first.address.region)].filter(Boolean).join(", ") || countryName(first.address.country) || "Tiki bars";
   return new ImageResponse(
     <Frame footer={countryName(first.address.country)}>
       <Eyebrow text="Tiki bars in" />
