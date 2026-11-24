@@ -1,33 +1,43 @@
 {
   "id": "tiki-bar-at-excalibur-las-vegas",
   "name": "The Tiki Bar at Excalibur",
-  "aliases": [],
+  "aliases": [
+    "The Lounge"
+  ],
   "location": {
-    "lat": 36.0988,
-    "lng": -115.1754,
-    "precision": "locality"
+    "lat": 36.098688900000006,
+    "lng": -115.1752059,
+    "precision": "rooftop"
   },
   "address": {
-    "street": "3850 S Las Vegas Blvd",
+    "street": "3850 South Las Vegas Boulevard",
     "locality": "Las Vegas",
-    "region": "NV",
+    "region": "Nevada",
+    "postalCode": "89109",
     "country": "US"
   },
-  "formattedAddress": "3850 S Las Vegas Blvd, Las Vegas, NV 89109",
+  "formattedAddress": "Excalibur Hotel & Casino, 3850 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJezcMnM3FyIARW42NFlxD3Bs"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-24T20:41:19.496Z"
   },
   "contact": {
-    "website": "https://excalibur.mgmresorts.com/en/nightlife/tiki-bar.html"
+    "phone": "+1 800-879-1379",
+    "website": "https://excalibur.mgmresorts.com/en/nightlife/tiki-bar.html",
+    "googleMapsUri": "https://maps.google.com/?cid=2007553596694826331&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "rating": {
+    "value": 3.8,
+    "count": 32,
+    "at": "2026-11-24T20:41:19.496Z"
   },
   "established": 2026,
-  "tikiConfidence": 0.825,
+  "tikiConfidence": 0.834,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,8 +45,16 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.phone": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -47,16 +65,20 @@
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-24T03:56:07.085Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -64,6 +86,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJezcMnM3FyIARW42NFlxD3Bs",
+      "url": "https://maps.google.com/?cid=2007553596694826331&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
     {
       "sourceId": "tikiatlas",
       "sourceRef": "the-tiki-bar-at-excalibur",
@@ -73,5 +102,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }

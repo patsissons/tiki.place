@@ -2,34 +2,98 @@
   "id": "maya-speaktiki-dunwoody",
   "name": "Maya SpeakTiki",
   "aliases": [
+    "Maya Speak-Tiki - Dunwoody",
     "Maya SpeakTiki - at Agave Bandido - Dunwoody",
     "mayaspeaktiki"
   ],
   "location": {
-    "lat": 33.919239,
-    "lng": -84.2913132,
+    "lat": 33.9253652,
+    "lng": -84.3462737,
     "precision": "rooftop"
   },
   "address": {
+    "street": "120 High Street",
     "locality": "Dunwoody",
-    "region": "GA",
+    "region": "Georgia",
+    "postalCode": "30346",
     "country": "US"
   },
+  "formattedAddress": "120 High St Ste 200, Dunwoody, GA 30346, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "a59842c3-6a90-4167-b2be-50f12b87afba",
     "google": "ChIJQX3rylEJ9YgR_kcgqb9vu6c"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 3,
+          "time": "1600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1600"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1600"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1600"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 4:00 – 10:00 PM",
+      "Thursday: 4:00 PM – 12:00 AM",
+      "Friday: 4:00 PM – 2:00 AM",
+      "Saturday: 4:00 PM – 2:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
-    "phone": "(678) 626-6656",
-    "website": "https://www.mayaspeaktiki.com/dunwoody/"
+    "phone": "+1 678-626-6656",
+    "website": "https://www.mayaspeaktiki.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=12086376893945759742&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.715,
+  "rating": {
+    "value": 4.7,
+    "count": 139,
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "priceLevel": "$$",
+  "tikiConfidence": 0.81,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,24 +101,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T06:19:40.077Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.website": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T06:19:40.077Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "name": {
       "sourceId": "owner",
       "observedAt": "2026-11-22T18:22:26.637Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -62,6 +146,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJQX3rylEJ9YgR_kcgqb9vu6c",
+      "url": "https://maps.google.com/?cid=12086376893945759742&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "maya-speaktiki-at-agave-bandido-dunwoody",
@@ -78,5 +169,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }

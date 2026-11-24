@@ -5,29 +5,103 @@
     "Laki Kane - Oxford Street - London"
   ],
   "location": {
-    "lat": 51.5072,
-    "lng": -0.1276,
-    "precision": "locality"
+    "lat": 51.51515,
+    "lng": -0.15164239999999998,
+    "precision": "rooftop"
   },
   "address": {
+    "street": "31 Duke Street",
     "locality": "London",
+    "region": "England",
+    "postalCode": "W1U 1LG",
     "country": "GB"
   },
+  "formattedAddress": "31 Duke St, London W1U 1LG, UK",
   "timezone": "Europe/London",
   "externalIds": {
     "google": "ChIJlz6w9GYbdkgR0mTs-6I8MFM"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1400"
+        },
+        "close": {
+          "day": 0,
+          "time": "2130"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0300"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 0,
+          "time": "0300"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 6:00 PM – 2:00 AM",
+      "Thursday: 5:00 PM – 2:00 AM",
+      "Friday: 5:00 PM – 3:00 AM",
+      "Saturday: 1:00 PM – 3:00 AM",
+      "Sunday: 2:00 – 9:30 PM"
+    ]
   },
   "contact": {
-    "phone": "+44 20 7935 3303",
-    "website": "https://lakikane.com/"
+    "phone": "+44 20 7607 0766",
+    "website": "http://www.lakikane.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=5994357774739072210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 1802,
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "priceLevel": "$$$",
   "established": 2018,
-  "tikiConfidence": 0.925,
+  "tikiConfidence": 0.929,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,28 +109,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T03:56:17.711Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.website": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T03:56:17.711Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "established": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -64,6 +158,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJlz6w9GYbdkgR0mTs-6I8MFM",
+      "url": "https://maps.google.com/?cid=5994357774739072210&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "laki-kane-oxford-street-london",
@@ -80,5 +181,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }

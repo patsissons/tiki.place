@@ -19,7 +19,7 @@
     "postalCode": "85054",
     "country": "US"
   },
-  "formattedAddress": "5450 E High St #101, Phoenix, AZ 85054, USA",
+  "formattedAddress": "5450 E High St Ste 101, Phoenix, AZ 85054, USA",
   "timezone": "America/Phoenix",
   "externalIds": {
     "overture": "049fec58-00a2-4f49-b3bd-0b2158dbb3ab",
@@ -123,7 +123,7 @@
   "rating": {
     "value": 4.6,
     "count": 747,
-    "at": "2026-11-10T17:54:51.536Z"
+    "at": "2026-11-24T20:41:19.496Z"
   },
   "priceLevel": "$$",
   "established": 2021,
@@ -136,19 +136,19 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "established": {
       "sourceId": "tikirat",
@@ -156,11 +156,11 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "location": {
       "sourceId": "google",
@@ -168,15 +168,15 @@
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-11-10T17:54:51.536Z"
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -196,7 +196,7 @@
       "sourceRef": "ChIJsRsNcxdxK4cRqCgM8P1YtpY",
       "url": "https://maps.google.com/?cid=10859965399127828648&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:28:59.067Z",
-      "lastSeenAt": "2026-11-10T17:54:51.536Z"
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
     },
     {
       "sourceId": "mytiki",
@@ -270,6 +270,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
-  "lastVerifiedAt": "2026-11-10T17:54:51.536Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }

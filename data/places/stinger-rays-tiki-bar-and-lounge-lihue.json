@@ -18,7 +18,8 @@
   "timezone": "Pacific/Honolulu",
   "externalIds": {
     "overture": "a563ad21-6798-45cd-861a-7544a4f5ee85",
-    "google": "ChIJeebyv_IfB3wR3oK5EcKFIY4"
+    "google": "ChIJeebyv_IfB3wR3oK5EcKFIY4",
+    "osm": "node/14410012312"
   },
   "status": {
     "value": "open",
@@ -119,7 +120,7 @@
     "at": "2026-11-12T18:22:54.608Z"
   },
   "priceLevel": "$$",
-  "tikiConfidence": 0.834,
+  "tikiConfidence": 0.884,
   "review": {
     "state": "auto_approved",
     "by": "auto",
@@ -180,6 +181,13 @@
       "lastSeenAt": "2026-11-12T18:22:54.608Z"
     },
     {
+      "sourceId": "osm",
+      "sourceRef": "node/14410012312",
+      "url": "https://www.openstreetmap.org/node/14410012312",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
+    {
       "sourceId": "overture",
       "sourceRef": "a563ad21-6798-45cd-861a-7544a4f5ee85",
       "url": "https://explore.overturemaps.org/?feature=places.place.a563ad21-6798-45cd-861a-7544a4f5ee85#17/21.978172302246094/-159.348876953125",
@@ -188,6 +196,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-12T18:22:54.608Z",
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
   "lastVerifiedAt": "2026-11-12T18:22:54.608Z"
 }

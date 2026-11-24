@@ -5,29 +5,121 @@
     "Trader Vic's"
   ],
   "location": {
-    "lat": 31.9539,
-    "lng": 35.9106,
-    "precision": "locality"
+    "lat": 31.9762075,
+    "lng": 35.9061179,
+    "precision": "rooftop"
   },
   "address": {
     "locality": "Amman",
+    "region": "Amman Governorate",
     "country": "JO"
   },
+  "formattedAddress": "Amman, Jordan",
   "timezone": "Asia/Amman",
   "externalIds": {
     "google": "ChIJ9QUdeg6gHBUR3yDhIEPFRmA"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "1800"
+        },
+        "close": {
+          "day": 1,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "1800"
+        },
+        "close": {
+          "day": 2,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "1800"
+        },
+        "close": {
+          "day": 3,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1800"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1800"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1800"
+        },
+        "close": {
+          "day": 6,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0100"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:00 PM – 1:00 AM",
+      "Tuesday: 6:00 PM – 1:00 AM",
+      "Wednesday: 6:00 PM – 1:00 AM",
+      "Thursday: 6:00 PM – 1:00 AM",
+      "Friday: 6:00 PM – 1:00 AM",
+      "Saturday: 6:00 PM – 1:00 AM",
+      "Sunday: 6:00 PM – 1:00 AM"
+    ]
   },
   "contact": {
     "phone": "+962 6 566 1122",
-    "website": "http://tradervicsamman.com/"
+    "website": "http://tradervicsamman.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=6937449168115933407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.3,
+    "count": 408,
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "priceLevel": "$$$",
   "established": 2004,
-  "tikiConfidence": 0.948,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -35,28 +127,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T14:57:30.084Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.website": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T14:57:30.084Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "established": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -64,6 +176,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ9QUdeg6gHBUR3yDhIEPFRmA",
+      "url": "https://maps.google.com/?cid=6937449168115933407&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "trader-vics-amman",
@@ -80,5 +199,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }

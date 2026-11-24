@@ -1,34 +1,98 @@
 {
   "id": "waitiki-murcia",
-  "name": "Waitiki",
+  "name": "Waitiki Caña y Tapa",
   "aliases": [
+    "Waitiki",
     "Waitiki - Murcia"
   ],
   "location": {
-    "lat": 37.9881897,
-    "lng": -1.1267872,
+    "lat": 37.9882209,
+    "lng": -1.1267814999999999,
     "precision": "rooftop"
   },
   "address": {
+    "street": "3 Paseo Menéndez Pelayo",
     "locality": "Murcia",
-    "region": "Murcia",
+    "region": "Región de Murcia",
+    "postalCode": "30001",
     "country": "ES"
   },
+  "formattedAddress": "P.º Menéndez Pelayo, 3, 30001 Murcia, Spain",
   "timezone": "Europe/Madrid",
   "externalIds": {
     "overture": "867efdb7-8f6f-41cd-a6b4-e92e304f6d1f",
     "google": "ChIJ_R3MoQyDYw0RO31RFf0brwc"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 3,
+          "time": "2000"
+        },
+        "close": {
+          "day": 4,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "2000"
+        },
+        "close": {
+          "day": 5,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "2000"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "2000"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 8:00 PM – 12:00 AM",
+      "Thursday: 8:00 PM – 12:00 AM",
+      "Friday: 8:00 PM – 12:00 AM",
+      "Saturday: 8:00 PM – 12:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
     "phone": "+34699046812",
-    "website": "https://waitiki.es/"
+    "website": "https://waitiki.es/",
+    "googleMapsUri": "https://maps.google.com/?cid=553692052988198203&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.715,
+  "rating": {
+    "value": 4.5,
+    "count": 435,
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "priceLevel": "$",
+  "tikiConfidence": 0.729,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,24 +100,44 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
       "observedAt": "2026-11-22T16:25:26.830Z"
     },
     "contact.website": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +145,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ_R3MoQyDYw0RO31RFf0brwc",
+      "url": "https://maps.google.com/?cid=553692052988198203&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "waitiki-3",
@@ -77,5 +168,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }

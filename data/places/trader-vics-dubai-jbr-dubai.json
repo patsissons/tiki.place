@@ -1,34 +1,118 @@
 {
   "id": "trader-vics-dubai-jbr-dubai",
-  "name": "Trader Vic's Dubai JBR",
+  "name": "Trader Vic’s JBR",
   "aliases": [
     "Trader Vic's",
-    "Trader Vic's - at the Jumeirah Beach Hilton - Dubai"
+    "Trader Vic's - at the Jumeirah Beach Hilton - Dubai",
+    "Trader Vic's Dubai JBR"
   ],
   "location": {
-    "lat": 25.08,
-    "lng": 55.1344,
-    "precision": "locality"
+    "lat": 25.078586599999998,
+    "lng": 55.1340982,
+    "precision": "rooftop"
   },
   "address": {
+    "street": "The Walk",
     "locality": "Dubai",
+    "region": "Dubai",
     "country": "AE"
   },
+  "formattedAddress": "Mezzanine Level - The Walk - Marsa Dubai - Dubai - United Arab Emirates",
   "timezone": "Asia/Dubai",
   "externalIds": {
     "google": "ChIJq2POIKsUXz4RTLMxR2mGuD0"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 2,
+          "time": "1700"
+        },
+        "close": {
+          "day": 3,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "1700"
+        },
+        "close": {
+          "day": 4,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "1700"
+        },
+        "close": {
+          "day": 5,
+          "time": "0100"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "1700"
+        },
+        "close": {
+          "day": 6,
+          "time": "0200"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1300"
+        },
+        "close": {
+          "day": 6,
+          "time": "1600"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1700"
+        },
+        "close": {
+          "day": 0,
+          "time": "0200"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: 5:00 PM – 1:00 AM",
+      "Wednesday: 5:00 PM – 1:00 AM",
+      "Thursday: 5:00 PM – 1:00 AM",
+      "Friday: 5:00 PM – 2:00 AM",
+      "Saturday: 1:00 – 4:00 PM, 5:00 PM – 2:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
     "phone": "+971 4 318 2319",
-    "website": "https://tradervicsjbr.com/"
+    "website": "https://tradervicsjbr.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4447452418752492364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 4.7,
+    "count": 2882,
+    "at": "2026-11-24T20:41:19.496Z"
+  },
+  "priceLevel": "$$",
   "established": 2024,
-  "tikiConfidence": 0.948,
+  "tikiConfidence": 0.95,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,28 +120,48 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.phone": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T15:03:35.017Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "contact.website": {
-      "sourceId": "mytiki",
-      "observedAt": "2026-11-22T15:03:35.017Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "established": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-24T20:41:19.496Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -65,6 +169,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJq2POIKsUXz4RTLMxR2mGuD0",
+      "url": "https://maps.google.com/?cid=4447452418752492364&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-24T20:41:19.496Z",
+      "lastSeenAt": "2026-11-24T20:41:19.496Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "trader-vics-at-the-jumeirah-beach-hilton-dubai",
@@ -81,5 +192,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
+  "lastSyncedAt": "2026-11-24T20:41:19.496Z",
+  "lastVerifiedAt": "2026-11-24T20:41:19.496Z"
 }
