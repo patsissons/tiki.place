@@ -1,35 +1,39 @@
 {
   "id": "trader-vics-muscat",
-  "name": "Trader Vic's Muscat",
+  "name": "Trader Vic's at InterContinental Muscat",
   "aliases": [
-    "Trader Vic's"
+    "Trader Vic's",
+    "Trader Vic's Muscat"
   ],
   "location": {
-    "lat": 23.6165484,
-    "lng": 58.4646054,
+    "lat": 23.6158575,
+    "lng": 58.464998800000004,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Muscat",
-    "region": "محافظة مسقط",
+    "street": "Al Shati Street",
+    "locality": "Area",
+    "region": "Muscat Governorate",
+    "postalCode": "114",
     "country": "OM"
   },
-  "formattedAddress": "ممشى شاطئ القرم, ولاية بوشر, محافظة مسقط, 116, عمان",
+  "formattedAddress": "Al Kharjiya Street، Al Shati St, Area 114, Oman",
   "timezone": "Asia/Muscat",
   "externalIds": {
     "google": "ChIJ1df_FLP4kT4ROKq4BSBy_oY"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+968 24 680080",
-    "website": "http://tradervicsmuscat.com/"
+    "website": "http://tradervicsmuscat.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=9727337727027358264&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "established": 2000,
-  "tikiConfidence": 0.987,
+  "tikiConfidence": 0.988,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,8 +41,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -53,16 +61,16 @@
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -76,6 +84,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ1df_FLP4kT4ROKq4BSBy_oY",
+      "url": "https://maps.google.com/?cid=9727337727027358264&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -93,5 +108,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T02:33:06.845Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

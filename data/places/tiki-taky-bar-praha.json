@@ -5,18 +5,18 @@
     "Tiki Taky Cocktail Bar"
   ],
   "location": {
-    "lat": 50.0846181,
-    "lng": 14.4480283,
+    "lat": 50.084583699999996,
+    "lng": 14.448374699999997,
     "precision": "rooftop"
   },
   "address": {
-    "street": "Seifertova",
-    "locality": "Praha",
-    "region": "10",
-    "postalCode": "13000",
+    "street": "20 Seifertova",
+    "locality": "Praha 3",
+    "region": "Hlavní město Praha",
+    "postalCode": "130 00",
     "country": "CZ"
   },
-  "formattedAddress": "231/22 Cimburkova, Praha, 130 00, Česko",
+  "formattedAddress": "Seifertova 787/20, Žižkov, 130 00 Praha-Praha 3, Czechia",
   "timezone": "Europe/Prague",
   "externalIds": {
     "google": "ChIJe9MTyZiUC0cROmuplB0d1Ps",
@@ -24,14 +24,15 @@
     "osm": "node/5176055310"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
-    "website": "https://tikitaky.cz/"
+    "website": "https://tikitaky.cz/",
+    "googleMapsUri": "https://maps.google.com/?cid=18146160811467959098&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.979,
+  "tikiConfidence": 0.98,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -39,24 +40,28 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-24T02:33:06.558Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -70,6 +75,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJe9MTyZiUC0cROmuplB0d1Ps",
+      "url": "https://maps.google.com/?cid=18146160811467959098&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "osm",
@@ -94,5 +106,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-24T02:33:06.845Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

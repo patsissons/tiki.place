@@ -1,34 +1,36 @@
 {
   "id": "tiki-jungle-gdansk",
-  "name": "Tiki Jungle",
+  "name": "Tiki jungle",
   "aliases": [
     "Tiki Jungle - Gdańsk"
   ],
   "location": {
-    "lat": 54.3499865,
-    "lng": 18.6515827,
+    "lat": 54.350098700000004,
+    "lng": 18.6515997,
     "precision": "rooftop"
   },
   "address": {
-    "street": "50/51 Piwna",
+    "street": "50 Piwna",
     "locality": "Gdańsk",
+    "region": "Województwo pomorskie",
     "postalCode": "80-831",
     "country": "PL"
   },
-  "formattedAddress": "50/51 Piwna, Gdańsk, 80-831, Polska",
+  "formattedAddress": "Piwna 50/51, 80-831 Gdańsk, Poland",
   "timezone": "Europe/Warsaw",
   "externalIds": {
     "google": "ChIJWcuwBoZz_UYR-rgAZasU1QM",
     "osm": "node/11463494969"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+48574225205",
-    "website": "https://www.facebook.com/tikijunglegdansk"
+    "website": "https://www.facebook.com/tikijunglegdansk",
+    "googleMapsUri": "https://maps.google.com/?cid=276149678519662842&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "tikiConfidence": 0.991,
   "review": {
@@ -38,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -50,16 +56,16 @@
       "observedAt": "2026-11-24T02:33:06.558Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -73,6 +79,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWcuwBoZz_UYR-rgAZasU1QM",
+      "url": "https://maps.google.com/?cid=276149678519662842&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -97,5 +110,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-24T02:33:06.845Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

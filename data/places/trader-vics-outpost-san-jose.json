@@ -1,7 +1,8 @@
 {
   "id": "trader-vics-outpost-san-jose",
-  "name": "Trader Vic’s Outpost",
+  "name": "Trader Vic's Outpost",
   "aliases": [
+    "Trader Vic's",
     "Trader Vic's Outpost - San Jose"
   ],
   "location": {
@@ -16,19 +17,109 @@
     "postalCode": "95110",
     "country": "US"
   },
-  "formattedAddress": "1701 Airport Boulevard, San Jose, California, 95110, United States",
+  "formattedAddress": "1701 Airport Blvd, San Jose, CA 95110, USA",
   "timezone": "America/Los_Angeles",
   "externalIds": {
     "google": "ChIJdYEs_B3Lj4ARlbMi1KaqNQQ"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-30T20:39:09.190Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 0,
+          "time": "0600"
+        },
+        "close": {
+          "day": 0,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 1,
+          "time": "0600"
+        },
+        "close": {
+          "day": 1,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 2,
+          "time": "0600"
+        },
+        "close": {
+          "day": 2,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 3,
+          "time": "0600"
+        },
+        "close": {
+          "day": 3,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 4,
+          "time": "0600"
+        },
+        "close": {
+          "day": 4,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 5,
+          "time": "0600"
+        },
+        "close": {
+          "day": 5,
+          "time": "2030"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "0600"
+        },
+        "close": {
+          "day": 6,
+          "time": "2030"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: 6:00 AM – 8:30 PM",
+      "Tuesday: 6:00 AM – 8:30 PM",
+      "Wednesday: 6:00 AM – 8:30 PM",
+      "Thursday: 6:00 AM – 8:30 PM",
+      "Friday: 6:00 AM – 8:30 PM",
+      "Saturday: 6:00 AM – 8:30 PM",
+      "Sunday: 6:00 AM – 8:30 PM"
+    ]
   },
   "contact": {
-    "website": "https://tradervics.com/pages/trader-vics-outpost"
+    "website": "https://tradervics.com/pages/trader-vics-outpost",
+    "googleMapsUri": "https://maps.google.com/?cid=303336183417713557&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
+  "rating": {
+    "value": 3.4,
+    "count": 202,
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "priceLevel": "$$",
   "tikiConfidence": 0.998,
   "review": {
     "state": "approved",
@@ -38,24 +129,40 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:52:18.854Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
       "sourceId": "owner",
       "observedAt": "2026-11-21T21:24:09.646Z"
     },
     "name": {
-      "sourceId": "tikiwanderlust",
-      "observedAt": "2026-10-30T20:39:09.190Z"
+      "sourceId": "owner",
+      "observedAt": "2026-11-24T04:03:48.679Z"
+    },
+    "priceLevel": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "rating": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -69,6 +176,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJdYEs_B3Lj4ARlbMi1KaqNQQ",
+      "url": "https://maps.google.com/?cid=303336183417713557&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -93,5 +207,6 @@
     }
   ],
   "firstSeenAt": "2026-10-30T20:39:09.190Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-24T04:03:48.984Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

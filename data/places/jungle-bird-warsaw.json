@@ -58,6 +58,24 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-23T22:04:49.340Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJmxMDld_NHkcR88EbLlfWm-A",
+        "name": "Jungle Lounge",
+        "distanceM": 414,
+        "nameSim": 0.714
+      },
+      {
+        "googleId": "ChIJkZ7UIffMHkcRraMKB-LQ-C8",
+        "name": "Zamieszanie - cocktail bar",
+        "distanceM": 693,
+        "nameSim": 0
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
 }

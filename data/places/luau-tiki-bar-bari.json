@@ -5,30 +5,34 @@
     "Luau Tiki Bar - Bari"
   ],
   "location": {
-    "lat": 41.1240273,
-    "lng": 16.8739128,
+    "lat": 41.1240637,
+    "lng": 16.8739261,
     "precision": "rooftop"
   },
   "address": {
+    "street": "16 Via XXIV Maggio",
     "locality": "Bari",
-    "region": "75",
+    "region": "Puglia",
+    "postalCode": "70121",
     "country": "IT"
   },
+  "formattedAddress": "Via XXIV Maggio, 16, 70121 Bari BA, Italy",
   "timezone": "Europe/Rome",
   "externalIds": {
     "overture": "bd439c27-a39d-4a29-b9f4-cd3a92138351",
     "google": "ChIJfVa3qmfoRxMR5rRHY1XT7Ek"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+39 392 392 9346",
-    "website": "http://luautiki.bar/"
+    "website": "http://luautiki.bar/",
+    "googleMapsUri": "https://maps.google.com/?cid=5326864822963778790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.853,
+  "tikiConfidence": 0.86,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -47,13 +55,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +73,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJfVa3qmfoRxMR5rRHY1XT7Ek",
+      "url": "https://maps.google.com/?cid=5326864822963778790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "luau-tiki-bar-bari",
@@ -77,5 +96,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

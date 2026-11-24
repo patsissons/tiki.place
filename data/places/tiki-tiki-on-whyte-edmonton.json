@@ -10,26 +10,28 @@
     "precision": "rooftop"
   },
   "address": {
-    "street": "10037B Whyte Avenue NW",
+    "street": "10037 Whyte Avenue Northwest",
     "locality": "Edmonton",
     "region": "Alberta",
+    "postalCode": "T6E 1Z2",
     "country": "CA"
   },
-  "formattedAddress": "10037B Whyte Avenue NW, Edmonton, Alberta, T6E 3Y9, Canada",
+  "formattedAddress": "10037 Whyte Ave NW, Edmonton, AB T6E 1Z2, Canada",
   "timezone": "America/Edmonton",
   "externalIds": {
     "google": "ChIJXZ51tpAjoFMRqB_HN2qAoM4"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "780-756-8881",
-    "website": "https://tikitiki.ca/"
+    "website": "https://tikitiki.ca/",
+    "googleMapsUri": "https://maps.google.com/?cid=14889041561777545128&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
-  "tikiConfidence": 0.987,
+  "tikiConfidence": 0.988,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,8 +39,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -49,16 +55,16 @@
       "observedAt": "2026-11-22T14:11:39.735Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
       "sourceId": "tikiatlas",
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -72,6 +78,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJXZ51tpAjoFMRqB_HN2qAoM4",
+      "url": "https://maps.google.com/?cid=14889041561777545128&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -89,5 +102,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T02:33:06.845Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

@@ -58,6 +58,18 @@
       "lastSeenAt": "2026-11-21T22:52:15.230Z"
     }
   ],
+  "resolution": {
+    "attemptedAt": "2026-11-23T22:04:49.340Z",
+    "result": "none",
+    "candidates": [
+      {
+        "googleId": "ChIJ7RRANnsABDQRJGU8efmz9-0",
+        "name": "HONI HONI Tiki Cocktail Lounge",
+        "distanceM": 4409,
+        "nameSim": 1
+      }
+    ]
+  },
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z"
 }

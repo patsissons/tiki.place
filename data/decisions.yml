@@ -5520,3 +5520,24 @@
   reason: not a tiki bar
   at: 2026-11-24T03:56:07.085Z
   by: owner
+- type: pin
+  place: trader-vics-abu-dhabi
+  field: name
+  value: Trader Vic's Abu Dhabi
+  at: 2026-11-24T04:03:48.679Z
+  by: skill
+  note: Google's name is just "Trader Vic's"
+- type: pin
+  place: trader-vics-doha
+  field: name
+  value: Trader Vic's Doha
+  at: 2026-11-24T04:03:48.679Z
+  by: skill
+  note: Google's name is just "Trader Vic's"
+- type: pin
+  place: trader-vics-outpost-san-jose
+  field: name
+  value: Trader Vic's Outpost
+  at: 2026-11-24T04:03:48.679Z
+  by: skill
+  note: Google's name is just "Trader Vic's"

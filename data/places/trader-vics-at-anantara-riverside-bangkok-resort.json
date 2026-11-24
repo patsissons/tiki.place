@@ -5,31 +5,33 @@
     "Trader Vic's Bangkok"
   ],
   "location": {
-    "lat": 13.704222,
-    "lng": 100.491994,
+    "lat": 13.7042433,
+    "lng": 100.49198849999999,
     "precision": "rooftop"
   },
   "address": {
-    "street": "257/1-3 ถนนเจริญนคร",
-    "locality": "กรุงเทพมหานคร",
+    "street": "Charoen Nakhon Road",
+    "locality": "Khet Thon Buri",
+    "region": "Krung Thep Maha Nakhon",
     "postalCode": "10600",
     "country": "TH"
   },
-  "formattedAddress": "257/1-3 ถนนเจริญนคร, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "formattedAddress": "257/1-3, Charoen Nakhon Rd, Khwaeng Bukkhalo, Khet Thon Buri, Krung Thep Maha Nakhon 10600, Thailand",
   "timezone": "Asia/Bangkok",
   "externalIds": {
     "google": "ChIJyUJ-QZWY4jARqqtdcWwu7z0"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
-    "website": "https://www.tradervicsbangkok.com/"
+    "website": "https://www.tradervicsbangkok.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=4462836799040760746&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "established": 2000,
-  "tikiConfidence": 0.956,
+  "tikiConfidence": 0.958,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -37,8 +39,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.website": {
       "sourceId": "owner",
@@ -49,16 +55,16 @@
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -72,6 +78,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJyUJ-QZWY4jARqqtdcWwu7z0",
+      "url": "https://maps.google.com/?cid=4462836799040760746&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "tikiatlas",
@@ -89,5 +102,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

@@ -6,30 +6,65 @@
     "Ula Ula Tiki Room"
   ],
   "location": {
-    "lat": 42.978962,
-    "lng": -87.8807309,
+    "lat": 42.9789627,
+    "lng": -87.88076919999999,
     "precision": "rooftop"
   },
   "address": {
-    "street": "2245 E St Francis Ave (2F)",
+    "street": "2245 East Saint Francis Avenue",
     "locality": "Saint Francis",
-    "region": "WI",
+    "region": "Wisconsin",
     "postalCode": "53235",
     "country": "US"
   },
-  "formattedAddress": "2245 E St Francis Ave (2F), St Francis WI 53235, USA",
+  "formattedAddress": "2245 E St Francis Ave, St Francis, WI 53235, USA",
   "timezone": "America/Chicago",
   "externalIds": {
     "tikirat": "ula-ula-tiki-bar",
     "google": "ChIJWyR9fgAXBYgRgXlwI9WlY3w"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-10-26T04:28:59.067Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
+  },
+  "hours": {
+    "periods": [
+      {
+        "open": {
+          "day": 5,
+          "time": "1823"
+        },
+        "close": {
+          "day": 6,
+          "time": "0000"
+        }
+      },
+      {
+        "open": {
+          "day": 6,
+          "time": "1800"
+        },
+        "close": {
+          "day": 0,
+          "time": "0000"
+        }
+      }
+    ],
+    "weekdayText": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: Closed",
+      "Friday: 6:23 PM – 12:00 AM",
+      "Saturday: 6:00 PM – 12:00 AM",
+      "Sunday: Closed"
+    ]
   },
   "contact": {
-    "phone": "414-212-8470"
+    "phone": "414-212-8470",
+    "website": "https://www.facebook.com/share/vAX2BhHnLr5MrshE/?mibextid=LQQJ4d",
+    "googleMapsUri": "https://maps.google.com/?cid=8963190018238609793&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "established": 2019,
   "tikiConfidence": 1,
@@ -40,24 +75,36 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:57.172Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:35:57.172Z"
+    },
+    "contact.website": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "established": {
       "sourceId": "tikirat",
       "observedAt": "2026-10-30T20:35:57.172Z"
     },
     "formattedAddress": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:57.172Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "hours": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikirat",
-      "observedAt": "2026-10-30T20:35:57.172Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
       "sourceId": "owner",
@@ -75,6 +122,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJWyR9fgAXBYgRgXlwI9WlY3w",
+      "url": "https://maps.google.com/?cid=8963190018238609793&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -106,5 +160,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z"
+  "lastSyncedAt": "2026-11-23T22:04:49.340Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

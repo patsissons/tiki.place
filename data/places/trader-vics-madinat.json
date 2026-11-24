@@ -1,37 +1,38 @@
 {
   "id": "trader-vics-madinat",
-  "name": "Trader Vic's Dubai Madinat",
+  "name": "Trader Vic's Madinat",
   "aliases": [
     "Trader Vic's",
     "Trader Vic's - at the Souk Madinat Jumeirah Shopping Center - Dubai",
-    "Trader Vic's Madinat"
+    "Trader Vic's Dubai Madinat"
   ],
   "location": {
     "lat": 25.1333812,
-    "lng": 55.18499199999999,
+    "lng": 55.184991999999994,
     "precision": "rooftop"
   },
   "address": {
     "locality": "Dubai",
-    "region": "دبي",
+    "region": "Dubai",
     "country": "AE"
   },
-  "formattedAddress": "Al Qasr Hotel, دبي, الإمارات العربية المتحدة",
+  "formattedAddress": "STORE NO.143, SOUK MADINAT JUMEIRAH, JUMEIRAH DISTRICT, Near Mina Salam Hotel - Al Safouh First - Al Sufouh - Dubai - United Arab Emirates",
   "timezone": "Asia/Dubai",
   "externalIds": {
     "google": "ChIJRcbZaklDXz4RnJp3TKvtrZc"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+971 4 368 6559",
-    "website": "http://tradervicsmadinat.com/"
+    "website": "http://tradervicsmadinat.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=10929653190676159132&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "established": 2004,
-  "tikiConfidence": 0.987,
+  "tikiConfidence": 0.988,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -39,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -55,16 +60,16 @@
       "observedAt": "2026-11-21T22:52:15.230Z"
     },
     "formattedAddress": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -78,6 +83,13 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1q_mi3YIU4oRxaQQ4iEbjvpK65TZBaYq_",
       "firstSeenAt": "2026-11-21T22:52:16.549Z",
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
+    },
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJRcbZaklDXz4RnJp3TKvtrZc",
+      "url": "https://maps.google.com/?cid=10929653190676159132&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
     },
     {
       "sourceId": "mytiki",
@@ -102,5 +114,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

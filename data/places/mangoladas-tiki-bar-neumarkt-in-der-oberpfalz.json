@@ -1,31 +1,38 @@
 {
   "id": "mangoladas-tiki-bar-neumarkt-in-der-oberpfalz",
-  "name": "Mangoladas Tiki Bar",
-  "aliases": [],
+  "name": "Tiki Bar",
+  "aliases": [
+    "Mangoladas Tiki Bar"
+  ],
   "location": {
-    "lat": 49.2792854,
-    "lng": 11.4563351,
+    "lat": 49.279259700000004,
+    "lng": 11.4563747,
     "precision": "rooftop"
   },
   "address": {
+    "street": "21 Hallertorstraße",
     "locality": "Neumarkt in der Oberpfalz",
-    "region": "BY",
+    "region": "Bayern",
+    "postalCode": "92318",
     "country": "DE"
   },
+  "formattedAddress": "Hallertorstraße 21, 92318 Neumarkt in der Oberpfalz, Germany",
   "timezone": "Europe/Berlin",
   "externalIds": {
-    "overture": "22173bad-7dfd-456d-90ff-c3e3f84073bd"
+    "overture": "22173bad-7dfd-456d-90ff-c3e3f84073bd",
+    "google": "ChIJ9VvoRvNvn0cRsjloivrg4Ho"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "0 91 81-90 40 179",
-    "website": "http://www.mangoladas.de/"
+    "website": "http://www.mangoladas.de/",
+    "googleMapsUri": "https://maps.google.com/?cid=8854324234078927282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.853,
+  "tikiConfidence": 0.86,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -34,8 +41,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -45,13 +56,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -59,6 +74,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJ9VvoRvNvn0cRsjloivrg4Ho",
+      "url": "https://maps.google.com/?cid=8854324234078927282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "mangoladas-tiki-bar",
@@ -75,5 +97,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

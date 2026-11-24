@@ -3,26 +3,31 @@
   "name": "Tiki Shack",
   "aliases": [],
   "location": {
-    "lat": -8.815898299999997,
-    "lng": 115.1535213,
+    "lat": -8.815898299999999,
+    "lng": 115.15352129999998,
     "precision": "rooftop"
   },
   "address": {
-    "locality": "Ungasan",
+    "street": "Jalan Pantai Balangan",
+    "locality": "Kabupaten Badung",
     "region": "Bali",
+    "postalCode": "80361",
     "country": "ID"
   },
+  "formattedAddress": "Jl. Pantai Balangan, Ungasan, Kec. Kuta Sel., Kabupaten Badung, Bali 80361, Indonesia",
   "timezone": "Asia/Makassar",
   "externalIds": {
     "google": "ChIJBecluKVF0i0Rsp_unQ4Y-8E"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-21T22:52:15.230Z"
+    "value": "closed",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
-  "contact": {},
-  "tikiConfidence": 0.956,
+  "contact": {
+    "googleMapsUri": "https://maps.google.com/?cid=13977792319532736434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+  },
+  "tikiConfidence": 0.958,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -31,16 +36,24 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "location": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "tikiatlas",
-      "observedAt": "2026-11-21T22:52:15.230Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -56,6 +69,13 @@
       "lastSeenAt": "2026-11-21T22:52:16.549Z"
     },
     {
+      "sourceId": "google",
+      "sourceRef": "ChIJBecluKVF0i0Rsp_unQ4Y-8E",
+      "url": "https://maps.google.com/?cid=13977792319532736434&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
+    {
       "sourceId": "tikiatlas",
       "sourceRef": "tiki-shack",
       "url": "https://tikiatlas.com/bar?slug=tiki-shack",
@@ -64,5 +84,6 @@
     }
   ],
   "firstSeenAt": "2026-11-21T22:52:15.230Z",
-  "lastSyncedAt": "2026-11-24T02:33:06.845Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

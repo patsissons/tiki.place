@@ -5,30 +5,34 @@
     "Tiki Hideaway - Leeds"
   ],
   "location": {
-    "lat": 53.7955322,
-    "lng": -1.5410726,
+    "lat": 53.795536,
+    "lng": -1.5411173,
     "precision": "rooftop"
   },
   "address": {
+    "street": "38 Call Lane",
     "locality": "Leeds",
-    "region": "ENG",
+    "region": "England",
+    "postalCode": "LS1 6DT",
     "country": "GB"
   },
+  "formattedAddress": "38 Call Ln, Leeds LS1 6DT, UK",
   "timezone": "Europe/London",
   "externalIds": {
     "overture": "6aed1423-d3e7-4e45-8e7a-6bd9027a811e",
     "google": "ChIJvZYmphlceUgRZ7O4KHeBmw4"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+44 113 242 3966",
-    "website": "http://www.tikihideaway.co.uk/"
+    "website": "http://www.tikihideaway.co.uk/",
+    "googleMapsUri": "https://maps.google.com/?cid=1052577286705427303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.853,
+  "tikiConfidence": 0.86,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -36,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -47,13 +55,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -61,6 +73,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJvZYmphlceUgRZ7O4KHeBmw4",
+      "url": "https://maps.google.com/?cid=1052577286705427303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "tiki-hideaway",
@@ -77,5 +96,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

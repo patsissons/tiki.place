@@ -1,21 +1,23 @@
 {
   "id": "tiki-beat-bar-and-club-regensburg",
-  "name": "Tiki Beat",
+  "name": "Tiki Beat Bar & Club",
   "aliases": [
-    "Tiki Beat Bar & Club",
+    "Tiki Beat",
     "Tikibeat"
   ],
   "location": {
-    "lat": 49.0198175,
-    "lng": 12.0891782,
+    "lat": 49.0198495,
+    "lng": 12.089070099999999,
     "precision": "rooftop"
   },
   "address": {
     "street": "4 Arnulfsplatz",
     "locality": "Regensburg",
+    "region": "Bayern",
     "postalCode": "93047",
     "country": "DE"
   },
+  "formattedAddress": "Arnulfspl. 4, 93047 Regensburg, Germany",
   "timezone": "Europe/Berlin",
   "externalIds": {
     "overture": "c8faa18c-f810-4bc7-892a-2ef3a9fd898e",
@@ -23,15 +25,16 @@
     "google": "ChIJeRMRV6nBn0cRBN-Nrmxii_g"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+49 941 93081758",
-    "website": "http://www.tikibeat.de/"
+    "website": "http://www.tikibeat.de/",
+    "googleMapsUri": "https://maps.google.com/?cid=17909516562093432580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.86,
+  "tikiConfidence": 0.867,
   "review": {
     "state": "approved",
     "by": "owner",
@@ -39,8 +42,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "osm",
@@ -50,13 +57,17 @@
       "sourceId": "owner",
       "observedAt": "2026-11-24T03:56:07.085Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "osm",
-      "observedAt": "2026-10-26T04:08:35.388Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -64,6 +75,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJeRMRV6nBn0cRBN-Nrmxii_g",
+      "url": "https://maps.google.com/?cid=17909516562093432580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "tiki-beat-bar-club",
@@ -94,5 +112,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }

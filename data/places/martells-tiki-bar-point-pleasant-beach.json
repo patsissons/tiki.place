@@ -3,30 +3,35 @@
   "name": "Martell's Tiki Bar",
   "aliases": [],
   "location": {
-    "lat": 40.0938187,
-    "lng": -74.0359268,
+    "lat": 40.093867599999996,
+    "lng": -74.0362784,
     "precision": "rooftop"
   },
   "address": {
+    "street": "308 Boardwalk",
     "locality": "Point Pleasant Beach",
-    "region": "NJ",
+    "region": "New Jersey",
+    "postalCode": "08742",
     "country": "US"
   },
+  "formattedAddress": "308 Boardwalk, Point Pleasant Beach, NJ 08742, USA",
   "timezone": "America/New_York",
   "externalIds": {
     "overture": "596118a1-4bd9-4706-87ed-0cf715447db8",
-    "osm": "way/580196086"
+    "osm": "way/580196086",
+    "google": "ChIJOad8fgSGwYkRhQ2y_L-YsBc"
   },
   "status": {
-    "value": "unverified",
-    "sourceId": "system",
-    "at": "2026-11-22T18:21:57.159Z"
+    "value": "open",
+    "sourceId": "google",
+    "at": "2026-11-23T22:04:49.340Z"
   },
   "contact": {
     "phone": "+1 732-892-0131",
-    "website": "https://martells.com/"
+    "website": "https://martells.com/",
+    "googleMapsUri": "https://maps.google.com/?cid=1707032209119120773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
   },
-  "tikiConfidence": 0.897,
+  "tikiConfidence": 0.902,
   "review": {
     "state": "rejected",
     "by": "owner",
@@ -35,8 +40,12 @@
   },
   "provenance": {
     "address": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
+    "contact.googleMapsUri": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "contact.phone": {
       "sourceId": "mytiki",
@@ -46,13 +55,17 @@
       "sourceId": "overture",
       "observedAt": "2026-10-26T04:19:34.568Z"
     },
+    "formattedAddress": {
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
+    },
     "location": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "name": {
-      "sourceId": "overture",
-      "observedAt": "2026-10-26T04:19:34.568Z"
+      "sourceId": "google",
+      "observedAt": "2026-11-23T22:04:49.340Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -60,6 +73,13 @@
     }
   },
   "sources": [
+    {
+      "sourceId": "google",
+      "sourceRef": "ChIJOad8fgSGwYkRhQ2y_L-YsBc",
+      "url": "https://maps.google.com/?cid=1707032209119120773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "firstSeenAt": "2026-11-23T22:04:49.340Z",
+      "lastSeenAt": "2026-11-23T22:04:49.340Z"
+    },
     {
       "sourceId": "mytiki",
       "sourceRef": "martells-tiki-bar",
@@ -83,5 +103,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-24T03:56:07.394Z"
+  "lastSyncedAt": "2026-11-24T04:03:30.095Z",
+  "lastVerifiedAt": "2026-11-23T22:04:49.340Z"
 }
