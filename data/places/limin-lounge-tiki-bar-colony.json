@@ -1,15 +1,15 @@
 {
   "id": "limin-lounge-tiki-bar-colony",
-  "name": "Truck Yard",
+  "name": "Limin Lounge Tiki Bar",
   "aliases": [
-    "Limin Lounge Tiki Bar",
     "Limin’ Lounge",
     "Limin' Lounge - in The Texas Truck Yard at The Colony",
+    "Truck Yard",
     "Truck Yard (Limin’ Lounge)"
   ],
   "location": {
-    "lat": 33.0694101,
-    "lng": -96.85766029999999,
+    "lat": 33.0699738,
+    "lng": -96.857692,
     "precision": "rooftop"
   },
   "address": {
@@ -19,7 +19,7 @@
     "postalCode": "75056",
     "country": "US"
   },
-  "formattedAddress": "5959 Grove Ln, The Colony, TX 75056, USA",
+  "formattedAddress": "5959 Grove Ln Ste B, The Colony, TX 75056, USA",
   "timezone": "America/Chicago",
   "externalIds": {
     "overture": "d6708989-44a8-4de1-b292-a49ecd7b5035",
@@ -37,7 +37,7 @@
       {
         "open": {
           "day": 0,
-          "time": "1100"
+          "time": "1200"
         },
         "close": {
           "day": 1,
@@ -46,38 +46,8 @@
       },
       {
         "open": {
-          "day": 1,
-          "time": "1600"
-        },
-        "close": {
-          "day": 2,
-          "time": "0000"
-        }
-      },
-      {
-        "open": {
-          "day": 2,
-          "time": "1600"
-        },
-        "close": {
-          "day": 3,
-          "time": "0000"
-        }
-      },
-      {
-        "open": {
-          "day": 3,
-          "time": "1600"
-        },
-        "close": {
           "day": 4,
-          "time": "0000"
-        }
-      },
-      {
-        "open": {
-          "day": 4,
-          "time": "1100"
+          "time": "1700"
         },
         "close": {
           "day": 5,
@@ -87,7 +57,7 @@
       {
         "open": {
           "day": 5,
-          "time": "1100"
+          "time": "1700"
         },
         "close": {
           "day": 6,
@@ -97,7 +67,7 @@
       {
         "open": {
           "day": 6,
-          "time": "1100"
+          "time": "1200"
         },
         "close": {
           "day": 0,
@@ -106,26 +76,26 @@
       }
     ],
     "weekdayText": [
-      "Monday: 4:00 PM – 12:00 AM",
-      "Tuesday: 4:00 PM – 12:00 AM",
-      "Wednesday: 4:00 PM – 12:00 AM",
-      "Thursday: 11:00 AM – 12:00 AM",
-      "Friday: 11:00 AM – 1:00 AM",
-      "Saturday: 11:00 AM – 1:00 AM",
-      "Sunday: 11:00 AM – 12:00 AM"
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 5:00 PM – 12:00 AM",
+      "Friday: 5:00 PM – 1:00 AM",
+      "Saturday: 12:00 PM – 1:00 AM",
+      "Sunday: 12:00 PM – 12:00 AM"
     ]
   },
   "contact": {
     "phone": "+1 877-517-4619",
     "website": "https://truckyard.com/the-colony/",
-    "googleMapsUri": "https://maps.google.com/?cid=16027115782952960230&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
+    "googleMapsUri": "https://maps.google.com/?cid=9733054153623255981&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA"
   },
   "rating": {
-    "value": 4.6,
-    "count": 4445,
-    "at": "2026-11-17T19:13:01.376Z"
+    "value": 4.3,
+    "count": 26,
+    "at": "2026-11-25T19:57:56.332Z"
   },
-  "priceLevel": "$$",
+  "priceLevel": "$",
   "established": 2017,
   "tikiConfidence": 0.999,
   "review": {
@@ -136,11 +106,11 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "contact.phone": {
       "sourceId": "google",
@@ -156,27 +126,27 @@
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "location": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-11-17T19:13:01.376Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -196,7 +166,7 @@
       "sourceRef": "ChIJBdHPFIMlTIYRrbtaTi_BEoc",
       "url": "https://maps.google.com/?cid=9733054153623255981&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-11-11T17:55:26.537Z"
+      "lastSeenAt": "2026-11-25T19:57:56.332Z"
     },
     {
       "sourceId": "mytiki",
@@ -235,6 +205,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:08:35.388Z",
-  "lastSyncedAt": "2026-11-22T18:21:57.159Z",
-  "lastVerifiedAt": "2026-11-17T19:13:01.376Z"
+  "lastSyncedAt": "2026-11-25T19:57:56.332Z",
+  "lastVerifiedAt": "2026-11-25T19:57:56.332Z"
 }

@@ -3,8 +3,8 @@
   "name": "Mohana",
   "aliases": [],
   "location": {
-    "lat": 42.9546523,
-    "lng": 12.700350499999999,
+    "lat": 42.95461530000001,
+    "lng": 12.7004095,
     "precision": "rooftop"
   },
   "address": {
@@ -106,7 +106,7 @@
   "rating": {
     "value": 4.6,
     "count": 21,
-    "at": "2026-11-11T17:55:26.537Z"
+    "at": "2026-11-25T19:57:56.332Z"
   },
   "priceLevel": "$$",
   "tikiConfidence": 0.763,
@@ -118,43 +118,43 @@
   "provenance": {
     "address": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "contact.googleMapsUri": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "contact.phone": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "contact.website": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "formattedAddress": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "hours": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "location": {
       "sourceId": "google",
-      "observedAt": "2026-10-26T04:35:53.528Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "name": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "priceLevel": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "rating": {
       "sourceId": "google",
-      "observedAt": "2026-11-11T17:55:26.537Z"
+      "observedAt": "2026-11-25T19:57:56.332Z"
     },
     "timezone": {
       "sourceId": "system",
@@ -167,7 +167,7 @@
       "sourceRef": "ChIJ2XqnNkGFLhMRkiwoUHRvlsk",
       "url": "https://maps.google.com/?cid=14525920193481813138&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
       "firstSeenAt": "2026-10-26T04:35:53.528Z",
-      "lastSeenAt": "2026-11-11T17:55:26.537Z"
+      "lastSeenAt": "2026-11-25T19:57:56.332Z"
     },
     {
       "sourceId": "overture",
@@ -178,6 +178,6 @@
     }
   ],
   "firstSeenAt": "2026-10-26T04:19:34.568Z",
-  "lastSyncedAt": "2026-11-21T18:27:26.443Z",
-  "lastVerifiedAt": "2026-11-11T17:55:26.537Z"
+  "lastSyncedAt": "2026-11-25T19:57:56.332Z",
+  "lastVerifiedAt": "2026-11-25T19:57:56.332Z"
 }
