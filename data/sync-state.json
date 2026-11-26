@@ -9,11 +9,11 @@
       "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-11-25T19:57:56.332Z",
-      "lastDiscoveryAt": "2026-11-25T19:57:56.332Z",
+      "lastRunAt": "2026-11-26T19:41:01.692Z",
+      "lastDiscoveryAt": "2026-11-26T19:41:01.692Z",
       "lastStatus": "ok",
       "observationCount": 316,
-      "requestCount": 2
+      "requestCount": 1
     },
     "overture": {
       "lastRunAt": "2026-11-01T13:44:39.158Z",
@@ -23,8 +23,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-25T19:57:56.332Z",
-      "lastDiscoveryAt": "2026-11-25T19:57:56.332Z",
+      "lastRunAt": "2026-11-26T19:41:01.692Z",
+      "lastDiscoveryAt": "2026-11-26T19:41:01.692Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -51,7 +51,7 @@
       "requestCount": 1
     },
     "mytiki": {
-      "lastRunAt": "2026-11-25T19:57:56.332Z",
+      "lastRunAt": "2026-11-26T19:41:01.692Z",
       "lastStatus": "error",
       "observationCount": 0,
       "requestCount": 0,
@@ -59,6 +59,22 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-26T19:41:01.692Z",
+      "durationMs": 34085,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 102,
+      "placesPublished": 696,
+      "needsReview": 138,
+      "googleCalls": 102,
+      "warnings": [
+        "mytiki: discovery failed: mytiki.life served a bot challenge; stopping requests to it"
+      ]
+    },
     {
       "at": "2026-11-25T19:57:56.332Z",
       "durationMs": 63560,
@@ -480,19 +496,6 @@
       ],
       "placesCreated": 0,
       "placesUpdated": 0,
-      "placesPublished": 567,
-      "needsReview": 581,
-      "googleCalls": 0,
-      "warnings": []
-    },
-    {
-      "at": "2026-10-30T20:39:09.190Z",
-      "durationMs": 436,
-      "sources": [
-        "tikiwanderlust"
-      ],
-      "placesCreated": 85,
-      "placesUpdated": 233,
       "placesPublished": 567,
       "needsReview": 581,
       "googleCalls": 0,
