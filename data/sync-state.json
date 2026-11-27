@@ -9,11 +9,11 @@
       "requestCount": 1
     },
     "tikirat": {
-      "lastRunAt": "2026-11-26T19:41:01.692Z",
-      "lastDiscoveryAt": "2026-11-26T19:41:01.692Z",
+      "lastRunAt": "2026-11-27T19:30:15.788Z",
+      "lastDiscoveryAt": "2026-11-27T19:30:15.788Z",
       "lastStatus": "ok",
       "observationCount": 316,
-      "requestCount": 1
+      "requestCount": 2
     },
     "overture": {
       "lastRunAt": "2026-11-01T13:44:39.158Z",
@@ -23,8 +23,8 @@
       "requestCount": 0
     },
     "user-submission": {
-      "lastRunAt": "2026-11-26T19:41:01.692Z",
-      "lastDiscoveryAt": "2026-11-26T19:41:01.692Z",
+      "lastRunAt": "2026-11-27T19:30:15.788Z",
+      "lastDiscoveryAt": "2026-11-27T19:30:15.788Z",
       "lastStatus": "ok",
       "observationCount": 0,
       "requestCount": 1
@@ -51,7 +51,7 @@
       "requestCount": 1
     },
     "mytiki": {
-      "lastRunAt": "2026-11-26T19:41:01.692Z",
+      "lastRunAt": "2026-11-27T19:30:15.788Z",
       "lastStatus": "error",
       "observationCount": 0,
       "requestCount": 0,
@@ -59,6 +59,22 @@
     }
   },
   "runs": [
+    {
+      "at": "2026-11-27T19:30:15.788Z",
+      "durationMs": 70340,
+      "sources": [
+        "tikirat",
+        "user-submission"
+      ],
+      "placesCreated": 0,
+      "placesUpdated": 119,
+      "placesPublished": 696,
+      "needsReview": 138,
+      "googleCalls": 119,
+      "warnings": [
+        "mytiki: discovery failed: mytiki.life served a bot challenge; stopping requests to it"
+      ]
+    },
     {
       "at": "2026-11-26T19:41:01.692Z",
       "durationMs": 34085,
@@ -480,19 +496,6 @@
       "durationMs": 646581,
       "sources": [
         "overture"
-      ],
-      "placesCreated": 0,
-      "placesUpdated": 0,
-      "placesPublished": 567,
-      "needsReview": 581,
-      "googleCalls": 0,
-      "warnings": []
-    },
-    {
-      "at": "2026-10-31T15:46:06.921Z",
-      "durationMs": 1090,
-      "sources": [
-        "user-submission"
       ],
       "placesCreated": 0,
       "placesUpdated": 0,
